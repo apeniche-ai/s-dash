@@ -96,10 +96,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-26T22:16:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 474.5,
+      "status": "success",
+      "summary": "The empty batch file reference isn't in MEMORY.md so no update needed there. Done.",
+      "details": null,
+      "cost_usd": 1.8646256000000003,
+      "total_tokens": 12037
     },
     {
       "agent": "soren-improvement-review",
