@@ -96,10 +96,10 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-26T15:37:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Checking open PRs on target-test-prep/ttp",
-      "details": null
+      "duration_seconds": 95.2,
+      "status": "success",
+      "summary": "Checked 3 open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. Found 3 open PRs. No new commits or comments since last check."
     },
     {
       "agent": "pr-reviewer",
