@@ -150,6 +150,7 @@
     // ── Agent Cards ─────────────────────────────────────
 
     function render_cards() {
+      if (!data) return;
       let el = document.getElementById('agent-cards');
       let agents = data.agents || {};
       let keys = Object.keys(agents).sort(function(a, b) {
@@ -243,6 +244,7 @@
     // ── Agent Filter Dropdown ───────────────────────────
 
     function render_agent_select() {
+      if (!data) return;
       let sel = document.getElementById('agent-filter');
       let agents = data.agents || {};
       let html = '<option value="all">All agents</option>';
@@ -256,6 +258,7 @@
     // ── Timeline ────────────────────────────────────────
 
     function render_timeline() {
+      if (!data) return;
       let el = document.getElementById('timeline');
       let empty = document.getElementById('empty-state');
       let runs = (data.runs || []).filter(function(r) {
@@ -376,6 +379,7 @@
     // ── Stats Bar ───────────────────────────────────────
 
     function render_stats() {
+      if (!data) return;
       let runs_24h = (data.runs || []).filter(function(r) { return (Date.now() - new Date(r.timestamp).getTime()) < 86400000; });
       let running = runs_24h.filter(function(r) { return r.status === 'running'; }).length;
       let errors = runs_24h.filter(function(r) { return r.status === 'error'; }).length;
