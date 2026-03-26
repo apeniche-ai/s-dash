@@ -217,6 +217,19 @@
       return Math.floor(sec / 60) + 'm ' + Math.round(sec % 60) + 's';
     }
 
+    function fmt_tokens(n) {
+      if (n == null || n === 0) return '';
+      if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+      if (n >= 1000) return (n / 1000).toFixed(1) + 'k';
+      return String(n);
+    }
+
+    function fmt_cost(usd) {
+      if (usd == null || usd === 0) return '';
+      if (usd < 0.01) return '<$0.01';
+      return '$' + usd.toFixed(2);
+    }
+
     function fmt_time(ts) {
       return new Date(ts).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
     }
@@ -449,8 +462,14 @@
         // Duration
         if (r.status === 'running') {
           html += '    <span class="text-[10px] dark:text-indigo-400/60 text-indigo-600 flex-shrink-0 tabular-nums">in progress</span>';
-        } else if (r.duration_seconds) {
-          html += '    <span class="text-[10px] dark:text-zinc-500 text-zinc-500 flex-shrink-0 tabular-nums">' + fmt_duration(r.duration_seconds) + '</span>';
+        } else {
+          var meta_parts = [];
+          if (r.total_tokens) meta_parts.push(fmt_tokens(r.total_tokens) + ' tok');
+          if (r.cost_usd) meta_parts.push(fmt_cost(r.cost_usd));
+          if (r.duration_seconds) meta_parts.push(fmt_duration(r.duration_seconds));
+          if (meta_parts.length > 0) {
+            html += '    <span class="text-[10px] dark:text-zinc-500 text-zinc-500 flex-shrink-0 tabular-nums">' + meta_parts.join(' · ') + '</span>';
+          }
         }
 
         // Chevron
@@ -472,8 +491,10 @@
           html += '            <span class="text-[11px] dark:text-red-300 text-red-600">' + r.errors.join(', ') + '</span>';
           html += '          </div>';
         }
-        html += '          <div class="mt-2 flex gap-4 text-[10px] dark:text-zinc-600 text-zinc-500">';
+        html += '          <div class="mt-2 flex flex-wrap gap-4 text-[10px] dark:text-zinc-600 text-zinc-500">';
         if (r.duration_seconds) html += '            <span>Duration: ' + fmt_duration(r.duration_seconds) + '</span>';
+        if (r.total_tokens) html += '            <span>Tokens: ' + fmt_tokens(r.total_tokens) + '</span>';
+        if (r.cost_usd) html += '            <span>Cost: ' + fmt_cost(r.cost_usd) + '</span>';
         html += '            <span>Agent: ' + r.agent + '</span>';
         html += '          </div>';
         html += '        </div>';
@@ -526,11 +547,16 @@
       var errors = runs_24h.filter(function(r) { return r.status === 'error'; }).length;
       var total = runs_24h.length;
 
+      var daily_cost = runs_24h.reduce(function(sum, r) { return sum + (r.cost_usd || 0); }, 0);
+      var daily_tokens = runs_24h.reduce(function(sum, r) { return sum + (r.total_tokens || 0); }, 0);
+
       var parts = [];
       if (running > 0) parts.push('<span class="text-indigo-400">' + running + ' running</span>');
       parts.push(total + ' runs');
       if (errors > 0) parts.push('<span class="text-red-400">' + errors + ' failed</span>');
       else parts.push('<span class="text-emerald-500">0 failed</span>');
+      if (daily_tokens > 0) parts.push(fmt_tokens(daily_tokens) + ' tok');
+      if (daily_cost > 0) parts.push(fmt_cost(daily_cost));
 
       document.getElementById('stats-bar').innerHTML = parts.join('<span class="dark:text-zinc-700 text-zinc-400 mx-1">&middot;</span>');
     }

@@ -117,6 +117,10 @@ def cmd_finish(args):
             run["details"] = args.details or None
             if args.errors:
                 run["errors"] = [e.strip() for e in args.errors.split("|") if e.strip()]
+            if args.cost is not None:
+                run["cost_usd"] = args.cost
+            if args.tokens is not None:
+                run["total_tokens"] = args.tokens
             found = True
             break
 
@@ -133,6 +137,10 @@ def cmd_finish(args):
         }
         if args.errors:
             entry["errors"] = [e.strip() for e in args.errors.split("|") if e.strip()]
+        if args.cost is not None:
+            entry["cost_usd"] = args.cost
+        if args.tokens is not None:
+            entry["total_tokens"] = args.tokens
         data["runs"].insert(0, entry)
 
     data["runs"] = data["runs"][:MAX_RUNS]
@@ -155,6 +163,10 @@ def cmd_add(args):
     }
     if args.errors:
         entry["errors"] = [e.strip() for e in args.errors.split("|") if e.strip()]
+    if args.cost is not None:
+        entry["cost_usd"] = args.cost
+    if args.tokens is not None:
+        entry["total_tokens"] = args.tokens
 
     data["runs"].insert(0, entry)
     data["runs"] = data["runs"][:MAX_RUNS]
@@ -179,6 +191,8 @@ def main():
     p_finish.add_argument("--summary", default=None)
     p_finish.add_argument("--details", default=None)
     p_finish.add_argument("--errors", default=None, help="Pipe-separated error messages")
+    p_finish.add_argument("--cost", default=None, type=float, help="Cost in USD")
+    p_finish.add_argument("--tokens", default=None, type=int, help="Total tokens used")
 
     # add (direct, no running state)
     p_add = sub.add_parser("add", help="Add a completed run directly")
@@ -188,6 +202,8 @@ def main():
     p_add.add_argument("--summary", default=None)
     p_add.add_argument("--details", default=None)
     p_add.add_argument("--errors", default=None)
+    p_add.add_argument("--cost", default=None, type=float)
+    p_add.add_argument("--tokens", default=None, type=int)
 
     args = parser.parse_args()
 
