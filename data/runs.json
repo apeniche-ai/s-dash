@@ -1,0 +1,298 @@
+{
+  "agents": {
+    "pr-reviewer": {
+      "id": "01KMC90RKRQ61C8ETBMA76NBXD",
+      "name": "PR Reviewer",
+      "status": "enabled",
+      "schedule": "0 * * * *",
+      "description": "Reviews open PRs on target-test-prep/ttp every hour"
+    },
+    "browser-qa": {
+      "id": "01KMC90RKVTJRZ9W9XXHSZCKE7",
+      "name": "Browser QA Smoke Test",
+      "status": "disabled",
+      "schedule": "0 7 * * 1-5",
+      "description": "Runs browser smoke tests on weekday mornings"
+    },
+    "morning-briefing": {
+      "id": "01KKY9AQYSHETPWESA6JF6GQJQ",
+      "name": "Morning Briefing",
+      "status": "disabled",
+      "schedule": "0 7 * * 1-5",
+      "description": "Sends daily morning briefing via Telegram"
+    },
+    "overnight-dev": {
+      "id": "01KMC90RKPV9P0GK4RZ8FH5QFW",
+      "name": "Overnight Feature Implementation",
+      "status": "disabled",
+      "schedule": "0 2 * * *",
+      "description": "Implements features overnight while you sleep"
+    },
+    "self-improvement": {
+      "id": "01KMC90RKMZ3XMSSWRB2294PGE",
+      "name": "Daily Self-Improvement Review",
+      "status": "disabled",
+      "schedule": "0 21 * * *",
+      "description": "Reviews and improves Soren's own performance"
+    },
+    "performance-coach": {
+      "id": "01KMC90RKJK96A68GDZP9HZCQH",
+      "name": "Daily Performance Check-in",
+      "status": "disabled",
+      "schedule": "30 6 * * 1-5",
+      "description": "Morning performance coaching check-in"
+    },
+    "slack-sync": {
+      "id": "01KMC90RKBE7X1EJGCC4VVDNFB",
+      "name": "Slack Sync",
+      "status": "disabled",
+      "schedule": "0 * * * *",
+      "description": "Syncs and monitors Slack channels"
+    },
+    "stale-pr-detector": {
+      "id": "01KKY9AR0DBX5DBXR7429BSRF7",
+      "name": "Stale PR Detector",
+      "status": "disabled",
+      "schedule": "0 10 * * 1-5",
+      "description": "Detects and flags stale PRs on weekday mornings"
+    },
+    "passive-income": {
+      "id": "01KMC90RKQP7ZNQY6BCWHAW0QA",
+      "name": "Passive Income Opportunity Scan",
+      "status": "disabled",
+      "schedule": "0 12 * * 6",
+      "description": "Scans for passive income opportunities weekly"
+    },
+    "goal-tracker": {
+      "id": "01KKY9AR0ABNXSVYH3BMQ2TF06",
+      "name": "Weekly Goal Review",
+      "status": "disabled",
+      "schedule": "0 9 * * 1",
+      "description": "Reviews and updates weekly goals"
+    },
+    "end-of-day-report": {
+      "id": "01KKY9AQZ70BVAHXQTDA8AJD8Z",
+      "name": "End of Day Report",
+      "status": "disabled",
+      "schedule": "0 18 * * 1-5",
+      "description": "Sends end-of-day summary report"
+    },
+    "pr-monitor": {
+      "id": "01KKY9AQZ5JCRMWRKK2EB2NB7C",
+      "name": "PR Monitor",
+      "status": "disabled",
+      "schedule": "*/15 * * * *",
+      "description": "Monitors PRs every 15 minutes"
+    },
+    "slack-digest": {
+      "id": "01KKY9AQZ2B83B2BXG70D3SS4G",
+      "name": "Slack Digest",
+      "status": "disabled",
+      "schedule": "*/30 * * * *",
+      "description": "Generates Slack digest every 30 minutes"
+    }
+  },
+  "runs": [
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T10:00:00Z",
+      "duration_seconds": 101.9,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T09:00:00Z",
+      "duration_seconds": 243.8,
+      "status": "success",
+      "summary": "Reviewed 1 PR with new commits",
+      "details": "Scanned target-test-prep/ttp for open PRs. Found updated activity on PR #4371. Reviewed changes — no issues found."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T08:00:00Z",
+      "duration_seconds": 84.9,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T07:00:00Z",
+      "duration_seconds": 95.1,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T06:00:00Z",
+      "duration_seconds": 96.3,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T05:00:00Z",
+      "duration_seconds": 90.8,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T04:00:00Z",
+      "duration_seconds": 80.8,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T03:00:00Z",
+      "duration_seconds": 90.8,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T02:00:00Z",
+      "duration_seconds": 97.5,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T01:00:00Z",
+      "duration_seconds": 96.4,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T00:00:00Z",
+      "duration_seconds": 90.3,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T23:00:00Z",
+      "duration_seconds": 78.0,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T22:00:00Z",
+      "duration_seconds": 80.9,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T21:00:00Z",
+      "duration_seconds": 88.2,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T20:00:00Z",
+      "duration_seconds": 87.8,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T19:00:00Z",
+      "duration_seconds": 90.2,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T18:00:00Z",
+      "duration_seconds": 99.1,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T17:00:00Z",
+      "duration_seconds": 72.7,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T16:00:00Z",
+      "duration_seconds": 90.7,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T15:00:00Z",
+      "duration_seconds": 514.3,
+      "status": "success",
+      "summary": "Deep review of PR #4371 — left 3 comments",
+      "details": "Scanned target-test-prep/ttp for open PRs. Found PR #4371 (bug/ttp-5997-chapter-titles-appear-truncated). Performed deep code review. Left 3 inline comments regarding CSS overflow handling and text truncation logic. Suggested using text-overflow: ellipsis with max-width constraint."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T14:00:00Z",
+      "duration_seconds": 93.5,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T13:00:00Z",
+      "duration_seconds": 123.5,
+      "status": "success",
+      "summary": "Checked open PRs — no new activity",
+      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T12:00:17Z",
+      "duration_seconds": 76.5,
+      "status": "error",
+      "summary": "Failed — claude exited with code 1",
+      "details": "Attempted to scan target-test-prep/ttp for open PRs. Claude process crashed with exit code 1 after 76.5 seconds. Likely a transient API timeout or rate limit. No PRs were reviewed this run.",
+      "errors": ["claude exited with code 1"]
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T11:00:00Z",
+      "duration_seconds": 410.0,
+      "status": "success",
+      "summary": "Reviewed PR #4371 and PR #4359 — approved both",
+      "details": "Scanned target-test-prep/ttp for open PRs. Found 2 PRs with new activity. PR #4371 (bug/ttp-5997-chapter-titles): reviewed CSS changes, approved. PR #4359 (feature/ttp-5982-gre-visual-tiles): reviewed migration and tile component changes, approved."
+    },
+    {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-25T10:00:00Z",
+      "duration_seconds": 284.3,
+      "status": "success",
+      "summary": "Reviewed PR #4353 — left 2 comments on deprecation handling",
+      "details": "Scanned target-test-prep/ttp for open PRs. Found PR #4353 (bug/ttp-5462-deprecated-errors-field). Reviewed Rails 7 migration for errors field syntax. Left 2 comments about backward compatibility with existing error message consumers."
+    }
+  ]
+}

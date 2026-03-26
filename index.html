@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soren Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            dark: {
+              50: '#f8fafc',
+              100: '#f1f5f9',
+              200: '#e2e8f0',
+              300: '#cbd5e1',
+              400: '#94a3b8',
+              500: '#64748b',
+              600: '#475569',
+              700: '#334155',
+              800: '#1e293b',
+              900: '#0f172a',
+              950: '#020617'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .fade-in { animation: fadeIn 0.3s ease-in; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+    .pulse-dot { animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    .details-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out, padding 0.3s ease-out; }
+    .details-content.open { max-height: 500px; padding-top: 12px; }
+    .chevron { transition: transform 0.2s ease; }
+    .chevron.open { transform: rotate(90deg); }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #1e293b; }
+    ::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+  </style>
+</head>
+<body class="dark bg-dark-950 text-dark-200 min-h-screen">
+  <div id="app" class="max-w-6xl mx-auto px-4 py-6">
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-8">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+          </svg>
+        </div>
+        <h1 class="text-xl font-semibold text-white">Soren Dashboard</h1>
+      </div>
+      <div class="flex items-center gap-4">
+        <div id="last-refresh" class="text-xs text-dark-500"></div>
+        <div id="auto-refresh-indicator" class="flex items-center gap-1.5 text-xs text-dark-500">
+          <div class="w-1.5 h-1.5 rounded-full bg-emerald-500 pulse-dot"></div>
+          Live
+        </div>
+      </div>
+    </div>
+
+    <!-- Agent Cards -->
+    <div id="agent-cards" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 mb-8"></div>
+
+    <!-- Filters -->
+    <div class="flex items-center gap-3 mb-4">
+      <button id="filter-all" class="filter-btn active px-3 py-1.5 text-xs font-medium rounded-lg bg-dark-800 text-dark-300 hover:bg-dark-700 transition-colors" data-filter="all">All</button>
+      <button id="filter-success" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-lg bg-dark-800 text-dark-300 hover:bg-dark-700 transition-colors" data-filter="success">Success</button>
+      <button id="filter-error" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-lg bg-dark-800 text-dark-300 hover:bg-dark-700 transition-colors" data-filter="error">Errors</button>
+      <div class="flex-1"></div>
+      <select id="agent-filter" class="bg-dark-800 text-dark-300 text-xs rounded-lg px-3 py-1.5 border border-dark-700 focus:outline-none focus:border-indigo-500">
+        <option value="all">All agents</option>
+      </select>
+    </div>
+
+    <!-- Activity Timeline -->
+    <div id="timeline" class="space-y-2"></div>
+
+    <!-- Empty State -->
+    <div id="empty-state" class="hidden text-center py-16">
+      <div class="text-dark-600 text-sm">No runs match your filters</div>
+    </div>
+  </div>
+
+  <script>
+    let data = null;
+    let active_status_filter = 'all';
+    let active_agent_filter = 'all';
+
+    function time_ago(date_str) {
+      let seconds = Math.floor((new Date() - new Date(date_str)) / 1000);
+      if (seconds < 60) return 'just now';
+      let minutes = Math.floor(seconds / 60);
+      if (minutes < 60) return minutes + 'm ago';
+      let hours = Math.floor(minutes / 60);
+      if (hours < 24) return hours + 'h ago';
+      let days = Math.floor(hours / 24);
+      return days + 'd ago';
+    }
+
+    function format_time(date_str) {
+      let d = new Date(date_str);
+      return d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true });
+    }
+
+    function format_duration(seconds) {
+      if (seconds < 60) return Math.round(seconds) + 's';
+      let m = Math.floor(seconds / 60);
+      let s = Math.round(seconds % 60);
+      return m + 'm ' + s + 's';
+    }
+
+    function status_color(status) {
+      if (status === 'success') return { dot: 'bg-emerald-500', bg: 'bg-emerald-500/10', text: 'text-emerald-400', border: 'border-emerald-500/20' };
+      if (status === 'error') return { dot: 'bg-red-500', bg: 'bg-red-500/10', text: 'text-red-400', border: 'border-red-500/20' };
+      return { dot: 'bg-dark-500', bg: 'bg-dark-500/10', text: 'text-dark-400', border: 'border-dark-500/20' };
+    }
+
+    function agent_status_info(agent_key, agent) {
+      if (agent.status === 'disabled') {
+        return { color: 'bg-dark-600', label: 'Disabled', label_color: 'text-dark-500' };
+      }
+      let agent_runs = (data.runs || []).filter(function(r) { return r.agent === agent_key; });
+      let recent = agent_runs.filter(function(r) {
+        return (new Date() - new Date(r.timestamp)) < 24 * 60 * 60 * 1000;
+      });
+      let errors = recent.filter(function(r) { return r.status === 'error'; });
+      if (errors.length > 0 && errors.length / recent.length > 0.2) {
+        return { color: 'bg-red-500', label: 'Degraded', label_color: 'text-red-400' };
+      }
+      let success_rate = recent.length > 0 ? Math.round((recent.length - errors.length) / recent.length * 100) : 100;
+      return { color: 'bg-emerald-500', label: success_rate + '% (24h)', label_color: 'text-emerald-400' };
+    }
+
+    function render_agent_cards() {
+      let container = document.getElementById('agent-cards');
+      let html = '';
+      let agents = data.agents || {};
+      let agent_keys = Object.keys(agents);
+
+      // Sort: enabled first, then alphabetical
+      agent_keys.sort(function(a, b) {
+        let a_enabled = agents[a].status === 'enabled' ? 0 : 1;
+        let b_enabled = agents[b].status === 'enabled' ? 0 : 1;
+        if (a_enabled !== b_enabled) return a_enabled - b_enabled;
+        return agents[a].name.localeCompare(agents[b].name);
+      });
+
+      for (let i = 0; i < agent_keys.length; i++) {
+        let key = agent_keys[i];
+        let agent = agents[key];
+        let info = agent_status_info(key, agent);
+        let agent_runs = (data.runs || []).filter(function(r) { return r.agent === key; });
+        let last_run = agent_runs.length > 0 ? agent_runs[0] : null;
+        let is_disabled = agent.status === 'disabled';
+
+        html += '<div class="bg-dark-900 border border-dark-800 rounded-xl p-4 ' + (is_disabled ? 'opacity-50' : '') + ' hover:border-dark-700 transition-colors cursor-pointer" onclick="filter_by_agent(\'' + key + '\')">';
+        html += '  <div class="flex items-center gap-2 mb-2">';
+        html += '    <div class="w-2 h-2 rounded-full ' + info.color + (is_disabled ? '' : ' pulse-dot') + '"></div>';
+        html += '    <div class="text-xs font-medium text-white truncate">' + agent.name + '</div>';
+        html += '  </div>';
+        html += '  <div class="text-[10px] ' + info.label_color + ' mb-1">' + info.label + '</div>';
+        if (last_run) {
+          html += '  <div class="text-[10px] text-dark-500">Last: ' + time_ago(last_run.timestamp) + '</div>';
+        } else {
+          html += '  <div class="text-[10px] text-dark-600">No runs</div>';
+        }
+        html += '</div>';
+      }
+      container.innerHTML = html;
+    }
+
+    function render_agent_filter() {
+      let select = document.getElementById('agent-filter');
+      let agents = data.agents || {};
+      let html = '<option value="all">All agents</option>';
+      let keys = Object.keys(agents).sort(function(a, b) { return agents[a].name.localeCompare(agents[b].name); });
+      for (let i = 0; i < keys.length; i++) {
+        let selected = active_agent_filter === keys[i] ? ' selected' : '';
+        html += '<option value="' + keys[i] + '"' + selected + '>' + agents[keys[i]].name + '</option>';
+      }
+      select.innerHTML = html;
+    }
+
+    function render_timeline() {
+      let container = document.getElementById('timeline');
+      let empty = document.getElementById('empty-state');
+      let runs = data.runs || [];
+
+      // Apply filters
+      let filtered = runs.filter(function(r) {
+        if (active_status_filter !== 'all' && r.status !== active_status_filter) return false;
+        if (active_agent_filter !== 'all' && r.agent !== active_agent_filter) return false;
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = '';
+        empty.classList.remove('hidden');
+        return;
+      }
+      empty.classList.add('hidden');
+
+      let html = '';
+      let current_date = '';
+
+      for (let i = 0; i < filtered.length; i++) {
+        let run = filtered[i];
+        let d = new Date(run.timestamp);
+        let date_label = d.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
+        let sc = status_color(run.status);
+        let agent_name = (data.agents[run.agent] || {}).name || run.agent;
+
+        // Date separator
+        if (date_label !== current_date) {
+          current_date = date_label;
+          html += '<div class="text-xs font-medium text-dark-500 pt-4 pb-1 ' + (i > 0 ? 'border-t border-dark-800 mt-2' : '') + '">' + date_label + '</div>';
+        }
+
+        html += '<div class="fade-in bg-dark-900 border border-dark-800 rounded-lg hover:border-dark-700 transition-colors">';
+        html += '  <div class="flex items-center gap-3 px-4 py-3 cursor-pointer" onclick="toggle_details(this)">';
+        // Status dot
+        html += '    <div class="w-2 h-2 rounded-full ' + sc.dot + ' flex-shrink-0"></div>';
+        // Time
+        html += '    <div class="text-xs text-dark-500 w-20 flex-shrink-0">' + d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true }) + '</div>';
+        // Agent badge
+        html += '    <div class="px-2 py-0.5 text-[10px] font-medium rounded-md ' + sc.bg + ' ' + sc.text + ' border ' + sc.border + ' flex-shrink-0">' + agent_name + '</div>';
+        // Summary
+        html += '    <div class="text-sm text-dark-300 flex-1 truncate">' + (run.summary || 'No summary') + '</div>';
+        // Duration
+        html += '    <div class="text-xs text-dark-600 flex-shrink-0">' + format_duration(run.duration_seconds) + '</div>';
+        // Chevron
+        html += '    <svg class="chevron w-4 h-4 text-dark-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>';
+        html += '  </div>';
+        // Details (collapsed by default)
+        html += '  <div class="details-content px-4 pb-3">';
+        html += '    <div class="border-t border-dark-800 pt-3">';
+        html += '      <div class="text-xs text-dark-400 leading-relaxed whitespace-pre-wrap">' + (run.details || 'No details available.') + '</div>';
+        if (run.errors && run.errors.length > 0) {
+          html += '      <div class="mt-2 px-3 py-2 bg-red-500/10 border border-red-500/20 rounded-md">';
+          html += '        <div class="text-xs font-medium text-red-400 mb-1">Errors</div>';
+          for (let j = 0; j < run.errors.length; j++) {
+            html += '        <div class="text-xs text-red-300">' + run.errors[j] + '</div>';
+          }
+          html += '      </div>';
+        }
+        html += '      <div class="flex items-center gap-4 mt-3 text-[10px] text-dark-600">';
+        html += '        <span>Duration: ' + format_duration(run.duration_seconds) + '</span>';
+        html += '        <span>Time: ' + format_time(run.timestamp) + '</span>';
+        html += '        <span>Agent: ' + run.agent + '</span>';
+        html += '      </div>';
+        html += '    </div>';
+        html += '  </div>';
+        html += '</div>';
+      }
+      container.innerHTML = html;
+    }
+
+    function toggle_details(el) {
+      let details = el.nextElementSibling;
+      let chevron = el.querySelector('.chevron');
+      details.classList.toggle('open');
+      chevron.classList.toggle('open');
+    }
+
+    function filter_by_agent(agent_key) {
+      active_agent_filter = active_agent_filter === agent_key ? 'all' : agent_key;
+      document.getElementById('agent-filter').value = active_agent_filter;
+      render_timeline();
+    }
+
+    function set_status_filter(filter) {
+      active_status_filter = filter;
+      document.querySelectorAll('.filter-btn').forEach(function(btn) {
+        btn.classList.remove('bg-indigo-600', 'text-white');
+        btn.classList.add('bg-dark-800', 'text-dark-300');
+      });
+      let active_btn = document.querySelector('[data-filter="' + filter + '"]');
+      if (active_btn) {
+        active_btn.classList.remove('bg-dark-800', 'text-dark-300');
+        active_btn.classList.add('bg-indigo-600', 'text-white');
+      }
+      render_timeline();
+    }
+
+    async function load_data() {
+      try {
+        let response = await fetch('data/runs.json?t=' + Date.now());
+        data = await response.json();
+        render_agent_cards();
+        render_agent_filter();
+        render_timeline();
+        document.getElementById('last-refresh').textContent = 'Updated ' + new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', second: '2-digit', hour12: true });
+      } catch (e) {
+        console.error('Failed to load data:', e);
+      }
+    }
+
+    // Event listeners
+    document.querySelectorAll('.filter-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        set_status_filter(this.dataset.filter);
+      });
+    });
+    document.getElementById('agent-filter').addEventListener('change', function() {
+      active_agent_filter = this.value;
+      render_timeline();
+    });
+
+    // Initial load
+    load_data();
+
+    // Auto-refresh every 60 seconds
+    setInterval(load_data, 60000);
+  </script>
+</body>
+</html>

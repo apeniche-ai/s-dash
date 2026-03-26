@@ -1,0 +1,10 @@
+{
+  "name": "soren-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Soren Agent Monitoring Dashboard",
+  "scripts": {
+    "build": "npx staticrypt index.html -d dist --short -r false",
+    "dev": "npx serve ."
+  }
+}
