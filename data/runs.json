@@ -30,14 +30,14 @@
     },
     "soren-improvement-implementation": {
       "id": "01KMC90RKPV9P0GK4RZ8FH5QFW",
-      "name": "Soren Improvement Implementation",
+      "name": "Improvement Implementation",
       "status": "enabled",
       "schedule": "0 2 * * *",
       "description": "Implements improvements overnight"
     },
     "soren-improvement-review": {
       "id": "01KMC90RKMZ3XMSSWRB2294PGE",
-      "name": "Soren Improvement Review",
+      "name": "Improvement Review",
       "status": "enabled",
       "schedule": "0 17 * * *",
       "description": "Reviews and improves Soren performance"
