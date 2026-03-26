@@ -96,10 +96,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-26T20:00:05Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 310.3,
+      "status": "success",
+      "summary": "Done. Here's the summary:",
+      "details": null,
+      "cost_usd": 1.0889762500000002,
+      "total_tokens": 8165
     },
     {
       "agent": "pr-reviewer",
