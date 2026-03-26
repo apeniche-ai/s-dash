@@ -374,28 +374,7 @@
       html += '</div>';
       el.innerHTML = html;
 
-      // Disabled agents — compact row with mini icons
-      if (disabled.length > 0) {
-        var dhtml = '<div class="flex items-center gap-2 mb-2">';
-        dhtml += '  <span class="text-[11px] dark:text-zinc-600 text-zinc-500 font-medium uppercase tracking-wider">Inactive</span>';
-        dhtml += '  <div class="flex-1 h-px dark:bg-zinc-800/50 bg-zinc-200"></div>';
-        dhtml += '</div>';
-        dhtml += '<div class="flex flex-wrap gap-2">';
-        for (var di = 0; di < disabled.length; di++) {
-          var dk = disabled[di];
-          var da = agents[dk];
-          var dai = get_agent_icon(dk);
-          var d_selected = agent_filter === dk ? ' ring-2 ring-indigo-500/50' : '';
-          dhtml += '<span class="inline-flex items-center gap-2 px-3 py-1.5 dark:bg-zinc-900/50 bg-zinc-50 dark:border-zinc-800 border-zinc-200 border rounded-lg text-[11px] dark:text-zinc-500 text-zinc-600 cursor-pointer dark:hover:text-zinc-300 hover:text-zinc-900 transition-colors shadow-sm' + d_selected + '" onclick="filter_by_agent(\'' + dk + '\')">';
-          dhtml += '  <div class="w-5 h-5 rounded-md bg-gradient-to-br ' + dai.color + ' flex items-center justify-center text-white opacity-40"><svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/></svg></div>';
-          dhtml += '  ' + da.name;
-          dhtml += '</span>';
-        }
-        dhtml += '</div>';
-        dis_el.innerHTML = dhtml;
-      } else {
-        dis_el.innerHTML = '';
-      }
+      dis_el.innerHTML = '';
     }
 
     // ── Agent Filter Dropdown ───────────────────────────
@@ -405,7 +384,7 @@
       var sel = document.getElementById('agent-filter');
       var agents = data.agents || {};
       var html = '<option value="all">All agents</option>';
-      var keys = Object.keys(agents).sort(function(a, b) { return agents[a].name.localeCompare(agents[b].name); });
+      var keys = Object.keys(agents).filter(function(k) { return agents[k].status === 'enabled'; }).sort(function(a, b) { return agents[a].name.localeCompare(agents[b].name); });
       for (var i = 0; i < keys.length; i++) {
         html += '<option value="' + keys[i] + '"' + (agent_filter === keys[i] ? ' selected' : '') + '>' + agents[keys[i]].name + '</option>';
       }
