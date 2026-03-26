@@ -94,6 +94,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T22:16:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-03-26T22:11:05Z",
       "duration_seconds": 660.9,
@@ -103,14 +111,6 @@
       "errors": [
         "claude exited with code null: ============================================================\nBun v1.3.11 (759ce802) macOS x64\nmacOS v13.7.8\nCPU: sse42 popcnt avx avx2\nArgs: \"/Users/giulia/.local/bin/claude\" \"-p\" \"--dangerously-skip-permissions\" \"--mcp-config\" \"/Users/giulia/.soren/tmp/daemon-mcp-config.json\" \"--output-format\" \"json\" \"--append-system-prompt\" \"You are Soren's Improvement Revie\"...\nFeatures: Bun.stderr(2) Bun.stdin(2) Bun.stdout(2) abort_signal(67) fetch(131) jsc spawn(82) standalone_executable yaml_parse(25) \nBu"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-26T22:00:44Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
     },
     {
       "agent": "pr-reviewer",
