@@ -250,6 +250,47 @@
       return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
     }
 
+    function fmt_cron(expr) {
+      var p = expr.split(/\s+/);
+      if (p.length !== 5) return expr;
+      var min = p[0], hr = p[1], dom = p[2], mon = p[3], dow = p[4];
+
+      function pad(n) { return n < 10 ? '0' + n : '' + n; }
+      function time12(h, m) {
+        var hi = parseInt(h, 10);
+        var mi = parseInt(m, 10);
+        var ampm = hi >= 12 ? 'PM' : 'AM';
+        var h12 = hi % 12 || 12;
+        return h12 + ':' + pad(mi) + ' ' + ampm;
+      }
+
+      var day_names = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+      var days_label = dow === '*' ? '' : dow === '1-5' ? 'Weekdays' : dow === '0,6' || dow === '6,0' ? 'Weekends' : /^\d$/.test(dow) ? day_names[parseInt(dow, 10)] + 's' : 'Days ' + dow;
+
+      // Every N minutes: */N * * * *
+      if (min.indexOf('/') !== -1 && hr === '*') {
+        var interval = min.split('/')[1];
+        return 'Every ' + interval + ' min' + (days_label ? ' · ' + days_label : '');
+      }
+
+      // Every hour: 0 * * * * or M * * * *
+      if (hr === '*' && min.indexOf('/') === -1) {
+        var at = min === '0' ? 'on the hour' : 'at :' + pad(parseInt(min, 10));
+        return 'Every hour ' + at + (days_label ? ' · ' + days_label : '');
+      }
+
+      // Specific time
+      if (hr !== '*' && min.indexOf('/') === -1 && hr.indexOf('/') === -1) {
+        var t = time12(hr, min);
+        if (!days_label) {
+          return dom === '*' && mon === '*' ? 'Daily at ' + t : expr;
+        }
+        return days_label + ' at ' + t;
+      }
+
+      return expr;
+    }
+
     function status_theme(s) {
       return {
         running: { dot: 'bg-indigo-500', text: 'dark:text-indigo-300 text-indigo-700', bg: 'dark:bg-indigo-500/15 bg-indigo-50', border: 'dark:border-indigo-500/25 border-indigo-200', icon: '<div class="spinner w-3.5 h-3.5 text-indigo-500"></div>' },
@@ -349,7 +390,7 @@
 
         html += '      <div>';
         html += '        <div class="text-[13px] font-semibold dark:text-white text-zinc-800">' + a.name + '</div>';
-        html += '        <div class="text-[11px] dark:text-zinc-500 text-zinc-500 mt-0.5">' + a.schedule + '</div>';
+        html += '        <div class="text-[11px] dark:text-zinc-500 text-zinc-500 mt-0.5">' + fmt_cron(a.schedule) + '</div>';
         html += '      </div>';
         html += '    </div>';
 
