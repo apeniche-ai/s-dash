@@ -405,6 +405,7 @@
         render_timeline();
         render_stats();
         document.getElementById('refresh-time').textContent = 'Updated ' + new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
+        if (typeof schedule_poll === 'function') schedule_poll();
       } catch (e) {
         console.error('Load failed:', e);
         document.getElementById('refresh-time').textContent = 'Update failed';
@@ -422,9 +423,16 @@
       render_cards();
     });
 
+    var poll_timer = null;
+    function schedule_poll() {
+      if (poll_timer) clearInterval(poll_timer);
+      var has_running = data && data.runs && data.runs.some(function(r) { return r.status === 'running'; });
+      var interval = has_running ? 15000 : 60000;
+      poll_timer = setInterval(load, interval);
+    }
+
     set_filter('all');
     load();
-    setInterval(load, 60000);
   </script>
 </body>
 </html>
