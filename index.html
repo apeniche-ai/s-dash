@@ -8,88 +8,103 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
+      darkMode: 'class',
       theme: {
         extend: {
-          fontFamily: { sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'] },
-          colors: {
-            surface: { 0: '#09090b', 1: '#111113', 2: '#18181b', 3: '#1f1f23', 4: '#27272a' },
-            subtle: { 1: '#3f3f46', 2: '#52525b', 3: '#71717a', 4: '#a1a1aa', 5: '#d4d4d8' }
-          }
+          fontFamily: { sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'] }
         }
       }
     }
   </script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; }
     body { font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
 
-    /* Spinner for running state */
     @keyframes spin { to { transform: rotate(360deg); } }
-    .spinner { width: 14px; height: 14px; border: 2px solid rgba(99,102,241,0.2); border-top-color: #6366f1; border-radius: 50%; animation: spin 0.8s linear infinite; }
+    .spinner { border: 2px solid currentColor; border-top-color: transparent; border-radius: 50%; animation: spin 0.8s linear infinite; opacity: 0.6; }
 
-    /* Pulse for live dot */
     @keyframes pulse-live { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
     .live-dot { animation: pulse-live 2s ease-in-out infinite; }
 
-    /* Smooth expand */
+    @keyframes pulse-ring { 0% { transform: scale(0.8); opacity: 0.8; } 100% { transform: scale(2.2); opacity: 0; } }
+    .pulse-ring { animation: pulse-ring 1.5s ease-out infinite; }
+
     .expandable { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.25s ease; }
     .expandable.open { grid-template-rows: 1fr; }
     .expandable > div { overflow: hidden; }
 
-    /* Sparkline dots */
-    .spark-dot { width: 4px; height: 4px; border-radius: 50%; flex-shrink: 0; }
+    .spark-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
 
-    /* Row hover */
     .run-row { transition: background-color 0.15s ease; }
-    .run-row:hover { background-color: rgba(255,255,255,0.02); }
+    .dark .run-row:hover { background-color: rgba(255,255,255,0.03); }
+    .run-row:hover { background-color: rgba(0,0,0,0.02); }
 
-    /* Scrollbar */
-    ::-webkit-scrollbar { width: 5px; }
-    ::-webkit-scrollbar-track { background: transparent; }
-    ::-webkit-scrollbar-thumb { background: #27272a; border-radius: 3px; }
+    .dark ::-webkit-scrollbar { width: 5px; }
+    .dark ::-webkit-scrollbar-track { background: transparent; }
+    .dark ::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
 
-    /* Selection */
     ::selection { background: rgba(99,102,241,0.3); }
+
+    .agent-icon-wrap { position: relative; transition: transform 0.2s ease; }
+    .agent-icon-wrap:hover { transform: translateY(-2px); }
+
+    .agent-card { transition: all 0.2s ease; }
+    .agent-card:hover { transform: translateY(-1px); }
+    .dark .agent-card:hover { box-shadow: 0 4px 24px rgba(0,0,0,0.3); }
+    .agent-card:hover { box-shadow: 0 4px 24px rgba(0,0,0,0.08); }
   </style>
 </head>
-<body class="bg-surface-0 text-subtle-4 min-h-screen">
+<body class="dark bg-zinc-950 text-zinc-300 min-h-screen transition-colors duration-300">
 
   <!-- Header -->
-  <header class="border-b border-surface-3 bg-surface-0/80 backdrop-blur-xl sticky top-0 z-50">
-    <div class="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
+  <header class="border-b border-zinc-800 dark:border-zinc-800 border-zinc-200 bg-zinc-950/80 dark:bg-zinc-950/80 bg-white/80 backdrop-blur-xl sticky top-0 z-50 transition-colors">
+    <div class="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
       <div class="flex items-center gap-2.5">
-        <div class="w-6 h-6 rounded-md bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center">
-          <span class="text-white text-[10px] font-bold">S</span>
+        <div class="w-7 h-7 rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center shadow-lg shadow-indigo-500/20">
+          <span class="text-white text-[11px] font-bold">S</span>
         </div>
-        <span class="text-sm font-semibold text-white tracking-tight">Soren</span>
-        <span class="text-[10px] text-subtle-2 ml-1">Dashboard</span>
+        <span class="text-sm font-semibold dark:text-white text-zinc-900 tracking-tight">Soren</span>
+        <span class="text-[10px] dark:text-zinc-500 text-zinc-400 ml-0.5 font-medium">DASHBOARD</span>
       </div>
       <div class="flex items-center gap-4">
-        <span id="stats-bar" class="text-[11px] text-subtle-3"></span>
+        <span id="stats-bar" class="text-[11px] dark:text-zinc-400 text-zinc-500"></span>
         <div class="flex items-center gap-1.5">
           <div class="w-1.5 h-1.5 rounded-full bg-emerald-500 live-dot"></div>
-          <span class="text-[11px] text-subtle-3" id="refresh-time">Connecting...</span>
+          <span class="text-[11px] dark:text-zinc-500 text-zinc-400" id="refresh-time">Connecting...</span>
         </div>
+        <button id="theme-toggle" onclick="toggle_theme()" class="w-8 h-8 rounded-lg dark:bg-zinc-800 bg-zinc-100 dark:hover:bg-zinc-700 hover:bg-zinc-200 flex items-center justify-center transition-colors" title="Toggle theme">
+          <svg id="theme-icon-dark" class="w-4 h-4 dark:text-zinc-400 text-zinc-500 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+          <svg id="theme-icon-light" class="w-4 h-4 dark:text-zinc-400 text-zinc-500 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+        </button>
       </div>
     </div>
   </header>
 
-  <main class="max-w-5xl mx-auto px-6 py-6">
+  <main class="max-w-6xl mx-auto px-6 py-8">
 
-    <!-- Agent Cards -->
-    <section id="agent-cards" class="mb-8"></section>
+    <!-- Agent Visual Grid -->
+    <section id="agent-grid" class="mb-10"></section>
+
+    <!-- Disabled agents -->
+    <section id="disabled-agents" class="mb-8"></section>
+
+    <!-- Section Label -->
+    <div class="flex items-center gap-3 mb-4">
+      <h2 class="text-[13px] font-semibold dark:text-zinc-200 text-zinc-700 uppercase tracking-wider">Activity Log</h2>
+      <div class="flex-1 h-px dark:bg-zinc-800 bg-zinc-200"></div>
+    </div>
 
     <!-- Filters -->
-    <div class="flex items-center gap-2 mb-4">
-      <div class="flex bg-surface-2 rounded-lg p-0.5">
-        <button class="filter-btn px-3 py-1 text-[11px] font-medium rounded-md transition-all" data-filter="all">All</button>
-        <button class="filter-btn px-3 py-1 text-[11px] font-medium rounded-md transition-all" data-filter="running">Running</button>
-        <button class="filter-btn px-3 py-1 text-[11px] font-medium rounded-md transition-all" data-filter="success">Passed</button>
-        <button class="filter-btn px-3 py-1 text-[11px] font-medium rounded-md transition-all" data-filter="error">Failed</button>
+    <div class="flex items-center gap-2 mb-5">
+      <div class="flex dark:bg-zinc-800/80 bg-zinc-100 rounded-lg p-0.5">
+        <button class="filter-btn px-3 py-1.5 text-[11px] font-medium rounded-md transition-all" data-filter="all">All</button>
+        <button class="filter-btn px-3 py-1.5 text-[11px] font-medium rounded-md transition-all" data-filter="running">Running</button>
+        <button class="filter-btn px-3 py-1.5 text-[11px] font-medium rounded-md transition-all" data-filter="success">Passed</button>
+        <button class="filter-btn px-3 py-1.5 text-[11px] font-medium rounded-md transition-all" data-filter="error">Failed</button>
       </div>
       <div class="flex-1"></div>
-      <select id="agent-filter" class="bg-surface-2 text-subtle-4 text-[11px] rounded-lg px-2.5 py-1.5 border border-surface-3 focus:outline-none focus:ring-1 focus:ring-indigo-500/50 appearance-none cursor-pointer">
+      <select id="agent-filter" class="dark:bg-zinc-800 bg-zinc-100 dark:text-zinc-300 text-zinc-600 text-[11px] rounded-lg px-2.5 py-1.5 dark:border-zinc-700 border-zinc-200 border focus:outline-none focus:ring-1 focus:ring-indigo-500/50 appearance-none cursor-pointer">
         <option value="all">All agents</option>
       </select>
     </div>
@@ -97,25 +112,101 @@
     <!-- Timeline -->
     <section id="timeline"></section>
     <div id="empty-state" class="hidden py-20 text-center">
-      <div class="text-subtle-2 text-sm">No activity matches your filters</div>
+      <div class="dark:text-zinc-500 text-zinc-400 text-sm">No activity matches your filters</div>
     </div>
 
   </main>
 
   <script>
-    let data = null;
-    let status_filter = 'all';
-    let agent_filter = 'all';
+    var data = null;
+    var status_filter = 'all';
+    var agent_filter = 'all';
+
+    // ── Agent Icons (SVG paths) ──────────────────────────
+
+    var AGENT_ICONS = {
+      'pr-reviewer': {
+        color: 'from-violet-500 to-purple-600',
+        shadow: 'shadow-violet-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>'
+      },
+      'morning-briefing': {
+        color: 'from-amber-400 to-orange-500',
+        shadow: 'shadow-amber-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/></svg>'
+      },
+      'browser-qa': {
+        color: 'from-cyan-400 to-blue-500',
+        shadow: 'shadow-cyan-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"/></svg>'
+      },
+      'overnight-dev': {
+        color: 'from-indigo-400 to-blue-600',
+        shadow: 'shadow-indigo-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"/></svg>'
+      },
+      'self-improvement': {
+        color: 'from-emerald-400 to-teal-500',
+        shadow: 'shadow-emerald-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/></svg>'
+      },
+      'performance-coach': {
+        color: 'from-rose-400 to-pink-500',
+        shadow: 'shadow-rose-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M18.75 4.236c.982.143 1.954.317 2.916.52A6.003 6.003 0 0016.27 9.728M18.75 4.236V4.5c0 2.108-.966 3.99-2.48 5.228m0 0a6.023 6.023 0 01-2.77.882m2.77-.882a6.004 6.004 0 01-2.77.882m0 0c-.924.122-1.882.122-2.806.001m2.806-.001a6.004 6.004 0 01-2.806.001"/></svg>'
+      },
+      'slack-sync': {
+        color: 'from-fuchsia-400 to-purple-500',
+        shadow: 'shadow-fuchsia-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"/></svg>'
+      },
+      'stale-pr-detector': {
+        color: 'from-yellow-400 to-amber-500',
+        shadow: 'shadow-yellow-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/></svg>'
+      },
+      'passive-income': {
+        color: 'from-green-400 to-emerald-500',
+        shadow: 'shadow-green-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"/></svg>'
+      },
+      'goal-tracker': {
+        color: 'from-sky-400 to-blue-500',
+        shadow: 'shadow-sky-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5"/></svg>'
+      },
+      'end-of-day-report': {
+        color: 'from-orange-400 to-red-500',
+        shadow: 'shadow-orange-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>'
+      },
+      'pr-monitor': {
+        color: 'from-teal-400 to-cyan-500',
+        shadow: 'shadow-teal-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>'
+      },
+      'slack-digest': {
+        color: 'from-pink-400 to-rose-500',
+        shadow: 'shadow-pink-500/25',
+        icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z"/></svg>'
+      }
+    };
+
+    var DEFAULT_ICON = {
+      color: 'from-zinc-400 to-zinc-500',
+      shadow: 'shadow-zinc-500/25',
+      icon: '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>'
+    };
 
     // ── Helpers ──────────────────────────────────────────
 
     function time_ago(ts) {
-      let s = Math.floor((Date.now() - new Date(ts).getTime()) / 1000);
+      var s = Math.floor((Date.now() - new Date(ts).getTime()) / 1000);
       if (s < 10) return 'just now';
       if (s < 60) return s + 's ago';
-      let m = Math.floor(s / 60);
+      var m = Math.floor(s / 60);
       if (m < 60) return m + 'm ago';
-      let h = Math.floor(m / 60);
+      var h = Math.floor(m / 60);
       if (h < 24) return h + 'h ago';
       return Math.floor(h / 24) + 'd ago';
     }
@@ -131,9 +222,9 @@
     }
 
     function fmt_date(ts) {
-      let d = new Date(ts);
-      let today = new Date();
-      let yesterday = new Date(today); yesterday.setDate(today.getDate() - 1);
+      var d = new Date(ts);
+      var today = new Date();
+      var yesterday = new Date(today); yesterday.setDate(today.getDate() - 1);
       if (d.toDateString() === today.toDateString()) return 'Today';
       if (d.toDateString() === yesterday.toDateString()) return 'Yesterday';
       return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
@@ -141,115 +232,181 @@
 
     function status_theme(s) {
       return {
-        running: { dot: 'bg-indigo-500', text: 'text-indigo-400', bg: 'bg-indigo-500/10', border: 'border-indigo-500/20', icon: '<div class="spinner"></div>' },
-        success: { dot: 'bg-emerald-500', text: 'text-emerald-400', bg: 'bg-emerald-500/8', border: 'border-emerald-500/15', icon: '<svg class="w-3.5 h-3.5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>' },
-        error:   { dot: 'bg-red-500', text: 'text-red-400', bg: 'bg-red-500/10', border: 'border-red-500/20', icon: '<svg class="w-3.5 h-3.5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>' },
-      }[s] || { dot: 'bg-subtle-2', text: 'text-subtle-3', bg: 'bg-subtle-1/10', border: 'border-subtle-1/20', icon: '' };
+        running: { dot: 'bg-indigo-500', text: 'dark:text-indigo-300 text-indigo-600', bg: 'dark:bg-indigo-500/15 bg-indigo-50', border: 'dark:border-indigo-500/25 border-indigo-200', icon: '<div class="spinner w-3.5 h-3.5 text-indigo-500"></div>' },
+        success: { dot: 'bg-emerald-500', text: 'dark:text-emerald-300 text-emerald-700', bg: 'dark:bg-emerald-500/10 bg-emerald-50', border: 'dark:border-emerald-500/20 border-emerald-200', icon: '<svg class="w-3.5 h-3.5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>' },
+        error:   { dot: 'bg-red-500', text: 'dark:text-red-300 text-red-600', bg: 'dark:bg-red-500/10 bg-red-50', border: 'dark:border-red-500/20 border-red-200', icon: '<svg class="w-3.5 h-3.5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>' },
+      }[s] || { dot: 'bg-zinc-400', text: 'dark:text-zinc-400 text-zinc-500', bg: 'dark:bg-zinc-500/10 bg-zinc-100', border: 'dark:border-zinc-600 border-zinc-200', icon: '' };
     }
 
-    // ── Agent Cards ─────────────────────────────────────
+    function get_agent_icon(key) {
+      return AGENT_ICONS[key] || DEFAULT_ICON;
+    }
 
-    function render_cards() {
+    // ── Theme Toggle ─────────────────────────────────────
+
+    function toggle_theme() {
+      var html = document.documentElement;
+      var body = document.body;
+      if (html.classList.contains('dark')) {
+        html.classList.remove('dark');
+        body.classList.remove('bg-zinc-950', 'text-zinc-300');
+        body.classList.add('bg-zinc-50', 'text-zinc-600');
+        localStorage.setItem('soren-theme', 'light');
+      } else {
+        html.classList.add('dark');
+        body.classList.remove('bg-zinc-50', 'text-zinc-600');
+        body.classList.add('bg-zinc-950', 'text-zinc-300');
+        localStorage.setItem('soren-theme', 'dark');
+      }
+    }
+
+    function init_theme() {
+      var saved = localStorage.getItem('soren-theme');
+      if (saved === 'light') {
+        document.documentElement.classList.remove('dark');
+        document.body.classList.remove('bg-zinc-950', 'text-zinc-300');
+        document.body.classList.add('bg-zinc-50', 'text-zinc-600');
+      }
+    }
+
+    // ── Agent Visual Grid ────────────────────────────────
+
+    function render_grid() {
       if (!data) return;
-      let el = document.getElementById('agent-cards');
-      let agents = data.agents || {};
-      let keys = Object.keys(agents).sort(function(a, b) {
-        let ae = agents[a].status === 'enabled' ? 0 : 1;
-        let be = agents[b].status === 'enabled' ? 0 : 1;
+      var el = document.getElementById('agent-grid');
+      var dis_el = document.getElementById('disabled-agents');
+      var agents = data.agents || {};
+      var keys = Object.keys(agents).sort(function(a, b) {
+        var ae = agents[a].status === 'enabled' ? 0 : 1;
+        var be = agents[b].status === 'enabled' ? 0 : 1;
         return ae !== be ? ae - be : agents[a].name.localeCompare(agents[b].name);
       });
 
-      // Only show enabled agents as cards; disabled agents as a compact row below
-      let enabled = keys.filter(function(k) { return agents[k].status === 'enabled'; });
-      let disabled = keys.filter(function(k) { return agents[k].status !== 'enabled'; });
+      var enabled = keys.filter(function(k) { return agents[k].status === 'enabled'; });
+      var disabled = keys.filter(function(k) { return agents[k].status !== 'enabled'; });
 
-      let html = '<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">';
+      // Enabled agents — visual cards with icons
+      var html = '<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">';
 
-      for (let i = 0; i < enabled.length; i++) {
-        let k = enabled[i];
-        let a = agents[k];
-        let runs = (data.runs || []).filter(function(r) { return r.agent === k; });
-        let is_running = runs.length > 0 && runs[0].status === 'running';
-        let last = runs.length > 0 ? runs[0] : null;
-        let recent_24h = runs.filter(function(r) { return (Date.now() - new Date(r.timestamp).getTime()) < 86400000; });
-        let errors_24h = recent_24h.filter(function(r) { return r.status === 'error'; });
-        let success_rate = recent_24h.length > 0 ? Math.round((recent_24h.length - errors_24h.length) / recent_24h.length * 100) : 100;
+      for (var i = 0; i < enabled.length; i++) {
+        var k = enabled[i];
+        var a = agents[k];
+        var ai = get_agent_icon(k);
+        var runs = (data.runs || []).filter(function(r) { return r.agent === k; });
+        var is_running = runs.length > 0 && runs[0].status === 'running';
+        var last = runs.length > 0 ? runs[0] : null;
+        var recent_24h = runs.filter(function(r) { return (Date.now() - new Date(r.timestamp).getTime()) < 86400000; });
+        var errors_24h = recent_24h.filter(function(r) { return r.status === 'error'; });
+        var success_rate = recent_24h.length > 0 ? Math.round((recent_24h.length - errors_24h.length) / recent_24h.length * 100) : 100;
 
-        // Sparkline: last 12 completed runs
-        let spark_runs = runs.filter(function(r) { return r.status !== 'running'; }).slice(0, 12).reverse();
-        let sparkline = '<div class="flex items-center gap-0.5">';
-        for (let j = 0; j < spark_runs.length; j++) {
-          let color = spark_runs[j].status === 'success' ? 'bg-emerald-500' : 'bg-red-500';
+        // Sparkline
+        var spark_runs = runs.filter(function(r) { return r.status !== 'running'; }).slice(0, 16).reverse();
+        var sparkline = '<div class="flex items-center gap-[3px]">';
+        for (var j = 0; j < spark_runs.length; j++) {
+          var color = spark_runs[j].status === 'success' ? 'bg-emerald-500' : 'bg-red-500';
           sparkline += '<div class="spark-dot ' + color + '" title="' + fmt_time(spark_runs[j].timestamp) + '"></div>';
         }
         sparkline += '</div>';
 
-        let border = is_running ? 'border-indigo-500/40 bg-indigo-500/[0.03]' : 'border-surface-3 hover:border-surface-4';
+        var card_border = is_running ? 'dark:border-indigo-500/40 border-indigo-300 dark:bg-indigo-500/[0.04] bg-indigo-50/50' : 'dark:border-zinc-800 border-zinc-200 dark:bg-zinc-900/50 bg-white';
+        var selected_border = agent_filter === k ? ' ring-2 ring-indigo-500/50' : '';
 
-        html += '<div class="border rounded-xl p-4 cursor-pointer transition-all ' + border + '" onclick="filter_by_agent(\'' + k + '\')">';
-        html += '  <div class="flex items-center justify-between mb-3">';
-        html += '    <div class="flex items-center gap-2">';
-        if (is_running) {
-          html += '      <div class="spinner"></div>';
-        } else {
-          let dot_color = errors_24h.length > 0 ? 'bg-amber-500' : 'bg-emerald-500';
-          if (success_rate === 100) dot_color = 'bg-emerald-500';
-          html += '      <div class="w-2 h-2 rounded-full ' + dot_color + '"></div>';
-        }
-        html += '      <span class="text-[13px] font-medium text-white">' + a.name + '</span>';
-        html += '    </div>';
-        html += '    <span class="text-[11px] text-subtle-3">' + a.schedule + '</span>';
-        html += '  </div>';
+        html += '<div class="agent-card border rounded-2xl p-5 cursor-pointer ' + card_border + selected_border + '" onclick="filter_by_agent(\'' + k + '\')">';
 
-        // Stats row
-        html += '  <div class="flex items-center justify-between">';
+        // Icon + name row
+        html += '  <div class="flex items-start justify-between mb-4">';
         html += '    <div class="flex items-center gap-3">';
+
+        // Agent icon with gradient background
+        html += '      <div class="agent-icon-wrap">';
         if (is_running) {
-          html += '      <span class="text-[11px] text-indigo-400 font-medium">Running now...</span>';
-        } else if (last) {
-          html += '      <span class="text-[11px] text-subtle-3">' + time_ago(last.timestamp) + '</span>';
-          html += '      <span class="text-[11px] text-subtle-2">' + fmt_duration(last.duration_seconds) + '</span>';
+          html += '        <div class="absolute inset-0 rounded-xl bg-gradient-to-br ' + ai.color + ' opacity-40 pulse-ring"></div>';
         }
+        html += '        <div class="relative w-11 h-11 rounded-xl bg-gradient-to-br ' + ai.color + ' flex items-center justify-center text-white shadow-lg ' + ai.shadow + '">';
+        html += '          ' + ai.icon;
+        html += '        </div>';
+        html += '      </div>';
+
+        html += '      <div>';
+        html += '        <div class="text-[13px] font-semibold dark:text-white text-zinc-800">' + a.name + '</div>';
+        html += '        <div class="text-[11px] dark:text-zinc-500 text-zinc-400 mt-0.5">' + a.schedule + '</div>';
+        html += '      </div>';
         html += '    </div>';
-        html += '    ' + sparkline;
+
+        // Status badge
+        if (is_running) {
+          html += '    <div class="flex items-center gap-1.5 px-2 py-1 rounded-full bg-indigo-500/15 border border-indigo-500/25">';
+          html += '      <div class="spinner w-3 h-3 text-indigo-400"></div>';
+          html += '      <span class="text-[10px] font-medium text-indigo-400">LIVE</span>';
+          html += '    </div>';
+        } else {
+          var badge_color = errors_24h.length > 0 ? 'bg-amber-500' : 'bg-emerald-500';
+          html += '    <div class="w-2.5 h-2.5 rounded-full ' + badge_color + ' mt-1"></div>';
+        }
         html += '  </div>';
 
-        // Success rate bar
-        let bar_color = success_rate === 100 ? 'bg-emerald-500' : success_rate >= 90 ? 'bg-amber-500' : 'bg-red-500';
-        html += '  <div class="mt-3 flex items-center gap-2">';
-        html += '    <div class="flex-1 h-1 bg-surface-3 rounded-full overflow-hidden">';
-        html += '      <div class="h-full ' + bar_color + ' rounded-full" style="width:' + success_rate + '%"></div>';
-        html += '    </div>';
-        html += '    <span class="text-[10px] text-subtle-3 w-8 text-right">' + success_rate + '%</span>';
+        // Last run info
+        html += '  <div class="flex items-center justify-between mb-3">';
+        if (is_running) {
+          html += '    <span class="text-[12px] text-indigo-400 font-medium">Running now...</span>';
+        } else if (last) {
+          html += '    <span class="text-[12px] dark:text-zinc-400 text-zinc-500">' + time_ago(last.timestamp) + '</span>';
+          html += '    <span class="text-[11px] dark:text-zinc-500 text-zinc-400 tabular-nums">' + fmt_duration(last.duration_seconds) + '</span>';
+        } else {
+          html += '    <span class="text-[12px] dark:text-zinc-600 text-zinc-400">No runs yet</span>';
+        }
         html += '  </div>';
+
+        // Sparkline + success rate
+        html += '  <div class="flex items-center justify-between">';
+        html += '    ' + sparkline;
+        var bar_color = success_rate === 100 ? 'bg-emerald-500' : success_rate >= 90 ? 'bg-amber-500' : 'bg-red-500';
+        html += '    <div class="flex items-center gap-2">';
+        html += '      <div class="w-16 h-1.5 dark:bg-zinc-800 bg-zinc-200 rounded-full overflow-hidden">';
+        html += '        <div class="h-full ' + bar_color + ' rounded-full transition-all" style="width:' + success_rate + '%"></div>';
+        html += '      </div>';
+        html += '      <span class="text-[10px] dark:text-zinc-500 text-zinc-400 w-7 text-right tabular-nums">' + success_rate + '%</span>';
+        html += '    </div>';
+        html += '  </div>';
+
         html += '</div>';
       }
       html += '</div>';
-
-      // Disabled agents compact list
-      if (disabled.length > 0) {
-        html += '<div class="mt-4 flex flex-wrap gap-2">';
-        for (let i = 0; i < disabled.length; i++) {
-          html += '<span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-surface-2 rounded-md text-[10px] text-subtle-2 cursor-pointer hover:text-subtle-3 transition-colors" onclick="filter_by_agent(\'' + disabled[i] + '\')">';
-          html += '  <div class="w-1.5 h-1.5 rounded-full bg-subtle-1"></div>';
-          html += '  ' + agents[disabled[i]].name;
-          html += '</span>';
-        }
-        html += '</div>';
-      }
-
       el.innerHTML = html;
+
+      // Disabled agents — compact row with mini icons
+      if (disabled.length > 0) {
+        var dhtml = '<div class="flex items-center gap-2 mb-2">';
+        dhtml += '  <span class="text-[11px] dark:text-zinc-600 text-zinc-400 font-medium uppercase tracking-wider">Inactive</span>';
+        dhtml += '  <div class="flex-1 h-px dark:bg-zinc-800/50 bg-zinc-200"></div>';
+        dhtml += '</div>';
+        dhtml += '<div class="flex flex-wrap gap-2">';
+        for (var di = 0; di < disabled.length; di++) {
+          var dk = disabled[di];
+          var da = agents[dk];
+          var dai = get_agent_icon(dk);
+          var d_selected = agent_filter === dk ? ' ring-2 ring-indigo-500/50' : '';
+          dhtml += '<span class="inline-flex items-center gap-2 px-3 py-1.5 dark:bg-zinc-900/50 bg-white dark:border-zinc-800 border-zinc-200 border rounded-lg text-[11px] dark:text-zinc-500 text-zinc-400 cursor-pointer dark:hover:text-zinc-300 hover:text-zinc-600 transition-colors' + d_selected + '" onclick="filter_by_agent(\'' + dk + '\')">';
+          dhtml += '  <div class="w-5 h-5 rounded-md bg-gradient-to-br ' + dai.color + ' flex items-center justify-center text-white opacity-40"><svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/></svg></div>';
+          dhtml += '  ' + da.name;
+          dhtml += '</span>';
+        }
+        dhtml += '</div>';
+        dis_el.innerHTML = dhtml;
+      } else {
+        dis_el.innerHTML = '';
+      }
     }
 
     // ── Agent Filter Dropdown ───────────────────────────
 
     function render_agent_select() {
       if (!data) return;
-      let sel = document.getElementById('agent-filter');
-      let agents = data.agents || {};
-      let html = '<option value="all">All agents</option>';
-      let keys = Object.keys(agents).sort(function(a, b) { return agents[a].name.localeCompare(agents[b].name); });
-      for (let i = 0; i < keys.length; i++) {
+      var sel = document.getElementById('agent-filter');
+      var agents = data.agents || {};
+      var html = '<option value="all">All agents</option>';
+      var keys = Object.keys(agents).sort(function(a, b) { return agents[a].name.localeCompare(agents[b].name); });
+      for (var i = 0; i < keys.length; i++) {
         html += '<option value="' + keys[i] + '"' + (agent_filter === keys[i] ? ' selected' : '') + '>' + agents[keys[i]].name + '</option>';
       }
       sel.innerHTML = html;
@@ -259,9 +416,9 @@
 
     function render_timeline() {
       if (!data) return;
-      let el = document.getElementById('timeline');
-      let empty = document.getElementById('empty-state');
-      let runs = (data.runs || []).filter(function(r) {
+      var el = document.getElementById('timeline');
+      var empty = document.getElementById('empty-state');
+      var runs = (data.runs || []).filter(function(r) {
         if (status_filter !== 'all' && r.status !== status_filter) return false;
         if (agent_filter !== 'all' && r.agent !== agent_filter) return false;
         return true;
@@ -270,68 +427,73 @@
       if (runs.length === 0) { el.innerHTML = ''; empty.classList.remove('hidden'); return; }
       empty.classList.add('hidden');
 
-      let html = '';
-      let cur_date = '';
+      var html = '';
+      var cur_date = '';
 
-      for (let i = 0; i < runs.length; i++) {
-        let r = runs[i];
-        let d = new Date(r.timestamp);
-        let dl = fmt_date(r.timestamp);
-        let t = status_theme(r.status);
-        let name = (data.agents[r.agent] || {}).name || r.agent;
+      for (var i = 0; i < runs.length; i++) {
+        var r = runs[i];
+        var dl = fmt_date(r.timestamp);
+        var t = status_theme(r.status);
+        var name = (data.agents[r.agent] || {}).name || r.agent;
+        var ai = get_agent_icon(r.agent);
 
         // Date header
         if (dl !== cur_date) {
           cur_date = dl;
-          if (i > 0) html += '<div class="h-4"></div>';
-          html += '<div class="text-[11px] font-medium text-subtle-2 mb-2 uppercase tracking-wider">' + dl + '</div>';
+          if (i > 0) html += '<div class="h-5"></div>';
+          html += '<div class="text-[11px] font-semibold dark:text-zinc-400 text-zinc-500 mb-2 uppercase tracking-wider">' + dl + '</div>';
         }
 
         // Run row
         html += '<div class="run-row group rounded-lg mb-px">';
         html += '  <div class="flex items-center gap-3 px-3 py-2.5 cursor-pointer select-none" onclick="toggle(this)">';
 
+        // Mini agent icon
+        html += '    <div class="w-6 h-6 rounded-md bg-gradient-to-br ' + ai.color + ' flex items-center justify-center text-white flex-shrink-0 opacity-80">';
+        html += '      <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/></svg>';
+        html += '    </div>';
+
         // Status icon
         html += '    <div class="w-5 h-5 flex items-center justify-center flex-shrink-0">' + t.icon + '</div>';
 
         // Time
-        html += '    <span class="text-[11px] text-subtle-2 w-[72px] flex-shrink-0 tabular-nums">' + fmt_time(r.timestamp) + '</span>';
+        html += '    <span class="text-[11px] dark:text-zinc-500 text-zinc-400 w-[72px] flex-shrink-0 tabular-nums">' + fmt_time(r.timestamp) + '</span>';
 
         // Agent pill
         html += '    <span class="px-2 py-0.5 text-[10px] font-medium rounded-full ' + t.bg + ' ' + t.text + ' border ' + t.border + ' flex-shrink-0">' + name + '</span>';
 
         // Summary
-        let summary_text = r.status === 'running' ? (r.summary || 'Starting up...') : (r.summary || '');
-        let summary_color = r.status === 'running' ? 'text-indigo-300' : r.status === 'error' ? 'text-red-300/80' : 'text-subtle-5';
+        var summary_text = r.status === 'running' ? (r.summary || 'Starting up...') : (r.summary || '');
+        var summary_color = r.status === 'running' ? 'dark:text-indigo-300 text-indigo-600' : r.status === 'error' ? 'dark:text-red-300 text-red-600' : 'dark:text-zinc-200 text-zinc-700';
         html += '    <span class="text-[12px] ' + summary_color + ' flex-1 truncate">' + summary_text + '</span>';
 
         // Duration
         if (r.status === 'running') {
-          html += '    <span class="text-[10px] text-indigo-400/60 flex-shrink-0 tabular-nums">in progress</span>';
+          html += '    <span class="text-[10px] dark:text-indigo-400/60 text-indigo-500/60 flex-shrink-0 tabular-nums">in progress</span>';
         } else if (r.duration_seconds) {
-          html += '    <span class="text-[10px] text-subtle-2 flex-shrink-0 tabular-nums">' + fmt_duration(r.duration_seconds) + '</span>';
+          html += '    <span class="text-[10px] dark:text-zinc-500 text-zinc-400 flex-shrink-0 tabular-nums">' + fmt_duration(r.duration_seconds) + '</span>';
         }
 
         // Chevron
-        html += '    <svg class="chevron w-3.5 h-3.5 text-subtle-1 group-hover:text-subtle-2 transition-all flex-shrink-0" style="transition:transform .2s" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>';
+        html += '    <svg class="chevron w-3.5 h-3.5 dark:text-zinc-600 text-zinc-300 group-hover:text-zinc-400 transition-all flex-shrink-0" style="transition:transform .2s" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>';
 
         html += '  </div>';
 
         // Expandable details
         html += '  <div class="expandable">';
         html += '    <div>';
-        html += '      <div class="pl-11 pr-3 pb-3">';
-        html += '        <div class="border-l-2 border-surface-3 pl-4 py-2">';
+        html += '      <div class="pl-14 pr-3 pb-3">';
+        html += '        <div class="border-l-2 dark:border-zinc-700 border-zinc-200 pl-4 py-2">';
         if (r.details) {
-          html += '          <p class="text-[12px] text-subtle-3 leading-relaxed">' + r.details + '</p>';
+          html += '          <p class="text-[12px] dark:text-zinc-400 text-zinc-500 leading-relaxed">' + r.details + '</p>';
         }
         if (r.errors && r.errors.length > 0) {
-          html += '          <div class="mt-2 flex items-start gap-2 px-3 py-2 bg-red-500/5 border border-red-500/10 rounded-md">';
+          html += '          <div class="mt-2 flex items-start gap-2 px-3 py-2 dark:bg-red-500/5 bg-red-50 dark:border-red-500/10 border-red-200 border rounded-lg">';
           html += '            <svg class="w-3.5 h-3.5 text-red-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>';
-          html += '            <span class="text-[11px] text-red-300">' + r.errors.join(', ') + '</span>';
+          html += '            <span class="text-[11px] dark:text-red-300 text-red-600">' + r.errors.join(', ') + '</span>';
           html += '          </div>';
         }
-        html += '          <div class="mt-2 flex gap-4 text-[10px] text-subtle-1">';
+        html += '          <div class="mt-2 flex gap-4 text-[10px] dark:text-zinc-600 text-zinc-400">';
         if (r.duration_seconds) html += '            <span>Duration: ' + fmt_duration(r.duration_seconds) + '</span>';
         html += '            <span>Agent: ' + r.agent + '</span>';
         html += '          </div>';
@@ -347,8 +509,8 @@
     }
 
     function toggle(el) {
-      let exp = el.nextElementSibling;
-      let chev = el.querySelector('.chevron');
+      var exp = el.nextElementSibling;
+      var chev = el.querySelector('.chevron');
       exp.classList.toggle('open');
       chev.style.transform = exp.classList.contains('open') ? 'rotate(90deg)' : '';
     }
@@ -359,11 +521,11 @@
       status_filter = f;
       document.querySelectorAll('.filter-btn').forEach(function(b) {
         if (b.dataset.filter === f) {
-          b.classList.add('bg-white/10', 'text-white');
-          b.classList.remove('text-subtle-3');
+          b.classList.add('dark:bg-white/10', 'bg-white', 'dark:text-white', 'text-zinc-800', 'shadow-sm');
+          b.classList.remove('dark:text-zinc-500', 'text-zinc-400');
         } else {
-          b.classList.remove('bg-white/10', 'text-white');
-          b.classList.add('text-subtle-3');
+          b.classList.remove('dark:bg-white/10', 'bg-white', 'dark:text-white', 'text-zinc-800', 'shadow-sm');
+          b.classList.add('dark:text-zinc-500', 'text-zinc-400');
         }
       });
       render_timeline();
@@ -373,34 +535,34 @@
       agent_filter = agent_filter === k ? 'all' : k;
       document.getElementById('agent-filter').value = agent_filter;
       render_timeline();
-      render_cards();
+      render_grid();
     }
 
     // ── Stats Bar ───────────────────────────────────────
 
     function render_stats() {
       if (!data) return;
-      let runs_24h = (data.runs || []).filter(function(r) { return (Date.now() - new Date(r.timestamp).getTime()) < 86400000; });
-      let running = runs_24h.filter(function(r) { return r.status === 'running'; }).length;
-      let errors = runs_24h.filter(function(r) { return r.status === 'error'; }).length;
-      let total = runs_24h.length;
+      var runs_24h = (data.runs || []).filter(function(r) { return (Date.now() - new Date(r.timestamp).getTime()) < 86400000; });
+      var running = runs_24h.filter(function(r) { return r.status === 'running'; }).length;
+      var errors = runs_24h.filter(function(r) { return r.status === 'error'; }).length;
+      var total = runs_24h.length;
 
-      let parts = [];
+      var parts = [];
       if (running > 0) parts.push('<span class="text-indigo-400">' + running + ' running</span>');
       parts.push(total + ' runs');
       if (errors > 0) parts.push('<span class="text-red-400">' + errors + ' failed</span>');
-      else parts.push('<span class="text-emerald-400">0 failed</span>');
+      else parts.push('<span class="text-emerald-500">0 failed</span>');
 
-      document.getElementById('stats-bar').innerHTML = parts.join(' · ');
+      document.getElementById('stats-bar').innerHTML = parts.join('<span class="dark:text-zinc-700 text-zinc-300 mx-1">&middot;</span>');
     }
 
     // ── Data Loading ────────────────────────────────────
 
     async function load() {
       try {
-        let res = await fetch('data/runs.json?_=' + Date.now());
+        var res = await fetch('data/runs.json?_=' + Date.now());
         data = await res.json();
-        render_cards();
+        render_grid();
         render_agent_select();
         render_timeline();
         render_stats();
@@ -414,13 +576,15 @@
 
     // ── Init ────────────────────────────────────────────
 
+    init_theme();
+
     document.querySelectorAll('.filter-btn').forEach(function(b) {
       b.addEventListener('click', function() { set_filter(this.dataset.filter); });
     });
     document.getElementById('agent-filter').addEventListener('change', function() {
       agent_filter = this.value;
       render_timeline();
-      render_cards();
+      render_grid();
     });
 
     var poll_timer = null;
