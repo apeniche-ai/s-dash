@@ -3,323 +3,424 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Soren Dashboard</title>
+  <title>Soren</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>S</text></svg>">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
-      darkMode: 'class',
       theme: {
         extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'] },
           colors: {
-            dark: {
-              50: '#f8fafc',
-              100: '#f1f5f9',
-              200: '#e2e8f0',
-              300: '#cbd5e1',
-              400: '#94a3b8',
-              500: '#64748b',
-              600: '#475569',
-              700: '#334155',
-              800: '#1e293b',
-              900: '#0f172a',
-              950: '#020617'
-            }
+            surface: { 0: '#09090b', 1: '#111113', 2: '#18181b', 3: '#1f1f23', 4: '#27272a' },
+            subtle: { 1: '#3f3f46', 2: '#52525b', 3: '#71717a', 4: '#a1a1aa', 5: '#d4d4d8' }
           }
         }
       }
     }
   </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-    body { font-family: 'Inter', sans-serif; }
-    .fade-in { animation: fadeIn 0.3s ease-in; }
-    @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
-    .pulse-dot { animation: pulse 2s infinite; }
-    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-    .details-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out, padding 0.3s ease-out; }
-    .details-content.open { max-height: 500px; padding-top: 12px; }
-    .chevron { transition: transform 0.2s ease; }
-    .chevron.open { transform: rotate(90deg); }
-    ::-webkit-scrollbar { width: 6px; }
-    ::-webkit-scrollbar-track { background: #1e293b; }
-    ::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
-    ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+    * { box-sizing: border-box; }
+    body { font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+
+    /* Spinner for running state */
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .spinner { width: 14px; height: 14px; border: 2px solid rgba(99,102,241,0.2); border-top-color: #6366f1; border-radius: 50%; animation: spin 0.8s linear infinite; }
+
+    /* Pulse for live dot */
+    @keyframes pulse-live { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .live-dot { animation: pulse-live 2s ease-in-out infinite; }
+
+    /* Smooth expand */
+    .expandable { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.25s ease; }
+    .expandable.open { grid-template-rows: 1fr; }
+    .expandable > div { overflow: hidden; }
+
+    /* Sparkline dots */
+    .spark-dot { width: 4px; height: 4px; border-radius: 50%; flex-shrink: 0; }
+
+    /* Row hover */
+    .run-row { transition: background-color 0.15s ease; }
+    .run-row:hover { background-color: rgba(255,255,255,0.02); }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #27272a; border-radius: 3px; }
+
+    /* Selection */
+    ::selection { background: rgba(99,102,241,0.3); }
   </style>
 </head>
-<body class="dark bg-dark-950 text-dark-200 min-h-screen">
-  <div id="app" class="max-w-6xl mx-auto px-4 py-6">
-    <!-- Header -->
-    <div class="flex items-center justify-between mb-8">
-      <div class="flex items-center gap-3">
-        <div class="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
-          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-          </svg>
+<body class="bg-surface-0 text-subtle-4 min-h-screen">
+
+  <!-- Header -->
+  <header class="border-b border-surface-3 bg-surface-0/80 backdrop-blur-xl sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <div class="w-6 h-6 rounded-md bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center">
+          <span class="text-white text-[10px] font-bold">S</span>
         </div>
-        <h1 class="text-xl font-semibold text-white">Soren Dashboard</h1>
+        <span class="text-sm font-semibold text-white tracking-tight">Soren</span>
+        <span class="text-[10px] text-subtle-2 ml-1">Dashboard</span>
       </div>
       <div class="flex items-center gap-4">
-        <div id="last-refresh" class="text-xs text-dark-500"></div>
-        <div id="auto-refresh-indicator" class="flex items-center gap-1.5 text-xs text-dark-500">
-          <div class="w-1.5 h-1.5 rounded-full bg-emerald-500 pulse-dot"></div>
-          Live
+        <span id="stats-bar" class="text-[11px] text-subtle-3"></span>
+        <div class="flex items-center gap-1.5">
+          <div class="w-1.5 h-1.5 rounded-full bg-emerald-500 live-dot"></div>
+          <span class="text-[11px] text-subtle-3" id="refresh-time">Connecting...</span>
         </div>
       </div>
     </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-6">
 
     <!-- Agent Cards -->
-    <div id="agent-cards" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 mb-8"></div>
+    <section id="agent-cards" class="mb-8"></section>
 
     <!-- Filters -->
-    <div class="flex items-center gap-3 mb-4">
-      <button id="filter-all" class="filter-btn active px-3 py-1.5 text-xs font-medium rounded-lg bg-dark-800 text-dark-300 hover:bg-dark-700 transition-colors" data-filter="all">All</button>
-      <button id="filter-success" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-lg bg-dark-800 text-dark-300 hover:bg-dark-700 transition-colors" data-filter="success">Success</button>
-      <button id="filter-error" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-lg bg-dark-800 text-dark-300 hover:bg-dark-700 transition-colors" data-filter="error">Errors</button>
+    <div class="flex items-center gap-2 mb-4">
+      <div class="flex bg-surface-2 rounded-lg p-0.5">
+        <button class="filter-btn px-3 py-1 text-[11px] font-medium rounded-md transition-all" data-filter="all">All</button>
+        <button class="filter-btn px-3 py-1 text-[11px] font-medium rounded-md transition-all" data-filter="running">Running</button>
+        <button class="filter-btn px-3 py-1 text-[11px] font-medium rounded-md transition-all" data-filter="success">Passed</button>
+        <button class="filter-btn px-3 py-1 text-[11px] font-medium rounded-md transition-all" data-filter="error">Failed</button>
+      </div>
       <div class="flex-1"></div>
-      <select id="agent-filter" class="bg-dark-800 text-dark-300 text-xs rounded-lg px-3 py-1.5 border border-dark-700 focus:outline-none focus:border-indigo-500">
+      <select id="agent-filter" class="bg-surface-2 text-subtle-4 text-[11px] rounded-lg px-2.5 py-1.5 border border-surface-3 focus:outline-none focus:ring-1 focus:ring-indigo-500/50 appearance-none cursor-pointer">
         <option value="all">All agents</option>
       </select>
     </div>
 
-    <!-- Activity Timeline -->
-    <div id="timeline" class="space-y-2"></div>
-
-    <!-- Empty State -->
-    <div id="empty-state" class="hidden text-center py-16">
-      <div class="text-dark-600 text-sm">No runs match your filters</div>
+    <!-- Timeline -->
+    <section id="timeline"></section>
+    <div id="empty-state" class="hidden py-20 text-center">
+      <div class="text-subtle-2 text-sm">No activity matches your filters</div>
     </div>
-  </div>
+
+  </main>
 
   <script>
     let data = null;
-    let active_status_filter = 'all';
-    let active_agent_filter = 'all';
+    let status_filter = 'all';
+    let agent_filter = 'all';
 
-    function time_ago(date_str) {
-      let seconds = Math.floor((new Date() - new Date(date_str)) / 1000);
-      if (seconds < 60) return 'just now';
-      let minutes = Math.floor(seconds / 60);
-      if (minutes < 60) return minutes + 'm ago';
-      let hours = Math.floor(minutes / 60);
-      if (hours < 24) return hours + 'h ago';
-      let days = Math.floor(hours / 24);
-      return days + 'd ago';
+    // ── Helpers ──────────────────────────────────────────
+
+    function time_ago(ts) {
+      let s = Math.floor((Date.now() - new Date(ts).getTime()) / 1000);
+      if (s < 10) return 'just now';
+      if (s < 60) return s + 's ago';
+      let m = Math.floor(s / 60);
+      if (m < 60) return m + 'm ago';
+      let h = Math.floor(m / 60);
+      if (h < 24) return h + 'h ago';
+      return Math.floor(h / 24) + 'd ago';
     }
 
-    function format_time(date_str) {
-      let d = new Date(date_str);
-      return d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true });
+    function fmt_duration(sec) {
+      if (sec == null) return '';
+      if (sec < 60) return Math.round(sec) + 's';
+      return Math.floor(sec / 60) + 'm ' + Math.round(sec % 60) + 's';
     }
 
-    function format_duration(seconds) {
-      if (seconds < 60) return Math.round(seconds) + 's';
-      let m = Math.floor(seconds / 60);
-      let s = Math.round(seconds % 60);
-      return m + 'm ' + s + 's';
+    function fmt_time(ts) {
+      return new Date(ts).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
     }
 
-    function status_color(status) {
-      if (status === 'success') return { dot: 'bg-emerald-500', bg: 'bg-emerald-500/10', text: 'text-emerald-400', border: 'border-emerald-500/20' };
-      if (status === 'error') return { dot: 'bg-red-500', bg: 'bg-red-500/10', text: 'text-red-400', border: 'border-red-500/20' };
-      return { dot: 'bg-dark-500', bg: 'bg-dark-500/10', text: 'text-dark-400', border: 'border-dark-500/20' };
+    function fmt_date(ts) {
+      let d = new Date(ts);
+      let today = new Date();
+      let yesterday = new Date(today); yesterday.setDate(today.getDate() - 1);
+      if (d.toDateString() === today.toDateString()) return 'Today';
+      if (d.toDateString() === yesterday.toDateString()) return 'Yesterday';
+      return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
     }
 
-    function agent_status_info(agent_key, agent) {
-      if (agent.status === 'disabled') {
-        return { color: 'bg-dark-600', label: 'Disabled', label_color: 'text-dark-500' };
-      }
-      let agent_runs = (data.runs || []).filter(function(r) { return r.agent === agent_key; });
-      let recent = agent_runs.filter(function(r) {
-        return (new Date() - new Date(r.timestamp)) < 24 * 60 * 60 * 1000;
-      });
-      let errors = recent.filter(function(r) { return r.status === 'error'; });
-      if (errors.length > 0 && errors.length / recent.length > 0.2) {
-        return { color: 'bg-red-500', label: 'Degraded', label_color: 'text-red-400' };
-      }
-      let success_rate = recent.length > 0 ? Math.round((recent.length - errors.length) / recent.length * 100) : 100;
-      return { color: 'bg-emerald-500', label: success_rate + '% (24h)', label_color: 'text-emerald-400' };
+    function status_theme(s) {
+      return {
+        running: { dot: 'bg-indigo-500', text: 'text-indigo-400', bg: 'bg-indigo-500/10', border: 'border-indigo-500/20', icon: '<div class="spinner"></div>' },
+        success: { dot: 'bg-emerald-500', text: 'text-emerald-400', bg: 'bg-emerald-500/8', border: 'border-emerald-500/15', icon: '<svg class="w-3.5 h-3.5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>' },
+        error:   { dot: 'bg-red-500', text: 'text-red-400', bg: 'bg-red-500/10', border: 'border-red-500/20', icon: '<svg class="w-3.5 h-3.5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>' },
+      }[s] || { dot: 'bg-subtle-2', text: 'text-subtle-3', bg: 'bg-subtle-1/10', border: 'border-subtle-1/20', icon: '' };
     }
 
-    function render_agent_cards() {
-      let container = document.getElementById('agent-cards');
-      let html = '';
+    // ── Agent Cards ─────────────────────────────────────
+
+    function render_cards() {
+      let el = document.getElementById('agent-cards');
       let agents = data.agents || {};
-      let agent_keys = Object.keys(agents);
-
-      // Sort: enabled first, then alphabetical
-      agent_keys.sort(function(a, b) {
-        let a_enabled = agents[a].status === 'enabled' ? 0 : 1;
-        let b_enabled = agents[b].status === 'enabled' ? 0 : 1;
-        if (a_enabled !== b_enabled) return a_enabled - b_enabled;
-        return agents[a].name.localeCompare(agents[b].name);
+      let keys = Object.keys(agents).sort(function(a, b) {
+        let ae = agents[a].status === 'enabled' ? 0 : 1;
+        let be = agents[b].status === 'enabled' ? 0 : 1;
+        return ae !== be ? ae - be : agents[a].name.localeCompare(agents[b].name);
       });
 
-      for (let i = 0; i < agent_keys.length; i++) {
-        let key = agent_keys[i];
-        let agent = agents[key];
-        let info = agent_status_info(key, agent);
-        let agent_runs = (data.runs || []).filter(function(r) { return r.agent === key; });
-        let last_run = agent_runs.length > 0 ? agent_runs[0] : null;
-        let is_disabled = agent.status === 'disabled';
+      // Only show enabled agents as cards; disabled agents as a compact row below
+      let enabled = keys.filter(function(k) { return agents[k].status === 'enabled'; });
+      let disabled = keys.filter(function(k) { return agents[k].status !== 'enabled'; });
 
-        html += '<div class="bg-dark-900 border border-dark-800 rounded-xl p-4 ' + (is_disabled ? 'opacity-50' : '') + ' hover:border-dark-700 transition-colors cursor-pointer" onclick="filter_by_agent(\'' + key + '\')">';
-        html += '  <div class="flex items-center gap-2 mb-2">';
-        html += '    <div class="w-2 h-2 rounded-full ' + info.color + (is_disabled ? '' : ' pulse-dot') + '"></div>';
-        html += '    <div class="text-xs font-medium text-white truncate">' + agent.name + '</div>';
-        html += '  </div>';
-        html += '  <div class="text-[10px] ' + info.label_color + ' mb-1">' + info.label + '</div>';
-        if (last_run) {
-          html += '  <div class="text-[10px] text-dark-500">Last: ' + time_ago(last_run.timestamp) + '</div>';
+      let html = '<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">';
+
+      for (let i = 0; i < enabled.length; i++) {
+        let k = enabled[i];
+        let a = agents[k];
+        let runs = (data.runs || []).filter(function(r) { return r.agent === k; });
+        let is_running = runs.length > 0 && runs[0].status === 'running';
+        let last = runs.length > 0 ? runs[0] : null;
+        let recent_24h = runs.filter(function(r) { return (Date.now() - new Date(r.timestamp).getTime()) < 86400000; });
+        let errors_24h = recent_24h.filter(function(r) { return r.status === 'error'; });
+        let success_rate = recent_24h.length > 0 ? Math.round((recent_24h.length - errors_24h.length) / recent_24h.length * 100) : 100;
+
+        // Sparkline: last 12 completed runs
+        let spark_runs = runs.filter(function(r) { return r.status !== 'running'; }).slice(0, 12).reverse();
+        let sparkline = '<div class="flex items-center gap-0.5">';
+        for (let j = 0; j < spark_runs.length; j++) {
+          let color = spark_runs[j].status === 'success' ? 'bg-emerald-500' : 'bg-red-500';
+          sparkline += '<div class="spark-dot ' + color + '" title="' + fmt_time(spark_runs[j].timestamp) + '"></div>';
+        }
+        sparkline += '</div>';
+
+        let border = is_running ? 'border-indigo-500/40 bg-indigo-500/[0.03]' : 'border-surface-3 hover:border-surface-4';
+
+        html += '<div class="border rounded-xl p-4 cursor-pointer transition-all ' + border + '" onclick="filter_by_agent(\'' + k + '\')">';
+        html += '  <div class="flex items-center justify-between mb-3">';
+        html += '    <div class="flex items-center gap-2">';
+        if (is_running) {
+          html += '      <div class="spinner"></div>';
         } else {
-          html += '  <div class="text-[10px] text-dark-600">No runs</div>';
+          let dot_color = errors_24h.length > 0 ? 'bg-amber-500' : 'bg-emerald-500';
+          if (success_rate === 100) dot_color = 'bg-emerald-500';
+          html += '      <div class="w-2 h-2 rounded-full ' + dot_color + '"></div>';
+        }
+        html += '      <span class="text-[13px] font-medium text-white">' + a.name + '</span>';
+        html += '    </div>';
+        html += '    <span class="text-[11px] text-subtle-3">' + a.schedule + '</span>';
+        html += '  </div>';
+
+        // Stats row
+        html += '  <div class="flex items-center justify-between">';
+        html += '    <div class="flex items-center gap-3">';
+        if (is_running) {
+          html += '      <span class="text-[11px] text-indigo-400 font-medium">Running now...</span>';
+        } else if (last) {
+          html += '      <span class="text-[11px] text-subtle-3">' + time_ago(last.timestamp) + '</span>';
+          html += '      <span class="text-[11px] text-subtle-2">' + fmt_duration(last.duration_seconds) + '</span>';
+        }
+        html += '    </div>';
+        html += '    ' + sparkline;
+        html += '  </div>';
+
+        // Success rate bar
+        let bar_color = success_rate === 100 ? 'bg-emerald-500' : success_rate >= 90 ? 'bg-amber-500' : 'bg-red-500';
+        html += '  <div class="mt-3 flex items-center gap-2">';
+        html += '    <div class="flex-1 h-1 bg-surface-3 rounded-full overflow-hidden">';
+        html += '      <div class="h-full ' + bar_color + ' rounded-full" style="width:' + success_rate + '%"></div>';
+        html += '    </div>';
+        html += '    <span class="text-[10px] text-subtle-3 w-8 text-right">' + success_rate + '%</span>';
+        html += '  </div>';
+        html += '</div>';
+      }
+      html += '</div>';
+
+      // Disabled agents compact list
+      if (disabled.length > 0) {
+        html += '<div class="mt-4 flex flex-wrap gap-2">';
+        for (let i = 0; i < disabled.length; i++) {
+          html += '<span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-surface-2 rounded-md text-[10px] text-subtle-2 cursor-pointer hover:text-subtle-3 transition-colors" onclick="filter_by_agent(\'' + disabled[i] + '\')">';
+          html += '  <div class="w-1.5 h-1.5 rounded-full bg-subtle-1"></div>';
+          html += '  ' + agents[disabled[i]].name;
+          html += '</span>';
         }
         html += '</div>';
       }
-      container.innerHTML = html;
+
+      el.innerHTML = html;
     }
 
-    function render_agent_filter() {
-      let select = document.getElementById('agent-filter');
+    // ── Agent Filter Dropdown ───────────────────────────
+
+    function render_agent_select() {
+      let sel = document.getElementById('agent-filter');
       let agents = data.agents || {};
       let html = '<option value="all">All agents</option>';
       let keys = Object.keys(agents).sort(function(a, b) { return agents[a].name.localeCompare(agents[b].name); });
       for (let i = 0; i < keys.length; i++) {
-        let selected = active_agent_filter === keys[i] ? ' selected' : '';
-        html += '<option value="' + keys[i] + '"' + selected + '>' + agents[keys[i]].name + '</option>';
+        html += '<option value="' + keys[i] + '"' + (agent_filter === keys[i] ? ' selected' : '') + '>' + agents[keys[i]].name + '</option>';
       }
-      select.innerHTML = html;
+      sel.innerHTML = html;
     }
 
-    function render_timeline() {
-      let container = document.getElementById('timeline');
-      let empty = document.getElementById('empty-state');
-      let runs = data.runs || [];
+    // ── Timeline ────────────────────────────────────────
 
-      // Apply filters
-      let filtered = runs.filter(function(r) {
-        if (active_status_filter !== 'all' && r.status !== active_status_filter) return false;
-        if (active_agent_filter !== 'all' && r.agent !== active_agent_filter) return false;
+    function render_timeline() {
+      let el = document.getElementById('timeline');
+      let empty = document.getElementById('empty-state');
+      let runs = (data.runs || []).filter(function(r) {
+        if (status_filter !== 'all' && r.status !== status_filter) return false;
+        if (agent_filter !== 'all' && r.agent !== agent_filter) return false;
         return true;
       });
 
-      if (filtered.length === 0) {
-        container.innerHTML = '';
-        empty.classList.remove('hidden');
-        return;
-      }
+      if (runs.length === 0) { el.innerHTML = ''; empty.classList.remove('hidden'); return; }
       empty.classList.add('hidden');
 
       let html = '';
-      let current_date = '';
+      let cur_date = '';
 
-      for (let i = 0; i < filtered.length; i++) {
-        let run = filtered[i];
-        let d = new Date(run.timestamp);
-        let date_label = d.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
-        let sc = status_color(run.status);
-        let agent_name = (data.agents[run.agent] || {}).name || run.agent;
+      for (let i = 0; i < runs.length; i++) {
+        let r = runs[i];
+        let d = new Date(r.timestamp);
+        let dl = fmt_date(r.timestamp);
+        let t = status_theme(r.status);
+        let name = (data.agents[r.agent] || {}).name || r.agent;
 
-        // Date separator
-        if (date_label !== current_date) {
-          current_date = date_label;
-          html += '<div class="text-xs font-medium text-dark-500 pt-4 pb-1 ' + (i > 0 ? 'border-t border-dark-800 mt-2' : '') + '">' + date_label + '</div>';
+        // Date header
+        if (dl !== cur_date) {
+          cur_date = dl;
+          if (i > 0) html += '<div class="h-4"></div>';
+          html += '<div class="text-[11px] font-medium text-subtle-2 mb-2 uppercase tracking-wider">' + dl + '</div>';
         }
 
-        html += '<div class="fade-in bg-dark-900 border border-dark-800 rounded-lg hover:border-dark-700 transition-colors">';
-        html += '  <div class="flex items-center gap-3 px-4 py-3 cursor-pointer" onclick="toggle_details(this)">';
-        // Status dot
-        html += '    <div class="w-2 h-2 rounded-full ' + sc.dot + ' flex-shrink-0"></div>';
+        // Run row
+        html += '<div class="run-row group rounded-lg mb-px">';
+        html += '  <div class="flex items-center gap-3 px-3 py-2.5 cursor-pointer select-none" onclick="toggle(this)">';
+
+        // Status icon
+        html += '    <div class="w-5 h-5 flex items-center justify-center flex-shrink-0">' + t.icon + '</div>';
+
         // Time
-        html += '    <div class="text-xs text-dark-500 w-20 flex-shrink-0">' + d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true }) + '</div>';
-        // Agent badge
-        html += '    <div class="px-2 py-0.5 text-[10px] font-medium rounded-md ' + sc.bg + ' ' + sc.text + ' border ' + sc.border + ' flex-shrink-0">' + agent_name + '</div>';
+        html += '    <span class="text-[11px] text-subtle-2 w-[72px] flex-shrink-0 tabular-nums">' + fmt_time(r.timestamp) + '</span>';
+
+        // Agent pill
+        html += '    <span class="px-2 py-0.5 text-[10px] font-medium rounded-full ' + t.bg + ' ' + t.text + ' border ' + t.border + ' flex-shrink-0">' + name + '</span>';
+
         // Summary
-        html += '    <div class="text-sm text-dark-300 flex-1 truncate">' + (run.summary || 'No summary') + '</div>';
+        let summary_text = r.status === 'running' ? (r.summary || 'Starting up...') : (r.summary || '');
+        let summary_color = r.status === 'running' ? 'text-indigo-300' : r.status === 'error' ? 'text-red-300/80' : 'text-subtle-5';
+        html += '    <span class="text-[12px] ' + summary_color + ' flex-1 truncate">' + summary_text + '</span>';
+
         // Duration
-        html += '    <div class="text-xs text-dark-600 flex-shrink-0">' + format_duration(run.duration_seconds) + '</div>';
-        // Chevron
-        html += '    <svg class="chevron w-4 h-4 text-dark-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>';
-        html += '  </div>';
-        // Details (collapsed by default)
-        html += '  <div class="details-content px-4 pb-3">';
-        html += '    <div class="border-t border-dark-800 pt-3">';
-        html += '      <div class="text-xs text-dark-400 leading-relaxed whitespace-pre-wrap">' + (run.details || 'No details available.') + '</div>';
-        if (run.errors && run.errors.length > 0) {
-          html += '      <div class="mt-2 px-3 py-2 bg-red-500/10 border border-red-500/20 rounded-md">';
-          html += '        <div class="text-xs font-medium text-red-400 mb-1">Errors</div>';
-          for (let j = 0; j < run.errors.length; j++) {
-            html += '        <div class="text-xs text-red-300">' + run.errors[j] + '</div>';
-          }
-          html += '      </div>';
+        if (r.status === 'running') {
+          html += '    <span class="text-[10px] text-indigo-400/60 flex-shrink-0 tabular-nums">in progress</span>';
+        } else if (r.duration_seconds) {
+          html += '    <span class="text-[10px] text-subtle-2 flex-shrink-0 tabular-nums">' + fmt_duration(r.duration_seconds) + '</span>';
         }
-        html += '      <div class="flex items-center gap-4 mt-3 text-[10px] text-dark-600">';
-        html += '        <span>Duration: ' + format_duration(run.duration_seconds) + '</span>';
-        html += '        <span>Time: ' + format_time(run.timestamp) + '</span>';
-        html += '        <span>Agent: ' + run.agent + '</span>';
+
+        // Chevron
+        html += '    <svg class="chevron w-3.5 h-3.5 text-subtle-1 group-hover:text-subtle-2 transition-all flex-shrink-0" style="transition:transform .2s" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>';
+
+        html += '  </div>';
+
+        // Expandable details
+        html += '  <div class="expandable">';
+        html += '    <div>';
+        html += '      <div class="pl-11 pr-3 pb-3">';
+        html += '        <div class="border-l-2 border-surface-3 pl-4 py-2">';
+        if (r.details) {
+          html += '          <p class="text-[12px] text-subtle-3 leading-relaxed">' + r.details + '</p>';
+        }
+        if (r.errors && r.errors.length > 0) {
+          html += '          <div class="mt-2 flex items-start gap-2 px-3 py-2 bg-red-500/5 border border-red-500/10 rounded-md">';
+          html += '            <svg class="w-3.5 h-3.5 text-red-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>';
+          html += '            <span class="text-[11px] text-red-300">' + r.errors.join(', ') + '</span>';
+          html += '          </div>';
+        }
+        html += '          <div class="mt-2 flex gap-4 text-[10px] text-subtle-1">';
+        if (r.duration_seconds) html += '            <span>Duration: ' + fmt_duration(r.duration_seconds) + '</span>';
+        html += '            <span>Agent: ' + r.agent + '</span>';
+        html += '          </div>';
+        html += '        </div>';
         html += '      </div>';
         html += '    </div>';
         html += '  </div>';
+
         html += '</div>';
       }
-      container.innerHTML = html;
+
+      el.innerHTML = html;
     }
 
-    function toggle_details(el) {
-      let details = el.nextElementSibling;
-      let chevron = el.querySelector('.chevron');
-      details.classList.toggle('open');
-      chevron.classList.toggle('open');
+    function toggle(el) {
+      let exp = el.nextElementSibling;
+      let chev = el.querySelector('.chevron');
+      exp.classList.toggle('open');
+      chev.style.transform = exp.classList.contains('open') ? 'rotate(90deg)' : '';
     }
 
-    function filter_by_agent(agent_key) {
-      active_agent_filter = active_agent_filter === agent_key ? 'all' : agent_key;
-      document.getElementById('agent-filter').value = active_agent_filter;
-      render_timeline();
-    }
+    // ── Filters ─────────────────────────────────────────
 
-    function set_status_filter(filter) {
-      active_status_filter = filter;
-      document.querySelectorAll('.filter-btn').forEach(function(btn) {
-        btn.classList.remove('bg-indigo-600', 'text-white');
-        btn.classList.add('bg-dark-800', 'text-dark-300');
+    function set_filter(f) {
+      status_filter = f;
+      document.querySelectorAll('.filter-btn').forEach(function(b) {
+        if (b.dataset.filter === f) {
+          b.classList.add('bg-white/10', 'text-white');
+          b.classList.remove('text-subtle-3');
+        } else {
+          b.classList.remove('bg-white/10', 'text-white');
+          b.classList.add('text-subtle-3');
+        }
       });
-      let active_btn = document.querySelector('[data-filter="' + filter + '"]');
-      if (active_btn) {
-        active_btn.classList.remove('bg-dark-800', 'text-dark-300');
-        active_btn.classList.add('bg-indigo-600', 'text-white');
-      }
       render_timeline();
     }
 
-    async function load_data() {
+    function filter_by_agent(k) {
+      agent_filter = agent_filter === k ? 'all' : k;
+      document.getElementById('agent-filter').value = agent_filter;
+      render_timeline();
+      render_cards();
+    }
+
+    // ── Stats Bar ───────────────────────────────────────
+
+    function render_stats() {
+      let runs_24h = (data.runs || []).filter(function(r) { return (Date.now() - new Date(r.timestamp).getTime()) < 86400000; });
+      let running = runs_24h.filter(function(r) { return r.status === 'running'; }).length;
+      let errors = runs_24h.filter(function(r) { return r.status === 'error'; }).length;
+      let total = runs_24h.length;
+
+      let parts = [];
+      if (running > 0) parts.push('<span class="text-indigo-400">' + running + ' running</span>');
+      parts.push(total + ' runs');
+      if (errors > 0) parts.push('<span class="text-red-400">' + errors + ' failed</span>');
+      else parts.push('<span class="text-emerald-400">0 failed</span>');
+
+      document.getElementById('stats-bar').innerHTML = parts.join(' · ');
+    }
+
+    // ── Data Loading ────────────────────────────────────
+
+    async function load() {
       try {
-        let response = await fetch('data/runs.json?t=' + Date.now());
-        data = await response.json();
-        render_agent_cards();
-        render_agent_filter();
+        let res = await fetch('data/runs.json?_=' + Date.now());
+        data = await res.json();
+        render_cards();
+        render_agent_select();
         render_timeline();
-        document.getElementById('last-refresh').textContent = 'Updated ' + new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', second: '2-digit', hour12: true });
+        render_stats();
+        document.getElementById('refresh-time').textContent = 'Updated ' + new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
       } catch (e) {
-        console.error('Failed to load data:', e);
+        console.error('Load failed:', e);
+        document.getElementById('refresh-time').textContent = 'Update failed';
       }
     }
 
-    // Event listeners
-    document.querySelectorAll('.filter-btn').forEach(function(btn) {
-      btn.addEventListener('click', function() {
-        set_status_filter(this.dataset.filter);
-      });
+    // ── Init ────────────────────────────────────────────
+
+    document.querySelectorAll('.filter-btn').forEach(function(b) {
+      b.addEventListener('click', function() { set_filter(this.dataset.filter); });
     });
     document.getElementById('agent-filter').addEventListener('change', function() {
-      active_agent_filter = this.value;
+      agent_filter = this.value;
       render_timeline();
+      render_cards();
     });
 
-    // Initial load
-    load_data();
-
-    // Auto-refresh every 60 seconds
-    setInterval(load_data, 60000);
+    set_filter('all');
+    load();
+    setInterval(load, 60000);
   </script>
 </body>
 </html>
