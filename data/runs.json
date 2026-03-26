@@ -95,6 +95,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-03-26T15:37:31Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Checking open PRs on target-test-prep/ttp",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-03-26T10:00:00Z",
       "duration_seconds": 101.9,
       "status": "success",
@@ -276,7 +284,9 @@
       "status": "error",
       "summary": "Failed — claude exited with code 1",
       "details": "Attempted to scan target-test-prep/ttp for open PRs. Claude process crashed with exit code 1 after 76.5 seconds. Likely a transient API timeout or rate limit. No PRs were reviewed this run.",
-      "errors": ["claude exited with code 1"]
+      "errors": [
+        "claude exited with code 1"
+      ]
     },
     {
       "agent": "pr-reviewer",
