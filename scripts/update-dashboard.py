@@ -148,6 +148,15 @@ def cmd_finish(args):
     print(f"Dashboard: {args.agent} → {args.status}")
 
 
+def cmd_sync_agents(args):
+    """Sync the agents registry from a JSON payload."""
+    data, sha = fetch_data()
+    agents = json.loads(args.agents_json)
+    data["agents"] = agents
+    push_data(data, sha, "sync: update agent registry")
+    print(f"Dashboard: synced {len(agents)} agents")
+
+
 def cmd_add(args):
     """Add a completed run directly (no prior running state)."""
     data, sha = fetch_data()
@@ -205,6 +214,10 @@ def main():
     p_add.add_argument("--cost", default=None, type=float)
     p_add.add_argument("--tokens", default=None, type=int)
 
+    # sync-agents
+    p_sync = sub.add_parser("sync-agents", help="Sync agent registry from JSON")
+    p_sync.add_argument("--agents", dest="agents_json", required=True, help="JSON string of agents object")
+
     args = parser.parse_args()
 
     if args.command == "start":
@@ -213,6 +226,8 @@ def main():
         cmd_finish(args)
     elif args.command == "add":
         cmd_add(args)
+    elif args.command == "sync-agents":
+        cmd_sync_agents(args)
 
 
 if __name__ == "__main__":
