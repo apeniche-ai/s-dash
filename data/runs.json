@@ -96,9 +96,9 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-26T17:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
+      "duration_seconds": 86.1,
+      "status": "success",
+      "summary": "All 22 open PRs already have the \"Claude Reviewed\" label (or other skip labels like \"Blocked\", \"Changes Requested\", \"Won't Merge\"). No PRs qualify for review.",
       "details": null
     },
     {
