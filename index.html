@@ -56,22 +56,23 @@
   </style>
 </head>
 <body class="dark bg-zinc-950 text-zinc-300 min-h-screen transition-colors duration-300">
+<!-- Light mode uses bg-white, text-zinc-700 via toggle_theme -->
 
   <!-- Header -->
-  <header class="border-b border-zinc-800 dark:border-zinc-800 border-zinc-200 bg-zinc-950/80 dark:bg-zinc-950/80 bg-white/80 backdrop-blur-xl sticky top-0 z-50 transition-colors">
+  <header class="border-b dark:border-zinc-800 border-zinc-200 dark:bg-zinc-950/80 bg-white/90 backdrop-blur-xl sticky top-0 z-50 transition-colors">
     <div class="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
       <div class="flex items-center gap-2.5">
         <div class="w-7 h-7 rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center shadow-lg shadow-indigo-500/20">
           <span class="text-white text-[11px] font-bold">S</span>
         </div>
         <span class="text-sm font-semibold dark:text-white text-zinc-900 tracking-tight">Soren</span>
-        <span class="text-[10px] dark:text-zinc-500 text-zinc-400 ml-0.5 font-medium">DASHBOARD</span>
+        <span class="text-[10px] dark:text-zinc-500 text-zinc-500 ml-0.5 font-medium">DASHBOARD</span>
       </div>
       <div class="flex items-center gap-4">
-        <span id="stats-bar" class="text-[11px] dark:text-zinc-400 text-zinc-500"></span>
+        <span id="stats-bar" class="text-[11px] dark:text-zinc-400 text-zinc-600"></span>
         <div class="flex items-center gap-1.5">
           <div class="w-1.5 h-1.5 rounded-full bg-emerald-500 live-dot"></div>
-          <span class="text-[11px] dark:text-zinc-500 text-zinc-400" id="refresh-time">Connecting...</span>
+          <span class="text-[11px] dark:text-zinc-500 text-zinc-500" id="refresh-time">Connecting...</span>
         </div>
         <button id="theme-toggle" onclick="toggle_theme()" class="w-8 h-8 rounded-lg dark:bg-zinc-800 bg-zinc-100 dark:hover:bg-zinc-700 hover:bg-zinc-200 flex items-center justify-center transition-colors" title="Toggle theme">
           <svg id="theme-icon-dark" class="w-4 h-4 dark:text-zinc-400 text-zinc-500 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
@@ -97,14 +98,14 @@
 
     <!-- Filters -->
     <div class="flex items-center gap-2 mb-5">
-      <div class="flex dark:bg-zinc-800/80 bg-zinc-100 rounded-lg p-0.5">
+      <div class="flex dark:bg-zinc-800/80 bg-zinc-100/80 rounded-lg p-0.5 border dark:border-transparent border-zinc-200">
         <button class="filter-btn px-3 py-1.5 text-[11px] font-medium rounded-md transition-all" data-filter="all">All</button>
         <button class="filter-btn px-3 py-1.5 text-[11px] font-medium rounded-md transition-all" data-filter="running">Running</button>
         <button class="filter-btn px-3 py-1.5 text-[11px] font-medium rounded-md transition-all" data-filter="success">Passed</button>
         <button class="filter-btn px-3 py-1.5 text-[11px] font-medium rounded-md transition-all" data-filter="error">Failed</button>
       </div>
       <div class="flex-1"></div>
-      <select id="agent-filter" class="dark:bg-zinc-800 bg-zinc-100 dark:text-zinc-300 text-zinc-600 text-[11px] rounded-lg px-2.5 py-1.5 dark:border-zinc-700 border-zinc-200 border focus:outline-none focus:ring-1 focus:ring-indigo-500/50 appearance-none cursor-pointer">
+      <select id="agent-filter" class="dark:bg-zinc-800 bg-zinc-100/80 dark:text-zinc-300 text-zinc-700 text-[11px] rounded-lg px-2.5 py-1.5 dark:border-zinc-700 border-zinc-300 border focus:outline-none focus:ring-1 focus:ring-indigo-500/50 appearance-none cursor-pointer">
         <option value="all">All agents</option>
       </select>
     </div>
@@ -112,7 +113,7 @@
     <!-- Timeline -->
     <section id="timeline"></section>
     <div id="empty-state" class="hidden py-20 text-center">
-      <div class="dark:text-zinc-500 text-zinc-400 text-sm">No activity matches your filters</div>
+      <div class="dark:text-zinc-500 text-zinc-500 text-sm">No activity matches your filters</div>
     </div>
 
   </main>
@@ -232,10 +233,10 @@
 
     function status_theme(s) {
       return {
-        running: { dot: 'bg-indigo-500', text: 'dark:text-indigo-300 text-indigo-600', bg: 'dark:bg-indigo-500/15 bg-indigo-50', border: 'dark:border-indigo-500/25 border-indigo-200', icon: '<div class="spinner w-3.5 h-3.5 text-indigo-500"></div>' },
-        success: { dot: 'bg-emerald-500', text: 'dark:text-emerald-300 text-emerald-700', bg: 'dark:bg-emerald-500/10 bg-emerald-50', border: 'dark:border-emerald-500/20 border-emerald-200', icon: '<svg class="w-3.5 h-3.5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>' },
-        error:   { dot: 'bg-red-500', text: 'dark:text-red-300 text-red-600', bg: 'dark:bg-red-500/10 bg-red-50', border: 'dark:border-red-500/20 border-red-200', icon: '<svg class="w-3.5 h-3.5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>' },
-      }[s] || { dot: 'bg-zinc-400', text: 'dark:text-zinc-400 text-zinc-500', bg: 'dark:bg-zinc-500/10 bg-zinc-100', border: 'dark:border-zinc-600 border-zinc-200', icon: '' };
+        running: { dot: 'bg-indigo-500', text: 'dark:text-indigo-300 text-indigo-700', bg: 'dark:bg-indigo-500/15 bg-indigo-50', border: 'dark:border-indigo-500/25 border-indigo-200', icon: '<div class="spinner w-3.5 h-3.5 text-indigo-500"></div>' },
+        success: { dot: 'bg-emerald-500', text: 'dark:text-emerald-300 text-emerald-700', bg: 'dark:bg-emerald-500/10 bg-emerald-50', border: 'dark:border-emerald-500/20 border-emerald-200', icon: '<svg class="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>' },
+        error:   { dot: 'bg-red-500', text: 'dark:text-red-300 text-red-700', bg: 'dark:bg-red-500/10 bg-red-50', border: 'dark:border-red-500/20 border-red-200', icon: '<svg class="w-3.5 h-3.5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>' },
+      }[s] || { dot: 'bg-zinc-400', text: 'dark:text-zinc-400 text-zinc-600', bg: 'dark:bg-zinc-500/10 bg-zinc-100', border: 'dark:border-zinc-600 border-zinc-300', icon: '' };
     }
 
     function get_agent_icon(key) {
@@ -250,11 +251,11 @@
       if (html.classList.contains('dark')) {
         html.classList.remove('dark');
         body.classList.remove('bg-zinc-950', 'text-zinc-300');
-        body.classList.add('bg-zinc-50', 'text-zinc-600');
+        body.classList.add('bg-white', 'text-zinc-700');
         localStorage.setItem('soren-theme', 'light');
       } else {
         html.classList.add('dark');
-        body.classList.remove('bg-zinc-50', 'text-zinc-600');
+        body.classList.remove('bg-white', 'text-zinc-700');
         body.classList.add('bg-zinc-950', 'text-zinc-300');
         localStorage.setItem('soren-theme', 'dark');
       }
@@ -265,7 +266,7 @@
       if (saved === 'light') {
         document.documentElement.classList.remove('dark');
         document.body.classList.remove('bg-zinc-950', 'text-zinc-300');
-        document.body.classList.add('bg-zinc-50', 'text-zinc-600');
+        document.body.classList.add('bg-white', 'text-zinc-700');
       }
     }
 
@@ -308,7 +309,7 @@
         }
         sparkline += '</div>';
 
-        var card_border = is_running ? 'dark:border-indigo-500/40 border-indigo-300 dark:bg-indigo-500/[0.04] bg-indigo-50/50' : 'dark:border-zinc-800 border-zinc-200 dark:bg-zinc-900/50 bg-white';
+        var card_border = is_running ? 'dark:border-indigo-500/40 border-indigo-300 dark:bg-indigo-500/[0.04] bg-indigo-50/50' : 'dark:border-zinc-800 border-zinc-200 dark:bg-zinc-900/50 bg-white shadow-sm';
         var selected_border = agent_filter === k ? ' ring-2 ring-indigo-500/50' : '';
 
         html += '<div class="agent-card border rounded-2xl p-5 cursor-pointer ' + card_border + selected_border + '" onclick="filter_by_agent(\'' + k + '\')">';
@@ -329,7 +330,7 @@
 
         html += '      <div>';
         html += '        <div class="text-[13px] font-semibold dark:text-white text-zinc-800">' + a.name + '</div>';
-        html += '        <div class="text-[11px] dark:text-zinc-500 text-zinc-400 mt-0.5">' + a.schedule + '</div>';
+        html += '        <div class="text-[11px] dark:text-zinc-500 text-zinc-500 mt-0.5">' + a.schedule + '</div>';
         html += '      </div>';
         html += '    </div>';
 
@@ -350,10 +351,10 @@
         if (is_running) {
           html += '    <span class="text-[12px] text-indigo-400 font-medium">Running now...</span>';
         } else if (last) {
-          html += '    <span class="text-[12px] dark:text-zinc-400 text-zinc-500">' + time_ago(last.timestamp) + '</span>';
-          html += '    <span class="text-[11px] dark:text-zinc-500 text-zinc-400 tabular-nums">' + fmt_duration(last.duration_seconds) + '</span>';
+          html += '    <span class="text-[12px] dark:text-zinc-400 text-zinc-600">' + time_ago(last.timestamp) + '</span>';
+          html += '    <span class="text-[11px] dark:text-zinc-500 text-zinc-500 tabular-nums">' + fmt_duration(last.duration_seconds) + '</span>';
         } else {
-          html += '    <span class="text-[12px] dark:text-zinc-600 text-zinc-400">No runs yet</span>';
+          html += '    <span class="text-[12px] dark:text-zinc-600 text-zinc-500">No runs yet</span>';
         }
         html += '  </div>';
 
@@ -362,10 +363,10 @@
         html += '    ' + sparkline;
         var bar_color = success_rate === 100 ? 'bg-emerald-500' : success_rate >= 90 ? 'bg-amber-500' : 'bg-red-500';
         html += '    <div class="flex items-center gap-2">';
-        html += '      <div class="w-16 h-1.5 dark:bg-zinc-800 bg-zinc-200 rounded-full overflow-hidden">';
+        html += '      <div class="w-16 h-1.5 dark:bg-zinc-800 bg-zinc-200/80 rounded-full overflow-hidden">';
         html += '        <div class="h-full ' + bar_color + ' rounded-full transition-all" style="width:' + success_rate + '%"></div>';
         html += '      </div>';
-        html += '      <span class="text-[10px] dark:text-zinc-500 text-zinc-400 w-7 text-right tabular-nums">' + success_rate + '%</span>';
+        html += '      <span class="text-[10px] dark:text-zinc-500 text-zinc-500 w-7 text-right tabular-nums">' + success_rate + '%</span>';
         html += '    </div>';
         html += '  </div>';
 
@@ -377,7 +378,7 @@
       // Disabled agents — compact row with mini icons
       if (disabled.length > 0) {
         var dhtml = '<div class="flex items-center gap-2 mb-2">';
-        dhtml += '  <span class="text-[11px] dark:text-zinc-600 text-zinc-400 font-medium uppercase tracking-wider">Inactive</span>';
+        dhtml += '  <span class="text-[11px] dark:text-zinc-600 text-zinc-500 font-medium uppercase tracking-wider">Inactive</span>';
         dhtml += '  <div class="flex-1 h-px dark:bg-zinc-800/50 bg-zinc-200"></div>';
         dhtml += '</div>';
         dhtml += '<div class="flex flex-wrap gap-2">';
@@ -386,7 +387,7 @@
           var da = agents[dk];
           var dai = get_agent_icon(dk);
           var d_selected = agent_filter === dk ? ' ring-2 ring-indigo-500/50' : '';
-          dhtml += '<span class="inline-flex items-center gap-2 px-3 py-1.5 dark:bg-zinc-900/50 bg-white dark:border-zinc-800 border-zinc-200 border rounded-lg text-[11px] dark:text-zinc-500 text-zinc-400 cursor-pointer dark:hover:text-zinc-300 hover:text-zinc-600 transition-colors' + d_selected + '" onclick="filter_by_agent(\'' + dk + '\')">';
+          dhtml += '<span class="inline-flex items-center gap-2 px-3 py-1.5 dark:bg-zinc-900/50 bg-zinc-50 dark:border-zinc-800 border-zinc-200 border rounded-lg text-[11px] dark:text-zinc-500 text-zinc-600 cursor-pointer dark:hover:text-zinc-300 hover:text-zinc-900 transition-colors shadow-sm' + d_selected + '" onclick="filter_by_agent(\'' + dk + '\')">';
           dhtml += '  <div class="w-5 h-5 rounded-md bg-gradient-to-br ' + dai.color + ' flex items-center justify-center text-white opacity-40"><svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/></svg></div>';
           dhtml += '  ' + da.name;
           dhtml += '</span>';
@@ -441,7 +442,7 @@
         if (dl !== cur_date) {
           cur_date = dl;
           if (i > 0) html += '<div class="h-5"></div>';
-          html += '<div class="text-[11px] font-semibold dark:text-zinc-400 text-zinc-500 mb-2 uppercase tracking-wider">' + dl + '</div>';
+          html += '<div class="text-[11px] font-semibold dark:text-zinc-400 text-zinc-600 mb-2 uppercase tracking-wider">' + dl + '</div>';
         }
 
         // Run row
@@ -457,25 +458,25 @@
         html += '    <div class="w-5 h-5 flex items-center justify-center flex-shrink-0">' + t.icon + '</div>';
 
         // Time
-        html += '    <span class="text-[11px] dark:text-zinc-500 text-zinc-400 w-[72px] flex-shrink-0 tabular-nums">' + fmt_time(r.timestamp) + '</span>';
+        html += '    <span class="text-[11px] dark:text-zinc-500 text-zinc-500 w-[72px] flex-shrink-0 tabular-nums">' + fmt_time(r.timestamp) + '</span>';
 
         // Agent pill
         html += '    <span class="px-2 py-0.5 text-[10px] font-medium rounded-full ' + t.bg + ' ' + t.text + ' border ' + t.border + ' flex-shrink-0">' + name + '</span>';
 
         // Summary
         var summary_text = r.status === 'running' ? (r.summary || 'Starting up...') : (r.summary || '');
-        var summary_color = r.status === 'running' ? 'dark:text-indigo-300 text-indigo-600' : r.status === 'error' ? 'dark:text-red-300 text-red-600' : 'dark:text-zinc-200 text-zinc-700';
+        var summary_color = r.status === 'running' ? 'dark:text-indigo-300 text-indigo-700' : r.status === 'error' ? 'dark:text-red-300 text-red-700' : 'dark:text-zinc-200 text-zinc-800';
         html += '    <span class="text-[12px] ' + summary_color + ' flex-1 truncate">' + summary_text + '</span>';
 
         // Duration
         if (r.status === 'running') {
-          html += '    <span class="text-[10px] dark:text-indigo-400/60 text-indigo-500/60 flex-shrink-0 tabular-nums">in progress</span>';
+          html += '    <span class="text-[10px] dark:text-indigo-400/60 text-indigo-600 flex-shrink-0 tabular-nums">in progress</span>';
         } else if (r.duration_seconds) {
-          html += '    <span class="text-[10px] dark:text-zinc-500 text-zinc-400 flex-shrink-0 tabular-nums">' + fmt_duration(r.duration_seconds) + '</span>';
+          html += '    <span class="text-[10px] dark:text-zinc-500 text-zinc-500 flex-shrink-0 tabular-nums">' + fmt_duration(r.duration_seconds) + '</span>';
         }
 
         // Chevron
-        html += '    <svg class="chevron w-3.5 h-3.5 dark:text-zinc-600 text-zinc-300 group-hover:text-zinc-400 transition-all flex-shrink-0" style="transition:transform .2s" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>';
+        html += '    <svg class="chevron w-3.5 h-3.5 dark:text-zinc-600 text-zinc-400 group-hover:text-zinc-500 transition-all flex-shrink-0" style="transition:transform .2s" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>';
 
         html += '  </div>';
 
@@ -483,9 +484,9 @@
         html += '  <div class="expandable">';
         html += '    <div>';
         html += '      <div class="pl-14 pr-3 pb-3">';
-        html += '        <div class="border-l-2 dark:border-zinc-700 border-zinc-200 pl-4 py-2">';
+        html += '        <div class="border-l-2 dark:border-zinc-700 border-zinc-300 pl-4 py-2">';
         if (r.details) {
-          html += '          <p class="text-[12px] dark:text-zinc-400 text-zinc-500 leading-relaxed">' + r.details + '</p>';
+          html += '          <p class="text-[12px] dark:text-zinc-400 text-zinc-600 leading-relaxed">' + r.details + '</p>';
         }
         if (r.errors && r.errors.length > 0) {
           html += '          <div class="mt-2 flex items-start gap-2 px-3 py-2 dark:bg-red-500/5 bg-red-50 dark:border-red-500/10 border-red-200 border rounded-lg">';
@@ -493,7 +494,7 @@
           html += '            <span class="text-[11px] dark:text-red-300 text-red-600">' + r.errors.join(', ') + '</span>';
           html += '          </div>';
         }
-        html += '          <div class="mt-2 flex gap-4 text-[10px] dark:text-zinc-600 text-zinc-400">';
+        html += '          <div class="mt-2 flex gap-4 text-[10px] dark:text-zinc-600 text-zinc-500">';
         if (r.duration_seconds) html += '            <span>Duration: ' + fmt_duration(r.duration_seconds) + '</span>';
         html += '            <span>Agent: ' + r.agent + '</span>';
         html += '          </div>';
@@ -521,11 +522,11 @@
       status_filter = f;
       document.querySelectorAll('.filter-btn').forEach(function(b) {
         if (b.dataset.filter === f) {
-          b.classList.add('dark:bg-white/10', 'bg-white', 'dark:text-white', 'text-zinc-800', 'shadow-sm');
-          b.classList.remove('dark:text-zinc-500', 'text-zinc-400');
+          b.classList.add('dark:bg-white/10', 'bg-white', 'dark:text-white', 'text-zinc-900', 'shadow-sm');
+          b.classList.remove('dark:text-zinc-500', 'text-zinc-500');
         } else {
-          b.classList.remove('dark:bg-white/10', 'bg-white', 'dark:text-white', 'text-zinc-800', 'shadow-sm');
-          b.classList.add('dark:text-zinc-500', 'text-zinc-400');
+          b.classList.remove('dark:bg-white/10', 'bg-white', 'dark:text-white', 'text-zinc-900', 'shadow-sm');
+          b.classList.add('dark:text-zinc-500', 'text-zinc-500');
         }
       });
       render_timeline();
@@ -553,7 +554,7 @@
       if (errors > 0) parts.push('<span class="text-red-400">' + errors + ' failed</span>');
       else parts.push('<span class="text-emerald-500">0 failed</span>');
 
-      document.getElementById('stats-bar').innerHTML = parts.join('<span class="dark:text-zinc-700 text-zinc-300 mx-1">&middot;</span>');
+      document.getElementById('stats-bar').innerHTML = parts.join('<span class="dark:text-zinc-700 text-zinc-400 mx-1">&middot;</span>');
     }
 
     // ── Data Loading ────────────────────────────────────
