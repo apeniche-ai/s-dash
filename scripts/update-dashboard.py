@@ -18,7 +18,7 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 
-REPO = "apeniche/soren-dashboard"
+REPO = "apeniche-ai/s-d8f3a"
 FILE_PATH = "data/runs.json"
 API_URL = f"https://api.github.com/repos/{REPO}/contents/{FILE_PATH}"
 MAX_RUNS = 500
