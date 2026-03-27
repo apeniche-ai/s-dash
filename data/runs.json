@@ -101,6 +101,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-implementation",
+      "timestamp": "2026-03-27T07:00:05Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Implementation...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-27T06:00:04Z",
       "duration_seconds": 87.3,
