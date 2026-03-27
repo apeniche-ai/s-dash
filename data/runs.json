@@ -103,10 +103,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-27T19:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 103.8,
+      "status": "success",
+      "summary": "All 25 open PRs on targettestprep/ttp have been filtered out:",
+      "details": null,
+      "cost_usd": 0.2717515,
+      "total_tokens": 2286
     },
     {
       "agent": "pr-reviewer",
