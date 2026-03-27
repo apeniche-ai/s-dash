@@ -103,10 +103,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-27T05:00:09Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 104.9,
+      "status": "success",
+      "summary": "All 22 open PRs on targettestprep/ttp have been filtered out — every one already carries \"Claude Reviewed\", \"Changes Requested\", \"Blocked\", \"Work in Progress\", or \"Won't Merge\". No PRs qualify for rev",
+      "details": null,
+      "cost_usd": 0.24347399999999997,
+      "total_tokens": 1876
     },
     {
       "agent": "pr-reviewer",
