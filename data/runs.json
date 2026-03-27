@@ -103,10 +103,13 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-27T12:00:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 1201.6,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code timed out after 1200s"
+      ]
     },
     {
       "agent": "daily-performance-check-in",
