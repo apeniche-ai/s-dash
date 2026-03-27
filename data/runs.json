@@ -5,98 +5,98 @@
       "name": "Evening Performance Reflection",
       "status": "enabled",
       "schedule": "0 20 * * 1-5",
-      "description": "Evening feedback loop and light reflection"
+      "description": "Evening coaching check-in — close the feedback loop on today's exercise"
     },
     "browser-qa-smoke-test": {
       "id": "01KMC90RKVTJRZ9W9XXHSZCKE7",
       "name": "Browser QA Smoke Test",
       "status": "disabled",
       "schedule": "0 7 * * 1-5",
-      "description": "Runs browser smoke tests on weekday mornings"
+      "description": "Daily browser smoke test on gmat.targettestprep.com"
     },
     "pr-reviewer": {
       "id": "01KMC90RKRQ61C8ETBMA76NBXD",
       "name": "PR Reviewer",
       "status": "enabled",
       "schedule": "0 * * * *",
-      "description": "Reviews open PRs on target-test-prep/ttp every hour"
+      "description": "Automated hourly code review of open PRs"
     },
     "passive-income-opportunity-scan": {
       "id": "01KMC90RKQP7ZNQY6BCWHAW0QA",
       "name": "Passive Income Opportunity Scan",
       "status": "disabled",
       "schedule": "0 12 * * 6",
-      "description": "Scans for passive income opportunities weekly"
+      "description": "Weekly research into passive income opportunities"
     },
     "soren-improvement-implementation": {
       "id": "01KMC90RKPV9P0GK4RZ8FH5QFW",
       "name": "Improvement Implementation",
       "status": "enabled",
       "schedule": "0 2 * * *",
-      "description": "Implements improvements overnight"
+      "description": "Implement approved improvement suggestions autonomously at 2 AM"
     },
     "soren-improvement-review": {
       "id": "01KMC90RKMZ3XMSSWRB2294PGE",
       "name": "Improvement Review",
       "status": "enabled",
       "schedule": "0 17 * * *",
-      "description": "Reviews and improves Soren performance"
+      "description": "Evaluate goals, identify capability gaps, and propose improvements with implementation plans"
     },
     "daily-performance-check-in": {
       "id": "01KMC90RKJK96A68GDZP9HZCQH",
       "name": "Daily Performance Check-in",
       "status": "enabled",
       "schedule": "30 6 * * 1-5",
-      "description": "Morning performance coaching check-in"
+      "description": "Morning interactive coaching session — questions, exercises, and pattern tracking"
     },
     "slack-sync": {
       "id": "01KMC90RKBE7X1EJGCC4VVDNFB",
       "name": "Slack Sync",
       "status": "disabled",
       "schedule": "0 * * * *",
-      "description": "Syncs and monitors Slack channels"
+      "description": "Sync new Slack messages to local database for context"
     },
     "stale-pr-detector": {
       "id": "01KKY9AR0DBX5DBXR7429BSRF7",
       "name": "Stale PR Detector",
       "status": "disabled",
       "schedule": "0 10 * * 1-5",
-      "description": "Detects and flags stale PRs on weekday mornings"
+      "description": "Find PRs that have been open too long"
     },
     "weekly-goal-review": {
       "id": "01KKY9AR0ABNXSVYH3BMQ2TF06",
       "name": "Weekly Goal Review",
       "status": "disabled",
       "schedule": "0 9 * * 1",
-      "description": "Reviews and updates weekly goals"
+      "description": "Weekly goal progress review"
     },
     "end-of-day-report": {
       "id": "01KKY9AQZ70BVAHXQTDA8AJD8Z",
       "name": "End of Day Report",
       "status": "disabled",
       "schedule": "0 18 * * 1-5",
-      "description": "Sends end-of-day summary report"
+      "description": "Daily end-of-day summary"
     },
     "pr-monitor": {
       "id": "01KKY9AQZ5JCRMWRKK2EB2NB7C",
       "name": "PR Monitor",
       "status": "disabled",
       "schedule": "*/15 * * * *",
-      "description": "Monitors PRs every 15 minutes"
+      "description": "Monitor GitHub for new and updated PRs"
     },
     "slack-digest": {
       "id": "01KKY9AQZ2B83B2BXG70D3SS4G",
       "name": "Slack Digest",
       "status": "disabled",
       "schedule": "*/30 * * * *",
-      "description": "Generates Slack digest every 30 minutes"
+      "description": "Monitor Slack for unread messages and mentions"
     },
     "morning-briefing": {
       "id": "01KKY9AQYSHETPWESA6JF6GQJQ",
       "name": "Morning Briefing",
       "status": "disabled",
       "schedule": "0 7 * * 1-5",
-      "description": "Sends daily morning briefing via Telegram"
+      "description": "Daily morning briefing with key updates"
     }
   },
   "runs": [
