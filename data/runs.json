@@ -101,6 +101,16 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-27T07:01:57Z",
+      "duration_seconds": 114.1,
+      "status": "success",
+      "summary": "All 23 open PRs already have one of the skip labels (\"Claude Reviewed\", \"Changes Requested\", \"Work in Progress\", \"Blocked\", or \"Won't Merge\"). Zero PRs qualify for review.",
+      "details": null,
+      "cost_usd": 0.19029025,
+      "total_tokens": 1178
+    },
+    {
       "agent": "soren-improvement-implementation",
       "timestamp": "2026-03-27T07:00:05Z",
       "duration_seconds": null,
