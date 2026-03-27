@@ -103,10 +103,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-27T06:00:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 87.3,
+      "status": "success",
+      "summary": "All 23 open PRs are either already labeled \"Claude Reviewed\", \"Changes Requested\", \"Blocked\", \"Work in Progress\", or \"Won't Merge\". Zero PRs qualify for review this run, and there are no batched revie",
+      "details": null,
+      "cost_usd": 0.219602,
+      "total_tokens": 1551
     },
     {
       "agent": "pr-reviewer",
