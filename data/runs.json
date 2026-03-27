@@ -103,10 +103,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-27T17:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 93.2,
+      "status": "success",
+      "summary": "No pending batched reviews. All 25 open PRs on targettestprep/ttp already have skip labels (\"Claude Reviewed\", \"Work in Progress\", \"Changes Requested\", \"Blocked\", or \"Won't Merge\"). Zero PRs qualify f",
+      "details": null,
+      "cost_usd": 0.20101950000000002,
+      "total_tokens": 1124
     },
     {
       "agent": "pr-reviewer",
