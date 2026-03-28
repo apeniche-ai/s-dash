@@ -108,6 +108,14 @@
   },
   "runs": [
     {
+      "agent": "test:-improvement-implementer-(one-off)",
+      "timestamp": "2026-03-28T21:00:07Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Test: Improvement Implementer (one-off)...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-28T21:00:01Z",
       "duration_seconds": null,
