@@ -102,6 +102,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-03-28T06:00:04Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-03-28T05:00:10Z",
       "duration_seconds": 82.7,
       "status": "success",
