@@ -1,5 +1,12 @@
 {
   "agents": {
+    "test:-improvement-implementer-(one-off)": {
+      "id": "01KMTX5T8FJW4EZ1QR8AHQPE0C",
+      "name": "Test: Improvement Implementer (one-off)",
+      "status": "enabled",
+      "schedule": "0 16 28 3 *",
+      "description": "One-off test of the improvement-implementer after MCP fixes. Should complete quickly if pre-check works."
+    },
     "evening-performance-reflection": {
       "id": "01KMEEVENING0PERFORMANCE0R",
       "name": "Evening Performance Reflection",
