@@ -103,10 +103,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-28T16:00:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 94.0,
+      "status": "success",
+      "summary": "No PRs to review — 21 open, all skipped (labeled). No batched reviews from previous runs either. Per instructions: no Telegram message, no memory storage, silent exit.",
+      "details": null,
+      "cost_usd": 0.2770475,
+      "total_tokens": 2136
     },
     {
       "agent": "pr-reviewer",
