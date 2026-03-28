@@ -108,6 +108,16 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-03-28T21:01:35Z",
+      "duration_seconds": 92.0,
+      "status": "success",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
+      "details": null,
+      "cost_usd": 0.21391,
+      "total_tokens": 1510
+    },
+    {
       "agent": "test:-improvement-implementer-(one-off)",
       "timestamp": "2026-03-28T21:00:07Z",
       "duration_seconds": null,
