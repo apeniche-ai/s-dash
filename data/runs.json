@@ -117,10 +117,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-03-30T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 73.6,
+      "status": "success",
+      "summary": "**Session 1 sent and tracked.** Here's what I did:",
+      "details": null,
+      "cost_usd": 0.30269825,
+      "total_tokens": 2835
     },
     {
       "agent": "pr-reviewer",
