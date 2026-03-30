@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-implementation",
+      "timestamp": "2026-03-30T07:05:01Z",
+      "duration_seconds": 0.0,
+      "status": "success",
+      "summary": "No approved suggestions — skipped",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-30T07:00:01Z",
       "duration_seconds": 42.4,
