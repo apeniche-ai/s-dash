@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-30T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 342.6,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4393 [TTPAI-38] Remove Bedrock dependencies and migrate to Anthropic API via ruby_llm → Approved (23 open, 22 skipped)",
+      "details": null,
+      "cost_usd": 2.18310525,
+      "total_tokens": 17745
     },
     {
       "agent": "pr-reviewer",
