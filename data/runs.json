@@ -3,7 +3,7 @@
     "system-health-audit": {
       "id": "01KMXZPZN29WA0SZKYQX9X6KHZ",
       "name": "System Health Audit",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "0 10 * * 6",
       "description": "Weekly audit of all Soren subsystems — jobs, agents, memory, goals, suggestions, notifications, costs"
     },
