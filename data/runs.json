@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-30T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 48.9,
+      "status": "success",
+      "summary": "No PRs to review — 22 open, all skipped (labeled/draft)",
+      "details": null,
+      "cost_usd": 0.25478575000000003,
+      "total_tokens": 1636
     },
     {
       "agent": "pr-reviewer",
