@@ -1,5 +1,12 @@
 {
   "agents": {
+    "weekly-team-shipping-report": {
+      "id": "01KN0E258WM28M05BC9YFPQTAP",
+      "name": "Weekly Team Shipping Report",
+      "status": "enabled",
+      "schedule": "45 7 * * 1",
+      "description": "Weekly Team Shipping Report (team-intel agent)"
+    },
     "system-health-audit": {
       "id": "01KMXZPZN29WA0SZKYQX9X6KHZ",
       "name": "System Health Audit",
