@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-31T22:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 177.2,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4396 [6029] Add Word document export for topics and chapters → Approved (2 non-critical suggestions: missing data-word-download on topic links, copy-paste typo in error message)",
+      "details": null,
+      "cost_usd": 1.1164732499999999,
+      "total_tokens": 7100
     },
     {
       "agent": "pr-reviewer",
