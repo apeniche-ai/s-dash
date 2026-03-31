@@ -39,7 +39,7 @@
       "id": "01KMC90RKRQ61C8ETBMA76NBXD",
       "name": "PR Reviewer",
       "status": "enabled",
-      "schedule": "0 * * * *",
+      "schedule": "0,30 5-17 * * 1-5",
       "description": "Automated hourly code review of open PRs"
     },
     "passive-income-opportunity-scan": {
