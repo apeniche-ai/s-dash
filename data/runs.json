@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-31T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 165.5,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4401 [TTPAI-56] Add AI feature events adoption tracking table → Approved",
+      "details": null,
+      "cost_usd": 0.68014475,
+      "total_tokens": 7386
     },
     {
       "agent": "daily-performance-check-in",
