@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-31T06:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 53.7,
+      "status": "success",
+      "summary": "All 19 open PRs are skipped — every one has a skip label (Claude Reviewed, Changes Requested, Blocked, Work in Progress, or Won't Merge). Zero eligible PRs this run.",
+      "details": null,
+      "cost_usd": 0.2853475,
+      "total_tokens": 2228
     },
     {
       "agent": "pr-reviewer",
