@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-31T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 235.1,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4400 [TTPAI-41] Add cross-exam retrieval with Setting gate and structured logging → Approved",
+      "details": null,
+      "cost_usd": 1.0719649999999998,
+      "total_tokens": 9562
     },
     {
       "agent": "pr-reviewer",
