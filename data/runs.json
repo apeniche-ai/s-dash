@@ -122,6 +122,16 @@
   },
   "runs": [
     {
+      "agent": "daily-performance-check-in",
+      "timestamp": "2026-04-01T11:31:55Z",
+      "duration_seconds": 84.2,
+      "status": "success",
+      "summary": "No old coaching question entries to clean up. Everything is stored and current.",
+      "details": null,
+      "cost_usd": 0.3632345,
+      "total_tokens": 3141
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-01T11:31:24Z",
       "duration_seconds": 81.6,
