@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-01T12:00:05Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 37.3,
+      "status": "success",
+      "summary": "PR Reviewer failed — GitHub API 503 on list_pull_requests. Telegram notification sent. Exiting.",
+      "details": null,
+      "cost_usd": 0.21209974999999995,
+      "total_tokens": 653
     },
     {
       "agent": "daily-performance-check-in",
