@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-01T15:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 61.9,
+      "status": "success",
+      "summary": "Wednesday 10:00 — work hours. No PR reviewed, no batched reviews to send. Exiting silently.",
+      "details": null,
+      "cost_usd": 0.23888325000000002,
+      "total_tokens": 1323
     },
     {
       "agent": "pr-reviewer",
