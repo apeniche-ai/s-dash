@@ -123,6 +123,16 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-01T12:01:12Z",
+      "duration_seconds": 69.9,
+      "status": "success",
+      "summary": "No PRs to review — 23 open, all skipped (labeled: Claude Reviewed, Blocked, Changes Requested, or Won't Merge)",
+      "details": null,
+      "cost_usd": 0.24309475,
+      "total_tokens": 2067
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-01T12:00:05Z",
       "duration_seconds": 37.3,
       "status": "success",
