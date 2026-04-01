@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-01T10:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 51.5,
+      "status": "success",
+      "summary": "No PR reviewed, no batched reviews. Exiting silently.",
+      "details": null,
+      "cost_usd": 0.273646,
+      "total_tokens": 1752
     },
     {
       "agent": "soren-improvement-implementation",
