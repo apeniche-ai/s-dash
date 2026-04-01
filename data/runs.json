@@ -123,6 +123,16 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-01T12:31:17Z",
+      "duration_seconds": 73.7,
+      "status": "success",
+      "summary": "The soren MCP tools aren't available in this session, so I can't search for batched reviews or send notifications. Per the instructions: no PR reviewed, no batches retrievable — exit silently.",
+      "details": null,
+      "cost_usd": 0.33196475,
+      "total_tokens": 1699
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-01T12:30:07Z",
       "duration_seconds": 49.7,
       "status": "success",
