@@ -123,6 +123,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-01T15:08:34Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "Test run from Soren CLI",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-01T15:01:44Z",
       "duration_seconds": 101.3,
       "status": "success",
