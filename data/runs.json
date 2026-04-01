@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-01T14:30:08Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 59.1,
+      "status": "success",
+      "summary": "No batched reviews found — those are just the process descriptions, not actual batches. No PR reviewed this run and no batches to send. Exiting silently.",
+      "details": null,
+      "cost_usd": 0.27559649999999997,
+      "total_tokens": 1466
     },
     {
       "agent": "pr-reviewer",
