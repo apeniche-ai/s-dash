@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-01T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 49.8,
+      "status": "success",
+      "summary": "All 24 open PRs have exclusion labels. No eligible PRs to review.",
+      "details": null,
+      "cost_usd": 0.17938275,
+      "total_tokens": 1027
     },
     {
       "agent": "pr-reviewer",
