@@ -382,9 +382,9 @@
     {
       "agent": "soren-improvement-implementation",
       "timestamp": "2026-04-01T07:05:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Implementation...",
+      "duration_seconds": 0.0,
+      "status": "success",
+      "summary": "No approved suggestions — skipped",
       "details": null
     },
     {
