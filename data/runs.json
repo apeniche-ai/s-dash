@@ -122,6 +122,14 @@
   },
   "runs": [
     {
+      "agent": "evening-performance-reflection",
+      "timestamp": "2026-04-01T01:05:05Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Evening Performance Reflection...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-31T22:43:59Z",
       "duration_seconds": 88.3,
