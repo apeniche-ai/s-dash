@@ -123,6 +123,16 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-01T13:39:13Z",
+      "duration_seconds": 552.1,
+      "status": "success",
+      "summary": "PR Reviewer failed — GitHub MCP returned `fetch failed` when listing PRs. Telegram notification also failed (`fetch failed`). MCP server appears to be down or unreachable.",
+      "details": null,
+      "cost_usd": 0.21439499999999995,
+      "total_tokens": 797
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-01T13:30:01Z",
       "duration_seconds": 326.5,
       "status": "success",
