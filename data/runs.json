@@ -123,6 +123,16 @@
   "runs": [
     {
       "agent": "daily-performance-check-in",
+      "timestamp": "2026-04-01T11:33:34Z",
+      "duration_seconds": 129.6,
+      "status": "success",
+      "summary": "Morning coaching check-in sent and all memory updated.",
+      "details": null,
+      "cost_usd": 0.47763174999999997,
+      "total_tokens": 5141
+    },
+    {
+      "agent": "daily-performance-check-in",
       "timestamp": "2026-04-01T11:31:55Z",
       "duration_seconds": 84.2,
       "status": "success",
