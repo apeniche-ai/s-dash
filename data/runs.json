@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-02T10:00:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 60.0,
+      "status": "success",
+      "summary": "No PRs to review — 22 open, all skipped (labeled/draft)",
+      "details": null,
+      "cost_usd": 0.20864074999999999,
+      "total_tokens": 1421
     },
     {
       "agent": "soren-improvement-implementation",
