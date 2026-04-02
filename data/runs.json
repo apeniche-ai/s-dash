@@ -12,7 +12,7 @@
       "name": "System Health Audit",
       "status": "enabled",
       "schedule": "0 10 * * 6",
-      "description": "Weekly audit of all Soren subsystems \u2014 jobs, agents, memory, goals, suggestions, notifications, costs"
+      "description": "Weekly audit of all Soren subsystems — jobs, agents, memory, goals, suggestions, notifications, costs"
     },
     "test:-improvement-implementer-(one-off)": {
       "id": "01KMTX5T8FJW4EZ1QR8AHQPE0C",
@@ -26,7 +26,7 @@
       "name": "Evening Performance Reflection",
       "status": "enabled",
       "schedule": "5 20 * * 1-5",
-      "description": "Evening coaching check-in \u2014 close the feedback loop on today's exercise"
+      "description": "Evening coaching check-in — close the feedback loop on today's exercise"
     },
     "browser-qa-smoke-test": {
       "id": "01KMC90RKVTJRZ9W9XXHSZCKE7",
@@ -68,7 +68,7 @@
       "name": "Daily Performance Check-in",
       "status": "enabled",
       "schedule": "30 6 * * 1-5",
-      "description": "Morning interactive coaching session \u2014 questions, exercises, and pattern tracking"
+      "description": "Morning interactive coaching session — questions, exercises, and pattern tracking"
     },
     "slack-sync": {
       "id": "01KMC90RKBE7X1EJGCC4VVDNFB",
@@ -123,6 +123,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-02T20:37:09Z",
+      "duration_seconds": 226.0,
+      "status": "success",
+      "summary": "Test from Node execFile simulation",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-02T20:34:31Z",
       "duration_seconds": 1.0,
       "status": "success",
@@ -142,7 +150,7 @@
       "timestamp": "2026-04-02T19:00:02Z",
       "duration_seconds": 226.3,
       "status": "success",
-      "summary": "Reviewed 1 PRs: #4406 [TTPAI-37] Add manifest-driven content ingestion pipeline \u2192 Approved",
+      "summary": "Reviewed 1 PRs: #4406 [TTPAI-37] Add manifest-driven content ingestion pipeline → Approved",
       "details": null,
       "cost_usd": 1.36489475,
       "total_tokens": 8410
@@ -228,7 +236,7 @@
       "timestamp": "2026-04-02T15:00:04Z",
       "duration_seconds": 109.7,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.29629150000000004,
       "total_tokens": 69
@@ -248,7 +256,7 @@
       "timestamp": "2026-04-02T14:00:03Z",
       "duration_seconds": 100.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.43516900000000003,
       "total_tokens": 1874
@@ -300,7 +308,7 @@
       "timestamp": "2026-04-02T12:00:03Z",
       "duration_seconds": 68.4,
       "status": "success",
-      "summary": "No PRs to review \u2014 23 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 23 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2263755,
       "total_tokens": 1447
@@ -351,7 +359,7 @@
       "timestamp": "2026-04-02T10:00:04Z",
       "duration_seconds": 60.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 22 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 22 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.20864074999999999,
       "total_tokens": 1421
@@ -361,7 +369,7 @@
       "timestamp": "2026-04-02T07:05:03Z",
       "duration_seconds": 0.2,
       "status": "success",
-      "summary": "No approved suggestions \u2014 skipped",
+      "summary": "No approved suggestions — skipped",
       "details": null
     },
     {
@@ -445,7 +453,7 @@
       "timestamp": "2026-04-01T21:30:02Z",
       "duration_seconds": 486.3,
       "status": "success",
-      "summary": "All 24 open PRs are skipped \u2014 every one has at least one exclusion label (Claude Reviewed, Blocked, Changes Requested, or Won't Merge). No drafts either.",
+      "summary": "All 24 open PRs are skipped — every one has at least one exclusion label (Claude Reviewed, Blocked, Changes Requested, or Won't Merge). No drafts either.",
       "details": null,
       "cost_usd": 0.18677950000000001,
       "total_tokens": 1062
@@ -455,7 +463,7 @@
       "timestamp": "2026-04-01T21:00:02Z",
       "duration_seconds": 66.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.22434900000000002,
       "total_tokens": 1492
@@ -465,7 +473,7 @@
       "timestamp": "2026-04-01T20:30:03Z",
       "duration_seconds": 93.2,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.40106375,
       "total_tokens": 2249
@@ -485,7 +493,7 @@
       "timestamp": "2026-04-01T19:30:03Z",
       "duration_seconds": 62.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2303705,
       "total_tokens": 1237
@@ -495,7 +503,7 @@
       "timestamp": "2026-04-01T19:00:05Z",
       "duration_seconds": 76.5,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.28360475,
       "total_tokens": 1582
@@ -515,7 +523,7 @@
       "timestamp": "2026-04-01T18:00:02Z",
       "duration_seconds": 50.3,
       "status": "success",
-      "summary": "All 24 open PRs are skipped \u2014 every one has at least one exclusion label (\"Claude Reviewed\", \"Changes Requested\", \"Blocked\", \"Won't Merge\").",
+      "summary": "All 24 open PRs are skipped — every one has at least one exclusion label (\"Claude Reviewed\", \"Changes Requested\", \"Blocked\", \"Won't Merge\").",
       "details": null,
       "cost_usd": 0.19018924999999998,
       "total_tokens": 1039
@@ -525,7 +533,7 @@
       "timestamp": "2026-04-01T17:30:06Z",
       "duration_seconds": 84.4,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.225689,
       "total_tokens": 1354
@@ -535,7 +543,7 @@
       "timestamp": "2026-04-01T17:00:02Z",
       "duration_seconds": 65.8,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.25500025000000004,
       "total_tokens": 1458
@@ -545,7 +553,7 @@
       "timestamp": "2026-04-01T16:30:03Z",
       "duration_seconds": 65.4,
       "status": "success",
-      "summary": "No PRs to review \u2014 25 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 25 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.25572849999999997,
       "total_tokens": 1365
@@ -555,7 +563,7 @@
       "timestamp": "2026-04-01T16:00:15Z",
       "duration_seconds": 327.7,
       "status": "success",
-      "summary": "Reviewed 1 PR: #4404 [TTP-6030] Add visual math tiles data migration for EA \u2192 Approved",
+      "summary": "Reviewed 1 PR: #4404 [TTP-6030] Add visual math tiles data migration for EA → Approved",
       "details": null,
       "cost_usd": 1.3463024999999997,
       "total_tokens": 7767
@@ -565,7 +573,7 @@
       "timestamp": "2026-04-01T15:30:02Z",
       "duration_seconds": 61.9,
       "status": "success",
-      "summary": "Wednesday 10:00 \u2014 work hours. No PR reviewed, no batched reviews to send. Exiting silently.",
+      "summary": "Wednesday 10:00 — work hours. No PR reviewed, no batched reviews to send. Exiting silently.",
       "details": null,
       "cost_usd": 0.23888325000000002,
       "total_tokens": 1323
@@ -583,7 +591,7 @@
       "timestamp": "2026-04-01T15:01:44Z",
       "duration_seconds": 101.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2942455,
       "total_tokens": 2006
@@ -593,7 +601,7 @@
       "timestamp": "2026-04-01T15:00:18Z",
       "duration_seconds": 52.2,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.25471425,
       "total_tokens": 1582
@@ -603,7 +611,7 @@
       "timestamp": "2026-04-01T14:31:43Z",
       "duration_seconds": 100.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.36916625000000003,
       "total_tokens": 2327
@@ -613,7 +621,7 @@
       "timestamp": "2026-04-01T14:30:08Z",
       "duration_seconds": 59.1,
       "status": "success",
-      "summary": "No batched reviews found \u2014 those are just the process descriptions, not actual batches. No PR reviewed this run and no batches to send. Exiting silently.",
+      "summary": "No batched reviews found — those are just the process descriptions, not actual batches. No PR reviewed this run and no batches to send. Exiting silently.",
       "details": null,
       "cost_usd": 0.27559649999999997,
       "total_tokens": 1466
@@ -633,7 +641,7 @@
       "timestamp": "2026-04-01T14:00:04Z",
       "duration_seconds": 174.9,
       "status": "success",
-      "summary": "Reviewed 1 PR: #4403 [TTPAI-43] Add learning tag suggestion and import rake tasks \u2192 Approved (24 open, 23 skipped \u2014 labeled/draft)",
+      "summary": "Reviewed 1 PR: #4403 [TTPAI-43] Add learning tag suggestion and import rake tasks → Approved (24 open, 23 skipped — labeled/draft)",
       "details": null,
       "cost_usd": 0.7583065000000001,
       "total_tokens": 7271
@@ -643,7 +651,7 @@
       "timestamp": "2026-04-01T13:39:13Z",
       "duration_seconds": 552.1,
       "status": "success",
-      "summary": "PR Reviewer failed \u2014 GitHub MCP returned `fetch failed` when listing PRs. Telegram notification also failed (`fetch failed`). MCP server appears to be down or unreachable.",
+      "summary": "PR Reviewer failed — GitHub MCP returned `fetch failed` when listing PRs. Telegram notification also failed (`fetch failed`). MCP server appears to be down or unreachable.",
       "details": null,
       "cost_usd": 0.21439499999999995,
       "total_tokens": 797
@@ -653,7 +661,7 @@
       "timestamp": "2026-04-01T13:30:01Z",
       "duration_seconds": 326.5,
       "status": "success",
-      "summary": "No PRs to review \u2014 23 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 23 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2609035,
       "total_tokens": 1858
@@ -663,7 +671,7 @@
       "timestamp": "2026-04-01T13:01:37Z",
       "duration_seconds": 93.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 23 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 23 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.38608775,
       "total_tokens": 2576
@@ -683,7 +691,7 @@
       "timestamp": "2026-04-01T12:31:17Z",
       "duration_seconds": 73.7,
       "status": "success",
-      "summary": "The soren MCP tools aren't available in this session, so I can't search for batched reviews or send notifications. Per the instructions: no PR reviewed, no batches retrievable \u2014 exit silently.",
+      "summary": "The soren MCP tools aren't available in this session, so I can't search for batched reviews or send notifications. Per the instructions: no PR reviewed, no batches retrievable — exit silently.",
       "details": null,
       "cost_usd": 0.33196475,
       "total_tokens": 1699
@@ -703,7 +711,7 @@
       "timestamp": "2026-04-01T12:01:12Z",
       "duration_seconds": 69.9,
       "status": "success",
-      "summary": "No PRs to review \u2014 23 open, all skipped (labeled: Claude Reviewed, Blocked, Changes Requested, or Won't Merge)",
+      "summary": "No PRs to review — 23 open, all skipped (labeled: Claude Reviewed, Blocked, Changes Requested, or Won't Merge)",
       "details": null,
       "cost_usd": 0.24309475,
       "total_tokens": 2067
@@ -713,7 +721,7 @@
       "timestamp": "2026-04-01T12:00:05Z",
       "duration_seconds": 37.3,
       "status": "success",
-      "summary": "PR Reviewer failed \u2014 GitHub API 503 on list_pull_requests. Telegram notification sent. Exiting.",
+      "summary": "PR Reviewer failed — GitHub API 503 on list_pull_requests. Telegram notification sent. Exiting.",
       "details": null,
       "cost_usd": 0.21209974999999995,
       "total_tokens": 653
@@ -743,7 +751,7 @@
       "timestamp": "2026-04-01T11:31:24Z",
       "duration_seconds": 81.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 23 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 23 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.39137950000000005,
       "total_tokens": 2356
@@ -753,7 +761,7 @@
       "timestamp": "2026-04-01T11:30:03Z",
       "duration_seconds": 29.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 GitHub API returned 503 (service unavailable), will retry next run",
+      "summary": "No PRs to review — GitHub API returned 503 (service unavailable), will retry next run",
       "details": null,
       "cost_usd": 0.21155075,
       "total_tokens": 563
@@ -763,7 +771,7 @@
       "timestamp": "2026-04-01T11:01:35Z",
       "duration_seconds": 92.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 23 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 23 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.3293585,
       "total_tokens": 2450
@@ -773,7 +781,7 @@
       "timestamp": "2026-04-01T11:00:06Z",
       "duration_seconds": 34.7,
       "status": "success",
-      "summary": "PR Reviewer failed \u2014 GitHub API 500 on list_pull_requests. Telegram notification sent. Exiting.",
+      "summary": "PR Reviewer failed — GitHub API 500 on list_pull_requests. Telegram notification sent. Exiting.",
       "details": null,
       "cost_usd": 0.21338449999999998,
       "total_tokens": 659
@@ -783,7 +791,7 @@
       "timestamp": "2026-04-01T10:31:27Z",
       "duration_seconds": 84.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 23 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 23 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.44885025,
       "total_tokens": 2130
@@ -803,7 +811,7 @@
       "timestamp": "2026-04-01T10:01:28Z",
       "duration_seconds": 85.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 23 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 23 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.293895,
       "total_tokens": 1962
@@ -823,7 +831,7 @@
       "timestamp": "2026-04-01T07:05:03Z",
       "duration_seconds": 0.0,
       "status": "success",
-      "summary": "No approved suggestions \u2014 skipped",
+      "summary": "No approved suggestions — skipped",
       "details": null
     },
     {
@@ -861,7 +869,7 @@
       "timestamp": "2026-03-31T22:00:01Z",
       "duration_seconds": 177.2,
       "status": "success",
-      "summary": "Reviewed 1 PR: #4396 [6029] Add Word document export for topics and chapters \u2192 Approved (2 non-critical suggestions: missing data-word-download on topic links, copy-paste typo in error message)",
+      "summary": "Reviewed 1 PR: #4396 [6029] Add Word document export for topics and chapters → Approved (2 non-critical suggestions: missing data-word-download on topic links, copy-paste typo in error message)",
       "details": null,
       "cost_usd": 1.1164732499999999,
       "total_tokens": 7100
@@ -1025,7 +1033,7 @@
       "timestamp": "2026-03-31T13:00:01Z",
       "duration_seconds": 63.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 22 open, all skipped (labeled/draft). Sent 5 batched overnight reviews via Telegram.",
+      "summary": "No PRs to review — 22 open, all skipped (labeled/draft). Sent 5 batched overnight reviews via Telegram.",
       "details": null,
       "cost_usd": 0.32953125,
       "total_tokens": 2158
@@ -1035,7 +1043,7 @@
       "timestamp": "2026-03-31T12:00:01Z",
       "duration_seconds": 165.5,
       "status": "success",
-      "summary": "Reviewed 1 PR: #4401 [TTPAI-56] Add AI feature events adoption tracking table \u2192 Approved",
+      "summary": "Reviewed 1 PR: #4401 [TTPAI-56] Add AI feature events adoption tracking table → Approved",
       "details": null,
       "cost_usd": 0.68014475,
       "total_tokens": 7386
@@ -1055,7 +1063,7 @@
       "timestamp": "2026-03-31T11:00:00Z",
       "duration_seconds": 235.1,
       "status": "success",
-      "summary": "Reviewed 1 PR: #4400 [TTPAI-41] Add cross-exam retrieval with Setting gate and structured logging \u2192 Approved",
+      "summary": "Reviewed 1 PR: #4400 [TTPAI-41] Add cross-exam retrieval with Setting gate and structured logging → Approved",
       "details": null,
       "cost_usd": 1.0719649999999998,
       "total_tokens": 9562
@@ -1065,7 +1073,7 @@
       "timestamp": "2026-03-31T10:00:01Z",
       "duration_seconds": 49.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 20 open, all skipped (labeled/draft). 3 batched reviews pending delivery at next work-hours run.",
+      "summary": "No PRs to review — 20 open, all skipped (labeled/draft). 3 batched reviews pending delivery at next work-hours run.",
       "details": null,
       "cost_usd": 0.27501375,
       "total_tokens": 1724
@@ -1075,7 +1083,7 @@
       "timestamp": "2026-03-31T09:00:01Z",
       "duration_seconds": 55.9,
       "status": "success",
-      "summary": "No PRs to review \u2014 20 open, all skipped (labeled/draft). 3 batched reviews pending delivery at next work-hours run.",
+      "summary": "No PRs to review — 20 open, all skipped (labeled/draft). 3 batched reviews pending delivery at next work-hours run.",
       "details": null,
       "cost_usd": 0.278344,
       "total_tokens": 1875
@@ -1085,7 +1093,7 @@
       "timestamp": "2026-03-31T08:00:01Z",
       "duration_seconds": 177.8,
       "status": "success",
-      "summary": "Reviewed 1 PR: #4399 [TTPAI-52] Add keystone and min_dose_override columns to Exercise \u2192 Approved",
+      "summary": "Reviewed 1 PR: #4399 [TTPAI-52] Add keystone and min_dose_override columns to Exercise → Approved",
       "details": null,
       "cost_usd": 0.8823489999999998,
       "total_tokens": 7874
@@ -1095,7 +1103,7 @@
       "timestamp": "2026-03-31T07:05:01Z",
       "duration_seconds": 0.0,
       "status": "success",
-      "summary": "No approved suggestions \u2014 skipped",
+      "summary": "No approved suggestions — skipped",
       "details": null
     },
     {
@@ -1103,7 +1111,7 @@
       "timestamp": "2026-03-31T07:00:01Z",
       "duration_seconds": 50.5,
       "status": "success",
-      "summary": "No PRs to review \u2014 19 open, all skipped (labeled/draft). 2 batched reviews pending notification at next work-hours run.",
+      "summary": "No PRs to review — 19 open, all skipped (labeled/draft). 2 batched reviews pending notification at next work-hours run.",
       "details": null,
       "cost_usd": 0.2630895,
       "total_tokens": 1597
@@ -1113,7 +1121,7 @@
       "timestamp": "2026-03-31T06:00:01Z",
       "duration_seconds": 53.7,
       "status": "success",
-      "summary": "All 19 open PRs are skipped \u2014 every one has a skip label (Claude Reviewed, Changes Requested, Blocked, Work in Progress, or Won't Merge). Zero eligible PRs this run.",
+      "summary": "All 19 open PRs are skipped — every one has a skip label (Claude Reviewed, Changes Requested, Blocked, Work in Progress, or Won't Merge). Zero eligible PRs this run.",
       "details": null,
       "cost_usd": 0.2853475,
       "total_tokens": 2228
@@ -1123,7 +1131,7 @@
       "timestamp": "2026-03-31T05:00:01Z",
       "duration_seconds": 61.1,
       "status": "success",
-      "summary": "All 19 open PRs are ineligible \u2014 every one has a skip label (Claude Reviewed, Changes Requested, Blocked, Work in Progress, or Won't Merge). Zero PRs to review this run.",
+      "summary": "All 19 open PRs are ineligible — every one has a skip label (Claude Reviewed, Changes Requested, Blocked, Work in Progress, or Won't Merge). Zero PRs to review this run.",
       "details": null,
       "cost_usd": 0.299641,
       "total_tokens": 2094
@@ -1133,7 +1141,7 @@
       "timestamp": "2026-03-31T04:00:01Z",
       "duration_seconds": 48.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 19 open, all skipped (labeled/draft). 2 batched reviews from earlier tonight still queued for morning delivery.",
+      "summary": "No PRs to review — 19 open, all skipped (labeled/draft). 2 batched reviews from earlier tonight still queued for morning delivery.",
       "details": null,
       "cost_usd": 0.24522099999999997,
       "total_tokens": 1596
@@ -1143,7 +1151,7 @@
       "timestamp": "2026-03-31T03:00:01Z",
       "duration_seconds": 173.3,
       "status": "success",
-      "summary": "Reviewed 1 PR: #4398 [6033] Upgrade Rails 7.2.3.1, Ruby 3.4.9 \u2192 Approved (6 CVEs fixed, ~40 gems patched, matches TTP-6033)",
+      "summary": "Reviewed 1 PR: #4398 [6033] Upgrade Rails 7.2.3.1, Ruby 3.4.9 → Approved (6 CVEs fixed, ~40 gems patched, matches TTP-6033)",
       "details": null,
       "cost_usd": 0.8684405,
       "total_tokens": 6874
@@ -1153,7 +1161,7 @@
       "timestamp": "2026-03-31T02:00:01Z",
       "duration_seconds": 230.3,
       "status": "success",
-      "summary": "Reviewed 1 PR: #4397 [TTP-6033] Upgrade Rails 7.2.3.1, Ruby 3.4.9, and audit/update all gems \u2192 Approved",
+      "summary": "Reviewed 1 PR: #4397 [TTP-6033] Upgrade Rails 7.2.3.1, Ruby 3.4.9, and audit/update all gems → Approved",
       "details": null,
       "cost_usd": 1.1726739999999998,
       "total_tokens": 8153
@@ -1173,7 +1181,7 @@
       "timestamp": "2026-03-31T01:00:01Z",
       "duration_seconds": 46.1,
       "status": "success",
-      "summary": "No PRs to review \u2014 18 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 18 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.25504925,
       "total_tokens": 1360
@@ -1183,7 +1191,7 @@
       "timestamp": "2026-03-31T00:00:01Z",
       "duration_seconds": 56.7,
       "status": "success",
-      "summary": "No PRs to review \u2014 18 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 18 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.32999825,
       "total_tokens": 1654
@@ -1193,7 +1201,7 @@
       "timestamp": "2026-03-30T23:00:01Z",
       "duration_seconds": 39.9,
       "status": "success",
-      "summary": "All 18 open PRs are either drafts or already have skip labels. No PRs to review this run, no batched reviews \u2014 exiting silently per the rules.",
+      "summary": "All 18 open PRs are either drafts or already have skip labels. No PRs to review this run, no batched reviews — exiting silently per the rules.",
       "details": null,
       "cost_usd": 0.250882,
       "total_tokens": 1279
@@ -1213,7 +1221,7 @@
       "timestamp": "2026-03-30T22:00:01Z",
       "duration_seconds": 45.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 19 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 19 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.26061725,
       "total_tokens": 1509
@@ -1223,7 +1231,7 @@
       "timestamp": "2026-03-30T21:00:01Z",
       "duration_seconds": 44.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.25254275,
       "total_tokens": 1454
@@ -1233,7 +1241,7 @@
       "timestamp": "2026-03-30T20:00:01Z",
       "duration_seconds": 54.9,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.27376575000000003,
       "total_tokens": 1884
@@ -1243,7 +1251,7 @@
       "timestamp": "2026-03-30T19:00:02Z",
       "duration_seconds": 44.5,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.25125175,
       "total_tokens": 1215
@@ -1253,7 +1261,7 @@
       "timestamp": "2026-03-30T18:00:01Z",
       "duration_seconds": 82.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.26902275,
       "total_tokens": 1480
@@ -1263,7 +1271,7 @@
       "timestamp": "2026-03-30T17:00:01Z",
       "duration_seconds": 46.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.25973925000000003,
       "total_tokens": 1728
@@ -1273,7 +1281,7 @@
       "timestamp": "2026-03-30T16:00:01Z",
       "duration_seconds": 45.4,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.24899150000000003,
       "total_tokens": 1425
@@ -1283,7 +1291,7 @@
       "timestamp": "2026-03-30T15:00:01Z",
       "duration_seconds": 43.8,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.24276350000000002,
       "total_tokens": 1195
@@ -1293,7 +1301,7 @@
       "timestamp": "2026-03-30T14:00:01Z",
       "duration_seconds": 237.5,
       "status": "success",
-      "summary": "Reviewed 2 PRs: #4392 TTPAI-40 student_feature_snapshots \u2192 Approved, #4395 TTPAI-55 operational columns token logs \u2192 Approved",
+      "summary": "Reviewed 2 PRs: #4392 TTPAI-40 student_feature_snapshots → Approved, #4395 TTPAI-55 operational columns token logs → Approved",
       "details": null,
       "cost_usd": 1.38433375,
       "total_tokens": 9691
@@ -1303,7 +1311,7 @@
       "timestamp": "2026-03-30T13:00:01Z",
       "duration_seconds": 342.6,
       "status": "success",
-      "summary": "Reviewed 1 PR: #4393 [TTPAI-38] Remove Bedrock dependencies and migrate to Anthropic API via ruby_llm \u2192 Approved (23 open, 22 skipped)",
+      "summary": "Reviewed 1 PR: #4393 [TTPAI-38] Remove Bedrock dependencies and migrate to Anthropic API via ruby_llm → Approved (23 open, 22 skipped)",
       "details": null,
       "cost_usd": 2.18310525,
       "total_tokens": 17745
@@ -1313,7 +1321,7 @@
       "timestamp": "2026-03-30T12:00:01Z",
       "duration_seconds": 49.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 22 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 22 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.27213049999999994,
       "total_tokens": 1355
@@ -1333,7 +1341,7 @@
       "timestamp": "2026-03-30T11:00:00Z",
       "duration_seconds": 48.9,
       "status": "success",
-      "summary": "No PRs to review \u2014 22 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 22 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.25478575000000003,
       "total_tokens": 1636
@@ -1343,7 +1351,7 @@
       "timestamp": "2026-03-30T10:00:01Z",
       "duration_seconds": 54.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.301307,
       "total_tokens": 2154
@@ -1353,7 +1361,7 @@
       "timestamp": "2026-03-30T09:00:01Z",
       "duration_seconds": 41.2,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.228217,
       "total_tokens": 1121
@@ -1363,7 +1371,7 @@
       "timestamp": "2026-03-30T08:00:01Z",
       "duration_seconds": 43.4,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.22770875000000002,
       "total_tokens": 1288
@@ -1373,7 +1381,7 @@
       "timestamp": "2026-03-30T07:05:01Z",
       "duration_seconds": 0.0,
       "status": "success",
-      "summary": "No approved suggestions \u2014 skipped",
+      "summary": "No approved suggestions — skipped",
       "details": null
     },
     {
@@ -1381,7 +1389,7 @@
       "timestamp": "2026-03-30T07:00:01Z",
       "duration_seconds": 42.4,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2491855,
       "total_tokens": 1215
@@ -1391,7 +1399,7 @@
       "timestamp": "2026-03-30T06:00:01Z",
       "duration_seconds": 49.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.285365,
       "total_tokens": 1518
@@ -1401,7 +1409,7 @@
       "timestamp": "2026-03-30T05:00:01Z",
       "duration_seconds": 52.7,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.29137325,
       "total_tokens": 1670
@@ -1411,7 +1419,7 @@
       "timestamp": "2026-03-30T04:00:01Z",
       "duration_seconds": 50.2,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.26903050000000006,
       "total_tokens": 1762
@@ -1421,7 +1429,7 @@
       "timestamp": "2026-03-30T03:00:02Z",
       "duration_seconds": 43.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.26520875,
       "total_tokens": 1367
@@ -1431,7 +1439,7 @@
       "timestamp": "2026-03-30T02:00:01Z",
       "duration_seconds": 43.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.24768500000000002,
       "total_tokens": 1379
@@ -1441,7 +1449,7 @@
       "timestamp": "2026-03-30T01:00:01Z",
       "duration_seconds": 36.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.224669,
       "total_tokens": 1196
@@ -1451,7 +1459,7 @@
       "timestamp": "2026-03-30T00:00:01Z",
       "duration_seconds": 55.8,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (18 Claude Reviewed, 3 Changes Requested, 2 Blocked, 2 WIP, 1 Won't Merge)",
+      "summary": "No PRs to review — 21 open, all skipped (18 Claude Reviewed, 3 Changes Requested, 2 Blocked, 2 WIP, 1 Won't Merge)",
       "details": null,
       "cost_usd": 0.29844375,
       "total_tokens": 1933
@@ -1461,7 +1469,7 @@
       "timestamp": "2026-03-29T23:00:04Z",
       "duration_seconds": 83.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 20 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 20 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.21987174999999998,
       "total_tokens": 1102
@@ -1481,7 +1489,7 @@
       "timestamp": "2026-03-29T22:00:19Z",
       "duration_seconds": 96.2,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2146565,
       "total_tokens": 1314
@@ -1491,7 +1499,7 @@
       "timestamp": "2026-03-29T21:00:02Z",
       "duration_seconds": 99.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.30280900000000005,
       "total_tokens": 1890
@@ -1501,7 +1509,7 @@
       "timestamp": "2026-03-29T20:00:02Z",
       "duration_seconds": 85.2,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.24291275,
       "total_tokens": 1638
@@ -1511,7 +1519,7 @@
       "timestamp": "2026-03-29T19:00:02Z",
       "duration_seconds": 79.2,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.243186,
       "total_tokens": 1847
@@ -1521,7 +1529,7 @@
       "timestamp": "2026-03-29T18:00:04Z",
       "duration_seconds": 100.9,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.22836299999999998,
       "total_tokens": 1355
@@ -1531,7 +1539,7 @@
       "timestamp": "2026-03-29T17:00:04Z",
       "duration_seconds": 108.1,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.24538175,
       "total_tokens": 1939
@@ -1541,7 +1549,7 @@
       "timestamp": "2026-03-29T16:00:01Z",
       "duration_seconds": 78.2,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.22502175,
       "total_tokens": 1328
@@ -1551,7 +1559,7 @@
       "timestamp": "2026-03-29T15:00:02Z",
       "duration_seconds": 97.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.259276,
       "total_tokens": 1658
@@ -1561,7 +1569,7 @@
       "timestamp": "2026-03-29T14:00:04Z",
       "duration_seconds": 100.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.20441700000000002,
       "total_tokens": 1178
@@ -1571,7 +1579,7 @@
       "timestamp": "2026-03-29T13:00:01Z",
       "duration_seconds": 76.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2329725,
       "total_tokens": 1689
@@ -1581,7 +1589,7 @@
       "timestamp": "2026-03-29T12:00:01Z",
       "duration_seconds": 80.1,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2556445,
       "total_tokens": 1581
@@ -1591,7 +1599,7 @@
       "timestamp": "2026-03-29T11:00:02Z",
       "duration_seconds": 65.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.20115424999999998,
       "total_tokens": 1157
@@ -1601,7 +1609,7 @@
       "timestamp": "2026-03-29T10:00:01Z",
       "duration_seconds": 96.5,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.22542875,
       "total_tokens": 1314
@@ -1611,7 +1619,7 @@
       "timestamp": "2026-03-29T09:00:01Z",
       "duration_seconds": 76.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.23212399999999997,
       "total_tokens": 1654
@@ -1621,7 +1629,7 @@
       "timestamp": "2026-03-29T08:00:02Z",
       "duration_seconds": 69.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2242965,
       "total_tokens": 1270
@@ -1631,7 +1639,7 @@
       "timestamp": "2026-03-29T07:01:10Z",
       "duration_seconds": 67.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.22322625000000001,
       "total_tokens": 1549
@@ -1641,7 +1649,7 @@
       "timestamp": "2026-03-29T07:00:02Z",
       "duration_seconds": 0.0,
       "status": "success",
-      "summary": "No approved suggestions \u2014 skipped",
+      "summary": "No approved suggestions — skipped",
       "details": null
     },
     {
@@ -1649,7 +1657,7 @@
       "timestamp": "2026-03-29T06:00:02Z",
       "duration_seconds": 118.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.236709,
       "total_tokens": 1302
@@ -1659,7 +1667,7 @@
       "timestamp": "2026-03-29T05:00:06Z",
       "duration_seconds": 98.5,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.202613,
       "total_tokens": 1103
@@ -1669,7 +1677,7 @@
       "timestamp": "2026-03-29T04:00:04Z",
       "duration_seconds": 99.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.20497949999999998,
       "total_tokens": 1198
@@ -1679,7 +1687,7 @@
       "timestamp": "2026-03-29T03:00:07Z",
       "duration_seconds": 96.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.23245825000000003,
       "total_tokens": 1315
@@ -1689,7 +1697,7 @@
       "timestamp": "2026-03-29T02:45:02Z",
       "duration_seconds": 0.2,
       "status": "success",
-      "summary": "No approved suggestions \u2014 skipped",
+      "summary": "No approved suggestions — skipped",
       "details": null
     },
     {
@@ -1697,7 +1705,7 @@
       "timestamp": "2026-03-29T02:00:03Z",
       "duration_seconds": 108.8,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2417345,
       "total_tokens": 1943
@@ -1707,7 +1715,7 @@
       "timestamp": "2026-03-29T01:01:44Z",
       "duration_seconds": 100.7,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.217436,
       "total_tokens": 1496
@@ -1717,7 +1725,7 @@
       "timestamp": "2026-03-29T00:00:03Z",
       "duration_seconds": 95.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.21972375,
       "total_tokens": 1748
@@ -1727,7 +1735,7 @@
       "timestamp": "2026-03-28T23:01:24Z",
       "duration_seconds": 81.9,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.20037025,
       "total_tokens": 1214
@@ -1737,7 +1745,7 @@
       "timestamp": "2026-03-28T23:00:03Z",
       "duration_seconds": 53.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.27073725000000004,
       "total_tokens": 2072
@@ -1758,7 +1766,7 @@
       "timestamp": "2026-03-28T22:01:41Z",
       "duration_seconds": 98.4,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.247785,
       "total_tokens": 1557
@@ -1778,7 +1786,7 @@
       "timestamp": "2026-03-28T22:00:01Z",
       "duration_seconds": 48.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.24388925,
       "total_tokens": 1883
@@ -1788,7 +1796,7 @@
       "timestamp": "2026-03-28T21:01:35Z",
       "duration_seconds": 92.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.21391,
       "total_tokens": 1510
@@ -1798,7 +1806,7 @@
       "timestamp": "2026-03-28T21:00:07Z",
       "duration_seconds": 0.2,
       "status": "success",
-      "summary": "No approved suggestions \u2014 skipped",
+      "summary": "No approved suggestions — skipped",
       "details": null
     },
     {
@@ -1806,7 +1814,7 @@
       "timestamp": "2026-03-28T21:00:01Z",
       "duration_seconds": 58.7,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.29629300000000003,
       "total_tokens": 2324
@@ -1816,7 +1824,7 @@
       "timestamp": "2026-03-28T20:01:39Z",
       "duration_seconds": 96.7,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.234663,
       "total_tokens": 1499
@@ -1826,7 +1834,7 @@
       "timestamp": "2026-03-28T20:00:08Z",
       "duration_seconds": 49.1,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.27848675,
       "total_tokens": 2021
@@ -1836,7 +1844,7 @@
       "timestamp": "2026-03-28T19:00:01Z",
       "duration_seconds": 50.1,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.246848,
       "total_tokens": 1529
@@ -1846,7 +1854,7 @@
       "timestamp": "2026-03-28T18:00:04Z",
       "duration_seconds": 91.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.25435125,
       "total_tokens": 1645
@@ -1856,7 +1864,7 @@
       "timestamp": "2026-03-28T17:00:05Z",
       "duration_seconds": 82.4,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.19235075000000001,
       "total_tokens": 1087
@@ -1866,7 +1874,7 @@
       "timestamp": "2026-03-28T16:00:04Z",
       "duration_seconds": 94.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled). No batched reviews from previous runs either. Per instructions: no Telegram message, no memory storage, silent exit.",
+      "summary": "No PRs to review — 21 open, all skipped (labeled). No batched reviews from previous runs either. Per instructions: no Telegram message, no memory storage, silent exit.",
       "details": null,
       "cost_usd": 0.2770475,
       "total_tokens": 2136
@@ -1876,7 +1884,7 @@
       "timestamp": "2026-03-28T15:00:03Z",
       "duration_seconds": 64.4,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.22752100000000003,
       "total_tokens": 1530
@@ -1906,7 +1914,7 @@
       "timestamp": "2026-03-28T12:00:01Z",
       "duration_seconds": 67.8,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.27196375,
       "total_tokens": 1975
@@ -1916,7 +1924,7 @@
       "timestamp": "2026-03-28T11:00:02Z",
       "duration_seconds": 59.7,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.249554,
       "total_tokens": 1689
@@ -1926,7 +1934,7 @@
       "timestamp": "2026-03-28T10:00:02Z",
       "duration_seconds": 66.1,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2566075,
       "total_tokens": 1506
@@ -1936,7 +1944,7 @@
       "timestamp": "2026-03-28T09:00:03Z",
       "duration_seconds": 66.5,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.258873,
       "total_tokens": 1814
@@ -1946,7 +1954,7 @@
       "timestamp": "2026-03-28T08:00:02Z",
       "duration_seconds": 72.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2519985,
       "total_tokens": 1616
@@ -1956,7 +1964,7 @@
       "timestamp": "2026-03-28T07:01:50Z",
       "duration_seconds": 107.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2626945,
       "total_tokens": 1514
@@ -1977,7 +1985,7 @@
       "timestamp": "2026-03-28T06:00:04Z",
       "duration_seconds": 83.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.22910224999999998,
       "total_tokens": 1409
@@ -1987,7 +1995,7 @@
       "timestamp": "2026-03-28T05:00:10Z",
       "duration_seconds": 82.7,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.194014,
       "total_tokens": 1052
@@ -1997,7 +2005,7 @@
       "timestamp": "2026-03-28T04:00:03Z",
       "duration_seconds": 93.3,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.2710665,
       "total_tokens": 2094
@@ -2007,7 +2015,7 @@
       "timestamp": "2026-03-28T03:00:03Z",
       "duration_seconds": 82.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.226989,
       "total_tokens": 1438
@@ -2027,7 +2035,7 @@
       "timestamp": "2026-03-28T01:01:43Z",
       "duration_seconds": 92.6,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.18996749999999998,
       "total_tokens": 1065
@@ -2047,7 +2055,7 @@
       "timestamp": "2026-03-28T00:00:02Z",
       "duration_seconds": 84.9,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.23726075,
       "total_tokens": 1957
@@ -2057,7 +2065,7 @@
       "timestamp": "2026-03-27T23:00:08Z",
       "duration_seconds": 113.1,
       "status": "success",
-      "summary": "No PRs to review \u2014 21 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.19321975000000002,
       "total_tokens": 1043
@@ -2077,7 +2085,7 @@
       "timestamp": "2026-03-27T22:00:04Z",
       "duration_seconds": 98.5,
       "status": "success",
-      "summary": "No PRs to review \u2014 24 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.19696924999999998,
       "total_tokens": 1038
@@ -2087,7 +2095,7 @@
       "timestamp": "2026-03-27T21:00:03Z",
       "duration_seconds": 83.0,
       "status": "success",
-      "summary": "No PRs to review \u2014 25 open, all skipped (labeled/draft)",
+      "summary": "No PRs to review — 25 open, all skipped (labeled/draft)",
       "details": null,
       "cost_usd": 0.20334175000000002,
       "total_tokens": 1295
@@ -2117,7 +2125,7 @@
       "timestamp": "2026-03-27T18:00:04Z",
       "duration_seconds": 90.8,
       "status": "success",
-      "summary": "No eligible PRs to review \u2014 all open PRs either have skip-labels (\"Claude Reviewed\", \"Blocked\", \"Work in Progress\", \"Changes Requested\", \"Won't Merge\"), or are drafts. No batched reviews pending eithe",
+      "summary": "No eligible PRs to review — all open PRs either have skip-labels (\"Claude Reviewed\", \"Blocked\", \"Work in Progress\", \"Changes Requested\", \"Won't Merge\"), or are drafts. No batched reviews pending eithe",
       "details": null,
       "cost_usd": 0.20106225,
       "total_tokens": 1311
@@ -2232,7 +2240,7 @@
       "timestamp": "2026-03-27T08:00:08Z",
       "duration_seconds": 154.5,
       "status": "success",
-      "summary": "**Status:** Friday 3:00 AM \u2014 outside work hours.",
+      "summary": "**Status:** Friday 3:00 AM — outside work hours.",
       "details": null,
       "cost_usd": 0.18673775,
       "total_tokens": 1450
@@ -2273,7 +2281,7 @@
       "timestamp": "2026-03-27T05:00:09Z",
       "duration_seconds": 104.9,
       "status": "success",
-      "summary": "All 22 open PRs on targettestprep/ttp have been filtered out \u2014 every one already carries \"Claude Reviewed\", \"Changes Requested\", \"Blocked\", \"Work in Progress\", or \"Won't Merge\". No PRs qualify for rev",
+      "summary": "All 22 open PRs on targettestprep/ttp have been filtered out — every one already carries \"Claude Reviewed\", \"Changes Requested\", \"Blocked\", \"Work in Progress\", or \"Won't Merge\". No PRs qualify for rev",
       "details": null,
       "cost_usd": 0.24347399999999997,
       "total_tokens": 1876
@@ -2283,7 +2291,7 @@
       "timestamp": "2026-03-27T04:00:04Z",
       "duration_seconds": 92.2,
       "status": "success",
-      "summary": "**Time check:** Thursday 23:00 \u2014 outside work hours.",
+      "summary": "**Time check:** Thursday 23:00 — outside work hours.",
       "details": null,
       "cost_usd": 0.197481,
       "total_tokens": 1715
@@ -2313,7 +2321,7 @@
       "timestamp": "2026-03-27T01:00:07Z",
       "duration_seconds": 117.2,
       "status": "success",
-      "summary": "**Status:** Thursday 20:00 \u2014 outside work hours.",
+      "summary": "**Status:** Thursday 20:00 — outside work hours.",
       "details": null,
       "cost_usd": 0.19594399999999998,
       "total_tokens": 1830
@@ -2364,7 +2372,7 @@
       "timestamp": "2026-03-26T21:00:04Z",
       "duration_seconds": 101.0,
       "status": "success",
-      "summary": "All 23 open PRs are already covered \u2014 every one has at least one skip label (\"Claude Reviewed\", \"Changes Requested\", \"Blocked\", \"Work in Progress\", or \"Won't Merge\"), or is a draft. Zero PRs qualify f",
+      "summary": "All 23 open PRs are already covered — every one has at least one skip label (\"Claude Reviewed\", \"Changes Requested\", \"Blocked\", \"Work in Progress\", or \"Won't Merge\"), or is a draft. Zero PRs qualify f",
       "details": null,
       "cost_usd": 0.24922000000000002,
       "total_tokens": 2198
@@ -2413,7 +2421,7 @@
       "timestamp": "2026-03-26T15:37:31Z",
       "duration_seconds": 95.2,
       "status": "success",
-      "summary": "Checked 3 open PRs \u2014 no new activity",
+      "summary": "Checked 3 open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. Found 3 open PRs. No new commits or comments since last check."
     },
     {
@@ -2421,7 +2429,7 @@
       "timestamp": "2026-03-26T10:00:00Z",
       "duration_seconds": 101.9,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2430,14 +2438,14 @@
       "duration_seconds": 243.8,
       "status": "success",
       "summary": "Reviewed 1 PR with new commits",
-      "details": "Scanned target-test-prep/ttp for open PRs. Found updated activity on PR #4371. Reviewed changes \u2014 no issues found."
+      "details": "Scanned target-test-prep/ttp for open PRs. Found updated activity on PR #4371. Reviewed changes — no issues found."
     },
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-03-26T08:00:00Z",
       "duration_seconds": 84.9,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2445,7 +2453,7 @@
       "timestamp": "2026-03-26T07:00:00Z",
       "duration_seconds": 95.1,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2453,7 +2461,7 @@
       "timestamp": "2026-03-26T06:00:00Z",
       "duration_seconds": 96.3,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2461,7 +2469,7 @@
       "timestamp": "2026-03-26T05:00:00Z",
       "duration_seconds": 90.8,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2469,7 +2477,7 @@
       "timestamp": "2026-03-26T04:00:00Z",
       "duration_seconds": 80.8,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2477,7 +2485,7 @@
       "timestamp": "2026-03-26T03:00:00Z",
       "duration_seconds": 90.8,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2485,7 +2493,7 @@
       "timestamp": "2026-03-26T02:00:00Z",
       "duration_seconds": 97.5,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2493,7 +2501,7 @@
       "timestamp": "2026-03-26T01:00:00Z",
       "duration_seconds": 96.4,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2501,7 +2509,7 @@
       "timestamp": "2026-03-26T00:00:00Z",
       "duration_seconds": 90.3,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2509,7 +2517,7 @@
       "timestamp": "2026-03-25T23:00:00Z",
       "duration_seconds": 78.0,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2517,7 +2525,7 @@
       "timestamp": "2026-03-25T22:00:00Z",
       "duration_seconds": 80.9,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2525,7 +2533,7 @@
       "timestamp": "2026-03-25T21:00:00Z",
       "duration_seconds": 88.2,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2533,7 +2541,7 @@
       "timestamp": "2026-03-25T20:00:00Z",
       "duration_seconds": 87.8,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2541,7 +2549,7 @@
       "timestamp": "2026-03-25T19:00:00Z",
       "duration_seconds": 90.2,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2549,7 +2557,7 @@
       "timestamp": "2026-03-25T18:00:00Z",
       "duration_seconds": 99.1,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2557,7 +2565,7 @@
       "timestamp": "2026-03-25T17:00:00Z",
       "duration_seconds": 72.7,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2565,7 +2573,7 @@
       "timestamp": "2026-03-25T16:00:00Z",
       "duration_seconds": 90.7,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2573,7 +2581,7 @@
       "timestamp": "2026-03-25T15:00:00Z",
       "duration_seconds": 514.3,
       "status": "success",
-      "summary": "Deep review of PR #4371 \u2014 left 3 comments",
+      "summary": "Deep review of PR #4371 — left 3 comments",
       "details": "Scanned target-test-prep/ttp for open PRs. Found PR #4371 (bug/ttp-5997-chapter-titles-appear-truncated). Performed deep code review. Left 3 inline comments regarding CSS overflow handling and text truncation logic. Suggested using text-overflow: ellipsis with max-width constraint."
     },
     {
@@ -2581,7 +2589,7 @@
       "timestamp": "2026-03-25T14:00:00Z",
       "duration_seconds": 93.5,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2589,7 +2597,7 @@
       "timestamp": "2026-03-25T13:00:00Z",
       "duration_seconds": 123.5,
       "status": "success",
-      "summary": "Checked open PRs \u2014 no new activity",
+      "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
     },
     {
@@ -2597,7 +2605,7 @@
       "timestamp": "2026-03-25T12:00:17Z",
       "duration_seconds": 76.5,
       "status": "error",
-      "summary": "Failed \u2014 claude exited with code 1",
+      "summary": "Failed — claude exited with code 1",
       "details": "Attempted to scan target-test-prep/ttp for open PRs. Claude process crashed with exit code 1 after 76.5 seconds. Likely a transient API timeout or rate limit. No PRs were reviewed this run.",
       "errors": [
         "claude exited with code 1"
@@ -2608,7 +2616,7 @@
       "timestamp": "2026-03-25T11:00:00Z",
       "duration_seconds": 410.0,
       "status": "success",
-      "summary": "Reviewed PR #4371 and PR #4359 \u2014 approved both",
+      "summary": "Reviewed PR #4371 and PR #4359 — approved both",
       "details": "Scanned target-test-prep/ttp for open PRs. Found 2 PRs with new activity. PR #4371 (bug/ttp-5997-chapter-titles): reviewed CSS changes, approved. PR #4359 (feature/ttp-5982-gre-visual-tiles): reviewed migration and tile component changes, approved."
     },
     {
@@ -2616,7 +2624,7 @@
       "timestamp": "2026-03-25T10:00:00Z",
       "duration_seconds": 284.3,
       "status": "success",
-      "summary": "Reviewed PR #4353 \u2014 left 2 comments on deprecation handling",
+      "summary": "Reviewed PR #4353 — left 2 comments on deprecation handling",
       "details": "Scanned target-test-prep/ttp for open PRs. Found PR #4353 (bug/ttp-5462-deprecated-errors-field). Reviewed Rails 7 migration for errors field syntax. Left 2 comments about backward compatibility with existing error message consumers."
     },
     {
@@ -2624,7 +2632,7 @@
       "timestamp": "2026-04-02T19:00:00Z",
       "duration_seconds": 226.3,
       "status": "success",
-      "summary": "Reviewed 1 PRs: #4406 [TTPAI-37] Add manifest-driven content ingestion pipeline \u2192 Approved"
+      "summary": "Reviewed 1 PRs: #4406 [TTPAI-37] Add manifest-driven content ingestion pipeline → Approved"
     }
   ]
 }
