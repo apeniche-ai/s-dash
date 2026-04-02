@@ -123,6 +123,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-02T20:34:31Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "test-from-daemon-simulation",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-02T20:30:01Z",
       "duration_seconds": 1.0,
       "status": "success",
