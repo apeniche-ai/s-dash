@@ -123,6 +123,14 @@
   "runs": [
     {
       "agent": "daily-performance-check-in",
+      "timestamp": "2026-04-02T11:45:42Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Performance Check-in...",
+      "details": null
+    },
+    {
+      "agent": "daily-performance-check-in",
       "timestamp": "2026-04-02T11:34:41Z",
       "duration_seconds": 601.3,
       "status": "error",
