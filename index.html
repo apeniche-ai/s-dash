@@ -89,29 +89,35 @@
     <!-- Disabled agents -->
     <section id="disabled-agents" class="mb-8"></section>
 
-    <!-- Usage Panel -->
+    <!-- Usage Panel (collapsible) -->
     <section id="usage-panel" class="mb-10">
-      <div class="flex items-center gap-3 mb-4">
+      <div class="flex items-center gap-3 mb-4 cursor-pointer select-none" onclick="toggle_usage()">
         <h2 class="text-[13px] font-semibold dark:text-zinc-200 text-zinc-700 uppercase tracking-wider">Usage</h2>
+        <svg id="usage-chevron" class="w-4 h-4 dark:text-zinc-500 text-zinc-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        <span id="usage-hint" class="text-[10px] dark:text-zinc-600 text-zinc-400"></span>
         <div class="flex-1 h-px dark:bg-zinc-800 bg-zinc-200"></div>
       </div>
-      <div class="dark:bg-zinc-900/60 bg-white border dark:border-zinc-800 border-zinc-200 rounded-xl p-5">
-        <!-- Time window selector -->
-        <div class="flex items-center gap-1.5 mb-5">
-          <div class="flex dark:bg-zinc-800/80 bg-zinc-100/80 rounded-lg p-0.5 border dark:border-transparent border-zinc-200">
-            <button class="usage-window-btn px-2.5 py-1 text-[11px] font-medium rounded-md transition-all" data-hours="1">1h</button>
-            <button class="usage-window-btn px-2.5 py-1 text-[11px] font-medium rounded-md transition-all" data-hours="3">3h</button>
-            <button class="usage-window-btn px-2.5 py-1 text-[11px] font-medium rounded-md transition-all" data-hours="6">6h</button>
-            <button class="usage-window-btn px-2.5 py-1 text-[11px] font-medium rounded-md transition-all" data-hours="12">12h</button>
-            <button class="usage-window-btn px-2.5 py-1 text-[11px] font-medium rounded-md transition-all" data-hours="24">24h</button>
-            <button class="usage-window-btn px-2.5 py-1 text-[11px] font-medium rounded-md transition-all" data-hours="168">7d</button>
+      <div id="usage-body" class="expandable">
+        <div>
+          <div class="dark:bg-zinc-900/60 bg-white border dark:border-zinc-800 border-zinc-200 rounded-xl p-5">
+            <!-- Time window selector -->
+            <div class="flex items-center gap-1.5 mb-5">
+              <div class="flex dark:bg-zinc-800/80 bg-zinc-100/80 rounded-lg p-0.5 border dark:border-transparent border-zinc-200">
+                <button class="usage-window-btn px-2.5 py-1 text-[11px] font-medium rounded-md transition-all" data-hours="1">1h</button>
+                <button class="usage-window-btn px-2.5 py-1 text-[11px] font-medium rounded-md transition-all" data-hours="3">3h</button>
+                <button class="usage-window-btn px-2.5 py-1 text-[11px] font-medium rounded-md transition-all" data-hours="6">6h</button>
+                <button class="usage-window-btn px-2.5 py-1 text-[11px] font-medium rounded-md transition-all" data-hours="12">12h</button>
+                <button class="usage-window-btn px-2.5 py-1 text-[11px] font-medium rounded-md transition-all" data-hours="24">24h</button>
+                <button class="usage-window-btn px-2.5 py-1 text-[11px] font-medium rounded-md transition-all" data-hours="168">7d</button>
+              </div>
+              <span class="text-[10px] dark:text-zinc-600 text-zinc-400 ml-2">Subscription usage (no extra charges)</span>
+            </div>
+            <!-- Summary cards -->
+            <div id="usage-summary" class="grid grid-cols-3 gap-4 mb-5"></div>
+            <!-- Per-agent breakdown -->
+            <div id="usage-agents"></div>
           </div>
-          <span class="text-[10px] dark:text-zinc-600 text-zinc-400 ml-2">Subscription usage (no extra charges)</span>
         </div>
-        <!-- Summary cards -->
-        <div id="usage-summary" class="grid grid-cols-3 gap-4 mb-5"></div>
-        <!-- Per-agent breakdown -->
-        <div id="usage-agents"></div>
       </div>
     </section>
 
@@ -369,7 +375,12 @@
         return ae !== be ? ae - be : agents[a].name.localeCompare(agents[b].name);
       });
 
-      var enabled = keys.filter(function(k) { return agents[k].status === 'enabled'; });
+      var all_runs = data.runs || [];
+      var enabled = keys.filter(function(k) {
+        if (agents[k].status !== 'enabled') return false;
+        // Hide agents that have never run
+        return all_runs.some(function(r) { return r.agent === k; });
+      });
       var disabled = keys.filter(function(k) { return agents[k].status !== 'enabled'; });
 
       // Enabled agents — visual cards with icons
@@ -615,6 +626,15 @@
     // ── Usage Panel ─────────────────────────────────────
 
     var usage_hours = 24;
+    var usage_open = false;
+
+    function toggle_usage() {
+      usage_open = !usage_open;
+      document.getElementById('usage-body').classList.toggle('open', usage_open);
+      document.getElementById('usage-chevron').style.transform = usage_open ? 'rotate(180deg)' : '';
+      document.getElementById('usage-hint').style.display = usage_open ? 'none' : '';
+      if (usage_open) render_usage();
+    }
 
     function render_usage() {
       if (!data) return;
@@ -643,6 +663,13 @@
         '  <div class="text-xl font-semibold dark:text-white text-zinc-900 tabular-nums">' + total_runs + '</div>' +
         '  <div class="text-[10px] ' + (errors > 0 ? 'text-red-400' : 'dark:text-zinc-600 text-zinc-400') + ' mt-0.5">' + (errors > 0 ? errors + ' failed' : 'All passed') + '</div>' +
         '</div>';
+
+      // Update collapsed hint (always shows 24h summary)
+      var hint_runs = (data.runs || []).filter(function(r) { return (Date.now() - new Date(r.timestamp).getTime()) < 86400000; });
+      var hint_tok = hint_runs.reduce(function(s, r) { return s + (r.total_tokens || 0); }, 0);
+      var hint_cost = hint_runs.reduce(function(s, r) { return s + (r.cost_usd || 0); }, 0);
+      var hint_el = document.getElementById('usage-hint');
+      if (hint_el) hint_el.textContent = fmt_tokens(hint_tok) + ' tok · $' + hint_cost.toFixed(2) + ' (24h)';
 
       // Per-agent breakdown
       var by_agent = {};
