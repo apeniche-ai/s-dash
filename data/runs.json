@@ -124,9 +124,9 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-02T20:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "test",
       "details": null
     },
     {
