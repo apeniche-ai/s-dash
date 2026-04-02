@@ -122,14 +122,6 @@
   },
   "runs": [
     {
-      "agent": "test-verify",
-      "timestamp": "2026-04-02T20:42:04Z",
-      "duration_seconds": 2.5,
-      "status": "success",
-      "summary": "Retry logic works",
-      "details": null
-    },
-    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-02T19:00:02Z",
       "duration_seconds": 226.3,
