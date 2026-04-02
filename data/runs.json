@@ -124,9 +124,9 @@
     {
       "agent": "test-verify",
       "timestamp": "2026-04-02T20:42:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Testing retry logic",
+      "duration_seconds": 2.5,
+      "status": "success",
+      "summary": "Retry logic works",
       "details": null
     },
     {
