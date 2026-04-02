@@ -124,10 +124,13 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-02T13:30:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 88.2,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1"
+      ]
     },
     {
       "agent": "pr-reviewer",
