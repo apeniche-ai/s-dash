@@ -123,6 +123,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-02T21:30:02Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-02T21:00:01Z",
       "duration_seconds": 0.8,
       "status": "success",
