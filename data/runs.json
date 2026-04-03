@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-03T20:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 203.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4337 [5787] Add ttp rapid review screen → Approved",
+      "details": null,
+      "cost_usd": 1.2275739999999997,
+      "total_tokens": 7559
     },
     {
       "agent": "pr-reviewer",
