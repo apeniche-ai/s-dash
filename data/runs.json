@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-03T19:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 121.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4409 [6052] Update banner code from META25 to META10 → Approved",
+      "details": null,
+      "cost_usd": 0.5706327499999999,
+      "total_tokens": 4371
     },
     {
       "agent": "pr-reviewer",
