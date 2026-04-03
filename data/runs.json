@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-03T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 240.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4407 [TTPAI-67] Implement shadow routing Anthropic-first with Bedrock fallback → Approved",
+      "details": null,
+      "cost_usd": 1.3585909999999997,
+      "total_tokens": 9617
     },
     {
       "agent": "pr-reviewer",
