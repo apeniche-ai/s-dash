@@ -122,6 +122,14 @@
   },
   "runs": [
     {
+      "agent": "daily-performance-check-in",
+      "timestamp": "2026-04-03T11:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Performance Check-in...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-03T11:00:01Z",
       "duration_seconds": 0.9,
