@@ -124,10 +124,12 @@
     {
       "agent": "system-health-audit",
       "timestamp": "2026-04-04T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running System Health Audit...",
-      "details": null
+      "duration_seconds": 260.9,
+      "status": "success",
+      "summary": "",
+      "details": null,
+      "cost_usd": 0.74260375,
+      "total_tokens": 12329
     },
     {
       "agent": "soren-improvement-implementation",
