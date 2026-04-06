@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-06T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 261.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4389 [5965] Update login UI for GMAT, GRE, EA, and SAT exams → Approved",
+      "details": null,
+      "cost_usd": 1.4359652500000002,
+      "total_tokens": 8024
     },
     {
       "agent": "pr-reviewer",
