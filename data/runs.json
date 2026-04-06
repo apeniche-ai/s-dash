@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-06T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 143.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4416 [6027] Remove Jeff and Sage from online tutoring carousel → Approved",
+      "details": null,
+      "cost_usd": 0.7887215000000001,
+      "total_tokens": 5561
     },
     {
       "agent": "pr-reviewer",
