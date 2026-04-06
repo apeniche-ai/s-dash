@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-06T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 174.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4408 [6029] Adds custom MathML-to-OMML pipeline for Word export → Approved",
+      "details": null,
+      "cost_usd": 1.0755572500000001,
+      "total_tokens": 7383
     },
     {
       "agent": "pr-reviewer",
