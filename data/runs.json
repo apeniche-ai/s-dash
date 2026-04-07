@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-07T11:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 242.7,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4419 [TTPAI-70] Move sanitization from base classes to per-service post parse → Changes Requested (critical: sanitize_parsed_exercise drops fields breaking quantitative_comparison and ",
+      "details": null,
+      "cost_usd": 1.25506325,
+      "total_tokens": 10943
     },
     {
       "agent": "pr-reviewer",
