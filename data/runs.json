@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-07T13:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 254.7,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4419 [TTPAI-70] Move sanitization from base classes to per-service post parse → Approved",
+      "details": null,
+      "cost_usd": 1.4925555000000001,
+      "total_tokens": 10923
     },
     {
       "agent": "pr-reviewer",
