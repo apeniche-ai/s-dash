@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-07T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 189.7,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4420 [6046] Upgrade dev/test/lint gems to major versions → Approved",
+      "details": null,
+      "cost_usd": 1.27724875,
+      "total_tokens": 7092
     },
     {
       "agent": "pr-reviewer",
