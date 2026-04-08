@@ -124,10 +124,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-04-08T22:10:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 479.5,
+      "status": "success",
+      "summary": "",
+      "details": null,
+      "cost_usd": 0.9001279999999999,
+      "total_tokens": 21184
     },
     {
       "agent": "pr-reviewer",
