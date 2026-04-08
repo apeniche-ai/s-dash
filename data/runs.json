@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-08T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 260.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4422 [6045] Upgrade Devise from 4.9.4 to 5.0.3 → Approved",
+      "details": null,
+      "cost_usd": 1.8138615,
+      "total_tokens": 9697
     },
     {
       "agent": "soren-improvement-implementation",
