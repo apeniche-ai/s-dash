@@ -124,10 +124,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-04-09T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 179.4,
+      "status": "success",
+      "summary": "Daily coaching check-in sent to Telegram. Here's what happened:",
+      "details": null,
+      "cost_usd": 0.66592675,
+      "total_tokens": 7860
     },
     {
       "agent": "pr-reviewer",
