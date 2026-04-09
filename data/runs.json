@@ -124,10 +124,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-09T15:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 370.7,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4423 [TTPAI-53] Add generations audit table and ExerciseService integration → Changes Requested (critical bug: `enabled_for?` method deleted but still called — Generation audit silentl",
+      "details": null,
+      "cost_usd": 2.1962335,
+      "total_tokens": 15102
     },
     {
       "agent": "pr-reviewer",
