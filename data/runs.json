@@ -124,10 +124,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-04-09T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 77.6,
+      "status": "success",
+      "summary": "Evening reflection sent. The message is short and action-oriented — it reminds Amaury that *now* is the right time for the Contribution Autopsy (the retrospective exercise assigned this morning), give",
+      "details": null,
+      "cost_usd": 0.37689125,
+      "total_tokens": 1828
     },
     {
       "agent": "pr-reviewer",
