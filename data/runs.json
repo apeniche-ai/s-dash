@@ -10,14 +10,14 @@
     "pr-reviewer": {
       "id": "01KNW58WDR9EC7EFMQKD96XMKQ",
       "name": "PR Reviewer",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "0,30 5-17 * * 1-5",
       "description": "Automated code review of open PRs every 30 min during work hours"
     },
     "system-health-audit": {
       "id": "01KNW58WDP05KHTREQGMX2EVDZ",
       "name": "System Health Audit",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "0 10 * * 6",
       "description": "Weekly audit of all Soren subsystems — jobs, agents, memory, goals, suggestions, notifications, costs"
     },
@@ -31,35 +31,35 @@
     "weekly-team-shipping-report": {
       "id": "01KNW58WDKY1H20CS72VM2QY8C",
       "name": "Weekly Team Shipping Report",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "45 7 * * 1",
       "description": "Monday morning team shipping & velocity report with size-weighted stats, WIP visibility, and review activity"
     },
     "soren-improvement-implementation": {
       "id": "01KNW58WDJWGQXNJK0DSRSABME",
       "name": "Improvement Implementation",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "5 2 * * *",
       "description": "Implement approved improvement suggestions autonomously at 2 AM"
     },
     "soren-improvement-review": {
       "id": "01KNW58WDHNM2NRWV3MNZSD50J",
       "name": "Improvement Review",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "10 17 * * *",
       "description": "Evaluate goals, identify capability gaps, and propose improvements with implementation plans"
     },
     "evening-performance-reflection": {
       "id": "01KNW58WDFWS6JQVNAYBEPXZG2",
       "name": "Evening Performance Reflection",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "5 20 * * 1-5",
       "description": "Evening coaching check-in — close the feedback loop on today's exercise"
     },
     "daily-performance-check-in": {
       "id": "01KNW58WDBP08NMCDS0SEF8609",
       "name": "Daily Performance Check-in",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "30 6 * * 1-5",
       "description": "Morning interactive coaching session — questions, exercises, and pattern tracking"
     },
