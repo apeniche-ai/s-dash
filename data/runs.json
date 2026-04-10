@@ -1,119 +1,112 @@
 {
   "agents": {
-    "weekly-team-shipping-report": {
-      "id": "01KN0E258WM28M05BC9YFPQTAP",
-      "name": "Weekly Team Shipping Report",
-      "status": "enabled",
-      "schedule": "45 7 * * 1",
-      "description": "Weekly Team Shipping Report (team-intel agent)"
-    },
-    "system-health-audit": {
-      "id": "01KMXZPZN29WA0SZKYQX9X6KHZ",
-      "name": "System Health Audit",
-      "status": "enabled",
-      "schedule": "0 10 * * 6",
-      "description": "Weekly audit of all Soren subsystems — jobs, agents, memory, goals, suggestions, notifications, costs"
-    },
-    "test:-improvement-implementer-(one-off)": {
-      "id": "01KMTX5T8FJW4EZ1QR8AHQPE0C",
-      "name": "Test: Improvement Implementer (one-off)",
-      "status": "disabled",
-      "schedule": "0 16 28 3 *",
-      "description": "One-off test of the improvement-implementer after MCP fixes. Should complete quickly if pre-check works."
-    },
-    "evening-performance-reflection": {
-      "id": "01KMEEVENING0PERFORMANCE0R",
-      "name": "Evening Performance Reflection",
-      "status": "enabled",
-      "schedule": "5 20 * * 1-5",
-      "description": "Evening coaching check-in — close the feedback loop on today's exercise"
-    },
     "browser-qa-smoke-test": {
-      "id": "01KMC90RKVTJRZ9W9XXHSZCKE7",
+      "id": "01KNW58WDS0KBJE5R8DZ0412ZD",
       "name": "Browser QA Smoke Test",
       "status": "disabled",
       "schedule": "15 7 * * 1-5",
       "description": "Daily browser smoke test on gmat.targettestprep.com"
     },
     "pr-reviewer": {
-      "id": "01KMC90RKRQ61C8ETBMA76NBXD",
+      "id": "01KNW58WDR9EC7EFMQKD96XMKQ",
       "name": "PR Reviewer",
-      "status": "enabled",
+      "status": "disabled",
       "schedule": "0,30 5-17 * * 1-5",
-      "description": "Automated hourly code review of open PRs"
+      "description": "Automated code review of open PRs every 30 min during work hours"
+    },
+    "system-health-audit": {
+      "id": "01KNW58WDP05KHTREQGMX2EVDZ",
+      "name": "System Health Audit",
+      "status": "disabled",
+      "schedule": "0 10 * * 6",
+      "description": "Weekly audit of all Soren subsystems — jobs, agents, memory, goals, suggestions, notifications, costs"
     },
     "passive-income-opportunity-scan": {
-      "id": "01KMC90RKQP7ZNQY6BCWHAW0QA",
+      "id": "01KNW58WDNK7ZFNMZ1QD0VCT2F",
       "name": "Passive Income Opportunity Scan",
       "status": "disabled",
       "schedule": "5 12 * * 6",
       "description": "Weekly research into passive income opportunities"
     },
+    "weekly-team-shipping-report": {
+      "id": "01KNW58WDKY1H20CS72VM2QY8C",
+      "name": "Weekly Team Shipping Report",
+      "status": "disabled",
+      "schedule": "45 7 * * 1",
+      "description": "Monday morning team shipping & velocity report with size-weighted stats, WIP visibility, and review activity"
+    },
     "soren-improvement-implementation": {
-      "id": "01KMC90RKPV9P0GK4RZ8FH5QFW",
+      "id": "01KNW58WDJWGQXNJK0DSRSABME",
       "name": "Improvement Implementation",
-      "status": "enabled",
+      "status": "disabled",
       "schedule": "5 2 * * *",
       "description": "Implement approved improvement suggestions autonomously at 2 AM"
     },
     "soren-improvement-review": {
-      "id": "01KMC90RKMZ3XMSSWRB2294PGE",
+      "id": "01KNW58WDHNM2NRWV3MNZSD50J",
       "name": "Improvement Review",
-      "status": "enabled",
+      "status": "disabled",
       "schedule": "10 17 * * *",
       "description": "Evaluate goals, identify capability gaps, and propose improvements with implementation plans"
     },
+    "evening-performance-reflection": {
+      "id": "01KNW58WDFWS6JQVNAYBEPXZG2",
+      "name": "Evening Performance Reflection",
+      "status": "disabled",
+      "schedule": "5 20 * * 1-5",
+      "description": "Evening coaching check-in — close the feedback loop on today's exercise"
+    },
     "daily-performance-check-in": {
-      "id": "01KMC90RKJK96A68GDZP9HZCQH",
+      "id": "01KNW58WDBP08NMCDS0SEF8609",
       "name": "Daily Performance Check-in",
-      "status": "enabled",
+      "status": "disabled",
       "schedule": "30 6 * * 1-5",
       "description": "Morning interactive coaching session — questions, exercises, and pattern tracking"
     },
-    "slack-sync": {
-      "id": "01KMC90RKBE7X1EJGCC4VVDNFB",
-      "name": "Slack Sync",
-      "status": "disabled",
-      "schedule": "30 * * * *",
-      "description": "Sync new Slack messages to local database for context"
-    },
     "stale-pr-detector": {
-      "id": "01KKY9AR0DBX5DBXR7429BSRF7",
+      "id": "01KNW58WD9H77TK9PXPMN7X9M0",
       "name": "Stale PR Detector",
       "status": "disabled",
       "schedule": "10 10 * * 1-5",
       "description": "Find PRs that have been open too long"
     },
     "weekly-goal-review": {
-      "id": "01KKY9AR0ABNXSVYH3BMQ2TF06",
+      "id": "01KNW58WD8B849CCZGH8BR82BA",
       "name": "Weekly Goal Review",
       "status": "disabled",
       "schedule": "5 9 * * 1",
       "description": "Weekly goal progress review"
     },
     "end-of-day-report": {
-      "id": "01KKY9AQZ70BVAHXQTDA8AJD8Z",
+      "id": "01KNW58WD69WTG90ZZG480TQG7",
       "name": "End of Day Report",
       "status": "disabled",
       "schedule": "5 18 * * 1-5",
       "description": "Daily end-of-day summary"
     },
     "pr-monitor": {
-      "id": "01KKY9AQZ5JCRMWRKK2EB2NB7C",
+      "id": "01KNW58WD45R4WCK6R6M5JRX98",
       "name": "PR Monitor",
       "status": "disabled",
-      "schedule": "*/15 * * * *",
+      "schedule": "5,20,35,50 * * * *",
       "description": "Monitor GitHub for new and updated PRs"
     },
+    "slack-sync": {
+      "id": "01KNW58WD3T9SR88FZB408A06K",
+      "name": "Slack Sync",
+      "status": "disabled",
+      "schedule": "30 * * * *",
+      "description": "Sync new Slack messages to local database for context"
+    },
     "slack-digest": {
-      "id": "01KKY9AQZ2B83B2BXG70D3SS4G",
+      "id": "01KNW58WD11CHXWTH5YAWYCR6X",
       "name": "Slack Digest",
       "status": "disabled",
       "schedule": "15,45 * * * *",
-      "description": "Monitor Slack for unread messages and mentions"
+      "description": "Classified Slack digest with psychometric insights"
     },
     "morning-briefing": {
-      "id": "01KKY9AQYSHETPWESA6JF6GQJQ",
+      "id": "01KNW58WCV3SYRRPGFV81KGGZE",
       "name": "Morning Briefing",
       "status": "disabled",
       "schedule": "5 7 * * 1-5",
