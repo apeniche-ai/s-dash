@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-10T17:02:37Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 300.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4324 [5623] Implement Contrast/Agreement game → Changes Requested (3 prior issues unaddressed: LIKE injection, JS pluralization bug, N+1 query)",
+      "details": null,
+      "cost_usd": 1.6985355,
+      "total_tokens": 11225
     },
     {
       "agent": "pr-reviewer",
