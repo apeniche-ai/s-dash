@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-10T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 319.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4395 [TTPAI-55][TTPAI-56] Add AI service observability columns and feature event analytics tracking → Approved",
+      "details": null,
+      "cost_usd": 1.7440292499999996,
+      "total_tokens": 13956
     },
     {
       "agent": "pr-reviewer",
