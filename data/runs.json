@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-10T20:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 166.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4430 [6058] Reassign tiles archived lessons → Approved",
+      "details": null,
+      "cost_usd": 0.879918,
+      "total_tokens": 6042
     },
     {
       "agent": "pr-reviewer",
