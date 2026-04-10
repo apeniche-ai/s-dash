@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-10T19:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 285.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4429 [6029] Fix Must Know round-trip between Word export and import → Changes Requested (FIB answer round-trip bug, silent Pandoc merge failure)",
+      "details": null,
+      "cost_usd": 1.061643,
+      "total_tokens": 12049
     },
     {
       "agent": "pr-reviewer",
