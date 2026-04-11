@@ -117,10 +117,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-04-11T01:05:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 69.3,
+      "status": "success",
+      "summary": "Evening reflection sent. Brief Friday check-in that:",
+      "details": null,
+      "cost_usd": 0.386397,
+      "total_tokens": 1922
     },
     {
       "agent": "pr-reviewer",
