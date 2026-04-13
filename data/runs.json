@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T21:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 294.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4445 AI Deploy (20260414) - [37][40][42][55][56][74] - [6031] → Approved",
+      "details": null,
+      "cost_usd": 1.59521775,
+      "total_tokens": 13126
     },
     {
       "agent": "pr-reviewer",
