@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 184.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4438 [6069] Fix chatbot image uploads silently dropped → Approved",
+      "details": null,
+      "cost_usd": 0.930053,
+      "total_tokens": 7337
     },
     {
       "agent": "pr-reviewer",
