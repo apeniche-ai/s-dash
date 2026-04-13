@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 193.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4443 [6049] Upgrade haml 5.2.2 to 7.2.0 and haml-rails 2.1.0 to 3.0.0 and haml_lint 0.40.1 to 0.73.0 → Approved",
+      "details": null,
+      "cost_usd": 0.9647490000000002,
+      "total_tokens": 7706
     },
     {
       "agent": "pr-reviewer",
