@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-team-shipping-report",
+      "timestamp": "2026-04-13T12:45:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Team Shipping Report...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T12:30:01Z",
       "duration_seconds": 217.3,
