@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 217.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4439 [6048] Upgrade country_select to 9.0.0 and countries to 6.0.1 → Approved",
+      "details": null,
+      "cost_usd": 1.1651619999999998,
+      "total_tokens": 8990
     },
     {
       "agent": "pr-reviewer",
