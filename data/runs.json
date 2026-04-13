@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 236.2,
+      "status": "success",
+      "summary": "",
+      "details": null,
+      "cost_usd": 1.18581825,
+      "total_tokens": 8667
     },
     {
       "agent": "weekly-team-shipping-report",
