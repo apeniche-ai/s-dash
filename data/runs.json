@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 219.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4442 [6063] Fix Synonym game pair pluralization → Approved",
+      "details": null,
+      "cost_usd": 1.01382825,
+      "total_tokens": 7833
     },
     {
       "agent": "pr-reviewer",
