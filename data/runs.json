@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T11:32:10Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 199.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4436 [6062] Upgrade Rack from 2.2.22 to 3.x → Approved",
+      "details": null,
+      "cost_usd": 0.9629652499999999,
+      "total_tokens": 8789
     },
     {
       "agent": "daily-performance-check-in",
