@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T11:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 314.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4428 [TTPAI-58] Absorb TutorService hint mode into ChatbotService → Approved",
+      "details": null,
+      "cost_usd": 1.920506,
+      "total_tokens": 13298
     },
     {
       "agent": "pr-reviewer",
