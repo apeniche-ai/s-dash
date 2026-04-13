@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T10:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 286.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4395 [TTPAI-55][TTPAI-56] Add AI service observability columns and feature event analytics tracking → Changes Requested (critical bug: undefined `text` variable in `attempt_bedrock` s",
+      "details": null,
+      "cost_usd": 1.7628814999999998,
+      "total_tokens": 12647
     },
     {
       "agent": "soren-improvement-implementation",
