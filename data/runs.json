@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 206.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4444 [TTPAI-51] Add ELO rating system for PULSE data layer → Approved",
+      "details": null,
+      "cost_usd": 0.797814,
+      "total_tokens": 6605
     },
     {
       "agent": "pr-reviewer",
