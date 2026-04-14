@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-14T10:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 279.5,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4415 [TTPAI-68] Wire Vector KB retrieval into Score Analyzer → Changes Requested (missing `product: \"test_prep\"` filter on curriculum search — re-flagged from previous review)",
+      "details": null,
+      "cost_usd": 1.2864255000000002,
+      "total_tokens": 11067
     },
     {
       "agent": "soren-improvement-implementation",
