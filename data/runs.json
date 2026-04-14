@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-14T11:31:55Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 130.2,
+      "status": "success",
+      "summary": "",
+      "details": null,
+      "cost_usd": 0.7741562499999999,
+      "total_tokens": 4637
     },
     {
       "agent": "daily-performance-check-in",
