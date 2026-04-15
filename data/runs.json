@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-15T17:30:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 219.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4455 [TTPAI-104] Fix cost mailer pricing → Approved",
+      "details": null,
+      "cost_usd": 1.09248625,
+      "total_tokens": 7964
     },
     {
       "agent": "pr-reviewer",
