@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-04-15T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-15T22:00:01Z",
       "duration_seconds": 1.0,
@@ -4792,14 +4800,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-03-26T03:00:00Z",
       "duration_seconds": 90.8,
-      "status": "success",
-      "summary": "Checked open PRs — no new activity",
-      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-26T02:00:00Z",
-      "duration_seconds": 97.5,
       "status": "success",
       "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
