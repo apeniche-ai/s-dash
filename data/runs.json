@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-15T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-15T15:30:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4782,14 +4790,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-03-25T14:00:00Z",
       "duration_seconds": 93.5,
-      "status": "success",
-      "summary": "Checked open PRs — no new activity",
-      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-25T13:00:00Z",
-      "duration_seconds": 123.5,
       "status": "success",
       "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
