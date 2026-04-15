@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-15T10:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 228.5,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4396 [6029][Admin] Add Word document export for topics and chapters → Approved",
+      "details": null,
+      "cost_usd": 1.5561597499999995,
+      "total_tokens": 9005
     },
     {
       "agent": "soren-improvement-implementation",
