@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-15T14:30:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review — 37 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-15T14:00:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4788,14 +4796,6 @@
       "status": "success",
       "summary": "Reviewed PR #4371 and PR #4359 — approved both",
       "details": "Scanned target-test-prep/ttp for open PRs. Found 2 PRs with new activity. PR #4371 (bug/ttp-5997-chapter-titles): reviewed CSS changes, approved. PR #4359 (feature/ttp-5982-gre-visual-tiles): reviewed migration and tile component changes, approved."
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-25T10:00:00Z",
-      "duration_seconds": 284.3,
-      "status": "success",
-      "summary": "Reviewed PR #4353 — left 2 comments on deprecation handling",
-      "details": "Scanned target-test-prep/ttp for open PRs. Found PR #4353 (bug/ttp-5462-deprecated-errors-field). Reviewed Rails 7 migration for errors field syntax. Left 2 comments about backward compatibility with existing error message consumers."
     }
   ]
 }
