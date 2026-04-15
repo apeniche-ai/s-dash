@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-15T17:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-15T16:30:01Z",
       "duration_seconds": 346.7,
       "status": "success",
@@ -4789,14 +4797,6 @@
       "status": "success",
       "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-25T15:00:00Z",
-      "duration_seconds": 514.3,
-      "status": "success",
-      "summary": "Deep review of PR #4371 — left 3 comments",
-      "details": "Scanned target-test-prep/ttp for open PRs. Found PR #4371 (bug/ttp-5997-chapter-titles-appear-truncated). Performed deep code review. Left 3 inline comments regarding CSS overflow handling and text truncation logic. Suggested using text-overflow: ellipsis with max-width constraint."
     }
   ]
 }
