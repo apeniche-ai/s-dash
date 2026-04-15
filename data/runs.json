@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-15T15:30:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 35 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-15T15:00:01Z",
       "duration_seconds": 0.8,
       "status": "success",
@@ -4785,17 +4793,6 @@
       "status": "success",
       "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-25T12:00:17Z",
-      "duration_seconds": 76.5,
-      "status": "error",
-      "summary": "Failed — claude exited with code 1",
-      "details": "Attempted to scan target-test-prep/ttp for open PRs. Claude process crashed with exit code 1 after 76.5 seconds. Likely a transient API timeout or rate limit. No PRs were reviewed this run.",
-      "errors": [
-        "claude exited with code 1"
-      ]
     }
   ]
 }
