@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-15T19:00:01Z",
+      "duration_seconds": 0.7,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-15T18:30:01Z",
       "duration_seconds": 1.6,
       "status": "success",
@@ -4792,14 +4800,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-03-25T20:00:00Z",
       "duration_seconds": 87.8,
-      "status": "success",
-      "summary": "Checked open PRs — no new activity",
-      "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-25T19:00:00Z",
-      "duration_seconds": 90.2,
       "status": "success",
       "summary": "Checked open PRs — no new activity",
       "details": "Scanned target-test-prep/ttp for open PRs. No new PRs or updates since last check."
