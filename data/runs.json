@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-15T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 346.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4396 [6029] Add Word document export for topics and chapters → Changes Requested (2 unfixed bugs from prior review: blank correct_option_index, unchecked pandoc exit status)",
+      "details": null,
+      "cost_usd": 2.11773375,
+      "total_tokens": 11811
     },
     {
       "agent": "pr-reviewer",
