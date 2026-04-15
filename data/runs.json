@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-15T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 514.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4415 [TTPAI-68][TTPAI-78] Wire Vector KB retrieval into Score Analyzer and improve prompt → Changes Requested (4 spec bugs: undefined SCORE_ANALYZER_EMAILS constant, Hash/.name mismat",
+      "details": null,
+      "cost_usd": 2.552267999999999,
+      "total_tokens": 22689
     },
     {
       "agent": "pr-reviewer",
