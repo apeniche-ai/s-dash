@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-16T13:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 239.2,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4456 [6046] Upgrade Pagy gem from v9.3.4 to v43.4.4 → Approved",
+      "details": null,
+      "cost_usd": 1.263541,
+      "total_tokens": 9629
     },
     {
       "agent": "pr-reviewer",
