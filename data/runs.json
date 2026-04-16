@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-16T18:00:02Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-16T17:30:01Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4789,16 +4797,6 @@
       "details": null,
       "cost_usd": 0.197481,
       "total_tokens": 1715
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-27T03:00:04Z",
-      "duration_seconds": 112.1,
-      "status": "success",
-      "summary": "All 22 open PRs on targettestprep/ttp already have skip labels (\"Claude Reviewed\", \"Blocked\", \"Work in Progress\", \"Changes Requested\", or \"Won't Merge\"). No PRs qualify for review.",
-      "details": null,
-      "cost_usd": 0.2843495,
-      "total_tokens": 1936
     }
   ]
 }
