@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-16T15:00:02Z",
+      "duration_seconds": 1.8,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-16T14:30:01Z",
       "duration_seconds": 1.0,
       "status": "success",
@@ -4799,17 +4807,6 @@
       "details": null,
       "cost_usd": 1.8646256000000003,
       "total_tokens": 12037
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-03-26T22:11:05Z",
-      "duration_seconds": 660.9,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "claude exited with code null: ============================================================\nBun v1.3.11 (759ce802) macOS x64\nmacOS v13.7.8\nCPU: sse42 popcnt avx avx2\nArgs: \"/Users/giulia/.local/bin/claude\" \"-p\" \"--dangerously-skip-permissions\" \"--mcp-config\" \"/Users/giulia/.soren/tmp/daemon-mcp-config.json\" \"--output-format\" \"json\" \"--append-system-prompt\" \"You are Soren's Improvement Revie\"...\nFeatures: Bun.stderr(2) Bun.stdin(2) Bun.stdout(2) abort_signal(67) fetch(131) jsc spawn(82) standalone_executable yaml_parse(25) \nBu"
-      ]
     }
   ]
 }
