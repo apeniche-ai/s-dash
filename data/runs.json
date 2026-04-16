@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-16T11:32:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 190.8,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4457 [TTPAI-113] Switches snapshot and SIP rake tasks to staleness-scope → Approved",
+      "details": null,
+      "cost_usd": 0.8109057500000001,
+      "total_tokens": 7831
     },
     {
       "agent": "daily-performance-check-in",
