@@ -117,10 +117,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-04-16T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 141.6,
+      "status": "success",
+      "summary": "Daily review complete. Created 2 suggestions, both aimed at the coaching lever for Goal 3 — flipping the VP Scorecard exercise from memory recall to evidence-based reframing, and adding a weekly coach",
+      "details": null,
+      "cost_usd": 0.70901125,
+      "total_tokens": 7565
     },
     {
       "agent": "pr-reviewer",
