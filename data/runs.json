@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-16T12:00:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-16T11:32:02Z",
       "duration_seconds": 190.8,
       "status": "success",
@@ -4803,14 +4811,6 @@
       "status": "success",
       "summary": "All 22 open PRs already have the \"Claude Reviewed\" label (or other skip labels like \"Blocked\", \"Changes Requested\", \"Won't Merge\"). No PRs qualify for review.",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-26T15:37:31Z",
-      "duration_seconds": 95.2,
-      "status": "success",
-      "summary": "Checked 3 open PRs — no new activity",
-      "details": "Scanned target-test-prep/ttp for open PRs. Found 3 open PRs. No new commits or comments since last check."
     }
   ]
 }
