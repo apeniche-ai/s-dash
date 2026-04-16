@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-16T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-16T12:30:01Z",
       "duration_seconds": 140.4,
       "status": "success",
@@ -4802,17 +4810,6 @@
       "details": null,
       "cost_usd": 0.16325275,
       "total_tokens": 2307
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-26T18:00:06Z",
-      "duration_seconds": 1201.8,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 1200s"
-      ]
     }
   ]
 }
