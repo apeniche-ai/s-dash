@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-16T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 160.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4451 [TTPAI-103] Fix Vector KB filter mismatches causing long example generation times → Approved",
+      "details": null,
+      "cost_usd": 1.27218075,
+      "total_tokens": 8857
     },
     {
       "agent": "pr-reviewer",
