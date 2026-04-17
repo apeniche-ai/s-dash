@@ -117,10 +117,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-04-17T01:05:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 57.6,
+      "status": "success",
+      "summary": "Evening reflection sent. Closed the loop on this morning's share — targeted the residual hedge (\"maybe\") rather than piling on. Pending question stored. No new exercise assigned (morning job's role).",
+      "details": null,
+      "cost_usd": 0.58732775,
+      "total_tokens": 2745
     },
     {
       "agent": "pr-reviewer",
