@@ -117,10 +117,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-04-17T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 65.3,
+      "status": "success",
+      "summary": "Morning coaching check-in sent. Followed up on pending VP Scorecard (still active) and last night's unanswered question about dropping the \"maybe.\" Targeted today's work at the residual hedging form o",
+      "details": null,
+      "cost_usd": 0.65823075,
+      "total_tokens": 3748
     },
     {
       "agent": "pr-reviewer",
