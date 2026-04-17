@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-17T11:31:07Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-04-17T11:30:01Z",
       "duration_seconds": 65.3,
@@ -4763,16 +4771,6 @@
       "details": null,
       "cost_usd": 0.2717515,
       "total_tokens": 2286
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-27T18:00:04Z",
-      "duration_seconds": 90.8,
-      "status": "success",
-      "summary": "No eligible PRs to review — all open PRs either have skip-labels (\"Claude Reviewed\", \"Blocked\", \"Work in Progress\", \"Changes Requested\", \"Won't Merge\"), or are drafts. No batched reviews pending eithe",
-      "details": null,
-      "cost_usd": 0.20106225,
-      "total_tokens": 1311
     }
   ]
 }
