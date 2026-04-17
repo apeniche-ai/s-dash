@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-17T11:31:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 240.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4459 [6078] Fix flash card decks index page crashing dyno with memory quota exceeded → Changes Requested (residual N+1 on flash_card_sessions; `||` fallback reintroduces per-deck quer",
+      "details": null,
+      "cost_usd": 1.6028162499999998,
+      "total_tokens": 14934
     },
     {
       "agent": "daily-performance-check-in",
