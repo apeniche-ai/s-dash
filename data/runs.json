@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-17T12:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 326.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4458 [TTPAI-114][TTPAI-115] Fixes text completion blank count mismatch and multiple answer questions issue → Approved",
+      "details": null,
+      "cost_usd": 2.23278125,
+      "total_tokens": 19866
     },
     {
       "agent": "pr-reviewer",
