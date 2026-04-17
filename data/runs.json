@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-17T18:30:01Z",
+      "duration_seconds": 0.7,
+      "status": "success",
+      "summary": "No PRs to review — 37 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-17T18:00:01Z",
       "duration_seconds": 0.7,
       "status": "success",
@@ -4757,16 +4765,6 @@
       "errors": [
         "Claude Code timed out after 1800s"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-28T06:00:04Z",
-      "duration_seconds": 83.3,
-      "status": "success",
-      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
-      "details": null,
-      "cost_usd": 0.22910224999999998,
-      "total_tokens": 1409
     }
   ]
 }
