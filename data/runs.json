@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-17T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 169.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4460 [6051] Upgrade data layer gems (paper_trail 17.0, activerecord-import 2.2.0, rolify 6.0.1) → Approved",
+      "details": null,
+      "cost_usd": 1.2025035,
+      "total_tokens": 8154
     },
     {
       "agent": "pr-reviewer",
