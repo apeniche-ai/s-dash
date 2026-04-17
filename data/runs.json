@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-17T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 198.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4452 [6039] Fix error tracker form on firefox → Changes Requested (click handler fires on cancelled Rails confirm, causing spurious bfcache reload)",
+      "details": null,
+      "cost_usd": 1.265013,
+      "total_tokens": 12348
     },
     {
       "agent": "pr-reviewer",
