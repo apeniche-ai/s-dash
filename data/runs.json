@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-17T10:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-implementation",
       "timestamp": "2026-04-17T07:05:01Z",
       "duration_seconds": 0.0,
@@ -4764,17 +4772,6 @@
       "details": null,
       "errors": [
         "Claude Code timed out after 600s"
-      ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-27T14:00:04Z",
-      "duration_seconds": 1201.9,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 1200s"
       ]
     }
   ]
