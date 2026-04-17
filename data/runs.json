@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-17T17:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 119.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4465 [6080] Fix diagnostic paused banner for completed tests → Approved",
+      "details": null,
+      "cost_usd": 1.03508,
+      "total_tokens": 6803
     },
     {
       "agent": "pr-reviewer",
