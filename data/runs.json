@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-17T22:30:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-04-17T22:10:01Z",
       "duration_seconds": 127.0,
@@ -4740,16 +4748,6 @@
       "details": null,
       "cost_usd": 0.22752100000000003,
       "total_tokens": 1530
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-28T14:00:02Z",
-      "duration_seconds": 61.4,
-      "status": "success",
-      "summary": "All 21 open PRs are either drafts or have skip labels. Zero PRs are eligible for review.",
-      "details": null,
-      "cost_usd": 0.22431700000000002,
-      "total_tokens": 1340
     }
   ]
 }
