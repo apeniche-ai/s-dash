@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-17T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 189.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4462 [6051] Upgrade infrastructure gems (rubyzip 3.2.2, mini_magick 5.31, wicked 2.0.0, pretender 0.6.0) → Approved",
+      "details": null,
+      "cost_usd": 1.29013125,
+      "total_tokens": 9401
     },
     {
       "agent": "pr-reviewer",
