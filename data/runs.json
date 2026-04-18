@@ -117,10 +117,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-04-18T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 77.1,
+      "status": "success",
+      "summary": "Evening reflection sent. Asked one focused question about a direction-shifting moment today, explicitly calling out the hedging. Pending question stored. No new exercise assigned — VP Scorecard remain",
+      "details": null,
+      "cost_usd": 0.60938375,
+      "total_tokens": 2730
     },
     {
       "agent": "pr-reviewer",
