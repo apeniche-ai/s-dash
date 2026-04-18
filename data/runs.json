@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "evening-performance-reflection",
+      "timestamp": "2026-04-18T01:05:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Evening Performance Reflection...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-17T22:30:01Z",
       "duration_seconds": 1.0,
@@ -4738,16 +4746,6 @@
       "details": null,
       "cost_usd": 0.2770475,
       "total_tokens": 2136
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-28T15:00:03Z",
-      "duration_seconds": 64.4,
-      "status": "success",
-      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
-      "details": null,
-      "cost_usd": 0.22752100000000003,
-      "total_tokens": 1530
     }
   ]
 }
