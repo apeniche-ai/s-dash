@@ -117,10 +117,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-04-18T22:10:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 142.5,
+      "status": "success",
+      "summary": "Review complete. Created 1 P9 suggestion targeting the External Validation Dependency pattern identified in last night's coaching — the freshest, most actionable coaching insight available. Held back ",
+      "details": null,
+      "cost_usd": 0.7551065,
+      "total_tokens": 8565
     },
     {
       "agent": "system-health-audit",
