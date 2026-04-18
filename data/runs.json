@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "system-health-audit",
+      "timestamp": "2026-04-18T15:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running System Health Audit...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-implementation",
       "timestamp": "2026-04-18T07:05:00Z",
       "duration_seconds": 0.0,
@@ -4736,16 +4744,6 @@
       "details": null,
       "cost_usd": 0.25435125,
       "total_tokens": 1645
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-28T17:00:05Z",
-      "duration_seconds": 82.4,
-      "status": "success",
-      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
-      "details": null,
-      "cost_usd": 0.19235075000000001,
-      "total_tokens": 1087
     }
   ]
 }
