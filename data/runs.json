@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-implementation",
+      "timestamp": "2026-04-18T07:05:00Z",
+      "duration_seconds": 0.0,
+      "status": "success",
+      "summary": "No approved suggestions — skipped",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-04-18T01:05:00Z",
       "duration_seconds": 77.1,
@@ -4738,16 +4746,6 @@
       "details": null,
       "cost_usd": 0.19235075000000001,
       "total_tokens": 1087
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-28T16:00:04Z",
-      "duration_seconds": 94.0,
-      "status": "success",
-      "summary": "No PRs to review — 21 open, all skipped (labeled). No batched reviews from previous runs either. Per instructions: no Telegram message, no memory storage, silent exit.",
-      "details": null,
-      "cost_usd": 0.2770475,
-      "total_tokens": 2136
     }
   ]
 }
