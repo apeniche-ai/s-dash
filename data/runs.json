@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-20T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 236.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4461 [TTPAI-83] Add response streaming via Pusher with frontend chunk → Approved",
+      "details": null,
+      "cost_usd": 1.68064175,
+      "total_tokens": 13006
     },
     {
       "agent": "weekly-team-shipping-report",
