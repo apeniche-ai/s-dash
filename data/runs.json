@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-20T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 123.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4468 [6083] - Time tracker overlaps graph on dashboard → Approved",
+      "details": null,
+      "cost_usd": 1.0176125,
+      "total_tokens": 6411
     },
     {
       "agent": "pr-reviewer",
