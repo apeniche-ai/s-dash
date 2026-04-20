@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-20T13:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 203.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4469 [6076] Fix carousel arrow overlap on small screens and iPad → Approved",
+      "details": null,
+      "cost_usd": 1.553553,
+      "total_tokens": 11370
     },
     {
       "agent": "pr-reviewer",
