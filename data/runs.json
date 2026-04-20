@@ -117,10 +117,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-04-20T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 127.8,
+      "status": "success",
+      "summary": "Daily review complete. 0 new suggestions — all three goals are covered, no acute failures, and 6 suggestions already await your approval. Best next step is clearing that backlog rather than adding mor",
+      "details": null,
+      "cost_usd": 0.70906975,
+      "total_tokens": 6297
     },
     {
       "agent": "pr-reviewer",
