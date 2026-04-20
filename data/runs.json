@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-coaching-digest",
+      "timestamp": "2026-04-20T01:30:28Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Coaching Digest...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-04-19T22:10:00Z",
       "duration_seconds": 165.8,
@@ -4734,16 +4742,6 @@
       "details": null,
       "cost_usd": 0.29629300000000003,
       "total_tokens": 2324
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-28T20:01:39Z",
-      "duration_seconds": 96.7,
-      "status": "success",
-      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
-      "details": null,
-      "cost_usd": 0.234663,
-      "total_tokens": 1499
     }
   ]
 }
