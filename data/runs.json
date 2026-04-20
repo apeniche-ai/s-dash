@@ -117,10 +117,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-04-20T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 57.9,
+      "status": "success",
+      "summary": "Check-in sent. Followed up on Saturday's pending \"How old is this voice?\" exercise with three observation-focused questions — no new exercise assigned since the existing one is within the 3-day window",
+      "details": null,
+      "cost_usd": 0.63004875,
+      "total_tokens": 3254
     },
     {
       "agent": "pr-reviewer",
