@@ -117,10 +117,12 @@
     {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-04-20T12:45:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Team Shipping Report...",
-      "details": null
+      "duration_seconds": 186.1,
+      "status": "success",
+      "summary": "Weekly shipping report complete. Both messages sent to Telegram:",
+      "details": null,
+      "cost_usd": 1.3033607499999997,
+      "total_tokens": 13087
     },
     {
       "agent": "pr-reviewer",
