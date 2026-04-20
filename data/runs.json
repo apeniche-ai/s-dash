@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-20T11:30:59Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-04-20T11:30:00Z",
       "duration_seconds": 57.9,
@@ -4734,16 +4742,6 @@
       "errors": [
         "Claude Code timed out after 600s"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-28T22:01:41Z",
-      "duration_seconds": 98.4,
-      "status": "success",
-      "summary": "No PRs to review — 21 open, all skipped (labeled/draft)",
-      "details": null,
-      "cost_usd": 0.247785,
-      "total_tokens": 1557
     }
   ]
 }
