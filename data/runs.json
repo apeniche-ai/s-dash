@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-20T11:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 231.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4461 [TTPAI-83] Add response streaming via Pusher with frontend chunk → Changes Requested (RAG cache key omits query, innerHTML XSS on streaming chunks, Pusher failure aborts response",
+      "details": null,
+      "cost_usd": 1.8524262500000002,
+      "total_tokens": 13647
     },
     {
       "agent": "pr-reviewer",
