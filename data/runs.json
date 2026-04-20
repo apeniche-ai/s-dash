@@ -117,10 +117,12 @@
     {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-04-20T01:30:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Coaching Digest...",
-      "details": null
+      "duration_seconds": 107.4,
+      "status": "success",
+      "summary": "Digest sent to Telegram and stored in memory. Four themes surfaced: pattern-connection across domains (progress), VP-ruler moments produced (progress), external-validation dependency named (progress o",
+      "details": null,
+      "cost_usd": 0.9090759999999999,
+      "total_tokens": 6572
     },
     {
       "agent": "soren-improvement-review",
