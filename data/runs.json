@@ -117,10 +117,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-04-21T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 89.8,
+      "status": "success",
+      "summary": "Check-in sent. The \"How old is this voice?\" weekend observation exercise was marked expired yesterday — Monday morning's follow-up and Monday evening's pivot question both went unanswered. Assigned a ",
+      "details": null,
+      "cost_usd": 0.6952115,
+      "total_tokens": 5294
     },
     {
       "agent": "pr-reviewer",
