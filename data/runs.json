@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-21T18:00:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 37 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-21T17:30:01Z",
       "duration_seconds": 224.5,
       "status": "success",
@@ -4695,16 +4703,6 @@
       "details": null,
       "cost_usd": 0.27213049999999994,
       "total_tokens": 1355
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-03-30T11:30:01Z",
-      "duration_seconds": 73.6,
-      "status": "success",
-      "summary": "**Session 1 sent and tracked.** Here's what I did:",
-      "details": null,
-      "cost_usd": 0.30269825,
-      "total_tokens": 2835
     }
   ]
 }
