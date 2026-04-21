@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-21T11:31:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 226.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4453 [TTPAI-92] Re run image descriptions with Sonnet 4.6 via shadow routing → Approved",
+      "details": null,
+      "cost_usd": 1.86062675,
+      "total_tokens": 13184
     },
     {
       "agent": "daily-performance-check-in",
