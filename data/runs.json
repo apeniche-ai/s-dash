@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-21T11:31:30Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-04-21T11:30:00Z",
       "duration_seconds": 89.8,
@@ -4699,16 +4707,6 @@
       "details": null,
       "cost_usd": 0.224669,
       "total_tokens": 1196
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-30T00:00:01Z",
-      "duration_seconds": 55.8,
-      "status": "success",
-      "summary": "No PRs to review — 21 open, all skipped (18 Claude Reviewed, 3 Changes Requested, 2 Blocked, 2 WIP, 1 Won't Merge)",
-      "details": null,
-      "cost_usd": 0.29844375,
-      "total_tokens": 1933
     }
   ]
 }
