@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-21T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 399.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4424 [6038] Migrate payment system from Recurly to Stripe → Changes Requested (missing `/subscriptions/create_stripe_payment_intent` endpoint breaks PayPal/Affirm under flag; non-atom",
+      "details": null,
+      "cost_usd": 3.2394404999999997,
+      "total_tokens": 23424
     },
     {
       "agent": "pr-reviewer",
