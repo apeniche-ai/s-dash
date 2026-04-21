@@ -117,10 +117,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-04-21T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 149.6,
+      "status": "success",
+      "summary": "Daily review complete. 0 new suggestions today — system is healthy, all 3 goals covered, 0 job failures in 24h, and the existing 9-suggestion backlog should be triaged before adding more. Telegram sum",
+      "details": null,
+      "cost_usd": 0.7947057500000001,
+      "total_tokens": 7789
     },
     {
       "agent": "pr-reviewer",
