@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-21T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 369.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4461 [TTPAI-83] Add response streaming via Pusher with frontend chunk → Changes Requested (extended thinking disabled on streaming path against spec AC#8; handle_chat_error doesn't ma",
+      "details": null,
+      "cost_usd": 3.10004825,
+      "total_tokens": 21571
     },
     {
       "agent": "pr-reviewer",
