@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-21T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 274.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4452 [6039] Fix error tracker form on firefox → Approved",
+      "details": null,
+      "cost_usd": 1.5579295000000002,
+      "total_tokens": 14568
     },
     {
       "agent": "pr-reviewer",
