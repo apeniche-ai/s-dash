@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-21T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 158.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4448 [TTPAI-82] Add V1 personalization fields to StudentIntelligenceProfile summary_for_prompt → Approved",
+      "details": null,
+      "cost_usd": 1.2404837499999999,
+      "total_tokens": 8662
     },
     {
       "agent": "pr-reviewer",
