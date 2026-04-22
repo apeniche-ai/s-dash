@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-22T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 188.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4423 [TTPAI-53] Add generations audit table and ExerciseService integration → Approved",
+      "details": null,
+      "cost_usd": 1.9948792499999999,
+      "total_tokens": 9249
     },
     {
       "agent": "pr-reviewer",
