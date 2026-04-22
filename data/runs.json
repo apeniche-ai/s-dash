@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-22T16:30:04Z",
+      "duration_seconds": 4.3,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-22T16:00:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4665,16 +4673,6 @@
       "details": null,
       "cost_usd": 0.5707452499999999,
       "total_tokens": 3145
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-31T11:00:00Z",
-      "duration_seconds": 235.1,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4400 [TTPAI-41] Add cross-exam retrieval with Setting gate and structured logging → Approved",
-      "details": null,
-      "cost_usd": 1.0719649999999998,
-      "total_tokens": 9562
     }
   ]
 }
