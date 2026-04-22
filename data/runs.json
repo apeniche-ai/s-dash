@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-22T12:00:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-22T11:31:48Z",
       "duration_seconds": 349.3,
       "status": "success",
@@ -4673,16 +4681,6 @@
       "details": null,
       "cost_usd": 0.24522099999999997,
       "total_tokens": 1596
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-31T03:00:01Z",
-      "duration_seconds": 173.3,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4398 [6033] Upgrade Rails 7.2.3.1, Ruby 3.4.9 → Approved (6 CVEs fixed, ~40 gems patched, matches TTP-6033)",
-      "details": null,
-      "cost_usd": 0.8684405,
-      "total_tokens": 6874
     }
   ]
 }
