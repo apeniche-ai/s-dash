@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-22T20:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 202.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4476 [6104] Make Setting.for per-request memoized → Approved",
+      "details": null,
+      "cost_usd": 1.2021572499999997,
+      "total_tokens": 10924
     },
     {
       "agent": "pr-reviewer",
