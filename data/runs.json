@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-22T10:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 314.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4415 [TTPAI-68][TTPAI-78] Wire Vector KB retrieval into Score Analyzer and improve prompt → Approved",
+      "details": null,
+      "cost_usd": 2.6738825000000004,
+      "total_tokens": 14891
     },
     {
       "agent": "soren-improvement-implementation",
