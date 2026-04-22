@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-22T20:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-22T19:30:01Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4641,17 +4649,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-03-31T17:02:28Z",
       "duration_seconds": 901.0,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 900s"
-      ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-31T16:40:13Z",
-      "duration_seconds": 901.4,
       "status": "error",
       "summary": "",
       "details": null,
