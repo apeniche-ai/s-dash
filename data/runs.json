@@ -131,10 +131,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-04-22T23:57:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 123.0,
+      "status": "success",
+      "summary": "Daily improvement review complete. 0 new suggestions today — consistent with yesterday's guidance. System is healthy (0 failures in 24h, all 3 goals nominally covered), but the 9-item suggestion backl",
+      "details": null,
+      "cost_usd": 0.65484925,
+      "total_tokens": 6122
     },
     {
       "agent": "pr-reviewer",
