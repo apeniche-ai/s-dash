@@ -1,5 +1,19 @@
 {
   "agents": {
+    "weekly-passive-income-research": {
+      "id": "01KPVT09MY735CPQNH2DDNYKXT",
+      "name": "Weekly Passive Income Research",
+      "status": "disabled",
+      "schedule": "5 19 * * 0",
+      "description": "Sunday evening — one curated passive income opportunity brief, tailored to Amaury's profile"
+    },
+    "weekly-coaching-digest": {
+      "id": "01KPCKKB2W0TKGNH5EPE6WNJJY",
+      "name": "Weekly Coaching Digest",
+      "status": "enabled",
+      "schedule": "30 20 * * 0",
+      "description": "Every Sunday at 8:30 PM — synthesizes the week's coaching conversations, exercises, and pattern work into a growth mirror so Amaury can see his own trajectory instead of isolated sessions."
+    },
     "browser-qa-smoke-test": {
       "id": "01KNW58WDS0KBJE5R8DZ0412ZD",
       "name": "Browser QA Smoke Test",
