@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-22T11:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 137.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4474 Update Github workflow → Approved",
+      "details": null,
+      "cost_usd": 1.124722,
+      "total_tokens": 7272
     },
     {
       "agent": "pr-reviewer",
