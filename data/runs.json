@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-22T10:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-implementation",
       "timestamp": "2026-04-22T07:05:01Z",
       "duration_seconds": 0.0,
@@ -4673,16 +4681,6 @@
       "details": null,
       "cost_usd": 0.32999825,
       "total_tokens": 1654
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-30T23:00:01Z",
-      "duration_seconds": 39.9,
-      "status": "success",
-      "summary": "All 18 open PRs are either drafts or already have skip labels. No PRs to review this run, no batched reviews — exiting silently per the rules.",
-      "details": null,
-      "cost_usd": 0.250882,
-      "total_tokens": 1279
     }
   ]
 }
