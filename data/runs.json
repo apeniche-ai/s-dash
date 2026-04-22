@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-22T17:30:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-22T17:00:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4661,16 +4669,6 @@
       "details": null,
       "cost_usd": 0.32953125,
       "total_tokens": 2158
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-31T12:00:01Z",
-      "duration_seconds": 165.5,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4401 [TTPAI-56] Add AI feature events adoption tracking table → Approved",
-      "details": null,
-      "cost_usd": 0.68014475,
-      "total_tokens": 7386
     }
   ]
 }
