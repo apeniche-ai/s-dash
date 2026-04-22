@@ -116,6 +116,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-22T18:00:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-22T17:30:01Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4659,16 +4667,6 @@
       "errors": [
         "Claude Code timed out after 600s"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-31T13:00:01Z",
-      "duration_seconds": 63.0,
-      "status": "success",
-      "summary": "No PRs to review — 22 open, all skipped (labeled/draft). Sent 5 batched overnight reviews via Telegram.",
-      "details": null,
-      "cost_usd": 0.32953125,
-      "total_tokens": 2158
     }
   ]
 }
