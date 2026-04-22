@@ -117,10 +117,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-04-22T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 106.9,
+      "status": "success",
+      "summary": "Check-in sent. Building directly on Monday's Cool Guy breakthrough: two retrospective questions (earliest \"act like it's nothing\" memory + where the armor is costing him now) plus \"The Cool Guy Invent",
+      "details": null,
+      "cost_usd": 0.7701064999999999,
+      "total_tokens": 5790
     },
     {
       "agent": "pr-reviewer",
