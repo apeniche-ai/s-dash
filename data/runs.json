@@ -115,6 +115,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-implementation",
+      "timestamp": "2026-04-22T07:05:01Z",
+      "duration_seconds": 0.0,
+      "status": "success",
+      "summary": "No approved suggestions — skipped",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-04-22T01:05:00Z",
       "duration_seconds": 73.1,
@@ -4675,16 +4683,6 @@
       "details": null,
       "cost_usd": 0.250882,
       "total_tokens": 1279
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-03-30T22:10:00Z",
-      "duration_seconds": 432.8,
-      "status": "success",
-      "summary": "Daily improvement review complete. Here's the summary:",
-      "details": null,
-      "cost_usd": 1.0624327,
-      "total_tokens": 14995
     }
   ]
 }
