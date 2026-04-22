@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-22T11:31:48Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 349.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4475 [6092] Eliminate real Recurly API calls from test environment → Changes Requested (doc-vs-code mismatch in tasks/lessons.md — claims WebMock.disable_net_connect! but spec_helper.",
+      "details": null,
+      "cost_usd": 1.6144412500000003,
+      "total_tokens": 16164
     },
     {
       "agent": "daily-performance-check-in",
