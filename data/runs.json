@@ -117,10 +117,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-22T13:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 226.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4434 [TTPAI-73] Enable AI features across all exam sections and add DI question type parsers → Approved",
+      "details": null,
+      "cost_usd": 1.767994,
+      "total_tokens": 11942
     },
     {
       "agent": "pr-reviewer",
