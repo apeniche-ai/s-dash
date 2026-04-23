@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-23T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 220.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4475 [6092] Eliminate real Recurly API calls from test environment → Approved",
+      "details": null,
+      "cost_usd": 1.6822537499999997,
+      "total_tokens": 10706
     },
     {
       "agent": "pr-reviewer",
