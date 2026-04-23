@@ -129,6 +129,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-23T11:31:39Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-04-23T11:30:00Z",
       "duration_seconds": null,
@@ -4637,16 +4645,6 @@
       "details": null,
       "cost_usd": 0.25344725,
       "total_tokens": 1877
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-31T22:43:59Z",
-      "duration_seconds": 88.3,
-      "status": "success",
-      "summary": "No PR reviewed, no batched reviews. Exiting silently.",
-      "details": null,
-      "cost_usd": 0.261255,
-      "total_tokens": 1477
     }
   ]
 }
