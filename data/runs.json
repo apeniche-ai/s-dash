@@ -129,6 +129,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-04-23T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-23T22:00:02Z",
       "duration_seconds": 1.5,
@@ -4615,16 +4623,6 @@
       "details": null,
       "cost_usd": 0.2942455,
       "total_tokens": 2006
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T15:00:18Z",
-      "duration_seconds": 52.2,
-      "status": "success",
-      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
-      "details": null,
-      "cost_usd": 0.25471425,
-      "total_tokens": 1582
     }
   ]
 }
