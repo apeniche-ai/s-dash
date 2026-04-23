@@ -129,6 +129,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-04-23T19:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-23T18:30:01Z",
       "duration_seconds": 1.2,
@@ -4625,16 +4633,6 @@
       "details": null,
       "cost_usd": 0.38608775,
       "total_tokens": 2576
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T13:00:04Z",
-      "duration_seconds": 47.9,
-      "status": "success",
-      "summary": "No PR reviewed, no batched reviews. Exiting silently.",
-      "details": null,
-      "cost_usd": 0.27544375,
-      "total_tokens": 1778
     }
   ]
 }
