@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-23T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 215.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4477 [6082][Admin] Fix persistent error toast after invalid HTML import → Approved",
+      "details": null,
+      "cost_usd": 1.5546479999999998,
+      "total_tokens": 10489
     },
     {
       "agent": "pr-reviewer",
