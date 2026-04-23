@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-23T21:00:02Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 25 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-23T20:30:01Z",
       "duration_seconds": 524.6,
       "status": "success",
@@ -4621,16 +4629,6 @@
       "details": null,
       "cost_usd": 0.27559649999999997,
       "total_tokens": 1466
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T14:06:53Z",
-      "duration_seconds": 410.5,
-      "status": "success",
-      "summary": "The soren MCP tools aren't available in this session, so I can't search for batched reviews or send Telegram notifications. The review itself is complete.",
-      "details": null,
-      "cost_usd": 1.1843235,
-      "total_tokens": 7582
     }
   ]
 }
