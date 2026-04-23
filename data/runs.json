@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-23T17:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-23T16:30:02Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4627,16 +4635,6 @@
       "details": null,
       "cost_usd": 0.24309475,
       "total_tokens": 2067
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T12:00:05Z",
-      "duration_seconds": 37.3,
-      "status": "success",
-      "summary": "PR Reviewer failed — GitHub API 503 on list_pull_requests. Telegram notification sent. Exiting.",
-      "details": null,
-      "cost_usd": 0.21209974999999995,
-      "total_tokens": 653
     }
   ]
 }
