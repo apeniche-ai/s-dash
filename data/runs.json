@@ -130,7 +130,7 @@
   "runs": [
     {
       "agent": "passive-income-research-loop",
-      "timestamp": "2026-04-23T13:10:22Z",
+      "timestamp": "2026-04-23T13:17:01Z",
       "duration_seconds": null,
       "status": "running",
       "summary": "Running Passive Income Research Loop...",
