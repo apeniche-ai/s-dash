@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-23T16:30:02Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 25 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-23T16:00:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4629,16 +4637,6 @@
       "details": null,
       "cost_usd": 0.21209974999999995,
       "total_tokens": 653
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-04-01T11:33:34Z",
-      "duration_seconds": 129.6,
-      "status": "success",
-      "summary": "Morning coaching check-in sent and all memory updated.",
-      "details": null,
-      "cost_usd": 0.47763174999999997,
-      "total_tokens": 5141
     }
   ]
 }
