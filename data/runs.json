@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-23T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 325.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4470 [TTPAI-116] Wire chatbot frontend to TTPAI-58 backend contract → Changes Requested (section_nudge multi-chat-box scoping bug + `or`→`||` Rubocop lint)",
+      "details": null,
+      "cost_usd": 2.7460632499999997,
+      "total_tokens": 17670
     },
     {
       "agent": "pr-reviewer",
