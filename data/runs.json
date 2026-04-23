@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-23T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 220.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4453 [TTPAI-92] Re run image descriptions with Sonnet 4.6 → Approved",
+      "details": null,
+      "cost_usd": 1.7501730000000002,
+      "total_tokens": 10823
     },
     {
       "agent": "soren-improvement-implementation",
