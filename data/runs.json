@@ -3,14 +3,14 @@
     "passive-income-state-consolidation": {
       "id": "01KPX729KG3MXFMK516S8T6MDH",
       "name": "Passive Income State Consolidation",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "0 21 * * 0",
       "description": "Weekly rebuild of the passive-income-state summary from the ledger + log"
     },
     "passive-income-research-loop": {
       "id": "01KPX729KA9QVASW9H4SMSDZWN",
       "name": "Passive Income Research Loop",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "0 6,10,14,18,22 * * *",
       "description": "Continuous-research tick (5x/day) driving P8 — see passive-income agent system prompt"
     },
