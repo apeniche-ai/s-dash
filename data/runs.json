@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-23T20:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-23T20:00:01Z",
       "duration_seconds": 1.0,
       "status": "success",
@@ -4621,16 +4629,6 @@
       "details": null,
       "cost_usd": 1.1843235,
       "total_tokens": 7582
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T14:00:04Z",
-      "duration_seconds": 174.9,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4403 [TTPAI-43] Add learning tag suggestion and import rake tasks → Approved (24 open, 23 skipped — labeled/draft)",
-      "details": null,
-      "cost_usd": 0.7583065000000001,
-      "total_tokens": 7271
     }
   ]
 }
