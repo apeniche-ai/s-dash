@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-23T11:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-23T10:30:02Z",
       "duration_seconds": 363.9,
       "status": "success",
@@ -4639,16 +4647,6 @@
       "details": null,
       "cost_usd": 0.9790628500000002,
       "total_tokens": 12533
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-03-31T22:00:01Z",
-      "duration_seconds": 177.2,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4396 [6029] Add Word document export for topics and chapters → Approved (2 non-critical suggestions: missing data-word-download on topic links, copy-paste typo in error message)",
-      "details": null,
-      "cost_usd": 1.1164732499999999,
-      "total_tokens": 7100
     }
   ]
 }
