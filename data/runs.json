@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-23T11:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 162.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4466 [6081] Fix LinkedIn and YouTube capitalization → Approved",
+      "details": null,
+      "cost_usd": 1.2030829999999997,
+      "total_tokens": 8088
     },
     {
       "agent": "pr-reviewer",
