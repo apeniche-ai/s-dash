@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-23T20:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 524.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4472 [TTPAI-117] Migrate summary, flashcard, and tutor services to deterministic vector KB retrieval → Approved",
+      "details": null,
+      "cost_usd": 3.836338000000001,
+      "total_tokens": 27216
     },
     {
       "agent": "pr-reviewer",
