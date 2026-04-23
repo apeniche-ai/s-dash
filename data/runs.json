@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-23T21:30:02Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 25 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-23T21:00:02Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4619,16 +4627,6 @@
       "details": null,
       "cost_usd": 0.36916625000000003,
       "total_tokens": 2327
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T14:30:08Z",
-      "duration_seconds": 59.1,
-      "status": "success",
-      "summary": "No batched reviews found — those are just the process descriptions, not actual batches. No PR reviewed this run and no batches to send. Exiting silently.",
-      "details": null,
-      "cost_usd": 0.27559649999999997,
-      "total_tokens": 1466
     }
   ]
 }
