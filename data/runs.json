@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-23T11:31:39Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 244.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4471 [TTPAI-38] Remove all Bedrock dependencies and migrates AiAssist s… → Approved",
+      "details": null,
+      "cost_usd": 2.1036217500000003,
+      "total_tokens": 10748
     },
     {
       "agent": "daily-performance-check-in",
