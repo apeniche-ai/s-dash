@@ -1,11 +1,18 @@
 {
   "agents": {
-    "weekly-passive-income-research": {
-      "id": "01KPVT09MY735CPQNH2DDNYKXT",
-      "name": "Weekly Passive Income Research",
+    "passive-income-state-consolidation": {
+      "id": "01KPX729KG3MXFMK516S8T6MDH",
+      "name": "Passive Income State Consolidation",
       "status": "disabled",
-      "schedule": "5 19 * * 0",
-      "description": "Sunday evening — one curated passive income opportunity brief, tailored to Amaury's profile"
+      "schedule": "0 21 * * 0",
+      "description": "Weekly rebuild of the passive-income-state summary from the ledger + log"
+    },
+    "passive-income-research-loop": {
+      "id": "01KPX729KA9QVASW9H4SMSDZWN",
+      "name": "Passive Income Research Loop",
+      "status": "disabled",
+      "schedule": "0 6,10,14,18,22 * * *",
+      "description": "Continuous-research tick (5x/day) driving P8 — see passive-income agent system prompt"
     },
     "weekly-coaching-digest": {
       "id": "01KPCKKB2W0TKGNH5EPE6WNJJY",
@@ -34,13 +41,6 @@
       "status": "enabled",
       "schedule": "0 10 * * 6",
       "description": "Weekly audit of all Soren subsystems — jobs, agents, memory, goals, suggestions, notifications, costs"
-    },
-    "passive-income-opportunity-scan": {
-      "id": "01KNW58WDNK7ZFNMZ1QD0VCT2F",
-      "name": "Passive Income Opportunity Scan",
-      "status": "disabled",
-      "schedule": "5 12 * * 6",
-      "description": "Weekly research into passive income opportunities"
     },
     "weekly-team-shipping-report": {
       "id": "01KNW58WDKY1H20CS72VM2QY8C",
