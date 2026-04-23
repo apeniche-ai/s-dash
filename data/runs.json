@@ -129,6 +129,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-23T22:30:01Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 23 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-04-23T22:10:00Z",
       "duration_seconds": 204.1,
@@ -4615,16 +4623,6 @@
       "status": "success",
       "summary": "Test run from Soren CLI",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T15:01:44Z",
-      "duration_seconds": 101.3,
-      "status": "success",
-      "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
-      "details": null,
-      "cost_usd": 0.2942455,
-      "total_tokens": 2006
     }
   ]
 }
