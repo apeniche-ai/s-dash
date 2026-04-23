@@ -131,10 +131,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-04-23T13:17:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 369.4,
+      "status": "success",
+      "summary": "Tick complete. Bootstrapped state + seeded ledger with 4 threads (MentalTune, MCP-for-Rails, covered-call ETF, Rails+Claude tooling). MentalTune audit returned a clean 12–16h-to-launch verdict; distri",
+      "details": null,
+      "cost_usd": 1.7978182499999997,
+      "total_tokens": 8678
     },
     {
       "agent": "pr-reviewer",
