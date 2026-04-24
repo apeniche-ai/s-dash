@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-24T15:30:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 26 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-24T15:02:40Z",
       "duration_seconds": 383.8,
       "status": "success",
@@ -4600,17 +4608,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-04-01T22:32:06Z",
       "duration_seconds": 57.2,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "claude exited with code 1"
-      ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T22:30:02Z",
-      "duration_seconds": 64.3,
       "status": "error",
       "summary": "",
       "details": null,
