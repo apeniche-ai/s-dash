@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-24T15:02:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 383.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4479 [6085] Fix diagnostic paused banner showing after completion → Approved",
+      "details": null,
+      "cost_usd": 2.1323635000000003,
+      "total_tokens": 20004
     },
     {
       "agent": "passive-income-research-loop",
