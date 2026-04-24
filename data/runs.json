@@ -129,6 +129,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-24T11:04:17Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-04-24T11:00:00Z",
       "duration_seconds": 255.0,
@@ -4613,16 +4621,6 @@
       "details": null,
       "cost_usd": 0.28360475,
       "total_tokens": 1582
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T18:30:02Z",
-      "duration_seconds": 49.8,
-      "status": "success",
-      "summary": "All 24 open PRs have exclusion labels. No eligible PRs to review.",
-      "details": null,
-      "cost_usd": 0.17938275,
-      "total_tokens": 1027
     }
   ]
 }
