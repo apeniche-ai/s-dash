@@ -131,10 +131,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-04-24T11:34:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 109.6,
+      "status": "success",
+      "summary": "Check-in sent. Retired the Cool Guy Inventory (silent for 2 mornings), pivoted to a single-sentence \"I said X when I wanted to say Y\" format, and asked meta-questions about the silence itself — the ar",
+      "details": null,
+      "cost_usd": 0.8490745,
+      "total_tokens": 6160
     },
     {
       "agent": "pr-reviewer",
