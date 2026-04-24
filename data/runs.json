@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-24T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 349.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4479 [6085] Fix diagnostic paused banner showing after completion → Changes Requested (deploy-breaking migration order — unique index added before dedupe runs)",
+      "details": null,
+      "cost_usd": 1.69454125,
+      "total_tokens": 15731
     },
     {
       "agent": "pr-reviewer",
