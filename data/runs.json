@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-24T11:04:17Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 100.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4480 [TTPAI-96] Add onboarding columns to users table → Approved",
+      "details": null,
+      "cost_usd": 0.91313875,
+      "total_tokens": 4979
     },
     {
       "agent": "passive-income-research-loop",
