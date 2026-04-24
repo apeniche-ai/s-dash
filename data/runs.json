@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-24T14:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-24T13:30:01Z",
       "duration_seconds": 336.7,
       "status": "success",
@@ -4604,17 +4612,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-04-01T22:02:05Z",
       "duration_seconds": 106.9,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "claude exited with code 1"
-      ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T22:00:03Z",
-      "duration_seconds": 62.8,
       "status": "error",
       "summary": "",
       "details": null,
