@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-24T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 154.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4481 [6106] Fix Next button styles on create action and prevents double-click → Approved",
+      "details": null,
+      "cost_usd": 1.03029725,
+      "total_tokens": 9113
     },
     {
       "agent": "pr-reviewer",
