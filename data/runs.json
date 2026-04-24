@@ -129,6 +129,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-implementation",
+      "timestamp": "2026-04-24T07:05:00Z",
+      "duration_seconds": 0.0,
+      "status": "success",
+      "summary": "No approved suggestions — skipped",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-04-24T03:00:01Z",
       "duration_seconds": 473.9,
@@ -4615,16 +4623,6 @@
       "details": null,
       "cost_usd": 0.25500025000000004,
       "total_tokens": 1458
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T16:30:03Z",
-      "duration_seconds": 65.4,
-      "status": "success",
-      "summary": "No PRs to review — 25 open, all skipped (labeled/draft)",
-      "details": null,
-      "cost_usd": 0.25572849999999997,
-      "total_tokens": 1365
     }
   ]
 }
