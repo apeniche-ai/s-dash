@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-24T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 343.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4482 [TTPAI-93] Add browser-native voice-to-text utility modules → Changes Requested (missing recognition.onend handler + isSupported guard not called before getUserMedia)",
+      "details": null,
+      "cost_usd": 1.7760997500000002,
+      "total_tokens": 18518
     },
     {
       "agent": "pr-reviewer",
