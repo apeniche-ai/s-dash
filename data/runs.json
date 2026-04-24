@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-24T13:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-24T13:00:01Z",
       "duration_seconds": 154.9,
       "status": "success",
@@ -4611,16 +4619,6 @@
       "errors": [
         "claude exited with code 1"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T21:30:02Z",
-      "duration_seconds": 486.3,
-      "status": "success",
-      "summary": "All 24 open PRs are skipped — every one has at least one exclusion label (Claude Reviewed, Blocked, Changes Requested, or Won't Merge). No drafts either.",
-      "details": null,
-      "cost_usd": 0.18677950000000001,
-      "total_tokens": 1062
     }
   ]
 }
