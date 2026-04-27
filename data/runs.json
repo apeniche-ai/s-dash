@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-27T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 160.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4482 [TTPAI-93] Add browser-native voice-to-text utility modules → Approved",
+      "details": null,
+      "cost_usd": 1.7640760000000002,
+      "total_tokens": 6928
     },
     {
       "agent": "pr-reviewer",
