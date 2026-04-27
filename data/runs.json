@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-27T17:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-27T16:30:01Z",
       "duration_seconds": 257.3,
       "status": "success",
@@ -4602,17 +4610,6 @@
       "details": null,
       "cost_usd": 0.43516900000000003,
       "total_tokens": 1874
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-02T13:32:30Z",
-      "duration_seconds": 63.1,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "claude exited with code 1"
-      ]
     }
   ]
 }
