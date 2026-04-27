@@ -129,6 +129,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-27T14:30:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-04-27T14:18:42Z",
       "duration_seconds": 241.0,
@@ -4604,17 +4612,6 @@
       "details": null,
       "cost_usd": 0.8022665,
       "total_tokens": 7666
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-04-02T11:34:41Z",
-      "duration_seconds": 601.3,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 600s"
-      ]
     }
   ]
 }
