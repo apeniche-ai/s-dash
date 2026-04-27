@@ -131,10 +131,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-04-27T19:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 138.3,
+      "status": "success",
+      "summary": "Tick #11 done. Silent on notify per plan — Tue Apr 28 06:00 re-raise window owns the Heroku Audit single-thread ask. Prototype verified renders cleanly at `/tmp/heroku-audit/` (both pages HTTP 200, mo",
+      "details": null,
+      "cost_usd": 0.9812592499999999,
+      "total_tokens": 6175
     },
     {
       "agent": "pr-reviewer",
