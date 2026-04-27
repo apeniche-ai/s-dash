@@ -129,6 +129,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-27T14:04:39Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-04-27T14:04:40Z",
       "duration_seconds": 339.2,
@@ -4603,16 +4611,6 @@
       "status": "success",
       "summary": "No approved suggestions — skipped",
       "details": null
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-04-02T01:05:04Z",
-      "duration_seconds": 203.5,
-      "status": "success",
-      "summary": "Evening check-in sent. Here's what I did:",
-      "details": null,
-      "cost_usd": 0.6287232500000001,
-      "total_tokens": 4540
     }
   ]
 }
