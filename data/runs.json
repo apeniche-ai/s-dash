@@ -131,10 +131,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-04-27T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 282.8,
+      "status": "success",
+      "summary": "Tick complete. Pricing data verified against live pages, JSON corrected for material drift on Fly (~2.3x stale), DO (tier rename + price drop), Render (tier rename); Heroku confirmed exact. Sample rep",
+      "details": null,
+      "cost_usd": 1.71138175,
+      "total_tokens": 15819
     },
     {
       "agent": "pr-reviewer",
