@@ -129,6 +129,16 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-04-27T14:04:40Z",
+      "duration_seconds": 339.2,
+      "status": "success",
+      "summary": "Tick #9 done. Silent on notify per rubric (71h elapsed, just under the 3-4d re-raise threshold, and Monday 9am after a weekend isn't the right moment to nudge a busy VP).",
+      "details": null,
+      "cost_usd": 1.7432035000000001,
+      "total_tokens": 17105
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-24T15:30:01Z",
       "duration_seconds": 1.0,
@@ -4603,17 +4613,6 @@
       "details": null,
       "cost_usd": 0.6287232500000001,
       "total_tokens": 4540
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-01T22:32:06Z",
-      "duration_seconds": 57.2,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "claude exited with code 1"
-      ]
     }
   ]
 }
