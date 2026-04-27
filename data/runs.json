@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-27T14:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 500.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4471 [TTPAI-38] Remove all Bedrock dependencies and migrates AiAssist services → Changes Requested (duplicate migration version 20260421000001 breaks all CI; cost_for_log silently dro",
+      "details": null,
+      "cost_usd": 3.3042815000000005,
+      "total_tokens": 20737
     },
     {
       "agent": "soren-improvement-review",
