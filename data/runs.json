@@ -129,6 +129,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-team-shipping-report",
+      "timestamp": "2026-04-27T14:10:47Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Team Shipping Report...",
+      "details": null
+    },
+    {
       "agent": "passive-income-state-consolidation",
       "timestamp": "2026-04-27T14:07:49Z",
       "duration_seconds": 178.4,
@@ -4605,16 +4613,6 @@
       "details": null,
       "cost_usd": 0.2159315,
       "total_tokens": 1343
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-02T10:00:04Z",
-      "duration_seconds": 60.0,
-      "status": "success",
-      "summary": "No PRs to review — 22 open, all skipped (labeled/draft)",
-      "details": null,
-      "cost_usd": 0.20864074999999999,
-      "total_tokens": 1421
     }
   ]
 }
