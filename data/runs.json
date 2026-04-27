@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-27T22:00:03Z",
+      "duration_seconds": 2.3,
+      "status": "success",
+      "summary": "No PRs to review — 25 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-27T21:30:02Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4580,16 +4588,6 @@
       "status": "success",
       "summary": "No PRs to review — 24 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-02T19:00:02Z",
-      "duration_seconds": 226.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4406 [TTPAI-37] Add manifest-driven content ingestion pipeline → Approved",
-      "details": null,
-      "cost_usd": 1.36489475,
-      "total_tokens": 8410
     }
   ]
 }
