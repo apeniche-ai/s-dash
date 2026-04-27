@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-27T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-27T15:30:01Z",
       "duration_seconds": 173.8,
       "status": "success",
@@ -4604,16 +4612,6 @@
       "errors": [
         "claude exited with code 1"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-02T13:00:03Z",
-      "duration_seconds": 337.7,
-      "status": "success",
-      "summary": "Soren MCP tools aren't available in this environment, so I can't check for batched reviews or send Telegram notifications. The review itself is complete.",
-      "details": null,
-      "cost_usd": 1.02997425,
-      "total_tokens": 9849
     }
   ]
 }
