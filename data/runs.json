@@ -129,6 +129,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-04-27T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-27T14:30:03Z",
       "duration_seconds": 500.0,
@@ -4604,16 +4612,6 @@
       "details": null,
       "cost_usd": 0.2263755,
       "total_tokens": 1447
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-04-02T11:45:42Z",
-      "duration_seconds": 421.4,
-      "status": "success",
-      "summary": "Daily coaching check-in complete. Here's what happened:",
-      "details": null,
-      "cost_usd": 0.8022665,
-      "total_tokens": 7666
     }
   ]
 }
