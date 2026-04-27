@@ -129,6 +129,14 @@
   },
   "runs": [
     {
+      "agent": "daily-performance-check-in",
+      "timestamp": "2026-04-27T14:16:13Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Performance Check-in...",
+      "details": null
+    },
+    {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-04-27T14:10:47Z",
       "duration_seconds": 325.4,
@@ -4605,16 +4613,6 @@
       "details": null,
       "cost_usd": 0.24093925,
       "total_tokens": 1561
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-02T10:30:02Z",
-      "duration_seconds": 61.1,
-      "status": "success",
-      "summary": "No PR reviewed and no batches to send. Exit silently per instructions.",
-      "details": null,
-      "cost_usd": 0.2159315,
-      "total_tokens": 1343
     }
   ]
 }
