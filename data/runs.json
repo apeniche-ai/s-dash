@@ -131,10 +131,12 @@
     {
       "agent": "passive-income-state-consolidation",
       "timestamp": "2026-04-27T14:07:49Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income State Consolidation...",
-      "details": null
+      "duration_seconds": 178.4,
+      "status": "success",
+      "summary": "Consolidation complete. Silent on notify per job spec.",
+      "details": null,
+      "cost_usd": 0.91838325,
+      "total_tokens": 8759
     },
     {
       "agent": "pr-reviewer",
