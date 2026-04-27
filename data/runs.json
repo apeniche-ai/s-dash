@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-27T17:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 123.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4484 [6107] Enable New Example and AI Tutor buttons for image-based questions → Approved",
+      "details": null,
+      "cost_usd": 1.1838672500000003,
+      "total_tokens": 5123
     },
     {
       "agent": "pr-reviewer",
