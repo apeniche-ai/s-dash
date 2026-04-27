@@ -130,6 +130,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-27T20:00:02Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 25 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-27T19:30:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4585,17 +4593,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-04-02T17:30:01Z",
       "duration_seconds": 902.0,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 900s"
-      ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-02T17:00:03Z",
-      "duration_seconds": 901.2,
       "status": "error",
       "summary": "",
       "details": null,
