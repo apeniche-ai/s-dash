@@ -139,10 +139,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-04-27T14:16:13Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 149.0,
+      "status": "success",
+      "summary": "Done. Check-in complete.",
+      "details": null,
+      "cost_usd": 0.9356439999999999,
+      "total_tokens": 8341
     },
     {
       "agent": "weekly-team-shipping-report",
