@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-04-28T22:32:57Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-28T22:30:02Z",
       "duration_seconds": 1.0,
@@ -4622,14 +4630,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-04-03T22:00:01Z",
       "duration_seconds": 1.3,
-      "status": "success",
-      "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-03T21:30:01Z",
-      "duration_seconds": 0.9,
       "status": "success",
       "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
       "details": null
