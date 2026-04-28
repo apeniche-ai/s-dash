@@ -150,6 +150,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-28T21:30:01Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 28 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-04-28T21:15:18Z",
       "duration_seconds": 1.2,
@@ -4620,16 +4628,6 @@
       "status": "success",
       "summary": "No PRs to review — 26 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-03T19:00:02Z",
-      "duration_seconds": 121.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4409 [6052] Update banner code from META25 to META10 → Approved",
-      "details": null,
-      "cost_usd": 0.5706327499999999,
-      "total_tokens": 4371
     }
   ]
 }
