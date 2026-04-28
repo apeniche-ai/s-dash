@@ -1,9 +1,23 @@
 {
   "agents": {
+    "admissions-pr-reviewer": {
+      "id": "01KQARE8VCTCH6HGG9D4QFVS28",
+      "name": "Admissions PR Reviewer",
+      "status": "disabled",
+      "schedule": "15 6-17 * * 1-5",
+      "description": "Automated code review of open PRs on targettestprep/admissions every hour during work hours"
+    },
+    "pr-follow-up-check": {
+      "id": "01KQARE8V65AWQC5YB1YCGTE1J",
+      "name": "PR Follow-up Check",
+      "status": "disabled",
+      "schedule": "0 8 * * 1-5",
+      "description": "Weekday morning check for PRs with unaddressed change requests"
+    },
     "goal-progress-reconciliation": {
       "id": "01KQANE2SYVWZ8CGR21S64GS1K",
       "name": "Goal Progress Reconciliation",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "30 21 * * *",
       "description": "Nightly auto-reconcile of goal task progress against agent activity and implemented suggestions"
     },
@@ -94,7 +108,7 @@
     "weekly-goal-review": {
       "id": "01KNW58WD8B849CCZGH8BR82BA",
       "name": "Weekly Goal Review",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "5 9 * * 1",
       "description": "Weekly goal progress review with auto-reconcile and human-readable analysis"
     },
