@@ -1,16 +1,23 @@
 {
   "agents": {
+    "slack-watch": {
+      "id": "01KQB12KYEDT04HRBWMF0R6A7T",
+      "name": "Slack Watch",
+      "status": "disabled",
+      "schedule": "30 8,12,15,18 * * 1-5",
+      "description": "Read-only Slack watch — silent unless something genuinely needs Amaury (alarm-only mode)"
+    },
     "admissions-pr-reviewer": {
       "id": "01KQARE8VCTCH6HGG9D4QFVS28",
       "name": "Admissions PR Reviewer",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "15 6-17 * * 1-5",
       "description": "Automated code review of open PRs on targettestprep/admissions every hour during work hours"
     },
     "pr-follow-up-check": {
       "id": "01KQARE8V65AWQC5YB1YCGTE1J",
       "name": "PR Follow-up Check",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "0 8 * * 1-5",
       "description": "Weekday morning check for PRs with unaddressed change requests"
     },
