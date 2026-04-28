@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-28T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 292.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4487 [TTPAI-123] Consolidates ChatbotService into Ai namespace → Changes Requested (attachment bytes never sent to Claude — `build_user_prompt` no longer wraps in `build_content_with_",
+      "details": null,
+      "cost_usd": 2.9603970000000004,
+      "total_tokens": 18366
     },
     {
       "agent": "pr-reviewer",
