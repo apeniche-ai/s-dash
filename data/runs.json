@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-28T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 113.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4486 [6113] Fix AI tutor hint truncation by increasing max_tokens from 256 to 2048 → Approved",
+      "details": null,
+      "cost_usd": 0.9729579999999999,
+      "total_tokens": 5463
     },
     {
       "agent": "pr-reviewer",
