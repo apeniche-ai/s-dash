@@ -131,10 +131,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-04-28T14:02:22Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 295.8,
+      "status": "success",
+      "summary": "Tick #14 done. Heroku Audit re-raise sent on the passive-income channel at 09:04 — single-thread, single binary ask, prototype rebuilt to a persistent path (`~/Desktop/soren-research/heroku-audit/`) a",
+      "details": null,
+      "cost_usd": 1.492763,
+      "total_tokens": 16163
     },
     {
       "agent": "passive-income-research-loop",
