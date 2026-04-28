@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-04-28T23:30:58Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-04-28T23:00:00Z",
       "duration_seconds": 279.1,
@@ -4627,16 +4635,6 @@
       "status": "success",
       "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-04-03T22:10:00Z",
-      "duration_seconds": 436.3,
-      "status": "success",
-      "summary": "",
-      "details": null,
-      "cost_usd": 0.8665928500000002,
-      "total_tokens": 19172
     }
   ]
 }
