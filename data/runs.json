@@ -129,6 +129,14 @@
   },
   "runs": [
     {
+      "agent": "evening-performance-reflection",
+      "timestamp": "2026-04-28T01:05:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Evening Performance Reflection...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-04-27T23:00:00Z",
       "duration_seconds": 282.8,
@@ -4581,17 +4589,6 @@
       "details": null,
       "cost_usd": 0.91877625,
       "total_tokens": 21511
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-04-02T22:10:01Z",
-      "duration_seconds": 600.6,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 600s"
-      ]
     }
   ]
 }
