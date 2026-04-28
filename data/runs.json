@@ -152,10 +152,12 @@
     {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-04-28T19:21:17Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Admissions PR Reviewer...",
-      "details": null
+      "duration_seconds": 133.8,
+      "status": "success",
+      "summary": "Reviewed 1 PR (admissions): #651 [TTPAI-49] Attach shared vector KB database for Admission → Approved",
+      "details": null,
+      "cost_usd": 1.40610825,
+      "total_tokens": 6927
     },
     {
       "agent": "pr-reviewer",
