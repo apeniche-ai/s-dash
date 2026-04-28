@@ -1,5 +1,12 @@
 {
   "agents": {
+    "goal-progress-reconciliation": {
+      "id": "01KQANE2SYVWZ8CGR21S64GS1K",
+      "name": "Goal Progress Reconciliation",
+      "status": "disabled",
+      "schedule": "30 21 * * *",
+      "description": "Nightly auto-reconcile of goal task progress against agent activity and implemented suggestions"
+    },
     "passive-income-state-consolidation": {
       "id": "01KPX729KG3MXFMK516S8T6MDH",
       "name": "Passive Income State Consolidation",
@@ -89,7 +96,7 @@
       "name": "Weekly Goal Review",
       "status": "disabled",
       "schedule": "5 9 * * 1",
-      "description": "Weekly goal progress review"
+      "description": "Weekly goal progress review with auto-reconcile and human-readable analysis"
     },
     "end-of-day-report": {
       "id": "01KNW58WD69WTG90ZZG480TQG7",
