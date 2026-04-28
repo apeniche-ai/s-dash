@@ -131,10 +131,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-04-28T01:05:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 76.8,
+      "status": "success",
+      "summary": "Evening reflection sent. Light check-in on today's PR Delegation Micro-Experiment (no nag — assigned this morning) paired with the Monday VP-Ruler probe. Logged the rotation question to memory; left t",
+      "details": null,
+      "cost_usd": 0.9214775000000001,
+      "total_tokens": 3460
     },
     {
       "agent": "passive-income-research-loop",
