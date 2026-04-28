@@ -131,10 +131,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-28T17:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 280.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4487 [TTPAI-123] Consolidates ChatbotService into Ai namespace → Changes Requested (trailing whitespace on line 1)",
+      "details": null,
+      "cost_usd": 2.6784174999999997,
+      "total_tokens": 13814
     },
     {
       "agent": "pr-reviewer",
