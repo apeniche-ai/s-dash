@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-04-29T15:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-29T14:30:01Z",
       "duration_seconds": 1.6,
@@ -4629,16 +4637,6 @@
       "status": "success",
       "summary": "No PRs to review — 30 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-06T16:00:01Z",
-      "duration_seconds": 143.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4416 [6027] Remove Jeff and Sage from online tutoring carousel → Approved",
-      "details": null,
-      "cost_usd": 0.7887215000000001,
-      "total_tokens": 5561
     }
   ]
 }
