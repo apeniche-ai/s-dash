@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-29T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 139.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4489 [6125] Fix Examples confirm button unclickable with accessibility plugin → Approved",
+      "details": null,
+      "cost_usd": 1.02865325,
+      "total_tokens": 7279
     },
     {
       "agent": "pr-reviewer",
