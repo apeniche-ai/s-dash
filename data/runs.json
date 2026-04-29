@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-29T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 196.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4467 [6077] Replace low-quality CR problems with Claude-reviewed replacements → Approved",
+      "details": null,
+      "cost_usd": 1.66149325,
+      "total_tokens": 9809
     },
     {
       "agent": "admissions-pr-reviewer",
