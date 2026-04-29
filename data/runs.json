@@ -158,6 +158,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-29T22:00:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 25 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-29T21:30:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4623,16 +4631,6 @@
       "status": "success",
       "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-07T13:30:02Z",
-      "duration_seconds": 254.7,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4419 [TTPAI-70] Move sanitization from base classes to per-service post parse → Approved",
-      "details": null,
-      "cost_usd": 1.4925555000000001,
-      "total_tokens": 10923
     }
   ]
 }
