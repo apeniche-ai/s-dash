@@ -159,10 +159,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-04-29T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 82.4,
+      "status": "success",
+      "summary": "Sent. 3 stagnant PRs flagged in ttp (#4459, #4390, #3569). Admissions: clean. PRs #4486, #4467 had newer commits than label → excluded; #4478, #4472 had label <24h old → still in grace window.",
+      "details": null,
+      "cost_usd": 0.56871575,
+      "total_tokens": 3155
     },
     {
       "agent": "pr-reviewer",
