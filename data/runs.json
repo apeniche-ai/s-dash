@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-29T13:01:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 386.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4492 [TTPAI-97] Add answer choice and exercise ID in context card → Approved",
+      "details": null,
+      "cost_usd": 2.92553,
+      "total_tokens": 19659
     },
     {
       "agent": "pr-follow-up-check",
