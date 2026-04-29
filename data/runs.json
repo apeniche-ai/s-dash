@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-29T11:32:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 129.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4491 [6126] Fix reorder triggering edit modal in video tips admin → Approved",
+      "details": null,
+      "cost_usd": 1.0080442500000002,
+      "total_tokens": 6505
     },
     {
       "agent": "daily-performance-check-in",
