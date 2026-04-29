@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-04-29T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-04-29T01:05:01Z",
       "duration_seconds": 63.3,
@@ -4629,16 +4637,6 @@
       "status": "success",
       "summary": "No approved suggestions — skipped",
       "details": null
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-04-04T01:05:01Z",
-      "duration_seconds": 83.4,
-      "status": "success",
-      "summary": "Evening check-in sent. Here's what I did:",
-      "details": null,
-      "cost_usd": 0.41394675,
-      "total_tokens": 2011
     }
   ]
 }
