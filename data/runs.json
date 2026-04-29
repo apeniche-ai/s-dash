@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-04-29T03:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-04-29T02:30:00Z",
       "duration_seconds": 20.8,
@@ -4631,14 +4639,6 @@
       "details": null,
       "cost_usd": 0.74260375,
       "total_tokens": 12329
-    },
-    {
-      "agent": "soren-improvement-implementation",
-      "timestamp": "2026-04-04T07:05:01Z",
-      "duration_seconds": 0.0,
-      "status": "success",
-      "summary": "No approved suggestions — skipped",
-      "details": null
     }
   ]
 }
