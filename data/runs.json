@@ -159,10 +159,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-04-29T01:05:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 63.3,
+      "status": "success",
+      "summary": "Evening reflection sent. Self-Trust Probe (Tuesday rotation) — single judgment-call question, pattern-aware framing, no nag on the still-pending PR Delegation experiment (already softly surfaced this ",
+      "details": null,
+      "cost_usd": 0.847095,
+      "total_tokens": 2704
     },
     {
       "agent": "slack-watch",
