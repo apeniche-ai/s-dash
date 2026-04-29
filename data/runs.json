@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "daily-performance-check-in",
+      "timestamp": "2026-04-29T11:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Performance Check-in...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-04-29T11:15:01Z",
       "duration_seconds": 129.2,
@@ -4633,16 +4641,6 @@
       "details": null,
       "cost_usd": 0.68099825,
       "total_tokens": 5344
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-06T10:30:01Z",
-      "duration_seconds": 294.5,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4412 [TTPAI-64] Prompt Audit & Rewrite → Approved",
-      "details": null,
-      "cost_usd": 2.2157350000000005,
-      "total_tokens": 11730
     }
   ]
 }
