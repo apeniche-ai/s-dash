@@ -159,10 +159,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-04-29T19:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 236.6,
+      "status": "success",
+      "summary": "Tick #21 done. Silent — no notify. 3 new fixtures (solo-saas, scale-up, api-only) banked at `~/Desktop/soren-research/heroku-audit/parser/fixtures/`, smoke-runner verified all 4 parse cleanly with coh",
+      "details": null,
+      "cost_usd": 1.73348925,
+      "total_tokens": 13911
     },
     {
       "agent": "pr-reviewer",
