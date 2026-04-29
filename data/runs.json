@@ -158,6 +158,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-04-29T20:00:02Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-04-29T19:30:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4629,16 +4637,6 @@
       "details": null,
       "cost_usd": 1.25506325,
       "total_tokens": 10943
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-07T10:30:01Z",
-      "duration_seconds": 303.0,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4418 [TTPAI-75] Add prompt caching integration in ClaudeService → Approved",
-      "details": null,
-      "cost_usd": 2.1117605,
-      "total_tokens": 12593
     }
   ]
 }
