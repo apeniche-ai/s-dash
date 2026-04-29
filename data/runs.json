@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-implementation",
+      "timestamp": "2026-04-29T07:05:00Z",
+      "duration_seconds": 0.0,
+      "status": "success",
+      "summary": "No approved suggestions — skipped",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-04-29T03:00:00Z",
       "duration_seconds": 313.8,
@@ -4631,16 +4639,6 @@
       "details": null,
       "cost_usd": 0.80230575,
       "total_tokens": 14254
-    },
-    {
-      "agent": "system-health-audit",
-      "timestamp": "2026-04-04T15:00:00Z",
-      "duration_seconds": 260.9,
-      "status": "success",
-      "summary": "",
-      "details": null,
-      "cost_usd": 0.74260375,
-      "total_tokens": 12329
     }
   ]
 }
