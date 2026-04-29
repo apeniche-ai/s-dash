@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "evening-performance-reflection",
+      "timestamp": "2026-04-29T01:05:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Evening Performance Reflection...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-04-28T23:30:58Z",
       "duration_seconds": 117.7,
@@ -4629,14 +4637,6 @@
       "details": null,
       "cost_usd": 0.41394675,
       "total_tokens": 2011
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-03T22:30:01Z",
-      "duration_seconds": 1.0,
-      "status": "success",
-      "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
