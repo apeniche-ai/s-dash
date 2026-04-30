@@ -159,10 +159,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-04-30T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 86.7,
+      "status": "success",
+      "summary": "Done. Check-in sent.",
+      "details": null,
+      "cost_usd": 0.7181107500000001,
+      "total_tokens": 4666
     },
     {
       "agent": "admissions-pr-reviewer",
