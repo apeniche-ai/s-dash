@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-30T10:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 311.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4492 [TTPAI-97] Add answer choice and exercise ID in context card → Changes Requested (whitelist uses symbol key but params.permit().to_h returns string keys — latent bug)",
+      "details": null,
+      "cost_usd": 2.097973,
+      "total_tokens": 20350
     },
     {
       "agent": "soren-improvement-implementation",
