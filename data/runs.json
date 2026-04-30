@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-30T11:31:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 223.8,
+      "status": "success",
+      "summary": "Outside work hours (06:30) — batched silently with the prior 3 reviews. No Telegram.",
+      "details": null,
+      "cost_usd": 2.01957225,
+      "total_tokens": 10457
     },
     {
       "agent": "daily-performance-check-in",
