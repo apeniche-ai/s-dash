@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-04-30T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-30T12:30:01Z",
       "duration_seconds": 0.8,
@@ -4645,14 +4653,6 @@
       "details": null,
       "cost_usd": 1.8138615,
       "total_tokens": 9697
-    },
-    {
-      "agent": "soren-improvement-implementation",
-      "timestamp": "2026-04-08T07:05:00Z",
-      "duration_seconds": 0.0,
-      "status": "success",
-      "summary": "No approved suggestions — skipped",
-      "details": null
     }
   ]
 }
