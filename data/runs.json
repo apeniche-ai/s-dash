@@ -159,10 +159,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-04-30T02:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 19.0,
+      "status": "success",
+      "summary": "Nothing changed. Exiting silently — no Telegram sent.",
+      "details": null,
+      "cost_usd": 0.12923384999999998,
+      "total_tokens": 224
     },
     {
       "agent": "evening-performance-reflection",
