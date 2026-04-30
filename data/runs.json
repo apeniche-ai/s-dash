@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-04-30T03:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-04-30T02:30:01Z",
       "duration_seconds": 19.0,
@@ -4634,14 +4642,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-04-07T18:30:02Z",
       "duration_seconds": 1.1,
-      "status": "success",
-      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-07T18:00:01Z",
-      "duration_seconds": 0.9,
       "status": "success",
       "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
       "details": null
