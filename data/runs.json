@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-04-30T14:15:02Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-30T14:00:01Z",
       "duration_seconds": 1.2,
@@ -4645,16 +4653,6 @@
       "status": "success",
       "summary": "No PRs to review — 34 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-08T12:00:01Z",
-      "duration_seconds": 271.5,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4423 [TTPAI-53] Add generations audit table and ExerciseService integration → Approved",
-      "details": null,
-      "cost_usd": 1.2983524999999998,
-      "total_tokens": 10520
     }
   ]
 }
