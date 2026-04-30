@@ -159,10 +159,13 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-04-30T01:08:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 206.7,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1"
+      ]
     },
     {
       "agent": "evening-performance-reflection",
