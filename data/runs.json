@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-30T11:03:49Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 146.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4494 [6128] Fix empty level oval displaying for Examples without a level → Approved",
+      "details": null,
+      "cost_usd": 1.399967,
+      "total_tokens": 6886
     },
     {
       "agent": "passive-income-research-loop",
