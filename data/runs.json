@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-30T13:01:22Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 373.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4497 [TTPAI-124] Add SIP cleanup and welcome snapshot embed → Approved",
+      "details": null,
+      "cost_usd": 3.174625499999999,
+      "total_tokens": 19689
     },
     {
       "agent": "pr-follow-up-check",
