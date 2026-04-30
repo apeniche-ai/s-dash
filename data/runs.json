@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-04-30T13:30:02Z",
+      "duration_seconds": 1.7,
+      "status": "success",
+      "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-04-30T13:30:06Z",
       "duration_seconds": null,
@@ -4645,16 +4653,6 @@
       "status": "success",
       "summary": "No PRs to review — 32 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-04-08T11:30:01Z",
-      "duration_seconds": 192.5,
-      "status": "success",
-      "summary": "Daily coaching check-in complete. Here's what happened:",
-      "details": null,
-      "cost_usd": 0.7822990000000001,
-      "total_tokens": 6018
     }
   ]
 }
