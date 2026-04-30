@@ -159,10 +159,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-04-30T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 256.5,
+      "status": "success",
+      "summary": "Tick #23 complete. Silent — per decision memo (pre-banked framing copy = incremental, not a milestone; 22:00 bad notify slot; 12h after the A/B/C question is too early to re-tap on a meeting-heavy wee",
+      "details": null,
+      "cost_usd": 1.62831175,
+      "total_tokens": 13660
     },
     {
       "agent": "goal-progress-reconciliation",
