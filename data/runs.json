@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-04-30T22:15:02Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-04-30T22:10:01Z",
       "duration_seconds": 284.7,
@@ -4649,16 +4657,6 @@
       "details": null,
       "cost_usd": 3.1361852499999996,
       "total_tokens": 30980
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-04-09T11:30:01Z",
-      "duration_seconds": 179.4,
-      "status": "success",
-      "summary": "Daily coaching check-in sent to Telegram. Here's what happened:",
-      "details": null,
-      "cost_usd": 0.66592675,
-      "total_tokens": 7860
     }
   ]
 }
