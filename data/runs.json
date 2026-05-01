@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-05-01T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-01T01:05:00Z",
       "duration_seconds": 56.8,
@@ -4649,16 +4657,6 @@
       "details": null,
       "cost_usd": 1.7320329999999997,
       "total_tokens": 11595
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-09T14:00:01Z",
-      "duration_seconds": 299.3,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4395 [TTPAI-55][TTPAI-56] Add AI service observability columns and feature event analytics tracking → Approved",
-      "details": null,
-      "cost_usd": 1.514098,
-      "total_tokens": 12486
     }
   ]
 }
