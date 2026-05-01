@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-01T17:44:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-01T16:30:01Z",
       "duration_seconds": 134.5,
@@ -4646,14 +4654,6 @@
       "details": null,
       "cost_usd": 0.6271565,
       "total_tokens": 10758
-    },
-    {
-      "agent": "soren-improvement-implementation",
-      "timestamp": "2026-04-11T07:05:01Z",
-      "duration_seconds": 0.0,
-      "status": "success",
-      "summary": "No approved suggestions — skipped",
-      "details": null
     }
   ]
 }
