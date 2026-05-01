@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-01T15:46:40Z",
+      "duration_seconds": 1.9,
+      "status": "success",
+      "summary": "No PRs to review — 26 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-01T15:15:01Z",
       "duration_seconds": 0.9,
@@ -4650,16 +4658,6 @@
       "details": null,
       "cost_usd": 0.57200725,
       "total_tokens": 9875
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-10T22:01:19Z",
-      "duration_seconds": 151.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4434 [TTPAI-73] Enable AI features across all exam sections and add DI question type parsers → Approved",
-      "details": null,
-      "cost_usd": 1.0225517499999999,
-      "total_tokens": 5716
     }
   ]
 }
