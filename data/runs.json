@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-01T13:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 210.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4500 [6137] Optimize Synonym Pairing word mastery dataset → Approved",
+      "details": null,
+      "cost_usd": 1.5864107499999998,
+      "total_tokens": 12992
     },
     {
       "agent": "admissions-pr-reviewer",
