@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-01T14:30:02Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-01T14:15:01Z",
       "duration_seconds": 1.0,
@@ -4656,16 +4664,6 @@
       "details": null,
       "cost_usd": 2.0840039999999997,
       "total_tokens": 14570
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-10T20:00:01Z",
-      "duration_seconds": 166.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4430 [6058] Reassign tiles archived lessons → Approved",
-      "details": null,
-      "cost_usd": 0.879918,
-      "total_tokens": 6042
     }
   ]
 }
