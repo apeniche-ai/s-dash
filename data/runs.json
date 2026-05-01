@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-01T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 134.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4501 [TTP-6138] Fix Contrast Agreement flaky spec → Approved",
+      "details": null,
+      "cost_usd": 1.4164672500000004,
+      "total_tokens": 6973
     },
     {
       "agent": "admissions-pr-reviewer",
