@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-01T14:00:02Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 28 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-01T13:33:31Z",
       "duration_seconds": 97.2,
@@ -4660,16 +4668,6 @@
       "details": null,
       "cost_usd": 1.061643,
       "total_tokens": 12049
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-10T19:00:01Z",
-      "duration_seconds": 156.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4402 [6031] Fix calculator display for AI-generated exercises to use dynamic check instead of hardcoded true → Approved",
-      "details": null,
-      "cost_usd": 0.830444,
-      "total_tokens": 6282
     }
   ]
 }
