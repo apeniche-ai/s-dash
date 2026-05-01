@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-01T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 153.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4496 [6127] Fix avg accuracy rounding on evaluation page → Approved",
+      "details": null,
+      "cost_usd": 1.4307742500000002,
+      "total_tokens": 8201
     },
     {
       "agent": "pr-reviewer",
