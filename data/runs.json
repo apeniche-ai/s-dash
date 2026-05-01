@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-01T22:30:13Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-01T21:02:46Z",
       "duration_seconds": null,
@@ -4645,16 +4653,6 @@
       "details": null,
       "cost_usd": 1.1651619999999998,
       "total_tokens": 8990
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-13T12:00:01Z",
-      "duration_seconds": 184.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4438 [6069] Fix chatbot image uploads silently dropped → Approved",
-      "details": null,
-      "cost_usd": 0.930053,
-      "total_tokens": 7337
     }
   ]
 }
