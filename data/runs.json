@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-01T16:15:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-01T16:00:02Z",
       "duration_seconds": 0.8,
@@ -4646,16 +4654,6 @@
       "details": null,
       "cost_usd": 0.386397,
       "total_tokens": 1922
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-10T22:30:01Z",
-      "duration_seconds": 243.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4435 [TTPAI-98] Add ruby_llm 1.14.1 tool validation spike → Approved",
-      "details": null,
-      "cost_usd": 1.1555085,
-      "total_tokens": 10368
     }
   ]
 }
