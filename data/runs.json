@@ -159,10 +159,13 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-01T19:20:14Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 1020.0,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code timed out after 600s"
+      ]
     },
     {
       "agent": "passive-income-research-loop",
