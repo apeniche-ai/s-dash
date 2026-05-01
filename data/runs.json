@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-01T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 150.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4498 [6136] Prevent exercise injection for standalone numeric inputs → Approved (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.2284367500000002,
+      "total_tokens": 7962
     },
     {
       "agent": "pr-reviewer",
