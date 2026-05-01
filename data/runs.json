@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-01T20:40:27Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-01T19:37:23Z",
       "duration_seconds": null,
@@ -4647,16 +4655,6 @@
       "details": null,
       "cost_usd": 1.920506,
       "total_tokens": 13298
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-13T10:30:01Z",
-      "duration_seconds": 293.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4395 [TTPAI-55][TTPAI-56] Add AI service observability columns and feature event analytics tracking → Approved",
-      "details": null,
-      "cost_usd": 2.0295607500000004,
-      "total_tokens": 11475
     }
   ]
 }
