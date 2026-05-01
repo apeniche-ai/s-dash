@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-01T23:45:24Z",
+      "duration_seconds": 2.2,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-01T22:30:13Z",
       "duration_seconds": 4509.7,
@@ -4649,16 +4657,6 @@
       "details": null,
       "cost_usd": 1.2230405000000002,
       "total_tokens": 23404
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-13T12:30:01Z",
-      "duration_seconds": 217.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4439 [6048] Upgrade country_select to 9.0.0 and countries to 6.0.1 → Approved",
-      "details": null,
-      "cost_usd": 1.1651619999999998,
-      "total_tokens": 8990
     }
   ]
 }
