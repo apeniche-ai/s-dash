@@ -159,10 +159,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-01T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 84.3,
+      "status": "success",
+      "summary": "Sent. 2 stagnant PRs flagged in ttp (#4390 — third consecutive day, no movement; #3569 — over 80 days since change request, commit older than label by ~3 months). Admissions: clean. Excluded: #4486 (c",
+      "details": null,
+      "cost_usd": 0.6456062499999999,
+      "total_tokens": 4395
     },
     {
       "agent": "pr-reviewer",
