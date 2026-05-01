@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-01T03:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-05-01T02:30:00Z",
       "duration_seconds": 17.9,
@@ -4649,16 +4657,6 @@
       "details": null,
       "cost_usd": 2.1962335,
       "total_tokens": 15102
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-09T14:30:02Z",
-      "duration_seconds": 288.7,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4418 [TTPAI-75] Add prompt caching integration in ClaudeService → Approved",
-      "details": null,
-      "cost_usd": 1.7320329999999997,
-      "total_tokens": 11595
     }
   ]
 }
