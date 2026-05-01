@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-01T11:02:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 317.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4478 AI Deploy - 20260423 - [68][78][84][92][113][83][82][116] → Approved",
+      "details": null,
+      "cost_usd": 2.227342,
+      "total_tokens": 16353
     },
     {
       "agent": "passive-income-research-loop",
