@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-05-01T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-01T12:30:02Z",
       "duration_seconds": 373.6,
@@ -4662,14 +4670,6 @@
       "details": null,
       "cost_usd": 1.6985355,
       "total_tokens": 11225
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-09T21:00:01Z",
-      "duration_seconds": 0.7,
-      "status": "success",
-      "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
