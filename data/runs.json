@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-01T11:31:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 314.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4480 [TTPAI-96][TTPAI-124] Add onboarding columns + SIP cleanup and welcome snapshot embed → Changes Requested (critical: SIP#summary_for_prompt references undefined `target_score` af",
+      "details": null,
+      "cost_usd": 2.0772014999999997,
+      "total_tokens": 21082
     },
     {
       "agent": "daily-performance-check-in",
