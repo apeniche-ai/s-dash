@@ -159,10 +159,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-01T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 56.8,
+      "status": "success",
+      "summary": "Evening reflection sent. Thursday's Self-Trust Probe — light, no-pressure framing given the hard-pause week and the move. Stored the rotation question. Noting for the weekly digest: if tonight is sile",
+      "details": null,
+      "cost_usd": 0.8546309999999999,
+      "total_tokens": 2710
     },
     {
       "agent": "slack-watch",
