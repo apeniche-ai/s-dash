@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-01T19:37:23Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-01T19:37:23Z",
       "duration_seconds": 2.3,
@@ -4649,16 +4657,6 @@
       "details": null,
       "cost_usd": 2.0295607500000004,
       "total_tokens": 11475
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-13T10:00:01Z",
-      "duration_seconds": 286.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4395 [TTPAI-55][TTPAI-56] Add AI service observability columns and feature event analytics tracking → Changes Requested (critical bug: undefined `text` variable in `attempt_bedrock` s",
-      "details": null,
-      "cost_usd": 1.7628814999999998,
-      "total_tokens": 12647
     }
   ]
 }
