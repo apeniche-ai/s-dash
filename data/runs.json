@@ -150,6 +150,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-04T17:19:37Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "weekly-goal-review",
       "timestamp": "2026-05-04T17:18:17Z",
       "duration_seconds": 78.6,
@@ -4655,14 +4663,6 @@
       "duration_seconds": 0.7,
       "status": "success",
       "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-13T19:00:01Z",
-      "duration_seconds": 0.8,
-      "status": "success",
-      "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
       "details": null
     }
   ]
