@@ -152,10 +152,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-04T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 137.4,
+      "status": "success",
+      "summary": "Tick complete. Silent — no notify warranted (state fresh from 11:42 consolidation, ledger unchanged, framing fork still open from 11:33 send ~2.5h ago, Heroku price-bump finding is incremental ammo no",
+      "details": null,
+      "cost_usd": 1.14565275,
+      "total_tokens": 4833
     },
     {
       "agent": "pr-reviewer",
