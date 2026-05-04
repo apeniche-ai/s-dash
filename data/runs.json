@@ -152,10 +152,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-04T18:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 190.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4502 [TTPAI-125] Add error_code typing, stream_id, and XHR auth to chatbot → Approved",
+      "details": null,
+      "cost_usd": 1.3293825,
+      "total_tokens": 11463
     },
     {
       "agent": "pr-reviewer",
