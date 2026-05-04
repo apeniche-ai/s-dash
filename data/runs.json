@@ -151,6 +151,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-04T18:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-04T17:32:40Z",
       "duration_seconds": 81.7,
       "status": "success",
@@ -4657,14 +4665,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T21:00:01Z",
       "duration_seconds": 1.1,
-      "status": "success",
-      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-13T20:30:01Z",
-      "duration_seconds": 1.0,
       "status": "success",
       "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
       "details": null
