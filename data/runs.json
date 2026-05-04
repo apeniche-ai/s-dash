@@ -152,10 +152,12 @@
     {
       "agent": "weekly-goal-review",
       "timestamp": "2026-05-04T17:18:17Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Goal Review...",
-      "details": null
+      "duration_seconds": 78.6,
+      "status": "success",
+      "summary": "Report sent. Summary:",
+      "details": null,
+      "cost_usd": 0.23112765,
+      "total_tokens": 4021
     },
     {
       "agent": "weekly-team-shipping-report",
