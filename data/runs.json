@@ -170,10 +170,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-04T16:33:08Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 169.1,
+      "status": "success",
+      "summary": "Tick complete. Sent honest reality-check to passive-income channel: Sat/Sun execution didn't happen (600s timeouts), framing pick still unanswered ~77h, three-way fork (pick framing now / defer / kill",
+      "details": null,
+      "cost_usd": 1.2491925,
+      "total_tokens": 8262
     },
     {
       "agent": "evening-performance-reflection",
