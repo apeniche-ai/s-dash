@@ -158,6 +158,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-04T22:00:04Z",
+      "duration_seconds": 2.6,
+      "status": "success",
+      "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-04T21:30:03Z",
       "duration_seconds": 2.5,
       "status": "success",
@@ -4655,16 +4663,6 @@
       "status": "success",
       "summary": "No PRs to review — 40 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-14T12:30:01Z",
-      "duration_seconds": 248.5,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4448 [TTPAI-82] Add V1 personalization fields to StudentIntelligenceProfile summary_for_prompt → Approved",
-      "details": null,
-      "cost_usd": 1.13170875,
-      "total_tokens": 10690
     }
   ]
 }
