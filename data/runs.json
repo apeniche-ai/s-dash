@@ -3,7 +3,7 @@
     "daily-todo-digest": {
       "id": "01KQSZ07KRF02Y1WK0055S5NJB",
       "name": "Daily Todo Digest",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "30 7 * * 1-5",
       "description": "Personal-assistant morning digest: surface today's todos + execute the doable subset"
     },
