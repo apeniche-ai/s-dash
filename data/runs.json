@@ -152,10 +152,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-04T17:32:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 81.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4501 [6138] - Fix Contrast Agreement flaky spec → Approved",
+      "details": null,
+      "cost_usd": 0.62815325,
+      "total_tokens": 4312
     },
     {
       "agent": "slack-watch",
