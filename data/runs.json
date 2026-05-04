@@ -159,10 +159,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-04T16:45:49Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 398.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4478 AI Deploy - 20260423 → Approved",
+      "details": null,
+      "cost_usd": 1.9476750000000003,
+      "total_tokens": 13539
     },
     {
       "agent": "passive-income-state-consolidation",
