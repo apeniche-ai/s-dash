@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-04T16:33:08Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-02T14:12:17Z",
       "duration_seconds": 623.8,
@@ -4650,16 +4658,6 @@
       "details": null,
       "cost_usd": 0.93453775,
       "total_tokens": 5314
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-13T14:00:01Z",
-      "duration_seconds": 219.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4442 [6063] Fix Synonym game pair pluralization → Approved",
-      "details": null,
-      "cost_usd": 1.01382825,
-      "total_tokens": 7833
     }
   ]
 }
