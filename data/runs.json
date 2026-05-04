@@ -157,6 +157,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-04T20:17:09Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-04T20:00:24Z",
       "duration_seconds": 2.1,
@@ -4665,16 +4673,6 @@
       "details": null,
       "cost_usd": 1.12835375,
       "total_tokens": 7953
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-14T10:00:01Z",
-      "duration_seconds": 279.5,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4415 [TTPAI-68] Wire Vector KB retrieval into Score Analyzer → Changes Requested (missing `product: \"test_prep\"` filter on curriculum search — re-flagged from previous review)",
-      "details": null,
-      "cost_usd": 1.2864255000000002,
-      "total_tokens": 11067
     }
   ]
 }
