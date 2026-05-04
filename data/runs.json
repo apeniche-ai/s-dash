@@ -157,6 +157,17 @@
   },
   "runs": [
     {
+      "agent": "system-health-audit",
+      "timestamp": "2026-05-04T16:33:15Z",
+      "duration_seconds": 29555.4,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code timed out after 600s"
+      ]
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-04T16:33:08Z",
       "duration_seconds": null,
@@ -4648,16 +4659,6 @@
       "details": null,
       "cost_usd": 0.9647490000000002,
       "total_tokens": 7706
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-13T14:30:02Z",
-      "duration_seconds": 159.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4379 [6016] Remove AI generate summary button on lesson page → Approved",
-      "details": null,
-      "cost_usd": 0.93453775,
-      "total_tokens": 5314
     }
   ]
 }
