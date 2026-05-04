@@ -152,10 +152,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-04T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 258.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4504 [TTPAI-126] Add per-minute rate limit, trial message cap promotion → Approved",
+      "details": null,
+      "cost_usd": 1.7895795,
+      "total_tokens": 14620
     },
     {
       "agent": "admissions-pr-reviewer",
