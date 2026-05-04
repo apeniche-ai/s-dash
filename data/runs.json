@@ -1,9 +1,16 @@
 {
   "agents": {
+    "daily-todo-digest": {
+      "id": "01KQSZ07KRF02Y1WK0055S5NJB",
+      "name": "Daily Todo Digest",
+      "status": "disabled",
+      "schedule": "30 7 * * 1-5",
+      "description": "Personal-assistant morning digest: surface today's todos + execute the doable subset"
+    },
     "slack-watch": {
       "id": "01KQB12KYEDT04HRBWMF0R6A7T",
       "name": "Slack Watch",
-      "status": "disabled",
+      "status": "enabled",
       "schedule": "30 8,12,15,18 * * 1-5",
       "description": "Read-only Slack watch — silent unless something genuinely needs Amaury (alarm-only mode)"
     },
@@ -132,20 +139,6 @@
       "status": "disabled",
       "schedule": "5,20,35,50 * * * *",
       "description": "Monitor GitHub for new and updated PRs"
-    },
-    "slack-sync": {
-      "id": "01KNW58WD3T9SR88FZB408A06K",
-      "name": "Slack Sync",
-      "status": "disabled",
-      "schedule": "30 * * * *",
-      "description": "Sync new Slack messages to local database for context"
-    },
-    "slack-digest": {
-      "id": "01KNW58WD11CHXWTH5YAWYCR6X",
-      "name": "Slack Digest",
-      "status": "disabled",
-      "schedule": "15,45 * * * *",
-      "description": "Classified Slack digest with psychometric insights"
     },
     "morning-briefing": {
       "id": "01KNW58WCV3SYRRPGFV81KGGZE",
