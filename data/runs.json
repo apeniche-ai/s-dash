@@ -1,5 +1,12 @@
 {
   "agents": {
+    "behavioral-experiments-follow-up": {
+      "id": "01KQT84E082W7S1JAHXWPKY7V6",
+      "name": "Behavioral Experiments Follow-Up",
+      "status": "enabled",
+      "schedule": "30 9 * * 6",
+      "description": "Saturday 9:30 AM — weekly follow-up on Amaury's active behavioral experiments and the 3 currently-active empowering beliefs from the G3 roster. Targets G3 task 4 (behavioral experiments — design one per active belief, run weekly)."
+    },
     "daily-todo-digest": {
       "id": "01KQSZ07KRF02Y1WK0055S5NJB",
       "name": "Daily Todo Digest",
