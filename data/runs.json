@@ -150,6 +150,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-04T18:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-04T18:15:02Z",
       "duration_seconds": 1.3,
@@ -4660,16 +4668,6 @@
       "status": "success",
       "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-13T21:30:02Z",
-      "duration_seconds": 294.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4445 AI Deploy (20260414) - [37][40][42][55][56][74] - [6031] → Approved",
-      "details": null,
-      "cost_usd": 1.59521775,
-      "total_tokens": 13126
     }
   ]
 }
