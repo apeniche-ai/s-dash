@@ -150,6 +150,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-team-shipping-report",
+      "timestamp": "2026-05-04T17:11:40Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Team Shipping Report...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-04T17:08:59Z",
       "duration_seconds": 162.3,
@@ -158,14 +166,6 @@
       "details": null,
       "cost_usd": 1.6440194999999997,
       "total_tokens": 7503
-    },
-    {
-      "agent": "weekly-team-shipping-report",
-      "timestamp": "2026-05-04T16:52:27Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Team Shipping Report...",
-      "details": null
     },
     {
       "agent": "pr-reviewer",
