@@ -150,6 +150,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-04T17:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-04T17:19:37Z",
       "duration_seconds": 1.1,
@@ -4652,14 +4660,6 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-04-13T20:00:01Z",
-      "duration_seconds": 0.7,
-      "status": "success",
-      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-13T19:30:01Z",
       "duration_seconds": 0.7,
       "status": "success",
       "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
