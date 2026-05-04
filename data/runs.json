@@ -159,10 +159,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-05-04T22:10:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 374.2,
+      "status": "success",
+      "summary": "Done. One suggestion created and sent to Telegram: **\"Morning merge-ready digest\"** (P10, priority 8). Implementation notes attached for the implementer. Exiting.",
+      "details": null,
+      "cost_usd": 0.5781825,
+      "total_tokens": 15917
     },
     {
       "agent": "pr-reviewer",
