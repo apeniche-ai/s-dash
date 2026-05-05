@@ -141,10 +141,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-05-05T02:42:47Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 185.2,
+      "status": "success",
+      "summary": "Done. Reconcile complete — 15 tasks marked done across all 3 active goals, notification sent.",
+      "details": null,
+      "cost_usd": 0.1347876,
+      "total_tokens": 971
     },
     {
       "agent": "evening-performance-reflection",
