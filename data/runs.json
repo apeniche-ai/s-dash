@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-05T22:30:11Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 543.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4495 [5879] Fix Safari interaction lag and wrong option selection on macOS Tahoe → Approved",
+      "details": null,
+      "cost_usd": 1.7495215,
+      "total_tokens": 9985
     },
     {
       "agent": "admissions-pr-reviewer",
