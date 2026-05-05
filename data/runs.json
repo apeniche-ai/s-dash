@@ -149,10 +149,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-05T22:16:12Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 292.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4480 [TTPAI-96][TTPAI-124] Add onboarding columns + SIP cleanup and welcome snapshot embed → Approved",
+      "details": null,
+      "cost_usd": 2.82859825,
+      "total_tokens": 16511
     },
     {
       "agent": "passive-income-research-loop",
