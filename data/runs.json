@@ -141,10 +141,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-05T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 116.7,
+      "status": "success",
+      "summary": "Tick #47 complete. Silent — channel still silent on the Mon 11:33 Heroku Audit fork (~10.5h, end-of-Mon-evening past prime VP-attention window). State fresh from 11:42 consolidation, ledger unchanged,",
+      "details": null,
+      "cost_usd": 1.0478625,
+      "total_tokens": 5128
     },
     {
       "agent": "goal-progress-reconciliation",
