@@ -3,6 +3,7 @@
     "behavioral-experiments-follow-up": {
       "id": "01KQT84E082W7S1JAHXWPKY7V6",
       "name": "Behavioral Experiments Follow-Up",
+      "agent": "performance-coach",
       "status": "enabled",
       "schedule": "30 9 * * 6",
       "description": "Saturday 9:30 AM — weekly follow-up on Amaury's active behavioral experiments and the 3 currently-active empowering beliefs from the G3 roster. Targets G3 task 4 (behavioral experiments — design one per active belief, run weekly)."
@@ -10,6 +11,7 @@
     "daily-todo-digest": {
       "id": "01KQSZ07KRF02Y1WK0055S5NJB",
       "name": "Daily Todo Digest",
+      "agent": "assistant",
       "status": "enabled",
       "schedule": "30 7 * * 1-5",
       "description": "Personal-assistant morning digest: surface today's todos + execute the doable subset"
@@ -17,6 +19,7 @@
     "slack-watch": {
       "id": "01KQB12KYEDT04HRBWMF0R6A7T",
       "name": "Slack Watch",
+      "agent": "comms",
       "status": "enabled",
       "schedule": "30 8,12,15,18 * * 1-5",
       "description": "Read-only Slack watch — silent unless something genuinely needs Amaury (alarm-only mode)"
@@ -24,6 +27,7 @@
     "admissions-pr-reviewer": {
       "id": "01KQARE8VCTCH6HGG9D4QFVS28",
       "name": "Admissions PR Reviewer",
+      "agent": "qa",
       "status": "enabled",
       "schedule": "15 6-17 * * 1-5",
       "description": "Automated code review of open PRs on targettestprep/admissions every hour during work hours"
@@ -31,6 +35,7 @@
     "pr-follow-up-check": {
       "id": "01KQARE8V65AWQC5YB1YCGTE1J",
       "name": "PR Follow-up Check",
+      "agent": "qa",
       "status": "enabled",
       "schedule": "0 8 * * 1-5",
       "description": "Weekday morning check for PRs with unaddressed change requests"
@@ -38,6 +43,7 @@
     "goal-progress-reconciliation": {
       "id": "01KQANE2SYVWZ8CGR21S64GS1K",
       "name": "Goal Progress Reconciliation",
+      "agent": "goal-tracker",
       "status": "enabled",
       "schedule": "30 21 * * *",
       "description": "Nightly auto-reconcile of goal task progress against agent activity and implemented suggestions"
@@ -45,6 +51,7 @@
     "passive-income-state-consolidation": {
       "id": "01KPX729KG3MXFMK516S8T6MDH",
       "name": "Passive Income State Consolidation",
+      "agent": "passive-income",
       "status": "enabled",
       "schedule": "0 21 * * 0",
       "description": "Weekly rebuild of the passive-income-state summary from the ledger + log"
@@ -52,6 +59,7 @@
     "passive-income-research-loop": {
       "id": "01KPX729KA9QVASW9H4SMSDZWN",
       "name": "Passive Income Research Loop",
+      "agent": "passive-income",
       "status": "enabled",
       "schedule": "0 6,10,14,18,22 * * *",
       "description": "Continuous-research tick (5x/day) driving P8 — see passive-income agent system prompt"
@@ -59,20 +67,15 @@
     "weekly-coaching-digest": {
       "id": "01KPCKKB2W0TKGNH5EPE6WNJJY",
       "name": "Weekly Coaching Digest",
+      "agent": "coaching-digest",
       "status": "enabled",
       "schedule": "30 20 * * 0",
       "description": "Every Sunday at 8:30 PM — synthesizes the week's coaching conversations, exercises, and pattern work into a growth mirror so Amaury can see his own trajectory instead of isolated sessions."
     },
-    "browser-qa-smoke-test": {
-      "id": "01KNW58WDS0KBJE5R8DZ0412ZD",
-      "name": "Browser QA Smoke Test",
-      "status": "disabled",
-      "schedule": "15 7 * * 1-5",
-      "description": "Daily browser smoke test on gmat.targettestprep.com"
-    },
     "pr-reviewer": {
       "id": "01KNW58WDR9EC7EFMQKD96XMKQ",
       "name": "PR Reviewer",
+      "agent": "qa",
       "status": "enabled",
       "schedule": "0,30 5-17 * * 1-5",
       "description": "Automated code review of open PRs every 30 min during work hours"
@@ -80,6 +83,7 @@
     "system-health-audit": {
       "id": "01KNW58WDP05KHTREQGMX2EVDZ",
       "name": "System Health Audit",
+      "agent": "health-auditor",
       "status": "enabled",
       "schedule": "0 10 * * 6",
       "description": "Weekly audit of all Soren subsystems — jobs, agents, memory, goals, suggestions, notifications, costs"
@@ -87,6 +91,7 @@
     "weekly-team-shipping-report": {
       "id": "01KNW58WDKY1H20CS72VM2QY8C",
       "name": "Weekly Team Shipping Report",
+      "agent": "team-intel",
       "status": "enabled",
       "schedule": "45 7 * * 1",
       "description": "Monday morning team shipping & velocity report with size-weighted stats, WIP visibility, and review activity"
@@ -94,6 +99,7 @@
     "soren-improvement-implementation": {
       "id": "01KNW58WDJWGQXNJK0DSRSABME",
       "name": "Improvement Implementation",
+      "agent": "improvement-implementer",
       "status": "enabled",
       "schedule": "5 2 * * *",
       "description": "Implement approved improvement suggestions autonomously at 2 AM"
@@ -101,6 +107,7 @@
     "soren-improvement-review": {
       "id": "01KNW58WDHNM2NRWV3MNZSD50J",
       "name": "Improvement Review",
+      "agent": "improvement-reviewer",
       "status": "enabled",
       "schedule": "10 17 * * *",
       "description": "Evaluate goals, identify capability gaps, and propose improvements with implementation plans"
@@ -108,6 +115,7 @@
     "evening-performance-reflection": {
       "id": "01KNW58WDFWS6JQVNAYBEPXZG2",
       "name": "Evening Performance Reflection",
+      "agent": "performance-coach",
       "status": "enabled",
       "schedule": "5 20 * * 1-5",
       "description": "Evening coaching check-in — close the feedback loop on today's exercise"
@@ -115,44 +123,18 @@
     "daily-performance-check-in": {
       "id": "01KNW58WDBP08NMCDS0SEF8609",
       "name": "Daily Performance Check-in",
+      "agent": "performance-coach",
       "status": "enabled",
       "schedule": "30 6 * * 1-5",
       "description": "Morning interactive coaching session — questions, exercises, and pattern tracking"
     },
-    "stale-pr-detector": {
-      "id": "01KNW58WD9H77TK9PXPMN7X9M0",
-      "name": "Stale PR Detector",
-      "status": "disabled",
-      "schedule": "10 10 * * 1-5",
-      "description": "Find PRs that have been open too long"
-    },
     "weekly-goal-review": {
       "id": "01KNW58WD8B849CCZGH8BR82BA",
       "name": "Weekly Goal Review",
+      "agent": "goal-tracker",
       "status": "enabled",
       "schedule": "5 9 * * 1",
       "description": "Weekly goal progress review with auto-reconcile and human-readable analysis"
-    },
-    "end-of-day-report": {
-      "id": "01KNW58WD69WTG90ZZG480TQG7",
-      "name": "End of Day Report",
-      "status": "disabled",
-      "schedule": "5 18 * * 1-5",
-      "description": "Daily end-of-day summary"
-    },
-    "pr-monitor": {
-      "id": "01KNW58WD45R4WCK6R6M5JRX98",
-      "name": "PR Monitor",
-      "status": "disabled",
-      "schedule": "5,20,35,50 * * * *",
-      "description": "Monitor GitHub for new and updated PRs"
-    },
-    "morning-briefing": {
-      "id": "01KNW58WCV3SYRRPGFV81KGGZE",
-      "name": "Morning Briefing",
-      "status": "disabled",
-      "schedule": "5 7 * * 1-5",
-      "description": "Daily morning briefing with key updates"
     }
   },
   "runs": [
