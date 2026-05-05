@@ -141,10 +141,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-05-05T22:05:38Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 321.1,
+      "status": "success",
+      "summary": "alarmed 1 item: 🔴 Cinthia in #paidmedia — \"@amaury can we get a version of the code that is 15 off\" + LP, 3h17m no reply, 54 min left in business hours, engineering work still open.",
+      "details": null,
+      "cost_usd": 0.5430672,
+      "total_tokens": 14838
     },
     {
       "agent": "soren-improvement-implementation",
