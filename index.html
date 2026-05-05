@@ -364,6 +364,87 @@
 
     // ── Agent Visual Grid ────────────────────────────────
 
+    // Render a single job card to HTML. Pulled out of render_grid so the
+    // grid can call this once per job inside per-agent groups.
+    function render_card(k) {
+      var agents = (data && data.agents) || {};
+      var a = agents[k];
+      if (!a) return '';
+      var ai = get_agent_icon(k);
+      var runs = (data.runs || []).filter(function(r) { return r.agent === k; });
+      var is_running = runs.length > 0 && runs[0].status === 'running';
+      var last = runs.length > 0 ? runs[0] : null;
+      var recent_24h = runs.filter(function(r) { return (Date.now() - new Date(r.timestamp).getTime()) < 86400000; });
+      var errors_24h = recent_24h.filter(function(r) { return r.status === 'error'; });
+      var success_rate = recent_24h.length > 0 ? Math.round((recent_24h.length - errors_24h.length) / recent_24h.length * 100) : 100;
+
+      var spark_runs = runs.filter(function(r) { return r.status !== 'running'; }).slice(0, 16).reverse();
+      var sparkline = '<div class="flex items-center gap-[3px]">';
+      for (var j = 0; j < spark_runs.length; j++) {
+        var color = spark_runs[j].status === 'success' ? 'bg-emerald-500' : 'bg-red-500';
+        sparkline += '<div class="spark-dot ' + color + '" title="' + fmt_time(spark_runs[j].timestamp) + '"></div>';
+      }
+      sparkline += '</div>';
+
+      var card_border = is_running ? 'dark:border-indigo-500/40 border-indigo-300 dark:bg-indigo-500/[0.04] bg-indigo-50/50' : 'dark:border-zinc-800 border-zinc-200 dark:bg-zinc-900/50 bg-white shadow-sm';
+      var selected_border = agent_filter === k ? ' ring-2 ring-indigo-500/50' : '';
+
+      var html = '';
+      html += '<div class="agent-card border rounded-2xl p-5 cursor-pointer ' + card_border + selected_border + '" onclick="filter_by_agent(\'' + k + '\')">';
+
+      html += '  <div class="flex items-start justify-between mb-4">';
+      html += '    <div class="flex items-center gap-3">';
+      html += '      <div class="agent-icon-wrap">';
+      if (is_running) {
+        html += '        <div class="absolute inset-0 rounded-xl bg-gradient-to-br ' + ai.color + ' opacity-40 pulse-ring"></div>';
+      }
+      html += '        <div class="relative w-11 h-11 rounded-xl bg-gradient-to-br ' + ai.color + ' flex items-center justify-center text-white shadow-lg ' + ai.shadow + '">';
+      html += '          ' + ai.icon;
+      html += '        </div>';
+      html += '      </div>';
+      html += '      <div>';
+      html += '        <div class="text-[13px] font-semibold dark:text-white text-zinc-800">' + a.name + '</div>';
+      html += '        <div class="text-[11px] dark:text-zinc-500 text-zinc-500 mt-0.5">' + fmt_cron(a.schedule) + '</div>';
+      html += '      </div>';
+      html += '    </div>';
+
+      if (is_running) {
+        html += '    <div class="flex items-center gap-1.5 px-2 py-1 rounded-full bg-indigo-500/15 border border-indigo-500/25">';
+        html += '      <div class="spinner w-3 h-3 text-indigo-400"></div>';
+        html += '      <span class="text-[10px] font-medium text-indigo-400">LIVE</span>';
+        html += '    </div>';
+      } else {
+        var badge_color = errors_24h.length > 0 ? 'bg-amber-500' : 'bg-emerald-500';
+        html += '    <div class="w-2.5 h-2.5 rounded-full ' + badge_color + ' mt-1"></div>';
+      }
+      html += '  </div>';
+
+      html += '  <div class="flex items-center justify-between mb-3">';
+      if (is_running) {
+        html += '    <span class="text-[12px] text-indigo-400 font-medium">Running now...</span>';
+      } else if (last) {
+        html += '    <span class="text-[12px] dark:text-zinc-400 text-zinc-600">' + time_ago(last.timestamp) + '</span>';
+        html += '    <span class="text-[11px] dark:text-zinc-500 text-zinc-500 tabular-nums">' + fmt_duration(last.duration_seconds) + '</span>';
+      } else {
+        html += '    <span class="text-[12px] dark:text-zinc-600 text-zinc-500">No runs yet</span>';
+      }
+      html += '  </div>';
+
+      html += '  <div class="flex items-center justify-between">';
+      html += '    ' + sparkline;
+      var bar_color = success_rate === 100 ? 'bg-emerald-500' : success_rate >= 90 ? 'bg-amber-500' : 'bg-red-500';
+      html += '    <div class="flex items-center gap-2">';
+      html += '      <div class="w-16 h-1.5 dark:bg-zinc-800 bg-zinc-200/80 rounded-full overflow-hidden">';
+      html += '        <div class="h-full ' + bar_color + ' rounded-full transition-all" style="width:' + success_rate + '%"></div>';
+      html += '      </div>';
+      html += '      <span class="text-[10px] dark:text-zinc-500 text-zinc-500 w-7 text-right tabular-nums">' + success_rate + '%</span>';
+      html += '    </div>';
+      html += '  </div>';
+
+      html += '</div>';
+      return html;
+    }
+
     function render_grid() {
       if (!data) return;
       var el = document.getElementById('agent-grid');
@@ -383,93 +464,42 @@
       });
       var disabled = keys.filter(function(k) { return agents[k].status !== 'enabled'; });
 
-      // Enabled agents — visual cards with icons
-      var html = '<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">';
+      // Group enabled jobs by their underlying agent. Cards for agents with
+      // 2+ jobs render under a section header so the dashboard visually
+      // collapses related work (e.g. all `qa` jobs sit together). Single-job
+      // agents render inline without a header — same look as before.
+      var groups = {};
+      var group_order = [];
+      for (var gi = 0; gi < enabled.length; gi++) {
+        var gk = enabled[gi];
+        var ag = (agents[gk] && agents[gk].agent) || gk;
+        if (!groups[ag]) { groups[ag] = []; group_order.push(ag); }
+        groups[ag].push(gk);
+      }
+      group_order.sort(function(a, b) {
+        // Multi-job groups first, then alphabetical by agent name
+        var ma = groups[a].length > 1 ? 0 : 1;
+        var mb = groups[b].length > 1 ? 0 : 1;
+        return ma !== mb ? ma - mb : a.localeCompare(b);
+      });
 
-      for (var i = 0; i < enabled.length; i++) {
-        var k = enabled[i];
-        var a = agents[k];
-        var ai = get_agent_icon(k);
-        var runs = (data.runs || []).filter(function(r) { return r.agent === k; });
-        var is_running = runs.length > 0 && runs[0].status === 'running';
-        var last = runs.length > 0 ? runs[0] : null;
-        var recent_24h = runs.filter(function(r) { return (Date.now() - new Date(r.timestamp).getTime()) < 86400000; });
-        var errors_24h = recent_24h.filter(function(r) { return r.status === 'error'; });
-        var success_rate = recent_24h.length > 0 ? Math.round((recent_24h.length - errors_24h.length) / recent_24h.length * 100) : 100;
-
-        // Sparkline
-        var spark_runs = runs.filter(function(r) { return r.status !== 'running'; }).slice(0, 16).reverse();
-        var sparkline = '<div class="flex items-center gap-[3px]">';
-        for (var j = 0; j < spark_runs.length; j++) {
-          var color = spark_runs[j].status === 'success' ? 'bg-emerald-500' : 'bg-red-500';
-          sparkline += '<div class="spark-dot ' + color + '" title="' + fmt_time(spark_runs[j].timestamp) + '"></div>';
+      var html = '';
+      for (var gj = 0; gj < group_order.length; gj++) {
+        var agent_name = group_order[gj];
+        var job_keys = groups[agent_name];
+        if (job_keys.length > 1) {
+          var pretty = agent_name.replace(/-/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
+          html += '<div class="mt-6 first:mt-0 mb-3 flex items-baseline gap-2">';
+          html += '  <span class="text-[11px] uppercase tracking-wider font-semibold dark:text-zinc-400 text-zinc-600">' + pretty + '</span>';
+          html += '  <span class="text-[10px] dark:text-zinc-600 text-zinc-400">' + job_keys.length + ' jobs</span>';
+          html += '</div>';
         }
-        sparkline += '</div>';
-
-        var card_border = is_running ? 'dark:border-indigo-500/40 border-indigo-300 dark:bg-indigo-500/[0.04] bg-indigo-50/50' : 'dark:border-zinc-800 border-zinc-200 dark:bg-zinc-900/50 bg-white shadow-sm';
-        var selected_border = agent_filter === k ? ' ring-2 ring-indigo-500/50' : '';
-
-        html += '<div class="agent-card border rounded-2xl p-5 cursor-pointer ' + card_border + selected_border + '" onclick="filter_by_agent(\'' + k + '\')">';
-
-        // Icon + name row
-        html += '  <div class="flex items-start justify-between mb-4">';
-        html += '    <div class="flex items-center gap-3">';
-
-        // Agent icon with gradient background
-        html += '      <div class="agent-icon-wrap">';
-        if (is_running) {
-          html += '        <div class="absolute inset-0 rounded-xl bg-gradient-to-br ' + ai.color + ' opacity-40 pulse-ring"></div>';
+        html += '<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">';
+        for (var jk = 0; jk < job_keys.length; jk++) {
+          html += render_card(job_keys[jk]);
         }
-        html += '        <div class="relative w-11 h-11 rounded-xl bg-gradient-to-br ' + ai.color + ' flex items-center justify-center text-white shadow-lg ' + ai.shadow + '">';
-        html += '          ' + ai.icon;
-        html += '        </div>';
-        html += '      </div>';
-
-        html += '      <div>';
-        html += '        <div class="text-[13px] font-semibold dark:text-white text-zinc-800">' + a.name + '</div>';
-        html += '        <div class="text-[11px] dark:text-zinc-500 text-zinc-500 mt-0.5">' + fmt_cron(a.schedule) + '</div>';
-        html += '      </div>';
-        html += '    </div>';
-
-        // Status badge
-        if (is_running) {
-          html += '    <div class="flex items-center gap-1.5 px-2 py-1 rounded-full bg-indigo-500/15 border border-indigo-500/25">';
-          html += '      <div class="spinner w-3 h-3 text-indigo-400"></div>';
-          html += '      <span class="text-[10px] font-medium text-indigo-400">LIVE</span>';
-          html += '    </div>';
-        } else {
-          var badge_color = errors_24h.length > 0 ? 'bg-amber-500' : 'bg-emerald-500';
-          html += '    <div class="w-2.5 h-2.5 rounded-full ' + badge_color + ' mt-1"></div>';
-        }
-        html += '  </div>';
-
-        // Last run info
-        html += '  <div class="flex items-center justify-between mb-3">';
-        if (is_running) {
-          html += '    <span class="text-[12px] text-indigo-400 font-medium">Running now...</span>';
-        } else if (last) {
-          html += '    <span class="text-[12px] dark:text-zinc-400 text-zinc-600">' + time_ago(last.timestamp) + '</span>';
-          html += '    <span class="text-[11px] dark:text-zinc-500 text-zinc-500 tabular-nums">' + fmt_duration(last.duration_seconds) + '</span>';
-        } else {
-          html += '    <span class="text-[12px] dark:text-zinc-600 text-zinc-500">No runs yet</span>';
-        }
-        html += '  </div>';
-
-        // Sparkline + success rate
-        html += '  <div class="flex items-center justify-between">';
-        html += '    ' + sparkline;
-        var bar_color = success_rate === 100 ? 'bg-emerald-500' : success_rate >= 90 ? 'bg-amber-500' : 'bg-red-500';
-        html += '    <div class="flex items-center gap-2">';
-        html += '      <div class="w-16 h-1.5 dark:bg-zinc-800 bg-zinc-200/80 rounded-full overflow-hidden">';
-        html += '        <div class="h-full ' + bar_color + ' rounded-full transition-all" style="width:' + success_rate + '%"></div>';
-        html += '      </div>';
-        html += '      <span class="text-[10px] dark:text-zinc-500 text-zinc-500 w-7 text-right tabular-nums">' + success_rate + '%</span>';
-        html += '    </div>';
-        html += '  </div>';
-
         html += '</div>';
       }
-      html += '</div>';
       el.innerHTML = html;
 
       dis_el.innerHTML = '';
