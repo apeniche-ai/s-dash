@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-06T12:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 295.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4506 [TTPAI-128] Add OnboardingController, routes, and per-step save actions → Approved",
+      "details": null,
+      "cost_usd": 1.7755472499999998,
+      "total_tokens": 19647
     },
     {
       "agent": "daily-performance-check-in",
