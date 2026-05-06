@@ -141,10 +141,13 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-05-06T19:33:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 3644.1,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code timed out after 600s"
+      ]
     },
     {
       "agent": "admissions-pr-reviewer",
