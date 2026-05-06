@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-06T22:57:11Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 153.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4514 [Snyk] Security upgrade rails from 7.2.3.1 to 8.0.0 → Changes Requested (Gemfile.lock not updated; major Rails 7.2→8.0 jump unsafe in a Snyk auto-PR; underlying CVEs are in net-i",
+      "details": null,
+      "cost_usd": 1.2448242500000002,
+      "total_tokens": 8255
     },
     {
       "agent": "soren-improvement-review",
