@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-06T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-06T22:57:11Z",
       "duration_seconds": 153.3,
@@ -4674,16 +4682,6 @@
       "details": null,
       "cost_usd": 1.0532879999999998,
       "total_tokens": 8701
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-16T13:30:01Z",
-      "duration_seconds": 239.2,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4456 [6046] Upgrade Pagy gem from v9.3.4 to v43.4.4 → Approved",
-      "details": null,
-      "cost_usd": 1.263541,
-      "total_tokens": 9629
     }
   ]
 }
