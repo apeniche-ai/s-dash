@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-06T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 324.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4507 [6115] Unify Self-Study and On-Demand A/B test → Changes Requested (convert_experiment_user nil-token + precedence misattribution; redirect-not-halting in plans action; out-of-sc",
+      "details": null,
+      "cost_usd": 1.94344725,
+      "total_tokens": 19475
     },
     {
       "agent": "pr-reviewer",
