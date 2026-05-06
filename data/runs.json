@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-06T12:00:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-05-06T11:32:39Z",
       "duration_seconds": 103.5,
@@ -4663,16 +4671,6 @@
       "details": null,
       "cost_usd": 1.6656360000000001,
       "total_tokens": 10621
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-15T12:30:01Z",
-      "duration_seconds": 221.1,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4440 [6066] Fix chatbot trial limit banner not persisting after page refresh → Approved",
-      "details": null,
-      "cost_usd": 1.1493134999999999,
-      "total_tokens": 9187
     }
   ]
 }
