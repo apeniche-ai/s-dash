@@ -141,10 +141,13 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-05-06T22:13:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 1797.6,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code timed out after 600s"
+      ]
     },
     {
       "agent": "admissions-pr-reviewer",
