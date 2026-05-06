@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "evening-performance-reflection",
+      "timestamp": "2026-05-06T01:05:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Evening Performance Reflection...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-05T23:30:00Z",
       "duration_seconds": 137.1,
@@ -251,14 +259,6 @@
       "details": null,
       "cost_usd": 0.1347876,
       "total_tokens": 971
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-05-05T01:06:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
     },
     {
       "agent": "evening-performance-reflection",
