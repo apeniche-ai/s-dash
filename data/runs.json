@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-06T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 221.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4508 [TTPAI-95] Add multi-layer DI exercise verification with structural, math, and LLM judge layers → Approved",
+      "details": null,
+      "cost_usd": 1.7544497500000003,
+      "total_tokens": 13320
     },
     {
       "agent": "pr-reviewer",
