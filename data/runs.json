@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-06T14:15:02Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 9 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-06T14:00:02Z",
       "duration_seconds": 324.7,
@@ -4667,16 +4675,6 @@
       "details": null,
       "cost_usd": 1.2807782499999998,
       "total_tokens": 8865
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-15T17:30:31Z",
-      "duration_seconds": 219.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4455 [TTPAI-104] Fix cost mailer pricing → Approved",
-      "details": null,
-      "cost_usd": 1.09248625,
-      "total_tokens": 7964
     }
   ]
 }
