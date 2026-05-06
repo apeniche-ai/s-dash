@@ -140,6 +140,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-06T10:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-06T10:00:01Z",
       "duration_seconds": 114.4,
       "status": "success",
@@ -4665,16 +4673,6 @@
       "details": null,
       "cost_usd": 1.099505,
       "total_tokens": 6061
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-15T10:00:01Z",
-      "duration_seconds": 228.5,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4396 [6029][Admin] Add Word document export for topics and chapters → Approved",
-      "details": null,
-      "cost_usd": 1.5561597499999995,
-      "total_tokens": 9005
     }
   ]
 }
