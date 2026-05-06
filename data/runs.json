@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-06T12:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 9 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-06T12:00:03Z",
       "duration_seconds": 295.1,
@@ -4663,16 +4671,6 @@
       "status": "success",
       "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-15T13:00:01Z",
-      "duration_seconds": 259.4,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4453 [TTPAI-92] Re run image descriptions with Sonnet 4.6 via shadow routing → Approved",
-      "details": null,
-      "cost_usd": 1.6656360000000001,
-      "total_tokens": 10621
     }
   ]
 }
