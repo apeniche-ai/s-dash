@@ -141,10 +141,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-06T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 67.6,
+      "status": "success",
+      "summary": "Evening reflection sent. Tuesday's self-trust probe — one judgment call, voiced or held — paired with no exercise nudge (none active, hard-pause continues through move). Question stored for morning fo",
+      "details": null,
+      "cost_usd": 0.8717207499999999,
+      "total_tokens": 2848
     },
     {
       "agent": "slack-watch",
