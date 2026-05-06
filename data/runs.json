@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-06T19:33:23Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-06T18:32:41Z",
       "duration_seconds": 1.8,
@@ -4666,16 +4674,6 @@
       "status": "success",
       "summary": "No approved suggestions — skipped",
       "details": null
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-04-16T01:05:01Z",
-      "duration_seconds": 80.2,
-      "status": "success",
-      "summary": "Evening reflection sent. Brief and strategic:",
-      "details": null,
-      "cost_usd": 0.41699325,
-      "total_tokens": 1927
     }
   ]
 }
