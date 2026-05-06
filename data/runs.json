@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "daily-performance-check-in",
+      "timestamp": "2026-05-06T11:32:39Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Performance Check-in...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-06T11:30:01Z",
       "duration_seconds": 158.7,
@@ -4663,16 +4671,6 @@
       "details": null,
       "cost_usd": 1.1493134999999999,
       "total_tokens": 9187
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-15T12:00:01Z",
-      "duration_seconds": 143.1,
-      "status": "success",
-      "summary": "",
-      "details": null,
-      "cost_usd": 0.81154225,
-      "total_tokens": 5872
     }
   ]
 }
