@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-06T22:57:11Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-05-06T22:53:54Z",
       "duration_seconds": 199.7,
@@ -4674,16 +4682,6 @@
       "details": null,
       "cost_usd": 1.263541,
       "total_tokens": 9629
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-16T13:00:01Z",
-      "duration_seconds": 177.7,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4451 [TTPAI-103] Fix Vector KB filter mismatches causing long example generation times → Approved",
-      "details": null,
-      "cost_usd": 1.0152062499999999,
-      "total_tokens": 6730
     }
   ]
 }
