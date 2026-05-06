@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-06T20:36:13Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-06T20:34:10Z",
       "duration_seconds": 122.6,
@@ -4668,14 +4676,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-04-16T11:00:01Z",
       "duration_seconds": 1.0,
-      "status": "success",
-      "summary": "No PRs to review — 31 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-16T10:30:01Z",
-      "duration_seconds": 0.8,
       "status": "success",
       "summary": "No PRs to review — 31 open, all skipped (labeled/draft)",
       "details": null
