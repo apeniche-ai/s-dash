@@ -141,10 +141,12 @@
     {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-07T21:15:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Admissions PR Reviewer...",
-      "details": null
+      "duration_seconds": 261.0,
+      "status": "success",
+      "summary": "Reviewed 1 PR (admissions) (⚠️ no Jira context): #655 [ADM-701] Implement download functionality across the app → Changes Requested (empty-markup `body.present?` fix applied to essay partial but missi",
+      "details": null,
+      "cost_usd": 2.3495110000000006,
+      "total_tokens": 16450
     },
     {
       "agent": "pr-reviewer",
