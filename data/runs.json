@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 302.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4517 [TTPAI-136] Fix streaming truncation on multibyte content and JS buffer leak → Changes Requested (TTL check only inspects matching stream_id; orphaned buffers never get cleaned) ",
+      "details": null,
+      "cost_usd": 1.8146857499999998,
+      "total_tokens": 18768
     },
     {
       "agent": "daily-performance-check-in",
