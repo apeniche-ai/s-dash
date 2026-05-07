@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-07T15:25:51Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T13:32:33Z",
       "duration_seconds": 213.6,
@@ -4698,16 +4706,6 @@
       "details": null,
       "cost_usd": 1.7047792500000003,
       "total_tokens": 7519
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-17T10:00:02Z",
-      "duration_seconds": 211.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4337 [5787] Add ttp rapid review screen → Approved",
-      "details": null,
-      "cost_usd": 1.85870675,
-      "total_tokens": 10037
     }
   ]
 }
