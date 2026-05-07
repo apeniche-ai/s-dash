@@ -141,10 +141,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-07T15:25:51Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 137.4,
+      "status": "success",
+      "summary": "Tick #57 complete. Bridge fired on passive-income channel rerouting the JEPQ discussion from default channel. Daily budget Thu 1/3 used. Next eligible action Thu 14:00 — discussion mode if reply lands",
+      "details": null,
+      "cost_usd": 1.1601827500000002,
+      "total_tokens": 6507
     },
     {
       "agent": "admissions-pr-reviewer",
