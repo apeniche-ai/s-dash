@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "mercury-transfer-reminder---natalia",
+      "timestamp": "2026-05-07T21:35:51Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Mercury transfer reminder - Natalia...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T21:30:01Z",
       "duration_seconds": 0.8,
@@ -4685,14 +4693,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-04-17T22:00:02Z",
       "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-17T21:30:01Z",
-      "duration_seconds": 1.1,
       "status": "success",
       "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
       "details": null
