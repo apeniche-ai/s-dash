@@ -140,6 +140,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-07T17:00:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-07T16:30:01Z",
       "duration_seconds": 160.6,
       "status": "success",
@@ -4694,16 +4702,6 @@
       "details": null,
       "cost_usd": 1.265013,
       "total_tokens": 12348
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-17T12:30:00Z",
-      "duration_seconds": 326.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4458 [TTPAI-114][TTPAI-115] Fixes text completion blank count mismatch and multiple answer questions issue → Approved",
-      "details": null,
-      "cost_usd": 2.23278125,
-      "total_tokens": 19866
     }
   ]
 }
