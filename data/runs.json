@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T13:01:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 190.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4518 [TTPAI-135] Fix chatbot garbling curriculum diagrams and figures in lesson responses → Approved + Browser QA Skipped (vector KB rake task + nightly sync prerequisite not reproduc",
+      "details": null,
+      "cost_usd": 1.6227864999999997,
+      "total_tokens": 10178
     },
     {
       "agent": "pr-follow-up-check",
