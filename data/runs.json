@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 160.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4521 [6166] Fix chatbot send/stop button broken on iPad and mobile by replacing form_tag with content_tag form → Approved + Browser QA Skipped (local Ruby/bundler mismatch)",
+      "details": null,
+      "cost_usd": 1.4715247499999997,
+      "total_tokens": 9268
     },
     {
       "agent": "admissions-pr-reviewer",
