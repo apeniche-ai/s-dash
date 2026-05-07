@@ -141,10 +141,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-07T01:05:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 55.3,
+      "status": "success",
+      "summary": "Evening reflection sent. Wednesday VP-ruler probe — one moment today (call made, unblock, quality held, alignment built) with no GitHub artifact. Light touch given today was a soft re-entry day with n",
+      "details": null,
+      "cost_usd": 0.861326,
+      "total_tokens": 2695
     },
     {
       "agent": "slack-watch",
