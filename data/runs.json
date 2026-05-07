@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T11:02:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 196.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4506 [TTPAI-128] Add OnboardingController, routes, and per-step save actions → Approved + Browser QA Skipped (TTPAI silent re-approval)",
+      "details": null,
+      "cost_usd": 1.6465104999999995,
+      "total_tokens": 12005
     },
     {
       "agent": "passive-income-research-loop",
