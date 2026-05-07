@@ -141,10 +141,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-05-07T17:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 180.3,
+      "status": "success",
+      "summary": "alarmed 1 item: 🔴 Augusto's #ai-dev standup — explicit ask to Amaury for PR review (#4480 SIP cleanup, #4471 Bedrock removal Critical) + 3 bug ticket assignments (TTPAI-134/135/136) — posted Wed 7:36",
+      "details": null,
+      "cost_usd": 0.5010733,
+      "total_tokens": 9892
     },
     {
       "agent": "admissions-pr-reviewer",
