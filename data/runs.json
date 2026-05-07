@@ -141,10 +141,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-07T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 105.5,
+      "status": "success",
+      "summary": "Tick #58 complete. Silent — bridge fired 3.5h ago on JEPQ thread, channel still silent, anti-pattern watch (no 3rd notify) holds. Daily budget Thu 1/3 used. Next eligible action Thu 18:00 — discussion",
+      "details": null,
+      "cost_usd": 1.0729585,
+      "total_tokens": 4633
     },
     {
       "agent": "pr-reviewer",
