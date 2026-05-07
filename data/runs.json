@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T13:32:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 213.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4503 [6117] Add math formatting guidance to chatbot prompt → Approved + Browser QA Skipped (chatbot prompt + CSS; needs live LLM/vector KB)",
+      "details": null,
+      "cost_usd": 2.2188519999999996,
+      "total_tokens": 11145
     },
     {
       "agent": "slack-watch",
