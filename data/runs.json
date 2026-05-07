@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-07T17:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T17:00:01Z",
       "duration_seconds": 1.1,
@@ -4692,16 +4700,6 @@
       "details": null,
       "cost_usd": 0.9912454999999998,
       "total_tokens": 4414
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-17T13:00:01Z",
-      "duration_seconds": 198.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4452 [6039] Fix error tracker form on firefox → Changes Requested (click handler fires on cancelled Rails confirm, causing spurious bfcache reload)",
-      "details": null,
-      "cost_usd": 1.265013,
-      "total_tokens": 12348
     }
   ]
 }
