@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T21:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 147.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4522 [6170] Fix content_pages_controller bannerCode specs → Approved + Browser QA Skipped (spec-only)",
+      "details": null,
+      "cost_usd": 1.5064327499999999,
+      "total_tokens": 7648
     },
     {
       "agent": "pr-reviewer",
