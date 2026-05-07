@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-07T22:30:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-07T22:15:01Z",
       "duration_seconds": 0.9,
@@ -4688,16 +4696,6 @@
       "status": "success",
       "summary": "No approved suggestions — skipped",
       "details": null
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-04-18T01:05:00Z",
-      "duration_seconds": 77.1,
-      "status": "success",
-      "summary": "Evening reflection sent. Asked one focused question about a direction-shifting moment today, explicitly calling out the hedging. Pending question stored. No new exercise assigned — VP Scorecard remain",
-      "details": null,
-      "cost_usd": 0.60938375,
-      "total_tokens": 2730
     }
   ]
 }
