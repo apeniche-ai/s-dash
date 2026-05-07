@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-07T17:33:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-07T17:30:00Z",
       "duration_seconds": 180.3,
@@ -4690,16 +4698,6 @@
       "details": null,
       "cost_usd": 1.2025035,
       "total_tokens": 8154
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-17T14:00:01Z",
-      "duration_seconds": 190.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4458 [TTPAI-114/115] Fix text completion blank count mismatch → Approved",
-      "details": null,
-      "cost_usd": 1.5438087499999997,
-      "total_tokens": 9945
     }
   ]
 }
