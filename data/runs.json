@@ -141,10 +141,12 @@
     {
       "agent": "mercury-transfer-reminder---natalia",
       "timestamp": "2026-05-07T21:35:51Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Mercury transfer reminder - Natalia...",
-      "details": null
+      "duration_seconds": 19.3,
+      "status": "success",
+      "summary": "Reminder sent to Telegram.",
+      "details": null,
+      "cost_usd": 0.15233449999999996,
+      "total_tokens": 333
     },
     {
       "agent": "pr-reviewer",
