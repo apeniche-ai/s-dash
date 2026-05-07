@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-07T15:25:51Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-07T15:25:51Z",
       "duration_seconds": 1.0,
@@ -4696,16 +4704,6 @@
       "details": null,
       "cost_usd": 2.8000142499999994,
       "total_tokens": 17147
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-17T10:30:01Z",
-      "duration_seconds": 144.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4389 [5965] Update login UI for GMAT, GRE, EA, and SAT exams → Approved",
-      "details": null,
-      "cost_usd": 1.7047792500000003,
-      "total_tokens": 7519
     }
   ]
 }
