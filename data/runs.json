@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 427.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4506 [TTPAI-128] Add OnboardingController, routes, and per-step save actions → Changes Requested (Chapter.default_sections_for_exam doesn't accept legacy: param — silently drops confi",
+      "details": null,
+      "cost_usd": 2.999378750000001,
+      "total_tokens": 28250
     },
     {
       "agent": "pr-reviewer",
