@@ -141,10 +141,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-07T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 126.2,
+      "status": "success",
+      "summary": "Tick #56 complete. Silent on passive-income channel — 06:00 cold-attention window, bridge condition (default-channel JEPQ resolution surfacing question content) not strictly met. Next eligible action:",
+      "details": null,
+      "cost_usd": 0.9063175,
+      "total_tokens": 6592
     },
     {
       "agent": "pr-reviewer",
