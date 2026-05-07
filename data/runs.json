@@ -141,10 +141,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 218.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4516 [TTPAI-134] Fixes empty SIP topics/strengths for TP+CM-only users → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.78193725,
+      "total_tokens": 12801
     },
     {
       "agent": "admissions-pr-reviewer",
