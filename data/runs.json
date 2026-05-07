@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-05-07T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-07T01:05:01Z",
       "duration_seconds": 55.3,
@@ -4675,14 +4683,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-04-16T15:30:02Z",
       "duration_seconds": 1.1,
-      "status": "success",
-      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-16T15:00:02Z",
-      "duration_seconds": 1.8,
       "status": "success",
       "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
       "details": null
