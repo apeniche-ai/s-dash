@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-07T13:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-07T13:15:01Z",
       "duration_seconds": 1.0,
@@ -4696,16 +4704,6 @@
       "status": "success",
       "summary": "No approved suggestions — skipped",
       "details": null
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-04-17T01:05:01Z",
-      "duration_seconds": 57.6,
-      "status": "success",
-      "summary": "Evening reflection sent. Closed the loop on this morning's share — targeted the residual hedge (\"maybe\") rather than piling on. Pending question stored. No new exercise assigned (morning job's role).",
-      "details": null,
-      "cost_usd": 0.58732775,
-      "total_tokens": 2745
     }
   ]
 }
