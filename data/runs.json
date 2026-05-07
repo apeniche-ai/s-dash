@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-07T16:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T16:00:01Z",
       "duration_seconds": 213.4,
@@ -4696,16 +4704,6 @@
       "details": null,
       "cost_usd": 1.8827919999999998,
       "total_tokens": 10966
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-17T11:31:07Z",
-      "duration_seconds": 240.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4459 [6078] Fix flash card decks index page crashing dyno with memory quota exceeded → Changes Requested (residual N+1 on flash_card_sessions; `||` fallback reintroduces per-deck quer",
-      "details": null,
-      "cost_usd": 1.6028162499999998,
-      "total_tokens": 14934
     }
   ]
 }
