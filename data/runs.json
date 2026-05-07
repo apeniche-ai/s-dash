@@ -140,6 +140,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-07T18:00:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-07T17:33:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4688,16 +4696,6 @@
       "details": null,
       "cost_usd": 1.29013125,
       "total_tokens": 9401
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-17T14:30:01Z",
-      "duration_seconds": 169.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4460 [6051] Upgrade data layer gems (paper_trail 17.0, activerecord-import 2.2.0, rolify 6.0.1) → Approved",
-      "details": null,
-      "cost_usd": 1.2025035,
-      "total_tokens": 8154
     }
   ]
 }
