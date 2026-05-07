@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "daily-performance-check-in",
+      "timestamp": "2026-05-07T11:33:39Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Performance Check-in...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-07T11:30:01Z",
       "duration_seconds": 218.3,
@@ -4688,16 +4696,6 @@
       "status": "success",
       "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-16T19:30:01Z",
-      "duration_seconds": 270.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4389 [5965] Update login UI for GMAT, GRE, EA, and SAT exams → Approved",
-      "details": null,
-      "cost_usd": 3.028953,
-      "total_tokens": 13139
     }
   ]
 }
