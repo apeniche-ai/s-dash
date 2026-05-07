@@ -139,6 +139,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-07T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-07T23:00:00Z",
       "duration_seconds": 314.4,
@@ -4688,16 +4696,6 @@
       "details": null,
       "cost_usd": 0.7551065,
       "total_tokens": 8565
-    },
-    {
-      "agent": "system-health-audit",
-      "timestamp": "2026-04-18T15:00:01Z",
-      "duration_seconds": 128.2,
-      "status": "success",
-      "summary": "Health audit complete. **Overall: 9/10** — system healthy. All 7 subsystems at 7-10. No new suggestions created (no subsystem ≤6, no critical findings). Report sent to Telegram. The only drag on the s",
-      "details": null,
-      "cost_usd": 0.75322025,
-      "total_tokens": 6971
     }
   ]
 }
