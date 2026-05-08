@@ -149,10 +149,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-05-08T12:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 71.2,
+      "status": "success",
+      "summary": "Done. Digest sent to the assistant channel with 2 overdue reminders (AC installation + Mercury → Natalia). No doable work in queue, no completions since yesterday. All 10 cooldown timestamps updated, ",
+      "details": null,
+      "cost_usd": 0.38358244999999996,
+      "total_tokens": 3898
     },
     {
       "agent": "admissions-pr-reviewer",
