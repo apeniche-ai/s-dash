@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-08T11:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-08T11:01:21Z",
       "duration_seconds": 200.6,
@@ -4700,16 +4708,6 @@
       "details": null,
       "cost_usd": 3.372616499999999,
       "total_tokens": 24151
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-04-20T11:30:00Z",
-      "duration_seconds": 57.9,
-      "status": "success",
-      "summary": "Check-in sent. Followed up on Saturday's pending \"How old is this voice?\" exercise with three observation-focused questions — no new exercise assigned since the existing one is within the 3-day window",
-      "details": null,
-      "cost_usd": 0.63004875,
-      "total_tokens": 3254
     }
   ]
 }
