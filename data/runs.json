@@ -149,10 +149,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-08T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 69.1,
+      "status": "success",
+      "summary": "Evening reflection sent. Soft-surfaced Anchor Spotter (voice-note-tonight ask, no nag) + Thursday self-trust probe targeting the External Validation Dependency pattern. Memories stored. No new exercis",
+      "details": null,
+      "cost_usd": 0.6940895,
+      "total_tokens": 3705
     },
     {
       "agent": "slack-watch",
