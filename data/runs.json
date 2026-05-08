@@ -1,5 +1,13 @@
 {
   "agents": {
+    "weekly-vp-performance-edge": {
+      "id": "01KR2F1SP2PE5W4698R2VE3MYS",
+      "name": "Weekly VP Performance Edge",
+      "agent": "vp-edge-scout",
+      "status": "enabled",
+      "schedule": "0 7 * * 1",
+      "description": "Mondays 7 AM — one tactical VPE tip before weekly goal review."
+    },
     "behavioral-experiments-follow-up": {
       "id": "01KQT84E082W7S1JAHXWPKY7V6",
       "name": "Behavioral Experiments Follow-Up",
