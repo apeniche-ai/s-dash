@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-08T11:01:21Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-08T11:00:00Z",
       "duration_seconds": null,
@@ -4698,16 +4706,6 @@
       "details": null,
       "cost_usd": 0.63004875,
       "total_tokens": 3254
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-20T11:00:02Z",
-      "duration_seconds": 231.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4461 [TTPAI-83] Add response streaming via Pusher with frontend chunk → Changes Requested (RAG cache key omits query, innerHTML XSS on streaming chunks, Pusher failure aborts response",
-      "details": null,
-      "cost_usd": 1.8524262500000002,
-      "total_tokens": 13647
     }
   ]
 }
