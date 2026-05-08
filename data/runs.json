@@ -149,10 +149,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-08T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 369.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4523 [6142] Add Maren onboarding welcome screen → Changes Requested (spec apostrophe mismatch — `click_link \"LET'S START\"` won't match locale's curly `LET'S START`) + Browser QA Skipp",
+      "details": null,
+      "cost_usd": 3.5992137500000005,
+      "total_tokens": 17446
     },
     {
       "agent": "pr-reviewer",
