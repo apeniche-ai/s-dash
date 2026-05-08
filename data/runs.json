@@ -148,6 +148,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-08T12:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-08T11:31:19Z",
       "duration_seconds": 1.0,
       "status": "success",
@@ -4696,16 +4704,6 @@
       "details": null,
       "cost_usd": 1.3033607499999997,
       "total_tokens": 13087
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-20T12:30:01Z",
-      "duration_seconds": 300.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4434 [TTPAI-73] Enable AI features across all exam sections and add DI question type parsers → Approved",
-      "details": null,
-      "cost_usd": 2.47481975,
-      "total_tokens": 14534
     }
   ]
 }
