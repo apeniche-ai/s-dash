@@ -149,10 +149,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-08T21:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 170.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4528 [TTPAI-137] Reddit to Score Analyzer improvements → Approved + Browser QA Skipped (AI prompt content change)",
+      "details": null,
+      "cost_usd": 1.694492,
+      "total_tokens": 8050
     },
     {
       "agent": "admissions-pr-reviewer",
