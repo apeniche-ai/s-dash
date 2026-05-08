@@ -149,10 +149,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-08T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 134.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4526 Testing Rspec workflow → Approved + Browser QA Skipped (.github/workflows/ change only, no user-visible behavior)",
+      "details": null,
+      "cost_usd": 1.3373090000000003,
+      "total_tokens": 7565
     },
     {
       "agent": "pr-reviewer",
