@@ -148,6 +148,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-08T21:00:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-08T20:32:43Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4693,16 +4701,6 @@
       "details": null,
       "cost_usd": 1.8372137499999996,
       "total_tokens": 14891
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-21T13:30:01Z",
-      "duration_seconds": 368.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4470 [TTPAI-116] Wire chatbot frontend to TTPAI-58 backend contract → Approved",
-      "details": null,
-      "cost_usd": 2.4823557499999995,
-      "total_tokens": 16165
     }
   ]
 }
