@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-08T21:15:02Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-08T21:00:02Z",
       "duration_seconds": 1.4,
@@ -4691,16 +4699,6 @@
       "details": null,
       "cost_usd": 3.2394404999999997,
       "total_tokens": 23424
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-21T14:00:01Z",
-      "duration_seconds": 256.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4472 [TTPAI-117] Migrate summary, flashcard, and tutor services to deterministic vector KB retrieval → Approved",
-      "details": null,
-      "cost_usd": 1.8372137499999996,
-      "total_tokens": 14891
     }
   ]
 }
