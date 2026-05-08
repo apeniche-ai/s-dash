@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-08T19:30:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-08T19:15:01Z",
       "duration_seconds": 0.8,
@@ -4701,16 +4709,6 @@
       "details": null,
       "cost_usd": 1.86062675,
       "total_tokens": 13184
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-04-21T11:30:00Z",
-      "duration_seconds": 89.8,
-      "status": "success",
-      "summary": "Check-in sent. The \"How old is this voice?\" weekend observation exercise was marked expired yesterday — Monday morning's follow-up and Monday evening's pivot question both went unanswered. Assigned a ",
-      "details": null,
-      "cost_usd": 0.6952115,
-      "total_tokens": 5294
     }
   ]
 }
