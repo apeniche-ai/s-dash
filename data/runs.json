@@ -149,10 +149,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-08T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 90.2,
+      "status": "success",
+      "summary": "Tick #63 complete. Silent — anti-pattern watch holds (32h post-bridge, no Amaury signal on JEPQ/XDTE either channel today, no material news). State 24h fresh, ledger unchanged. Daily Fri budget 0/3 us",
+      "details": null,
+      "cost_usd": 0.8351805,
+      "total_tokens": 5299
     },
     {
       "agent": "pr-reviewer",
