@@ -149,10 +149,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-05-08T13:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 166.2,
+      "status": "success",
+      "summary": "alarmed 1 item: 🔴 (still waiting) Augusto's #ai-dev thread — PR #4471 (Critical, Bedrock removal) + #4480 + 3 unassigned bug tickets (TTPAI-134/135/136), 37h no reply. Re-alarm sent, item marked esca",
+      "details": null,
+      "cost_usd": 0.39646604999999996,
+      "total_tokens": 9311
     },
     {
       "agent": "admissions-pr-reviewer",
