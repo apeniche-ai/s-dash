@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-implementation",
+      "timestamp": "2026-05-08T07:05:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Implementation...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-08T03:00:00Z",
       "duration_seconds": 123.0,
@@ -4698,16 +4706,6 @@
       "status": "success",
       "summary": "No approved suggestions — skipped",
       "details": null
-    },
-    {
-      "agent": "weekly-coaching-digest",
-      "timestamp": "2026-04-20T01:30:28Z",
-      "duration_seconds": 107.4,
-      "status": "success",
-      "summary": "Digest sent to Telegram and stored in memory. Four themes surfaced: pattern-connection across domains (progress), VP-ruler moments produced (progress), external-validation dependency named (progress o",
-      "details": null,
-      "cost_usd": 0.9090759999999999,
-      "total_tokens": 6572
     }
   ]
 }
