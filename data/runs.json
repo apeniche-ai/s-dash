@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-05-08T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-08T12:15:01Z",
       "duration_seconds": 0.9,
@@ -4694,16 +4702,6 @@
       "details": null,
       "cost_usd": 1.553553,
       "total_tokens": 11370
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-20T13:00:01Z",
-      "duration_seconds": 236.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4461 [TTPAI-83] Add response streaming via Pusher with frontend chunk → Approved",
-      "details": null,
-      "cost_usd": 1.68064175,
-      "total_tokens": 13006
     }
   ]
 }
