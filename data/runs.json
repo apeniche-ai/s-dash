@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-08T23:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-08T22:30:01Z",
       "duration_seconds": 0.8,
@@ -4689,16 +4697,6 @@
       "details": null,
       "cost_usd": 2.0022297499999997,
       "total_tokens": 11266
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-21T17:00:01Z",
-      "duration_seconds": 274.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4452 [6039] Fix error tracker form on firefox → Approved",
-      "details": null,
-      "cost_usd": 1.5579295000000002,
-      "total_tokens": 14568
     }
   ]
 }
