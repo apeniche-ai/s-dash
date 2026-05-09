@@ -149,10 +149,13 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-05-09T22:34:59Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 3644.1,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "System sleep detected mid-run (gap of 3601.7s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
+      ]
     },
     {
       "agent": "passive-income-research-loop",
