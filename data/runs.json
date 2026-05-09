@@ -149,10 +149,12 @@
     {
       "agent": "behavioral-experiments-follow-up",
       "timestamp": "2026-05-09T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Behavioral Experiments Follow-Up...",
-      "details": null
+      "duration_seconds": 84.8,
+      "status": "success",
+      "summary": "Done. Saturday Behavioral Experiments Follow-Up sent to the coaching channel — three concrete questions, one per active G3 belief (\"I do everything at high quality\", \"I have time for everything\", \"I t",
+      "details": null,
+      "cost_usd": 1.08739925,
+      "total_tokens": 4323
     },
     {
       "agent": "passive-income-research-loop",
