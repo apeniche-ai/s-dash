@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "behavioral-experiments-follow-up",
+      "timestamp": "2026-05-09T14:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Behavioral Experiments Follow-Up...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-09T11:00:01Z",
       "duration_seconds": 464.4,
@@ -4696,14 +4704,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-04-21T21:00:01Z",
       "duration_seconds": 0.7,
-      "status": "success",
-      "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-21T20:30:02Z",
-      "duration_seconds": 0.9,
       "status": "success",
       "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
       "details": null
