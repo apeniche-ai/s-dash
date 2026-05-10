@@ -149,10 +149,13 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-10T03:57:54Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 3655.9,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "System sleep detected mid-run (gap of 3603.3s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
+      ]
     },
     {
       "agent": "goal-progress-reconciliation",
