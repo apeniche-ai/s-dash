@@ -149,10 +149,13 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-09T23:35:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 3644.5,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "System sleep detected mid-run (gap of 3602.4s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
+      ]
     },
     {
       "agent": "soren-improvement-review",
