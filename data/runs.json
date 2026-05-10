@@ -148,6 +148,17 @@
   "runs": [
     {
       "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-10T23:02:19Z",
+      "duration_seconds": 7357.0,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "System sleep detected mid-run (gap of 151.8s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
+      ]
+    },
+    {
+      "agent": "passive-income-research-loop",
       "timestamp": "2026-05-10T15:11:34Z",
       "duration_seconds": 3646.5,
       "status": "error",
@@ -4712,16 +4723,6 @@
       "details": null,
       "cost_usd": 1.6144412500000003,
       "total_tokens": 16164
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-04-22T11:30:00Z",
-      "duration_seconds": 106.9,
-      "status": "success",
-      "summary": "Check-in sent. Building directly on Monday's Cool Guy breakthrough: two retrospective questions (earliest \"act like it's nothing\" memory + where the armor is costing him now) plus \"The Cool Guy Invent",
-      "details": null,
-      "cost_usd": 0.7701064999999999,
-      "total_tokens": 5790
     }
   ]
 }
