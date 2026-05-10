@@ -148,6 +148,14 @@
   "runs": [
     {
       "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-10T15:11:34Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
+      "agent": "passive-income-research-loop",
       "timestamp": "2026-05-10T11:10:05Z",
       "duration_seconds": 3646.3,
       "status": "error",
@@ -4711,16 +4719,6 @@
       "details": null,
       "cost_usd": 0.7701064999999999,
       "total_tokens": 5790
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-22T11:00:01Z",
-      "duration_seconds": 137.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4474 Update Github workflow → Approved",
-      "details": null,
-      "cost_usd": 1.124722,
-      "total_tokens": 7272
     }
   ]
 }
