@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-10T11:10:05Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-implementation",
       "timestamp": "2026-05-10T07:43:11Z",
       "duration_seconds": 0.5,
@@ -4710,16 +4718,6 @@
       "details": null,
       "cost_usd": 1.124722,
       "total_tokens": 7272
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-22T10:30:02Z",
-      "duration_seconds": 188.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4423 [TTPAI-53] Add generations audit table and ExerciseService integration → Approved",
-      "details": null,
-      "cost_usd": 1.9948792499999999,
-      "total_tokens": 9249
     }
   ]
 }
