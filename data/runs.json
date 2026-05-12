@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-12T20:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 188.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4523 [6142] Add Maren onboarding welcome screen → Approved + Browser QA Skipped (env mismatch on runner)",
+      "details": null,
+      "cost_usd": 2.1011655000000005,
+      "total_tokens": 11205
     },
     {
       "agent": "admissions-pr-reviewer",
