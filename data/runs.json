@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-12T21:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 336.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4531 [6178] Tutoring notifications and calendar → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.89296275,
+      "total_tokens": 26805
     },
     {
       "agent": "slack-watch",
