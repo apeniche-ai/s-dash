@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-05-12T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-12T22:00:01Z",
       "duration_seconds": 232.5,
@@ -4744,16 +4752,6 @@
       "status": "success",
       "summary": "No approved suggestions — skipped",
       "details": null
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-04-23T01:05:01Z",
-      "duration_seconds": 85.6,
-      "status": "success",
-      "summary": "Evening reflection sent. Closed the day's loop with the VP-Ruler Probe (Wednesday rotation) — pushing against hedging language to target the IC-ruler distortion. No pending exercise to follow up on (y",
-      "details": null,
-      "cost_usd": 0.7351907499999999,
-      "total_tokens": 3812
     }
   ]
 }
