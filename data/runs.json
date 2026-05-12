@@ -1,5 +1,13 @@
 {
   "agents": {
+    "heroku-audit-pre-launch-review": {
+      "id": "01KREYKKBKCPFSSD7F2NSVMQHJ",
+      "name": "Heroku Audit Pre-Launch Review",
+      "agent": "assistant",
+      "status": "enabled",
+      "schedule": "0 8,13,18 * * 3-6",
+      "description": "Daily 9 AM Wed-Sat — pre-launch drift check, adversarial review, marketing inbox monitoring; Sat tick produces final go/no-go for Amaury's launch sprint"
+    },
     "weekly-vp-performance-edge": {
       "id": "01KR2F1SP2PE5W4698R2VE3MYS",
       "name": "Weekly VP Performance Edge",
