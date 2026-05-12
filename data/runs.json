@@ -165,10 +165,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-12T18:13:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 104.0,
+      "status": "success",
+      "summary": "Sent. 4 stagnant PRs flagged:",
+      "details": null,
+      "cost_usd": 1.4053565000000001,
+      "total_tokens": 8333
     },
     {
       "agent": "slack-watch",
