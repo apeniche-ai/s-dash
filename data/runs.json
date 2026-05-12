@@ -149,10 +149,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-12T18:31:42Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 290.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4480 [TTPAI-96][TTPAI-124] Add onboarding columns + SIP cleanup and welcome snapshot embed → Approved + Browser QA Skipped (local Rails env missing gems)",
+      "details": null,
+      "cost_usd": 3.07025825,
+      "total_tokens": 17511
     },
     {
       "agent": "admissions-pr-reviewer",
