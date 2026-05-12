@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-team-shipping-report",
+      "timestamp": "2026-05-12T18:20:24Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Team Shipping Report...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-12T18:15:16Z",
       "duration_seconds": null,
@@ -4714,16 +4722,6 @@
       "details": null,
       "cost_usd": 3.6170845000000003,
       "total_tokens": 14659
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-22T14:00:01Z",
-      "duration_seconds": 248.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4454 AI Deploy (20260416) - [51][58][75][98] → Approved",
-      "details": null,
-      "cost_usd": 1.8791439999999997,
-      "total_tokens": 11382
     }
   ]
 }
