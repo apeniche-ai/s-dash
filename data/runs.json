@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-12T21:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 273.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4532 [TTPAI-138] Fix stop button selector and adds resume hint to message history → Approved + Browser QA Skipped (live LLM streaming not testable in dev)",
+      "details": null,
+      "cost_usd": 2.27350625,
+      "total_tokens": 14758
     },
     {
       "agent": "admissions-pr-reviewer",
