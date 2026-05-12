@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-05-12T18:23:50Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-05-12T18:20:24Z",
       "duration_seconds": 206.6,
@@ -4716,16 +4724,6 @@
       "status": "success",
       "summary": "No PRs to review — 37 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-22T14:30:01Z",
-      "duration_seconds": 323.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4471 [TTPAI-38] Remove all Bedrock dependencies and migrate AiAssist services → Approved",
-      "details": null,
-      "cost_usd": 3.6170845000000003,
-      "total_tokens": 14659
     }
   ]
 }
