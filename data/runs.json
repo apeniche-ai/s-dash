@@ -149,10 +149,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-12T19:01:12Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 168.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4504 [TTPAI-126] Add per-minute rate limit, trial message cap promotion → Approved + Browser QA Skipped (local Rails env missing bundler)",
+      "details": null,
+      "cost_usd": 1.6815295000000001,
+      "total_tokens": 10071
     },
     {
       "agent": "passive-income-research-loop",
