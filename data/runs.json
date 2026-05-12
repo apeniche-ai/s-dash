@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-05-12T18:24:58Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "weekly-goal-review",
       "timestamp": "2026-05-12T18:23:50Z",
       "duration_seconds": 68.1,
@@ -4717,14 +4725,6 @@
       "duration_seconds": 0.8,
       "status": "success",
       "summary": "No PRs to review — 35 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-22T15:00:01Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review — 37 open, all skipped (labeled/draft)",
       "details": null
     }
   ]
