@@ -147,6 +147,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-12T18:13:30Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-12T18:13:30Z",
       "duration_seconds": null,
@@ -4716,16 +4724,6 @@
       "details": null,
       "cost_usd": 1.767994,
       "total_tokens": 11942
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-22T13:00:01Z",
-      "duration_seconds": 265.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4461 [TTPAI-83] Add response streaming via Pusher with frontend chunk → Approved",
-      "details": null,
-      "cost_usd": 2.0654985,
-      "total_tokens": 13376
     }
   ]
 }
