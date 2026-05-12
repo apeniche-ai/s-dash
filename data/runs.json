@@ -149,10 +149,12 @@
     {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-05-12T18:20:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Team Shipping Report...",
-      "details": null
+      "duration_seconds": 206.6,
+      "status": "success",
+      "summary": "Both messages sent to the `team-intel` Telegram channel.",
+      "details": null,
+      "cost_usd": 1.4827724999999998,
+      "total_tokens": 18386
     },
     {
       "agent": "pr-reviewer",
