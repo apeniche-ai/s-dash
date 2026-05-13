@@ -157,10 +157,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-13T01:05:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 96.5,
+      "status": "success",
+      "summary": "Done. Tuesday evening Self-Trust probe sent to the coaching channel.",
+      "details": null,
+      "cost_usd": 1.3329765000000002,
+      "total_tokens": 5207
     },
     {
       "agent": "slack-watch",
