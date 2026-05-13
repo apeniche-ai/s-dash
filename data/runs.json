@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-13T23:18:15Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 179.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4492 [TTPAI-97] Add answer choice and exercise ID in context card → Approved + Browser QA Skipped (chatbot output non-deterministic)",
+      "details": null,
+      "cost_usd": 1.8351632500000001,
+      "total_tokens": 10891
     },
     {
       "agent": "passive-income-research-loop",
