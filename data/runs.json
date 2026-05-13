@@ -157,10 +157,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-05-13T02:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 28.9,
+      "status": "success",
+      "summary": "Reconciled. P8 ticked up to 6/7 — \"Launch first revenue-generating asset\" marked done. Telegram sent.",
+      "details": null,
+      "cost_usd": 0.6431275,
+      "total_tokens": 480
     },
     {
       "agent": "evening-performance-reflection",
