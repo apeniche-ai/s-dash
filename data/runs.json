@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-13T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 436.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4535 [6144] Add onboarding step 2 (test date) → Changes Requested (\"Not sure yet\" can't clear an existing saved test_date — reject_if proc on test_dates swallows the blank/destroy int",
+      "details": null,
+      "cost_usd": 2.84317425,
+      "total_tokens": 35514
     },
     {
       "agent": "daily-performance-check-in",
