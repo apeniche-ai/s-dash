@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-13T13:32:44Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 31 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-13T13:30:01Z",
       "duration_seconds": 162.0,
@@ -4751,16 +4759,6 @@
       "status": "success",
       "summary": "No PRs to review — 25 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-23T19:04:06Z",
-      "duration_seconds": 245.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4417 [6043] Upgrades Redis gem from 3.3.5 to 5.4.1 → Approved",
-      "details": null,
-      "cost_usd": 1.9088125000000005,
-      "total_tokens": 9390
     }
   ]
 }
