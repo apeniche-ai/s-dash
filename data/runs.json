@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-13T10:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-implementation",
       "timestamp": "2026-05-13T07:34:31Z",
       "duration_seconds": 600.5,
@@ -4745,16 +4753,6 @@
       "details": null,
       "cost_usd": 1.7775747499999994,
       "total_tokens": 13279
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-23T12:30:01Z",
-      "duration_seconds": 215.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4477 [6082][Admin] Fix persistent error toast after invalid HTML import → Approved",
-      "details": null,
-      "cost_usd": 1.5546479999999998,
-      "total_tokens": 10489
     }
   ]
 }
