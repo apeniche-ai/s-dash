@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-13T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 152.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4534 [TTPAI-139] Fix ExerciseService failures due to algebraically equivalent options → Approved + Browser QA Skipped (backend-only LLM correction prompt change)",
+      "details": null,
+      "cost_usd": 1.6167979999999997,
+      "total_tokens": 9057
     },
     {
       "agent": "admissions-pr-reviewer",
