@@ -157,10 +157,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-05-13T12:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 60.0,
+      "status": "success",
+      "summary": "Done. Digest sent to Telegram (`assistant` channel).",
+      "details": null,
+      "cost_usd": 0.34760915000000003,
+      "total_tokens": 3365
     },
     {
       "agent": "admissions-pr-reviewer",
