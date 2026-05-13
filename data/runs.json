@@ -157,10 +157,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-05-13T23:10:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 177.7,
+      "status": "success",
+      "summary": "silent",
+      "details": null,
+      "cost_usd": 0.5138117,
+      "total_tokens": 8717
     },
     {
       "agent": "heroku-audit-pre-launch-review",
