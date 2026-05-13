@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-13T11:01:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 166.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4533 [6143] Add target score step with multi-exam slider and shared onboarding wrapper → Approved + Browser QA Skipped (CSS-only polish since prior approval)",
+      "details": null,
+      "cost_usd": 1.6773962500000001,
+      "total_tokens": 9334
     },
     {
       "agent": "passive-income-research-loop",
