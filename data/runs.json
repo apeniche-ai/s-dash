@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-05-13T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-13T01:05:01Z",
       "duration_seconds": 96.5,
@@ -4744,16 +4752,6 @@
       "details": null,
       "cost_usd": 2.1036217500000003,
       "total_tokens": 10748
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-04-23T11:30:00Z",
-      "duration_seconds": 98.3,
-      "status": "success",
-      "summary": "Check-in sent. Followed up on the pending Cool Guy Inventory instead of piling on a new exercise — silence across both Wed AM (inventory) and Wed PM (VP probe) is starting to look like the armor itsel",
-      "details": null,
-      "cost_usd": 0.711687,
-      "total_tokens": 5289
     }
   ]
 }
