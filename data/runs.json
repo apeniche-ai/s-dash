@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T17:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 409.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4535 [6144] Add onboarding step 2 (test date) → Changes Requested (CI failing due to stale `#test-config` assertion + \"Not sure yet\" checkbox state not restored on revisit) + Browser ",
+      "details": null,
+      "cost_usd": 2.9490142500000003,
+      "total_tokens": 26858
     },
     {
       "agent": "pr-reviewer",
