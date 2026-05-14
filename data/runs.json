@@ -156,6 +156,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-14T22:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-14T21:30:01Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4741,16 +4749,6 @@
       "details": null,
       "cost_usd": 1.4102867499999998,
       "total_tokens": 8739
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-04-28T15:00:01Z",
-      "duration_seconds": 132.9,
-      "status": "success",
-      "summary": "Tick #15 done. Silent. Ask sent at 09:04 is 56 min old — way too early to read silence. QA'd the rebuilt landing + sample-report at the new permanent path (`~/Desktop/soren-research/heroku-audit/`); b",
-      "details": null,
-      "cost_usd": 0.9831442499999999,
-      "total_tokens": 5832
     }
   ]
 }
