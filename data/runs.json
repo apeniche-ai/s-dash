@@ -156,6 +156,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-14T17:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-14T16:30:02Z",
       "duration_seconds": 247.7,
       "status": "success",
@@ -4741,16 +4749,6 @@
       "status": "success",
       "summary": "No PRs to review — 26 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-27T18:00:01Z",
-      "duration_seconds": 155.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4481 [6106] Fix Next button styles on create action and prevents double-click → Approved",
-      "details": null,
-      "cost_usd": 1.3991455000000002,
-      "total_tokens": 7804
     }
   ]
 }
