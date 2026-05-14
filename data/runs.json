@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-14T13:15:02Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T13:06:16Z",
       "duration_seconds": 193.2,
@@ -4755,16 +4763,6 @@
       "details": null,
       "cost_usd": 0.91838325,
       "total_tokens": 8759
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-27T14:04:39Z",
-      "duration_seconds": 190.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4467 [TTP-6077] Replace low-quality CR problems with Claude-reviewed replacements → Approved",
-      "details": null,
-      "cost_usd": 1.3603907499999999,
-      "total_tokens": 9108
     }
   ]
 }
