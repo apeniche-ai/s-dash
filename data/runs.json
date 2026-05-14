@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 207.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4536 [Snyk] Fix for 2 vulnerabilities → Changes Requested (Rails 7.2.3.1 → 8.0.0 major-version bump in a Snyk auto-PR, Gemfile.lock not updated, all CI failing) + Browser QA Skipped (",
+      "details": null,
+      "cost_usd": 1.7559395000000002,
+      "total_tokens": 10315
     },
     {
       "agent": "daily-performance-check-in",
