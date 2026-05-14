@@ -1,5 +1,21 @@
 {
   "agents": {
+    "career-market-weekly-digest": {
+      "id": "01KRMBP8QF66A23BMMNE23XDE1",
+      "name": "Career Market Weekly Digest",
+      "agent": "career-market-scout",
+      "status": "enabled",
+      "schedule": "0 18 * * 0",
+      "description": "Sunday 6 PM — weekly synthesis of career market intel into a CEO-readable digest"
+    },
+    "career-market-research-loop": {
+      "id": "01KRMBP8Q729FEDDE09ZT8MD5F",
+      "name": "Career Market Research Loop",
+      "agent": "career-market-scout",
+      "status": "enabled",
+      "schedule": "0 11 * * *",
+      "description": "Daily silent market-intelligence research on VPE / engineering-leadership trends, comp, jobs, AI impact, and TTP-specific signals"
+    },
     "heroku-audit-pre-launch-review": {
       "id": "01KREYKKBKCPFSSD7F2NSVMQHJ",
       "name": "Heroku Audit Pre-Launch Review",
