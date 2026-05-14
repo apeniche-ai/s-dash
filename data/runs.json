@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T22:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 407.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4542 [6188] Create admin student analytics report for Claude context → Changes Requested (db/schema.rb has phantom tutor_profiles table + FK from blocked #4530 branch, causing schema ",
+      "details": null,
+      "cost_usd": 3.4542109999999995,
+      "total_tokens": 28542
     },
     {
       "agent": "pr-reviewer",
