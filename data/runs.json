@@ -157,10 +157,12 @@
     {
       "agent": "heroku-audit-pre-launch-review",
       "timestamp": "2026-05-14T18:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Heroku Audit Pre-Launch Review...",
-      "details": null
+      "duration_seconds": 514.4,
+      "status": "success",
+      "summary": "Done. Summary of this tick:",
+      "details": null,
+      "cost_usd": 1.33754125,
+      "total_tokens": 23357
     },
     {
       "agent": "pr-reviewer",
