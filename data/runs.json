@@ -157,10 +157,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-14T13:04:34Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 101.3,
+      "status": "success",
+      "summary": "Sent. 4 stagnant PRs flagged across both repos:",
+      "details": null,
+      "cost_usd": 0.8702725,
+      "total_tokens": 5176
     },
     {
       "agent": "heroku-audit-pre-launch-review",
