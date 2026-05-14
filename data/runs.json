@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-14T17:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-14T17:15:02Z",
       "duration_seconds": 155.2,
@@ -4743,16 +4751,6 @@
       "status": "success",
       "summary": "No PRs to review — 26 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-04-27T19:00:00Z",
-      "duration_seconds": 138.3,
-      "status": "success",
-      "summary": "Tick #11 done. Silent on notify per plan — Tue Apr 28 06:00 re-raise window owns the Heroku Audit single-thread ask. Prototype verified renders cleanly at `/tmp/heroku-audit/` (both pages HTTP 200, mo",
-      "details": null,
-      "cost_usd": 0.9812592499999999,
-      "total_tokens": 6175
     }
   ]
 }
