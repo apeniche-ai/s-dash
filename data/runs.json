@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T13:06:16Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 193.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4540 [TTPAI-130] Wire onboarding self-reports into student profile computer → Approved + Browser QA Skipped (internal SIP plumbing, no user-visible surface change yet)",
+      "details": null,
+      "cost_usd": 1.8241155000000002,
+      "total_tokens": 12561
     },
     {
       "agent": "pr-follow-up-check",
