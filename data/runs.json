@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-14T22:30:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-14T22:15:01Z",
       "duration_seconds": 155.0,
@@ -4741,16 +4749,6 @@
       "status": "success",
       "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-28T16:00:01Z",
-      "duration_seconds": 292.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4487 [TTPAI-123] Consolidates ChatbotService into Ai namespace → Changes Requested (attachment bytes never sent to Claude — `build_user_prompt` no longer wraps in `build_content_with_",
-      "details": null,
-      "cost_usd": 2.9603970000000004,
-      "total_tokens": 18366
     }
   ]
 }
