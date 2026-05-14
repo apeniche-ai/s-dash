@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-05-14T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-14T12:15:01Z",
       "duration_seconds": 0.9,
@@ -4753,16 +4761,6 @@
       "details": null,
       "cost_usd": 0.9806247499999999,
       "total_tokens": 6809
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-24T14:30:01Z",
-      "duration_seconds": 343.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4482 [TTPAI-93] Add browser-native voice-to-text utility modules → Changes Requested (missing recognition.onend handler + isSupported guard not called before getUserMedia)",
-      "details": null,
-      "cost_usd": 1.7760997500000002,
-      "total_tokens": 18518
     }
   ]
 }
