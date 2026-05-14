@@ -157,10 +157,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-14T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 118.2,
+      "status": "success",
+      "summary": "Not applicable here — a single research tick is one focused action with no multi-step plan worth tracking. Tick #89 complete: SILENT, log written (01KRJ6XXWGVA44H4CE1HPRN4HD), no ledger/state/notify w",
+      "details": null,
+      "cost_usd": 1.06201,
+      "total_tokens": 7573
     },
     {
       "agent": "goal-progress-reconciliation",
