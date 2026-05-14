@@ -157,10 +157,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-05-14T02:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 17.6,
+      "status": "success",
+      "summary": "Nothing to reconcile — exiting silently.",
+      "details": null,
+      "cost_usd": 0.60771,
+      "total_tokens": 271
     },
     {
       "agent": "evening-performance-reflection",
