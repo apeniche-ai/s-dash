@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T12:32:14Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 319.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4539 [6145] Add onboarding step 3: time studying for the GMAT → Approved + Browser QA Skipped (env error: bundler 2.6.9 missing)",
+      "details": null,
+      "cost_usd": 2.4924405000000003,
+      "total_tokens": 17167
     },
     {
       "agent": "daily-todo-digest",
