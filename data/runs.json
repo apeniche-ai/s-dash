@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 312.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4525 [6153][6154][6161] Add 12-month plan card to partner org pages (MLT, Forté, RPAA) → Approved + Browser QA Skipped (public marketing pages on 3 subdomains; human QA already valida",
+      "details": null,
+      "cost_usd": 2.6406327499999995,
+      "total_tokens": 17485
     },
     {
       "agent": "pr-reviewer",
