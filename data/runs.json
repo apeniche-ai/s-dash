@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-14T23:13:50Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 125.4,
+      "status": "success",
+      "summary": "Tick #93 complete. **SILENT.**",
+      "details": null,
+      "cost_usd": 1.06010775,
+      "total_tokens": 8446
     },
     {
       "agent": "heroku-audit-pre-launch-review",
