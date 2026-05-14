@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-14T11:04:11Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-14T11:00:00Z",
       "duration_seconds": 249.3,
@@ -4755,16 +4763,6 @@
       "status": "success",
       "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-04-24T11:34:04Z",
-      "duration_seconds": 109.6,
-      "status": "success",
-      "summary": "Check-in sent. Retired the Cool Guy Inventory (silent for 2 mornings), pivoted to a single-sentence \"I said X when I wanted to say Y\" format, and asked meta-questions about the silence itself — the ar",
-      "details": null,
-      "cost_usd": 0.8490745,
-      "total_tokens": 6160
     }
   ]
 }
