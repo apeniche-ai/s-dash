@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-14T11:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T10:30:01Z",
       "duration_seconds": 312.9,
@@ -4755,16 +4763,6 @@
       "details": null,
       "cost_usd": 0.8490745,
       "total_tokens": 6160
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-24T11:30:01Z",
-      "duration_seconds": 243.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4481 [6106] Fix Next button styles on create action and prevents double-click → Approved",
-      "details": null,
-      "cost_usd": 1.8401075000000002,
-      "total_tokens": 13093
     }
   ]
 }
