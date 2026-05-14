@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-14T13:31:24Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 34 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-14T13:30:01Z",
       "duration_seconds": 82.6,
@@ -4753,16 +4761,6 @@
       "details": null,
       "cost_usd": 0.9356439999999999,
       "total_tokens": 8341
-    },
-    {
-      "agent": "weekly-team-shipping-report",
-      "timestamp": "2026-04-27T14:10:47Z",
-      "duration_seconds": 325.4,
-      "status": "success",
-      "summary": "Weekly shipping report complete. Both messages sent to Telegram:",
-      "details": null,
-      "cost_usd": 0.71847735,
-      "total_tokens": 23101
     }
   ]
 }
