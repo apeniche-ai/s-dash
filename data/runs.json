@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-14T20:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-14T20:15:01Z",
       "duration_seconds": 0.9,
@@ -4749,16 +4757,6 @@
       "details": null,
       "cost_usd": 1.492763,
       "total_tokens": 16163
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-04-28T03:00:00Z",
-      "duration_seconds": 165.3,
-      "status": "success",
-      "summary": "Tick #13 complete. Silent — banked Show HN launch copy at `/tmp/heroku-audit/launch/show-hn.md` (3 headline candidates, body draft, 5 canned reply templates for anticipated HN objections, launch logis",
-      "details": null,
-      "cost_usd": 1.21926425,
-      "total_tokens": 7753
     }
   ]
 }
