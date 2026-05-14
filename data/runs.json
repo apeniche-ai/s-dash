@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "heroku-audit-pre-launch-review",
+      "timestamp": "2026-05-14T23:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Heroku Audit Pre-Launch Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T22:30:01Z",
       "duration_seconds": 0.8,
@@ -4738,14 +4746,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-04-28T17:00:02Z",
       "duration_seconds": 1.5,
-      "status": "success",
-      "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-28T16:30:01Z",
-      "duration_seconds": 1.1,
       "status": "success",
       "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
       "details": null
