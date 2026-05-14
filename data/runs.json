@@ -157,10 +157,12 @@
     {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-14T17:15:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Admissions PR Reviewer...",
-      "details": null
+      "duration_seconds": 155.2,
+      "status": "success",
+      "summary": "Reviewed 1 PR (admissions) (⚠️ no Jira context): #655 [ADM-701] Implement download functionality across the app → Approved",
+      "details": null,
+      "cost_usd": 1.555752,
+      "total_tokens": 8267
     },
     {
       "agent": "pr-reviewer",
