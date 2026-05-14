@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-14T14:15:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Admissions PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T14:00:01Z",
       "duration_seconds": 1.3,
@@ -4749,16 +4757,6 @@
       "details": null,
       "cost_usd": 3.3042815000000005,
       "total_tokens": 20737
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-04-27T14:18:42Z",
-      "duration_seconds": 241.0,
-      "status": "success",
-      "summary": "Review complete. Here's what I found and acted on:",
-      "details": null,
-      "cost_usd": 0.42741404999999993,
-      "total_tokens": 11100
     }
   ]
 }
