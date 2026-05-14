@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-14T13:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-14T13:15:02Z",
       "duration_seconds": 1.0,
@@ -4753,16 +4761,6 @@
       "details": null,
       "cost_usd": 0.71847735,
       "total_tokens": 23101
-    },
-    {
-      "agent": "passive-income-state-consolidation",
-      "timestamp": "2026-04-27T14:07:49Z",
-      "duration_seconds": 178.4,
-      "status": "success",
-      "summary": "Consolidation complete. Silent on notify per job spec.",
-      "details": null,
-      "cost_usd": 0.91838325,
-      "total_tokens": 8759
     }
   ]
 }
