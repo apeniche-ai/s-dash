@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 335.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4535 [6144] Add onboarding step 2 (test date) → Changes Requested (re-review: TTP-6144 AC critical bug still unaddressed — \"Not sure yet\" cannot clear a previously-saved test_date, we",
+      "details": null,
+      "cost_usd": 2.8717842499999997,
+      "total_tokens": 19552
     },
     {
       "agent": "admissions-pr-reviewer",
