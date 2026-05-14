@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 249.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4523 [6142] Add Maren onboarding welcome screen → Approved + Browser QA Skipped (re-approval of unchanged net diff; human QA already validated)",
+      "details": null,
+      "cost_usd": 2.365272,
+      "total_tokens": 14627
     },
     {
       "agent": "soren-improvement-implementation",
