@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-14T12:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T12:00:01Z",
       "duration_seconds": 207.1,
@@ -4755,16 +4763,6 @@
       "details": null,
       "cost_usd": 1.7760997500000002,
       "total_tokens": 18518
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-24T14:00:01Z",
-      "duration_seconds": 349.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4479 [6085] Fix diagnostic paused banner showing after completion → Changes Requested (deploy-breaking migration order — unique index added before dedupe runs)",
-      "details": null,
-      "cost_usd": 1.69454125,
-      "total_tokens": 15731
     }
   ]
 }
