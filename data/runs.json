@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-05-14T22:10:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T22:00:01Z",
       "duration_seconds": 407.6,
@@ -4741,16 +4749,6 @@
       "details": null,
       "cost_usd": 0.9729579999999999,
       "total_tokens": 5463
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-28T15:02:17Z",
-      "duration_seconds": 173.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4485 [6114] Include challenge-level problems in Error Tracker and Bookmark → Approved",
-      "details": null,
-      "cost_usd": 1.4102867499999998,
-      "total_tokens": 8739
     }
   ]
 }
