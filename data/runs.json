@@ -157,10 +157,12 @@
     {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-14T22:15:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Admissions PR Reviewer...",
-      "details": null
+      "duration_seconds": 155.0,
+      "status": "success",
+      "summary": "Telegram notification fetch failed — per fail-fast, not retrying. Review work itself (approval, label, Manual QA Steps comment) all succeeded.",
+      "details": null,
+      "cost_usd": 1.7332825,
+      "total_tokens": 10152
     },
     {
       "agent": "soren-improvement-review",
