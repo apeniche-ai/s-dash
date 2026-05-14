@@ -155,6 +155,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-14T13:06:16Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-14T13:04:34Z",
       "duration_seconds": 101.3,
@@ -4755,16 +4763,6 @@
       "details": null,
       "cost_usd": 1.3603907499999999,
       "total_tokens": 9108
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-04-27T14:04:40Z",
-      "duration_seconds": 339.2,
-      "status": "success",
-      "summary": "Tick #9 done. Silent on notify per rubric (71h elapsed, just under the 3-4d re-raise threshold, and Monday 9am after a weekend isn't the right moment to nudge a busy VP).",
-      "details": null,
-      "cost_usd": 1.7432035000000001,
-      "total_tokens": 17105
     }
   ]
 }
