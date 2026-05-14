@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T20:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 198.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4539 [6145] Add onboarding step 3: time studying for the GMAT → Approved + Browser QA Skipped (fixture user bypasses onboarding wizard)",
+      "details": null,
+      "cost_usd": 1.75121375,
+      "total_tokens": 10657
     },
     {
       "agent": "pr-reviewer",
