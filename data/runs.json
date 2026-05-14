@@ -157,10 +157,12 @@
     {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-14T18:15:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Admissions PR Reviewer...",
-      "details": null
+      "duration_seconds": 287.5,
+      "status": "success",
+      "summary": "Reviewed 1 PR (admissions) (⚠️ no Jira context): #659 [ADM-704] - Demo Feedback → Changes Requested (HAML comment syntax `=#` should be `-#`; grammar errors and casing inconsistency in en.yml; singula",
+      "details": null,
+      "cost_usd": 2.2839935,
+      "total_tokens": 17361
     },
     {
       "agent": "pr-reviewer",
