@@ -157,10 +157,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-14T11:04:11Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 351.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4533 [6143] Add target score step with multi-exam slider and shared onboarding wrapper → Changes Requested (6 failing feature specs in spec/features/user/setup_spec.rb caused by remov",
+      "details": null,
+      "cost_usd": 2.690998,
+      "total_tokens": 20259
     },
     {
       "agent": "passive-income-research-loop",
