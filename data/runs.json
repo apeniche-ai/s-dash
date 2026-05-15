@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-15T20:32:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 476.3,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4504 [TTPAI-126] Add per-minute rate limit, trial message cap promotion → Changes Requested (new 429 response uses `error_message` but frontend chat.js reads `parsed.error` — rate-limi",
+      "details": null,
+      "cost_usd": 3.1581677499999996,
+      "total_tokens": 31396
     },
     {
       "agent": "slack-watch",
