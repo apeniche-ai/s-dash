@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-05-15T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-15T15:30:01Z",
       "duration_seconds": 244.2,
@@ -4763,16 +4771,6 @@
       "details": null,
       "cost_usd": 1.0080442500000002,
       "total_tokens": 6505
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-04-29T11:30:01Z",
-      "duration_seconds": 120.4,
-      "status": "success",
-      "summary": "Done. Check-in sent.",
-      "details": null,
-      "cost_usd": 0.8996995000000001,
-      "total_tokens": 5999
     }
   ]
 }
