@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-15T15:15:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-15T15:08:42Z",
       "duration_seconds": 260.9,
@@ -4765,16 +4773,6 @@
       "details": null,
       "cost_usd": 1.09855475,
       "total_tokens": 7108
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-29T11:03:06Z",
-      "duration_seconds": 186.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4490 [6116] Fix chat streaming not appearing in expanded view during response generation → Approved",
-      "details": null,
-      "cost_usd": 1.26085675,
-      "total_tokens": 10548
     }
   ]
 }
