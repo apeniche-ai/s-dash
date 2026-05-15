@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-15T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 365.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4492 [TTPAI-97] Add answer choice and exercise ID in context card → Changes Requested (new commit since last approval adds race-condition logic + silent verbal_subsection format chang",
+      "details": null,
+      "cost_usd": 2.7791530000000004,
+      "total_tokens": 20988
     },
     {
       "agent": "admissions-pr-reviewer",
