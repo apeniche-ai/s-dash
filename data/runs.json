@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-15T13:01:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 249.0,
+      "status": "success",
+      "summary": "Reviewed 3 PRs: #4543 [TTPAI-129] DiagnosticCopyResolver service → Approved + Browser QA Skipped (backend-only), #4541 [6146] Section confidence step → Changes Requested (slider default contradicts AC",
+      "details": null,
+      "cost_usd": 2.0489070000000003,
+      "total_tokens": 14829
     },
     {
       "agent": "pr-follow-up-check",
