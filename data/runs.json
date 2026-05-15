@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-15T10:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 416.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4541 [6146] Add section confidence step → Changes Requested (slider thumb defaults to \"Moderately\" tick, contradicts AC \"starts unselected, not at 'Moderately'\") + Browser QA Skipped ",
+      "details": null,
+      "cost_usd": 2.76364675,
+      "total_tokens": 26552
     },
     {
       "agent": "soren-improvement-implementation",
