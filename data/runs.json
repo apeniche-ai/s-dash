@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-15T13:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-15T13:15:02Z",
       "duration_seconds": 1.1,
@@ -4767,16 +4775,6 @@
       "details": null,
       "cost_usd": 0.14120085,
       "total_tokens": 378
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-04-29T01:05:01Z",
-      "duration_seconds": 63.3,
-      "status": "success",
-      "summary": "Evening reflection sent. Self-Trust Probe (Tuesday rotation) — single judgment-call question, pattern-aware framing, no nag on the still-pending PR Delegation experiment (already softly surfaced this ",
-      "details": null,
-      "cost_usd": 0.847095,
-      "total_tokens": 2704
     }
   ]
 }
