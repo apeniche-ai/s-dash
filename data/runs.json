@@ -173,10 +173,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-05-15T11:36:06Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 124.4,
+      "status": "success",
+      "summary": "Ignoring — this is a linear scripted coaching workflow, not multi-step exploratory work. Task tracking would add overhead without value here.",
+      "details": null,
+      "cost_usd": 1.11084675,
+      "total_tokens": 7707
     },
     {
       "agent": "pr-reviewer",
