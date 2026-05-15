@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "heroku-audit-pre-launch-review",
+      "timestamp": "2026-05-15T13:05:41Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Heroku Audit Pre-Launch Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-15T13:01:33Z",
       "duration_seconds": 249.0,
@@ -4769,16 +4777,6 @@
       "details": null,
       "cost_usd": 0.36591605,
       "total_tokens": 5374
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-04-28T23:00:00Z",
-      "duration_seconds": 279.1,
-      "status": "success",
-      "summary": "Tick #17 complete. Silent per spec. Restored lost `comparison.json` from `/tmp` wipe and scaffolded the parser TS skeleton at the permanent path (`/Users/giulia/Desktop/soren-research/heroku-audit/par",
-      "details": null,
-      "cost_usd": 1.7212640000000001,
-      "total_tokens": 20329
     }
   ]
 }
