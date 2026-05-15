@@ -173,10 +173,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-05-15T12:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 66.3,
+      "status": "success",
+      "summary": "Done. Digest sent. Summary:",
+      "details": null,
+      "cost_usd": 0.2791925,
+      "total_tokens": 1697
     },
     {
       "agent": "admissions-pr-reviewer",
