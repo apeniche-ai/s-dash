@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-05-15T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-15T01:05:01Z",
       "duration_seconds": 84.0,
@@ -4763,14 +4771,6 @@
       "details": null,
       "cost_usd": 1.23125525,
       "total_tokens": 8702
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-28T18:30:01Z",
-      "duration_seconds": 1.0,
-      "status": "success",
-      "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
