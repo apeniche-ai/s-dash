@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-15T17:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-15T16:30:01Z",
       "duration_seconds": 266.0,
       "status": "success",
@@ -4763,16 +4771,6 @@
       "details": null,
       "cost_usd": 0.56871575,
       "total_tokens": 3155
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-29T12:30:01Z",
-      "duration_seconds": 178.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4487 [TTPAI-123] Consolidates ChatbotService into Ai namespace → Approved",
-      "details": null,
-      "cost_usd": 1.3163442500000002,
-      "total_tokens": 9599
     }
   ]
 }
