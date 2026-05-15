@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-15T13:01:33Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-15T13:00:00Z",
       "duration_seconds": 92.0,
@@ -4769,16 +4777,6 @@
       "details": null,
       "cost_usd": 1.7212640000000001,
       "total_tokens": 20329
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-04-28T22:32:57Z",
-      "duration_seconds": 149.3,
-      "status": "success",
-      "summary": "Scanning complete. Let me classify what I found within the 3.5h window (after 18:30 UTC / 13:30 Bogotá):",
-      "details": null,
-      "cost_usd": 0.3614291,
-      "total_tokens": 6941
     }
   ]
 }
