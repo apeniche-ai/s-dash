@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-15T13:15:02Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "heroku-audit-pre-launch-review",
       "timestamp": "2026-05-15T13:05:41Z",
       "duration_seconds": 359.2,
@@ -4769,16 +4777,6 @@
       "details": null,
       "cost_usd": 0.847095,
       "total_tokens": 2704
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-04-28T23:30:58Z",
-      "duration_seconds": 117.7,
-      "status": "success",
-      "summary": "Reviewing all results now.",
-      "details": null,
-      "cost_usd": 0.36591605,
-      "total_tokens": 5374
     }
   ]
 }
