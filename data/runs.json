@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-15T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 244.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4544 [TTPAI-127] Add OnboardingDiagnostic STI model with section accuracy tracking → Approved + Browser QA Skipped (backend-only, no controller wired yet)",
+      "details": null,
+      "cost_usd": 1.8269377500000001,
+      "total_tokens": 15804
     },
     {
       "agent": "admissions-pr-reviewer",
