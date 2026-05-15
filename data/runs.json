@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-15T16:03:24Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-05-15T16:00:01Z",
       "duration_seconds": 202.2,
@@ -4763,16 +4771,6 @@
       "details": null,
       "cost_usd": 1.8746790000000002,
       "total_tokens": 10321
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-29T11:32:02Z",
-      "duration_seconds": 129.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4491 [6126] Fix reorder triggering edit modal in video tips admin → Approved",
-      "details": null,
-      "cost_usd": 1.0080442500000002,
-      "total_tokens": 6505
     }
   ]
 }
