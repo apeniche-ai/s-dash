@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-15T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 259.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4541 [6146] Add section confidence step → Approved + Browser QA Skipped (onboarding flow requires fresh-user state + walking through 3 prior steps)",
+      "details": null,
+      "cost_usd": 1.7129122499999998,
+      "total_tokens": 14833
     },
     {
       "agent": "admissions-pr-reviewer",
