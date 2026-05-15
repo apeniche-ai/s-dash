@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "evening-performance-reflection",
+      "timestamp": "2026-05-15T01:05:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Evening Performance Reflection...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-14T23:30:00Z",
       "duration_seconds": 122.3,
@@ -4758,14 +4766,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-04-28T18:30:01Z",
       "duration_seconds": 1.0,
-      "status": "success",
-      "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-28T18:00:01Z",
-      "duration_seconds": 0.7,
       "status": "success",
       "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
       "details": null
