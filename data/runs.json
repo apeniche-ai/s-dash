@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-15T23:05:27Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 66.7,
+      "status": "success",
+      "summary": "Tick #98 done. **SILENT** — state plan explicitly scheduled this slot as silent banking; state is 4h fresh, ledger unchanged since the Dormant SaaS KILL at #97, no Amaury inbound on passive-income cha",
+      "details": null,
+      "cost_usd": 0.89432525,
+      "total_tokens": 3710
     },
     {
       "agent": "heroku-audit-pre-launch-review",
