@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-15T17:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 258.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4537 [6187] Fix needs video showing items not in expert+ track → Approved + Browser QA Skipped (admin-only feature, fixture user is student)",
+      "details": null,
+      "cost_usd": 2.85003325,
+      "total_tokens": 13159
     },
     {
       "agent": "pr-reviewer",
