@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-15T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 419.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4472 [TTPAI-117][TTPAI-73] Deterministic vector KB retrieval + AI features on EA, SAT, and DI → Approved + Browser QA Skipped (AI feature flows need GMAT-specific lesson + exercise st",
+      "details": null,
+      "cost_usd": 3.8816665,
+      "total_tokens": 23815
     },
     {
       "agent": "pr-reviewer",
