@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-16T23:04:19Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 119.1,
+      "status": "success",
+      "summary": "Tick #103 is a single-action silent holding tick — task tracking isn't needed for one log write. Proceeding without TaskCreate.",
+      "details": null,
+      "cost_usd": 1.1001347499999998,
+      "total_tokens": 6562
     },
     {
       "agent": "heroku-audit-pre-launch-review",
