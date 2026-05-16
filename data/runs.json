@@ -173,10 +173,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-05-16T16:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 279.7,
+      "status": "success",
+      "summary": "Tick complete. TTP alert sent on retry.",
+      "details": null,
+      "cost_usd": 1.9760839999999997,
+      "total_tokens": 19805
     },
     {
       "agent": "system-health-audit",
