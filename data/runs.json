@@ -173,10 +173,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-05-16T22:10:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 205.3,
+      "status": "success",
+      "summary": "Not applicable — this run is a single-shot improvement review, already complete. Suggestion sent.",
+      "details": null,
+      "cost_usd": 1.3280614999999998,
+      "total_tokens": 13002
     },
     {
       "agent": "passive-income-research-loop",
