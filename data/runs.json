@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-05-16T16:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "system-health-audit",
       "timestamp": "2026-05-16T15:03:55Z",
       "duration_seconds": 247.3,
@@ -4783,16 +4791,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-04-29T22:10:00Z",
-      "duration_seconds": 266.0,
-      "status": "success",
-      "summary": "Done. Here's what I found and what I proposed:",
-      "details": null,
-      "cost_usd": 0.490883,
-      "total_tokens": 12160
     }
   ]
 }
