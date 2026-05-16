@@ -173,10 +173,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-16T01:05:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 72.4,
+      "status": "success",
+      "summary": "Done. Evening reflection sent to coaching channel.",
+      "details": null,
+      "cost_usd": 1.1667759999999998,
+      "total_tokens": 3447
     },
     {
       "agent": "slack-watch",
