@@ -173,10 +173,12 @@
     {
       "agent": "behavioral-experiments-follow-up",
       "timestamp": "2026-05-16T14:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Behavioral Experiments Follow-Up...",
-      "details": null
+      "duration_seconds": 86.6,
+      "status": "success",
+      "summary": "Done. Saturday Behavioral Experiments Follow-Up sent to the coaching channel — three concrete questions covering the two un-asked G3 beliefs (\"time for everything\", \"thrive in complexity\") plus the PR",
+      "details": null,
+      "cost_usd": 1.1704675,
+      "total_tokens": 4884
     },
     {
       "agent": "heroku-audit-pre-launch-review",
