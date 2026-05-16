@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "system-health-audit",
+      "timestamp": "2026-05-16T15:03:55Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running System Health Audit...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-16T15:00:01Z",
       "duration_seconds": 234.5,
@@ -4783,14 +4791,6 @@
       "details": null,
       "cost_usd": 0.490883,
       "total_tokens": 12160
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-29T22:00:01Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review — 25 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
