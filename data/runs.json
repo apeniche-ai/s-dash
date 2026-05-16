@@ -173,10 +173,12 @@
     {
       "agent": "system-health-audit",
       "timestamp": "2026-05-16T15:03:55Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running System Health Audit...",
-      "details": null
+      "duration_seconds": 247.3,
+      "status": "success",
+      "summary": "Telegram report sent. Here's the complete audit summary:",
+      "details": null,
+      "cost_usd": 0.5486804000000001,
+      "total_tokens": 12889
     },
     {
       "agent": "passive-income-research-loop",
