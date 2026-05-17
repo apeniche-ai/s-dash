@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-05-17T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-16T23:04:19Z",
       "duration_seconds": 119.1,
@@ -4780,17 +4788,6 @@
       "agent": "evening-performance-reflection",
       "timestamp": "2026-04-30T01:08:02Z",
       "duration_seconds": 206.7,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "claude exited with code 1"
-      ]
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-04-30T01:05:00Z",
-      "duration_seconds": 122.1,
       "status": "error",
       "summary": "",
       "details": null,
