@@ -165,10 +165,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-05-17T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 115.7,
+      "status": "success",
+      "summary": "Weekly digest delivered. Five themes: comp positioning (your $312k floor lands at the funded-Series-A-D median), hiring up 35% MoM on remote VPE boards, TTP WARNING (Glassdoor \"Sinking Ship\" + GMAT do",
+      "details": null,
+      "cost_usd": 1.0680755000000002,
+      "total_tokens": 8775
     },
     {
       "agent": "soren-improvement-review",
