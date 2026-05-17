@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-05-17T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-17T15:00:01Z",
       "duration_seconds": 267.8,
@@ -4777,16 +4785,6 @@
       "details": null,
       "cost_usd": 1.7604497499999996,
       "total_tokens": 9470
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-30T10:00:01Z",
-      "duration_seconds": 311.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4492 [TTPAI-97] Add answer choice and exercise ID in context card → Changes Requested (whitelist uses symbol key but params.permit().to_h returns string keys — latent bug)",
-      "details": null,
-      "cost_usd": 2.097973,
-      "total_tokens": 20350
     }
   ]
 }
