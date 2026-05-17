@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-17T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 267.8,
+      "status": "success",
+      "summary": "Tick #106 done. Weekly consolidation: state superseded (01KRS2YFGKP8NFYZPTMDG67KEG → 01KRV7CZQ1ZCV486SGFKY16DH2) with backlog grown +3 (dev-ops cost audits, Rails-pg perf audit, AI-eval kit), Mon AM d",
+      "details": null,
+      "cost_usd": 1.6803815,
+      "total_tokens": 16361
     },
     {
       "agent": "passive-income-research-loop",
