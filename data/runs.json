@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-17T19:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 103.9,
+      "status": "success",
+      "summary": "Tick #107 complete. SILENT per state plan (Sun PM cold attention window). State 4h fresh, ledger unchanged, no MT reply yet (~24h post-digest, still in patience window). Log written. Next meaningful s",
+      "details": null,
+      "cost_usd": 1.1913772499999997,
+      "total_tokens": 5405
     },
     {
       "agent": "career-market-research-loop",
