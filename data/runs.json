@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-18T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 206.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4543 [TTPAI-129] Add DiagnosticCopyResolver service → Approved + Browser QA Skipped (service has no frontend consumer)",
+      "details": null,
+      "cost_usd": 1.8792467500000003,
+      "total_tokens": 11087
     },
     {
       "agent": "pr-reviewer",
