@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-18T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 78.5,
+      "status": "success",
+      "summary": "Tick #109 complete. Silent per state plan — Sun PM cold window, state 1h fresh from 21:00 weekly consolidation cron, ledger unchanged, no MT reply (~31h post-digest, still patience window), no new dis",
+      "details": null,
+      "cost_usd": 1.0249645,
+      "total_tokens": 4613
     },
     {
       "agent": "goal-progress-reconciliation",
