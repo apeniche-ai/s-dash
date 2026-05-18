@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-18T21:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 488.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4552 [6181] Student hours tab → Changes Requested (Recent Activity feed missing student name per AC) + Browser QA Skipped (admin-only feature, test user non-admin)",
+      "details": null,
+      "cost_usd": 3.3543350000000003,
+      "total_tokens": 30746
     },
     {
       "agent": "admissions-pr-reviewer",
