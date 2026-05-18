@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-18T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 594.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4471 [TTPAI-38][TTPAI-123] Remove Bedrock and consolidate ChatbotService into Ai:: → Approved + Browser QA Skipped (TTPAI backend service)",
+      "details": null,
+      "cost_usd": 6.6129455,
+      "total_tokens": 27252
     },
     {
       "agent": "admissions-pr-reviewer",
