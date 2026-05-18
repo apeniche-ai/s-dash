@@ -165,10 +165,12 @@
     {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-05-18T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly VP Performance Edge...",
-      "details": null
+      "duration_seconds": 163.5,
+      "status": "success",
+      "summary": "Done. Tip shipped to the coaching channel: **\"ADRs to kill cross-team meetings\"** — Larson's 3-tier decision-rights model (team-only = no approval, cross-team = written ADR, org-wide = VP). Try-this-w",
+      "details": null,
+      "cost_usd": 1.1568717499999999,
+      "total_tokens": 9155
     },
     {
       "agent": "daily-performance-check-in",
