@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-18T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 459.2,
+      "status": "success",
+      "summary": "Outside work hours — review batched silently to memory. No Telegram.",
+      "details": null,
+      "cost_usd": 3.90885425,
+      "total_tokens": 26553
     },
     {
       "agent": "soren-improvement-implementation",
