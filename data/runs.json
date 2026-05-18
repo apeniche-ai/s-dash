@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-18T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 404.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4535 [6144] Add onboarding step 2 (test date) → Approved + Browser QA Skipped (Rails env broken — bundler 2.6.9 missing)",
+      "details": null,
+      "cost_usd": 3.0036509999999996,
+      "total_tokens": 24569
     },
     {
       "agent": "admissions-pr-reviewer",
