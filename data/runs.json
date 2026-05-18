@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-05-18T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-18T15:30:01Z",
       "duration_seconds": 404.1,
@@ -4807,14 +4815,6 @@
       "duration_seconds": 0.9,
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-30T20:00:02Z",
-      "duration_seconds": 1.2,
-      "status": "success",
-      "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
       "details": null
     }
   ]
