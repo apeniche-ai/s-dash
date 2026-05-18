@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-18T13:32:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 236.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4508 [TTPAI-95] Add multi-layer DI exercise verification with structural, math, and LLM judge layers → Approved + Browser QA Skipped (backend AI generation infra)",
+      "details": null,
+      "cost_usd": 2.1528240000000003,
+      "total_tokens": 10414
     },
     {
       "agent": "slack-watch",
