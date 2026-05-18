@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-18T16:03:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 141.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4551 [6194] Send cohort report daily instead of only on Mondays → Approved + Browser QA Skipped (backend mailer + rake task, no UI)",
+      "details": null,
+      "cost_usd": 1.48033275,
+      "total_tokens": 7363
     },
     {
       "agent": "career-market-research-loop",
