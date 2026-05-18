@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-18T13:01:41Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 281.5,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4524 [TTPAI-118] Retrieval observability DB logging for vector KB calls → Approved + Browser QA Skipped (backend observability only, no user-visible change)",
+      "details": null,
+      "cost_usd": 2.6275512500000007,
+      "total_tokens": 14402
     },
     {
       "agent": "pr-follow-up-check",
