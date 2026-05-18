@@ -165,10 +165,12 @@
     {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-05-18T01:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Coaching Digest...",
-      "details": null
+      "duration_seconds": 114.7,
+      "status": "success",
+      "summary": "Digest sent to the coaching channel and stored in memory for next week's comparison.",
+      "details": null,
+      "cost_usd": 1.2483745000000002,
+      "total_tokens": 6528
     },
     {
       "agent": "passive-income-research-loop",
