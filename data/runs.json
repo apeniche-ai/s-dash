@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-coaching-digest",
+      "timestamp": "2026-05-18T01:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Coaching Digest...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-17T23:01:56Z",
       "duration_seconds": 116.6,
@@ -4779,16 +4787,6 @@
       "details": null,
       "cost_usd": 2.01957225,
       "total_tokens": 10457
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-04-30T11:30:00Z",
-      "duration_seconds": 86.7,
-      "status": "success",
-      "summary": "Done. Check-in sent.",
-      "details": null,
-      "cost_usd": 0.7181107500000001,
-      "total_tokens": 4666
     }
   ]
 }
