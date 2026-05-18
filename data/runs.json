@@ -165,10 +165,13 @@
     {
       "agent": "soren-improvement-implementation",
       "timestamp": "2026-05-18T07:10:54Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Implementation...",
-      "details": null
+      "duration_seconds": 600.6,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code timed out after 600s"
+      ]
     },
     {
       "agent": "passive-income-research-loop",
