@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-18T19:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 144.6,
+      "status": "success",
+      "summary": "Tick #112 complete. Slot Sentinel digest delivered to passive-income channel (retry from #111 fetch-failure). Channel was silent, ledger unchanged, state fresh — log-only write. Awaiting Amaury reply.",
+      "details": null,
+      "cost_usd": 1.4583217499999999,
+      "total_tokens": 7073
     },
     {
       "agent": "pr-reviewer",
