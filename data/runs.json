@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-state-consolidation",
       "timestamp": "2026-05-18T02:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income State Consolidation...",
-      "details": null
+      "duration_seconds": 156.9,
+      "status": "success",
+      "summary": "Not applicable — this consolidation job is a single linear sequence (load → rebuild state → log), already complete. No task tracking needed.",
+      "details": null,
+      "cost_usd": 1.4812655000000001,
+      "total_tokens": 10912
     },
     {
       "agent": "weekly-coaching-digest",
