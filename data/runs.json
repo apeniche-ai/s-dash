@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-18T17:32:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 508.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4550 [TTP-6095] Add Maren AI welcome flow first session → Changes Requested (new first-visit flag AJAX hits FlagsController's broken `:back` redirect → 500s, breaking Features User Te",
+      "details": null,
+      "cost_usd": 3.278207250000001,
+      "total_tokens": 26515
     },
     {
       "agent": "slack-watch",
