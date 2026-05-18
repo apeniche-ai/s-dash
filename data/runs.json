@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-18T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 108.6,
+      "status": "success",
+      "summary": "Tick #110 silent per state plan. State fresh (9h), ledger unchanged, no overnight Amaury reply, discovery scout pre-fire. Next tick (Mon 10:00 #111) is the planned decision digest — branch routing dep",
+      "details": null,
+      "cost_usd": 1.1681145,
+      "total_tokens": 6118
     },
     {
       "agent": "pr-reviewer",
