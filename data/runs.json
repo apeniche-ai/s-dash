@@ -164,6 +164,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-18T10:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-18T10:00:02Z",
       "duration_seconds": 459.2,
       "status": "success",
@@ -4784,16 +4792,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-04-30T13:01:22Z",
-      "duration_seconds": 373.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4497 [TTPAI-124] Add SIP cleanup and welcome snapshot embed → Approved",
-      "details": null,
-      "cost_usd": 3.174625499999999,
-      "total_tokens": 19689
     }
   ]
 }
