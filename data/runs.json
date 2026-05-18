@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-18T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-18T23:00:00Z",
       "duration_seconds": 111.3,
@@ -4795,16 +4803,6 @@
       "details": null,
       "cost_usd": 0.6456062499999999,
       "total_tokens": 4395
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-01T12:30:02Z",
-      "duration_seconds": 373.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4472 [TTPAI-117][TTPAI-73] Deterministic vector KB retrieval + AI features on EA, SAT, and DI → Approved",
-      "details": null,
-      "cost_usd": 2.9253117499999997,
-      "total_tokens": 15619
     }
   ]
 }
