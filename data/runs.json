@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-19T22:15:15Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-05-19T22:12:26Z",
       "duration_seconds": 168.0,
@@ -4797,16 +4805,6 @@
       "details": null,
       "cost_usd": 1.2990739999999998,
       "total_tokens": 9640
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-05-04T16:42:26Z",
-      "duration_seconds": 122.4,
-      "status": "success",
-      "summary": "Sent. Summary of staleness check:",
-      "details": null,
-      "cost_usd": 0.69997025,
-      "total_tokens": 4858
     }
   ]
 }
