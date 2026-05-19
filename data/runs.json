@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-19T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 111.3,
+      "status": "success",
+      "summary": "Tick #114 complete. Single short-form action (load state, channel + discovery check, log-only write) — no task-tracking needed for a silent log-only tick. Closing.",
+      "details": null,
+      "cost_usd": 1.050274,
+      "total_tokens": 6344
     },
     {
       "agent": "goal-progress-reconciliation",
