@@ -173,10 +173,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-05-19T11:34:21Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 165.6,
+      "status": "success",
+      "summary": "Done. Tuesday morning check-in sent to coaching channel.",
+      "details": null,
+      "cost_usd": 1.5676945,
+      "total_tokens": 10320
     },
     {
       "agent": "pr-reviewer",
