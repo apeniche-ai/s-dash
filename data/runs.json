@@ -173,10 +173,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-05-19T12:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 40.4,
+      "status": "success",
+      "summary": "Done. Digest timestamp saved. Telegram hit the same \"fetch failed\" transient error as yesterday — nothing actionable for Amaury since it's inbox zero anyway. No items to remind, no doable todos to att",
+      "details": null,
+      "cost_usd": 0.27594455,
+      "total_tokens": 1542
     },
     {
       "agent": "admissions-pr-reviewer",
