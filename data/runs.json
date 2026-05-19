@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-19T13:15:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-19T13:01:52Z",
       "duration_seconds": 0.9,
@@ -4803,17 +4811,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-05-01T19:20:14Z",
       "duration_seconds": 1020.0,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 600s"
-      ]
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-01T19:01:31Z",
-      "duration_seconds": 1120.2,
       "status": "error",
       "summary": "",
       "details": null,
