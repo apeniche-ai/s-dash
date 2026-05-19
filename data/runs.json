@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-19T10:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 218.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4553 [TTPAI-142] GMAT Coach misinformation bug fixes → Changes Requested (gmat_di.md DI question-type list still says 4 types and omits Data Sufficiency — contradicts the new chatbot_",
+      "details": null,
+      "cost_usd": 2.13245425,
+      "total_tokens": 11148
     },
     {
       "agent": "soren-improvement-implementation",
