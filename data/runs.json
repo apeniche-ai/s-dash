@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-19T21:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 177.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4557 [TTP-6183] Auto Credit from purchases → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.5639200000000002,
+      "total_tokens": 9675
     },
     {
       "agent": "pr-reviewer",
