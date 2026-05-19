@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-19T21:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-19T16:30:02Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4795,17 +4803,6 @@
       "details": null,
       "cost_usd": 0.50116085,
       "total_tokens": 13716
-    },
-    {
-      "agent": "system-health-audit",
-      "timestamp": "2026-05-04T16:33:15Z",
-      "duration_seconds": 29555.4,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 600s"
-      ]
     }
   ]
 }
