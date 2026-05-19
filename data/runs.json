@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-implementation",
+      "timestamp": "2026-05-19T07:05:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Implementation...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-19T03:00:01Z",
       "duration_seconds": 111.3,
@@ -4797,16 +4805,6 @@
       "details": null,
       "cost_usd": 0.41902835,
       "total_tokens": 4429
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-01T13:30:01Z",
-      "duration_seconds": 210.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4500 [6137] Optimize Synonym Pairing word mastery dataset → Approved",
-      "details": null,
-      "cost_usd": 1.5864107499999998,
-      "total_tokens": 12992
     }
   ]
 }
