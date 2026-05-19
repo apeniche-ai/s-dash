@@ -173,10 +173,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-19T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 110.7,
+      "status": "success",
+      "summary": "Telegram delivery failed (fetch failed — same transient error seen on other jobs today). Not retrying per fail-fast rule.",
+      "details": null,
+      "cost_usd": 0.9663372499999999,
+      "total_tokens": 4985
     },
     {
       "agent": "pr-reviewer",
