@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-19T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-19T23:00:00Z",
       "duration_seconds": 138.7,
@@ -4793,16 +4801,6 @@
       "details": null,
       "cost_usd": 0.8264500999999999,
       "total_tokens": 27766
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-04T17:08:59Z",
-      "duration_seconds": 162.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4486 [6113] Fix AI tutor hint truncation by increasing max_tokens from 256 to 2048 → Approved",
-      "details": null,
-      "cost_usd": 1.6440194999999997,
-      "total_tokens": 7503
     }
   ]
 }
