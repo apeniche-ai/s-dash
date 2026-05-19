@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-19T15:04:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 582.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4492 [TTPAI-97] Add answer choice and exercise ID in context card → Changes Requested (precedence traps re-introduced in `resolve_attempt_from_db` + `single_answer_letter`, ESLint dea",
+      "details": null,
+      "cost_usd": 2.85324675,
+      "total_tokens": 25736
     },
     {
       "agent": "passive-income-research-loop",
