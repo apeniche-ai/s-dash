@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-05-19T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 173.3,
+      "status": "success",
+      "summary": "Scanned 9 source attempts (5 succeeded: HN Show HN by-date, HN Ask HN by-points, Anthropic + Google changelogs, dedup state; 4 failed: all 4 Reddit subs blocked at WebFetch + OpenAI 403'd for the 5th ",
+      "details": null,
+      "cost_usd": 1.4294850000000001,
+      "total_tokens": 28914
     },
     {
       "agent": "daily-performance-check-in",
