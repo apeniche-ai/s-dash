@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-05-19T22:12:26Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-19T22:03:39Z",
       "duration_seconds": 527.7,
@@ -4797,14 +4805,6 @@
       "details": null,
       "cost_usd": 0.69997025,
       "total_tokens": 4858
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-05-04T16:40:21Z",
-      "duration_seconds": 1.8,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
