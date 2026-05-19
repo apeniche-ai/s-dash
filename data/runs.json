@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-19T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 415.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4550 [TTP-6095] Add Maren AI welcome flow first session → Changes Requested (duplicate `Flag::LABELS` entry + `chat_modal` partial removal breaks 30+ feature specs in CI) + Browser QA",
+      "details": null,
+      "cost_usd": 3.9591392499999998,
+      "total_tokens": 21479
     },
     {
       "agent": "admissions-pr-reviewer",
