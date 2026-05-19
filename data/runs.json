@@ -1,5 +1,13 @@
 {
   "agents": {
+    "passive-income-discovery-scan": {
+      "id": "01KRV8QNZHKBYENXQJGWYNK17Y",
+      "name": "Passive Income Discovery Scan",
+      "agent": "passive-income-scout",
+      "status": "enabled",
+      "schedule": "0 7 * * *",
+      "description": "Daily 7 AM — silent outside-signal scanner for Reddit, Hacker News, and AI vendor release notes. Writes 0-3 filtered candidates to memory for the 10 AM passive-income tick to consume."
+    },
     "career-market-weekly-digest": {
       "id": "01KRMBP8QF66A23BMMNE23XDE1",
       "name": "Career Market Weekly Digest",
