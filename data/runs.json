@@ -173,10 +173,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-05-19T22:12:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 168.0,
+      "status": "success",
+      "summary": "Daily improvement review complete. After reviewing goals, capabilities, suggestion history, and the passive-income scout's actual source coverage, I have **no suggestion to surface today**.",
+      "details": null,
+      "cost_usd": 1.049421,
+      "total_tokens": 10838
     },
     {
       "agent": "pr-reviewer",
