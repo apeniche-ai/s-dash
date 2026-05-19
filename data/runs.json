@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-19T22:30:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review — 34 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-19T22:15:15Z",
       "duration_seconds": 0.8,
@@ -4795,16 +4803,6 @@
       "details": null,
       "cost_usd": 1.9476750000000003,
       "total_tokens": 13539
-    },
-    {
-      "agent": "passive-income-state-consolidation",
-      "timestamp": "2026-05-04T16:42:24Z",
-      "duration_seconds": 202.7,
-      "status": "success",
-      "summary": "Consolidation complete. Silent per spec.",
-      "details": null,
-      "cost_usd": 1.2990739999999998,
-      "total_tokens": 9640
     }
   ]
 }
