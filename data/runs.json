@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-19T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 100.0,
+      "status": "success",
+      "summary": "Tick #115 was a single short-form action (load state, channel + discovery check, log-only write) — no task-tracking needed for a silent log-only tick. Closing.",
+      "details": null,
+      "cost_usd": 1.0762915,
+      "total_tokens": 6159
     },
     {
       "agent": "pr-reviewer",
