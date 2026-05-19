@@ -173,10 +173,12 @@
     {
       "agent": "soren-improvement-implementation",
       "timestamp": "2026-05-19T07:13:37Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Implementation...",
-      "details": null
+      "duration_seconds": 221.0,
+      "status": "success",
+      "summary": "Shipped commit `0f8e13f` and pushed to main. The passive-income scout will fire its first real scan at 7 AM today. Suggestion marked implemented; Telegram summary delivered to Amaury.",
+      "details": null,
+      "cost_usd": 2.0939922500000003,
+      "total_tokens": 9320
     },
     {
       "agent": "passive-income-research-loop",
