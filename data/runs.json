@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-19T12:30:42Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 34 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-05-19T12:30:00Z",
       "duration_seconds": 40.4,
@@ -4813,16 +4821,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-05-01T17:44:00Z",
-      "duration_seconds": 283.9,
-      "status": "success",
-      "summary": "alarmed 1 item: Maria's MPIM at 07:24 AM — PR #4423 review + #4482 approach validation, no reply in 5h, plus the accidental merge of #4482 that Maria hasn't been informed about.",
-      "details": null,
-      "cost_usd": 0.5984717500000001,
-      "total_tokens": 12189
     }
   ]
 }
