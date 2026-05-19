@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-19T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 211.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4554 [TTPAI-132] Add source column to user_diagnostics → Approved + Browser QA Skipped (migration + forward-compat predicate not yet called from any controller)",
+      "details": null,
+      "cost_usd": 2.1913655,
+      "total_tokens": 8813
     },
     {
       "agent": "pr-reviewer",
