@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T20:33:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 259.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4550 [TTP-6095] Add Maren AI welcome flow first session → Approved + Browser QA Skipped (stacked branch on non-master base, latest commit is primarily spec deletions + small helper/vi",
+      "details": null,
+      "cost_usd": 2.38043675,
+      "total_tokens": 13334
     },
     {
       "agent": "slack-watch",
