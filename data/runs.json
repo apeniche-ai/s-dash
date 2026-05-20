@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-20T19:01:59Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-20T19:00:00Z",
       "duration_seconds": null,
@@ -4807,16 +4815,6 @@
       "status": "success",
       "summary": "No approved suggestions — skipped",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-06T03:00:00Z",
-      "duration_seconds": 194.9,
-      "status": "success",
-      "summary": "Tick #50 complete. Silent.",
-      "details": null,
-      "cost_usd": 1.0442135000000001,
-      "total_tokens": 11898
     }
   ]
 }
