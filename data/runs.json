@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T22:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 324.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4472 [TTPAI-117][TTPAI-73] Deterministic vector KB retrieval + AI features on EA, SAT, and DI → Changes Requested (retrieval_router.rb hardcodes provider: \"anthropic\" in token log — m",
+      "details": null,
+      "cost_usd": 3.089137999999999,
+      "total_tokens": 19205
     },
     {
       "agent": "pr-reviewer",
