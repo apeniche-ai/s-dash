@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 398.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4549 [TTPAI-89] Flashcard existing-deck check + auto-count → Changes Requested (missing `message` field in JSON payload + missing `Pusher.trigger` for existing-deck case, both explici",
+      "details": null,
+      "cost_usd": 2.3362737499999997,
+      "total_tokens": 25556
     },
     {
       "agent": "admissions-pr-reviewer",
