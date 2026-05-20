@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-05-20T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T22:00:02Z",
       "duration_seconds": 324.4,
@@ -4807,16 +4815,6 @@
       "details": null,
       "cost_usd": 0.20068714999999998,
       "total_tokens": 1277
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-06T12:30:01Z",
-      "duration_seconds": 103.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4512 [6162] Fix summarize button border and hover text flicker on AI assist buttons → Approved",
-      "details": null,
-      "cost_usd": 0.9540834999999999,
-      "total_tokens": 5639
     }
   ]
 }
