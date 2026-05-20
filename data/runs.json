@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-05-20T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 121.9,
+      "status": "success",
+      "summary": "Scanned 9 sources, 4 succeeded (HN Show HN, HN Ask HN, Anthropic, Google), 5 failed (4 Reddit subs blocked + OpenAI 403). Wrote 0 findings — 2 Google capability deltas (gemini-3.5-flash GA, Managed Ag",
+      "details": null,
+      "cost_usd": 1.19131475,
+      "total_tokens": 6914
     },
     {
       "agent": "daily-performance-check-in",
