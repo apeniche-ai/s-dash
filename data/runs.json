@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T16:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 253.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4472 [TTPAI-117][TTPAI-73] Deterministic vector KB retrieval + AI features on EA, SAT, and DI → Changes Requested (schema.rb version stale — CI failing on all 5 spec jobs with PG::Dup",
+      "details": null,
+      "cost_usd": 2.313422,
+      "total_tokens": 13058
     },
     {
       "agent": "admissions-pr-reviewer",
