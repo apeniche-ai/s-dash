@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-20T13:32:52Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-20T13:30:01Z",
       "duration_seconds": 170.0,
@@ -4805,16 +4813,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-05-04T22:10:02Z",
-      "duration_seconds": 374.2,
-      "status": "success",
-      "summary": "Done. One suggestion created and sent to Telegram: **\"Morning merge-ready digest\"** (P10, priority 8). Implementation notes attached for the implementer. Exiting.",
-      "details": null,
-      "cost_usd": 0.5781825,
-      "total_tokens": 15917
     }
   ]
 }
