@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-20T21:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-20T20:33:28Z",
       "duration_seconds": 259.8,
       "status": "success",
@@ -4807,16 +4815,6 @@
       "details": null,
       "cost_usd": 0.8473627499999998,
       "total_tokens": 5492
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-06T11:30:01Z",
-      "duration_seconds": 158.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4511 [6117] - Refines math formatting prompt for conciseness and edge cases → Approved",
-      "details": null,
-      "cost_usd": 1.247713,
-      "total_tokens": 8129
     }
   ]
 }
