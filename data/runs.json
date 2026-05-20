@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-20T22:15:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-05-20T22:10:00Z",
       "duration_seconds": 60.5,
@@ -4807,16 +4815,6 @@
       "details": null,
       "cost_usd": 0.657554,
       "total_tokens": 3933
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-05-06T12:31:44Z",
-      "duration_seconds": 44.1,
-      "status": "success",
-      "summary": "Done. Todo list is empty — no reminders, no open items, nothing completed since yesterday. Sent \"📋 Inbox zero\" to the assistant Telegram channel and bookmarked the digest timestamp.",
-      "details": null,
-      "cost_usd": 0.20068714999999998,
-      "total_tokens": 1277
     }
   ]
 }
