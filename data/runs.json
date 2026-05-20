@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-20T19:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-20T19:15:01Z",
       "duration_seconds": 1.2,
@@ -4809,16 +4817,6 @@
       "details": null,
       "cost_usd": 1.7544497500000003,
       "total_tokens": 13320
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-06T10:00:01Z",
-      "duration_seconds": 114.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4505 [6150] Fix horizontal scroll in AI Tutor modal for long formulas → Approved",
-      "details": null,
-      "cost_usd": 1.1445787499999998,
-      "total_tokens": 6156
     }
   ]
 }
