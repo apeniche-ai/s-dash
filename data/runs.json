@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T21:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 240.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4564 [6204] Email copy refresh → Approved + Browser QA Skipped (email/mailer changes — purchase flow not exercisable in browser without Recurly setup)",
+      "details": null,
+      "cost_usd": 1.9909000000000001,
+      "total_tokens": 15054
     },
     {
       "agent": "admissions-pr-reviewer",
