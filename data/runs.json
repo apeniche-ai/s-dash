@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 500.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4561 [6149] Implement onboarding step 6 (more details) → Approved + Browser QA Skipped (10-step wizard, fresh-user setup not warranted)",
+      "details": null,
+      "cost_usd": 3.0561415,
+      "total_tokens": 31396
     },
     {
       "agent": "admissions-pr-reviewer",
