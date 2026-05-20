@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-20T10:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-implementation",
       "timestamp": "2026-05-20T07:05:00Z",
       "duration_seconds": 0.0,
@@ -4793,16 +4801,6 @@
       "details": null,
       "cost_usd": 1.3293825,
       "total_tokens": 11463
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-04T17:32:40Z",
-      "duration_seconds": 81.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4501 [6138] - Fix Contrast Agreement flaky spec → Approved",
-      "details": null,
-      "cost_usd": 0.62815325,
-      "total_tokens": 4312
     }
   ]
 }
