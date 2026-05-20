@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-20T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T14:30:02Z",
       "duration_seconds": 398.5,
@@ -4810,16 +4818,6 @@
       "errors": [
         "claude exited with code 1"
       ]
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-05-04T23:30:00Z",
-      "duration_seconds": 123.0,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.32363519999999996,
-      "total_tokens": 5458
     }
   ]
 }
