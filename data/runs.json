@@ -171,6 +171,16 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-20T14:18:31Z",
+      "duration_seconds": 209.9,
+      "status": "success",
+      "summary": "All 10 open PRs on admissions are skipped — every one carries a skip label (Claude Reviewed / Work in Progress / Blocked) or is otherwise excluded. No PR to review.",
+      "details": null,
+      "cost_usd": 0.35737025000000006,
+      "total_tokens": 579
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T14:00:01Z",
       "duration_seconds": 602.4,
@@ -4810,14 +4820,6 @@
       "details": null,
       "cost_usd": 1.7090144999999999,
       "total_tokens": 7275
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-04T22:30:02Z",
-      "duration_seconds": 1.4,
-      "status": "success",
-      "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
