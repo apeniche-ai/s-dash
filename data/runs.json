@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-20T10:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-20T10:00:01Z",
       "duration_seconds": 287.7,
       "status": "success",
@@ -4793,16 +4801,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-04T18:00:01Z",
-      "duration_seconds": 190.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4502 [TTPAI-125] Add error_code typing, stream_id, and XHR auth to chatbot → Approved",
-      "details": null,
-      "cost_usd": 1.3293825,
-      "total_tokens": 11463
     }
   ]
 }
