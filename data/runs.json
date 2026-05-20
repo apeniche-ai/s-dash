@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-20T14:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-20T14:18:31Z",
       "duration_seconds": 209.9,
@@ -4810,16 +4818,6 @@
       "details": null,
       "cost_usd": 0.32363519999999996,
       "total_tokens": 5458
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-04T23:00:01Z",
-      "duration_seconds": 170.3,
-      "status": "success",
-      "summary": "Tick #46 complete. Silent — channel still silent on the Mon 11:33 Heroku Audit fork (~6.5h, well inside normal Mon response window). State fresh from 11:42 consolidation, ledger unchanged, no new mate",
-      "details": null,
-      "cost_usd": 1.7090144999999999,
-      "total_tokens": 7275
     }
   ]
 }
