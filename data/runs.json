@@ -181,10 +181,13 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T15:10:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 670.1,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1"
+      ]
     },
     {
       "agent": "passive-income-research-loop",
