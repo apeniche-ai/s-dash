@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-05-20T12:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-20T12:15:02Z",
       "duration_seconds": 1.1,
@@ -4799,16 +4807,6 @@
       "status": "success",
       "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-05-04T20:30:02Z",
-      "duration_seconds": 102.4,
-      "status": "success",
-      "summary": "Failure logged to Telegram. Exiting.",
-      "details": null,
-      "cost_usd": 0.25621895,
-      "total_tokens": 3451
     }
   ]
 }
