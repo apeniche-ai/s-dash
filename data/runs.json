@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-20T21:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T21:00:02Z",
       "duration_seconds": 249.9,
@@ -4807,16 +4815,6 @@
       "details": null,
       "cost_usd": 1.7755472499999998,
       "total_tokens": 19647
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-05-06T11:32:39Z",
-      "duration_seconds": 103.5,
-      "status": "success",
-      "summary": "Done. Wednesday check-in sent to coaching channel.",
-      "details": null,
-      "cost_usd": 0.8473627499999998,
-      "total_tokens": 5492
     }
   ]
 }
