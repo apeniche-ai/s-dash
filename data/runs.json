@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T13:01:25Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 414.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4562 [6192] Assign hours on flagged sessions → Changes Requested (form silently verifies other flagged sessions for same student beyond the clicked one — diverges from AC's \"over-cred",
+      "details": null,
+      "cost_usd": 2.34330675,
+      "total_tokens": 20625
     },
     {
       "agent": "pr-follow-up-check",
