@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T13:32:52Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 340.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4558 [6148] Implement onboarding step 5b (score collection) → Changes Requested (Skip-button + empty-disabled CONTINUE per AC still missing — author addressed prior feedback by droppi",
+      "details": null,
+      "cost_usd": 2.3025987500000005,
+      "total_tokens": 20220
     },
     {
       "agent": "slack-watch",
