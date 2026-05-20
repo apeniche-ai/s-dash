@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-20T15:21:55Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T15:10:46Z",
       "duration_seconds": null,
@@ -4808,16 +4816,6 @@
       "details": null,
       "cost_usd": 1.0478625,
       "total_tokens": 5128
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-05-05T02:42:47Z",
-      "duration_seconds": 185.2,
-      "status": "success",
-      "summary": "Done. Reconcile complete — 15 tasks marked done across all 3 active goals, notification sent.",
-      "details": null,
-      "cost_usd": 0.1347876,
-      "total_tokens": 971
     }
   ]
 }
