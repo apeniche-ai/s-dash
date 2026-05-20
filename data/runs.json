@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-20T12:30:54Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 30 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-05-20T12:30:01Z",
       "duration_seconds": 52.6,
@@ -4798,14 +4806,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-05-04T21:00:02Z",
       "duration_seconds": 1.5,
-      "status": "success",
-      "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-04T20:31:46Z",
-      "duration_seconds": 2.4,
       "status": "success",
       "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
       "details": null
