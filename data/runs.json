@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-20T16:30:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-20T16:15:01Z",
       "duration_seconds": 0.9,
@@ -4811,16 +4819,6 @@
       "details": null,
       "cost_usd": 0.48823945,
       "total_tokens": 13624
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-05T22:16:12Z",
-      "duration_seconds": 292.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4480 [TTPAI-96][TTPAI-124] Add onboarding columns + SIP cleanup and welcome snapshot embed → Approved",
-      "details": null,
-      "cost_usd": 2.82859825,
-      "total_tokens": 16511
     }
   ]
 }
