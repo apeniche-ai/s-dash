@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 565.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4472 [TTPAI-117][TTPAI-73] Deterministic vector KB retrieval + AI features on EA, SAT, and DI → Changes Requested (missing timeout on inline sync_single in flashcard+summary, misleadi",
+      "details": null,
+      "cost_usd": 5.779712500000001,
+      "total_tokens": 28802
     },
     {
       "agent": "admissions-pr-reviewer",
