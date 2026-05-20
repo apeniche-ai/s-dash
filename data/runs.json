@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T19:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 321.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4561 [6149] Implement onboarding step 6 (more details) → Changes Requested (phone validation doesn't disable CONTINUE — diverges from Jira ticket, QA-confirmed by @YaritzaReb) + Brows",
+      "details": null,
+      "cost_usd": 2.189704,
+      "total_tokens": 20159
     },
     {
       "agent": "admissions-pr-reviewer",
