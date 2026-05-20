@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T15:29:27Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 352.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4550 [TTP-6095] Add Maren AI welcome flow first session → Changes Requested (CI still failing — 8 feature specs broken by removed chat UI selectors) + Browser QA Skipped (CI failure a",
+      "details": null,
+      "cost_usd": 2.76570775,
+      "total_tokens": 19625
     },
     {
       "agent": "passive-income-research-loop",
