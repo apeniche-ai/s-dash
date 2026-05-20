@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-implementation",
+      "timestamp": "2026-05-20T07:05:00Z",
+      "duration_seconds": 0.0,
+      "status": "success",
+      "summary": "No approved suggestions — skipped",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-20T03:00:00Z",
       "duration_seconds": 83.8,
@@ -4795,16 +4803,6 @@
       "details": null,
       "cost_usd": 0.62815325,
       "total_tokens": 4312
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-05-04T17:30:01Z",
-      "duration_seconds": 133.4,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.34691900000000003,
-      "total_tokens": 6371
     }
   ]
 }
