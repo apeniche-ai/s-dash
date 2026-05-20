@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-20T16:02:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 467.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4560 AI Deploy - 20260514 - [96][124][125][126][138] → Changes Requested (4 chatbot specs fail because they still expect 500/stub `exceeded?` after the 500→429 + `record_and_exceeded?",
+      "details": null,
+      "cost_usd": 3.2179555,
+      "total_tokens": 26871
     },
     {
       "agent": "career-market-research-loop",
