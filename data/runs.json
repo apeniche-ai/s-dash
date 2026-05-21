@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-21T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 273.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4553 [TTPAI-142] GMAT Coach misinformation bug fixes → Approved + Browser QA Skipped (AI prompt content)",
+      "details": null,
+      "cost_usd": 2.6193079999999997,
+      "total_tokens": 14808
     },
     {
       "agent": "pr-reviewer",
