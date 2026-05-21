@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-21T21:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-21T21:15:01Z",
       "duration_seconds": 0.8,
@@ -4794,16 +4802,6 @@
       "details": null,
       "cost_usd": 1.6122355,
       "total_tokens": 12432
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-07T15:28:09Z",
-      "duration_seconds": 238.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4472 [TTPAI-117][TTPAI-73] Deterministic vector KB retrieval + AI features on EA, SAT, and DI → Approved + Browser QA Skipped (vector KB + LLM live deps)",
-      "details": null,
-      "cost_usd": 2.2410619999999994,
-      "total_tokens": 11305
     }
   ]
 }
