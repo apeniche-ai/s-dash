@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-21T15:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-21T14:30:01Z",
       "duration_seconds": 1.0,
@@ -4816,16 +4824,6 @@
       "details": null,
       "cost_usd": 0.8934555,
       "total_tokens": 5865
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-06T22:57:11Z",
-      "duration_seconds": 153.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4514 [Snyk] Security upgrade rails from 7.2.3.1 to 8.0.0 → Changes Requested (Gemfile.lock not updated; major Rails 7.2→8.0 jump unsafe in a Snyk auto-PR; underlying CVEs are in net-i",
-      "details": null,
-      "cost_usd": 1.2448242500000002,
-      "total_tokens": 8255
     }
   ]
 }
