@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-21T22:15:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-05-21T22:10:01Z",
       "duration_seconds": 191.9,
@@ -4794,16 +4802,6 @@
       "status": "success",
       "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-07T16:30:01Z",
-      "duration_seconds": 160.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4521 [6166] Fix chatbot send/stop button broken on iPad and mobile by replacing form_tag with content_tag form → Approved + Browser QA Skipped (local Ruby/bundler mismatch)",
-      "details": null,
-      "cost_usd": 1.4715247499999997,
-      "total_tokens": 9268
     }
   ]
 }
