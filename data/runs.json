@@ -173,10 +173,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-05-21T12:35:13Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 51.6,
+      "status": "success",
+      "summary": "Done.",
+      "details": null,
+      "cost_usd": 0.24605580000000002,
+      "total_tokens": 2053
     },
     {
       "agent": "pr-reviewer",
