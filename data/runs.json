@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-21T20:00:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-21T19:30:01Z",
       "duration_seconds": 195.5,
       "status": "success",
@@ -4798,16 +4806,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-07T13:01:35Z",
-      "duration_seconds": 190.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4518 [TTPAI-135] Fix chatbot garbling curriculum diagrams and figures in lesson responses → Approved + Browser QA Skipped (vector KB rake task + nightly sync prerequisite not reproduc",
-      "details": null,
-      "cost_usd": 1.6227864999999997,
-      "total_tokens": 10178
     }
   ]
 }
