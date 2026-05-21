@@ -173,10 +173,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-21T13:04:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 74.3,
+      "status": "success",
+      "summary": "Skipping task tracking — this is a simple linear scheduled job, already complete.",
+      "details": null,
+      "cost_usd": 0.5481627499999999,
+      "total_tokens": 4531
     },
     {
       "agent": "pr-reviewer",
