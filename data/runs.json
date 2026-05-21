@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-21T18:00:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-21T17:30:01Z",
       "duration_seconds": 179.8,
@@ -4804,16 +4812,6 @@
       "details": null,
       "cost_usd": 0.7759992499999999,
       "total_tokens": 4619
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-07T11:30:01Z",
-      "duration_seconds": 218.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4516 [TTPAI-134] Fixes empty SIP topics/strengths for TP+CM-only users → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.78193725,
-      "total_tokens": 12801
     }
   ]
 }
