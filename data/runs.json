@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-21T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 283.0,
+      "status": "success",
+      "summary": "Reviewed 4 PRs: #4546 Tutoring Management Module → Approved + Browser QA Skipped (admin-only feature), #4558 Onboarding step 5b → Approved + Browser QA Skipped (wizard pre-state), #4553 GMAT Coach mis",
+      "details": null,
+      "cost_usd": 2.3199442500000003,
+      "total_tokens": 14670
     },
     {
       "agent": "pr-reviewer",
