@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-21T21:15:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-21T21:01:52Z",
       "duration_seconds": 243.2,
@@ -4796,16 +4804,6 @@
       "details": null,
       "cost_usd": 2.2410619999999994,
       "total_tokens": 11305
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-07T15:25:51Z",
-      "duration_seconds": 137.4,
-      "status": "success",
-      "summary": "Tick #57 complete. Bridge fired on passive-income channel rerouting the JEPQ discussion from default channel. Daily budget Thu 1/3 used. Next eligible action Thu 14:00 — discussion mode if reply lands",
-      "details": null,
-      "cost_usd": 1.1601827500000002,
-      "total_tokens": 6507
     }
   ]
 }
