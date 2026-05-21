@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-21T19:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 195.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4558 [6148] Implement onboarding step 5b (score collection) → Approved + Browser QA Skipped (epic-branch PR, step unreachable from standard sign-in)",
+      "details": null,
+      "cost_usd": 1.603846,
+      "total_tokens": 9615
     },
     {
       "agent": "admissions-pr-reviewer",
