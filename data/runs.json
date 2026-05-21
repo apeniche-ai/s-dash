@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-05-21T13:04:40Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-21T13:00:01Z",
       "duration_seconds": null,
@@ -4821,16 +4829,6 @@
       "errors": [
         "Claude Code timed out after 600s"
       ]
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-06T20:34:10Z",
-      "duration_seconds": 122.6,
-      "status": "success",
-      "summary": "Tick #53 complete. Silent.",
-      "details": null,
-      "cost_usd": 1.1592797499999998,
-      "total_tokens": 5116
     }
   ]
 }
