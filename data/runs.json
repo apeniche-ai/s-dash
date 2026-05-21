@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-performance-check-in",
+      "timestamp": "2026-05-21T11:33:28Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Performance Check-in...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-21T11:30:01Z",
       "duration_seconds": 207.8,
@@ -4818,14 +4826,6 @@
       "duration_seconds": 1.0,
       "status": "success",
       "summary": "No PRs to review — 28 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-05-06T16:31:03Z",
-      "duration_seconds": 1.5,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 9 open, all skipped (labeled/draft)",
       "details": null
     }
   ]
