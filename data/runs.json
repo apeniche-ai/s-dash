@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-21T11:01:43Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 372.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4558 [6148] Implement onboarding step 5b (score collection) → Approved + Browser QA Skipped (feature epic branch, multi-step wizard)",
+      "details": null,
+      "cost_usd": 3.603761000000001,
+      "total_tokens": 19279
     },
     {
       "agent": "passive-income-research-loop",
