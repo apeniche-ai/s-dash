@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-21T19:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 144.8,
+      "status": "success",
+      "summary": "Tick #127 done. SILENT — no Telegram sent. Both threads still inside patience windows (MentalTune ~28h post-probe, Slot Sentinel ~96h, scheduled gate Fri 14:00). Discovery scout produced 0 candidates ",
+      "details": null,
+      "cost_usd": 1.226026,
+      "total_tokens": 8944
     },
     {
       "agent": "pr-reviewer",
