@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-21T10:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 270.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4472 [TTPAI-117][TTPAI-73] Deterministic vector KB retrieval + AI features on EA, SAT, and DI → Approved + Browser QA Skipped (bundler missing)",
+      "details": null,
+      "cost_usd": 2.3034407500000005,
+      "total_tokens": 13296
     },
     {
       "agent": "soren-improvement-implementation",
