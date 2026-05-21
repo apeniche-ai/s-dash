@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-21T20:30:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-21T20:30:01Z",
       "duration_seconds": null,
@@ -4794,16 +4802,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-07T13:32:33Z",
-      "duration_seconds": 213.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4503 [6117] Add math formatting guidance to chatbot prompt → Approved + Browser QA Skipped (chatbot prompt + CSS; needs live LLM/vector KB)",
-      "details": null,
-      "cost_usd": 2.2188519999999996,
-      "total_tokens": 11145
     }
   ]
 }
