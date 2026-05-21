@@ -173,10 +173,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-05-21T17:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 179.8,
+      "status": "success",
+      "summary": "Alarm delivered. Here's what happened this run:",
+      "details": null,
+      "cost_usd": 0.57368815,
+      "total_tokens": 8355
     },
     {
       "agent": "pr-reviewer",
