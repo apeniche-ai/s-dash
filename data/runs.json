@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-05-21T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-21T01:05:00Z",
       "duration_seconds": 95.5,
@@ -4809,16 +4817,6 @@
       "details": null,
       "cost_usd": 1.94344725,
       "total_tokens": 19475
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-06T13:32:05Z",
-      "duration_seconds": 338.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4492 [TTPAI-97] Add answer choice and exercise ID in context card → Approved",
-      "details": null,
-      "cost_usd": 3.802699,
-      "total_tokens": 17049
     }
   ]
 }
