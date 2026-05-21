@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-21T14:15:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-21T14:00:01Z",
       "duration_seconds": 1.2,
@@ -4820,17 +4828,6 @@
       "details": null,
       "cost_usd": 0.25852125000000004,
       "total_tokens": 8727
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-06T22:43:48Z",
-      "duration_seconds": 602.8,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 600s"
-      ]
     }
   ]
 }
