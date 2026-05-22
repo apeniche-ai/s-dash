@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-22T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 288.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4572 [6176] Add SAT onboarding theming → Approved + Browser QA Skipped (SAT-only theming, local dev is GMAT)",
+      "details": null,
+      "cost_usd": 2.1976245000000003,
+      "total_tokens": 17209
     },
     {
       "agent": "admissions-pr-reviewer",
