@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-22T13:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-22T13:15:01Z",
       "duration_seconds": 0.9,
@@ -4810,16 +4818,6 @@
       "details": null,
       "cost_usd": 0.5732962,
       "total_tokens": 10336
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-07T23:00:00Z",
-      "duration_seconds": 314.4,
-      "status": "success",
-      "summary": "Tick #58 complete. Silent on passive-income (anti-pattern watch holds — bridge fired this morning was 2nd notify on JEPQ thread within 24h; no 3rd). ",
-      "details": null,
-      "cost_usd": 1.38767975,
-      "total_tokens": 16457
     }
   ]
 }
