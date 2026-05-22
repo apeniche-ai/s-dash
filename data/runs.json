@@ -173,10 +173,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-05-22T20:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 288.5,
+      "status": "success",
+      "summary": "alarmed 1 item: 🔴 (still waiting) Lorraine's student tech issue DM — 30h unanswered, final escalation sent to Telegram, marked exhausted in memory.",
+      "details": null,
+      "cost_usd": 0.7158544000000001,
+      "total_tokens": 14173
     },
     {
       "agent": "admissions-pr-reviewer",
