@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-22T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 113.5,
+      "status": "success",
+      "summary": "Tick #129 complete. Silent — no Telegram sent. Both threads still inside patience windows (Slot Sentinel ~80h of ~96h gate; MT probe ~36h post-send). Channel silent, no discovery candidates, Amaury he",
+      "details": null,
+      "cost_usd": 1.0463475,
+      "total_tokens": 6359
     },
     {
       "agent": "goal-progress-reconciliation",
