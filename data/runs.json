@@ -165,10 +165,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-05-22T01:00:58Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 151.6,
+      "status": "success",
+      "summary": "Tick #1 (maintenance) done — silent. Bootstrap notification went out 30 min ago; this evening sweep found nothing new (HN reruns from 2024, Reddit unreachable, only the 2024 Dwarkesh podcast surfaces ",
+      "details": null,
+      "cost_usd": 1.3013534999999998,
+      "total_tokens": 7374
     },
     {
       "agent": "slack-watch",
