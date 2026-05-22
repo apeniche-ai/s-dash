@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-22T10:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-22T03:00:00Z",
       "duration_seconds": 113.5,
@@ -4796,16 +4804,6 @@
       "status": "success",
       "summary": "No PRs to review — 28 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-07T19:00:01Z",
-      "duration_seconds": 105.5,
-      "status": "success",
-      "summary": "Tick #58 complete. Silent — bridge fired 3.5h ago on JEPQ thread, channel still silent, anti-pattern watch (no 3rd notify) holds. Daily budget Thu 1/3 used. Next eligible action Thu 18:00 — discussion",
-      "details": null,
-      "cost_usd": 1.0729585,
-      "total_tokens": 4633
     }
   ]
 }
