@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-22T12:30:59Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 232.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4567 [6174] Add GRE onboarding support with exam-aware theming and branding → Approved + Browser QA Skipped (non-master base branch)",
+      "details": null,
+      "cost_usd": 2.1496524999999993,
+      "total_tokens": 13547
     },
     {
       "agent": "daily-todo-digest",
