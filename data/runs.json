@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "daily-performance-check-in",
+      "timestamp": "2026-05-22T11:34:27Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Performance Check-in...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-22T11:30:01Z",
       "duration_seconds": null,
@@ -4802,16 +4810,6 @@
       "status": "success",
       "summary": "No PRs to review — 27 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-05-07T20:30:01Z",
-      "duration_seconds": 156.7,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.4610591,
-      "total_tokens": 7996
     }
   ]
 }
