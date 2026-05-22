@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-05-22T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-22T15:30:02Z",
       "duration_seconds": 1.4,
@@ -4802,16 +4810,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-08T11:01:21Z",
-      "duration_seconds": 200.6,
-      "status": "success",
-      "summary": "Outside work hours (06:01) — review batched to memory silently per spec. No Telegram notification sent.",
-      "details": null,
-      "cost_usd": 1.6052484999999999,
-      "total_tokens": 13570
     }
   ]
 }
