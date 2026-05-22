@@ -165,10 +165,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-05-22T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 235.9,
+      "status": "success",
+      "summary": "Tick complete. SILENT — no Telegram sent.",
+      "details": null,
+      "cost_usd": 1.8114317500000006,
+      "total_tokens": 12846
     },
     {
       "agent": "pr-reviewer",
