@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-22T19:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-22T18:30:01Z",
       "duration_seconds": 1.1,
@@ -4802,16 +4810,6 @@
       "status": "success",
       "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-05-08T13:30:01Z",
-      "duration_seconds": 166.2,
-      "status": "success",
-      "summary": "alarmed 1 item: 🔴 (still waiting) Augusto's #ai-dev thread — PR #4471 (Critical, Bedrock removal) + #4480 + 3 unassigned bug tickets (TTPAI-134/135/136), 37h no reply. Re-alarm sent, item marked esca",
-      "details": null,
-      "cost_usd": 0.39646604999999996,
-      "total_tokens": 9311
     }
   ]
 }
