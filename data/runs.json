@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-22T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 266.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4570 [6175] Add EA onboarding theming with exam-aware colors → Approved + Browser QA Skipped (non-master base branch)",
+      "details": null,
+      "cost_usd": 2.1896964999999997,
+      "total_tokens": 16537
     },
     {
       "agent": "admissions-pr-reviewer",
