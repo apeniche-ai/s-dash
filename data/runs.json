@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-22T15:15:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-22T15:02:43Z",
       "duration_seconds": 1.0,
@@ -4806,16 +4814,6 @@
       "details": null,
       "cost_usd": 0.8218135,
       "total_tokens": 4330
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-08T10:30:01Z",
-      "duration_seconds": 360.3,
-      "status": "success",
-      "summary": "Friday 5:35 AM — outside work hours, batched silently to memory.",
-      "details": null,
-      "cost_usd": 3.307143,
-      "total_tokens": 19226
     }
   ]
 }
