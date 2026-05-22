@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-22T12:30:59Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-05-22T12:30:00Z",
       "duration_seconds": 57.8,
@@ -4806,16 +4814,6 @@
       "status": "success",
       "summary": "No PRs to review — 28 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "mercury-transfer-reminder---natalia",
-      "timestamp": "2026-05-07T21:35:51Z",
-      "duration_seconds": 19.3,
-      "status": "success",
-      "summary": "Reminder sent to Telegram.",
-      "details": null,
-      "cost_usd": 0.15233449999999996,
-      "total_tokens": 333
     }
   ]
 }
