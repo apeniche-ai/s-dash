@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-22T20:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-22T20:00:01Z",
       "duration_seconds": 0.9,
@@ -4797,16 +4805,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-08T15:20:43Z",
-      "duration_seconds": 223.9,
-      "status": "success",
-      "summary": "Tick #61 complete. Silent — anti-pattern watch holds (24h post-bridge, no Amaury signal on JEPQ/XDTE either channel), no material news (JEPQ + XDTE distributions routine), state 16h fresh, ledger unch",
-      "details": null,
-      "cost_usd": 1.2641710000000004,
-      "total_tokens": 8008
     }
   ]
 }
