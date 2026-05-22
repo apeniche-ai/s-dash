@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-22T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 324.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4567 [6174] Add GRE onboarding support with exam-aware theming and branding → Changes Requested (removed `.trademark-symbol` SCSS rule still referenced by `exam_name_with_trademark` o",
+      "details": null,
+      "cost_usd": 3.205663499999999,
+      "total_tokens": 16070
     },
     {
       "agent": "pr-reviewer",
