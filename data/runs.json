@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-22T17:34:47Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 192.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4567 [6174] Add GRE onboarding support with exam-aware theming and branding → Approved + Browser QA Skipped (re-review of 6-line SCSS restoration matching prior recommendation)",
+      "details": null,
+      "cost_usd": 1.7864419999999996,
+      "total_tokens": 10367
     },
     {
       "agent": "slack-watch",
