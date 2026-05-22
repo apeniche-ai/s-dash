@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-22T22:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 385.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4492 [TTPAI-97] Add answer choice and exercise ID in context card → Changes Requested (nil-correct regression in resolve_attempt_from_db + Features User Tests CI failing) + Browser QA",
+      "details": null,
+      "cost_usd": 2.6413467500000003,
+      "total_tokens": 23945
     },
     {
       "agent": "pr-reviewer",
