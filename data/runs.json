@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-22T14:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-22T14:15:01Z",
       "duration_seconds": 1.1,
@@ -4808,16 +4816,6 @@
       "details": null,
       "cost_usd": 1.820603,
       "total_tokens": 8899
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-08T03:00:00Z",
-      "duration_seconds": 123.0,
-      "status": "success",
-      "summary": "Tick #59 complete. Silent on passive-income — anti-pattern watch holds (bridge 10:25 was 2nd notify on JEPQ/XDTE merged thread within 24h). Channel silent, no cross-channel JEPQ/XDTE follow-up since #",
-      "details": null,
-      "cost_usd": 0.8832180000000001,
-      "total_tokens": 6810
     }
   ]
 }
