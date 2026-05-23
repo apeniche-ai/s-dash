@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-05-23T01:00:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-22T23:30:00Z",
       "duration_seconds": 161.3,
@@ -4805,14 +4813,6 @@
       "details": null,
       "cost_usd": 1.06859125,
       "total_tokens": 5396
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-08T18:30:01Z",
-      "duration_seconds": 0.8,
-      "status": "success",
-      "summary": "No PRs to review — 29 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
