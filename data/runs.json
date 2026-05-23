@@ -165,10 +165,12 @@
     {
       "agent": "behavioral-experiments-follow-up",
       "timestamp": "2026-05-23T14:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Behavioral Experiments Follow-Up...",
-      "details": null
+      "duration_seconds": 106.2,
+      "status": "success",
+      "summary": "Done. Saturday Behavioral Experiments Follow-Up sent to the coaching channel — two questions anchored to Thursday's \"had to be loud\" moment, hitting \"I do everything at high quality\" (overdue from las",
+      "details": null,
+      "cost_usd": 1.3890040000000001,
+      "total_tokens": 5259
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
