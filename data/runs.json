@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-23T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 108.1,
+      "status": "success",
+      "summary": "Tick #134 complete. Silent slot per plan — log written, no notify, no ledger or state changes.",
+      "details": null,
+      "cost_usd": 1.1079007499999998,
+      "total_tokens": 6490
     },
     {
       "agent": "goal-progress-reconciliation",
