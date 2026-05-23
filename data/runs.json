@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-23T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 105.6,
+      "status": "success",
+      "summary": "Not applicable — this was a single-shot linear tick (load → check → log → exit). No multi-step work to track. Task created, completed, done.",
+      "details": null,
+      "cost_usd": 1.05505325,
+      "total_tokens": 6790
     },
     {
       "agent": "soren-improvement-review",
