@@ -165,10 +165,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-05-23T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 166.0,
+      "status": "success",
+      "summary": "Both messages landed on Telegram.",
+      "details": null,
+      "cost_usd": 1.2528275,
+      "total_tokens": 8404
     },
     {
       "agent": "passive-income-research-loop",
