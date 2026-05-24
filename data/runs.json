@@ -181,10 +181,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-05-24T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 122.3,
+      "status": "success",
+      "summary": "Weekly digest delivered to the assistant channel on retry (first attempt hit the same \"fetch failed\" issue surfacing across agents). Memory stored, rolling notes updated.",
+      "details": null,
+      "cost_usd": 1.24018125,
+      "total_tokens": 8070
     },
     {
       "agent": "soren-improvement-review",
