@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-05-24T13:00:09Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-05-24T12:00:00Z",
       "duration_seconds": 161.0,
@@ -4827,16 +4835,6 @@
       "details": null,
       "cost_usd": 0.8423167500000002,
       "total_tokens": 4831
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-05-09T02:30:00Z",
-      "duration_seconds": 18.9,
-      "status": "success",
-      "summary": "Nothing changed. Exiting silently.",
-      "details": null,
-      "cost_usd": 0.5981332500000001,
-      "total_tokens": 256
     }
   ]
 }
