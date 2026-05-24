@@ -1,5 +1,13 @@
 {
   "agents": {
+    "aschenbrenner-intelligence-loop": {
+      "id": "01KS6H0Q428QCH4TCC45E1X8FS",
+      "name": "Aschenbrenner Intelligence Loop",
+      "agent": "trading-intel",
+      "status": "enabled",
+      "schedule": "0 8,20 * * *",
+      "description": "2x/day — tracks Leopold Aschenbrenner's public AI investment thesis and portfolio signals. Auto-detects bootstrap (30+ source deep scan on first run) vs maintenance mode. Dispatches financial-analyst for independent company analysis + entry signals. Only notifies when a complete actionable report is ready. Posts to trading-intel Telegram channel."
+    },
     "passive-income-discovery-scan": {
       "id": "01KRV8QNZHKBYENXQJGWYNK17Y",
       "name": "Passive Income Discovery Scan",
