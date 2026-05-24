@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-05-24T12:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-24T11:00:01Z",
       "duration_seconds": 133.0,
@@ -4827,16 +4835,6 @@
       "details": null,
       "cost_usd": 0.5981332500000001,
       "total_tokens": 256
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-05-09T01:05:01Z",
-      "duration_seconds": 83.9,
-      "status": "success",
-      "summary": "Done. Friday evening reflection sent to the coaching channel.",
-      "details": null,
-      "cost_usd": 1.0920127499999999,
-      "total_tokens": 4651
     }
   ]
 }
