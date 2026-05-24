@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-05-24T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-24T15:00:00Z",
       "duration_seconds": 171.3,
@@ -4829,14 +4837,6 @@
       "details": null,
       "cost_usd": 2.5179895,
       "total_tokens": 26606
-    },
-    {
-      "agent": "soren-improvement-implementation",
-      "timestamp": "2026-05-09T07:05:01Z",
-      "duration_seconds": 0.0,
-      "status": "success",
-      "summary": "No approved suggestions — skipped",
-      "details": null
     }
   ]
 }
