@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-weekly-digest",
+      "timestamp": "2026-05-24T23:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Weekly Digest...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-05-24T22:10:00Z",
       "duration_seconds": 193.2,
@@ -4837,16 +4845,6 @@
       "details": null,
       "cost_usd": 0.6944680000000001,
       "total_tokens": 18591
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-09T15:00:00Z",
-      "duration_seconds": 142.1,
-      "status": "success",
-      "summary": "Tick #66 complete. Surfaced the planned Heroku Audit launch-ready notify on the passive-income channel (B-neutral framing, locked artifacts, ~40-min checklist, binary ask: launch this weekend or punt)",
-      "details": null,
-      "cost_usd": 1.0991769999999998,
-      "total_tokens": 6617
     }
   ]
 }
