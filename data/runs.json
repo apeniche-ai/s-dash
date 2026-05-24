@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-05-24T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 161.0,
+      "status": "success",
+      "summary": "Scanned 9 sources (3 succeeded, 5 blocked: Reddit 4 subs + OpenAI for the 8th consecutive run). HN surfaced 3 candidates (SOC2 for solo founders, AI-tool data portability, anti-AI fatigue) — all dropp",
+      "details": null,
+      "cost_usd": 1.2580065,
+      "total_tokens": 8800
     },
     {
       "agent": "passive-income-research-loop",
