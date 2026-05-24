@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-24T19:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-05-24T16:00:01Z",
       "duration_seconds": 149.4,
@@ -4829,16 +4837,6 @@
       "details": null,
       "cost_usd": 1.08739925,
       "total_tokens": 4323
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-09T11:00:01Z",
-      "duration_seconds": 464.4,
-      "status": "success",
-      "summary": "Tick #65 complete. Silent on notify (06:00 cold AM window) — launch-ready surface deferred to #66 (10:00 Sat AM, fresh attention window).",
-      "details": null,
-      "cost_usd": 2.5179895,
-      "total_tokens": 26606
     }
   ]
 }
