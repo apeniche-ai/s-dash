@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-24T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 171.3,
+      "status": "success",
+      "summary": "Tick #141 complete. Silent.",
+      "details": null,
+      "cost_usd": 1.579037,
+      "total_tokens": 9725
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
