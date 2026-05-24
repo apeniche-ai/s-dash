@@ -165,10 +165,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-05-24T01:00:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 598.0,
+      "status": "success",
+      "summary": "Tick #5 complete. Big result this run: **delivery restored** after ~72-hour outage — the 3-day weekend catch-up notification shipped successfully. Three new analyses landed (SHAZ, AMD, PSIX) — all thr",
+      "details": null,
+      "cost_usd": 3.8565887500000002,
+      "total_tokens": 26128
     },
     {
       "agent": "passive-income-research-loop",
