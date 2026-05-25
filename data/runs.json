@@ -173,10 +173,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-05-25T16:08:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 142.3,
+      "status": "success",
+      "summary": "Today's research tick complete. Pulled fresh comp data from Kore1, Founderpath, Levels.fyi, and TopStartups — confirmed Series C-D VPE band ($280-360K base) is the addressable lane, and surfaced a sha",
+      "details": null,
+      "cost_usd": 1.402514,
+      "total_tokens": 9202
     },
     {
       "agent": "pr-reviewer",
