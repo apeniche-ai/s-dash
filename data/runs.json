@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-25T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 300.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4492 [TTPAI-97] Add answer choice and exercise ID in context card → Approved + Browser QA Skipped (1-line nil-correct fallback fix, prior approvals stand)",
+      "details": null,
+      "cost_usd": 2.9253885,
+      "total_tokens": 13937
     },
     {
       "agent": "pr-reviewer",
