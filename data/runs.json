@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-state-consolidation",
       "timestamp": "2026-05-25T02:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income State Consolidation...",
-      "details": null
+      "duration_seconds": 241.0,
+      "status": "success",
+      "summary": "Consolidation complete. Silent by design — no Telegram send.",
+      "details": null,
+      "cost_usd": 1.41889475,
+      "total_tokens": 11262
     },
     {
       "agent": "weekly-coaching-digest",
