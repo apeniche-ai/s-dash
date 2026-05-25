@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-25T13:45:56Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-25T13:43:45Z",
       "duration_seconds": 129.9,
@@ -4837,16 +4845,6 @@
       "details": null,
       "cost_usd": 0.6200195000000001,
       "total_tokens": 3594
-    },
-    {
-      "agent": "weekly-team-shipping-report",
-      "timestamp": "2026-05-12T18:20:24Z",
-      "duration_seconds": 206.6,
-      "status": "success",
-      "summary": "Both messages sent to the `team-intel` Telegram channel.",
-      "details": null,
-      "cost_usd": 1.4827724999999998,
-      "total_tokens": 18386
     }
   ]
 }
