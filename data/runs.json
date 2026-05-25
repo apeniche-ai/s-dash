@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-25T13:38:50Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-05-25T13:38:50Z",
       "duration_seconds": null,
@@ -4835,16 +4843,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-05-12T18:13:30Z",
-      "duration_seconds": 104.0,
-      "status": "success",
-      "summary": "Sent. 4 stagnant PRs flagged:",
-      "details": null,
-      "cost_usd": 1.4053565000000001,
-      "total_tokens": 8333
     }
   ]
 }
