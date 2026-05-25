@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-05-25T13:12:16Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-25T03:00:01Z",
       "duration_seconds": 151.1,
@@ -4836,14 +4844,6 @@
       "errors": [
         "System sleep detected mid-run (gap of 3606.1s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
       ]
-    },
-    {
-      "agent": "soren-improvement-implementation",
-      "timestamp": "2026-05-10T07:43:11Z",
-      "duration_seconds": 0.5,
-      "status": "success",
-      "summary": "No approved suggestions — skipped",
-      "details": null
     }
   ]
 }
