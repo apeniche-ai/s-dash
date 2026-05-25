@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-team-shipping-report",
+      "timestamp": "2026-05-25T13:32:18Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Team Shipping Report...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-25T13:25:36Z",
       "duration_seconds": null,
@@ -4833,17 +4841,6 @@
       "details": null,
       "cost_usd": 0.39871505,
       "total_tokens": 7394
-    },
-    {
-      "agent": "weekly-coaching-digest",
-      "timestamp": "2026-05-11T05:47:38Z",
-      "duration_seconds": 7207.9,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "System sleep detected mid-run (gap of 7207.5s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
-      ]
     }
   ]
 }
