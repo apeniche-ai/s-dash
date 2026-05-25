@@ -189,10 +189,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-05-25T13:38:50Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 207.7,
+      "status": "success",
+      "summary": "Tick #8 complete. Silent by design. Log written (`01KSFNY4017WZPSQA21DF1BDJJ`).",
+      "details": null,
+      "cost_usd": 1.7415912499999997,
+      "total_tokens": 12112
     },
     {
       "agent": "weekly-team-shipping-report",
