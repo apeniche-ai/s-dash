@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-25T16:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 504.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4574 [TTP-6097] Add Example - Selected (Unattempted) exercise block in Maren AI → Changes Requested (chip set diverges from ticket spec) + Browser QA Skipped (stacked feature branch)",
+      "details": null,
+      "cost_usd": 3.7444990000000002,
+      "total_tokens": 27319
     },
     {
       "agent": "pr-reviewer",
