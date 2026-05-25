@@ -173,10 +173,13 @@
     {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-05-25T13:32:18Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Team Shipping Report...",
-      "details": null
+      "duration_seconds": 391.1,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1"
+      ]
     },
     {
       "agent": "pr-reviewer",
