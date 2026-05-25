@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-25T13:43:45Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-25T13:42:17Z",
       "duration_seconds": null,
@@ -4835,16 +4843,6 @@
       "details": null,
       "cost_usd": 1.4827724999999998,
       "total_tokens": 18386
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-12T18:15:16Z",
-      "duration_seconds": 308.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4478 AI Deploy - 20260423 → Approved + Browser QA Skipped (deploy branch bundling 8 child PRs)",
-      "details": null,
-      "cost_usd": 3.0234819999999996,
-      "total_tokens": 17558
     }
   ]
 }
