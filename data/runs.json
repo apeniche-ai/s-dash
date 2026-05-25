@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-25T13:42:17Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 87.8,
+      "status": "success",
+      "summary": "Digest sent to `pr-reviews`. 5 stagnant PRs flagged across TTP (2 are Amaury's own: #4573 and #4565). Admissions: clean. #4495 excluded — dev already pushed a fix after the label.",
+      "details": null,
+      "cost_usd": 1.2025329999999999,
+      "total_tokens": 5621
     },
     {
       "agent": "admissions-pr-reviewer",
