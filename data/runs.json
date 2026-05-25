@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-25T03:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-05-25T02:30:00Z",
       "duration_seconds": 18.4,
@@ -4834,17 +4842,6 @@
       "status": "success",
       "summary": "No approved suggestions — skipped",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-10T03:57:54Z",
-      "duration_seconds": 3655.9,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "System sleep detected mid-run (gap of 3603.3s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
-      ]
     }
   ]
 }
