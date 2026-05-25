@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-25T13:45:56Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 240.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4471 [TTPAI-38][TTPAI-123] Remove Bedrock and consolidate ChatbotService into Ai:: → Approved + Browser QA Skipped (1-line trial-limit refactor, prior approvals stand)",
+      "details": null,
+      "cost_usd": 2.263376,
+      "total_tokens": 11668
     },
     {
       "agent": "slack-watch",
