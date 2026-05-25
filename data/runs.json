@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-25T16:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-25T15:30:01Z",
       "duration_seconds": 199.1,
       "status": "success",
@@ -4837,16 +4845,6 @@
       "details": null,
       "cost_usd": 2.83377525,
       "total_tokens": 12937
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-12T19:30:01Z",
-      "duration_seconds": 341.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4508 [TTPAI-95] Add multi-layer DI exercise verification with structural, math, and LLM judge layers → Approved + Browser QA Skipped (backend AI verification, no user-facing UI)",
-      "details": null,
-      "cost_usd": 2.418707,
-      "total_tokens": 21576
     }
   ]
 }
