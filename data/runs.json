@@ -171,6 +171,17 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-05-25T13:12:21Z",
+      "duration_seconds": 387.2,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1"
+      ]
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-05-25T13:12:16Z",
       "duration_seconds": null,
@@ -4832,17 +4843,6 @@
       "details": null,
       "errors": [
         "System sleep detected mid-run (gap of 3604.0s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
-      ]
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-10T11:10:05Z",
-      "duration_seconds": 3646.3,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "System sleep detected mid-run (gap of 3606.1s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
       ]
     }
   ]
