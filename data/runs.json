@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-25T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 481.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4575 [6203] Replaces track selector with target score range slider → Changes Requested (target_score doesn't sync to track_id — study plan and calendar won't regenerate when users cha",
+      "details": null,
+      "cost_usd": 3.5416772499999993,
+      "total_tokens": 28837
     },
     {
       "agent": "admissions-pr-reviewer",
