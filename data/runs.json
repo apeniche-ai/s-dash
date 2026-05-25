@@ -181,10 +181,13 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-25T13:25:36Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 402.7,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1"
+      ]
     },
     {
       "agent": "pr-follow-up-check",
