@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-25T13:25:36Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-25T13:18:58Z",
       "duration_seconds": 396.6,
@@ -4835,17 +4843,6 @@
       "details": null,
       "errors": [
         "System sleep detected mid-run (gap of 7207.5s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
-      ]
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-10T23:02:19Z",
-      "duration_seconds": 7357.0,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "System sleep detected mid-run (gap of 151.8s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
       ]
     }
   ]
