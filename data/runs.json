@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-05-25T13:18:58Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-05-25T13:12:21Z",
       "duration_seconds": 387.2,
@@ -4832,17 +4840,6 @@
       "details": null,
       "errors": [
         "System sleep detected mid-run (gap of 151.8s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
-      ]
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-10T15:11:34Z",
-      "duration_seconds": 3646.5,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "System sleep detected mid-run (gap of 3604.0s between heartbeat ticks). Aborting; next scheduled tick will run cleanly."
       ]
     }
   ]
