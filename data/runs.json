@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-05-25T14:05:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-25T14:00:01Z",
       "duration_seconds": null,
@@ -4835,16 +4843,6 @@
       "details": null,
       "cost_usd": 1.8826535000000002,
       "total_tokens": 27122
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-05-12T18:24:58Z",
-      "duration_seconds": 65.3,
-      "status": "success",
-      "summary": "I've completed today's daily improvement review. Here's my analysis:",
-      "details": null,
-      "cost_usd": 0.6563515,
-      "total_tokens": 5428
     }
   ]
 }
