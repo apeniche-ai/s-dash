@@ -1,5 +1,13 @@
 {
   "agents": {
+    "launch-concierge": {
+      "id": "01KSG1A1PTXDRZJD619APMRND2",
+      "name": "Launch Concierge",
+      "agent": "launch-concierge",
+      "status": "enabled",
+      "schedule": "0 8 * * *",
+      "description": "Launch Concierge (launch-concierge agent)"
+    },
     "aschenbrenner-intelligence-loop": {
       "id": "01KS6H0Q428QCH4TCC45E1X8FS",
       "name": "Aschenbrenner Intelligence Loop",
