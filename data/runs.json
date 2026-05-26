@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-26T23:52:45Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-25T17:00:01Z",
       "duration_seconds": null,
@@ -4835,16 +4843,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-12T21:00:01Z",
-      "duration_seconds": 336.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4531 [6178] Tutoring notifications and calendar → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 2.89296275,
-      "total_tokens": 26805
     }
   ]
 }
