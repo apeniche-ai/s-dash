@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-27T19:01:50Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 217.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4567 [6174] Add GRE onboarding support with exam-aware theming and branding → Approved + Browser QA Skipped (1-line label consistency fix matching established pattern)",
+      "details": null,
+      "cost_usd": 1.9325537499999998,
+      "total_tokens": 10039
     },
     {
       "agent": "passive-income-research-loop",
