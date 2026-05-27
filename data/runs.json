@@ -189,10 +189,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-05-27T13:06:18Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 484.3,
+      "status": "success",
+      "summary": "Tick #11 complete. Silent — both findings AVOID, neither clears Amaury's \"strong entry signals only\" bar.",
+      "details": null,
+      "cost_usd": 2.9288299999999996,
+      "total_tokens": 26268
     },
     {
       "agent": "launch-concierge",
