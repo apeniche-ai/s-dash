@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-27T13:32:50Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 272.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4574 [6097] Add Example - Selected (Unattempted) exercise block in Maren AI → Approved + Browser QA Skipped (Rails env broken — bundler 2.6.9 missing)",
+      "details": null,
+      "cost_usd": 2.5619167499999995,
+      "total_tokens": 14534
     },
     {
       "agent": "slack-watch",
