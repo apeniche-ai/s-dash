@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-27T14:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-27T13:32:50Z",
       "duration_seconds": 272.1,
       "status": "success",
@@ -4851,16 +4859,6 @@
       "details": null,
       "cost_usd": 1.2237292499999999,
       "total_tokens": 7841
-    },
-    {
-      "agent": "heroku-audit-pre-launch-review",
-      "timestamp": "2026-05-13T13:00:00Z",
-      "duration_seconds": 307.4,
-      "status": "success",
-      "summary": "Tick complete. Summary:",
-      "details": null,
-      "cost_usd": 0.7258454499999999,
-      "total_tokens": 14190
     }
   ]
 }
