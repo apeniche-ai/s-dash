@@ -181,10 +181,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-05-27T16:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 181.1,
+      "status": "success",
+      "summary": "Tick complete. Silent by design — TTP signal holding, no acute trigger, no high-fit role surfaced.",
+      "details": null,
+      "cost_usd": 1.5901485,
+      "total_tokens": 12117
     },
     {
       "agent": "pr-reviewer",
