@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-27T17:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-27T17:15:01Z",
       "duration_seconds": 1.0,
@@ -4853,16 +4861,6 @@
       "details": null,
       "cost_usd": 0.8640367500000001,
       "total_tokens": 5936
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-13T23:18:15Z",
-      "duration_seconds": 179.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4492 [TTPAI-97] Add answer choice and exercise ID in context card → Approved + Browser QA Skipped (chatbot output non-deterministic)",
-      "details": null,
-      "cost_usd": 1.8351632500000001,
-      "total_tokens": 10891
     }
   ]
 }
