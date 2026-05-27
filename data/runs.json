@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-27T10:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-27T10:00:02Z",
       "duration_seconds": 343.0,
       "status": "success",
@@ -4850,16 +4858,6 @@
       "details": null,
       "cost_usd": 0.6431275,
       "total_tokens": 480
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-05-13T01:05:01Z",
-      "duration_seconds": 96.5,
-      "status": "success",
-      "summary": "Done. Tuesday evening Self-Trust probe sent to the coaching channel.",
-      "details": null,
-      "cost_usd": 1.3329765000000002,
-      "total_tokens": 5207
     }
   ]
 }
