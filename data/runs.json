@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-27T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 291.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4576 [TTPAI-143] Add PromptComposer instance and wires compose pipeline into ChatbotService → Approved + Browser QA Skipped (Rails env broken — bundler 2.6.9 missing)",
+      "details": null,
+      "cost_usd": 2.4145642500000006,
+      "total_tokens": 17892
     },
     {
       "agent": "pr-reviewer",
