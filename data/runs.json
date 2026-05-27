@@ -181,10 +181,12 @@
     {
       "agent": "launch-concierge",
       "timestamp": "2026-05-27T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Launch Concierge...",
-      "details": null
+      "duration_seconds": 377.9,
+      "status": "success",
+      "summary": "Tick complete. Here's what ran:",
+      "details": null,
+      "cost_usd": 1.1731348499999998,
+      "total_tokens": 16134
     },
     {
       "agent": "pr-reviewer",
