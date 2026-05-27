@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-27T20:32:05Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-27T20:30:00Z",
       "duration_seconds": 123.8,
@@ -4843,16 +4851,6 @@
       "details": null,
       "cost_usd": 0.9252127499999999,
       "total_tokens": 4510
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-14T11:30:01Z",
-      "duration_seconds": 335.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4535 [6144] Add onboarding step 2 (test date) → Changes Requested (re-review: TTP-6144 AC critical bug still unaddressed — \"Not sure yet\" cannot clear a previously-saved test_date, we",
-      "details": null,
-      "cost_usd": 2.8717842499999997,
-      "total_tokens": 19552
     }
   ]
 }
