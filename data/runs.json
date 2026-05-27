@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-27T16:03:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-05-27T16:00:00Z",
       "duration_seconds": 181.1,
@@ -4857,14 +4865,6 @@
       "details": null,
       "cost_usd": 0.8603858499999999,
       "total_tokens": 16164
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-13T14:30:01Z",
-      "duration_seconds": 1.0,
-      "status": "success",
-      "summary": "No PRs to review — 31 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
