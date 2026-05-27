@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-27T11:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-27T11:15:02Z",
       "duration_seconds": 1.2,
@@ -4847,16 +4855,6 @@
       "details": null,
       "cost_usd": 1.8563485,
       "total_tokens": 11124
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-13T10:00:01Z",
-      "duration_seconds": 195.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4523 [6142] Add Maren onboarding welcome screen → Approved + Browser QA Skipped (no-op CSS rename)",
-      "details": null,
-      "cost_usd": 2.3045412499999998,
-      "total_tokens": 11434
     }
   ]
 }
