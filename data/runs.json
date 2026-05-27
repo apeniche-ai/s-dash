@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-27T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 111.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4572 [6176] Add SAT onboarding theming → Approved + Browser QA Skipped (onboarding requires never-onboarded fixture state)",
+      "details": null,
+      "cost_usd": 1.2592960000000002,
+      "total_tokens": 5929
     },
     {
       "agent": "admissions-pr-reviewer",
