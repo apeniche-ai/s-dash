@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-05-27T13:06:18Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "launch-concierge",
       "timestamp": "2026-05-27T13:00:00Z",
       "duration_seconds": 377.9,
@@ -4849,16 +4857,6 @@
       "details": null,
       "cost_usd": 0.9412794999999999,
       "total_tokens": 7181
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-13T11:30:01Z",
-      "duration_seconds": 152.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4534 [TTPAI-139] Fix ExerciseService failures due to algebraically equivalent options → Approved + Browser QA Skipped (backend-only LLM correction prompt change)",
-      "details": null,
-      "cost_usd": 1.6167979999999997,
-      "total_tokens": 9057
     }
   ]
 }
