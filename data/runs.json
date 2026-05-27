@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-27T13:16:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 229.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4563 [TTP-6096] Implement recurring session welcome flow → Approved + Browser QA Skipped (Rails env broken — bundler 2.6.9 missing)",
+      "details": null,
+      "cost_usd": 2.3398065,
+      "total_tokens": 13094
     },
     {
       "agent": "pr-follow-up-check",
