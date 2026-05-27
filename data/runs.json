@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-05-27T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-05-27T11:31:52Z",
       "duration_seconds": 137.0,
@@ -4847,16 +4855,6 @@
       "details": null,
       "cost_usd": 1.6773962500000001,
       "total_tokens": 9334
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-13T11:00:00Z",
-      "duration_seconds": 94.6,
-      "status": "success",
-      "summary": "Tick #85 complete. Silent.",
-      "details": null,
-      "cost_usd": 0.99982275,
-      "total_tokens": 6902
     }
   ]
 }
