@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-27T11:01:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 163.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4570 [6175] Add EA onboarding theming with exam-aware colors → Approved + Browser QA Skipped (onboarding requires never-onboarded fixture state)",
+      "details": null,
+      "cost_usd": 1.50619125,
+      "total_tokens": 8073
     },
     {
       "agent": "passive-income-research-loop",
