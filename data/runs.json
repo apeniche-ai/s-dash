@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-27T16:03:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 333.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4581 [TTPAI-148] Add verbal exercise quality judge with solve and compare verification for CR and RC → Approved + Browser QA Skipped (offline batch rake task, no user-visible code pat",
+      "details": null,
+      "cost_usd": 3.1163897499999997,
+      "total_tokens": 20195
     },
     {
       "agent": "career-market-research-loop",
