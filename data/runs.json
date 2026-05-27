@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "launch-concierge",
+      "timestamp": "2026-05-27T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Launch Concierge...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-27T12:31:16Z",
       "duration_seconds": 207.5,
@@ -4849,14 +4857,6 @@
       "details": null,
       "cost_usd": 1.6167979999999997,
       "total_tokens": 9057
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-05-13T11:15:01Z",
-      "duration_seconds": 1.0,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
