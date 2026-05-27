@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-27T12:31:16Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 207.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4575 [6203] Replaces track selector with target score range slider → Approved + Browser QA Skipped (local Rails env broken)",
+      "details": null,
+      "cost_usd": 1.7817442499999998,
+      "total_tokens": 10396
     },
     {
       "agent": "daily-todo-digest",
