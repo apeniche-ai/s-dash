@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-27T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 343.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4563 [TTP-6096] Implement recurring session welcome flow → Approved + Browser QA Skipped (recurring-session UI requires non-first-visit + progress-snapshot fixture state)",
+      "details": null,
+      "cost_usd": 3.1493182500000003,
+      "total_tokens": 19672
     },
     {
       "agent": "passive-income-research-loop",
