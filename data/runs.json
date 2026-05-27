@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-27T11:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-27T10:30:01Z",
       "duration_seconds": 219.6,
@@ -4850,16 +4858,6 @@
       "details": null,
       "cost_usd": 0.9057122500000001,
       "total_tokens": 6666
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-05-13T02:30:01Z",
-      "duration_seconds": 28.9,
-      "status": "success",
-      "summary": "Reconciled. P8 ticked up to 6/7 — \"Launch first revenue-generating asset\" marked done. Telegram sent.",
-      "details": null,
-      "cost_usd": 0.6431275,
-      "total_tokens": 480
     }
   ]
 }
