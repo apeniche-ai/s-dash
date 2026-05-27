@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-27T20:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 284.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4572 [6176] Add SAT onboarding theming → Approved + Browser QA Skipped (SAT-specific UI not testable on default dev config)",
+      "details": null,
+      "cost_usd": 2.2844484999999994,
+      "total_tokens": 16516
     },
     {
       "agent": "pr-reviewer",
