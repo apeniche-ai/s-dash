@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-28T17:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-28T17:15:01Z",
       "duration_seconds": 1.0,
@@ -4851,16 +4859,6 @@
       "details": null,
       "cost_usd": 0.50797925,
       "total_tokens": 8872
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-05-14T17:15:02Z",
-      "duration_seconds": 155.2,
-      "status": "success",
-      "summary": "Reviewed 1 PR (admissions) (⚠️ no Jira context): #655 [ADM-701] Implement download functionality across the app → Approved",
-      "details": null,
-      "cost_usd": 1.555752,
-      "total_tokens": 8267
     }
   ]
 }
