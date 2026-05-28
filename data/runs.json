@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-28T22:30:47Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-05-28T22:15:01Z",
       "duration_seconds": 0.8,
@@ -4853,16 +4861,6 @@
       "details": null,
       "cost_usd": 1.7332825,
       "total_tokens": 10152
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-05-14T22:10:01Z",
-      "duration_seconds": 75.3,
-      "status": "success",
-      "summary": "I've completed the review. Here's my internal-only analysis (no Telegram action will be taken):",
-      "details": null,
-      "cost_usd": 0.65682075,
-      "total_tokens": 5502
     }
   ]
 }
