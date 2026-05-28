@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-28T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 238.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4574 [6097][6098][6103] Add Example Exercise Block, Correct Answer, and Generate New Example Flows in Maren AI → Approved + Browser QA Skipped (local env error — bundler gems missing)",
+      "details": null,
+      "cost_usd": 2.2382574999999996,
+      "total_tokens": 12532
     },
     {
       "agent": "admissions-pr-reviewer",
