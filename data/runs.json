@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-05-28T15:02:10Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-28T15:00:00Z",
       "duration_seconds": 129.0,
@@ -4847,16 +4855,6 @@
       "details": null,
       "cost_usd": 1.299965,
       "total_tokens": 13603
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-14T14:30:01Z",
-      "duration_seconds": 239.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4533 [6143] Add target score step with multi-exam slider and shared onboarding wrapper → Approved + Browser QA Skipped (onboarding wizard requires welcome_showed=false, can't QA witho",
-      "details": null,
-      "cost_usd": 1.9091815,
-      "total_tokens": 12699
     }
   ]
 }
