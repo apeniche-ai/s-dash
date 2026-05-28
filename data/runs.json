@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-28T19:01:22Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 342.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4586 [6219] Redesign global toast component styling → Changes Requested (PR restyles global toast but ticket asked to replace it with inline per-step modal in onboarding) + Browser QA",
+      "details": null,
+      "cost_usd": 2.413591000000001,
+      "total_tokens": 13547
     },
     {
       "agent": "passive-income-research-loop",
