@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-28T17:31:58Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 202.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4583 [TTPAI-154] Fix two-part analysis AI example generation → Approved + Browser QA Skipped (AI generation flow not feasible locally)",
+      "details": null,
+      "cost_usd": 2.16735225,
+      "total_tokens": 12096
     },
     {
       "agent": "slack-watch",
