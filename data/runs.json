@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-28T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 126.4,
+      "status": "success",
+      "summary": "Tick #163 complete. Silent by design — PaaS Bill Audit ~44h post-send (just under 48h read-window), no Amaury reply, voice-transcription reliability incident still hot on default channel. Log written,",
+      "details": null,
+      "cost_usd": 1.1361849999999998,
+      "total_tokens": 6435
     },
     {
       "agent": "pr-reviewer",
