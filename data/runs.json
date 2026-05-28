@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-28T14:10:20Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 96.1,
+      "status": "success",
+      "summary": "5 stagnant PRs found in ttp (admissions clean). Telegram delivery failed (`fetch failed`) — same issue as yesterday's run. Per fail-fast rule, not retrying.",
+      "details": null,
+      "cost_usd": 1.01442375,
+      "total_tokens": 6471
     },
     {
       "agent": "admissions-pr-reviewer",
