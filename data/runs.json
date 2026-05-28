@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-28T22:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 159.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4586 [6219] Redesign onboarding toast component styling → Approved + Browser QA Skipped (cosmetic CSS on stacked PR)",
+      "details": null,
+      "cost_usd": 1.67283075,
+      "total_tokens": 8617
     },
     {
       "agent": "pr-reviewer",
