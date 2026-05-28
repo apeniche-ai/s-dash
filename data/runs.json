@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-28T16:03:36Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 408.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4582 [TTPAI-153] Fix table analysis AI example generation → Changes Requested (new specs assert on `Exercise::TableAnalysis.create!` which the refactored code no longer calls — will f",
+      "details": null,
+      "cost_usd": 3.74605125,
+      "total_tokens": 24441
     },
     {
       "agent": "career-market-research-loop",
