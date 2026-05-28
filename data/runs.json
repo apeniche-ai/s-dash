@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-05-28T14:03:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 161.0,
+      "status": "success",
+      "summary": "Ignoring — this is a single-iteration scan loop, not multi-step work to track.",
+      "details": null,
+      "cost_usd": 1.582233,
+      "total_tokens": 10587
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
