@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-28T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-28T14:30:01Z",
       "duration_seconds": 394.8,
@@ -4847,16 +4855,6 @@
       "details": null,
       "cost_usd": 1.9091815,
       "total_tokens": 12699
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-05-14T14:15:01Z",
-      "duration_seconds": 210.2,
-      "status": "success",
-      "summary": "Reviewed 1 PR (admissions) (⚠️ no Jira context): #658 [ADM-703] - Fix multiple UI and functional bugs across the app → Approved",
-      "details": null,
-      "cost_usd": 2.0672952500000004,
-      "total_tokens": 13827
     }
   ]
 }
