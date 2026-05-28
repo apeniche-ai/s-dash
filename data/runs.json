@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-28T15:02:10Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 250.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4579 [TTPAI-155] Fix RC and CR AI example generation to produce new passage → Changes Requested (regression: `#passage` dropped fallback to base exercise's passage, pre-migration AI R",
+      "details": null,
+      "cost_usd": 1.9918962499999997,
+      "total_tokens": 14648
     },
     {
       "agent": "passive-income-research-loop",
