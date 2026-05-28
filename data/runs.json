@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-05-28T14:07:28Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-05-28T14:06:26Z",
       "duration_seconds": 61.9,
@@ -4843,16 +4851,6 @@
       "details": null,
       "cost_usd": 0.8702725,
       "total_tokens": 5176
-    },
-    {
-      "agent": "heroku-audit-pre-launch-review",
-      "timestamp": "2026-05-14T13:00:00Z",
-      "duration_seconds": 273.9,
-      "status": "success",
-      "summary": "Done. Summary:",
-      "details": null,
-      "cost_usd": 0.76398505,
-      "total_tokens": 13783
     }
   ]
 }
