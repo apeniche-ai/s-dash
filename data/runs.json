@@ -181,10 +181,12 @@
     {
       "agent": "launch-concierge",
       "timestamp": "2026-05-28T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Launch Concierge...",
-      "details": null
+      "duration_seconds": 75.9,
+      "status": "success",
+      "summary": "Done. Follow-up on Stripe $149 sent to the passive-income channel. This was the second (and final) nudge on that action — if no acknowledgment by tomorrow, the next tick moves on to email delivery (wi",
+      "details": null,
+      "cost_usd": 0.29286494999999996,
+      "total_tokens": 2976
     },
     {
       "agent": "pr-reviewer",
