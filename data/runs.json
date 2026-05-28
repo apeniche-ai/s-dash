@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-28T17:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 177.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4575 [6203] Replaces track selector with target score range slider → Approved + Browser QA Skipped (env error)",
+      "details": null,
+      "cost_usd": 2.3091114999999998,
+      "total_tokens": 9706
     },
     {
       "agent": "pr-reviewer",
