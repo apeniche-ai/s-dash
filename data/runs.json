@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-05-28T14:10:20Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-05-28T14:07:28Z",
       "duration_seconds": 171.3,
@@ -4843,16 +4851,6 @@
       "details": null,
       "cost_usd": 1.8241155000000002,
       "total_tokens": 12561
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-05-14T13:04:34Z",
-      "duration_seconds": 101.3,
-      "status": "success",
-      "summary": "Sent. 4 stagnant PRs flagged across both repos:",
-      "details": null,
-      "cost_usd": 0.8702725,
-      "total_tokens": 5176
     }
   ]
 }
