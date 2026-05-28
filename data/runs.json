@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-28T21:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 162.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4574 [6097][6098][6103] Add Example Exercise Block, Correct Answer, and Generate New Example Flows in Maren AI → Approved + Browser QA Skipped (cosmetic CSS on stacked PR)",
+      "details": null,
+      "cost_usd": 1.77979175,
+      "total_tokens": 8840
     },
     {
       "agent": "admissions-pr-reviewer",
