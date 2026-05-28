@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-05-28T14:20:10Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 138.0,
+      "status": "success",
+      "summary": "Done. Thursday morning coaching check-in delivered to the coaching channel on retry. Rather than push the standard CEL follow-up, the message led with acknowledging that Amaury's Wed-evening + 7:50 AM",
+      "details": null,
+      "cost_usd": 1.3393665,
+      "total_tokens": 7874
     },
     {
       "agent": "pr-reviewer",
