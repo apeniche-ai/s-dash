@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-28T21:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 209.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4573 [6207] Admin problem on track indicator → Approved + Browser QA Skipped (admin-only view)",
+      "details": null,
+      "cost_usd": 1.9356609999999999,
+      "total_tokens": 11268
     },
     {
       "agent": "pr-reviewer",
