@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-05-29T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-29T22:00:01Z",
       "duration_seconds": 107.9,
@@ -4861,16 +4869,6 @@
       "status": "success",
       "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-15T20:32:24Z",
-      "duration_seconds": 476.3,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4504 [TTPAI-126] Add per-minute rate limit, trial message cap promotion → Changes Requested (new 429 response uses `error_message` but frontend chat.js reads `parsed.error` — rate-limi",
-      "details": null,
-      "cost_usd": 3.1581677499999996,
-      "total_tokens": 31396
     }
   ]
 }
