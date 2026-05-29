@@ -189,10 +189,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-05-29T13:01:05Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 127.1,
+      "status": "success",
+      "summary": "Tick #14 complete. Silent by design.",
+      "details": null,
+      "cost_usd": 1.5685655,
+      "total_tokens": 6414
     },
     {
       "agent": "launch-concierge",
