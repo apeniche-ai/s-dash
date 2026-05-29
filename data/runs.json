@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-05-29T11:33:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 130.4,
+      "status": "success",
+      "summary": "Ignoring — this is a single-flow coaching session and the work is complete. Task tracking would add noise, not signal.",
+      "details": null,
+      "cost_usd": 1.2226992499999998,
+      "total_tokens": 6175
     },
     {
       "agent": "pr-reviewer",
