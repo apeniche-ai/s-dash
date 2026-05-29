@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-29T17:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-29T16:30:01Z",
       "duration_seconds": 358.0,
       "status": "success",
@@ -4859,16 +4867,6 @@
       "details": null,
       "cost_usd": 2.85003325,
       "total_tokens": 13159
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-15T16:30:01Z",
-      "duration_seconds": 266.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4542 [6188] Create admin student analytics report for Claude context → Approved + Browser QA Skipped (admin-only feature, fixture user is student)",
-      "details": null,
-      "cost_usd": 2.4623472499999997,
-      "total_tokens": 15238
     }
   ]
 }
