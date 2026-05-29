@@ -181,10 +181,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-05-29T16:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 151.1,
+      "status": "success",
+      "summary": "Tick complete. Silent by design — analyst content, no specific role surfaced, no TTP-specific signal scanned (May 27 read still holds).",
+      "details": null,
+      "cost_usd": 1.4947112499999997,
+      "total_tokens": 10734
     },
     {
       "agent": "pr-reviewer",
