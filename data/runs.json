@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-29T13:03:12Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 93.4,
+      "status": "success",
+      "summary": "5 stagnant PRs in ttp (admissions clean). Telegram delivered to pr-reviews.",
+      "details": null,
+      "cost_usd": 0.9888537500000001,
+      "total_tokens": 4076
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
