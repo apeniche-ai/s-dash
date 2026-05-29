@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-05-29T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 157.7,
+      "status": "success",
+      "summary": "Scanned 9 sources, 3 succeeded (Anthropic + Google + HN, the last unreliable today), 6 blocked (Reddit 4 subs at 17+ consecutive blackout runs, OpenAI 12th consecutive 403, HN returned stale IDs not 2",
+      "details": null,
+      "cost_usd": 1.44408025,
+      "total_tokens": 9979
     },
     {
       "agent": "daily-performance-check-in",
