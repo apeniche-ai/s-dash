@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-29T15:02:06Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 232.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4590 [TTPAI-152] Implement MSR AI example generation with original tabs → Approved + Browser QA Skipped (bundler env block)",
+      "details": null,
+      "cost_usd": 2.092212,
+      "total_tokens": 11978
     },
     {
       "agent": "passive-income-research-loop",
