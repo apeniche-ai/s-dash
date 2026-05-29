@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-29T21:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 131.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4575 [6203] Replaces track selector with target score range slider → Approved + Browser QA Skipped (incremental CSS polish on prior approval)",
+      "details": null,
+      "cost_usd": 1.5712835000000003,
+      "total_tokens": 6287
     },
     {
       "agent": "admissions-pr-reviewer",
