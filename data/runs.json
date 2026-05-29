@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-29T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 299.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4549 [TTPAI-89] Add flashcard existing-deck check auto-count → Changes Requested (missing partial file will crash lesson pages; AC divergence) + Browser QA Skipped (stacked PR base no",
+      "details": null,
+      "cost_usd": 2.7241537499999997,
+      "total_tokens": 15805
     },
     {
       "agent": "passive-income-research-loop",
