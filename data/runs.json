@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-29T22:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 257.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4593 [TTPAI-208] - Enhances numeric verification for work-backwards problems → Approved + Browser QA Skipped (backend AI verifier + prompt guidance, no browser-testable surface)",
+      "details": null,
+      "cost_usd": 2.05273525,
+      "total_tokens": 15255
     },
     {
       "agent": "admissions-pr-reviewer",
