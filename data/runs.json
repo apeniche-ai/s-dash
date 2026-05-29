@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-29T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 185.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4579 [TTPAI-155] Fix RC and CR AI example generation to produce new passage → Approved + Browser QA Skipped (stacked PR base)",
+      "details": null,
+      "cost_usd": 2.17212,
+      "total_tokens": 10806
     },
     {
       "agent": "pr-reviewer",
