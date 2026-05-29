@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-29T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 225.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4587 [6198] Add lesson summary state one complete nice work → Changes Requested (dead mastery-check CTA, attempt-count completion miscount, last_lesson nil guard) + Browser QA Skipped",
+      "details": null,
+      "cost_usd": 1.862789,
+      "total_tokens": 11894
     },
     {
       "agent": "admissions-pr-reviewer",
