@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-29T15:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 111.9,
+      "status": "success",
+      "summary": "The oldest eligible PR (#4563) was already approved 4 times by apeniche-ai on the current HEAD commit (`f378d96`), most recently on 2026-05-28. No new commits since. The \"Claude Reviewed\" label was mi",
+      "details": null,
+      "cost_usd": 1.2896332499999998,
+      "total_tokens": 5874
     },
     {
       "agent": "admissions-pr-reviewer",
