@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-05-29T18:00:01Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-05-29T17:32:04Z",
       "duration_seconds": 170.1,
       "status": "success",
@@ -4859,16 +4867,6 @@
       "details": null,
       "cost_usd": 1.2931331499999998,
       "total_tokens": 17935
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-15T17:32:54Z",
-      "duration_seconds": 234.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4543 [TTPAI-129] Add DiagnosticCopyResolver service → Changes Requested (Honeybadger.notify references undefined constant — gem not in Gemfile, CI failing 4 specs) + Browser QA Skippe",
-      "details": null,
-      "cost_usd": 2.24836825,
-      "total_tokens": 11778
     }
   ]
 }
