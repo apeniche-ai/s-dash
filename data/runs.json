@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-29T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 193.5,
+      "status": "success",
+      "summary": "Reviewed 5 PRs: #4587 [6198] Add lesson summary state one complete nice work → Approved + Browser QA Skipped (bundler env block), #4582 [TTPAI-153] Fix table analysis AI example generation → Approved ",
+      "details": null,
+      "cost_usd": 1.8555107499999997,
+      "total_tokens": 9059
     },
     {
       "agent": "admissions-pr-reviewer",
