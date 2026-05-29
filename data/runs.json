@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-29T21:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 301.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4567 [6174][6175][6176] Replicate New Onboarding Flow Across GRE, EA, and SAT Courses → Approved + Browser QA Skipped (incremental polish on prior approval)",
+      "details": null,
+      "cost_usd": 2.8271572500000004,
+      "total_tokens": 18079
     },
     {
       "agent": "pr-reviewer",
