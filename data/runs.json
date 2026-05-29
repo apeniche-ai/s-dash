@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-29T17:32:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 170.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4592 [6177-6204] Tutoring Management Module - Fixes → Approved + Browser QA Skipped (Google Workspace integration, not exercisable locally)",
+      "details": null,
+      "cost_usd": 1.6448097500000003,
+      "total_tokens": 8143
     },
     {
       "agent": "slack-watch",
