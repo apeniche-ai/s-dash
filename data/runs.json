@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-29T03:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-05-29T02:30:00Z",
       "duration_seconds": 23.0,
@@ -4855,16 +4863,6 @@
       "details": null,
       "cost_usd": 0.6598527500000001,
       "total_tokens": 358
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-05-15T01:05:01Z",
-      "duration_seconds": 84.0,
-      "status": "success",
-      "summary": "Done. Evening reflection sent to coaching channel.",
-      "details": null,
-      "cost_usd": 0.9911285000000001,
-      "total_tokens": 4906
     }
   ]
 }
