@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-05-29T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 214.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4587 [6198] Add lesson summary state one complete nice work → Approved + Browser QA Skipped (bundler env block)",
+      "details": null,
+      "cost_usd": 1.92904125,
+      "total_tokens": 7681
     },
     {
       "agent": "pr-reviewer",
