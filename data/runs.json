@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "behavioral-experiments-follow-up",
+      "timestamp": "2026-05-30T14:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Behavioral Experiments Follow-Up...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-05-30T13:01:31Z",
       "duration_seconds": 169.0,
@@ -4871,16 +4879,6 @@
       "status": "success",
       "summary": "No approved suggestions — skipped",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-16T03:00:00Z",
-      "duration_seconds": 60.1,
-      "status": "success",
-      "summary": "Tick #99 done. **SILENT** — pre-scheduled cold-attention slot, zero rubric clauses, Heroku GO/NO-GO digest at Sat 10 AM is the natural re-engagement.",
-      "details": null,
-      "cost_usd": 0.8865084999999999,
-      "total_tokens": 3593
     }
   ]
 }
