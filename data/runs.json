@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-30T15:06:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 91.3,
+      "status": "success",
+      "summary": "Not applicable — this is a single-action research tick, not a multi-step task workflow. Tick complete.",
+      "details": null,
+      "cost_usd": 1.06586825,
+      "total_tokens": 5003
     },
     {
       "agent": "system-health-audit",
