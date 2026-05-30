@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-30T23:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 80.7,
+      "status": "success",
+      "summary": "Tick #172 done. Silent by design — Sat 18:00, ~32h post Fri PaaS Bill Audit nudge, no reply. Voice-transcription incident still warm on the default channel, so extra-conservative on passive-income sur",
+      "details": null,
+      "cost_usd": 1.0586545,
+      "total_tokens": 4621
     },
     {
       "agent": "soren-improvement-review",
