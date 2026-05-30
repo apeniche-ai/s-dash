@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-30T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 105.1,
+      "status": "success",
+      "summary": "Tick #169 complete. Silent by design — pre-dawn Sat slot, single-nudge-per-24h binds (PaaS Bill Audit nudged Fri 10:00), no reply on any thread, no material market event. Log written, ledger and state",
+      "details": null,
+      "cost_usd": 1.4693904999999998,
+      "total_tokens": 5900
     },
     {
       "agent": "passive-income-research-loop",
