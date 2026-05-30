@@ -181,10 +181,12 @@
     {
       "agent": "system-health-audit",
       "timestamp": "2026-05-30T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running System Health Audit...",
-      "details": null
+      "duration_seconds": 382.0,
+      "status": "success",
+      "summary": "Audit complete. Here's the full summary:",
+      "details": null,
+      "cost_usd": 0.8021503,
+      "total_tokens": 20792
     },
     {
       "agent": "behavioral-experiments-follow-up",
