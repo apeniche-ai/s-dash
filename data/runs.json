@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "launch-concierge",
+      "timestamp": "2026-05-30T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Launch Concierge...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-05-30T12:00:00Z",
       "duration_seconds": 162.6,
@@ -4871,16 +4879,6 @@
       "details": null,
       "cost_usd": 0.67840075,
       "total_tokens": 353
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-05-16T01:05:01Z",
-      "duration_seconds": 72.4,
-      "status": "success",
-      "summary": "Done. Evening reflection sent to coaching channel.",
-      "details": null,
-      "cost_usd": 1.1667759999999998,
-      "total_tokens": 3447
     }
   ]
 }
