@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-30T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 67.4,
+      "status": "success",
+      "summary": "Tick #168 complete. Silent by design — no reply on the PaaS Bill Audit nudge (~12h post-send), single-nudge-per-24h rule binds, end of Fri nudge cycle. Next channel check at Sat #169 06:00 (pre-dawn, ",
+      "details": null,
+      "cost_usd": 1.03936675,
+      "total_tokens": 3748
     },
     {
       "agent": "goal-progress-reconciliation",
