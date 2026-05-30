@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-30T15:06:23Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "system-health-audit",
       "timestamp": "2026-05-30T15:00:00Z",
       "duration_seconds": 382.0,
@@ -4873,16 +4881,6 @@
       "details": null,
       "cost_usd": 1.15377175,
       "total_tokens": 30002
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-16T11:00:01Z",
-      "duration_seconds": 62.1,
-      "status": "success",
-      "summary": "Tick #100 done. **SILENT** — pre-scheduled Sat 6 AM deferral slot; 8 AM Heroku Audit job owns the GO/NO-GO assembly, 10 AM passive-income tick is the natural digest surface.",
-      "details": null,
-      "cost_usd": 1.0706885000000002,
-      "total_tokens": 3708
     }
   ]
 }
