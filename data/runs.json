@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-30T03:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-05-30T02:30:00Z",
       "duration_seconds": 15.9,
@@ -4871,16 +4879,6 @@
       "details": null,
       "cost_usd": 0.89432525,
       "total_tokens": 3710
-    },
-    {
-      "agent": "heroku-audit-pre-launch-review",
-      "timestamp": "2026-05-15T23:00:01Z",
-      "duration_seconds": 326.0,
-      "status": "success",
-      "summary": "6 PM tick done. Prices held, parser clean, field still clear. Saturday 8 AM is the final tick — it'll produce the GO/NO-GO verdict.",
-      "details": null,
-      "cost_usd": 0.8087947499999999,
-      "total_tokens": 11756
     }
   ]
 }
