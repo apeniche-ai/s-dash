@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-30T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 103.0,
+      "status": "success",
+      "summary": "Tick #171 done. Silent by design — Sat afternoon, ~28h post Fri PaaS Bill Audit nudge with no reply. Next consolidation Sun 21:00 (~31h out) will auto-pause if still silent.",
+      "details": null,
+      "cost_usd": 1.326212,
+      "total_tokens": 5562
     },
     {
       "agent": "career-market-research-loop",
