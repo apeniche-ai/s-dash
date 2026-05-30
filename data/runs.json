@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-05-30T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 162.6,
+      "status": "success",
+      "summary": "Scanned 9 sources; OpenAI changelog recovered after 12+ blocks (URL moved to developers.openai.com), Reddit blackout persists at 18+ runs, HN window stale. Big vendor wave (Anthropic NextOpus, Google ",
+      "details": null,
+      "cost_usd": 1.3568945,
+      "total_tokens": 10134
     },
     {
       "agent": "passive-income-research-loop",
