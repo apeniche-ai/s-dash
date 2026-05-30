@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-05-30T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 47.1,
+      "status": "success",
+      "summary": "Done. Friday VP-Ruler probe delivered clean on first try. No diagnostic frame (no signal from today), no exercise mention (Felt-Sense Spotter window closed Thursday, next exercise lands Monday per sil",
+      "details": null,
+      "cost_usd": 0.84429975,
+      "total_tokens": 2279
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
