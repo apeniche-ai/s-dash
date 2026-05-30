@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-30T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-05-30T22:10:00Z",
       "duration_seconds": 137.1,
@@ -4873,16 +4881,6 @@
       "details": null,
       "cost_usd": 1.9760839999999997,
       "total_tokens": 19805
-    },
-    {
-      "agent": "system-health-audit",
-      "timestamp": "2026-05-16T15:03:55Z",
-      "duration_seconds": 247.3,
-      "status": "success",
-      "summary": "Telegram report sent. Here's the complete audit summary:",
-      "details": null,
-      "cost_usd": 0.5486804000000001,
-      "total_tokens": 12889
     }
   ]
 }
