@@ -181,10 +181,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-05-31T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 183.6,
+      "status": "success",
+      "summary": "Tick complete. Silent by design — no Telegram message sent.",
+      "details": null,
+      "cost_usd": 1.7180605,
+      "total_tokens": 9928
     },
     {
       "agent": "passive-income-research-loop",
