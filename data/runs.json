@@ -181,10 +181,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-05-31T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 88.8,
+      "status": "success",
+      "summary": "Digest sent to the assistant channel (HTML rendered cleanly on first attempt) and the weekly summary memory is stored. Four themes shipped with sources, TTP read = WARNING holding (51-day quiet streak",
+      "details": null,
+      "cost_usd": 1.164379,
+      "total_tokens": 5768
     },
     {
       "agent": "soren-improvement-review",
