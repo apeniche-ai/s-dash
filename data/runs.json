@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-31T11:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
+      "agent": "passive-income-research-loop",
       "timestamp": "2026-05-31T03:00:01Z",
       "duration_seconds": 92.0,
       "status": "success",
@@ -4873,16 +4881,6 @@
       "details": null,
       "cost_usd": 1.1001347499999998,
       "total_tokens": 6562
-    },
-    {
-      "agent": "heroku-audit-pre-launch-review",
-      "timestamp": "2026-05-16T23:00:00Z",
-      "duration_seconds": 258.3,
-      "status": "success",
-      "summary": "GO/NO-GO sent to passive-income. The job was already disabled from the 8 AM tick, so nothing more to do there.",
-      "details": null,
-      "cost_usd": 0.6278235500000001,
-      "total_tokens": 9467
     }
   ]
 }
