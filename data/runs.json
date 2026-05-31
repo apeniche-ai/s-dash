@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-05-31T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 107.5,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 succeeded, 4 Reddit subs blocked — 19th consecutive run), wrote 0 findings. HN AI-agent-infra cluster (7 launches), UUID collision post, and Anthropic AWS Managed-Agents availabil",
+      "details": null,
+      "cost_usd": 1.3573222500000002,
+      "total_tokens": 6451
     },
     {
       "agent": "passive-income-research-loop",
