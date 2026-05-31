@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-31T19:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 80.1,
+      "status": "success",
+      "summary": "Tick #176 done. Silent by design — Sun 14:00, ~52h post-nudge, still no reply on passive-income channel, voice-transcription incident still warm on default channel. Consolidation at 21:00 (~7h out) ow",
+      "details": null,
+      "cost_usd": 1.39270925,
+      "total_tokens": 4354
     },
     {
       "agent": "career-market-research-loop",
