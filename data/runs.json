@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "launch-concierge",
+      "timestamp": "2026-05-31T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Launch Concierge...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-05-31T12:00:01Z",
       "duration_seconds": 107.5,
@@ -4873,16 +4881,6 @@
       "details": null,
       "cost_usd": 1.2414135,
       "total_tokens": 5661
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-05-17T02:30:01Z",
-      "duration_seconds": 14.9,
-      "status": "success",
-      "summary": "Nothing to reconcile — exiting silently.",
-      "details": null,
-      "cost_usd": 0.6596562499999999,
-      "total_tokens": 272
     }
   ]
 }
