@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-05-31T13:02:15Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "launch-concierge",
       "timestamp": "2026-05-31T13:00:01Z",
       "duration_seconds": 134.3,
@@ -4873,16 +4881,6 @@
       "status": "success",
       "summary": "No approved suggestions — skipped",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-17T03:00:00Z",
-      "duration_seconds": 101.3,
-      "status": "success",
-      "summary": "Tick #104 is a single-action silent holding tick — task tracking isn't needed for one log write. Ignoring the reminder.",
-      "details": null,
-      "cost_usd": 1.2414135,
-      "total_tokens": 5661
     }
   ]
 }
