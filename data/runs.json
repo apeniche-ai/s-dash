@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-05-31T23:01:29Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-05-31T23:00:00Z",
       "duration_seconds": 88.8,
@@ -4875,16 +4883,6 @@
       "details": null,
       "cost_usd": 1.0680755000000002,
       "total_tokens": 8775
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-05-17T22:10:00Z",
-      "duration_seconds": 95.1,
-      "status": "success",
-      "summary": "Reviewing goals, capabilities, and the suggestion pipeline.",
-      "details": null,
-      "cost_usd": 0.9959490000000001,
-      "total_tokens": 6033
     }
   ]
 }
