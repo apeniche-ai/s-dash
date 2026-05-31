@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-05-31T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-31T19:00:00Z",
       "duration_seconds": 80.1,
@@ -4875,16 +4883,6 @@
       "details": null,
       "cost_usd": 1.1913772499999997,
       "total_tokens": 5405
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-05-17T16:00:01Z",
-      "duration_seconds": 240.3,
-      "status": "success",
-      "summary": "Tick complete. SILENT — no Telegram message sent.",
-      "details": null,
-      "cost_usd": 1.7032385000000005,
-      "total_tokens": 11844
     }
   ]
 }
