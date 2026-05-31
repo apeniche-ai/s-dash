@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-05-31T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-05-31T15:00:00Z",
       "duration_seconds": 83.6,
@@ -4875,16 +4883,6 @@
       "details": null,
       "cost_usd": 1.6803815,
       "total_tokens": 16361
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-17T11:00:00Z",
-      "duration_seconds": 81.0,
-      "status": "success",
-      "summary": "Tick #105 complete. SILENT.",
-      "details": null,
-      "cost_usd": 1.0805482499999999,
-      "total_tokens": 4620
     }
   ]
 }
