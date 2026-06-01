@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T13:01:25Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 242.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4574 [6097][6098][6103][[6099][6100][6102][6103]  Add Exercise ( unattempted, correct, incorrect) Flows in Maren AI → Approved + Browser QA Skipped (spec-only diff since prior review)",
+      "details": null,
+      "cost_usd": 2.4618699999999993,
+      "total_tokens": 12617
     },
     {
       "agent": "pr-follow-up-check",
