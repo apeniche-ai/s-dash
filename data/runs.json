@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-01T11:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 88.9,
+      "status": "success",
+      "summary": "Tick #179 complete. Silent by design — Mon 06:00 pre-work-hour slot under the new 7-day plan. State singleton fresh (~9h), all 3 paused threads under re-raise gate until Sun Jun 7, no Amaury reply ove",
+      "details": null,
+      "cost_usd": 1.0862325000000002,
+      "total_tokens": 4876
     },
     {
       "agent": "pr-reviewer",
