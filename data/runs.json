@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 266.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4583 [TTPAI-154] Fix two-part analysis AI example generation → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.9646705,
+      "total_tokens": 15039
     },
     {
       "agent": "admissions-pr-reviewer",
