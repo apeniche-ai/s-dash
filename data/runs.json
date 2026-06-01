@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-team-shipping-report",
+      "timestamp": "2026-06-01T12:45:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Team Shipping Report...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T12:30:42Z",
       "duration_seconds": 432.9,
@@ -4884,14 +4892,6 @@
       "details": null,
       "cost_usd": 1.44373675,
       "total_tokens": 17854
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-18T12:30:38Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review — 32 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
