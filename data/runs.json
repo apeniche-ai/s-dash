@@ -189,10 +189,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-01T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 83.6,
+      "status": "success",
+      "summary": "6 stagnant PRs in ttp (admissions clean). Telegram delivered to pr-reviews.",
+      "details": null,
+      "cost_usd": 0.6202465,
+      "total_tokens": 3626
     },
     {
       "agent": "weekly-team-shipping-report",
