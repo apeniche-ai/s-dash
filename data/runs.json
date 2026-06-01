@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-01T13:01:25Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-01T13:00:00Z",
       "duration_seconds": null,
@@ -4882,16 +4890,6 @@
       "details": null,
       "cost_usd": 2.6275512500000007,
       "total_tokens": 14402
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-05-18T13:00:00Z",
-      "duration_seconds": 99.5,
-      "status": "success",
-      "summary": "Sent. 5 stagnant PRs in `targettestprep/ttp` flagged to `pr-reviews` channel (admissions had 0):",
-      "details": null,
-      "cost_usd": 1.172351,
-      "total_tokens": 6192
     }
   ]
 }
