@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T11:01:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 327.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4578 [TTPAI-45] Add critical reasoning exercise subsection and verbal exercise bank expansion → Changes Requested (dead-code `user_prompt` refactor breaks new spec; overlay routed via",
+      "details": null,
+      "cost_usd": 2.96338,
+      "total_tokens": 18677
     },
     {
       "agent": "passive-income-research-loop",
