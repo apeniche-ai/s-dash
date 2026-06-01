@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-vp-performance-edge",
+      "timestamp": "2026-06-01T12:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly VP Performance Edge...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-01T11:33:51Z",
       "duration_seconds": 102.3,
@@ -4878,14 +4886,6 @@
       "details": null,
       "cost_usd": 1.2957435,
       "total_tokens": 7585
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-18T11:30:01Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review — 32 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
