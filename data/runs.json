@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 390.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4596 [6152] Add onboarding diagnostic intro step → Approved + Browser QA Skipped (stacked PR on feature/ttpai-131 base, diagnostic infra depends on parent branch)",
+      "details": null,
+      "cost_usd": 3.4378564999999988,
+      "total_tokens": 23723
     },
     {
       "agent": "admissions-pr-reviewer",
