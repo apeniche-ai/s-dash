@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-state-consolidation",
+      "timestamp": "2026-06-01T02:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income State Consolidation...",
+      "details": null
+    },
+    {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-06-01T01:30:00Z",
       "duration_seconds": 147.2,
@@ -4875,16 +4883,6 @@
       "details": null,
       "cost_usd": 1.4812655000000001,
       "total_tokens": 10912
-    },
-    {
-      "agent": "weekly-coaching-digest",
-      "timestamp": "2026-05-18T01:30:00Z",
-      "duration_seconds": 114.7,
-      "status": "success",
-      "summary": "Digest sent to the coaching channel and stored in memory for next week's comparison.",
-      "details": null,
-      "cost_usd": 1.2483745000000002,
-      "total_tokens": 6528
     }
   ]
 }
