@@ -181,10 +181,12 @@
     {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-01T11:15:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Admissions PR Reviewer...",
-      "details": null
+      "duration_seconds": 186.4,
+      "status": "success",
+      "summary": "Reviewed 1 PR (admissions): #655 [ADM-701] - Implement download functionality across the app → Approved",
+      "details": null,
+      "cost_usd": 1.7763605000000005,
+      "total_tokens": 10460
     },
     {
       "agent": "pr-reviewer",
