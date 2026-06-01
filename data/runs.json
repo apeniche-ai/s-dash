@@ -181,10 +181,12 @@
     {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-01T12:15:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Admissions PR Reviewer...",
-      "details": null
+      "duration_seconds": 126.1,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, 9 skipped (labeled/draft), 1 (PR #659) already approved on current commit; restored \"Claude Reviewed\" label removed by QA cycle. Outside work hours — stored si",
+      "details": null,
+      "cost_usd": 1.635209,
+      "total_tokens": 6365
     },
     {
       "agent": "passive-income-discovery-scan",
