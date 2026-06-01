@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T12:30:42Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 432.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4574 [6097][6098][6099][6100][6102][6103]  Add Exercise ( unattempted, correct, incorrect) Flows in Maren AI → Changes Requested (helper spec edits expect `:update` but surviving impl",
+      "details": null,
+      "cost_usd": 3.4679424999999995,
+      "total_tokens": 19223
     },
     {
       "agent": "daily-todo-digest",
