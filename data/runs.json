@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-01T11:33:51Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 102.3,
+      "status": "success",
+      "summary": "Done. Monday morning check-in delivered to the coaching channel (clean on retry — same recurring fetch-fail pattern).",
+      "details": null,
+      "cost_usd": 1.113706,
+      "total_tokens": 5683
     },
     {
       "agent": "pr-reviewer",
