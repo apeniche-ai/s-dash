@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-01T12:04:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 82.0,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 succeeded — HN Show, HN Ask, Anthropic, OpenAI, Google; 4 Reddit subs blocked for the 20th consecutive run). Wrote 0 findings: HN AI-agent-infra cluster persists but still saturat",
+      "details": null,
+      "cost_usd": 1.24361175,
+      "total_tokens": 7055
     },
     {
       "agent": "pr-reviewer",
