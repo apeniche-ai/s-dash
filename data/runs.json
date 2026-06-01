@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T12:02:34Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 110.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4582 [TTPAI-153] Fix table analysis AI example generation → Approved + Browser QA Skipped (TTPAI backend, already manually QA'd)",
+      "details": null,
+      "cost_usd": 1.33713175,
+      "total_tokens": 5549
     },
     {
       "agent": "weekly-vp-performance-edge",
