@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T10:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 273.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4563 [TTP-6096] Implement recurring session welcome flow → Changes Requested (duplicate `maren_show_score_card?` method causing CI helper-spec failure) + Browser QA Skipped (stacked P",
+      "details": null,
+      "cost_usd": 2.43464575,
+      "total_tokens": 14750
     },
     {
       "agent": "passive-income-research-loop",
