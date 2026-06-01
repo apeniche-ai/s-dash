@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-06-01T13:07:04Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "launch-concierge",
       "timestamp": "2026-06-01T13:05:26Z",
       "duration_seconds": null,
@@ -4884,14 +4892,6 @@
       "details": null,
       "cost_usd": 0.44223460000000003,
       "total_tokens": 5369
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-05-18T13:15:02Z",
-      "duration_seconds": 1.0,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
