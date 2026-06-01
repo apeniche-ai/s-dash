@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-01T15:01:54Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-01T15:00:01Z",
       "duration_seconds": 111.8,
@@ -4886,14 +4894,6 @@
       "details": null,
       "cost_usd": 3.0036509999999996,
       "total_tokens": 24569
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-05-18T15:15:01Z",
-      "duration_seconds": 0.8,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
