@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-01T10:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-01T03:00:00Z",
       "duration_seconds": 92.2,
@@ -4875,16 +4883,6 @@
       "errors": [
         "Claude Code timed out after 600s"
       ]
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-18T03:00:01Z",
-      "duration_seconds": 78.5,
-      "status": "success",
-      "summary": "Tick #109 complete. Silent per state plan — Sun PM cold window, state 1h fresh from 21:00 weekly consolidation cron, ledger unchanged, no MT reply (~31h post-digest, still patience window), no new dis",
-      "details": null,
-      "cost_usd": 1.0249645,
-      "total_tokens": 4613
     }
   ]
 }
