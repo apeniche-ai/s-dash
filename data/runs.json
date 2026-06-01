@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-06-01T14:05:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T14:00:02Z",
       "duration_seconds": 219.8,
@@ -4886,14 +4894,6 @@
       "details": null,
       "cost_usd": 6.6129455,
       "total_tokens": 27252
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-05-18T14:15:01Z",
-      "duration_seconds": 1.1,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
