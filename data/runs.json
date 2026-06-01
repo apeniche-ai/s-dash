@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T16:01:58Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 290.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4595 [6210] Add Maren AI trial ending banner with remaining messages → Changes Requested (banner doesn't transition standard→low mid-session) + Browser QA Skipped (stacked PR + comple",
+      "details": null,
+      "cost_usd": 1.911114,
+      "total_tokens": 17095
     },
     {
       "agent": "career-market-research-loop",
