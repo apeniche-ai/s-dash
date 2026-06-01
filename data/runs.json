@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-06-01T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "passive-income-state-consolidation",
       "timestamp": "2026-06-01T02:00:00Z",
       "duration_seconds": 195.8,
@@ -4875,16 +4883,6 @@
       "details": null,
       "cost_usd": 0.474428,
       "total_tokens": 332
-    },
-    {
-      "agent": "passive-income-state-consolidation",
-      "timestamp": "2026-05-18T02:00:01Z",
-      "duration_seconds": 156.9,
-      "status": "success",
-      "summary": "Not applicable — this consolidation job is a single linear sequence (load → rebuild state → log), already complete. No task tracking needed.",
-      "details": null,
-      "cost_usd": 1.4812655000000001,
-      "total_tokens": 10912
     }
   ]
 }
