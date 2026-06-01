@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 231.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4563 [TTP-6096] Implement recurring session welcome flow → Approved + Browser QA Skipped (bundler 2.6.9 missing locally)",
+      "details": null,
+      "cost_usd": 2.3864179999999995,
+      "total_tokens": 12598
     },
     {
       "agent": "admissions-pr-reviewer",
