@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 197.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4576 [TTPAI-143] Add PromptComposer instance and wires compose pipeline into ChatbotService → Approved + Browser QA Skipped (stacked on unmerged base, service-layer refactor)",
+      "details": null,
+      "cost_usd": 2.0317100000000003,
+      "total_tokens": 10763
     },
     {
       "agent": "pr-reviewer",
