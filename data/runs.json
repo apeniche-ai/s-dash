@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T13:32:16Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 329.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4567 [6174][6175][6176] Replicate New Onboarding Flow Across GRE, EA, and SAT Courses → Approved + Browser QA Skipped (dev server env error)",
+      "details": null,
+      "cost_usd": 2.796342000000001,
+      "total_tokens": 14140
     },
     {
       "agent": "slack-watch",
