@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-02T20:31:32Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 121.7,
+      "status": "success",
+      "summary": "Tick #184 complete. Silent by design — Tue 14:00 slot. NexGenData manual recheck (per the 7-day plan) returned clean: still same dev.to article + Apify actor, no new direct competitor in the $149/$249",
+      "details": null,
+      "cost_usd": 1.54215225,
+      "total_tokens": 6572
     },
     {
       "agent": "slack-watch",
