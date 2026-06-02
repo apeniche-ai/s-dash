@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-06-02T20:28:44Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-01T16:30:01Z",
       "duration_seconds": 390.2,
@@ -4888,14 +4896,6 @@
       "details": null,
       "cost_usd": 0.45177445,
       "total_tokens": 6041
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-05-18T17:15:01Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
