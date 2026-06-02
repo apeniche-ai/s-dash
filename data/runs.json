@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-02T20:33:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 422.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4472 [TTPAI-117][TTPAI-73][TTPAI-95] Vector KB retrieval all features + enable AI features on EA, SAT, and DI with verifier service → Approved + Browser QA Skipped (deep AI infrastruc",
+      "details": null,
+      "cost_usd": 3.673846,
+      "total_tokens": 19813
     },
     {
       "agent": "admissions-pr-reviewer",
