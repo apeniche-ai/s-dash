@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-02T22:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 180.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4586 [6219] Redesign onbaording toast component styling → Approved + Browser QA Skipped (re-review of CSS-only delta since prior approval)",
+      "details": null,
+      "cost_usd": 1.94402125,
+      "total_tokens": 9128
     },
     {
       "agent": "pr-reviewer",
