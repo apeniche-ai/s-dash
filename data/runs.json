@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-03T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 91.6,
+      "status": "success",
+      "summary": "Tick #187 complete. Silent by design — Wed 06:00 pre-work-hour slot per the standing 7-day plan. 18 days of channel silence, all paused threads still under the Sun Jun 7 re-raise gate, no scout candid",
+      "details": null,
+      "cost_usd": 1.053601,
+      "total_tokens": 4997
     },
     {
       "agent": "pr-reviewer",
