@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T12:30:41Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 171.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4598 [6224] Migrate SSL to Cloudflare Origin CA and removes cert from repo → Approved + Browser QA Skipped (docs/.gitignore/file-deletion only — no application code)",
+      "details": null,
+      "cost_usd": 1.9268045,
+      "total_tokens": 8596
     },
     {
       "agent": "daily-todo-digest",
