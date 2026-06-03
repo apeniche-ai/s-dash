@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 164.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4603 [6226] Fix liveteach cohort dashboard tile to honor 6-month access → Approved + Browser QA Skipped (requires liveteach cohort fixture data)",
+      "details": null,
+      "cost_usd": 1.7354687500000001,
+      "total_tokens": 8784
     },
     {
       "agent": "admissions-pr-reviewer",
