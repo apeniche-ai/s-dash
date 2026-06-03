@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 212.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4599 [6209] Add lesson summary lessons with incomplete examples flow → Approved + Browser QA Skipped (epic-stacked base branch + complex seeded state required)",
+      "details": null,
+      "cost_usd": 2.0817187500000003,
+      "total_tokens": 12360
     },
     {
       "agent": "admissions-pr-reviewer",
