@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T17:32:52Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 313.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4604 [6225] Add country targeting to sale banners → Changes Requested (AC #5 edge-caching verification not addressed in diff) + Browser QA Skipped (geo-targeting requires CF-IPCountry",
+      "details": null,
+      "cost_usd": 2.067716,
+      "total_tokens": 20091
     },
     {
       "agent": "slack-watch",
