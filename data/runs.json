@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T12:01:56Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 170.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4597 [6223] Add user geolocation detection from Cloudflare request headers → Approved + Browser QA Skipped (env: bundler 2.6.9 missing)",
+      "details": null,
+      "cost_usd": 1.6146135,
+      "total_tokens": 9764
     },
     {
       "agent": "passive-income-discovery-scan",
