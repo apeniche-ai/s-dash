@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T15:01:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 202.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4600 [TTPAI-209] Migrates ChatbotService deterministic content retrieval from S3 to vector KB → Approved + Browser QA Skipped (stacked base + seeded KB state required)",
+      "details": null,
+      "cost_usd": 2.0121144999999996,
+      "total_tokens": 10695
     },
     {
       "agent": "passive-income-research-loop",
