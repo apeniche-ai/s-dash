@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 253.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4601 [6155] Add onboarding diagnostic section intro step → Changes Requested (critical: BEGIN button is a no-op, wizard stuck on final step) + Browser QA Skipped (stacked on unmerged ",
+      "details": null,
+      "cost_usd": 2.0436725,
+      "total_tokens": 13949
     },
     {
       "agent": "admissions-pr-reviewer",
