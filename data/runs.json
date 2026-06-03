@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T11:31:25Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 89.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4596 [6152] Add onboarding diagnostic intro step → Approved (label-only fix; prior review already approved) + Browser QA Skipped (no new commits, env bundler 2.6.9 missing)",
+      "details": null,
+      "cost_usd": 1.20171125,
+      "total_tokens": 4738
     },
     {
       "agent": "daily-performance-check-in",
