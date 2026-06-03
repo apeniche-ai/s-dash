@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T19:01:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 187.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4608 [TTPAI-99] Add agentic chatbot wiring → Approved + Browser QA Skipped (backend wiring; no user-visible behavior until TTPAI-100 lands tools)",
+      "details": null,
+      "cost_usd": 1.5567622500000002,
+      "total_tokens": 11504
     },
     {
       "agent": "passive-income-research-loop",
