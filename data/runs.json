@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T20:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 169.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4611 [TTPAI-121] Add SIP personalization guidance prompt block → Approved + Browser QA Skipped (prompt-content file, wiring deferred to later PR)",
+      "details": null,
+      "cost_usd": 1.88744725,
+      "total_tokens": 8377
     },
     {
       "agent": "pr-reviewer",
