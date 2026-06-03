@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T19:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 276.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4610 [6232] Scoped admin API for student analytics reports (Claude/MCP) → Changes Requested (rake task reprints admin API secret on every re-run) + Browser QA Skipped (admin-only feat",
+      "details": null,
+      "cost_usd": 2.3217887499999996,
+      "total_tokens": 16440
     },
     {
       "agent": "admissions-pr-reviewer",
