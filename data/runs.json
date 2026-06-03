@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 247.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4606 [TTPAI-147] Add study session table, model, and lifecycle tracking → Approved + Browser QA Skipped (backend AI session infrastructure)",
+      "details": null,
+      "cost_usd": 2.19493,
+      "total_tokens": 14383
     },
     {
       "agent": "admissions-pr-reviewer",
