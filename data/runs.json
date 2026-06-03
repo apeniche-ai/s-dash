@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-06-03T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-03T12:15:01Z",
       "duration_seconds": 1.2,
@@ -4906,16 +4914,6 @@
       "details": null,
       "cost_usd": 2.1913655,
       "total_tokens": 8813
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-19T10:00:01Z",
-      "duration_seconds": 218.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4553 [TTPAI-142] GMAT Coach misinformation bug fixes → Changes Requested (gmat_di.md DI question-type list still says 4 types and omits Data Sufficiency — contradicts the new chatbot_",
-      "details": null,
-      "cost_usd": 2.13245425,
-      "total_tokens": 11148
     }
   ]
 }
