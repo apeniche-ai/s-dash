@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-03T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 82.7,
+      "status": "success",
+      "summary": "Not applicable here — this is a single-decision coaching session (hold vs. send), not multi-step work that benefits from a task list. The decision is logged in memory and the session is complete.",
+      "details": null,
+      "cost_usd": 0.907579,
+      "total_tokens": 4195
     },
     {
       "agent": "admissions-pr-reviewer",
