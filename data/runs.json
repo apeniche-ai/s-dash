@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-06-03T16:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-03T15:30:01Z",
       "duration_seconds": 253.8,
@@ -4914,16 +4922,6 @@
       "details": null,
       "cost_usd": 1.9416977500000003,
       "total_tokens": 11837
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-19T13:32:54Z",
-      "duration_seconds": 528.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4535 [6144] Add onboarding step 2 (test date) → Approved + Browser QA Skipped (Rails env broken — bundler 2.6.9 missing)",
-      "details": null,
-      "cost_usd": 3.1103407500000007,
-      "total_tokens": 34419
     }
   ]
 }
