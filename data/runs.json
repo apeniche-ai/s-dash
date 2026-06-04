@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-04T12:01:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 343.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4596 [6152] Add onboarding diagnostic intro step → Approved + Browser QA Skipped (onboarding flow requires fresh non-onboarded user)",
+      "details": null,
+      "cost_usd": 2.8284462499999994,
+      "total_tokens": 15868
     },
     {
       "agent": "passive-income-discovery-scan",
