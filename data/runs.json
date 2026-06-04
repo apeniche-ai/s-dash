@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-04T15:01:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 349.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4601 [6155][6156] Add onboarding diagnostic section intro and diagnostic test step → Approved + Browser QA Skipped (stacked wizard PR — needs fresh mid-wizard user)",
+      "details": null,
+      "cost_usd": 3.0212974999999993,
+      "total_tokens": 21946
     },
     {
       "agent": "passive-income-research-loop",
