@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-04T23:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 135.0,
+      "status": "success",
+      "summary": "Tick #195 complete. Silent by design — Vercel Bill Audit surface is ~24h old (well within normal read window), voice-transcription incident still hot, no nudge before Fri 18:00 earliest. Next planned ",
+      "details": null,
+      "cost_usd": 1.2701702499999998,
+      "total_tokens": 6546
     },
     {
       "agent": "pr-reviewer",
