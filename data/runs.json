@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-04T18:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-04T17:32:31Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4903,16 +4911,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-20T21:00:02Z",
-      "duration_seconds": 249.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4563 [TTP-6096] Implement recurring session welcome flow → Changes Requested (score-card session flag mutated before snapshot check — wrong evaluation order) + Browser QA Skipped (sta",
-      "details": null,
-      "cost_usd": 1.620927,
-      "total_tokens": 13302
     }
   ]
 }
