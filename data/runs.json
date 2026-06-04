@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-06-04T13:15:02Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-04T13:05:27Z",
       "duration_seconds": 229.1,
@@ -4909,16 +4917,6 @@
       "details": null,
       "cost_usd": 3.2179555,
       "total_tokens": 26871
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-05-20T16:00:01Z",
-      "duration_seconds": 152.9,
-      "status": "success",
-      "summary": "Tick complete. SILENT — no Telegram sent.",
-      "details": null,
-      "cost_usd": 1.40598225,
-      "total_tokens": 9851
     }
   ]
 }
