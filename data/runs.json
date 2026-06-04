@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-04T12:30:51Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 207.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4606 [TTPAI-147] Add study session table, model, and lifecycle tracking → Approved + Browser QA Skipped (TTPAI PR — multi-session setup required)",
+      "details": null,
+      "cost_usd": 1.9476902500000002,
+      "total_tokens": 10291
     },
     {
       "agent": "daily-todo-digest",
