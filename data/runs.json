@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-04T10:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-04T10:00:04Z",
       "duration_seconds": 345.9,
       "status": "success",
@@ -4910,16 +4918,6 @@
       "status": "success",
       "summary": "No PRs to review — 30 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-05-20T12:30:01Z",
-      "duration_seconds": 52.6,
-      "status": "success",
-      "summary": "Done. Here's the summary:",
-      "details": null,
-      "cost_usd": 0.2394848,
-      "total_tokens": 2130
     }
   ]
 }
