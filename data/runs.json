@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-04T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 144.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4614 [TTPAI-207] Add synchronous generate for tool entry point on AiAssist::ExerciseService → Approved + Browser QA Skipped (backend-only — internal class method, no UI)",
+      "details": null,
+      "cost_usd": 1.37727725,
+      "total_tokens": 7211
     },
     {
       "agent": "admissions-pr-reviewer",
