@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-04T11:31:34Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 260.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4595 [6210] Add Maren AI trial ending banner with remaining messages → Approved + Browser QA Skipped (trial user state setup too complex for default fixture)",
+      "details": null,
+      "cost_usd": 2.2513912499999997,
+      "total_tokens": 15414
     },
     {
       "agent": "daily-performance-check-in",
