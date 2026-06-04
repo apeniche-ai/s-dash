@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-04T21:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 311.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4567 [6174][6175][6176][6219] Replicate New Onboarding Flow Across GRE, EA, and SAT Courses → Approved + Browser QA Skipped (base branch is epic/ttpai-onboarding integration branch, n",
+      "details": null,
+      "cost_usd": 2.808301,
+      "total_tokens": 18609
     },
     {
       "agent": "pr-reviewer",
