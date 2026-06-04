@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-04T20:00:01Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 45 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-04T19:30:01Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4897,16 +4905,6 @@
       "details": null,
       "cost_usd": 0.3825308,
       "total_tokens": 5045
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-20T23:00:00Z",
-      "duration_seconds": 138.5,
-      "status": "success",
-      "summary": "Tick #123 complete. SILENT — no Telegram sent.",
-      "details": null,
-      "cost_usd": 1.138296,
-      "total_tokens": 7362
     }
   ]
 }
