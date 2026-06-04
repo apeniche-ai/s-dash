@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-04T11:01:41Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 138.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4594 [6199] Add lesson summary state two almost there → Approved + Browser QA Skipped (5-line CSS polish on already-twice-approved PR)",
+      "details": null,
+      "cost_usd": 1.4601095000000002,
+      "total_tokens": 7454
     },
     {
       "agent": "passive-income-research-loop",
