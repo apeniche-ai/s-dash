@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-04T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 92.9,
+      "status": "success",
+      "summary": "Done. Thursday gentle-naming message delivered to coaching channel (second try — same recurring transient HTML fetch failure as prior weeks).",
+      "details": null,
+      "cost_usd": 1.080174,
+      "total_tokens": 4722
     },
     {
       "agent": "admissions-pr-reviewer",
