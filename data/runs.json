@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-04T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 455.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4574 [6097/6098/6099/6100/6102/6103] Add Exercise Flows in Maren AI → Changes Requested (double-fire bug from new commit) + Browser QA Skipped (JS handler tweak, bug requires devtools",
+      "details": null,
+      "cost_usd": 3.5525365,
+      "total_tokens": 26082
     },
     {
       "agent": "pr-reviewer",
