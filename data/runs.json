@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-04T10:00:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 345.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4549 [TTPAI-89] Add flashcard existing-deck check auto-count → Approved + Browser QA Skipped (dev server bundler 2.6.9 missing)",
+      "details": null,
+      "cost_usd": 3.1106195,
+      "total_tokens": 14742
     },
     {
       "agent": "passive-income-research-loop",
