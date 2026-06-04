@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-04T01:05:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 52.1,
+      "status": "success",
+      "summary": "Done. Wednesday evening reflection held — no message sent to coaching channel. Honoring the silence protocol that the morning session already committed to; Thu AM is the next contact window with a dir",
+      "details": null,
+      "cost_usd": 0.9035597499999999,
+      "total_tokens": 2335
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
