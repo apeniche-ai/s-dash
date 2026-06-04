@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-04T18:30:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 45 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-04T18:15:02Z",
       "duration_seconds": 0.8,
@@ -4903,16 +4911,6 @@
       "details": null,
       "cost_usd": 3.089137999999999,
       "total_tokens": 19205
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-20T21:30:02Z",
-      "duration_seconds": 240.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4564 [6204] Email copy refresh → Approved + Browser QA Skipped (email/mailer changes — purchase flow not exercisable in browser without Recurly setup)",
-      "details": null,
-      "cost_usd": 1.9909000000000001,
-      "total_tokens": 15054
     }
   ]
 }
