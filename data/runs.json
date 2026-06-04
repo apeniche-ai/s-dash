@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-04T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-04T14:30:01Z",
       "duration_seconds": 254.9,
@@ -4909,16 +4917,6 @@
       "details": null,
       "cost_usd": 1.73447475,
       "total_tokens": 10679
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-20T17:56:30Z",
-      "duration_seconds": 390.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4558 [6148] Implement onboarding step 5b (score collection) → Changes Requested (Skip button from TTP-6148 AC still missing, 4th iteration, no code changes since prior review) + Brows",
-      "details": null,
-      "cost_usd": 1.4176405,
-      "total_tokens": 9882
     }
   ]
 }
