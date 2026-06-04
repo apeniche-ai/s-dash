@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-04T13:31:48Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 109.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4612 [TTP-6233] Fix falling free account specs → Approved + Browser QA Skipped (test-only change)",
+      "details": null,
+      "cost_usd": 1.40644675,
+      "total_tokens": 4490
     },
     {
       "agent": "slack-watch",
