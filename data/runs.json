@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-05T22:00:02Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-05T21:30:01Z",
       "duration_seconds": 187.0,
       "status": "success",
@@ -4887,16 +4895,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-22T11:02:01Z",
-      "duration_seconds": 344.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4567 [6174] Add GRE onboarding support with exam-aware theming and branding → Changes Requested (grammar error in user-facing locale string) + Browser QA Skipped (non-master base bran",
-      "details": null,
-      "cost_usd": 2.5964337500000005,
-      "total_tokens": 23030
     }
   ]
 }
