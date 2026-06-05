@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-05T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 76.1,
+      "status": "success",
+      "summary": "Done. Thursday evening reflection held — no coaching-channel send. Morning gentle-naming was today's climax move; stacking a Self-Trust Probe on top would undercut it and read as nag stacking. Plus Am",
+      "details": null,
+      "cost_usd": 0.92709825,
+      "total_tokens": 2920
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
