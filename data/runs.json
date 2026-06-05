@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-05T20:32:30Z",
+      "duration_seconds": 1.9,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-06-05T20:30:00Z",
       "duration_seconds": 147.4,
@@ -4893,16 +4901,6 @@
       "details": null,
       "cost_usd": 2.8110245000000007,
       "total_tokens": 10354
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-22T03:00:00Z",
-      "duration_seconds": 113.5,
-      "status": "success",
-      "summary": "Tick #129 complete. Silent — no Telegram sent. Both threads still inside patience windows (Slot Sentinel ~80h of ~96h gate; MT probe ~36h post-send). Channel silent, no discovery candidates, Amaury he",
-      "details": null,
-      "cost_usd": 1.0463475,
-      "total_tokens": 6359
     }
   ]
 }
