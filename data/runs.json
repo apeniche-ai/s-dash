@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-05T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 555.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4604 [6225] Add country targeting to sale banners → Approved + Browser QA Skipped (feature gates on CF-IPCountry header from Cloudflare edge, untestable from localhost; test user is n",
+      "details": null,
+      "cost_usd": 1.7782635,
+      "total_tokens": 10739
     },
     {
       "agent": "admissions-pr-reviewer",
