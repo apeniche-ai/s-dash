@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-05T23:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-05T22:30:03Z",
       "duration_seconds": 3.1,
@@ -4883,16 +4891,6 @@
       "details": null,
       "cost_usd": 1.9605750000000004,
       "total_tokens": 9535
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-05-22T12:00:00Z",
-      "duration_seconds": 191.7,
-      "status": "success",
-      "summary": "Not applicable — this is a single-shot linear scan job (load dedup → fetch sources → filter → write log). No multi-step task tracking needed.",
-      "details": null,
-      "cost_usd": 1.3342127500000003,
-      "total_tokens": 10311
     }
   ]
 }
