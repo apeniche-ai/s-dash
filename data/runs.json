@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-05T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 93.7,
+      "status": "success",
+      "summary": "Scanned 9 sources, 5 succeeded (HN Show, HN Ask, all 3 vendors); 4 Reddit subs blocked for the 24th consecutive run. Wrote 0 findings — 3 raw candidates dropped at filter (OpenAI inline moderation = n",
+      "details": null,
+      "cost_usd": 1.08713675,
+      "total_tokens": 5415
     },
     {
       "agent": "pr-reviewer",
