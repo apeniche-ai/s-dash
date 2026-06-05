@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-05T16:02:48Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 251.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4587 [6198] Add lesson summary state one complete nice work → Approved + Browser QA Skipped (chapter-complete screen only renders for users who finished every lesson + example in a ch",
+      "details": null,
+      "cost_usd": 2.5779129999999992,
+      "total_tokens": 13107
     },
     {
       "agent": "career-market-research-loop",
