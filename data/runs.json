@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-05T19:01:19Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 161.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4609 [6231] LiveTeach: track cohort message email delivery (per-recipient) → Approved + Browser QA Skipped (admin-only feature, fixture user is a student)",
+      "details": null,
+      "cost_usd": 1.8846245,
+      "total_tokens": 8250
     },
     {
       "agent": "passive-income-research-loop",
