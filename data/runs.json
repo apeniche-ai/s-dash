@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-05T01:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 158.1,
+      "status": "success",
+      "summary": "Tick #26 complete. Silent by design — no Telegram message sent.",
+      "details": null,
+      "cost_usd": 1.7271039999999998,
+      "total_tokens": 10675
     },
     {
       "agent": "slack-watch",
