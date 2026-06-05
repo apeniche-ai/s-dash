@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-05T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 319.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4601 Add onboarding diagnostic section intro, diagnostic test step and diagnostic results steop → Approved + Browser QA Skipped (final step of extensively browser-QA'd multi-step onbo",
+      "details": null,
+      "cost_usd": 3.7510467499999995,
+      "total_tokens": 19250
     },
     {
       "agent": "admissions-pr-reviewer",
