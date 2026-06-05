@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-05T11:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-05T10:30:01Z",
       "duration_seconds": 197.8,
@@ -4889,16 +4897,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-05-21T13:04:40Z",
-      "duration_seconds": 74.3,
-      "status": "success",
-      "summary": "Skipping task tracking — this is a simple linear scheduled job, already complete.",
-      "details": null,
-      "cost_usd": 0.5481627499999999,
-      "total_tokens": 4531
     }
   ]
 }
