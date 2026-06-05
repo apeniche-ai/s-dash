@@ -189,10 +189,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-05T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 58.6,
+      "status": "success",
+      "summary": "Not applicable — this is a single-step scheduled coaching check-in (already complete: HELD silent per protocol). No multi-step work to track.",
+      "details": null,
+      "cost_usd": 0.8926125,
+      "total_tokens": 2616
     },
     {
       "agent": "admissions-pr-reviewer",
