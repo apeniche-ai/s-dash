@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-05T03:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-06-05T02:30:00Z",
       "duration_seconds": 13.6,
@@ -4889,16 +4897,6 @@
       "details": null,
       "cost_usd": 0.24605580000000002,
       "total_tokens": 2053
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-21T12:30:01Z",
-      "duration_seconds": 312.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4563 [TTP-6096] Implement recurring session welcome flow → Approved + Browser QA Skipped (non-master base branch, complex Maren flow)",
-      "details": null,
-      "cost_usd": 2.5035500000000015,
-      "total_tokens": 16835
     }
   ]
 }
