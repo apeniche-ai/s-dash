@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-05T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 77.4,
+      "status": "success",
+      "summary": "Tick #199 done. Silent by design — Fri 14:00 channel-check, 44h post-Vercel-Bill-Audit-surface (still 4h short of the 48h banked-nudge eligibility threshold). No reply, no new scout candidate, all gat",
+      "details": null,
+      "cost_usd": 0.9450455,
+      "total_tokens": 4909
     },
     {
       "agent": "pr-reviewer",
