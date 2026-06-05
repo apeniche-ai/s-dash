@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-05T21:00:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-05T20:32:30Z",
       "duration_seconds": 1.9,
       "status": "success",
@@ -4891,16 +4899,6 @@
       "details": null,
       "cost_usd": 2.4839500000000005,
       "total_tokens": 19346
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-22T10:00:01Z",
-      "duration_seconds": 221.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4492 [TTPAI-97] Add answer choice and exercise ID in context card → Approved + Browser QA Skipped (cosmetic string-format change)",
-      "details": null,
-      "cost_usd": 2.8110245000000007,
-      "total_tokens": 10354
     }
   ]
 }
