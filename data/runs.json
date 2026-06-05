@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-05T21:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-05T21:15:01Z",
       "duration_seconds": 0.8,
@@ -4887,16 +4895,6 @@
       "details": null,
       "cost_usd": 2.5964337500000005,
       "total_tokens": 23030
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-22T11:00:00Z",
-      "duration_seconds": 120.2,
-      "status": "success",
-      "summary": "Not applicable — single-shot linear tick (load state → channel check → decide silent → log). No multi-step coordination warranting TaskCreate.",
-      "details": null,
-      "cost_usd": 1.0713245,
-      "total_tokens": 7092
     }
   ]
 }
