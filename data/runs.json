@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-05T10:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-05T10:00:01Z",
       "duration_seconds": 267.6,
       "status": "success",
@@ -4889,16 +4897,6 @@
       "details": null,
       "cost_usd": 0.5481627499999999,
       "total_tokens": 4531
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-21T13:00:01Z",
-      "duration_seconds": 280.1,
-      "status": "success",
-      "summary": "Telegram delivery failed (transient fetch error — known recurring issue). Keeping batch memories so the next successful run picks them up.",
-      "details": null,
-      "cost_usd": 2.88192025,
-      "total_tokens": 15331
     }
   ]
 }
