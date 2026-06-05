@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-06-05T11:15:02Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-05T11:01:12Z",
       "duration_seconds": 191.3,
@@ -4891,16 +4899,6 @@
       "details": null,
       "cost_usd": 0.4060954,
       "total_tokens": 6239
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-21T13:30:01Z",
-      "duration_seconds": 172.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4566 [TTPAI-145] Vector kb rechunk for GRE → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.66156275,
-      "total_tokens": 10504
     }
   ]
 }
