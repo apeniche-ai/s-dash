@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-06T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 78.3,
+      "status": "success",
+      "summary": "Tick #201 complete. Silent by design — banked Sat 10:00 nudge for Vercel Bill Audit still armed; no channel reply since the 52h mark.",
+      "details": null,
+      "cost_usd": 0.94528325,
+      "total_tokens": 4746
     },
     {
       "agent": "goal-progress-reconciliation",
