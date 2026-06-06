@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-06T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 50.5,
+      "status": "success",
+      "summary": "Done. Friday evening reflection held — no coaching-channel send. Honoring the silence protocol: Thursday AM gentle-naming was the climax move and stacking a rotation question 36h later would undercut ",
+      "details": null,
+      "cost_usd": 0.86029775,
+      "total_tokens": 2456
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
