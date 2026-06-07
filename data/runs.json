@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-07T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 98.6,
+      "status": "success",
+      "summary": "Tick #208 complete. SILENT by design — 24h post-nudge, no Vercel Bill Audit reply, Amaury active on default channel only. Consolidation tick at 21:00 tonight owns the auto-pause decision.",
+      "details": null,
+      "cost_usd": 1.31863325,
+      "total_tokens": 5324
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
