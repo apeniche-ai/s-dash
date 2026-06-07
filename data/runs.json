@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-07T23:01:27Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 97.5,
+      "status": "success",
+      "summary": "Tick #210 done. SILENT by design — pre-consolidation prep slot. No new info, no transitions, consolidation owns the next move in 3h.",
+      "details": null,
+      "cost_usd": 1.0245715,
+      "total_tokens": 5583
     },
     {
       "agent": "career-market-weekly-digest",
