@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-07T13:01:41Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 123.6,
+      "status": "success",
+      "summary": "Tick #31 complete. Silent by design — no Telegram sent.",
+      "details": null,
+      "cost_usd": 1.5913865,
+      "total_tokens": 5759
     },
     {
       "agent": "launch-concierge",
