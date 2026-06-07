@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-07T22:10:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 129.9,
+      "status": "success",
+      "summary": "Done. One new suggestion: **\"Turn your morning digest into a Pending Decisions Briefing\"** (P9) — a single 7:30 AM message that pulls together everything across Slack, Jira, PRs, and Soren's own appro",
+      "details": null,
+      "cost_usd": 1.2009717500000001,
+      "total_tokens": 6954
     },
     {
       "agent": "passive-income-research-loop",
