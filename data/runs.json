@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-07T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 119.1,
+      "status": "success",
+      "summary": "Tick #207 complete. SILENT by design — 20h post-nudge, no Vercel reply, consolidation tick owns the auto-pause decision at 21:00 tonight.",
+      "details": null,
+      "cost_usd": 1.3507645,
+      "total_tokens": 6324
     },
     {
       "agent": "passive-income-research-loop",
