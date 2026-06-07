@@ -189,10 +189,12 @@
     {
       "agent": "launch-concierge",
       "timestamp": "2026-06-07T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Launch Concierge...",
-      "details": null
+      "duration_seconds": 100.3,
+      "status": "success",
+      "summary": "Done. Here's what happened this tick:",
+      "details": null,
+      "cost_usd": 0.41103555,
+      "total_tokens": 4401
     },
     {
       "agent": "passive-income-discovery-scan",
