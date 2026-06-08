@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-08T19:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 311.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4549 [TTPAI-89] Add flashcard existing-deck check auto-count → Changes Requested (stored XSS regression on lesson.name.html_safe + `and`→`&&` nit) + Browser QA Skipped (dev server bun",
+      "details": null,
+      "cost_usd": 2.549861,
+      "total_tokens": 13561
     },
     {
       "agent": "admissions-pr-reviewer",
