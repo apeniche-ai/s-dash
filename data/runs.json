@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-08T21:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 105.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4620 [6243] Add Scott to cohort report email recipients → Approved + Browser QA Skipped (mailer constant only, no UI)",
+      "details": null,
+      "cost_usd": 1.5195539999999998,
+      "total_tokens": 4866
     },
     {
       "agent": "admissions-pr-reviewer",
