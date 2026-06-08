@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-08T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 277.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4618 [6189] Add OnDemand and LiveTeach plans to GMAT partner pages → Changes Requested (CRITICAL: 3 LiveTeach coupon codes set to \"TODO\" in locales, plus clipboard.writeText missing .",
+      "details": null,
+      "cost_usd": 3.3195405000000013,
+      "total_tokens": 14924
     },
     {
       "agent": "admissions-pr-reviewer",
