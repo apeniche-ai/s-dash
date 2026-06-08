@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-08T11:34:14Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 75.9,
+      "status": "success",
+      "summary": "Done. Monday AM check-in held silent per the Saturday plan — coaching channel is now in weekly-cadence-only mode after 4 consecutive unanswered touches. Next scheduled contact: Sat 6/13 behavioral-exp",
+      "details": null,
+      "cost_usd": 0.95651525,
+      "total_tokens": 3632
     },
     {
       "agent": "pr-reviewer",
