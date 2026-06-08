@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-06-08T14:05:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-08T14:00:01Z",
       "duration_seconds": 1.2,
@@ -4913,16 +4921,6 @@
       "details": null,
       "cost_usd": 1.2528275,
       "total_tokens": 8404
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-23T19:00:00Z",
-      "duration_seconds": 115.6,
-      "status": "success",
-      "summary": "Tick #137 complete. Silent — no Telegram sent.",
-      "details": null,
-      "cost_usd": 1.28186775,
-      "total_tokens": 7455
     }
   ]
 }
