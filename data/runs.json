@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-06-08T12:03:33Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-08T12:00:01Z",
       "duration_seconds": null,
@@ -4921,16 +4929,6 @@
       "details": null,
       "cost_usd": 1.2413969999999999,
       "total_tokens": 7658
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-22T22:30:01Z",
-      "duration_seconds": 211.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4573 [6207] Admin problem on track indicator → Changes Requested (Ruby operator-precedence bug at show.html.haml:34 — `and` after `=` drops the diagnostic/reinforcement exclusions, wo",
-      "details": null,
-      "cost_usd": 2.392537,
-      "total_tokens": 11787
     }
   ]
 }
