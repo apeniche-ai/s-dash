@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-vp-performance-edge",
+      "timestamp": "2026-06-08T12:06:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly VP Performance Edge...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-08T12:03:33Z",
       "duration_seconds": null,
@@ -4921,16 +4929,6 @@
       "details": null,
       "cost_usd": 0.43012300000000003,
       "total_tokens": 7508
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-22T23:00:00Z",
-      "duration_seconds": 132.1,
-      "status": "success",
-      "summary": "Tick complete.",
-      "details": null,
-      "cost_usd": 1.2413969999999999,
-      "total_tokens": 7658
     }
   ]
 }
