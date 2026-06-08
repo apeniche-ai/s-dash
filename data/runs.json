@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-08T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 417.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4617 [TTPAI-206] Add CS action tool definitions for lookup account info and escalate to human → Changes Requested (CI failing — 3 stale specs reference removed `#max_tokens`/`#use_ext",
+      "details": null,
+      "cost_usd": 3.044054,
+      "total_tokens": 27417
     },
     {
       "agent": "admissions-pr-reviewer",
