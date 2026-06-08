@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-08T14:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-08T14:15:01Z",
       "duration_seconds": 1.4,
@@ -4911,16 +4919,6 @@
       "details": null,
       "cost_usd": 3.8565887500000002,
       "total_tokens": 26128
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-23T23:00:00Z",
-      "duration_seconds": 105.6,
-      "status": "success",
-      "summary": "Not applicable — this was a single-shot linear tick (load → check → log → exit). No multi-step work to track. Task created, completed, done.",
-      "details": null,
-      "cost_usd": 1.05505325,
-      "total_tokens": 6790
     }
   ]
 }
