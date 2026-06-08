@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-06-08T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-08T22:00:01Z",
       "duration_seconds": 1.0,
@@ -4874,16 +4882,6 @@
       "details": null,
       "cost_usd": 2.9253885,
       "total_tokens": 13937
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-25T13:45:56Z",
-      "duration_seconds": 240.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4471 [TTPAI-38][TTPAI-123] Remove Bedrock and consolidate ChatbotService into Ai:: → Approved + Browser QA Skipped (1-line trial-limit refactor, prior approvals stand)",
-      "details": null,
-      "cost_usd": 2.263376,
-      "total_tokens": 11668
     }
   ]
 }
