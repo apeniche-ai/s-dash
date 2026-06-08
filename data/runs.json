@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-08T20:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-08T19:30:02Z",
       "duration_seconds": 311.3,
       "status": "success",
@@ -4879,17 +4887,6 @@
       "agent": "pr-follow-up-check",
       "timestamp": "2026-05-25T13:18:58Z",
       "duration_seconds": 396.6,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "claude exited with code 1"
-      ]
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-05-25T13:12:21Z",
-      "duration_seconds": 387.2,
       "status": "error",
       "summary": "",
       "details": null,
