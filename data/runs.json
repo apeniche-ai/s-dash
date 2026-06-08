@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "launch-concierge",
+      "timestamp": "2026-06-08T13:01:23Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Launch Concierge...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-08T13:01:23Z",
       "duration_seconds": 2.2,
@@ -4917,16 +4925,6 @@
       "details": null,
       "cost_usd": 2.3037672500000004,
       "total_tokens": 22831
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-05-23T12:00:01Z",
-      "duration_seconds": 107.4,
-      "status": "success",
-      "summary": "Scanned 9 sources, wrote 0 findings — Reddit (all 4 subs) blocked at network level for 7+ consecutive runs and OpenAI changelog 403'd for 7+ runs, while Anthropic + Google changelogs are unchanged sin",
-      "details": null,
-      "cost_usd": 1.1452529999999999,
-      "total_tokens": 5431
     }
   ]
 }
