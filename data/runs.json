@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-06-08T17:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-08T17:15:01Z",
       "duration_seconds": 0.8,
@@ -4895,16 +4903,6 @@
       "details": null,
       "cost_usd": 0.9983385,
       "total_tokens": 5820
-    },
-    {
-      "agent": "career-market-weekly-digest",
-      "timestamp": "2026-05-24T23:00:00Z",
-      "duration_seconds": 122.3,
-      "status": "success",
-      "summary": "Weekly digest delivered to the assistant channel on retry (first attempt hit the same \"fetch failed\" issue surfacing across agents). Memory stored, rolling notes updated.",
-      "details": null,
-      "cost_usd": 1.24018125,
-      "total_tokens": 8070
     }
   ]
 }
