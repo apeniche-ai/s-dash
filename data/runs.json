@@ -181,10 +181,12 @@
     {
       "agent": "weekly-goal-review",
       "timestamp": "2026-06-08T14:05:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Goal Review...",
-      "details": null
+      "duration_seconds": 41.3,
+      "status": "success",
+      "summary": "Report sent. Summary:",
+      "details": null,
+      "cost_usd": 0.8688865,
+      "total_tokens": 2012
     },
     {
       "agent": "pr-reviewer",
