@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-08T11:01:43Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 159.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4602 [TTPAI-210] Migrate ExerciseService base-example content retrieval from S3 to vector KB → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.4857565000000001,
+      "total_tokens": 8322
     },
     {
       "agent": "passive-income-research-loop",
