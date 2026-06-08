@@ -181,10 +181,12 @@
     {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-06-08T12:06:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly VP Performance Edge...",
-      "details": null
+      "duration_seconds": 136.6,
+      "status": "success",
+      "summary": "Shipped this week's tip to the coaching channel: **Weekly Engineering Snippets** — Friday async 4-bullet post per team lead, VP reads all three Monday, replaces status-meeting overhead. Logged to memo",
+      "details": null,
+      "cost_usd": 1.0681305,
+      "total_tokens": 5161
     },
     {
       "agent": "passive-income-discovery-scan",
