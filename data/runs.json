@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-08T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 228.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4574 [6097][6098][6103][6099][6100][6102][6103] Add Exercise (unattempted, correct, incorrect) Flows in Maren AI → Approved + Browser QA Skipped (LLM prompt-template refinement)",
+      "details": null,
+      "cost_usd": 2.4580260000000003,
+      "total_tokens": 11652
     },
     {
       "agent": "pr-reviewer",
