@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-08T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 99.6,
+      "status": "success",
+      "summary": "Not applicable — this is a single-action silent research tick, no multi-step work to track.",
+      "details": null,
+      "cost_usd": 1.0183225,
+      "total_tokens": 5353
     },
     {
       "agent": "pr-reviewer",
