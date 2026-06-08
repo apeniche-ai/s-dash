@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-06-08T13:03:16Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "launch-concierge",
       "timestamp": "2026-06-08T13:01:23Z",
       "duration_seconds": null,
@@ -4917,16 +4925,6 @@
       "details": null,
       "cost_usd": 1.3890040000000001,
       "total_tokens": 5259
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-05-23T13:00:05Z",
-      "duration_seconds": 437.8,
-      "status": "success",
-      "summary": "Tick complete. Skipping task tracking — this was a linear job, all memory writes landed.",
-      "details": null,
-      "cost_usd": 2.3037672500000004,
-      "total_tokens": 22831
     }
   ]
 }
