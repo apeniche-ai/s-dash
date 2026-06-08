@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-08T12:03:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 147.6,
+      "status": "success",
+      "summary": "Scanned 9 sources — 5 succeeded (HN Show, HN Ask, all 3 vendor changelogs after Anthropic + OpenAI redirect retries), 4 Reddit subs blocked for the 28th consecutive run. Wrote 0 findings: vendor side ",
+      "details": null,
+      "cost_usd": 1.3417855000000003,
+      "total_tokens": 8891
     },
     {
       "agent": "pr-reviewer",
