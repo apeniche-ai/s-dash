@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-08T13:03:16Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 145.6,
+      "status": "success",
+      "summary": "Tick #33 done. SILENT by design — first week-open morning scan. Channel held (16d Amaury-quiet, STRONG-only override binding), zero new Aschenbrenner content, zero new SEC filings (next window ~Aug 14",
+      "details": null,
+      "cost_usd": 1.3486387499999997,
+      "total_tokens": 8503
     },
     {
       "agent": "launch-concierge",
