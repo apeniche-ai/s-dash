@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-08T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 83.7,
+      "status": "success",
+      "summary": "Tick #214 complete. SILENT by design — Mon 14:00 lunch-hour channel-check, zero new signal across all surfaces. No Telegram notification sent. Next tick #215 at 18:00 (silent default unless Amaury rep",
+      "details": null,
+      "cost_usd": 1.09849,
+      "total_tokens": 5147
     },
     {
       "agent": "pr-reviewer",
