@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-08T21:00:02Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-08T20:33:28Z",
       "duration_seconds": 1.0,
       "status": "success",
@@ -4878,16 +4886,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-05-25T13:38:50Z",
-      "duration_seconds": 207.7,
-      "status": "success",
-      "summary": "Tick #8 complete. Silent by design. Log written (`01KSFNY4017WZPSQA21DF1BDJJ`).",
-      "details": null,
-      "cost_usd": 1.7415912499999997,
-      "total_tokens": 12112
     }
   ]
 }
