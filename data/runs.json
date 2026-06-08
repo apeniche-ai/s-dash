@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-08T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-08T14:30:02Z",
       "duration_seconds": 277.6,
@@ -4911,16 +4919,6 @@
       "details": null,
       "cost_usd": 0.68939375,
       "total_tokens": 346
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-05-24T01:00:07Z",
-      "duration_seconds": 598.0,
-      "status": "success",
-      "summary": "Tick #5 complete. Big result this run: **delivery restored** after ~72-hour outage — the 3-day weekend catch-up notification shipped successfully. Three new analyses landed (SHAZ, AMD, PSIX) — all thr",
-      "details": null,
-      "cost_usd": 3.8565887500000002,
-      "total_tokens": 26128
     }
   ]
 }
