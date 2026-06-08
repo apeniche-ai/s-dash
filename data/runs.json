@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-06-08T20:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-08T20:15:01Z",
       "duration_seconds": 0.8,
@@ -4875,17 +4883,6 @@
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-05-25T13:32:18Z",
       "duration_seconds": 391.1,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "claude exited with code 1"
-      ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-25T13:25:36Z",
-      "duration_seconds": 402.7,
       "status": "error",
       "summary": "",
       "details": null,
