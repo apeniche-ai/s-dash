@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-06-08T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-08T16:00:01Z",
       "duration_seconds": 0.9,
@@ -4903,16 +4911,6 @@
       "details": null,
       "cost_usd": 1.579037,
       "total_tokens": 9725
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-05-24T13:00:09Z",
-      "duration_seconds": 432.2,
-      "status": "success",
-      "summary": "Tick #6 complete. Silent by design.",
-      "details": null,
-      "cost_usd": 2.6304707499999997,
-      "total_tokens": 19844
     }
   ]
 }
