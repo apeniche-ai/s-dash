@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-08T01:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 144.8,
+      "status": "success",
+      "summary": "Tick #32 done. Silent by design — end-of-weekend close-out, channel held (Amaury 15d quiet on trading-intel, STRONG-only override binding), zero new Aschenbrenner content, all news cluster is May 18 1",
+      "details": null,
+      "cost_usd": 1.6712154999999997,
+      "total_tokens": 7413
     },
     {
       "agent": "passive-income-research-loop",
