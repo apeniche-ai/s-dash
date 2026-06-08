@@ -197,10 +197,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-08T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 81.1,
+      "status": "success",
+      "summary": "Sent to `pr-reviews`. 5 stagnant PRs in ttp (3 are yours: #4589, #4565, #4559; plus Felipe's #4390 and alkeshrails's #3569). Admissions: 0. PR #4617 had label added <1h ago (excluded — too fresh). PR ",
+      "details": null,
+      "cost_usd": 0.83913425,
+      "total_tokens": 3279
     },
     {
       "agent": "weekly-team-shipping-report",
