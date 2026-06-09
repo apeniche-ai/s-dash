@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-09T13:01:24Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-09T13:00:00Z",
       "duration_seconds": 83.7,
@@ -4873,16 +4881,6 @@
       "details": null,
       "cost_usd": 1.9529239999999999,
       "total_tokens": 11572
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-27T10:00:02Z",
-      "duration_seconds": 343.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4563 [TTP-6096] Implement recurring session welcome flow → Approved + Browser QA Skipped (recurring-session UI requires non-first-visit + progress-snapshot fixture state)",
-      "details": null,
-      "cost_usd": 3.1493182500000003,
-      "total_tokens": 19672
     }
   ]
 }
