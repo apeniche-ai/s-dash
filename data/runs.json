@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 99.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4595 [6210] Maren AI trial ending banner → Approved + Browser QA Skipped (already approved at current commit, missing label applied)",
+      "details": null,
+      "cost_usd": 1.2690815,
+      "total_tokens": 4482
     },
     {
       "agent": "pr-reviewer",
