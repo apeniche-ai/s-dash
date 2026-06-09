@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-06-09T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-09T12:15:01Z",
       "duration_seconds": 0.8,
@@ -4873,16 +4881,6 @@
       "details": null,
       "cost_usd": 0.72200775,
       "total_tokens": 334
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-05-27T01:10:01Z",
-      "duration_seconds": 109.3,
-      "status": "success",
-      "summary": "Done. Evening Self-Trust Probe sent to coaching channel (3rd retry — Telegram fetch flaked twice). Posture B, clean question, no diagnostic frame, no exercise mention. Memories stored.",
-      "details": null,
-      "cost_usd": 1.4086742499999998,
-      "total_tokens": 5566
     }
   ]
 }
