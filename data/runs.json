@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T22:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 141.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4615 [TTPAI-157] Add session idle detection with hybrid heartbeat and server scanner → Approved + Browser QA Skipped (backend job, 60-min idle threshold not testable)",
+      "details": null,
+      "cost_usd": 1.846607,
+      "total_tokens": 7345
     },
     {
       "agent": "pr-reviewer",
