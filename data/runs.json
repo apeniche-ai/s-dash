@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T12:31:12Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 189.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4608 [TTPAI-99] Add agentic chatbot wiring → Approved + Browser QA Skipped (stacked epic branch, agentic path setting-gated)",
+      "details": null,
+      "cost_usd": 1.851998,
+      "total_tokens": 9354
     },
     {
       "agent": "daily-todo-digest",
