@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T19:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 175.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4621 [TTPAI-149] Add RC exercise bank generation rake task, parser, and validator → Approved + Browser QA Skipped (backend rake/content pipeline)",
+      "details": null,
+      "cost_usd": 1.6802585,
+      "total_tokens": 10036
     },
     {
       "agent": "admissions-pr-reviewer",
