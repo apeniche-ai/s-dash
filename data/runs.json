@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-09T15:01:52Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-09T15:00:01Z",
       "duration_seconds": 110.2,
@@ -4871,16 +4879,6 @@
       "details": null,
       "cost_usd": 0.9411855000000001,
       "total_tokens": 6433
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-05-27T13:06:18Z",
-      "duration_seconds": 484.3,
-      "status": "success",
-      "summary": "Tick #11 complete. Silent — both findings AVOID, neither clears Amaury's \"strong entry signals only\" bar.",
-      "details": null,
-      "cost_usd": 2.9288299999999996,
-      "total_tokens": 26268
     }
   ]
 }
