@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-09T14:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-09T13:33:45Z",
       "duration_seconds": 258.9,
       "status": "success",
@@ -4873,16 +4881,6 @@
       "details": null,
       "cost_usd": 0.2621255,
       "total_tokens": 2757
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-05-27T11:31:52Z",
-      "duration_seconds": 137.0,
-      "status": "success",
-      "summary": "Done. Wednesday morning coaching check-in delivered to the coaching channel (sent on retry — same transient telegram fetch pattern as recent sessions).",
-      "details": null,
-      "cost_usd": 1.2149687500000002,
-      "total_tokens": 8196
     }
   ]
 }
