@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T13:33:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 258.9,
+      "status": "success",
+      "summary": "Reviewed 4 PRs: #4613 [6130] Maren AI trial-over paywall → Approved + Browser QA Skipped (trial-state fixtures), #4567 [6174-6176/6219] New Onboarding Flow GRE/EA/SAT → Approved + Browser QA Skipped (",
+      "details": null,
+      "cost_usd": 2.6565024999999993,
+      "total_tokens": 13128
     },
     {
       "agent": "slack-watch",
