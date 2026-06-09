@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-09T12:02:49Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 117.7,
+      "status": "success",
+      "summary": "Scanned 9 sources — HN Show/Ask + all 3 vendor changelogs succeeded, all 4 Reddit subs blocked for the 29th consecutive run. Wrote 0 findings: vendor side is in a 12-day quiet stretch since the May 28",
+      "details": null,
+      "cost_usd": 1.1276355000000002,
+      "total_tokens": 9023
     },
     {
       "agent": "pr-reviewer",
