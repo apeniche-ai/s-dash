@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 244.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4622 [TTPAI-100] Add six agentic tool definitions for learning and content generation → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.3592697500000006,
+      "total_tokens": 13042
     },
     {
       "agent": "admissions-pr-reviewer",
