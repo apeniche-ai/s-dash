@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 211.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4617 [TTPAI-206] Add CS action tool definitions for lookup account info and escalate to human → Approved + Browser QA Skipped (feature-flag-gated agentic tool, needs live LLM)",
+      "details": null,
+      "cost_usd": 2.3686412500000005,
+      "total_tokens": 9624
     },
     {
       "agent": "admissions-pr-reviewer",
