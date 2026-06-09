@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-09T01:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 136.8,
+      "status": "success",
+      "summary": "Tick #34 complete. Silent by design — evening Content + Community scan returned zero new Aschenbrenner content, zero new SEC filings (next 13F ~Aug 15), zero new HN coverage in 14 days. Channel held 1",
+      "details": null,
+      "cost_usd": 1.6328155,
+      "total_tokens": 8203
     },
     {
       "agent": "slack-watch",
