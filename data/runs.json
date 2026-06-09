@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-09T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 48.3,
+      "status": "success",
+      "summary": "Done. Monday evening reflection held silent — no coaching-channel send. This morning's session officially activated \"weekly cadence only\" mode with next contact set for Sat 6/13; sending tonight would",
+      "details": null,
+      "cost_usd": 0.85928625,
+      "total_tokens": 2244
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
