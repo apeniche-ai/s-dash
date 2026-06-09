@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-09T11:33:19Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 63.1,
+      "status": "success",
+      "summary": "Done. Tue AM check-in held silent — weekly-cadence-only mode just activated Mon, and a Tue AM ping would directly violate it. No coaching message sent. Next coaching-channel contact remains Sat 6/13 9",
+      "details": null,
+      "cost_usd": 1.0175480000000001,
+      "total_tokens": 3117
     },
     {
       "agent": "pr-reviewer",
