@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T15:01:52Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 227.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4621 [TTPAI-149] Add RC exercise bank generation rake task, parser, and validator → Changes Requested (Style/AndOr lint) + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.7346802499999998,
+      "total_tokens": 13456
     },
     {
       "agent": "passive-income-research-loop",
