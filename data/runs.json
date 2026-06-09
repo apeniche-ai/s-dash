@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-06-09T22:10:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T22:00:01Z",
       "duration_seconds": 141.7,
@@ -4865,16 +4873,6 @@
       "details": null,
       "cost_usd": 2.2844484999999994,
       "total_tokens": 16516
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-27T19:30:01Z",
-      "duration_seconds": 107.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4570 [6175] Add EA onboarding theming with exam-aware colors → Approved + Browser QA Skipped (already approved on this SHA, label-consistency fix)",
-      "details": null,
-      "cost_usd": 1.37316425,
-      "total_tokens": 6050
     }
   ]
 }
