@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 145.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4615 [TTPAI-157] Session idle detection → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.5130479999999997,
+      "total_tokens": 7756
     },
     {
       "agent": "admissions-pr-reviewer",
