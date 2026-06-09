@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 205.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4617 [TTPAI-206] Add CS action tool definitions for lookup account info and escalate to human → Changes Requested (2 stale specs failing CI after metadata-shape fix) + Browser QA Skip",
+      "details": null,
+      "cost_usd": 2.1386557500000003,
+      "total_tokens": 9841
     },
     {
       "agent": "pr-reviewer",
