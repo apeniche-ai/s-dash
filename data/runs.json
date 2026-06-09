@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-06-09T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T12:31:12Z",
       "duration_seconds": 189.8,
@@ -4873,16 +4881,6 @@
       "details": null,
       "cost_usd": 3.1493182500000003,
       "total_tokens": 19672
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-27T03:00:00Z",
-      "duration_seconds": 151.8,
-      "status": "success",
-      "summary": "Tick #154 complete. PaaS Bill Audit surface delivered to Telegram (passive-income channel) on retry — fetch-failed pattern from #153 cleared on first attempt. Ledger snapshot unchanged (PaaS Bill Audi",
-      "details": null,
-      "cost_usd": 1.264604,
-      "total_tokens": 8335
     }
   ]
 }
