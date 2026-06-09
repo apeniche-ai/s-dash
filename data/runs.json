@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-09T13:08:19Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 135.7,
+      "status": "success",
+      "summary": "Tick #35 complete. Silent by design — morning Primary + Financial scan returned zero new Aschenbrenner content, zero new SEC filings, zero new HN coverage in 7d. NBIS pullback notable ($274.80 ATH Jun",
+      "details": null,
+      "cost_usd": 1.2870035,
+      "total_tokens": 7715
     },
     {
       "agent": "launch-concierge",
