@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-09T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 83.7,
+      "status": "success",
+      "summary": "Sent to `pr-reviews`. 5 stagnant PRs in ttp (3 yours: #4589, #4565, #4559; plus Felipe's #4390 and alkeshrails's #3569). Admissions: 0. PR #4495 excluded — alkeshrails pushed new commits after the lab",
+      "details": null,
+      "cost_usd": 0.8994820000000001,
+      "total_tokens": 3841
     },
     {
       "agent": "pr-reviewer",
