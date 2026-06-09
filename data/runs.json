@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-09T17:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 260.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4567 Replicate New Onboarding Flow Across GRE, EA, and SAT Courses → Changes Requested (typo on greeting H1 class `welcome-titleapp` — missing font-size/margin/line-height styling) + ",
+      "details": null,
+      "cost_usd": 2.8038249999999993,
+      "total_tokens": 13007
     },
     {
       "agent": "admissions-pr-reviewer",
