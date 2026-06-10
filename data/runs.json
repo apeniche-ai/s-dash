@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-10T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 209.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4574 [6097][6098][6099][6100][6102][6103] Add Exercise (unattempted, correct, incorrect) Flows in Maren AI → Approved + Browser QA Skipped (defensive guard, full CI green)",
+      "details": null,
+      "cost_usd": 2.0000345,
+      "total_tokens": 9545
     },
     {
       "agent": "admissions-pr-reviewer",
