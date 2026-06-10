@@ -179,6 +179,16 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-10T15:33:51Z",
+      "duration_seconds": 228.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4624 [TTPAI-218] Scope chat message loading to active study session for cross-page continuity → Approved + Browser QA Skipped (parent-branch dependency + local Bundler env known-broke",
+      "details": null,
+      "cost_usd": 1.8679232500000005,
+      "total_tokens": 10292
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-10T15:15:01Z",
       "duration_seconds": 1.2,
@@ -4867,16 +4877,6 @@
       "details": null,
       "cost_usd": 2.413591000000001,
       "total_tokens": 13547
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-28T19:00:00Z",
-      "duration_seconds": 81.3,
-      "status": "success",
-      "summary": "Tick #162 complete. Silent by design — PaaS Bill Audit ~40h post-send (still inside 24-48h read window), no Amaury reply, voice-transcription reliability incident still hot on default channel. Log wri",
-      "details": null,
-      "cost_usd": 0.99370325,
-      "total_tokens": 5529
     }
   ]
 }
