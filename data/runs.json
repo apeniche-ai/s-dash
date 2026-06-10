@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-10T19:01:43Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-10T19:00:44Z",
       "duration_seconds": 1.1,
@@ -4868,16 +4876,6 @@
       "details": null,
       "cost_usd": 1.1361849999999998,
       "total_tokens": 6435
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-28T22:30:47Z",
-      "duration_seconds": 139.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4563 [TTP-6096] Implement recurring session welcome flow → Approved + Browser QA Skipped (trivial 1-word copy tweak since last approval; stacked PR base not on master)",
-      "details": null,
-      "cost_usd": 1.5745315000000002,
-      "total_tokens": 7344
     }
   ]
 }
