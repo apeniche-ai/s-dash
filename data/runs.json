@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-10T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 469.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4625 [TTP-6251] Show regional South Asia pricing on the plans page → Changes Requested (guest LiveTeach checkout still routes through `SubscriptionsController#create:261` singular `ON",
+      "details": null,
+      "cost_usd": 3.6920904999999995,
+      "total_tokens": 27224
     },
     {
       "agent": "pr-reviewer",
