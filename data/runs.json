@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-06-10T12:15:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-10T12:02:11Z",
       "duration_seconds": 277.6,
@@ -4867,16 +4875,6 @@
       "details": null,
       "cost_usd": 1.9918962499999997,
       "total_tokens": 14648
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-28T15:00:00Z",
-      "duration_seconds": 129.0,
-      "status": "success",
-      "summary": "Tick #161 complete. Silent by design — PaaS Bill Audit ~36h post-send (still inside 24-48h read window), no Amaury reply, voice-transcription incident still hot on default channel. Log written. No led",
-      "details": null,
-      "cost_usd": 1.22685275,
-      "total_tokens": 7221
     }
   ]
 }
