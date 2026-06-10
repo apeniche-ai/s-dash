@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-10T15:02:08Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 305.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4623 [6213] Replace Zoom branding on LiveTeach video call button with generic version → Approved + Browser QA Skipped (local Bundler env broken)",
+      "details": null,
+      "cost_usd": 1.9440030000000004,
+      "total_tokens": 8702
     },
     {
       "agent": "passive-income-research-loop",
