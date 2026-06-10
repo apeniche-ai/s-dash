@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-10T12:30:43Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 151.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4601 [6155][6156][6158] Add onboarding diagnostic section intro, diagnostic test step and diagnostic results step → Approved + Browser QA Skipped (CSS-only follow-up)",
+      "details": null,
+      "cost_usd": 1.73508225,
+      "total_tokens": 7055
     },
     {
       "agent": "daily-todo-digest",
