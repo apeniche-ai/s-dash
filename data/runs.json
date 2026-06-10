@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-10T11:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-10T11:15:01Z",
       "duration_seconds": 0.8,
@@ -4865,16 +4873,6 @@
       "details": null,
       "cost_usd": 1.3393665,
       "total_tokens": 7874
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-28T14:14:12Z",
-      "duration_seconds": 358.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4567 [6174][6175][6176] Replicate New Onboarding Flow Across GRE, EA, and SAT Courses → Approved + Browser QA Skipped (Ruby/bundler env broken)",
-      "details": null,
-      "cost_usd": 2.8196132499999997,
-      "total_tokens": 21509
     }
   ]
 }
