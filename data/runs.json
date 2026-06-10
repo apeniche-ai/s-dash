@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-10T10:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-10T03:00:01Z",
       "duration_seconds": 84.9,
@@ -4865,16 +4873,6 @@
       "details": null,
       "cost_usd": 0.48430935,
       "total_tokens": 8514
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-05-28T14:06:26Z",
-      "duration_seconds": 61.9,
-      "status": "success",
-      "summary": "Done. Todo list is empty and nothing completed since yesterday — no digest sent. Bookkeeping timestamp stored.",
-      "details": null,
-      "cost_usd": 0.26593475,
-      "total_tokens": 2630
     }
   ]
 }
