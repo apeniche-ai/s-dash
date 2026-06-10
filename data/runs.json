@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "launch-concierge",
+      "timestamp": "2026-06-10T13:08:31Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Launch Concierge...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-10T13:03:48Z",
       "duration_seconds": null,
@@ -4865,16 +4873,6 @@
       "details": null,
       "cost_usd": 3.74605125,
       "total_tokens": 24441
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-05-28T16:00:00Z",
-      "duration_seconds": 214.5,
-      "status": "success",
-      "summary": "Tick complete. Silent by design.",
-      "details": null,
-      "cost_usd": 1.8003155,
-      "total_tokens": 11233
     }
   ]
 }
