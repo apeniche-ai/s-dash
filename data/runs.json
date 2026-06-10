@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-10T12:02:11Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-10T12:00:00Z",
       "duration_seconds": 129.9,
@@ -4867,16 +4875,6 @@
       "details": null,
       "cost_usd": 1.22685275,
       "total_tokens": 7221
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-28T14:30:01Z",
-      "duration_seconds": 394.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4574 [6097][6098][6103] Maren AI — Example Selected, Correct Answer, Generate New Example flows → Changes Requested (stored XSS in save_chip_click_messages via unsanitized params[:ack",
-      "details": null,
-      "cost_usd": 2.9323437500000002,
-      "total_tokens": 23865
     }
   ]
 }
