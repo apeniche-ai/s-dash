@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "soren-improvement-review",
+      "timestamp": "2026-06-10T22:11:42Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
+      "agent": "soren-improvement-review",
       "timestamp": "2026-06-10T22:10:01Z",
       "duration_seconds": 41.8,
       "status": "error",
@@ -4858,16 +4866,6 @@
       "details": null,
       "cost_usd": 1.2226992499999998,
       "total_tokens": 6175
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-05-29T11:30:02Z",
-      "duration_seconds": 225.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4587 [6198] Add lesson summary state one complete nice work → Changes Requested (dead mastery-check CTA, attempt-count completion miscount, last_lesson nil guard) + Browser QA Skipped",
-      "details": null,
-      "cost_usd": 1.862789,
-      "total_tokens": 11894
     }
   ]
 }
