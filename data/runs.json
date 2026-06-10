@@ -180,6 +180,16 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-10T14:06:21Z",
+      "duration_seconds": 365.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4549 [TTPAI-89] Add flashcard existing-deck check auto-count → Approved + Browser QA Skipped (flashcard LLM/S3 flow not viable in local env)",
+      "details": null,
+      "cost_usd": 2.67317425,
+      "total_tokens": 12936
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-10T13:31:49Z",
       "duration_seconds": 300.5,
       "status": "success",
@@ -4867,14 +4877,6 @@
       "details": null,
       "cost_usd": 0.50002495,
       "total_tokens": 5080
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-05-28T17:15:01Z",
-      "duration_seconds": 1.0,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
