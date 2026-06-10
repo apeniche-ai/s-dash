@@ -181,10 +181,13 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-06-10T20:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 41.6,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1"
+      ]
     },
     {
       "agent": "admissions-pr-reviewer",
