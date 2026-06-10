@@ -181,10 +181,13 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-10T22:11:42Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 38.3,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1"
+      ]
     },
     {
       "agent": "soren-improvement-review",
