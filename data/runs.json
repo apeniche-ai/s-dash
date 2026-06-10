@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-10T13:03:48Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 284.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4608 [TTPAI-99] Add agentic chatbot wiring → Approved + Browser QA Skipped (prompt-content only, behind feature flag)",
+      "details": null,
+      "cost_usd": 2.46525425,
+      "total_tokens": 14622
     },
     {
       "agent": "pr-reviewer",
