@@ -181,10 +181,13 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-06-10T23:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 40.7,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1"
+      ]
     },
     {
       "agent": "passive-income-research-loop",
