@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T15:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 235.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4555 [TTPAI-131] Intelligent per-section onboarding diagnostic item selector + EvaluationStarter guard → Approved + Browser QA Skipped (data-migration-gated; selector returns [] until",
+      "details": null,
+      "cost_usd": 2.1484149999999995,
+      "total_tokens": 12808
     },
     {
       "agent": "admissions-pr-reviewer",
