@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-11T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 196.4,
+      "status": "success",
+      "summary": "One suggestion shipped: **Sunday \"Open Loops\"** — a weekly forcing function that surfaces every deferred decision Amaury made across all channels in the past 7 days, with three-tap close. Targets P10 ",
+      "details": null,
+      "cost_usd": 1.3093237500000001,
+      "total_tokens": 10975
     },
     {
       "agent": "pr-reviewer",
