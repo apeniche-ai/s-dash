@@ -181,10 +181,12 @@
     {
       "agent": "launch-concierge",
       "timestamp": "2026-06-11T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Launch Concierge...",
-      "details": null
+      "duration_seconds": 111.1,
+      "status": "success",
+      "summary": "Day 26 tick complete — **action drafted but not delivered** (Telegram send failed).",
+      "details": null,
+      "cost_usd": 1.9112364999999998,
+      "total_tokens": 8465
     },
     {
       "agent": "pr-reviewer",
