@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-11T20:30:43Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-06-11T20:30:00Z",
       "duration_seconds": 41.0,
@@ -4880,16 +4888,6 @@
       "details": null,
       "cost_usd": 1.5171474999999996,
       "total_tokens": 7815
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-30T15:06:23Z",
-      "duration_seconds": 91.3,
-      "status": "success",
-      "summary": "Not applicable — this is a single-action research tick, not a multi-step task workflow. Tick complete.",
-      "details": null,
-      "cost_usd": 1.06586825,
-      "total_tokens": 5003
     }
   ]
 }
