@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-06-11T20:31:41Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T20:30:43Z",
       "duration_seconds": 1.1,
@@ -4878,16 +4886,6 @@
       "details": null,
       "cost_usd": 1.326212,
       "total_tokens": 5562
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-05-30T16:00:00Z",
-      "duration_seconds": 169.8,
-      "status": "success",
-      "summary": "Tick complete. Silent by design.",
-      "details": null,
-      "cost_usd": 1.5171474999999996,
-      "total_tokens": 7815
     }
   ]
 }
