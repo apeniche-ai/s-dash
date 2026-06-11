@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T17:33:16Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 181.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4637 [6254] Fix reset account 500 error for non-admin roles → Approved + Browser QA Skipped (admin permission fix only exercises non-super-admin path; standard test user is super-admi",
+      "details": null,
+      "cost_usd": 1.89509175,
+      "total_tokens": 8425
     },
     {
       "agent": "slack-watch",
