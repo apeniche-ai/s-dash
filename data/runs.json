@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-11T20:00:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-11T19:30:01Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4883,16 +4891,6 @@
       "details": null,
       "cost_usd": 1.42835275,
       "total_tokens": 5132
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-05-30T13:01:31Z",
-      "duration_seconds": 169.0,
-      "status": "success",
-      "summary": "Tick #16 complete. Silent by design.",
-      "details": null,
-      "cost_usd": 1.8529674999999997,
-      "total_tokens": 10946
     }
   ]
 }
