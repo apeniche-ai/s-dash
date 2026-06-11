@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 148.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4633 [TTPAI-220] Move inline vector KB resync off request path to background job → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.40843,
+      "total_tokens": 6927
     },
     {
       "agent": "admissions-pr-reviewer",
