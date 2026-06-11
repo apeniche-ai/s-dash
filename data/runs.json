@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T13:32:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 232.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4574 [6097…6103] Add Exercise (unattempted, correct, incorrect) Flows in Maren AI → Approved + Browser QA Skipped (narrow QC-stem render change, active human QA cycle, QC fixture data",
+      "details": null,
+      "cost_usd": 2.1268077499999998,
+      "total_tokens": 9198
     },
     {
       "agent": "slack-watch",
