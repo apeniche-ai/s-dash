@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T15:00:42Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 204.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4634 [6252] Add support for OG 2026-2027 edition → Approved + Browser QA Skipped (data-migration-gated change; comprehensive specs + full CI green)",
+      "details": null,
+      "cost_usd": 1.8774797499999996,
+      "total_tokens": 9332
     },
     {
       "agent": "passive-income-research-loop",
