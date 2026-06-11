@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T12:30:38Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 197.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4567 [6174][6175][6176][6219] Replicate New Onboarding Flow Across GRE, EA, and SAT Courses → Approved + Browser QA Skipped (26th review iteration on epic-base feature branch; delta i",
+      "details": null,
+      "cost_usd": 1.99992775,
+      "total_tokens": 9587
     },
     {
       "agent": "daily-todo-digest",
