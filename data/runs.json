@@ -181,10 +181,13 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-11T01:01:44Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 40.7,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1"
+      ]
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
