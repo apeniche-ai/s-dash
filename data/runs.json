@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T12:01:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 204.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4630 [TTPAI-147/157/218] Chatbot sessions, memory and cross page continuity → Approved + Browser QA Skipped (epic deploy PR bundling already-merged sub-PRs, base is deploy/ai-retrieva",
+      "details": null,
+      "cost_usd": 1.7547807499999997,
+      "total_tokens": 11456
     },
     {
       "agent": "passive-income-discovery-scan",
