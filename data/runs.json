@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T19:01:38Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 233.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-99/100/206/207] Chatbot Agentic Tool Calls → Changes Requested (EA/SAT exam regression in toolbox helper + raw exception messages leaked through tool returns) + Browser QA",
+      "details": null,
+      "cost_usd": 2.39939975,
+      "total_tokens": 11690
     },
     {
       "agent": "passive-income-research-loop",
