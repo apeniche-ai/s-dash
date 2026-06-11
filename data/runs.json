@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 179.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4625 [TTP-6251] Show regional South Asia pricing on the plans page (GRE first) → Approved + Browser QA Skipped (regional pricing needs Recurly production clones — can't be exercised l",
+      "details": null,
+      "cost_usd": 1.89283925,
+      "total_tokens": 8887
     },
     {
       "agent": "admissions-pr-reviewer",
