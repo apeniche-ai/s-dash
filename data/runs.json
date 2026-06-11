@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T13:06:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 160.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4632 [6253] Fix chatbot not appearing on bookmark and error tracker pages for some problem → Approved + Browser QA Skipped (specific bug condition requires GRE staging data — problem ",
+      "details": null,
+      "cost_usd": 1.5474785000000004,
+      "total_tokens": 9315
     },
     {
       "agent": "pr-follow-up-check",
