@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-06-11T20:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-11T20:15:01Z",
       "duration_seconds": 0.9,
@@ -4879,16 +4887,6 @@
       "details": null,
       "cost_usd": 1.06586825,
       "total_tokens": 5003
-    },
-    {
-      "agent": "system-health-audit",
-      "timestamp": "2026-05-30T15:00:00Z",
-      "duration_seconds": 382.0,
-      "status": "success",
-      "summary": "Audit complete. Here's the full summary:",
-      "details": null,
-      "cost_usd": 0.8021503,
-      "total_tokens": 20792
     }
   ]
 }
