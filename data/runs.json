@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T16:02:53Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 177.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4555 [TTPAI-131] Intelligent per-section onboarding diagnostic item selector + EvaluationStarter guard → Approved + Browser QA Skipped (backend service, no controller call site yet)",
+      "details": null,
+      "cost_usd": 1.68153125,
+      "total_tokens": 7061
     },
     {
       "agent": "career-market-research-loop",
