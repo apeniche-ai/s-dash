@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-11T11:34:37Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 61.8,
+      "status": "success",
+      "summary": "Done. Thu 6/11 AM check-in held silent — weekly-cadence-only mode binding, sending 5 days after Sat 6/6 rotation would directly violate it and burn the Sat 6/13 cadence slot 48h early. No coaching-cha",
+      "details": null,
+      "cost_usd": 1.0086267500000001,
+      "total_tokens": 3147
     },
     {
       "agent": "pr-reviewer",
