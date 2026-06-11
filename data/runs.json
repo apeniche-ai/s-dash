@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 193.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4638 [TTPAI-66] CS support knowledge base: 56 content chunks, ingestion manifest, escalation map and support prompts → Approved + Browser QA Skipped (content-only)",
+      "details": null,
+      "cost_usd": 2.246785,
+      "total_tokens": 9114
     },
     {
       "agent": "admissions-pr-reviewer",
