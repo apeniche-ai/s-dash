@@ -181,10 +181,13 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-11T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 41.3,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1"
+      ]
     },
     {
       "agent": "pr-reviewer",
