@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T11:01:11Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 147.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4622 [TTPAI-100] Add six agentic tool definitions for learning and content generation → Approved + Browser QA Skipped (backend chatbot tool definitions, no UI surface)",
+      "details": null,
+      "cost_usd": 1.59826075,
+      "total_tokens": 6653
     },
     {
       "agent": "passive-income-research-loop",
