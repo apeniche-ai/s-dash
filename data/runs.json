@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 306.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4601 [6155][6156][6158][6250] Add onboarding diagnostic section intro, diagnostic test step and diagnostic results step → Approved + Browser QA Skipped (env: bundler 2.6.9 missing)",
+      "details": null,
+      "cost_usd": 2.9344315000000005,
+      "total_tokens": 17897
     },
     {
       "agent": "pr-reviewer",
