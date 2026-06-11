@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-06-11T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-11T23:00:14Z",
       "duration_seconds": 80.9,
@@ -4867,16 +4875,6 @@
       "details": null,
       "cost_usd": 1.78665725,
       "total_tokens": 8414
-    },
-    {
-      "agent": "launch-concierge",
-      "timestamp": "2026-05-31T13:00:01Z",
-      "duration_seconds": 134.3,
-      "status": "success",
-      "summary": "Tick complete. Here's the summary:",
-      "details": null,
-      "cost_usd": 0.46834919999999997,
-      "total_tokens": 5588
     }
   ]
 }
