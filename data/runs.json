@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-11T23:00:14Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T22:30:02Z",
       "duration_seconds": 1.0,
@@ -4867,16 +4875,6 @@
       "details": null,
       "cost_usd": 0.46834919999999997,
       "total_tokens": 5588
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-05-31T12:00:01Z",
-      "duration_seconds": 107.5,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 succeeded, 4 Reddit subs blocked — 19th consecutive run), wrote 0 findings. HN AI-agent-infra cluster (7 launches), UUID collision post, and Anthropic AWS Managed-Agents availabil",
-      "details": null,
-      "cost_usd": 1.3573222500000002,
-      "total_tokens": 6451
     }
   ]
 }
