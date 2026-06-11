@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 275.8,
+      "status": "success",
+      "summary": "Approved + label applied. Outside work hours (06:30) — batched silently to memory, no Telegram.",
+      "details": null,
+      "cost_usd": 3.1779665,
+      "total_tokens": 16595
     },
     {
       "agent": "admissions-pr-reviewer",
