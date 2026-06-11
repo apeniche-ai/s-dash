@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 139.2,
+      "status": "success",
+      "summary": "Telegram delivery failed (`fetch failed` — same pattern as other agents today), but the review itself was submitted and labeled successfully on GitHub.",
+      "details": null,
+      "cost_usd": 1.7274195,
+      "total_tokens": 6368
     },
     {
       "agent": "pr-reviewer",
