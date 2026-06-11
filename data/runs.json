@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-11T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 198.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4595 [6210][6130] Add Maren AI trial ending banner with remaining messages and limit reached soft gate → Approved + Browser QA Skipped (trial user fixture unavailable)",
+      "details": null,
+      "cost_usd": 1.66293075,
+      "total_tokens": 5323
     },
     {
       "agent": "pr-reviewer",
