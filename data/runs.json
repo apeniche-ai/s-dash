@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-11T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 132.4,
+      "status": "success",
+      "summary": "Tick #226 complete. Silent by design — end-of-Wed close-out per plan.",
+      "details": null,
+      "cost_usd": 1.1576624999999998,
+      "total_tokens": 7268
     },
     {
       "agent": "goal-progress-reconciliation",
