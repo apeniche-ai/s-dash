@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-12T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 152.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4644 [TTP-6257] Add four study-pace FAQs to the GMAT plans page → Approved + Browser QA Skipped (content/copy change requires running data migration on local Redis)",
+      "details": null,
+      "cost_usd": 1.5918722499999998,
+      "total_tokens": 8840
     },
     {
       "agent": "admissions-pr-reviewer",
