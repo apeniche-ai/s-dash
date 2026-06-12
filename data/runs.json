@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "daily-performance-check-in",
+      "timestamp": "2026-06-12T11:32:29Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Performance Check-in...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-12T11:30:01Z",
       "duration_seconds": null,
@@ -4861,16 +4869,6 @@
       "details": null,
       "cost_usd": 2.43464575,
       "total_tokens": 14750
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-01T03:00:00Z",
-      "duration_seconds": 92.2,
-      "status": "success",
-      "summary": "Tick #178 complete. Silent by design — Sun 22:00 post-consolidation read-and-confirm. State singleton refreshed at 21:00 (new ID 01KT0EP1BCDH0WN32BGEH2CK11), PaaS Bill Audit auto-paused, scout-blackou",
-      "details": null,
-      "cost_usd": 1.07706575,
-      "total_tokens": 5385
     }
   ]
 }
