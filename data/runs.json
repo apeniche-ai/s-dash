@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-12T03:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-06-12T02:30:00Z",
       "duration_seconds": 17.5,
@@ -4867,16 +4875,6 @@
       "details": null,
       "cost_usd": 1.2152642499999997,
       "total_tokens": 6661
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-05-31T19:00:00Z",
-      "duration_seconds": 80.1,
-      "status": "success",
-      "summary": "Tick #176 done. Silent by design — Sun 14:00, ~52h post-nudge, still no reply on passive-income channel, voice-transcription incident still warm on default channel. Consolidation at 21:00 (~7h out) ow",
-      "details": null,
-      "cost_usd": 1.39270925,
-      "total_tokens": 4354
     }
   ]
 }
