@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-12T11:32:29Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 89.4,
+      "status": "success",
+      "summary": "Not applicable here — this was a single-step morning check-in decision (HOLD), already executed and logged. No multi-step work to track.",
+      "details": null,
+      "cost_usd": 0.9319492500000001,
+      "total_tokens": 4483
     },
     {
       "agent": "pr-reviewer",
