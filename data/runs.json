@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-12T12:30:42Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 232.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4559 Maren Onboarding + Diagnostic → Approved + Browser QA Skipped (cosmetic single-button removal in already-3x-approved epic)",
+      "details": null,
+      "cost_usd": 2.114614,
+      "total_tokens": 12480
     },
     {
       "agent": "daily-todo-digest",
