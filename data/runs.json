@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-12T21:00:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-12T20:31:32Z",
       "duration_seconds": 0.8,
       "status": "success",
@@ -4841,16 +4849,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-02T21:00:01Z",
-      "duration_seconds": 296.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4574 [6097][6098][6103][6099][6100][6102][6103] Add Exercise ( unattempted, correct, incorrect) Flows in Maren AI → Changes Requested (critical stored XSS in new `save_reasoning_messa",
-      "details": null,
-      "cost_usd": 2.56906775,
-      "total_tokens": 14211
     }
   ]
 }
