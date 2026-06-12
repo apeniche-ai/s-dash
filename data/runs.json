@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-12T17:31:49Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-06-12T17:30:00Z",
       "duration_seconds": 108.0,
@@ -4851,16 +4859,6 @@
       "details": null,
       "cost_usd": 1.62432225,
       "total_tokens": 10074
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-01T15:00:01Z",
-      "duration_seconds": 111.8,
-      "status": "success",
-      "summary": "Not applicable — this is a single-action scheduled tick (load state → silent decision → write log), not multi-step work that benefits from task tracking.",
-      "details": null,
-      "cost_usd": 1.1891805,
-      "total_tokens": 6838
     }
   ]
 }
