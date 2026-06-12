@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-12T17:31:49Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 215.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4643 [TTP-6255] Account for Recurly line item quantity when crediting tutoring hours → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.74389225,
+      "total_tokens": 11125
     },
     {
       "agent": "slack-watch",
