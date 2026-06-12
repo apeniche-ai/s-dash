@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-06-12T12:15:02Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-12T12:01:36Z",
       "duration_seconds": 1.1,
@@ -4861,16 +4869,6 @@
       "details": null,
       "cost_usd": 2.96338,
       "total_tokens": 18677
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-01T11:00:01Z",
-      "duration_seconds": 88.9,
-      "status": "success",
-      "summary": "Tick #179 complete. Silent by design — Mon 06:00 pre-work-hour slot under the new 7-day plan. State singleton fresh (~9h), all 3 paused threads under re-raise gate until Sun Jun 7, no Amaury reply ove",
-      "details": null,
-      "cost_usd": 1.0862325000000002,
-      "total_tokens": 4876
     }
   ]
 }
