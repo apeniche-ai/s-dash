@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-12T13:31:54Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 244.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [TTP-6094][TTP-6118] Maren Chatbot Redesign + Trial flows → Changes Requested (XSS in maren_error_message + unused timestamp assignment) + Browser QA Skipped (epic rollup of alre",
+      "details": null,
+      "cost_usd": 2.0437722500000004,
+      "total_tokens": 13376
     },
     {
       "agent": "slack-watch",
