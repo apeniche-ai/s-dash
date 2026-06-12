@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-12T13:03:57Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-12T13:02:28Z",
       "duration_seconds": 87.7,
@@ -4859,16 +4867,6 @@
       "details": null,
       "cost_usd": 1.33713175,
       "total_tokens": 5549
-    },
-    {
-      "agent": "weekly-vp-performance-edge",
-      "timestamp": "2026-06-01T12:00:00Z",
-      "duration_seconds": 152.4,
-      "status": "success",
-      "summary": "Tip shipped to coaching channel and logged to memory for next week's dedup.",
-      "details": null,
-      "cost_usd": 0.9345477499999998,
-      "total_tokens": 5495
     }
   ]
 }
