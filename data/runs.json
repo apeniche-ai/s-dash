@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-12T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 109.3,
+      "status": "success",
+      "summary": "Nudged the stale \"Morning who's stuck on your team radar\" suggestion (P10 defensive capability, ~8 days idle). Skipped creating a new one — backlog is jammed with 23 proposed items covering the same s",
+      "details": null,
+      "cost_usd": 0.83587525,
+      "total_tokens": 6099
     },
     {
       "agent": "pr-reviewer",
