@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-06-12T20:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 91.0,
+      "status": "success",
+      "summary": "Slack cache not ready — same failure for the 3rd run in a row. Notified Amaury once per protocol (Telegram delivered successfully this time). The 18:30 scheduled run will try again.",
+      "details": null,
+      "cost_usd": 0.318483,
+      "total_tokens": 3849
     },
     {
       "agent": "admissions-pr-reviewer",
