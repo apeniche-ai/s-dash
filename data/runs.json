@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-12T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 207.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4645 [6256] Add 1 column option to visual tiles grid selector → Approved + Browser QA Skipped (env broken)",
+      "details": null,
+      "cost_usd": 2.3406819999999997,
+      "total_tokens": 11622
     },
     {
       "agent": "pr-reviewer",
