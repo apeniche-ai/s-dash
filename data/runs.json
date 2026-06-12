@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-12T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 165.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4641 [TTPAI-222] Add SIP payload enrichment for personalization surfaces → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.8558095000000001,
+      "total_tokens": 8959
     },
     {
       "agent": "admissions-pr-reviewer",
