@@ -1,5 +1,13 @@
 {
   "agents": {
+    "passive-income-builder-loop": {
+      "id": "01KT50CDGX2155Z6VJA953HXBT",
+      "name": "Passive Income Builder Loop",
+      "agent": "passive-income-builder",
+      "status": "enabled",
+      "schedule": "0 6 * * *",
+      "description": "Daily 6 AM — autonomously ships one missing piece on the current in-market product (or asks Amaury for one tap when he's the bottleneck)."
+    },
     "aschenbrenner-intelligence-loop": {
       "id": "01KS6H0Q428QCH4TCC45E1X8FS",
       "name": "Aschenbrenner Intelligence Loop",
