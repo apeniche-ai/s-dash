@@ -1,13 +1,5 @@
 {
   "agents": {
-    "launch-concierge": {
-      "id": "01KSG1A1PTXDRZJD619APMRND2",
-      "name": "Launch Concierge",
-      "agent": "launch-concierge",
-      "status": "enabled",
-      "schedule": "0 8 * * *",
-      "description": "Daily 8 AM — one concrete 5-minute action to move Heroku Audit toward its first paying customer"
-    },
     "aschenbrenner-intelligence-loop": {
       "id": "01KS6H0Q428QCH4TCC45E1X8FS",
       "name": "Aschenbrenner Intelligence Loop",
