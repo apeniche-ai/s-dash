@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-06-12T17:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 108.0,
+      "status": "success",
+      "summary": "Same dual failure as the previous run — Slack cache not ready and Telegram delivery failed. Notification attempt made per protocol; not retrying either.",
+      "details": null,
+      "cost_usd": 0.30702039999999997,
+      "total_tokens": 3283
     },
     {
       "agent": "admissions-pr-reviewer",
