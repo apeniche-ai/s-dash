@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-12T12:30:42Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-06-12T12:30:01Z",
       "duration_seconds": 40.3,
@@ -4859,16 +4867,6 @@
       "details": null,
       "cost_usd": 2.3864179999999995,
       "total_tokens": 12598
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-06-01T11:15:01Z",
-      "duration_seconds": 186.4,
-      "status": "success",
-      "summary": "Reviewed 1 PR (admissions): #655 [ADM-701] - Implement download functionality across the app → Approved",
-      "details": null,
-      "cost_usd": 1.7763605000000005,
-      "total_tokens": 10460
     }
   ]
 }
