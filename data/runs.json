@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-12T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 226.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4643 [TTP-6255] Account for Recurly line item quantity when crediting tutoring hours → Changes Requested (amount-based inference fallback contradicts ticket constraint) + Browser QA S",
+      "details": null,
+      "cost_usd": 1.8290657499999998,
+      "total_tokens": 10932
     },
     {
       "agent": "pr-reviewer",
