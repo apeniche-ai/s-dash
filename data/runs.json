@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-12T18:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-12T17:31:49Z",
       "duration_seconds": 215.7,
       "status": "success",
@@ -4851,16 +4859,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-01T15:01:54Z",
-      "duration_seconds": 184.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4590 [TTPAI-152] Implement MSR AI example generation with original tabs → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.62432225,
-      "total_tokens": 10074
     }
   ]
 }
