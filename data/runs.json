@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-13T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 66.0,
+      "status": "success",
+      "summary": "Nudged the stale Build Agent proposal — highest-leverage idle item, directly tied to P8 (move from discovery to build). Skipped creating a new suggestion: backlog is jammed at 24 proposed, and the obv",
+      "details": null,
+      "cost_usd": 0.750893,
+      "total_tokens": 3430
     },
     {
       "agent": "passive-income-research-loop",
