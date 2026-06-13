@@ -181,10 +181,12 @@
     {
       "agent": "system-health-audit",
       "timestamp": "2026-06-13T15:01:43Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running System Health Audit...",
-      "details": null
+      "duration_seconds": 449.9,
+      "status": "success",
+      "summary": "Audit complete. The final report went through (confirming the intermittent nature — the test ping failed but the actual report sent).",
+      "details": null,
+      "cost_usd": 0.8727910999999999,
+      "total_tokens": 22713
     },
     {
       "agent": "passive-income-research-loop",
