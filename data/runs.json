@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-13T11:01:29Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 79.1,
+      "status": "success",
+      "summary": "Tick #236 done. Silent by design — Saturday pre-dawn pre-scout slot, ledger unchanged for the 6th day running, channel still quiet 28 days. Next meaningful window is #237 at 10:00 (post-scout discover",
+      "details": null,
+      "cost_usd": 0.9812077499999999,
+      "total_tokens": 5317
     },
     {
       "agent": "passive-income-builder-loop",
