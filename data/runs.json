@@ -181,10 +181,12 @@
     {
       "agent": "behavioral-experiments-follow-up",
       "timestamp": "2026-06-13T14:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Behavioral Experiments Follow-Up...",
-      "details": null
+      "duration_seconds": 72.7,
+      "status": "success",
+      "summary": "Done. Saturday Behavioral Experiments Follow-Up HELD — no Telegram send.",
+      "details": null,
+      "cost_usd": 0.9019735,
+      "total_tokens": 3544
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
