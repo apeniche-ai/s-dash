@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-13T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 96.6,
+      "status": "success",
+      "summary": "Tick #235 done. Silent by design — Friday 10 PM close, 27 days quiet on the channel, ledger unchanged, nothing for Amaury. Week 5 closes with 25 straight silent ticks and lane discipline intact. Pause",
+      "details": null,
+      "cost_usd": 0.994781,
+      "total_tokens": 6057
     },
     {
       "agent": "goal-progress-reconciliation",
