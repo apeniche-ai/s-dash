@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-13T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 144.9,
+      "status": "success",
+      "summary": "Tick #43 complete. Silent by design — no Telegram sent.",
+      "details": null,
+      "cost_usd": 1.3437952499999999,
+      "total_tokens": 7913
     },
     {
       "agent": "passive-income-discovery-scan",
