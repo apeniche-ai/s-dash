@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-06-13T16:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "system-health-audit",
       "timestamp": "2026-06-13T15:01:43Z",
       "duration_seconds": 449.9,
@@ -4837,16 +4845,6 @@
       "details": null,
       "cost_usd": 1.6146135,
       "total_tokens": 9764
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-06-03T12:00:00Z",
-      "duration_seconds": 114.7,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 succeeded — HN Show, HN Ask, Anthropic, OpenAI, Google; 4 Reddit subs blocked for 22nd consecutive run). Wrote 0 findings: 3 candidates dropped at the 5-criterion filter — HN top ",
-      "details": null,
-      "cost_usd": 1.3058642500000002,
-      "total_tokens": 7700
     }
   ]
 }
