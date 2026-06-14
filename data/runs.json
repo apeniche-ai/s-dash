@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-06-14T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-14T19:00:00Z",
       "duration_seconds": 89.6,
@@ -4843,16 +4851,6 @@
       "details": null,
       "cost_usd": 1.07626125,
       "total_tokens": 4885
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-03T14:30:02Z",
-      "duration_seconds": 212.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4599 [6209] Add lesson summary lessons with incomplete examples flow → Approved + Browser QA Skipped (epic-stacked base branch + complex seeded state required)",
-      "details": null,
-      "cost_usd": 2.0817187500000003,
-      "total_tokens": 12360
     }
   ]
 }
