@@ -181,10 +181,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-06-14T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 109.7,
+      "status": "success",
+      "summary": "Weekly digest sent to the assistant channel after two delivery retries (telegram fetch errors, then success). Four themes anchored with sources: comp bands flat, AI cost accountability becoming a VPE ",
+      "details": null,
+      "cost_usd": 1.2386467500000002,
+      "total_tokens": 6764
     },
     {
       "agent": "soren-improvement-review",
