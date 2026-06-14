@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-06-14T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-14T01:00:01Z",
       "duration_seconds": 121.7,
@@ -4839,16 +4847,6 @@
       "details": null,
       "cost_usd": 1.5247979999999999,
       "total_tokens": 7406
-    },
-    {
-      "agent": "launch-concierge",
-      "timestamp": "2026-06-03T13:00:01Z",
-      "duration_seconds": 103.6,
-      "status": "success",
-      "summary": "Done. Today's tick:",
-      "details": null,
-      "cost_usd": 0.32774975,
-      "total_tokens": 5101
     }
   ]
 }
