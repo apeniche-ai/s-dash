@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-builder-loop",
+      "timestamp": "2026-06-14T11:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Builder Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-14T03:00:01Z",
       "duration_seconds": 83.1,
@@ -4839,16 +4847,6 @@
       "details": null,
       "cost_usd": 2.7284489999999995,
       "total_tokens": 14749
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-06-03T13:04:39Z",
-      "duration_seconds": 82.6,
-      "status": "success",
-      "summary": "Telegram delivery failed (`fetch failed` — network/transport error). Per fail-fast policy, not retrying.",
-      "details": null,
-      "cost_usd": 0.9476665000000001,
-      "total_tokens": 3743
     }
   ]
 }
