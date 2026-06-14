@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-06-14T01:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-13T23:01:36Z",
       "duration_seconds": 84.7,
@@ -4839,16 +4847,6 @@
       "details": null,
       "cost_usd": 0.32774975,
       "total_tokens": 5101
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-03T12:30:41Z",
-      "duration_seconds": 171.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4598 [6224] Migrate SSL to Cloudflare Origin CA and removes cert from repo → Approved + Browser QA Skipped (docs/.gitignore/file-deletion only — no application code)",
-      "details": null,
-      "cost_usd": 1.9268045,
-      "total_tokens": 8596
     }
   ]
 }
