@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-14T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 127.6,
+      "status": "success",
+      "summary": "Tick #45 done. Silent by design — weekend morning, markets closed, no new Aschenbrenner long-form, no new SEC filings, no ledger transitions. State 71h fresh (under 7d gate, no rewrite). No Telegram s",
+      "details": null,
+      "cost_usd": 1.3179257500000001,
+      "total_tokens": 7470
     },
     {
       "agent": "passive-income-discovery-scan",
