@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-06-15T11:04:42Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Builder Loop...",
-      "details": null
+      "duration_seconds": 252.2,
+      "status": "success",
+      "summary": "Tick #4 complete. SILENT — no Telegram sent.",
+      "details": null,
+      "cost_usd": 1.8301200000000002,
+      "total_tokens": 15124
     },
     {
       "agent": "pr-reviewer",
