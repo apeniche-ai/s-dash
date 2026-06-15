@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-15T11:01:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 182.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4648 [TTPAI-196] Add flashcard prompt card independence thin-lesson suppression → Approved + Browser QA Skipped (TTPAI backend predicate + prompt-text rule)",
+      "details": null,
+      "cost_usd": 1.6177562499999998,
+      "total_tokens": 10327
     },
     {
       "agent": "passive-income-research-loop",
