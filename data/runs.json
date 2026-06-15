@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-15T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 98.5,
+      "status": "success",
+      "summary": "Tick #247 complete. Silent by design — log written, no ledger/state/notify writes, no sub-agent dispatch. 30-day channel silence + 11-day ledger stability + zero scout candidates + Mon 07:00 trading-i",
+      "details": null,
+      "cost_usd": 0.98075775,
+      "total_tokens": 6348
     },
     {
       "agent": "pr-reviewer",
