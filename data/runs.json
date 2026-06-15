@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-06-15T20:30:58Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 251.6,
+      "status": "success",
+      "summary": "alarmed 4 items: Rafael (pagination question, 7h), Lorraine (referral link follow-up, 3h15m), Maria DM (deploy decision, 2h55m), Yari QA MPIM (FAQ display question, 2h51m). Telegram sent, dedup stored",
+      "details": null,
+      "cost_usd": 0.50809055,
+      "total_tokens": 13582
     },
     {
       "agent": "pr-reviewer",
