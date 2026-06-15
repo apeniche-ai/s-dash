@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-06-15T20:30:58Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-15T20:30:01Z",
       "duration_seconds": 1.0,
@@ -4833,16 +4841,6 @@
       "details": null,
       "cost_usd": 1.2297915000000001,
       "total_tokens": 6433
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-04T13:31:48Z",
-      "duration_seconds": 109.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4612 [TTP-6233] Fix falling free account specs → Approved + Browser QA Skipped (test-only change)",
-      "details": null,
-      "cost_usd": 1.40644675,
-      "total_tokens": 4490
     }
   ]
 }
