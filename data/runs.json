@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-15T12:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-15T11:30:01Z",
       "duration_seconds": 125.8,
@@ -4845,16 +4853,6 @@
       "details": null,
       "cost_usd": 1.5567622500000002,
       "total_tokens": 11504
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-03T19:00:00Z",
-      "duration_seconds": 93.6,
-      "status": "success",
-      "summary": "Tick #189 complete. Silent by design — Wed 14:00 channel-check slot per banked 7-day plan. Ledger unchanged (3 pursuing / 1 discussing / 3 paused / 10 rejected). Channel silent 18 days. Scout fired cl",
-      "details": null,
-      "cost_usd": 1.17284075,
-      "total_tokens": 5274
     }
   ]
 }
