@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-15T13:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 239.1,
+      "status": "success",
+      "summary": "Not applicable for a single-PR scheduled review — work is complete.",
+      "details": null,
+      "cost_usd": 2.5401830000000003,
+      "total_tokens": 12345
     },
     {
       "agent": "admissions-pr-reviewer",
