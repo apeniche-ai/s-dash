@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-15T10:30:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 34 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-15T10:00:02Z",
       "duration_seconds": 183.5,
       "status": "success",
@@ -4847,16 +4855,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-03T17:00:01Z",
-      "duration_seconds": 321.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4601 [6155][6156] Add onboarding diagnostic section intro and diagnostic test step → Changes Requested (hide-timer regression + BEGIN double-click race) + Browser QA Skipped (stacked ",
-      "details": null,
-      "cost_usd": 2.913099,
-      "total_tokens": 18331
     }
   ]
 }
