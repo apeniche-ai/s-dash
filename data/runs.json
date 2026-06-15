@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-15T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 266.1,
+      "status": "success",
+      "summary": "Approved with \"Claude Reviewed\" label applied. Stored in batch memory — 7:30 AM is before work hours (08:00), so silent. Next run after 8 AM will send the combined digest.",
+      "details": null,
+      "cost_usd": 2.2472857500000005,
+      "total_tokens": 14885
     },
     {
       "agent": "admissions-pr-reviewer",
