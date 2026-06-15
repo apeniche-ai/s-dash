@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-06-15T23:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 156.6,
+      "status": "success",
+      "summary": "Slack cache went down between the 15:30 and 18:30 runs — same \"sync not ready\" error. Failure notification sent to Telegram, failure logged to dedup memory. No Slack messages were scanned this window.",
+      "details": null,
+      "cost_usd": 0.37153189999999997,
+      "total_tokens": 7326
     },
     {
       "agent": "passive-income-research-loop",
