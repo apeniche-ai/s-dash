@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-15T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 183.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4647 [6259] Per-user toggle for MathJax square-root bar fix → Approved + Browser QA Skipped (destructive data migration required)",
+      "details": null,
+      "cost_usd": 1.60518575,
+      "total_tokens": 9941
     },
     {
       "agent": "passive-income-research-loop",
