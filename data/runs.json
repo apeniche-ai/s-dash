@@ -189,10 +189,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-15T13:03:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 135.3,
+      "status": "success",
+      "summary": "Tick #47 done. Silent by design — Mon morning Primary+Financial scan clean. NBIS closed Fri $232.36 (+4.55%), recovered above the $200 retest and is now +25.6% above the $185 STRONG trigger — moving a",
+      "details": null,
+      "cost_usd": 1.3659545000000004,
+      "total_tokens": 7568
     },
     {
       "agent": "pr-reviewer",
