@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-15T18:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 166.8,
+      "status": "success",
+      "summary": "Ignoring task tool reminder — single-PR review workflow doesn't need task tracking. Telegram failed once (same `fetch failed` pattern seen earlier today across other agents) — per fail-fast rule, no r",
+      "details": null,
+      "cost_usd": 1.6886634999999997,
+      "total_tokens": 8530
     },
     {
       "agent": "slack-watch",
