@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-15T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 170.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4649 [TTPAI-192] Wire CS support KB into vector KB retrieval pipeline → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.9492440000000006,
+      "total_tokens": 9780
     },
     {
       "agent": "slack-watch",
