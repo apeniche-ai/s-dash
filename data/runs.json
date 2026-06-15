@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-06-15T12:04:51Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-15T12:00:01Z",
       "duration_seconds": 291.3,
@@ -4845,16 +4853,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-03T19:01:35Z",
-      "duration_seconds": 187.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4608 [TTPAI-99] Add agentic chatbot wiring → Approved + Browser QA Skipped (backend wiring; no user-visible behavior until TTPAI-100 lands tools)",
-      "details": null,
-      "cost_usd": 1.5567622500000002,
-      "total_tokens": 11504
     }
   ]
 }
