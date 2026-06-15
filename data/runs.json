@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-state-consolidation",
+      "timestamp": "2026-06-15T02:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income State Consolidation...",
+      "details": null
+    },
+    {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-06-15T01:30:00Z",
       "duration_seconds": 151.9,
@@ -4845,16 +4853,6 @@
       "details": null,
       "cost_usd": 1.9059367499999997,
       "total_tokens": 9067
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-06-03T16:00:00Z",
-      "duration_seconds": 152.3,
-      "status": "success",
-      "summary": "Tick complete. Silent by design — no Telegram message sent.",
-      "details": null,
-      "cost_usd": 1.4319272499999995,
-      "total_tokens": 8717
     }
   ]
 }
