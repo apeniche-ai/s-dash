@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-15T13:06:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 66.7,
+      "status": "success",
+      "summary": "Stagnant PR check complete. 5 unaddressed change requests in ttp (admissions clean): #4640, #4589, #4565, #4390, #3569. PR #4495 excluded — Akhilesh pushed a fix Jun 11 after the label. Digest sent to",
+      "details": null,
+      "cost_usd": 0.8047985,
+      "total_tokens": 2878
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
