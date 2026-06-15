@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-15T21:00:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 33 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-06-15T20:30:58Z",
       "duration_seconds": 251.6,
@@ -4833,16 +4841,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-04T14:00:02Z",
-      "duration_seconds": 121.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4606 [TTPAI-147] Add study session table, model, and lifecycle tracking → Approved + Browser QA Skipped (stacked on feature branch)",
-      "details": null,
-      "cost_usd": 1.2297915000000001,
-      "total_tokens": 6433
     }
   ]
 }
