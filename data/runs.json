@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-15T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 225.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4559 Maren Onboarding + Diagnostic → Approved + Browser QA Skipped (epic aggregator)",
+      "details": null,
+      "cost_usd": 2.3238365000000005,
+      "total_tokens": 11674
     },
     {
       "agent": "weekly-team-shipping-report",
