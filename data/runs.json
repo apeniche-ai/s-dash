@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-06-15T17:33:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 255.9,
+      "status": "success",
+      "summary": "alarmed 1 item: Scott (CEO) asked \"What does that mean @amaury?\" in #dev at 10:19 AM Bogotá — unanswered 2h14m, Telegram sent on retry.",
+      "details": null,
+      "cost_usd": 0.5478554000000001,
+      "total_tokens": 12068
     },
     {
       "agent": "pr-reviewer",
