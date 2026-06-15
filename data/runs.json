@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-15T15:01:39Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 169.1,
+      "status": "success",
+      "summary": "Telegram delivery failed (fetch failed — recurring transient issue). Review work is complete; not retrying per fail-fast rule.",
+      "details": null,
+      "cost_usd": 1.5701655,
+      "total_tokens": 9287
     },
     {
       "agent": "passive-income-research-loop",
