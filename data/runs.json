@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-coaching-digest",
+      "timestamp": "2026-06-15T01:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Coaching Digest...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-15T01:00:00Z",
       "duration_seconds": 142.9,
@@ -4845,16 +4853,6 @@
       "details": null,
       "cost_usd": 1.4319272499999995,
       "total_tokens": 8717
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-03T15:30:01Z",
-      "duration_seconds": 253.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4601 [6155] Add onboarding diagnostic section intro step → Changes Requested (critical: BEGIN button is a no-op, wizard stuck on final step) + Browser QA Skipped (stacked on unmerged ",
-      "details": null,
-      "cost_usd": 2.0436725,
-      "total_tokens": 13949
     }
   ]
 }
