@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-16T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 99.4,
+      "status": "success",
+      "summary": "Tick #250 complete. SILENT by design — log written (01KV76143QRPNKVGGMNYS02D29), no ledger writes, no state write, no notify. Mon all-5 ticks SILENT (week 2 day-1 clean), channel quiet 30d, ledger unc",
+      "details": null,
+      "cost_usd": 0.9497389999999999,
+      "total_tokens": 6077
     },
     {
       "agent": "goal-progress-reconciliation",
