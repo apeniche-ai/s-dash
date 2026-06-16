@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-16T18:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-16T18:15:01Z",
       "duration_seconds": 0.8,
@@ -4838,16 +4846,6 @@
       "details": null,
       "cost_usd": 0.3467869,
       "total_tokens": 5770
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-05T12:30:58Z",
-      "duration_seconds": 207.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4606 [TTPAI-147] Add study session table, model, and lifecycle tracking → Approved + Browser QA Skipped (bundler 2.6.9 not installed)",
-      "details": null,
-      "cost_usd": 2.1148187500000004,
-      "total_tokens": 10590
     }
   ]
 }
