@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-16T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 68.3,
+      "status": "success",
+      "summary": "Stagnant PR check complete. 5 unaddressed change requests in ttp (admissions clean): #4640, #4589, #4565, #4390, #3569. All have commits older than the \"Changes Requested\" label, ranging from 4 days t",
+      "details": null,
+      "cost_usd": 0.85447975,
+      "total_tokens": 2997
     },
     {
       "agent": "pr-reviewer",
