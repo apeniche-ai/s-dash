@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-16T17:43:36Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 398.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4652 [TTPAI-205] Pre-generated summary cache → Changes Requested (race in cache write-through surfaces PG error to students during backfill) + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.12441375,
+      "total_tokens": 16208
     },
     {
       "agent": "pr-reviewer",
