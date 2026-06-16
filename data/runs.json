@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-16T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 238.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4651 [TTPAI-193] Wire Maren CS support mode into ChatbotService system prompt → Approved + Browser QA Skipped (prompt-content change)",
+      "details": null,
+      "cost_usd": 2.1612892500000003,
+      "total_tokens": 13419
     },
     {
       "agent": "admissions-pr-reviewer",
