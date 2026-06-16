@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-16T17:43:36Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-16T17:38:14Z",
       "duration_seconds": 262.1,
       "status": "error",
@@ -4838,16 +4846,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-05T12:01:35Z",
-      "duration_seconds": 166.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4574 [6097][6098][6103][6099][6100][6102][6103] Add Exercise (unattempted, correct, incorrect) Flows in Maren AI → Approved + Browser QA Skipped (bundler 2.6.9 not installed)",
-      "details": null,
-      "cost_usd": 2.0348095,
-      "total_tokens": 8824
     }
   ]
 }
