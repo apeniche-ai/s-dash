@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-16T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 93.6,
+      "status": "success",
+      "summary": "No new review needed — #4618 HEAD commit (57d8fdf) was already reviewed at 10:02 today with REQUEST_CHANGES on the `mtl40` typo. The \"Changes Requested\" label had never been applied (still on \"Ready f",
+      "details": null,
+      "cost_usd": 1.1920527499999998,
+      "total_tokens": 4839
     },
     {
       "agent": "daily-performance-check-in",
