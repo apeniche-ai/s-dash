@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-16T10:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 250.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4618 [6189][6190][6191] Add OnDemand and LiveTeach plans to partner pages (GMAT, GRE, EA) → Changes Requested (MLT coupon `mtl40` likely typo for `mlt400`) + Browser QA Skipped (silen",
+      "details": null,
+      "cost_usd": 2.2829285,
+      "total_tokens": 13760
     },
     {
       "agent": "passive-income-research-loop",
