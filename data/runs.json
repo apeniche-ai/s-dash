@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-16T12:01:34Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 145.4,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK: HN Show, HN Ask, all 3 vendor changelogs; 4 Reddit subs blocked day 35 consecutive). Wrote 0 findings — 4 raw candidates dropped at filter: Anthropic Fable 5 reinforces existi",
+      "details": null,
+      "cost_usd": 1.2584085,
+      "total_tokens": 7586
     },
     {
       "agent": "pr-reviewer",
