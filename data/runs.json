@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-16T11:06:25Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-16T11:04:49Z",
       "duration_seconds": 95.4,
@@ -4841,14 +4849,6 @@
       "details": null,
       "cost_usd": 1.1432835000000001,
       "total_tokens": 5998
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-04T18:30:02Z",
-      "duration_seconds": 1.4,
-      "status": "success",
-      "summary": "No PRs to review — 45 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
