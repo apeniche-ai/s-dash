@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-06-16T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Builder Loop...",
-      "details": null
+      "duration_seconds": 288.7,
+      "status": "success",
+      "summary": "Tick #5 complete. Status: SILENT to Amaury — no further Telegram attempts on the passive-income channel until the transport issue is investigated.",
+      "details": null,
+      "cost_usd": 1.7757702499999997,
+      "total_tokens": 16366
     },
     {
       "agent": "pr-reviewer",
