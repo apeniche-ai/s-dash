@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-16T11:33:58Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 203.9,
+      "status": "success",
+      "summary": "Done. Tue 6/16 AM coaching message delivered to coaching channel (clean on retry — same Telegram fetch-flake). Led with the re-delivery of the Mon-evening response that failed 3x sends, framing the br",
+      "details": null,
+      "cost_usd": 1.60181075,
+      "total_tokens": 10634
     },
     {
       "agent": "pr-reviewer",
