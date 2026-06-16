@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-16T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-16T14:30:02Z",
       "duration_seconds": 1.0,
@@ -4847,16 +4855,6 @@
       "details": null,
       "cost_usd": 0.92709825,
       "total_tokens": 2920
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-06-05T01:00:00Z",
-      "duration_seconds": 158.1,
-      "status": "success",
-      "summary": "Tick #26 complete. Silent by design — no Telegram message sent.",
-      "details": null,
-      "cost_usd": 1.7271039999999998,
-      "total_tokens": 10675
     }
   ]
 }
