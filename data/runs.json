@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-16T12:30:48Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 228.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4652 [205] Add pre-generated summary cache with batch generation and cache-first serving → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.77434475,
+      "total_tokens": 13764
     },
     {
       "agent": "daily-todo-digest",
