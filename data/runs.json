@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-16T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 220.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4650 [6260] - Fix loading overlay on cmd-click new tab → Approved + Browser QA Skipped (dev server bundler env failed)",
+      "details": null,
+      "cost_usd": 1.6074784999999998,
+      "total_tokens": 9161
     },
     {
       "agent": "pr-reviewer",
