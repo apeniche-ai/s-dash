@@ -189,10 +189,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-06-16T13:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 83.4,
+      "status": "success",
+      "summary": "Slack cache is still down — third failure episode across yesterday evening and this morning. Failure notification sent to Telegram, failure logged to memory. No messages were scanned.",
+      "details": null,
+      "cost_usd": 0.25403005,
+      "total_tokens": 3053
     },
     {
       "agent": "admissions-pr-reviewer",
