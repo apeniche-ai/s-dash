@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-16T13:03:17Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 158.6,
+      "status": "success",
+      "summary": "Tick #49 complete. Silent by design — Tue morning Primary+Financial scan clean. NBIS exploded +11.93% on Jun 15 to $260.07 (now +41% above $185 entry trigger) — bullish thesis validation but anti-sign",
+      "details": null,
+      "cost_usd": 1.4910767499999997,
+      "total_tokens": 11184
     },
     {
       "agent": "pr-reviewer",
