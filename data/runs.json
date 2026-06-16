@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-16T01:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 153.1,
+      "status": "success",
+      "summary": "Tick #48 complete. Silent by design — Mon evening Content+Community scan clean. All 4 sources (3 WebSearch + HN) returned 2024 archive or Q1 13F re-coverage cluster, all banked. No new Aschenbrenner l",
+      "details": null,
+      "cost_usd": 1.4732299999999998,
+      "total_tokens": 8011
     },
     {
       "agent": "slack-watch",
