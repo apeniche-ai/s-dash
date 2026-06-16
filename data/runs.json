@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-16T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 286.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Approved + Browser QA Skipped (dev env broken)",
+      "details": null,
+      "cost_usd": 2.640931,
+      "total_tokens": 14475
     },
     {
       "agent": "admissions-pr-reviewer",
