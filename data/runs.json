@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-16T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 123.3,
+      "status": "success",
+      "summary": "Done. Mon 6/15 evening reflection sent to coaching channel (clean first-try delivery). VP-Ruler rotation Q, no diagnostic frame, no chase on morning Q or pending felt-sense Q. Session logged; Tue AM j",
+      "details": null,
+      "cost_usd": 1.072599,
+      "total_tokens": 5599
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
