@@ -181,10 +181,13 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-16T17:38:14Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 262.1,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1: 55,\"outputTokens\":15,\"cacheReadInputTokens\":0,\"cacheCreationInputTokens\":0,\"webSearchRequests\":0,\"costUSD\":0.00203,\"contextWindow\":200000,\"maxOutputTokens\":32000},\"claude-opus-4-7\":{\"inputTokens\":15,\"outputTokens\":1515,\"cacheReadInputTokens\":273229,\"cacheCreationInputTokens\":103231,\"webSearchRequests\":0,\"costUSD\":0.81975825,\"contextWindow\":1000000,\"maxOutputTokens\":64000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"2b6876c1-deaf-4e43-beeb-f8478cd9cb5d\"}"
+      ]
     },
     {
       "agent": "slack-watch",
