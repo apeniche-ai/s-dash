@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-06-16T16:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-16T15:30:02Z",
       "duration_seconds": 1.3,
@@ -4841,16 +4849,6 @@
       "details": null,
       "cost_usd": 1.9557572499999998,
       "total_tokens": 11239
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-05T10:00:01Z",
-      "duration_seconds": 267.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4567 [6174][6175][6176][6219] Replicate New Onboarding Flow Across GRE, EA, and SAT Courses → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 2.51660125,
-      "total_tokens": 13083
     }
   ]
 }
