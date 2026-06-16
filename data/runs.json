@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-16T11:06:25Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 182.2,
+      "status": "success",
+      "summary": "Label state corrected. PR #4618 head SHA was unchanged from my review 4 hours ago, so no new code review was warranted — re-posting the same `mtl40` typo flag a 4th time would be noise. Outside work h",
+      "details": null,
+      "cost_usd": 2.05093675,
+      "total_tokens": 9512
     },
     {
       "agent": "passive-income-research-loop",
