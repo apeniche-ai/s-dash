@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-16T18:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 238.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4654 [TTP-6237] Update MBA Insights year from 2024 to 2026 → Approved + Browser QA Skipped (dev server env broken)",
+      "details": null,
+      "cost_usd": 1.864489,
+      "total_tokens": 8123
     },
     {
       "agent": "pr-reviewer",
