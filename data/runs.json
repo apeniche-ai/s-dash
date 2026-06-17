@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-17T18:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 354.2,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4656 [TTPAI-211] - Updates AiAssist:: Namespace into Ai:: → Approved + Browser QA Skipped (pure mechanical namespace refactor, base is deploy/ai-retrieval, ticket scoped out behavior c",
+      "details": null,
+      "cost_usd": 3.9025964999999996,
+      "total_tokens": 20552
     },
     {
       "agent": "pr-reviewer",
