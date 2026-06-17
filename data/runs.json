@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-06-17T19:15:02Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-17T19:01:29Z",
       "duration_seconds": 1.3,
@@ -4830,16 +4838,6 @@
       "details": null,
       "cost_usd": 0.9876895000000001,
       "total_tokens": 4540
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-07T11:00:00Z",
-      "duration_seconds": 119.1,
-      "status": "success",
-      "summary": "Tick #207 complete. SILENT by design — 20h post-nudge, no Vercel reply, consolidation tick owns the auto-pause decision at 21:00 tonight.",
-      "details": null,
-      "cost_usd": 1.3507645,
-      "total_tokens": 6324
     }
   ]
 }
