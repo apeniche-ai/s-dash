@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-17T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 274.3,
+      "status": "success",
+      "summary": "Telegram delivery failed (same fetch flake hitting other agents this turn). Per fail-fast, not retrying. Review is posted on GitHub; only the digest notification was lost.",
+      "details": null,
+      "cost_usd": 2.36516275,
+      "total_tokens": 17000
     },
     {
       "agent": "admissions-pr-reviewer",
