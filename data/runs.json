@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-06-17T17:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 80.1,
+      "status": "success",
+      "summary": "Slack cache still down — same \"empty cache\" error on all 6 channels and the DM user search. Telegram delivered successfully this time (the 8:30 AM run couldn't even get that through). Logged to memory",
+      "details": null,
+      "cost_usd": 0.2851477,
+      "total_tokens": 3705
     },
     {
       "agent": "admissions-pr-reviewer",
