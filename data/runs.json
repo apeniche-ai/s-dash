@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-17T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 329.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4529 [6038] Add self-managed billing engine foundation → Approved + Browser QA Skipped (merge conflicts + new billing engine needs DB migrations & Stripe config — high false-failure r",
+      "details": null,
+      "cost_usd": 2.6664517499999993,
+      "total_tokens": 18041
     },
     {
       "agent": "admissions-pr-reviewer",
