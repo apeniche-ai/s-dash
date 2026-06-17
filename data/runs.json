@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-17T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 86.7,
+      "status": "success",
+      "summary": "Tick #257 complete. SILENT by design — Wed 10:00 scan clean: scout filed 0 candidates this morning (Reddit blackout day 36), ledger unchanged 15th day, channel quiet 32 days, JEPQ/XDTE dormant. No not",
+      "details": null,
+      "cost_usd": 0.9949115000000001,
+      "total_tokens": 5314
     },
     {
       "agent": "pr-reviewer",
