@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-17T22:00:02Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-17T21:30:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4814,16 +4822,6 @@
       "details": null,
       "cost_usd": 1.6712154999999997,
       "total_tokens": 7413
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-07T23:01:27Z",
-      "duration_seconds": 97.5,
-      "status": "success",
-      "summary": "Tick #210 done. SILENT by design — pre-consolidation prep slot. No new info, no transitions, consolidation owns the next move in 3h.",
-      "details": null,
-      "cost_usd": 1.0245715,
-      "total_tokens": 5583
     }
   ]
 }
