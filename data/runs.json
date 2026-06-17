@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-17T17:31:21Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 312.8,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4559 [6141] Maren Onboarding + Diagnostic → Approved + Browser QA Skipped (massive multi-feature epic with prior human QA)",
+      "details": null,
+      "cost_usd": 2.646579000000001,
+      "total_tokens": 17327
     },
     {
       "agent": "slack-watch",
