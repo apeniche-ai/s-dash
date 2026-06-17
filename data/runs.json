@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-17T15:01:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 158.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4642 [TTPAI-221] Add grouped exercise context with progressive disclosure for active sub question → Approved + Browser QA Skipped (AI prompt/context change — needs real grouped exerci",
+      "details": null,
+      "cost_usd": 1.6593734999999998,
+      "total_tokens": 8808
     },
     {
       "agent": "passive-income-research-loop",
