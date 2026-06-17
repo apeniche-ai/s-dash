@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-17T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 82.0,
+      "status": "success",
+      "summary": "Telegram delivery failed (fetch error — same flake hitting other agents this hour per recent activity). Per fail-fast rule, not retrying.",
+      "details": null,
+      "cost_usd": 0.836322,
+      "total_tokens": 3474
     },
     {
       "agent": "pr-reviewer",
