@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-17T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 340.4,
+      "status": "success",
+      "summary": "Reviewed 5 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Approved + Browser QA Skipped (backend-only delta since prior approval), #4652 [TTPAI-205] Pre-generated summary cache → Appro",
+      "details": null,
+      "cost_usd": 2.6275695,
+      "total_tokens": 20583
     },
     {
       "agent": "pr-reviewer",
