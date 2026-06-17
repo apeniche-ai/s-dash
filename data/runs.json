@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-06-17T17:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-17T17:15:01Z",
       "duration_seconds": 1.0,
@@ -4834,16 +4842,6 @@
       "details": null,
       "cost_usd": 1.3049879999999998,
       "total_tokens": 5099
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-06-06T16:00:00Z",
-      "duration_seconds": 178.8,
-      "status": "success",
-      "summary": "Tick complete. SILENT by design — no Telegram sent.",
-      "details": null,
-      "cost_usd": 1.38049175,
-      "total_tokens": 11402
     }
   ]
 }
