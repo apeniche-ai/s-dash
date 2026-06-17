@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-17T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 156.1,
+      "status": "success",
+      "summary": "Not applicable — the daily review is a single-pass procedure, all work for this run is done (one suggestion proposed and notified, no nudges sent per the jammed-backlog finding).",
+      "details": null,
+      "cost_usd": 1.152558,
+      "total_tokens": 7576
     },
     {
       "agent": "pr-reviewer",
