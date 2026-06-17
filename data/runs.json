@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-17T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 257.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4653 [6239] Add Maren AI summarize pill → Changes Requested (chip locks chat on non-eligible lessons) + Browser QA Skipped (epic base branch, infra not on master)",
+      "details": null,
+      "cost_usd": 2.1918865,
+      "total_tokens": 14840
     },
     {
       "agent": "admissions-pr-reviewer",
