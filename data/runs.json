@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-17T01:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 159.4,
+      "status": "success",
+      "summary": "Tick #50 complete. Silent by design — Tue evening Content+Community scan clean. NBIS extended further to $264.80 (now +43% above $185 trigger, 2nd consecutive extension session, within 4% of ATH $274.",
+      "details": null,
+      "cost_usd": 1.6054179999999998,
+      "total_tokens": 8881
     },
     {
       "agent": "slack-watch",
