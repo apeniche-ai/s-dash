@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-17T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 105.7,
+      "status": "success",
+      "summary": "Not applicable — this is a one-shot scheduled tick with a fixed 6-step procedure, no sub-tasks to track. Tick #256 complete: SILENT, log written (id 01KVAKWR4JRWJWHDTBAJVG24HC). No state-write (no sub",
+      "details": null,
+      "cost_usd": 1.01410325,
+      "total_tokens": 6045
     },
     {
       "agent": "pr-reviewer",
