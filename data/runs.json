@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-17T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 425.9,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4626 AI Deploy: AI content served from Vector KB → Changes Requested (critical: missing `kind:` in `ServiceTokenLog.log!` silently breaks all LLM logging; misnamed spec file skipped by",
+      "details": null,
+      "cost_usd": 3.7487122499999987,
+      "total_tokens": 23291
     },
     {
       "agent": "pr-reviewer",
