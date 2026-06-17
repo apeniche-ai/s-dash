@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-17T01:05:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 88.0,
+      "status": "success",
+      "summary": "Done. Tue 6/16 evening Self-Trust Probe sent to coaching channel (failed first, clean on retry — recurring Telegram pattern). Posture B, no chase on the 4 pending Qs (breakthrough specific-sentence + ",
+      "details": null,
+      "cost_usd": 1.0864550000000002,
+      "total_tokens": 3526
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
