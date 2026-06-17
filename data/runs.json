@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-17T13:01:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 333.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-99/100/206/207] Chatbot Agentic Tool Calls → Approved + Browser QA Skipped (delta since prior approval is backend hardening + prompt tuning, not browser-testable without l",
+      "details": null,
+      "cost_usd": 3.1856780000000002,
+      "total_tokens": 17815
     },
     {
       "agent": "pr-follow-up-check",
