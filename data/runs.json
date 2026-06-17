@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-06-17T16:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-17T15:30:01Z",
       "duration_seconds": 257.7,
@@ -4842,16 +4850,6 @@
       "details": null,
       "cost_usd": 0.37011165,
       "total_tokens": 3713
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-06-06T12:00:00Z",
-      "duration_seconds": 135.3,
-      "status": "success",
-      "summary": "Scanned 9 sources, 5 succeeded (HN Show, HN Ask, all 3 vendors after Anthropic + OpenAI redirect retries); 4 Reddit subs blocked for the 26th consecutive run. Wrote 0 findings — 4 raw candidates dropp",
-      "details": null,
-      "cost_usd": 1.2626935,
-      "total_tokens": 7624
     }
   ]
 }
