@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-18T20:31:34Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 201.6,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4626 AI Deploy: AI content served from Vector KB — AI on qx type expansion ships dormant → Approved + Browser QA Skipped (multi-PR deploy bundle, no single feature)",
+      "details": null,
+      "cost_usd": 2.225798,
+      "total_tokens": 9576
     },
     {
       "agent": "slack-watch",
