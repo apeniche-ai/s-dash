@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-18T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 185.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4663 [TTPAI-229] Add navigation route registry and lookup navigation tool to agentic chatbot → Approved + Browser QA Skipped (epic-branch base)",
+      "details": null,
+      "cost_usd": 1.9984292499999998,
+      "total_tokens": 10188
     },
     {
       "agent": "admissions-pr-reviewer",
