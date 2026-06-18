@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-18T13:03:58Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 68.2,
+      "status": "success",
+      "summary": "Stagnant PR digest delivered to pr-reviews.",
+      "details": null,
+      "cost_usd": 0.80543575,
+      "total_tokens": 2792
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
