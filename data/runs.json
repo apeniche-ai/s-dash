@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-18T01:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 146.8,
+      "status": "success",
+      "summary": "Tick #52 complete. Silent by design — Wed evening Content+Community scan clean. No new Aschenbrenner long-form (Day 25+ post-13F), zero new SEC filings, iHeart \"Limitless\" episode confirmed pre-13F ar",
+      "details": null,
+      "cost_usd": 1.4952969999999999,
+      "total_tokens": 7816
     },
     {
       "agent": "slack-watch",
