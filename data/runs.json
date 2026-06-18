@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-06-18T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Builder Loop...",
-      "details": null
+      "duration_seconds": 284.1,
+      "status": "success",
+      "summary": "Tick #7 complete. Site still NXDOMAIN day 33. Pre-staged google-indexing scaffold on `feat/seo-indexing` (e0f45f2 off main): sitemap expanded 3→6 URLs, GSC verification meta-tag placeholder, `make set",
+      "details": null,
+      "cost_usd": 2.0247332500000006,
+      "total_tokens": 15576
     },
     {
       "agent": "pr-reviewer",
