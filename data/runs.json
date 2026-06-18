@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-18T12:30:36Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 177.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Approved + Browser QA Skipped (epic-branch base, small backend scope tweak)",
+      "details": null,
+      "cost_usd": 1.8082969999999998,
+      "total_tokens": 10180
     },
     {
       "agent": "daily-todo-digest",
