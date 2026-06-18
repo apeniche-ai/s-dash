@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-06-18T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-18T23:00:00Z",
       "duration_seconds": 75.8,
@@ -4806,16 +4814,6 @@
       "details": null,
       "cost_usd": 0.7461964999999999,
       "total_tokens": 257
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-06-09T01:05:00Z",
-      "duration_seconds": 48.3,
-      "status": "success",
-      "summary": "Done. Monday evening reflection held silent — no coaching-channel send. This morning's session officially activated \"weekly cadence only\" mode with next contact set for Sat 6/13; sending tonight would",
-      "details": null,
-      "cost_usd": 0.85928625,
-      "total_tokens": 2244
     }
   ]
 }
