@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-18T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 66.5,
+      "status": "success",
+      "summary": "Pipeline state assessed: 24 proposals waiting, 10 approved-but-unimplemented (some 30+ days old), yesterday's new \"Merge Brief\" suggestion is still fresh, and four nudges are already sitting in the qu",
+      "details": null,
+      "cost_usd": 0.72126975,
+      "total_tokens": 2935
     },
     {
       "agent": "pr-reviewer",
