@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-18T10:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-18T10:00:02Z",
       "duration_seconds": 184.0,
       "status": "success",
@@ -4810,16 +4818,6 @@
       "details": null,
       "cost_usd": 0.95651525,
       "total_tokens": 3632
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-08T11:30:01Z",
-      "duration_seconds": 254.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4606 [TTPAI-147] Add study session table, model, and lifecycle tracking → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 2.8869607499999996,
-      "total_tokens": 14440
     }
   ]
 }
