@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-18T21:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 340.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4639 [TTPAI-89/195/196/205] GenAI feature improvements → Changes Requested (dead `max_attempts` in SummaryBatchGenerateItemJob — rescue swallows retries) + Browser QA Skipped (epic ba",
+      "details": null,
+      "cost_usd": 3.348875,
+      "total_tokens": 20395
     },
     {
       "agent": "admissions-pr-reviewer",
