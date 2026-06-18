@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-18T21:00:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 39 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-18T20:31:34Z",
       "duration_seconds": 201.6,
       "status": "success",
@@ -4808,16 +4816,6 @@
       "status": "success",
       "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-08T21:30:01Z",
-      "duration_seconds": 105.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4620 [6243] Add Scott to cohort report email recipients → Approved + Browser QA Skipped (mailer constant only, no UI)",
-      "details": null,
-      "cost_usd": 1.5195539999999998,
-      "total_tokens": 4866
     }
   ]
 }
