@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-18T13:05:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 222.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4653 [6239] Add Maren AI summarize pill → Approved + Browser QA Skipped (epic-branch base)",
+      "details": null,
+      "cost_usd": 2.1966532500000002,
+      "total_tokens": 12372
     },
     {
       "agent": "pr-follow-up-check",
