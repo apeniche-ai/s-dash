@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-18T12:02:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 41.0,
+      "status": "success",
+      "summary": "No PRs to review — 39 open, all skipped (labeled/draft)",
+      "details": null,
+      "cost_usd": 0.78386525,
+      "total_tokens": 1263
     },
     {
       "agent": "passive-income-discovery-scan",
