@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-06-18T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-18T01:05:00Z",
       "duration_seconds": 85.2,
@@ -4808,16 +4816,6 @@
       "details": null,
       "cost_usd": 1.4857565000000001,
       "total_tokens": 8322
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-08T11:00:00Z",
-      "duration_seconds": 101.8,
-      "status": "success",
-      "summary": "Tick #212 complete. SILENT by design.",
-      "details": null,
-      "cost_usd": 1.05033,
-      "total_tokens": 5000
     }
   ]
 }
