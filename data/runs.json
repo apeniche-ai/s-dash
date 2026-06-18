@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-18T13:31:15Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 173.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4661 [TTPAI-233][6267] Rewrite DiagnosticCopyResolver and add Step 5b score cross-check validation → Approved + Browser QA Skipped (epic-branch base)",
+      "details": null,
+      "cost_usd": 1.9194897500000003,
+      "total_tokens": 9076
     },
     {
       "agent": "slack-watch",
