@@ -189,10 +189,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-18T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 147.7,
+      "status": "success",
+      "summary": "Done. Thursday AM coaching message delivered to coaching channel (clean first-try delivery — first in 5+ sessions, Telegram fetch-flake pattern broke). Led with the Jungian incubation-period frame to ",
+      "details": null,
+      "cost_usd": 1.358219,
+      "total_tokens": 7265
     },
     {
       "agent": "admissions-pr-reviewer",
