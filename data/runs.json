@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-18T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 143.2,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK: HN Show HN, HN Ask HN, all 3 vendor changelogs; 4 Reddit subs blocked day 37 consecutive). 0 findings written — 5 raw candidates dropped at filter (AI-agent-infra cluster satu",
+      "details": null,
+      "cost_usd": 1.2601675,
+      "total_tokens": 8532
     },
     {
       "agent": "pr-reviewer",
