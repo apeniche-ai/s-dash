@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-18T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 237.9,
+      "status": "success",
+      "summary": "Not applicable — this is a single-shot scheduled tick, all work for this run is done (load state → scan sources → classify findings → write log + state refresh). No task tracking needed.",
+      "details": null,
+      "cost_usd": 1.7025457499999999,
+      "total_tokens": 12519
     },
     {
       "agent": "pr-reviewer",
