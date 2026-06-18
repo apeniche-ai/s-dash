@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-18T22:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 222.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4660 [TTPAI-212] Delete S3ContentService and AI S3 Content Dependencies → Changes Requested (scope miss — only the consumer was deleted, the AI-only S3 export feed it drove still fire",
+      "details": null,
+      "cost_usd": 1.933187,
+      "total_tokens": 13252
     },
     {
       "agent": "admissions-pr-reviewer",
