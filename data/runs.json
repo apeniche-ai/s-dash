@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-19T10:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-19T10:00:02Z",
       "duration_seconds": 413.7,
       "status": "success",
@@ -4806,16 +4814,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-09T11:01:28Z",
-      "duration_seconds": 263.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4613 [6130] Add Maren AI trial-over paywall soft gate → Approved + Browser QA Skipped (complex trial-state fixture setup needed)",
-      "details": null,
-      "cost_usd": 2.06686325,
-      "total_tokens": 16116
     }
   ]
 }
