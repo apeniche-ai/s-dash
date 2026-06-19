@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-19T21:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 316.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4559 [6141] Maren Onboarding + Diagnostic → Approved + Browser QA Skipped (onboarding wizard targets pre-onboarding users; standard test fixture is already past onboarding)",
+      "details": null,
+      "cost_usd": 2.5782565,
+      "total_tokens": 16239
     },
     {
       "agent": "pr-reviewer",
