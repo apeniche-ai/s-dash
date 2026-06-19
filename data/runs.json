@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-06-19T12:01:46Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-19T12:00:02Z",
       "duration_seconds": 105.3,
@@ -4808,16 +4816,6 @@
       "details": null,
       "cost_usd": 0.8994820000000001,
       "total_tokens": 3841
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-09T12:31:12Z",
-      "duration_seconds": 189.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4608 [TTPAI-99] Add agentic chatbot wiring → Approved + Browser QA Skipped (stacked epic branch, agentic path setting-gated)",
-      "details": null,
-      "cost_usd": 1.851998,
-      "total_tokens": 9354
     }
   ]
 }
