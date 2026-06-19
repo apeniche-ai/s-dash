@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-19T10:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-19T03:00:00Z",
       "duration_seconds": 78.6,
@@ -4806,16 +4814,6 @@
       "details": null,
       "cost_usd": 2.06686325,
       "total_tokens": 16116
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-09T11:00:01Z",
-      "duration_seconds": 86.3,
-      "status": "success",
-      "summary": "Tick #217 complete. SILENT by design — Tue 06:00 pre-work, pre-scout, channel silent, all paused threads gated to Jun 14. Log written, no other writes.",
-      "details": null,
-      "cost_usd": 0.94368675,
-      "total_tokens": 5157
     }
   ]
 }
