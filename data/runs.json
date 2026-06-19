@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-06-19T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-19T01:05:00Z",
       "duration_seconds": 91.6,
@@ -4806,16 +4814,6 @@
       "details": null,
       "cost_usd": 2.1386557500000003,
       "total_tokens": 9841
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-09T10:00:03Z",
-      "duration_seconds": 288.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4549 [TTPAI-89] Add flashcard existing-deck check auto-count → Approved + Browser QA Skipped (bundler env broken)",
-      "details": null,
-      "cost_usd": 2.52455225,
-      "total_tokens": 16623
     }
   ]
 }
