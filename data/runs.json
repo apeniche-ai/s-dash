@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-19T17:00:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-19T16:30:02Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4802,16 +4810,6 @@
       "details": null,
       "cost_usd": 0.5081698,
       "total_tokens": 7729
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-09T17:30:02Z",
-      "duration_seconds": 260.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4567 Replicate New Onboarding Flow Across GRE, EA, and SAT Courses → Changes Requested (typo on greeting H1 class `welcome-titleapp` — missing font-size/margin/line-height styling) + ",
-      "details": null,
-      "cost_usd": 2.8038249999999993,
-      "total_tokens": 13007
     }
   ]
 }
