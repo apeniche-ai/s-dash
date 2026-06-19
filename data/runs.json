@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-19T11:01:32Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 212.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4639 [TTPAI-89/195/196/205] GenAI feature improvements → Approved + Browser QA Skipped (epic rollup, multi-ticket)",
+      "details": null,
+      "cost_usd": 2.2152317500000005,
+      "total_tokens": 9829
     },
     {
       "agent": "passive-income-research-loop",
