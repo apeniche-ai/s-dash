@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-19T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 91.6,
+      "status": "success",
+      "summary": "Done. Thursday PM Self-Trust rotation sent clean to coaching channel (2nd consecutive clean first-try delivery). Posture B per AM memo contingency — no chase of the gear-shift incubation Q, no frame, ",
+      "details": null,
+      "cost_usd": 0.9780255000000001,
+      "total_tokens": 3422
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
