@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-19T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 78.6,
+      "status": "success",
+      "summary": "Tick #265 complete. Silent by design — ledger 20th unchanged day, channel quiet 33d, scout 0 candidates today, JEPQ/XDTE dormant post-close, paused threads gate-locked through Jun 21 (3d out). State ~",
+      "details": null,
+      "cost_usd": 0.9142520000000001,
+      "total_tokens": 5299
     },
     {
       "agent": "goal-progress-reconciliation",
