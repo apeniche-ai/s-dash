@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-19T12:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 105.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4660 [TTPAI-212] Delete S3ContentService and AI S3 Content Dependencies → Changes Requested (label fix only — prior review on same commit was missing the label) + Browser QA Skipped (",
+      "details": null,
+      "cost_usd": 1.21333775,
+      "total_tokens": 4964
     },
     {
       "agent": "daily-performance-check-in",
