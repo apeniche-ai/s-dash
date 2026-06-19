@@ -181,10 +181,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-06-19T12:33:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 43.4,
+      "status": "success",
+      "summary": "Done. Todo list is empty, nothing completed since yesterday — no Telegram sent. Timestamp stored for tomorrow's run.",
+      "details": null,
+      "cost_usd": 0.21195109999999998,
+      "total_tokens": 1073
     },
     {
       "agent": "pr-reviewer",
