@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-19T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 150.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4660 [TTPAI-212] Delete S3ContentService → Approved + Browser QA Skipped (backend dead-code removal)",
+      "details": null,
+      "cost_usd": 1.6658445,
+      "total_tokens": 8328
     },
     {
       "agent": "admissions-pr-reviewer",
