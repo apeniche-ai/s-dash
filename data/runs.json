@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-19T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 84.4,
+      "status": "success",
+      "summary": "Stagnant PR digest assembled but Telegram delivery failed with \"fetch failed\" — same transport flake hitting multiple agents this morning. Per fail-fast, not retrying.",
+      "details": null,
+      "cost_usd": 0.9064082499999999,
+      "total_tokens": 4436
     },
     {
       "agent": "daily-todo-digest",
