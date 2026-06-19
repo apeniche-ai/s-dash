@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-19T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 207.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4662 [6238] Add Make Flashcards pill chat-first flow → Approved + Browser QA Skipped (bundler 2.6.9 missing on host)",
+      "details": null,
+      "cost_usd": 2.01874575,
+      "total_tokens": 11265
     },
     {
       "agent": "admissions-pr-reviewer",
