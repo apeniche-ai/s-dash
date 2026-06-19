@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-19T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 413.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4618 [6189][6190][6191] Add OnDemand and LiveTeach plans to partner pages (GMAT, GRE, EA) → Approved + Browser QA Skipped (low-stakes UI delta on public marketing pages, manual QA Ste",
+      "details": null,
+      "cost_usd": 2.9747892500000006,
+      "total_tokens": 22904
     },
     {
       "agent": "passive-income-research-loop",
