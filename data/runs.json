@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-06-19T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-19T23:00:01Z",
       "duration_seconds": 84.7,
@@ -4788,16 +4796,6 @@
       "details": null,
       "cost_usd": 0.78744275,
       "total_tokens": 330
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-06-10T01:05:01Z",
-      "duration_seconds": 51.1,
-      "status": "success",
-      "summary": "Not applicable here — this evening reflection is a single-step decision (hold or send) with one memory log already complete. No multi-step tracking needed.",
-      "details": null,
-      "cost_usd": 0.9261610000000001,
-      "total_tokens": 2207
     }
   ]
 }
