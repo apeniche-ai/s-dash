@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-06-19T12:33:28Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-19T12:30:01Z",
       "duration_seconds": null,
@@ -4804,16 +4812,6 @@
       "details": null,
       "cost_usd": 1.2870035,
       "total_tokens": 7715
-    },
-    {
-      "agent": "launch-concierge",
-      "timestamp": "2026-06-09T13:06:21Z",
-      "duration_seconds": 117.8,
-      "status": "success",
-      "summary": "Done. Day 24 tick complete.",
-      "details": null,
-      "cost_usd": 0.36925379999999997,
-      "total_tokens": 5422
     }
   ]
 }
