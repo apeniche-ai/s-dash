@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-19T13:01:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 208.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4663 [TTPAI-229] Add navigation route registry and lookup navigation tool to agentic chatbot → Approved + Browser QA Skipped (bundler 2.6.9 missing on QA host)",
+      "details": null,
+      "cost_usd": 1.9297577500000003,
+      "total_tokens": 11968
     },
     {
       "agent": "pr-follow-up-check",
