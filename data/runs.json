@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-19T12:01:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 119.4,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK: HN Show HN, HN Ask HN, all 3 vendor changelogs; 4 Reddit subs blocked day 38). 0 findings written — HN Show HN past-24h too low-engagement to extract from, Ask HN top items ei",
+      "details": null,
+      "cost_usd": 1.1164814999999997,
+      "total_tokens": 6483
     },
     {
       "agent": "pr-reviewer",
