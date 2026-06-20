@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-20T03:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-06-20T02:30:00Z",
       "duration_seconds": 13.3,
@@ -4788,16 +4796,6 @@
       "details": null,
       "cost_usd": 1.09627775,
       "total_tokens": 6086
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-10T10:30:01Z",
-      "duration_seconds": 232.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4601 [6155][6156][6158] Add onboarding diagnostic section intro, diagnostic test step and diagnostic results step → Approved + Browser QA Skipped (env: bundler 2.6.9 missing)",
-      "details": null,
-      "cost_usd": 2.10394975,
-      "total_tokens": 13271
     }
   ]
 }
