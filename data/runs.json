@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "evening-performance-reflection",
+      "timestamp": "2026-06-20T01:05:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Evening Performance Reflection...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-20T01:00:01Z",
       "duration_seconds": 164.1,
@@ -4788,16 +4796,6 @@
       "details": null,
       "cost_usd": 2.30589725,
       "total_tokens": 6986
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-10T03:00:01Z",
-      "duration_seconds": 84.9,
-      "status": "success",
-      "summary": "Tick #221 complete. Silent by design — end-of-Tue close-out, no channel reply, no discovery candidates, no market trigger. State at ~49h (just past 48h gate, no write trigger). All 4 paused threads st",
-      "details": null,
-      "cost_usd": 1.0227157500000001,
-      "total_tokens": 5113
     }
   ]
 }
