@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-20T22:10:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 66.5,
+      "status": "success",
+      "summary": "Exiting silently. Cadence is fine — proposed two substantive ideas in the last 8 days (Merge Brief, Jira→PR pipeline), both still pending. Pipeline has 32 open proposals including overlapping morning-",
+      "details": null,
+      "cost_usd": 0.66091375,
+      "total_tokens": 3217
     },
     {
       "agent": "passive-income-research-loop",
