@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-06-20T01:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-06-19T23:30:00Z",
       "duration_seconds": 85.2,
@@ -4788,16 +4796,6 @@
       "details": null,
       "cost_usd": 1.0227157500000001,
       "total_tokens": 5113
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-06-10T02:30:00Z",
-      "duration_seconds": 13.1,
-      "status": "success",
-      "summary": "Nothing to reconcile — exiting silently.",
-      "details": null,
-      "cost_usd": 0.78744275,
-      "total_tokens": 330
     }
   ]
 }
