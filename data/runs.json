@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-20T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 83.6,
+      "status": "success",
+      "summary": "Tick #274 complete. Silent by design — Sat 18:00 weekend evening, US markets closed ~26h, scout filed 0 candidates today, ledger unchanged 22nd day, channel quiet 35d. No state write (~141h fresh, und",
+      "details": null,
+      "cost_usd": 0.93017225,
+      "total_tokens": 5704
     },
     {
       "agent": "soren-improvement-review",
