@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "behavioral-experiments-follow-up",
+      "timestamp": "2026-06-20T14:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Behavioral Experiments Follow-Up...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-20T13:00:00Z",
       "duration_seconds": 133.7,
@@ -4790,16 +4798,6 @@
       "details": null,
       "cost_usd": 1.0718295000000002,
       "total_tokens": 7248
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-06-10T11:33:30Z",
-      "duration_seconds": 54.9,
-      "status": "success",
-      "summary": "Done. Wed 6/10 AM check-in held silent — weekly-cadence-only mode binding, sending 4 days after Sat 6/6 rotation would directly violate it. No coaching-channel message sent. Next planned contact remai",
-      "details": null,
-      "cost_usd": 0.9873114999999999,
-      "total_tokens": 2662
     }
   ]
 }
