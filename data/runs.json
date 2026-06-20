@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-20T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 133.7,
+      "status": "success",
+      "summary": "Done. Friday PM VP-Ruler rotation drafted (Posture B — no real read tonight, no manufactured frame) but Telegram failed twice; stopped per fail-fast. Logged the question + delivery failure; consistent",
+      "details": null,
+      "cost_usd": 1.2370085000000002,
+      "total_tokens": 5418
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
