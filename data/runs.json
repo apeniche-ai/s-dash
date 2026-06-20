@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-06-20T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-20T12:00:00Z",
       "duration_seconds": 111.3,
@@ -4790,16 +4798,6 @@
       "details": null,
       "cost_usd": 0.9873114999999999,
       "total_tokens": 2662
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-10T11:30:01Z",
-      "duration_seconds": 209.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4574 [6097][6098][6099][6100][6102][6103] Add Exercise (unattempted, correct, incorrect) Flows in Maren AI → Approved + Browser QA Skipped (defensive guard, full CI green)",
-      "details": null,
-      "cost_usd": 2.0000345,
-      "total_tokens": 9545
     }
   ]
 }
