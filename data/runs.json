@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-20T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 99.2,
+      "status": "success",
+      "summary": "Tick #270 complete. Silent. Friday closes 5/5 silent; week 2 closes 25/25 silent. No state write (no transition, ~5d under 10d gate, consolidation is Sunday). Next tick Sat 6 AM; Sunday 9 PM is mandat",
+      "details": null,
+      "cost_usd": 1.0416895,
+      "total_tokens": 6447
     },
     {
       "agent": "goal-progress-reconciliation",
