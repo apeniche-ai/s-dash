@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-21T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 111.6,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK: HN Show HN, HN Ask HN, Anthropic/OpenAI/Gemini changelogs; 4 Reddit subs blocked day 40). 0 findings written — vendor stack flat 12-13d post Fable-5, HN top items don't fit th",
+      "details": null,
+      "cost_usd": 1.0915427500000001,
+      "total_tokens": 5429
     },
     {
       "agent": "passive-income-builder-loop",
