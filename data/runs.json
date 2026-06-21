@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-21T01:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 108.1,
+      "status": "success",
+      "summary": "Tick #58 silent. Sat evening Content+Community scan clean — no new Aschenbrenner long-form, no new SEC filings, no fresh HN signal. STRONG-only bar holds (28 days standing). Log written; no ledger/sta",
+      "details": null,
+      "cost_usd": 1.30991225,
+      "total_tokens": 7018
     },
     {
       "agent": "passive-income-research-loop",
