@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-06-21T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-21T19:00:00Z",
       "duration_seconds": 98.5,
@@ -4798,16 +4806,6 @@
       "details": null,
       "cost_usd": 1.1390475,
       "total_tokens": 3653
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-10T15:33:51Z",
-      "duration_seconds": 228.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4624 [TTPAI-218] Scope chat message loading to active study session for cross-page continuity → Approved + Browser QA Skipped (parent-branch dependency + local Bundler env known-broke",
-      "details": null,
-      "cost_usd": 1.8679232500000005,
-      "total_tokens": 10292
     }
   ]
 }
