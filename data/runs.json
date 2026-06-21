@@ -189,10 +189,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-06-21T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 101.2,
+      "status": "success",
+      "summary": "Digest sent (one retry — same flake as last week's run, succeeded on second attempt). Five themes anchored to sources: comp posture (you're at P75 base, contractor leaves $140-390K/yr equity on the ta",
+      "details": null,
+      "cost_usd": 1.0899990000000002,
+      "total_tokens": 7011
     },
     {
       "agent": "soren-improvement-review",
