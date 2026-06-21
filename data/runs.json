@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-21T11:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 116.6,
+      "status": "success",
+      "summary": "Tick #276 complete. Silent by design — Sunday 06:00 weekend AM pre-wake, week 3 closes with Sat 5/5 silent. Scout hasn't fired yet (07:00). Ledger unchanged 23rd day, channel quiet 36d. State (~6.4d) ",
+      "details": null,
+      "cost_usd": 0.9607045,
+      "total_tokens": 5169
     },
     {
       "agent": "passive-income-research-loop",
