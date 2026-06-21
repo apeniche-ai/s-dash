@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-21T19:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 98.5,
+      "status": "success",
+      "summary": "Tick #278 complete. Silent by design — Sun 14:00 weekend afternoon, ~7h before mandatory weekly consolidation at 21:00. Ledger 23rd day unchanged, scout filed 0 candidates Sun AM, channel quiet 36d. P",
+      "details": null,
+      "cost_usd": 1.003712,
+      "total_tokens": 6345
     },
     {
       "agent": "career-market-research-loop",
