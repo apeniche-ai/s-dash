@@ -181,10 +181,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-06-21T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 141.0,
+      "status": "success",
+      "summary": "Single-shot tick, no task tracking applies.",
+      "details": null,
+      "cost_usd": 1.41535725,
+      "total_tokens": 8301
     },
     {
       "agent": "passive-income-research-loop",
