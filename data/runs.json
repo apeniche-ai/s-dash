@@ -197,10 +197,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-22T12:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 134.5,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK: HN Show HN, HN Ask HN, Anthropic/OpenAI/Gemini changelogs; 4 Reddit subs blocked day 41). 0 findings written — 4 candidates dropped at filter (HN local-AI thread killed by fre",
+      "details": null,
+      "cost_usd": 1.26289775,
+      "total_tokens": 7785
     },
     {
       "agent": "daily-performance-check-in",
