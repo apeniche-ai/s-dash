@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-22T18:00:01Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 34 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-22T17:31:45Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4788,16 +4796,6 @@
       "details": null,
       "cost_usd": 1.7547807499999997,
       "total_tokens": 11456
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-06-11T12:00:00Z",
-      "duration_seconds": 105.0,
-      "status": "success",
-      "summary": "Scanned 9 sources, 5 succeeded (HN Show, HN Ask, all 3 vendor changelogs); 4 Reddit subs blocked for the 30th straight run — flagging for improvement-review. Wrote 0 findings: 1 raw candidate (OpenAI ",
-      "details": null,
-      "cost_usd": 1.113679,
-      "total_tokens": 5166
     }
   ]
 }
