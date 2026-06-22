@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-22T17:00:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 35 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-22T16:30:01Z",
       "duration_seconds": 165.2,
       "status": "success",
@@ -4792,16 +4800,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 10 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-11T11:01:11Z",
-      "duration_seconds": 147.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4622 [TTPAI-100] Add six agentic tool definitions for learning and content generation → Approved + Browser QA Skipped (backend chatbot tool definitions, no UI surface)",
-      "details": null,
-      "cost_usd": 1.59826075,
-      "total_tokens": 6653
     }
   ]
 }
