@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-22T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 300.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4664 [TTPAI-228] Add product knowledge corpus and ingestion pipeline for Maren CS mode → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.265909,
+      "total_tokens": 13427
     },
     {
       "agent": "slack-watch",
