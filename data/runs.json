@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-22T21:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 216.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4671 [6273] Render regional pricing on all secondary price-display surfaces → Approved + Browser QA Skipped (regional path requires Cloudflare IP + seeded regional plan codes)",
+      "details": null,
+      "cost_usd": 2.06886925,
+      "total_tokens": 11799
     },
     {
       "agent": "slack-watch",
