@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-06-22T22:10:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-22T22:00:01Z",
       "duration_seconds": 1.1,
@@ -4773,17 +4781,6 @@
       "details": null,
       "cost_usd": 1.8774797499999996,
       "total_tokens": 9332
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-11T15:00:00Z",
-      "duration_seconds": 41.3,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "claude exited with code 1"
-      ]
     }
   ]
 }
