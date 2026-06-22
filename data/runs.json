@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-22T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 211.1,
+      "status": "success",
+      "summary": "Not applicable — single-shot scheduled PR review tick. Work is complete: review submitted, labels set, manual QA posted, batch stored.",
+      "details": null,
+      "cost_usd": 1.8203339999999995,
+      "total_tokens": 11103
     },
     {
       "agent": "admissions-pr-reviewer",
