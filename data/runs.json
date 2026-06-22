@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-22T13:01:18Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 308.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4668 [TTPAI-230] Add exercise FAQ context injection → Changes Requested (FAQ guard misses unresolvable/nil attempt_status — AC violation) + Browser QA Skipped (TTPAI repo)",
+      "details": null,
+      "cost_usd": 2.401704500000001,
+      "total_tokens": 17319
     },
     {
       "agent": "pr-follow-up-check",
