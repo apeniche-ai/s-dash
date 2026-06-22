@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-22T22:00:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 35 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-22T21:30:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4776,16 +4784,6 @@
       "errors": [
         "claude exited with code 1"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-11T14:30:01Z",
-      "duration_seconds": 148.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4633 [TTPAI-220] Move inline vector KB resync off request path to background job → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.40843,
-      "total_tokens": 6927
     }
   ]
 }
