@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-22T19:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-22T18:30:02Z",
       "duration_seconds": 1.2,
@@ -4784,16 +4792,6 @@
       "details": null,
       "cost_usd": 1.99992775,
       "total_tokens": 9587
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-06-11T12:30:00Z",
-      "duration_seconds": 37.2,
-      "status": "success",
-      "summary": "Todo list is empty, nothing completed since yesterday. No digest sent. Timestamp stored.",
-      "details": null,
-      "cost_usd": 0.27179164999999994,
-      "total_tokens": 1048
     }
   ]
 }
