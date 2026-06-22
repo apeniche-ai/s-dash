@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-22T11:33:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 162.5,
+      "status": "success",
+      "summary": "Monday AM coaching message delivered to coaching channel (failed once, clean on retry — the Telegram fetch-flake is back). Posture A — taught the witness/observer mechanism as fresh angle on the Mon 6",
+      "details": null,
+      "cost_usd": 1.268125,
+      "total_tokens": 9475
     },
     {
       "agent": "pr-reviewer",
