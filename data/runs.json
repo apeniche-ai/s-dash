@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-22T13:01:18Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-22T13:00:00Z",
       "duration_seconds": null,
@@ -4801,17 +4809,6 @@
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-10T22:11:42Z",
       "duration_seconds": 38.3,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "claude exited with code 1"
-      ]
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-06-10T22:10:01Z",
-      "duration_seconds": 41.8,
       "status": "error",
       "summary": "",
       "details": null,
