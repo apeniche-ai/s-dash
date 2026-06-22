@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-06-22T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-06-22T12:45:00Z",
       "duration_seconds": 163.9,
@@ -4810,14 +4818,6 @@
       "errors": [
         "claude exited with code 1"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-10T22:00:01Z",
-      "duration_seconds": 1.4,
-      "status": "success",
-      "summary": "No PRs to review — 43 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
