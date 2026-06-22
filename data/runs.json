@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-22T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 409.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4667 [TTPAI-232] Add child safety guardrails and crisis detection for SAT Maren chatbot → Changes Requested (migration/schema null:false mismatch + break-reminder TTL gap for SB 243 s",
+      "details": null,
+      "cost_usd": 3.100790999999999,
+      "total_tokens": 27422
     },
     {
       "agent": "pr-reviewer",
