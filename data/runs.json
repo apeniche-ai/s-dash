@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-06-22T14:05:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-22T14:00:02Z",
       "duration_seconds": 300.3,
@@ -4800,17 +4808,6 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-06-10T23:31:40Z",
-      "duration_seconds": 40.7,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "claude exited with code 1"
-      ]
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-06-10T23:30:00Z",
       "duration_seconds": 40.7,
       "status": "error",
       "summary": "",
