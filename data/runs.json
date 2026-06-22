@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-vp-performance-edge",
+      "timestamp": "2026-06-22T12:02:16Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly VP Performance Edge...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-22T12:00:02Z",
       "duration_seconds": 1.1,
@@ -4805,14 +4813,6 @@
       "errors": [
         "claude exited with code 1"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-10T20:30:43Z",
-      "duration_seconds": 1.6,
-      "status": "success",
-      "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
