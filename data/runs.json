@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-06-22T11:01:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Builder Loop...",
-      "details": null
+      "duration_seconds": 105.3,
+      "status": "success",
+      "summary": "Not applicable — this is a single-shot scheduled tick, work already complete.",
+      "details": null,
+      "cost_usd": 1.0101025,
+      "total_tokens": 5694
     },
     {
       "agent": "pr-reviewer",
