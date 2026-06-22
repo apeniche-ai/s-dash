@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-22T15:01:39Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 171.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4668 [TTPAI-230] Add exercise FAQ context injection → Approved + Browser QA Skipped (TTPAI ships dormant, chatbot UI gated)",
+      "details": null,
+      "cost_usd": 1.66073975,
+      "total_tokens": 7818
     },
     {
       "agent": "passive-income-research-loop",
