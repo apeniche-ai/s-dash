@@ -181,10 +181,12 @@
     {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-06-22T12:02:16Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly VP Performance Edge...",
-      "details": null
+      "duration_seconds": 129.4,
+      "status": "success",
+      "summary": "Tip shipped to career channel (one Telegram retry needed — same flake pattern as career-market-scout last weekend, clean on second send). Stored in memory under tag `vp-edge-tip` for next-week dedup.",
+      "details": null,
+      "cost_usd": 0.9539665000000002,
+      "total_tokens": 5970
     },
     {
       "agent": "pr-reviewer",
