@@ -181,10 +181,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-06-22T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 74.5,
+      "status": "success",
+      "summary": "Done. Todo list is empty, nothing completed since the last digest (June 19) — sent inbox zero message on retry. Timestamp stored for tomorrow's run.",
+      "details": null,
+      "cost_usd": 0.2456813,
+      "total_tokens": 2673
     },
     {
       "agent": "pr-reviewer",
