@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-22T19:01:58Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 216.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4559 [6141] Maren Onboarding + Diagnostic → Changes Requested (CI failing on PR-modified specs: diagnostic_copy_resolver_spec + error_tracker_spec) + Browser QA Skipped (full onboardi",
+      "details": null,
+      "cost_usd": 1.73040475,
+      "total_tokens": 10371
     },
     {
       "agent": "passive-income-research-loop",
