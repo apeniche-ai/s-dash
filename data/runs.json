@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-22T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 165.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4670 [6272] Expose plan prices (incl. regional) via external-pages API → Approved + Browser QA Skipped (backend-only API)",
+      "details": null,
+      "cost_usd": 1.57555575,
+      "total_tokens": 10121
     },
     {
       "agent": "admissions-pr-reviewer",
