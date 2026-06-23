@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-23T13:02:52Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 82.4,
+      "status": "success",
+      "summary": "Digest assembled — 4 stagnant PRs (TTP only, admissions clean):",
+      "details": null,
+      "cost_usd": 0.8592607499999999,
+      "total_tokens": 3933
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
