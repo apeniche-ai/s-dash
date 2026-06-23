@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-06-23T22:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-23T22:10:00Z",
       "duration_seconds": 37.5,
@@ -4742,16 +4750,6 @@
       "details": null,
       "cost_usd": 0.9998597500000002,
       "total_tokens": 5648
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-12T14:30:01Z",
-      "duration_seconds": 165.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4641 [TTPAI-222] Add SIP payload enrichment for personalization surfaces → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.8558095000000001,
-      "total_tokens": 8959
     }
   ]
 }
