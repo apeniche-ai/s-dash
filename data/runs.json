@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-23T20:00:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 35 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-23T19:30:01Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4752,16 +4760,6 @@
       "details": null,
       "cost_usd": 1.3882285,
       "total_tokens": 8008
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-12T12:30:42Z",
-      "duration_seconds": 232.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4559 Maren Onboarding + Diagnostic → Approved + Browser QA Skipped (cosmetic single-button removal in already-3x-approved epic)",
-      "details": null,
-      "cost_usd": 2.114614,
-      "total_tokens": 12480
     }
   ]
 }
