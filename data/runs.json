@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-23T03:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-06-23T02:30:00Z",
       "duration_seconds": 15.9,
@@ -4772,16 +4780,6 @@
       "details": null,
       "cost_usd": 1.7274195,
       "total_tokens": 6368
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-11T16:30:01Z",
-      "duration_seconds": 179.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4625 [TTP-6251] Show regional South Asia pricing on the plans page (GRE first) → Approved + Browser QA Skipped (regional pricing needs Recurly production clones — can't be exercised l",
-      "details": null,
-      "cost_usd": 1.89283925,
-      "total_tokens": 8887
     }
   ]
 }
