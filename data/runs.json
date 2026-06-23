@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-23T11:32:44Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 35 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-23T11:30:00Z",
       "duration_seconds": 162.7,
@@ -4770,16 +4778,6 @@
       "details": null,
       "cost_usd": 2.39939975,
       "total_tokens": 11690
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-11T19:00:00Z",
-      "duration_seconds": 97.5,
-      "status": "success",
-      "summary": "Not applicable — this is a single-shot scheduled tick (load state → decide → write log → exit). No multi-step work to track.",
-      "details": null,
-      "cost_usd": 1.07264375,
-      "total_tokens": 5341
     }
   ]
 }
