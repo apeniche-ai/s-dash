@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-06-23T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-23T15:30:01Z",
       "duration_seconds": 1.2,
@@ -4768,16 +4776,6 @@
       "details": null,
       "cost_usd": 0.4571120000000001,
       "total_tokens": 264
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-06-12T01:05:00Z",
-      "duration_seconds": 72.7,
-      "status": "success",
-      "summary": "Not applicable here — this was a single-step evening reflection that resolved to a hold. No multi-step tracking needed.",
-      "details": null,
-      "cost_usd": 0.9521430000000002,
-      "total_tokens": 3843
     }
   ]
 }
