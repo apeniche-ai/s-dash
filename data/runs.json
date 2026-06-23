@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-06-23T01:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-06-22T23:30:00Z",
       "duration_seconds": 51.5,
@@ -4770,16 +4778,6 @@
       "details": null,
       "cost_usd": 1.68153125,
       "total_tokens": 7061
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-06-11T16:00:00Z",
-      "duration_seconds": 171.7,
-      "status": "success",
-      "summary": "Tick complete. Silent by design — no Telegram sent.",
-      "details": null,
-      "cost_usd": 1.4863745000000004,
-      "total_tokens": 9411
     }
   ]
 }
