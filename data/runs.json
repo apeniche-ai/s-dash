@@ -181,10 +181,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-06-23T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 249.0,
+      "status": "success",
+      "summary": "Tick complete. SILENT — analyst read found three fresh-today pieces (Pragmatic Engineer \"Slow down to speed up,\" Pragmatic state-of-jobs deepdive, Lenny \"Inner game\"). Neither alert trigger fired (no ",
+      "details": null,
+      "cost_usd": 1.75482475,
+      "total_tokens": 13413
     },
     {
       "agent": "pr-reviewer",
