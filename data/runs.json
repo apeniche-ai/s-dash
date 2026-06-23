@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-06-23T13:02:52Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-23T13:00:00Z",
       "duration_seconds": 172.4,
@@ -4771,14 +4779,6 @@
       "errors": [
         "claude exited with code 1"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-11T20:30:43Z",
-      "duration_seconds": 1.1,
-      "status": "success",
-      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
