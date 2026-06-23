@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-06-23T20:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-23T20:15:01Z",
       "duration_seconds": 0.7,
@@ -4748,16 +4756,6 @@
       "details": null,
       "cost_usd": 2.2934880000000004,
       "total_tokens": 9799
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-06-12T13:02:28Z",
-      "duration_seconds": 87.7,
-      "status": "success",
-      "summary": "Stagnant PR check complete. 4 unaddressed change requests in ttp (admissions clean): #4589, #4565, #4390, #3569. PR #4495 excluded — dev pushed a fix after the label. PRs #4640 and #4631 excluded — la",
-      "details": null,
-      "cost_usd": 0.8963982500000001,
-      "total_tokens": 4128
     }
   ]
 }
