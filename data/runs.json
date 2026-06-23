@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-23T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 162.7,
+      "status": "success",
+      "summary": "Tue AM coaching message delivered to coaching channel (fetch failed first try, clean on retry — Telegram flake continues). Posture A — taught the \"witness arrives late at first\" mechanism as fresh ang",
+      "details": null,
+      "cost_usd": 1.2345415,
+      "total_tokens": 8174
     },
     {
       "agent": "admissions-pr-reviewer",
