@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-23T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 83.3,
+      "status": "success",
+      "summary": "Not applicable — this was a single-shot evening coaching reflection, already complete. Sent the Mon VP-Ruler probe to the coaching channel (Posture B, clean ask, no frame since today's silence gave no",
+      "details": null,
+      "cost_usd": 0.9690047500000002,
+      "total_tokens": 3514
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
