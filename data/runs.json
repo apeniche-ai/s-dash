@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-23T13:32:10Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 222.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4669 [TTPAI-237] Render Maren tool-status labels and forwards extended thinking → Approved + Browser QA Skipped (epic branch, feature not exercisable on local dev)",
+      "details": null,
+      "cost_usd": 1.584487,
+      "total_tokens": 6880
     },
     {
       "agent": "slack-watch",
