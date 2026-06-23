@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-23T22:00:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 35 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-23T21:30:01Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4742,16 +4750,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-12T14:00:01Z",
-      "duration_seconds": 223.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4631 [TTPAI-99/100/206/207] Chatbot Agentic Tool Calls → Approved + Browser QA Skipped (agentic chatbot gated behind setting + live LLM, not feasible in scheduled QA)",
-      "details": null,
-      "cost_usd": 2.06308175,
-      "total_tokens": 12560
     }
   ]
 }
