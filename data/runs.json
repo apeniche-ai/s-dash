@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-23T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 37.5,
+      "status": "success",
+      "summary": "Exiting silently. Pipeline still has 32+ open proposals; Merge Brief and Jira→PR pipeline (the two highest-leverage capabilities I shipped last week) remain unactioned, and four older proposals alread",
+      "details": null,
+      "cost_usd": 0.7457320000000001,
+      "total_tokens": 2015
     },
     {
       "agent": "pr-reviewer",
