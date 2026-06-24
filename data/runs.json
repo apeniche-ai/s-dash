@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-24T12:30:54Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 207.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4630 [TTPAI-147/157/218] Chatbot sessions, memory and cross page continuity → Approved + Browser QA Skipped (epic-to-epic merge, dormant until parent epic ships)",
+      "details": null,
+      "cost_usd": 1.8884985,
+      "total_tokens": 11030
     },
     {
       "agent": "daily-todo-digest",
