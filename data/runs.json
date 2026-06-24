@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-24T17:00:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 35 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-24T16:30:01Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4746,16 +4754,6 @@
       "details": null,
       "cost_usd": 1.22665475,
       "total_tokens": 8142
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-13T11:01:29Z",
-      "duration_seconds": 79.1,
-      "status": "success",
-      "summary": "Tick #236 done. Silent by design — Saturday pre-dawn pre-scout slot, ledger unchanged for the 6th day running, channel still quiet 28 days. Next meaningful window is #237 at 10:00 (post-scout discover",
-      "details": null,
-      "cost_usd": 0.9812077499999999,
-      "total_tokens": 5317
     }
   ]
 }
