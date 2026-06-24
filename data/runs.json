@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-24T18:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-24T17:33:24Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4740,16 +4748,6 @@
       "details": null,
       "cost_usd": 0.8727910999999999,
       "total_tokens": 22713
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-13T15:00:00Z",
-      "duration_seconds": 102.6,
-      "status": "success",
-      "summary": "Tick #237 done. Silent by design — Saturday post-scout window, zero discovery candidates filed (Reddit blackout streak now into weekend), ledger unchanged 6th day running, channel quiet 28 days, all p",
-      "details": null,
-      "cost_usd": 1.02175525,
-      "total_tokens": 5925
     }
   ]
 }
