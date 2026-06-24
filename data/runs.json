@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-24T20:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-24T19:30:01Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4730,16 +4738,6 @@
       "details": null,
       "cost_usd": 0.9848339999999999,
       "total_tokens": 5580
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-06-14T02:30:01Z",
-      "duration_seconds": 13.9,
-      "status": "success",
-      "summary": "Nothing to reconcile — exiting silently.",
-      "details": null,
-      "cost_usd": 0.49137400000000003,
-      "total_tokens": 335
     }
   ]
 }
