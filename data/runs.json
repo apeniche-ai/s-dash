@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-24T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 82.1,
+      "status": "success",
+      "summary": "Nudged the Merge Brief proposal (7 days old, highest-leverage waiting item — sharpens every PR review Amaury already does without touching the PR-ownership non-negotiable). No new suggestion created —",
+      "details": null,
+      "cost_usd": 0.85885175,
+      "total_tokens": 3751
     },
     {
       "agent": "pr-reviewer",
