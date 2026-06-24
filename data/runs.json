@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-24T11:01:50Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-06-24T11:00:01Z",
       "duration_seconds": 109.8,
@@ -4744,16 +4752,6 @@
       "details": null,
       "cost_usd": 2.74389225,
       "total_tokens": 11125
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-06-12T17:30:00Z",
-      "duration_seconds": 108.0,
-      "status": "success",
-      "summary": "Same dual failure as the previous run — Slack cache not ready and Telegram delivery failed. Notification attempt made per protocol; not retrying either.",
-      "details": null,
-      "cost_usd": 0.30702039999999997,
-      "total_tokens": 3283
     }
   ]
 }
