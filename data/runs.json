@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-24T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 229.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4559 [6141] Maren Onboarding + Diagnostic → Approved + Browser QA Skipped (incremental polish on already-QA'd epic flow)",
+      "details": null,
+      "cost_usd": 1.87776375,
+      "total_tokens": 11849
     },
     {
       "agent": "passive-income-research-loop",
