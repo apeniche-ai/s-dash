@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-06-24T12:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-24T11:31:50Z",
       "duration_seconds": 105.1,
@@ -4744,16 +4752,6 @@
       "status": "success",
       "summary": "No PRs to review — 34 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-12T19:00:00Z",
-      "duration_seconds": 71.0,
-      "status": "success",
-      "summary": "Tick #233 complete. Silent by design — Friday 14:00, channel quiet ~27d, scout filed zero candidates again (Reddit blackout continuing), ledger unchanged, all paused threads gated until Sunday's conso",
-      "details": null,
-      "cost_usd": 0.89026175,
-      "total_tokens": 4623
     }
   ]
 }
