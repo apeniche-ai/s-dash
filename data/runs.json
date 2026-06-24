@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-24T10:30:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 35 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-24T10:00:02Z",
       "duration_seconds": 229.6,
       "status": "success",
@@ -4744,16 +4752,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-12T17:00:01Z",
-      "duration_seconds": 226.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4643 [TTP-6255] Account for Recurly line item quantity when crediting tutoring hours → Changes Requested (amount-based inference fallback contradicts ticket constraint) + Browser QA S",
-      "details": null,
-      "cost_usd": 1.8290657499999998,
-      "total_tokens": 10932
     }
   ]
 }
