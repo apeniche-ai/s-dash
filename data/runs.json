@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-24T22:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-24T21:30:01Z",
       "duration_seconds": 1.6,
       "status": "success",
@@ -4720,16 +4728,6 @@
       "details": null,
       "cost_usd": 0.96345,
       "total_tokens": 5969
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-06-14T16:00:00Z",
-      "duration_seconds": 211.0,
-      "status": "success",
-      "summary": "Tick complete. SILENT (default success state).",
-      "details": null,
-      "cost_usd": 1.4501530000000002,
-      "total_tokens": 10335
     }
   ]
 }
