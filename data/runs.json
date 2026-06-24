@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-24T18:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 246.9,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4667 [TTPAI-232] Add child safety guardrails and crisis detection for SAT Maren chatbot → Approved + Browser QA Skipped (dormant SAT-gated feature)",
+      "details": null,
+      "cost_usd": 2.3213975000000002,
+      "total_tokens": 14665
     },
     {
       "agent": "pr-reviewer",
