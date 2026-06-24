@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-24T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 108.8,
+      "status": "success",
+      "summary": "Wed AM coaching message delivered to coaching channel (fetch failed first try, clean on retry — Telegram flake continues). Posture B — no diagnostic frame, no new probing question. Released the 4 unan",
+      "details": null,
+      "cost_usd": 1.108126,
+      "total_tokens": 5836
     },
     {
       "agent": "admissions-pr-reviewer",
