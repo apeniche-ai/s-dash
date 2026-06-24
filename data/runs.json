@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-24T13:04:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 129.8,
+      "status": "success",
+      "summary": "Tick #65 complete. Silent by design — no notify, no ledger write, no state rewrite.",
+      "details": null,
+      "cost_usd": 1.4272725000000002,
+      "total_tokens": 6925
     },
     {
       "agent": "pr-reviewer",
