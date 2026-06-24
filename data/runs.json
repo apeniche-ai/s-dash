@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-24T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 189.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4669 [TTPAI-237] Render Maren tool-status labels and forwards extended thinking → Changes Requested (AC9 regression — latest commit renders thinking snippet as label, V1 must show onl",
+      "details": null,
+      "cost_usd": 1.82952175,
+      "total_tokens": 9725
     },
     {
       "agent": "pr-reviewer",
