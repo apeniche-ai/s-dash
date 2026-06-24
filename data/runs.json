@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-06-24T01:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-06-23T23:30:01Z",
       "duration_seconds": 70.6,
@@ -4740,16 +4748,6 @@
       "details": null,
       "cost_usd": 1.4932080000000003,
       "total_tokens": 12204
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-12T15:30:01Z",
-      "duration_seconds": 158.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4643 [TTP-6255] Account for Recurly line item quantity when crediting tutoring hours → Changes Requested (unrelated-line-item fallback risk) + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.6415652500000002,
-      "total_tokens": 8311
     }
   ]
 }
