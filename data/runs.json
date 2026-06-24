@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-24T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-24T14:30:01Z",
       "duration_seconds": 0.9,
@@ -4758,16 +4766,6 @@
       "details": null,
       "cost_usd": 0.9613737499999999,
       "total_tokens": 4744
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-12T22:30:01Z",
-      "duration_seconds": 155.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4646 [TTPAI-231] Restore production AI feature locks (GMAT DI, EA, SAT) on deploy/ai-retrieval frontend — no net new question types launch → Approved + Browser QA Skipped (TTPAI rever",
-      "details": null,
-      "cost_usd": 1.8607549999999997,
-      "total_tokens": 8027
     }
   ]
 }
