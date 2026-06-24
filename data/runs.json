@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-24T23:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-24T22:30:02Z",
       "duration_seconds": 1.1,
@@ -4716,16 +4724,6 @@
       "details": null,
       "cost_usd": 1.3808627500000001,
       "total_tokens": 9149
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-14T23:01:50Z",
-      "duration_seconds": 96.8,
-      "status": "success",
-      "summary": "Tick #244 complete. Silent by design — Sun 18:00 pre-consolidation reflection slot, ~3h before tonight's 21:00 consolidation job. Channel quiet 29d, ledger unchanged 9th day, zero new scout candidates",
-      "details": null,
-      "cost_usd": 0.96655,
-      "total_tokens": 6825
     }
   ]
 }
