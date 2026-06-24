@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-24T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 69.1,
+      "status": "success",
+      "summary": "Digest sent to pr-reviews. 4 stagnant PRs on ttp (admissions clean). Two recent PRs (#4671, #4659) excluded — devs already pushed fixes after the label.",
+      "details": null,
+      "cost_usd": 0.825259,
+      "total_tokens": 3152
     },
     {
       "agent": "pr-reviewer",
