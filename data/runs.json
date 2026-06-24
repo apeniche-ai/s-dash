@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-24T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 82.7,
+      "status": "success",
+      "summary": "Tue PM Self-Trust Probe delivered to the coaching channel on first try. No tasks to track — this was a single-shot evening reflection. Done.",
+      "details": null,
+      "cost_usd": 0.9731047500000001,
+      "total_tokens": 3275
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
