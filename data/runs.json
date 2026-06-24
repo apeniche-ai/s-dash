@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-24T21:30:01Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 34 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-24T21:15:01Z",
       "duration_seconds": 0.8,
@@ -4722,16 +4730,6 @@
       "details": null,
       "cost_usd": 1.4501530000000002,
       "total_tokens": 10335
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-14T15:00:00Z",
-      "duration_seconds": 103.9,
-      "status": "success",
-      "summary": "Tick #242 complete. Silent by design — Sun 07:00 scout filed zero candidates (HN/vendor changelogs dry, Reddit blocked day 33), ledger unchanged 9th day, channel quiet 29d. Tonight's 21:00 consolidati",
-      "details": null,
-      "cost_usd": 1.10873625,
-      "total_tokens": 6208
     }
   ]
 }
