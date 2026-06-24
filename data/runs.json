@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-06-24T17:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-24T17:15:01Z",
       "duration_seconds": 0.9,
@@ -4742,16 +4750,6 @@
       "details": null,
       "cost_usd": 0.9019735,
       "total_tokens": 3544
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-06-13T13:00:00Z",
-      "duration_seconds": 144.9,
-      "status": "success",
-      "summary": "Tick #43 complete. Silent by design — no Telegram sent.",
-      "details": null,
-      "cost_usd": 1.3437952499999999,
-      "total_tokens": 7913
     }
   ]
 }
