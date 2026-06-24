@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-24T13:34:49Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 313.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4667 [TTPAI-232] Add child safety guardrails and crisis detection for SAT Maren chatbot → Changes Requested (break-reminder TTL regressed from 24h→4h; `.break-reminder` div unstyled) ",
+      "details": null,
+      "cost_usd": 3.0755117499999987,
+      "total_tokens": 17087
     },
     {
       "agent": "slack-watch",
