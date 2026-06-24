@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-24T01:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 126.0,
+      "status": "success",
+      "summary": "Tick #64 complete. Silent by design.",
+      "details": null,
+      "cost_usd": 1.2437955000000003,
+      "total_tokens": 6756
     },
     {
       "agent": "slack-watch",
