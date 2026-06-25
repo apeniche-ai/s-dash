@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-25T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 184.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4674 [TTPAI-159] Replace random test values with strategic number set for algebraic verifier → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.7818335000000003,
+      "total_tokens": 11131
     },
     {
       "agent": "admissions-pr-reviewer",
