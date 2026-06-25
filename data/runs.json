@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-25T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 284.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4673 [6276] Source every displayed sale price live from Recurly → Changes Requested (stale \"Save $X\" copy when live amount ≥ list price; double live_plan_cost call doubles failed API ",
+      "details": null,
+      "cost_usd": 2.4322387499999993,
+      "total_tokens": 14787
     },
     {
       "agent": "pr-reviewer",
