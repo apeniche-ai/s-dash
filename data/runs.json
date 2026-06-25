@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-25T11:03:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 251.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4674 [TTPAI-159] Replace random test values with strategic number set for algebraic verifier → Approved + Browser QA Skipped (TTPAI service-layer algorithm change, no UI surface)",
+      "details": null,
+      "cost_usd": 2.1891452499999997,
+      "total_tokens": 15831
     },
     {
       "agent": "passive-income-research-loop",
