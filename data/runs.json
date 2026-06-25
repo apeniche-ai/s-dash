@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-25T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 71.9,
+      "status": "success",
+      "summary": "Wed PM coaching: HELD. No message sent. This morning I released all 4 stacked unanswered questions and took the blame for over-stacking; sending an evening rotation question 13h later would re-stack a",
+      "details": null,
+      "cost_usd": 0.93016875,
+      "total_tokens": 3209
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
