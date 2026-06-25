@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-25T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 231.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4669 [TTPAI-237] Render Maren tool-status labels and forwards extended thinking → Approved + Browser QA Skipped (AI thinking-stream forwarding on epic branch, well-covered by specs)",
+      "details": null,
+      "cost_usd": 2.42737,
+      "total_tokens": 12587
     },
     {
       "agent": "passive-income-research-loop",
