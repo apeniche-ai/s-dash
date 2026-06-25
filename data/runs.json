@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-25T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 114.5,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK: HN Show + HN Ask + Anthropic/OpenAI/Gemini changelogs; 4 Reddit subs blocked, perpetual blackout day ~44). 0 findings written — 1 candidate dropped at filter: Gemini Computer ",
+      "details": null,
+      "cost_usd": 1.0868654999999998,
+      "total_tokens": 6089
     },
     {
       "agent": "pr-reviewer",
