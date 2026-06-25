@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-06-25T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-06-25T01:05:00Z",
       "duration_seconds": 71.9,
@@ -4716,16 +4724,6 @@
       "details": null,
       "cost_usd": 0.8732899999999999,
       "total_tokens": 5153
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-06-15T02:30:00Z",
-      "duration_seconds": 18.2,
-      "status": "success",
-      "summary": "Nothing to reconcile — exiting silently.",
-      "details": null,
-      "cost_usd": 0.500835,
-      "total_tokens": 359
     }
   ]
 }
