@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-25T11:31:48Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-25T11:30:00Z",
       "duration_seconds": 106.7,
@@ -4720,16 +4728,6 @@
       "details": null,
       "cost_usd": 2.6682272499999997,
       "total_tokens": 16215
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-06-15T11:30:01Z",
-      "duration_seconds": 125.8,
-      "status": "success",
-      "summary": "Done. Mon 6/15 AM coaching message sent to coaching channel (clean on retry). Light-mode posture honored — no exercise assigned, no chase on the felt-sense question. Led with the \"unlived life\" frame ",
-      "details": null,
-      "cost_usd": 1.1411275,
-      "total_tokens": 6889
     }
   ]
 }
