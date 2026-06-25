@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-builder-loop",
+      "timestamp": "2026-06-25T11:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Builder Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-25T10:30:02Z",
       "duration_seconds": 284.9,
@@ -4718,16 +4726,6 @@
       "details": null,
       "cost_usd": 1.6177562499999998,
       "total_tokens": 10327
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-15T11:00:00Z",
-      "duration_seconds": 99.3,
-      "status": "success",
-      "summary": "Tick #246 complete. Silent by design — first tick of week 2 post-pause regime. Channel quiet ~30d, ledger unchanged 10th day, no surface trigger. Log written, no ledger/state/notify writes. Next tick ",
-      "details": null,
-      "cost_usd": 0.9597905,
-      "total_tokens": 5636
     }
   ]
 }
