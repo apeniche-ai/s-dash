@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-25T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 106.7,
+      "status": "success",
+      "summary": "Thu AM coaching message delivered to coaching channel (Telegram fetch-flake fired once, clean on retry — same recurring pattern). Posture B + teach: Jung's incubation concept tied to his already-named",
+      "details": null,
+      "cost_usd": 1.1407955,
+      "total_tokens": 4844
     },
     {
       "agent": "admissions-pr-reviewer",
