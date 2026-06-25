@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-25T12:30:34Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 207.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4677 [TTPAI-197] Add Font Awesome icon vocabulary to Maren responses → Approved + Browser QA Skipped (stacked on epic branch)",
+      "details": null,
+      "cost_usd": 2.23334775,
+      "total_tokens": 10881
     },
     {
       "agent": "daily-todo-digest",
