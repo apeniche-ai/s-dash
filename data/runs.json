@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-06-25T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Builder Loop...",
-      "details": null
+      "duration_seconds": 88.0,
+      "status": "success",
+      "summary": "Not applicable — single-shot scheduled tick with no multi-step work to track. Tick #14 complete: smoke check ran (NXDOMAIN day 40), no transitions, log written, silent. State and blocker memory unchan",
+      "details": null,
+      "cost_usd": 0.89778475,
+      "total_tokens": 4665
     },
     {
       "agent": "pr-reviewer",
