@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-26T17:00:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-26T16:30:00Z",
       "duration_seconds": 166.1,
       "status": "success",
@@ -4704,16 +4712,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-16T16:04:37Z",
-      "duration_seconds": 171.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4654 [6237] Update MBA Insights year from 2024 to 2026 → Changes Requested (haml partial `_partner_introduction.html.haml:16` still hardcodes \"2019 - 2024\" — leaves MLT/Forte/Riordan ",
-      "details": null,
-      "cost_usd": 1.8844322499999997,
-      "total_tokens": 8229
     }
   ]
 }
