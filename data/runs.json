@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-26T11:01:22Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-06-26T11:00:00Z",
       "duration_seconds": 81.1,
@@ -4710,16 +4718,6 @@
       "details": null,
       "cost_usd": 1.6074784999999998,
       "total_tokens": 9161
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-16T10:00:01Z",
-      "duration_seconds": 250.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4618 [6189][6190][6191] Add OnDemand and LiveTeach plans to partner pages (GMAT, GRE, EA) → Changes Requested (MLT coupon `mtl40` likely typo for `mlt400`) + Browser QA Skipped (silen",
-      "details": null,
-      "cost_usd": 2.2829285,
-      "total_tokens": 13760
     }
   ]
 }
