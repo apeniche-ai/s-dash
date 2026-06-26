@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "daily-performance-check-in",
+      "timestamp": "2026-06-26T11:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Performance Check-in...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-06-26T11:15:02Z",
       "duration_seconds": 0.9,
@@ -4708,16 +4716,6 @@
       "details": null,
       "cost_usd": 2.05093675,
       "total_tokens": 9512
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-16T11:04:49Z",
-      "duration_seconds": 95.4,
-      "status": "success",
-      "summary": "Tick #251 complete. SILENT by design — log written (01KV81RPVAB5B4T96A1Y88GKKC), no ledger writes, no state write, no notify. Tue 06:00 pre-scout/pre-market, channel quiet 31d, ledger unchanged 12d, a",
-      "details": null,
-      "cost_usd": 0.9667737499999999,
-      "total_tokens": 6366
     }
   ]
 }
