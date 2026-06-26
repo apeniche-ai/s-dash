@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-26T01:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 193.2,
+      "status": "success",
+      "summary": "Tick #68 complete. SILENT by design — Thu PM Content+Community scan logged. One material flag investigated (Limitless \"No More Stocks!\" YouTube clip ~Jun 19) and classified NOISE — third-party clickba",
+      "details": null,
+      "cost_usd": 1.9438957499999994,
+      "total_tokens": 11483
     },
     {
       "agent": "slack-watch",
