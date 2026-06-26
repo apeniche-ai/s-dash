@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-26T12:01:48Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-26T12:00:00Z",
       "duration_seconds": 107.3,
@@ -4708,16 +4716,6 @@
       "details": null,
       "cost_usd": 1.60181075,
       "total_tokens": 10634
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-16T11:30:01Z",
-      "duration_seconds": 238.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4651 [TTPAI-193] Wire Maren CS support mode into ChatbotService system prompt → Approved + Browser QA Skipped (prompt-content change)",
-      "details": null,
-      "cost_usd": 2.1612892500000003,
-      "total_tokens": 13419
     }
   ]
 }
