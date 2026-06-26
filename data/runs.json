@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-26T10:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-26T03:00:00Z",
       "duration_seconds": 97.8,
@@ -4710,16 +4718,6 @@
       "details": null,
       "cost_usd": 0.4990125000000001,
       "total_tokens": 355
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-06-16T01:05:00Z",
-      "duration_seconds": 123.3,
-      "status": "success",
-      "summary": "Done. Mon 6/15 evening reflection sent to coaching channel (clean first-try delivery). VP-Ruler rotation Q, no diagnostic frame, no chase on morning Q or pending felt-sense Q. Session logged; Tue AM j",
-      "details": null,
-      "cost_usd": 1.072599,
-      "total_tokens": 5599
     }
   ]
 }
