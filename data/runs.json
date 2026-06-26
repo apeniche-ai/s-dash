@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-26T13:02:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 67.9,
+      "status": "success",
+      "summary": "5 stagnant PRs flagged to pr-reviews channel (4 in ttp owned by apeniche/codefarz/alkeshrails, 0 in admissions). PR 4659 excluded — dev pushed commits after the label.",
+      "details": null,
+      "cost_usd": 0.84010825,
+      "total_tokens": 3360
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
