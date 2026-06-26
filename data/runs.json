@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-26T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 98.5,
+      "status": "success",
+      "summary": "Nudged the stale team-blocker-radar proposal (waiting 17 days). No new suggestion today — yesterday's memory hygiene proposal already covers this week's slot, and adding more to a 30-deep proposed que",
+      "details": null,
+      "cost_usd": 0.919805,
+      "total_tokens": 5743
     },
     {
       "agent": "pr-reviewer",
