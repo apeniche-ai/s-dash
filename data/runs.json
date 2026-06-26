@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-26T17:31:37Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 239.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4681 [6284] Port improved GMAT quant instruction into GRE lessons (Ch 1-19) → Changes Requested (find_lesson + anchor lookup silently swallow no-match/ambiguous/anchor-miss cases — ra",
+      "details": null,
+      "cost_usd": 2.18672375,
+      "total_tokens": 13934
     },
     {
       "agent": "slack-watch",
