@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-26T13:03:32Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 399.3,
+      "status": "success",
+      "summary": "Reviewed 5 PRs: #4640 Maren Chatbot Redesign + Trial flows → Approved + Browser QA Skipped (epic-into-epic), #4642 [TTPAI-221] Grouped exercise context → Approved + Browser QA Skipped (feature-into-ep",
+      "details": null,
+      "cost_usd": 2.9383277500000005,
+      "total_tokens": 19996
     },
     {
       "agent": "pr-follow-up-check",
