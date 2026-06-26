@@ -181,10 +181,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-06-26T12:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 27.5,
+      "status": "success",
+      "summary": "Inbox empty — no open todos, no reminders, nothing completed since yesterday. Timestamp stored, no Telegram sent (silent exit per spec).",
+      "details": null,
+      "cost_usd": 0.2159663,
+      "total_tokens": 1097
     },
     {
       "agent": "admissions-pr-reviewer",
