@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-26T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 229.3,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4678 [TTPAI-226] Add difficulty_at_attempt freeze and Elo stable relabeling → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.77242875,
+      "total_tokens": 11978
     },
     {
       "agent": "pr-reviewer",
