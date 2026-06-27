@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "behavioral-experiments-follow-up",
+      "timestamp": "2026-06-27T14:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Behavioral Experiments Follow-Up...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-27T13:00:01Z",
       "duration_seconds": 114.5,
@@ -4707,16 +4715,6 @@
       "details": null,
       "cost_usd": 2.59527425,
       "total_tokens": 18290
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-17T10:00:02Z",
-      "duration_seconds": 156.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4652 [TTPAI-205] Add pre-generated summary cache with batch generation and cache-first serving → Approved + Browser QA Skipped (AI infra setup complexity)",
-      "details": null,
-      "cost_usd": 1.5367915000000003,
-      "total_tokens": 8633
     }
   ]
 }
