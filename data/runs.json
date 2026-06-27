@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-27T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 91.4,
+      "status": "success",
+      "summary": "Tick #307 complete. SILENT by design — Sat Jun 27 10:00 weekend mid-morning, week 6 day-1. State ~133h fresh (under 10d gate), ledger unchanged 6th day post-Jun-21-consolidation, scout filed 0 candida",
+      "details": null,
+      "cost_usd": 0.9394994999999999,
+      "total_tokens": 5942
     },
     {
       "agent": "behavioral-experiments-follow-up",
