@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-06-27T12:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-27T11:01:28Z",
       "duration_seconds": 92.2,
@@ -4707,16 +4715,6 @@
       "details": null,
       "cost_usd": 0.9661184999999999,
       "total_tokens": 5442
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-06-17T02:30:00Z",
-      "duration_seconds": 16.9,
-      "status": "success",
-      "summary": "Nothing to reconcile — exiting silently.",
-      "details": null,
-      "cost_usd": 0.633431,
-      "total_tokens": 282
     }
   ]
 }
