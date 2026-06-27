@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "evening-performance-reflection",
+      "timestamp": "2026-06-27T01:05:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Evening Performance Reflection...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-27T01:00:01Z",
       "duration_seconds": 172.1,
@@ -4707,14 +4715,6 @@
       "details": null,
       "cost_usd": 0.923099,
       "total_tokens": 5236
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-16T22:30:01Z",
-      "duration_seconds": 0.8,
-      "status": "success",
-      "summary": "No PRs to review — 34 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
