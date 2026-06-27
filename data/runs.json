@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-27T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 97.7,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK: HN Show + HN Ask + Anthropic/OpenAI/Gemini changelogs; 4 Reddit subs blocked, perpetual blackout day ~46). 0 findings written — all 3 vendors flat on capability surface (Anthr",
+      "details": null,
+      "cost_usd": 1.0502997499999998,
+      "total_tokens": 5938
     },
     {
       "agent": "passive-income-research-loop",
