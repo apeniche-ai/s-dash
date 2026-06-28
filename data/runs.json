@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-28T11:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 86.2,
+      "status": "success",
+      "summary": "Tick #311 complete. SILENT by design — Sun Jun 28 06:00 AM, week 6 day 1. Ledger unchanged 7th day post-consolidation. State ~153h fresh, deferred rewrite to tonight's mandatory #315 21:00 weekly cons",
+      "details": null,
+      "cost_usd": 0.948773,
+      "total_tokens": 5902
     },
     {
       "agent": "passive-income-research-loop",
