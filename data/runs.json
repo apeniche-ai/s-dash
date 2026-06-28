@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-06-28T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-28T12:00:00Z",
       "duration_seconds": 111.0,
@@ -4719,16 +4727,6 @@
       "details": null,
       "cost_usd": 3.1856780000000002,
       "total_tokens": 17815
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-06-17T13:00:01Z",
-      "duration_seconds": 82.0,
-      "status": "success",
-      "summary": "Telegram delivery failed (fetch error — same flake hitting other agents this hour per recent activity). Per fail-fast rule, not retrying.",
-      "details": null,
-      "cost_usd": 0.836322,
-      "total_tokens": 3474
     }
   ]
 }
