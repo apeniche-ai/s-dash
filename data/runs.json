@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-28T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 138.5,
+      "status": "success",
+      "summary": "Done. Created one new suggestion: **\"Soren drafts your Manager README from what it already knows about you\"** (ID `01KW84KMJTCVSRQ9VJEXCHYC5N`, P9, capability).",
+      "details": null,
+      "cost_usd": 1.3290282500000001,
+      "total_tokens": 7364
     },
     {
       "agent": "passive-income-research-loop",
