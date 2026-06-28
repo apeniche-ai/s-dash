@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-28T23:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 97.6,
+      "status": "success",
+      "summary": "Tick #314 complete. SILENT by design — Sun 18:00, ~3h before mandatory weekly consolidation tick #315 at 21:00. Ledger unchanged 7th day post-consolidation (3 pursuing / 1 discussing / 4 paused / 10 r",
+      "details": null,
+      "cost_usd": 1.04894225,
+      "total_tokens": 6712
     },
     {
       "agent": "soren-improvement-review",
