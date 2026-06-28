@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-28T01:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 123.3,
+      "status": "success",
+      "summary": "Tick #72 complete. SILENT by design.",
+      "details": null,
+      "cost_usd": 1.3550777499999997,
+      "total_tokens": 6985
     },
     {
       "agent": "passive-income-research-loop",
