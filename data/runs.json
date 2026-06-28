@@ -181,10 +181,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-06-28T23:01:38Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 183.9,
+      "status": "success",
+      "summary": "Weekly digest delivered to the assistant channel on the third Telegram attempt (two fetch-failed flakes — same pattern as last week). Five themes shipped with sources: 4 new AI-leader JD skill cluster",
+      "details": null,
+      "cost_usd": 1.5990360000000001,
+      "total_tokens": 14059
     },
     {
       "agent": "passive-income-research-loop",
