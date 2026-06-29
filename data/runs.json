@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-06-29T11:04:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Builder Loop...",
-      "details": null
+      "duration_seconds": 103.8,
+      "status": "success",
+      "summary": "Not applicable — single-shot scheduled tick, no multi-step work to track. Tick #18 complete: SILENT. NXDOMAIN day 44, all 7 feat/* branches intact, no Amaury reply, channel still broken. No notify, no",
+      "details": null,
+      "cost_usd": 1.0352379999999999,
+      "total_tokens": 5691
     },
     {
       "agent": "pr-reviewer",
