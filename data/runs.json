@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-29T15:01:44Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 374.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4685 [TTPAI-216] Add gated Maren mode with CS-only support and curriculum lockdown → Changes Requested (Gate 5 @prior_session_context suppression missing — explicit AC) + Browser QA S",
+      "details": null,
+      "cost_usd": 2.43357275,
+      "total_tokens": 16953
     },
     {
       "agent": "passive-income-research-loop",
