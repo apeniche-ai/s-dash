@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-29T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 186.5,
+      "status": "success",
+      "summary": "Done. Sent two items to Telegram:",
+      "details": null,
+      "cost_usd": 1.3730655,
+      "total_tokens": 9745
     },
     {
       "agent": "pr-reviewer",
