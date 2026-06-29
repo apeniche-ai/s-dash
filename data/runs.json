@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-29T21:00:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-29T20:30:59Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4729,16 +4737,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-18T13:05:07Z",
-      "duration_seconds": 222.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4653 [6239] Add Maren AI summarize pill → Approved + Browser QA Skipped (epic-branch base)",
-      "details": null,
-      "cost_usd": 2.1966532500000002,
-      "total_tokens": 12372
     }
   ]
 }
