@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-team-shipping-report",
+      "timestamp": "2026-06-29T12:45:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Team Shipping Report...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-06-29T12:32:43Z",
       "duration_seconds": 40.3,
@@ -4734,14 +4742,6 @@
       "duration_seconds": 1.0,
       "status": "success",
       "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-06-17T19:15:02Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
     }
   ]
