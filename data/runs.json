@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-29T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 100.8,
+      "status": "success",
+      "summary": "Tick #315 complete. SILENT by design — Sun Jun 28 22:00, first research-loop tick after tonight's dedicated 21:00 weekly consolidation job (which owns the state rewrite + Vercel/PaaS paused-gate re-ev",
+      "details": null,
+      "cost_usd": 0.9855362500000001,
+      "total_tokens": 7061
     },
     {
       "agent": "goal-progress-reconciliation",
