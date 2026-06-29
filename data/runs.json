@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-29T12:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-29T11:32:30Z",
       "duration_seconds": 107.0,
@@ -4731,16 +4739,6 @@
       "details": null,
       "cost_usd": 3.9025964999999996,
       "total_tokens": 20552
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-17T17:31:21Z",
-      "duration_seconds": 312.8,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4559 [6141] Maren Onboarding + Diagnostic → Approved + Browser QA Skipped (massive multi-feature epic with prior human QA)",
-      "details": null,
-      "cost_usd": 2.646579000000001,
-      "total_tokens": 17327
     }
   ]
 }
