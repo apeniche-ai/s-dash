@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-29T22:00:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-29T21:30:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4725,16 +4733,6 @@
       "details": null,
       "cost_usd": 2.12578775,
       "total_tokens": 11230
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-18T13:31:15Z",
-      "duration_seconds": 173.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4661 [TTPAI-233][6267] Rewrite DiagnosticCopyResolver and add Step 5b score cross-check validation → Approved + Browser QA Skipped (epic-branch base)",
-      "details": null,
-      "cost_usd": 1.9194897500000003,
-      "total_tokens": 9076
     }
   ]
 }
