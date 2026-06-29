@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-29T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 93.3,
+      "status": "success",
+      "summary": "Tick #316 complete. SILENT — log written, no notify, no sub-agent dispatch, no state/ledger writes. State is 9h fresh from last night's consolidation; ledger unchanged into Mon AM. Amaury's first day ",
+      "details": null,
+      "cost_usd": 1.0050765,
+      "total_tokens": 5999
     },
     {
       "agent": "pr-reviewer",
