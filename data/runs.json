@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-29T15:01:44Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-29T15:00:00Z",
       "duration_seconds": null,
@@ -4749,16 +4757,6 @@
       "details": null,
       "cost_usd": 0.40038129999999994,
       "total_tokens": 8969
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-17T23:00:00Z",
-      "duration_seconds": 72.8,
-      "status": "success",
-      "summary": "Tick #259 complete. Silent — no notify. Wed 6pm post-close: scout filed 0 candidates, ledger unchanged 16th day, JEPQ/XDTE dormant, channel quiet 32d, default channel already loud with reliability con",
-      "details": null,
-      "cost_usd": 0.94554475,
-      "total_tokens": 4693
     }
   ]
 }
