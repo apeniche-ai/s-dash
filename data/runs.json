@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-06-29T19:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-29T18:30:02Z",
       "duration_seconds": 301.3,
@@ -4737,16 +4745,6 @@
       "details": null,
       "cost_usd": 0.78386525,
       "total_tokens": 1263
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-06-18T12:00:00Z",
-      "duration_seconds": 143.2,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 OK: HN Show HN, HN Ask HN, all 3 vendor changelogs; 4 Reddit subs blocked day 37 consecutive). 0 findings written — 5 raw candidates dropped at filter (AI-agent-infra cluster satu",
-      "details": null,
-      "cost_usd": 1.2601675,
-      "total_tokens": 8532
     }
   ]
 }
