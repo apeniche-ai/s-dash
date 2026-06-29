@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-29T13:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 333.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4684 [6282] Add AI content quality flag across chat, exercise, summary, and flashcard surfaces → Changes Requested (missing FlashCard temporary gate + race-condition rescue returns wr",
+      "details": null,
+      "cost_usd": 2.9500827500000004,
+      "total_tokens": 18846
     },
     {
       "agent": "admissions-pr-reviewer",
