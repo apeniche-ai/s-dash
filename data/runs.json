@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-29T13:05:29Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 87.4,
+      "status": "success",
+      "summary": "5 stagnant PRs flagged to pr-reviews channel (all in ttp; admissions had 0 PRs with \"Changes Requested\"). PRs #4659 and #4642 excluded — #4659 has commits newer than the label, #4642's label is <24h o",
+      "details": null,
+      "cost_usd": 0.917691,
+      "total_tokens": 4005
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
