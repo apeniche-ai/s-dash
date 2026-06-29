@@ -181,10 +181,12 @@
     {
       "agent": "colombia-mintic-transition-watch",
       "timestamp": "2026-06-29T14:04:12Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Colombia MinTIC Transition Watch...",
-      "details": null
+      "duration_seconds": 46.2,
+      "status": "success",
+      "summary": "No MinTIC appointment confirmed. Only Rodrigo Lara (Interior) is officially named so far. Reporting tick result silently per instructions.",
+      "details": null,
+      "cost_usd": 0.8063227500000001,
+      "total_tokens": 1716
     },
     {
       "agent": "pr-reviewer",
