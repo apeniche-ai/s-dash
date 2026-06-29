@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-coaching-digest",
+      "timestamp": "2026-06-29T01:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Coaching Digest...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-29T01:00:01Z",
       "duration_seconds": 148.9,
@@ -4723,16 +4731,6 @@
       "details": null,
       "cost_usd": 0.9949115000000001,
       "total_tokens": 5314
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-17T14:30:01Z",
-      "duration_seconds": 329.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4529 [6038] Add self-managed billing engine foundation → Approved + Browser QA Skipped (merge conflicts + new billing engine needs DB migrations & Stripe config — high false-failure r",
-      "details": null,
-      "cost_usd": 2.6664517499999993,
-      "total_tokens": 18041
     }
   ]
 }
