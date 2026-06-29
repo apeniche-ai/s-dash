@@ -181,10 +181,12 @@
     {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-06-29T01:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Coaching Digest...",
-      "details": null
+      "duration_seconds": 137.0,
+      "status": "success",
+      "summary": "Digest delivered to the coaching channel on first try and stored in memory (ID `01KW8G24ST8E6XT8KPQV9QBTVE`) for next week's comparison.",
+      "details": null,
+      "cost_usd": 1.30125475,
+      "total_tokens": 6581
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
