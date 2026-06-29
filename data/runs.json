@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-29T11:32:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 107.0,
+      "status": "success",
+      "summary": "Mon AM coaching message delivered to the coaching channel (one Telegram fetch-flake retry — same recurring pattern). Posture A: named the late-vs-real-time witness distinction, taught the contested-re",
+      "details": null,
+      "cost_usd": 1.2214067499999999,
+      "total_tokens": 5307
     },
     {
       "agent": "pr-reviewer",
