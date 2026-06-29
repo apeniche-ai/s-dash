@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-29T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 301.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4678 [TTPAI-226] Add difficulty_at_attempt freeze and Elo stable relabeling → Changes Requested (rubocop continuation indent) + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.6236877499999993,
+      "total_tokens": 16154
     },
     {
       "agent": "daily-performance-check-in",
