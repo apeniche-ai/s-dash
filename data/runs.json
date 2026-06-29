@@ -181,10 +181,12 @@
     {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-06-29T12:45:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Team Shipping Report...",
-      "details": null
+      "duration_seconds": 151.7,
+      "status": "success",
+      "summary": "Both messages delivered to the team-intel channel on first try. Snapshot stored; Jun 1 memory cleared.",
+      "details": null,
+      "cost_usd": 1.1202047499999999,
+      "total_tokens": 10838
     },
     {
       "agent": "daily-todo-digest",
