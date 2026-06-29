@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-vp-performance-edge",
+      "timestamp": "2026-06-29T12:06:47Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly VP Performance Edge...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-29T12:05:02Z",
       "duration_seconds": 105.7,
@@ -4733,14 +4741,6 @@
       "details": null,
       "cost_usd": 2.36516275,
       "total_tokens": 17000
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-06-17T18:15:01Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
