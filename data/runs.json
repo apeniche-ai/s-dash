@@ -179,6 +179,16 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-06-29T10:04:40Z",
+      "duration_seconds": 278.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4642 [TTPAI-221] Add grouped exercise context with progressive disclosure for active sub question → Changes Requested (stale-attempt risk in attempts_by_exercise lookup) + Browser QA ",
+      "details": null,
+      "cost_usd": 2.5342974999999996,
+      "total_tokens": 14108
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-29T03:00:00Z",
       "duration_seconds": 100.8,
@@ -4725,16 +4735,6 @@
       "details": null,
       "cost_usd": 1.3126845,
       "total_tokens": 7146
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-17T15:30:01Z",
-      "duration_seconds": 257.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4653 [6239] Add Maren AI summarize pill → Changes Requested (chip locks chat on non-eligible lessons) + Browser QA Skipped (epic base branch, infra not on master)",
-      "details": null,
-      "cost_usd": 2.1918865,
-      "total_tokens": 14840
     }
   ]
 }
