@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-06-29T13:35:34Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 100.6,
+      "status": "success",
+      "summary": "Telegram delivery also failed (same intermittent fetch flake seen this week). Memory entry stored.",
+      "details": null,
+      "cost_usd": 0.312562,
+      "total_tokens": 4334
     },
     {
       "agent": "pr-reviewer",
