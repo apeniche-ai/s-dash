@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-06-30T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 121.7,
+      "status": "success",
+      "summary": "Done. Nudged the **Weekly memory hygiene** proposal to Telegram — it's been waiting ~14 days and would directly stop the pattern of Soren re-proposing rejected concepts. No new suggestion today; yeste",
+      "details": null,
+      "cost_usd": 1.1680344999999999,
+      "total_tokens": 6736
     },
     {
       "agent": "pr-reviewer",
