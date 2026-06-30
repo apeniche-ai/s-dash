@@ -189,10 +189,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-06-30T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 153.4,
+      "status": "success",
+      "summary": "Tick #77 complete. SILENT by design.",
+      "details": null,
+      "cost_usd": 1.32787375,
+      "total_tokens": 9101
     },
     {
       "agent": "pr-reviewer",
