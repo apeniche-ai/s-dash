@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-30T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 291.7,
+      "status": "success",
+      "summary": "Inside work hours, no batched reviews, telegram delivery is failing today (same issue PR Follow-up Check job hit earlier). Skipping the digest send per fail-fast rule.",
+      "details": null,
+      "cost_usd": 1.9364764999999997,
+      "total_tokens": 12295
     },
     {
       "agent": "pr-reviewer",
