@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-30T20:00:02Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-30T19:30:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4722,16 +4730,6 @@
       "details": null,
       "cost_usd": 0.9064082499999999,
       "total_tokens": 4436
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-06-19T12:33:28Z",
-      "duration_seconds": 43.4,
-      "status": "success",
-      "summary": "Done. Todo list is empty, nothing completed since yesterday — no Telegram sent. Timestamp stored for tomorrow's run.",
-      "details": null,
-      "cost_usd": 0.21195109999999998,
-      "total_tokens": 1073
     }
   ]
 }
