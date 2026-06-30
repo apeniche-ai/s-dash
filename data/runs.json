@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-30T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 257.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4687 [TTPAI-162] Add TA single-cell heuristic and MSR multi-tab structural checks → Changes Requested (QC retry prompt mis-instructs model with DS-only A-E for QC question type) + Bro",
+      "details": null,
+      "cost_usd": 2.6747805000000002,
+      "total_tokens": 12731
     },
     {
       "agent": "slack-watch",
