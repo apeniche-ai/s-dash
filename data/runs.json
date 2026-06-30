@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-06-30T13:02:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 84.8,
+      "status": "success",
+      "summary": "Telegram delivery failed: `fetch failed`. Per fail-fast rule, not retrying.",
+      "details": null,
+      "cost_usd": 0.885734,
+      "total_tokens": 4061
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
