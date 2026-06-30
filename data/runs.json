@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-30T11:03:55Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 211.2,
+      "status": "success",
+      "summary": "Time is Tue 06:00 — outside work hours. Result stored to batch. No Telegram.",
+      "details": null,
+      "cost_usd": 2.0136455000000004,
+      "total_tokens": 13396
     },
     {
       "agent": "passive-income-research-loop",
