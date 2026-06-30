@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-06-30T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 103.3,
+      "status": "success",
+      "summary": "Tick #322 complete. SILENT — log written, no notify, no ledger writes, no state update (state ~37h, still inside 48h gate), no sub-agent dispatch. Scout filed 0 candidates Tue AM (4 OK / 5 unavailable",
+      "details": null,
+      "cost_usd": 0.99671875,
+      "total_tokens": 7117
     },
     {
       "agent": "pr-reviewer",
