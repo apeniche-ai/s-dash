@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-06-30T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 114.7,
+      "status": "success",
+      "summary": "Sent Tue AM coaching message to the coaching channel. Posture B-leaning: released Mon AM's unanswered Cool Guy spotting question so it doesn't nag, dropped a small Phase 2 teach (\"noticing IS the rep ",
+      "details": null,
+      "cost_usd": 1.2313735,
+      "total_tokens": 5851
     },
     {
       "agent": "admissions-pr-reviewer",
