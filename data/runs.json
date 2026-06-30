@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-30T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 298.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4687 [TTPAI-162] Add TA single-cell heuristic and MSR multi-tab structural checks → Changes Requested (QC retry prompt mis-instructs A-E for A-D answers; cell-text dedup collapses dis",
+      "details": null,
+      "cost_usd": 3.0294649999999996,
+      "total_tokens": 17233
     },
     {
       "agent": "pr-reviewer",
