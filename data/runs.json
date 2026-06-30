@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-30T12:02:08Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 230.6,
+      "status": "success",
+      "summary": "Label applied. It's 07:05 Tue — outside work hours (start 08:00), stored silently per protocol.",
+      "details": null,
+      "cost_usd": 2.2934992500000004,
+      "total_tokens": 12928
     },
     {
       "agent": "passive-income-discovery-scan",
