@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-06-30T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-06-30T15:30:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4738,16 +4746,6 @@
       "details": null,
       "cost_usd": 0.48128400000000005,
       "total_tokens": 346
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-06-19T01:05:00Z",
-      "duration_seconds": 91.6,
-      "status": "success",
-      "summary": "Done. Thursday PM Self-Trust rotation sent clean to coaching channel (2nd consecutive clean first-try delivery). Posture B per AM memo contingency — no chase of the gear-shift incubation Q, no frame, ",
-      "details": null,
-      "cost_usd": 0.9780255000000001,
-      "total_tokens": 3422
     }
   ]
 }
