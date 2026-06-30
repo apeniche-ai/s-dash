@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-06-30T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 126.4,
+      "status": "success",
+      "summary": "Scanned 9 sources, 4 OK (HN Show HN + 3 vendor changelogs), 5 unavailable today (Reddit 4/4 blocked day ~49, HN Ask HN Algolia returned 400). Zero candidates passed the 5-criterion filter — vendor cha",
+      "details": null,
+      "cost_usd": 1.22528575,
+      "total_tokens": 8481
     },
     {
       "agent": "pr-reviewer",
