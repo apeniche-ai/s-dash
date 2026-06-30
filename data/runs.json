@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-06-30T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 229.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4684 [6282] Add AI content quality flag across chat, exercise, summary, and flashcard surfaces → Approved + Browser QA Skipped (epic-child PR, CI failing system-wide)",
+      "details": null,
+      "cost_usd": 2.10959575,
+      "total_tokens": 11948
     },
     {
       "agent": "passive-income-research-loop",
