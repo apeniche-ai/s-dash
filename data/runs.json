@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-01T23:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-01T22:30:01Z",
       "duration_seconds": 0.8,
@@ -4716,16 +4724,6 @@
       "details": null,
       "cost_usd": 1.0899990000000002,
       "total_tokens": 7011
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-06-21T22:10:00Z",
-      "duration_seconds": 63.1,
-      "status": "success",
-      "summary": "Exiting silently. Pipeline has 32 open proposals; I shipped two substantive ideas in the last 8 days (Merge Brief, Jira→PR pipeline) and both are still awaiting Amaury's call. Adding or nudging anothe",
-      "details": null,
-      "cost_usd": 0.708764,
-      "total_tokens": 3101
     }
   ]
 }
