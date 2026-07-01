@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-07-01T13:03:41Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 79.2,
+      "status": "success",
+      "summary": "Delivered to `pr-reviews`. Scanned ttp (7 PRs with `Changes Requested`) + admissions (0). Excluded #4659 (dev pushed a fix — newer commits than the label) and #4559 (label added ~13h ago, still inside",
+      "details": null,
+      "cost_usd": 0.8750990000000001,
+      "total_tokens": 3532
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
