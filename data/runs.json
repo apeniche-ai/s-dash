@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-07-01T17:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-01T17:15:01Z",
       "duration_seconds": 0.8,
@@ -4738,16 +4746,6 @@
       "details": null,
       "cost_usd": 1.0682695000000002,
       "total_tokens": 6048
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-20T11:04:31Z",
-      "duration_seconds": 83.9,
-      "status": "success",
-      "summary": "Tick #271 complete. Silent by design — Sat 6 AM weekend opener, scout fires in ~1h, ledger 22nd unchanged day, channel quiet 35d. No state write (singleton ~129h fresh but no substantive change, 4.6d ",
-      "details": null,
-      "cost_usd": 0.97555625,
-      "total_tokens": 5511
     }
   ]
 }
