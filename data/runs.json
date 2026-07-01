@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-01T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 162.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4694 [TTPAI-169] Add GI structural verifier, judge, and correction retry → Approved + Browser QA Skipped (backend AI verification service)",
+      "details": null,
+      "cost_usd": 1.7974635,
+      "total_tokens": 8810
     },
     {
       "agent": "admissions-pr-reviewer",
