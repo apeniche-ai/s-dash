@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-01T15:01:39Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 198.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4696 [TTPAI-171] Add SC retirement guardrail to ExerciseService (GMAT only) → Approved + Browser QA Skipped (defensive guard against cross-exam SC contamination; can't reproduce natur",
+      "details": null,
+      "cost_usd": 1.8664915000000002,
+      "total_tokens": 10647
     },
     {
       "agent": "passive-income-research-loop",
