@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-01T20:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-01T19:30:02Z",
       "duration_seconds": 1.7,
       "status": "success",
@@ -4732,16 +4740,6 @@
       "details": null,
       "cost_usd": 1.30991225,
       "total_tokens": 7018
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-20T23:00:00Z",
-      "duration_seconds": 83.6,
-      "status": "success",
-      "summary": "Tick #274 complete. Silent by design — Sat 18:00 weekend evening, US markets closed ~26h, scout filed 0 candidates today, ledger unchanged 22nd day, channel quiet 35d. No state write (~141h fresh, und",
-      "details": null,
-      "cost_usd": 0.93017225,
-      "total_tokens": 5704
     }
   ]
 }
