@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-01T19:01:29Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-01T19:00:00Z",
       "duration_seconds": 87.9,
@@ -4736,16 +4744,6 @@
       "details": null,
       "cost_usd": 0.92479675,
       "total_tokens": 5413
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-06-20T16:00:00Z",
-      "duration_seconds": 149.4,
-      "status": "success",
-      "summary": "Tick complete. SILENT — neither alert trigger fired.",
-      "details": null,
-      "cost_usd": 1.4241565,
-      "total_tokens": 8510
     }
   ]
 }
