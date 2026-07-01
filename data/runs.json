@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-01T17:31:19Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 216.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4693 [6268] Add verbal games tasks to GRE study plan missions → Approved + Browser QA Skipped (local env)",
+      "details": null,
+      "cost_usd": 2.6209624999999996,
+      "total_tokens": 11060
     },
     {
       "agent": "slack-watch",
