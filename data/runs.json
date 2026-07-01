@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-01T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 160.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4669 [TTPAI-237] Render Maren tool-status labels and forwards extended thinking → Approved + Browser QA Skipped (epic-branch plumbing, requires full AI stack to exercise)",
+      "details": null,
+      "cost_usd": 1.71891375,
+      "total_tokens": 8084
     },
     {
       "agent": "pr-reviewer",
