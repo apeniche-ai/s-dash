@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-01T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 179.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4692 [6289] - Fractions not rendered correctly in chatbot panel → Approved + Browser QA Skipped (CSS selector-specificity refinement, cannot regress)",
+      "details": null,
+      "cost_usd": 1.79646725,
+      "total_tokens": 9182
     },
     {
       "agent": "passive-income-research-loop",
