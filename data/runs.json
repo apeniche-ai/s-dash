@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-07-01T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 110.9,
+      "status": "success",
+      "summary": "Tue PM evening reflection: **HELD**. No Telegram sent. Today already carried 6 coaching touches (welcome-back summary, Amaury's guilt-as-receipt validation voice note, breakthrough response, Weekly Mi",
+      "details": null,
+      "cost_usd": 0.93148225,
+      "total_tokens": 4637
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
