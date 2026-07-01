@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-07-01T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 115.8,
+      "status": "success",
+      "summary": "Sent Wed AM coaching message to the coaching channel. Posture B — teaching-note only, no probe. Honored the post-breakthrough breathing room and the Tue AM Cool Guy probe still open. Taught Bandura ma",
+      "details": null,
+      "cost_usd": 1.02889575,
+      "total_tokens": 5062
     },
     {
       "agent": "admissions-pr-reviewer",
