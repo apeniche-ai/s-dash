@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-01T13:31:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 242.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4694 [TTPAI-169] Add GI structural verifier, judge, and correction retry → Approved + Browser QA Skipped (backend AI verification internals)",
+      "details": null,
+      "cost_usd": 2.6142345,
+      "total_tokens": 12840
     },
     {
       "agent": "slack-watch",
