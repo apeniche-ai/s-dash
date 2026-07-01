@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-01T18:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 278.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4688 [TTPAI-158] Universal Distractor Rationale + Skill Tagging → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.73129675,
+      "total_tokens": 15632
     },
     {
       "agent": "pr-reviewer",
