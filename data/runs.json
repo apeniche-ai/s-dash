@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-01T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-01T14:30:01Z",
       "duration_seconds": 248.5,
@@ -4746,16 +4754,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-06-19T22:10:00Z",
-      "duration_seconds": 77.3,
-      "status": "success",
-      "summary": "Nudge sent for the \"Morning who's stuck on your team\" radar — 3+ weeks waiting, directly supports the P10 defense side (unblocking team work before merge). No new suggestion this run — the pipeline is",
-      "details": null,
-      "cost_usd": 0.8552197500000001,
-      "total_tokens": 4654
     }
   ]
 }
