@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-07-01T11:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Builder Loop...",
-      "details": null
+      "duration_seconds": 146.0,
+      "status": "success",
+      "summary": "Not applicable — a Passive Income Builder tick is a single-shot procedure (load → decide → write memory → exit), not a multi-step workstream. No task list needed.",
+      "details": null,
+      "cost_usd": 1.1041830000000001,
+      "total_tokens": 9022
     },
     {
       "agent": "pr-reviewer",
