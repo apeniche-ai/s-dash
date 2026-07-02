@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-07-02T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-07-02T01:06:24Z",
       "duration_seconds": 66.9,
@@ -4716,16 +4724,6 @@
       "details": null,
       "cost_usd": 1.0270964999999999,
       "total_tokens": 6785
-    },
-    {
-      "agent": "weekly-coaching-digest",
-      "timestamp": "2026-06-22T01:30:00Z",
-      "duration_seconds": 118.8,
-      "status": "success",
-      "summary": "Digest delivered to the coaching channel on first try and stored in memory (ID 01KVPF8K1DVR563G0HRZ28Q48G) for next week's comparison.",
-      "details": null,
-      "cost_usd": 1.211448,
-      "total_tokens": 5817
     }
   ]
 }
