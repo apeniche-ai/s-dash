@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-02T10:30:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 47 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-02T10:00:02Z",
       "duration_seconds": 218.0,
       "status": "success",
@@ -4716,16 +4724,6 @@
       "details": null,
       "cost_usd": 2.70856875,
       "total_tokens": 17346
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-22T03:00:00Z",
-      "duration_seconds": 96.4,
-      "status": "success",
-      "summary": "Tick #280 complete. Silent by design — Sun 22:00 close-out, ~1h post 21:00 weekly consolidation. Hard skip on state/ledger writes to avoid colliding with consolidation outputs. Sun closes 5/5 silent, ",
-      "details": null,
-      "cost_usd": 0.9822329999999999,
-      "total_tokens": 5920
     }
   ]
 }
