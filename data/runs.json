@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-02T11:01:47Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-07-02T11:00:00Z",
       "duration_seconds": 107.2,
@@ -4714,16 +4722,6 @@
       "details": null,
       "cost_usd": 1.003085,
       "total_tokens": 6573
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-22T10:30:01Z",
-      "duration_seconds": 409.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4667 [TTPAI-232] Add child safety guardrails and crisis detection for SAT Maren chatbot → Changes Requested (migration/schema null:false mismatch + break-reminder TTL gap for SB 243 s",
-      "details": null,
-      "cost_usd": 3.100790999999999,
-      "total_tokens": 27422
     }
   ]
 }
