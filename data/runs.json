@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-02T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 120.1,
+      "status": "success",
+      "summary": "Tick #332 complete. SILENT, log written (id `01KWHNKEVHJ0GCPT3YZF58C2ST`), no ledger writes, no state update, no sub-agent dispatch, no Telegram traffic. Thu Jul 2 running 2/5 SILENT. Scout Thu AM: 0 ",
+      "details": null,
+      "cost_usd": 1.0381405,
+      "total_tokens": 5193
     },
     {
       "agent": "pr-reviewer",
