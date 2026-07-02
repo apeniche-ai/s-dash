@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-02T16:02:43Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 49 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-07-02T16:00:00Z",
       "duration_seconds": null,
@@ -4706,16 +4714,6 @@
       "details": null,
       "cost_usd": 1.66073975,
       "total_tokens": 7818
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-22T15:00:00Z",
-      "duration_seconds": 97.6,
-      "status": "success",
-      "summary": "Tick #282 complete. Silent by design — Mon 10:00 Week 4 day-1 peak meeting window, ~13h post Sun consolidation, state fresh, ledger unchanged (Vercel + PaaS pauses extended at consolidation), scout fi",
-      "details": null,
-      "cost_usd": 1.0067452499999998,
-      "total_tokens": 6531
     }
   ]
 }
