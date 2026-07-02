@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-02T13:31:14Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 164.6,
+      "status": "success",
+      "summary": "Telegram delivery failed (`telegram: failed: fetch failed`) — same intermittent issue that hit the earlier PR Follow-up Check today. Not retrying per fail-fast rule.",
+      "details": null,
+      "cost_usd": 1.5967897499999997,
+      "total_tokens": 8048
     },
     {
       "agent": "slack-watch",
