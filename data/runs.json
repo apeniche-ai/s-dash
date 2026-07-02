@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-02T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 182.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4683 [TTPAI-227] Mount Maren once in the layout and support contextless chat → Approved + Browser QA Skipped (bundler mismatch)",
+      "details": null,
+      "cost_usd": 1.9731677500000002,
+      "total_tokens": 9527
     },
     {
       "agent": "pr-reviewer",
