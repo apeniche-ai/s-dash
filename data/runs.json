@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-07-02T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 103.4,
+      "status": "success",
+      "summary": "Scanned 9 sources, 5 OK (HN Show HN, HN Ask HN, and all 3 vendor changelogs), 4 blocked (Reddit day ~51). Zero findings passed the 5-criterion filter today — Anthropic's Jul 1 update was a Fable 5/Myt",
+      "details": null,
+      "cost_usd": 1.0733282499999997,
+      "total_tokens": 5583
     },
     {
       "agent": "pr-reviewer",
