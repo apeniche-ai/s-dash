@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-02T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 86.1,
+      "status": "success",
+      "summary": "Tick #330 complete. SILENT, log written (id `01KWGCC8PPD64FJD2MJR4NFZ37`), no ledger writes, no state update, no sub-agent dispatch, no Telegram traffic. Wed Jul 1 closes 5/5 SILENT. Next scheduled ti",
+      "details": null,
+      "cost_usd": 0.9574972500000001,
+      "total_tokens": 5816
     },
     {
       "agent": "goal-progress-reconciliation",
