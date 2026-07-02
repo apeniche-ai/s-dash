@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-02T12:01:44Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-07-02T12:00:00Z",
       "duration_seconds": 103.4,
@@ -4712,16 +4720,6 @@
       "details": null,
       "cost_usd": 1.26289775,
       "total_tokens": 7785
-    },
-    {
-      "agent": "daily-performance-check-in",
-      "timestamp": "2026-06-22T11:33:31Z",
-      "duration_seconds": 162.5,
-      "status": "success",
-      "summary": "Monday AM coaching message delivered to coaching channel (failed once, clean on retry — the Telegram fetch-flake is back). Posture A — taught the witness/observer mechanism as fresh angle on the Mon 6",
-      "details": null,
-      "cost_usd": 1.268125,
-      "total_tokens": 9475
     }
   ]
 }
