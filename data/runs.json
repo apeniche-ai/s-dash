@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-07-02T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-02T22:00:01Z",
       "duration_seconds": 0.8,
@@ -4700,16 +4708,6 @@
       "details": null,
       "cost_usd": 2.06886925,
       "total_tokens": 11799
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-06-22T20:34:52Z",
-      "duration_seconds": 157.3,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.3488179,
-      "total_tokens": 7513
     }
   ]
 }
