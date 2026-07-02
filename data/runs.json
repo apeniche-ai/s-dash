@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-02T12:01:44Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 366.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (CI failing on maren_days_until_exam spec after `<=` → `<` guard change) + Browser QA Skipped (stacked epic ",
+      "details": null,
+      "cost_usd": 3.3988365000000003,
+      "total_tokens": 18200
     },
     {
       "agent": "passive-income-discovery-scan",
