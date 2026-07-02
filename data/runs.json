@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-builder-loop",
+      "timestamp": "2026-07-02T11:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Builder Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-02T10:30:01Z",
       "duration_seconds": 1.0,
@@ -4714,16 +4722,6 @@
       "details": null,
       "cost_usd": 3.100790999999999,
       "total_tokens": 27422
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-22T10:00:02Z",
-      "duration_seconds": 316.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4653 [6238][6239] Add Maren AI summarize and flashcard pills → Approved + Browser QA Skipped (bundler 2.6.9 missing locally)",
-      "details": null,
-      "cost_usd": 2.70856875,
-      "total_tokens": 17346
     }
   ]
 }
