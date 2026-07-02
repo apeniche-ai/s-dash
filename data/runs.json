@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-07-02T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 39.9,
+      "status": "success",
+      "summary": "Exiting silently. The pipeline still holds 35+ proposed items — the highest-leverage frontier capabilities (Build Agent, Merge Brief, ticket→PR pipeline, team-blocker radar, MentalTune pilot, Heroku A",
+      "details": null,
+      "cost_usd": 0.607378,
+      "total_tokens": 1511
     },
     {
       "agent": "pr-reviewer",
