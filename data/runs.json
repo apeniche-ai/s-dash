@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-03T10:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 171.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4684 [6282] Add AI content quality flag → Approved + Browser QA Skipped (already QA'd by human, epic-branch base)",
+      "details": null,
+      "cost_usd": 1.8004875000000002,
+      "total_tokens": 8627
     },
     {
       "agent": "passive-income-research-loop",
