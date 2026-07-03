@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-03T14:00:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 45 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-03T13:31:31Z",
       "duration_seconds": 196.3,
       "status": "success",
@@ -4712,16 +4720,6 @@
       "details": null,
       "cost_usd": 1.9758542500000003,
       "total_tokens": 12311
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-06-23T13:02:52Z",
-      "duration_seconds": 82.4,
-      "status": "success",
-      "summary": "Digest assembled — 4 stagnant PRs (TTP only, admissions clean):",
-      "details": null,
-      "cost_usd": 0.8592607499999999,
-      "total_tokens": 3933
     }
   ]
 }
