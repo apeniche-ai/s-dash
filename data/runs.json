@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-03T11:31:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 179.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4700 [TTPAI-245] Upgrade Claude Sonnet model from 4.6 to 5 across AI services → Approved + Browser QA Skipped (bundler env broken)",
+      "details": null,
+      "cost_usd": 1.9373529999999999,
+      "total_tokens": 9226
     },
     {
       "agent": "daily-performance-check-in",
