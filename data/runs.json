@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-03T11:03:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 134.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4698 [TTPAI-238] Add verbal exercise bank for gre ea extension → Approved + Browser QA Skipped (epic-branch base)",
+      "details": null,
+      "cost_usd": 1.3666175,
+      "total_tokens": 6671
     },
     {
       "agent": "passive-income-research-loop",
