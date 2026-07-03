@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-07-03T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 99.4,
+      "status": "success",
+      "summary": "Friday check-in delivered to the coaching channel on retry. Posture B — no diagnostic to lead with since Thursday's post-vacation receipt teach was the week's real signal. One light Friday-close quest",
+      "details": null,
+      "cost_usd": 1.189882,
+      "total_tokens": 4713
     },
     {
       "agent": "admissions-pr-reviewer",
