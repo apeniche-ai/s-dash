@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-03T13:31:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 196.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4699 [TTPAI-166] Add KB retrieval relaxation cascade and lesson pov injection → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.7472665000000003,
+      "total_tokens": 11757
     },
     {
       "agent": "slack-watch",
