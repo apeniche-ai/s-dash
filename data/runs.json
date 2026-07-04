@@ -189,10 +189,12 @@
     {
       "agent": "system-health-audit",
       "timestamp": "2026-07-04T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running System Health Audit...",
-      "details": null
+      "duration_seconds": 349.0,
+      "status": "success",
+      "summary": "Audit complete. Report sent to Telegram (the initial test ping failed but the final message got through — confirms intermittent transport, not total failure).",
+      "details": null,
+      "cost_usd": 0.70852165,
+      "total_tokens": 18623
     },
     {
       "agent": "behavioral-experiments-follow-up",
