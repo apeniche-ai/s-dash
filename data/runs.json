@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-07-04T11:01:18Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Builder Loop...",
-      "details": null
+      "duration_seconds": 217.0,
+      "status": "success",
+      "summary": "Tick #23 complete. SILENT to user (attempted send failed on fetch, honored fail-fast).",
+      "details": null,
+      "cost_usd": 1.49632525,
+      "total_tokens": 13988
     },
     {
       "agent": "passive-income-research-loop",
