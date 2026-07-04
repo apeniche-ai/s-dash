@@ -181,10 +181,12 @@
     {
       "agent": "behavioral-experiments-follow-up",
       "timestamp": "2026-07-04T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Behavioral Experiments Follow-Up...",
-      "details": null
+      "duration_seconds": 66.0,
+      "status": "success",
+      "summary": "Held. 4th consecutive Saturday hold under locked light-mode preference. No Telegram send.",
+      "details": null,
+      "cost_usd": 1.1309035,
+      "total_tokens": 3761
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
