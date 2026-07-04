@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-04T15:05:50Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 82.3,
+      "status": "success",
+      "summary": "Tick #342 complete. SILENT. Sat Jul 4 10:00, US July 4 holiday + weekend. Scout Sat AM filed 0 candidates. Ledger unchanged 14th day. Sun Jul 5 21:00 mandatory consolidation ~35h out.",
+      "details": null,
+      "cost_usd": 0.97189775,
+      "total_tokens": 5468
     },
     {
       "agent": "system-health-audit",
