@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-07-04T16:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-04T15:05:50Z",
       "duration_seconds": 82.3,
@@ -4716,16 +4724,6 @@
       "details": null,
       "cost_usd": 0.9463855,
       "total_tokens": 5941
-    },
-    {
-      "agent": "passive-income-builder-loop",
-      "timestamp": "2026-06-24T11:00:01Z",
-      "duration_seconds": 109.8,
-      "status": "success",
-      "summary": "Not applicable — single-shot scheduled tick with no multi-step work to track. Tick #13 complete: smoke check ran (NXDOMAIN day 39), no transitions, log written, silent. State and blocker memory unchan",
-      "details": null,
-      "cost_usd": 0.9576184999999999,
-      "total_tokens": 5125
     }
   ]
 }
