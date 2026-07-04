@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-07-04T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 99.2,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK, 4 Reddit blocked day ~53). Wrote 0 findings. One real candidate — Anthropic Sonnet 5 (Jun 30, 1M context, adaptive thinking default, cheaper pricing) — dropped at filter: Gemi",
+      "details": null,
+      "cost_usd": 1.04733725,
+      "total_tokens": 5837
     },
     {
       "agent": "passive-income-builder-loop",
