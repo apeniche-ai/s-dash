@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-07-05T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 93.2,
+      "status": "success",
+      "summary": "Nudge created; Telegram delivery failed (known 4-week outage, health-auditor is on it). Suggestion 01KWT5C7Q7XMPRY5WX4F00MRWW is in the queue for when delivery is restored. Exiting.",
+      "details": null,
+      "cost_usd": 1.0618502500000002,
+      "total_tokens": 5015
     },
     {
       "agent": "passive-income-research-loop",
