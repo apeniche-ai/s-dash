@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-05T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-07-05T13:00:00Z",
       "duration_seconds": 136.5,
@@ -4722,16 +4730,6 @@
       "details": null,
       "cost_usd": 1.7524655,
       "total_tokens": 10489
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-06-24T13:00:00Z",
-      "duration_seconds": 69.1,
-      "status": "success",
-      "summary": "Digest sent to pr-reviews. 4 stagnant PRs on ttp (admissions clean). Two recent PRs (#4671, #4659) excluded — devs already pushed fixes after the label.",
-      "details": null,
-      "cost_usd": 0.825259,
-      "total_tokens": 3152
     }
   ]
 }
