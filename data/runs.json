@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-05T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 88.9,
+      "status": "success",
+      "summary": "Tick #344 complete. SILENT. Log written. No ledger/state writes justified (13th silent day post-consolidation; state ~145h fresh, all three update gates fail — mandatory Sun 21:00 consolidation ~23h o",
+      "details": null,
+      "cost_usd": 1.0779397499999999,
+      "total_tokens": 5927
     },
     {
       "agent": "goal-progress-reconciliation",
