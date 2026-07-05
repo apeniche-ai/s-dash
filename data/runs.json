@@ -181,10 +181,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-07-05T23:01:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 105.5,
+      "status": "success",
+      "summary": "Task is a single-shot weekly digest run — no ongoing subtasks to track. Not applicable here.",
+      "details": null,
+      "cost_usd": 1.083544,
+      "total_tokens": 7028
     },
     {
       "agent": "passive-income-research-loop",
