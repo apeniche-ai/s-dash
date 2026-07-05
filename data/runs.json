@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-05T23:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 87.4,
+      "status": "success",
+      "summary": "Tick #348 complete. SILENT. Log written. No state/ledger/sub-agent activity — all three state-write gates fail and the mandatory Sun 21:00 weekly consolidation (#349) is ~3h out. Front-running that wo",
+      "details": null,
+      "cost_usd": 1.02377175,
+      "total_tokens": 6059
     },
     {
       "agent": "soren-improvement-review",
