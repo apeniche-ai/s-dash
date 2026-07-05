@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-05T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 81.8,
+      "status": "success",
+      "summary": "Tick #346 complete. SILENT. Log written. State singleton skipped — all three write gates fail and Sun 21:00 mandatory consolidation is ~11h out (front-running would double-write). No ledger transition",
+      "details": null,
+      "cost_usd": 1.1529872499999998,
+      "total_tokens": 5484
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
