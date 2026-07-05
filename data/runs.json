@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-weekly-digest",
+      "timestamp": "2026-07-05T23:01:28Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Weekly Digest...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-05T23:00:01Z",
       "duration_seconds": 87.4,
@@ -4724,16 +4732,6 @@
       "details": null,
       "cost_usd": 1.82952175,
       "total_tokens": 9725
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-24T13:34:49Z",
-      "duration_seconds": 313.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4667 [TTPAI-232] Add child safety guardrails and crisis detection for SAT Maren chatbot → Changes Requested (break-reminder TTL regressed from 24h→4h; `.break-reminder` div unstyled) ",
-      "details": null,
-      "cost_usd": 3.0755117499999987,
-      "total_tokens": 17087
     }
   ]
 }
