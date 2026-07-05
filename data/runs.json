@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-07-05T12:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-07-05T11:01:32Z",
       "duration_seconds": 101.3,
@@ -4722,16 +4730,6 @@
       "details": null,
       "cost_usd": 1.8884985,
       "total_tokens": 11030
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-06-24T12:30:00Z",
-      "duration_seconds": 53.4,
-      "status": "success",
-      "summary": "Done. Inbox empty — no open todos, no reminders, nothing completed since yesterday. Timestamp stored, no Telegram sent (silent exit per spec).",
-      "details": null,
-      "cost_usd": 0.23979604999999998,
-      "total_tokens": 2336
     }
   ]
 }
