@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-05T19:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 90.6,
+      "status": "success",
+      "summary": "Tick #347 complete. SILENT. Log written. All three state-write gates fail (ledger unchanged 14th day, 6.7d < 10d, not consolidation) and Sun 21:00 mandatory weekly consolidation is ~7h out — front-run",
+      "details": null,
+      "cost_usd": 1.1277335000000002,
+      "total_tokens": 6186
     },
     {
       "agent": "career-market-research-loop",
