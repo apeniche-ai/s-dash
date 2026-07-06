@@ -181,10 +181,12 @@
     {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-07-06T12:01:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly VP Performance Edge...",
-      "details": null
+      "duration_seconds": 151.2,
+      "status": "success",
+      "summary": "Done. Tip shipped and stored.",
+      "details": null,
+      "cost_usd": 1.2021512500000002,
+      "total_tokens": 6966
     },
     {
       "agent": "pr-reviewer",
