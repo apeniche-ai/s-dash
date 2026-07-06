@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-06T19:01:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 195.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4703 [TTPAI-246] Re-enable Maren AI assist on all exams → Approved + Browser QA Skipped (fixture user is GMAT, change targets EA/SAT)",
+      "details": null,
+      "cost_usd": 2.01624,
+      "total_tokens": 11255
     },
     {
       "agent": "passive-income-research-loop",
