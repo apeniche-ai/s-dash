@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-06T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 88.6,
+      "status": "success",
+      "summary": "Tick #351 complete. SILENT. Log `01KWVZ5GCNZ9W446CM7ZXA9QMJ`. Mon 10:00 pre-open — scout 07:00 filed 0 candidates (standard), state fresh from Sunday consolidation, ledger unchanged, JEPQ/XDTE dormant",
+      "details": null,
+      "cost_usd": 1.0432585,
+      "total_tokens": 5582
     },
     {
       "agent": "pr-reviewer",
