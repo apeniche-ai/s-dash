@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-06T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 325.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4693 [6268] Add verbal games tasks to GRE study plan missions → Changes Requested (data migration seeds verbal_games into every subsection including Quant/AWA after the section filter",
+      "details": null,
+      "cost_usd": 2.8438142500000003,
+      "total_tokens": 18502
     },
     {
       "agent": "passive-income-research-loop",
