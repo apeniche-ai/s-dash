@@ -181,10 +181,12 @@
     {
       "agent": "weekly-goal-review",
       "timestamp": "2026-07-06T14:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Goal Review...",
-      "details": null
+      "duration_seconds": 46.7,
+      "status": "success",
+      "summary": "Not applicable — this was a single-shot scheduled review that's already complete. No follow-up tasks to track.",
+      "details": null,
+      "cost_usd": 0.8154887499999999,
+      "total_tokens": 2364
     },
     {
       "agent": "colombia-mintic-transition-watch",
