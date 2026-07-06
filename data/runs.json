@@ -181,10 +181,12 @@
     {
       "agent": "colombia-mintic-transition-watch",
       "timestamp": "2026-07-06T14:02:57Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Colombia MinTIC Transition Watch...",
-      "details": null
+      "duration_seconds": 63.2,
+      "status": "success",
+      "summary": "MinTIC appointment is NOT officially confirmed. Nohora Mercado Caruso is being profiled by Infobae (Jul 3) as the leading candidate — but the article uses conditional language (\"sería la nueva ministr",
+      "details": null,
+      "cost_usd": 0.8387767500000001,
+      "total_tokens": 5277
     },
     {
       "agent": "pr-reviewer",
