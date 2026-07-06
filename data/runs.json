@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-07-06T11:34:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 113.8,
+      "status": "success",
+      "summary": "Monday check-in delivered to the coaching channel on retry. Posture A — led with the Bandura mastery-hierarchy read (Jun 27 breakthrough was retrospective/middle-tier; the real Phase 2 rep is REAL-TIM",
+      "details": null,
+      "cost_usd": 1.1827807499999998,
+      "total_tokens": 6291
     },
     {
       "agent": "pr-reviewer",
