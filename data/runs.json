@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-07-06T11:01:41Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Builder Loop...",
-      "details": null
+      "duration_seconds": 92.3,
+      "status": "success",
+      "summary": "Tick #25 complete. SILENT. Day 51 NXDOMAIN confirmed on both resolvers. No memo retry (gate #2 holds until Sat Jul 11, ~5d out). No state rewrite (~5d fresh, under 7d gate). No blocker transitions. Ch",
+      "details": null,
+      "cost_usd": 0.9894372499999999,
+      "total_tokens": 5059
     },
     {
       "agent": "passive-income-research-loop",
