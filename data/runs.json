@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-06T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 257.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4702 [TTPAI-151] Add DI exercise bank population pipeline → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.842768,
+      "total_tokens": 14538
     },
     {
       "agent": "admissions-pr-reviewer",
