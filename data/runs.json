@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-06T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 148.4,
+      "status": "success",
+      "summary": "Approved + labeled. Time is Mon 05:32 Bogota — outside work hours (08:00–19:00), so batching silently instead of sending Telegram.",
+      "details": null,
+      "cost_usd": 1.494236,
+      "total_tokens": 9097
     },
     {
       "agent": "pr-reviewer",
