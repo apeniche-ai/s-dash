@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-06T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 176.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4702 [TTPAI-151] Add DI exercise bank population pipeline → Approved + Browser QA Skipped (backend batch job / rake task, no UI)",
+      "details": null,
+      "cost_usd": 1.76079725,
+      "total_tokens": 9134
     },
     {
       "agent": "slack-watch",
