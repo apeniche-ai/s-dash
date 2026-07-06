@@ -181,10 +181,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-07-06T12:34:19Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 39.1,
+      "status": "success",
+      "summary": "Inbox zero. No open todos, no reminders due, nothing completed since July 3. No Telegram sent. Timestamp stored.",
+      "details": null,
+      "cost_usd": 0.22270905000000002,
+      "total_tokens": 1446
     },
     {
       "agent": "pr-reviewer",
