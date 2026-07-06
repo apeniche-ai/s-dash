@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-06T22:00:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-06T21:30:01Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4726,16 +4734,6 @@
       "status": "success",
       "summary": "No PRs to review — 40 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-25T13:32:30Z",
-      "duration_seconds": 204.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4676 [TTPAI-224] Add diagnostic Rasch MAP seed for student ability ratings → Approved + Browser QA Skipped (backend diagnostic-completion logic, no direct UI surface; comprehensive sp",
-      "details": null,
-      "cost_usd": 1.8054442499999999,
-      "total_tokens": 12643
     }
   ]
 }
