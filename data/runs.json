@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-06T19:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 167.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4701 [TTPAI-170] Chapter guidance coverage expansion → Approved + Browser QA Skipped (content-only markdown prompt files, no UI surface)",
+      "details": null,
+      "cost_usd": 2.19794225,
+      "total_tokens": 7809
     },
     {
       "agent": "admissions-pr-reviewer",
