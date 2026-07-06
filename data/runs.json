@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-07-06T14:05:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "colombia-mintic-transition-watch",
       "timestamp": "2026-07-06T14:02:57Z",
       "duration_seconds": 63.2,
@@ -4754,14 +4762,6 @@
       "details": null,
       "cost_usd": 1.8178912500000002,
       "total_tokens": 9289
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-24T21:30:01Z",
-      "duration_seconds": 1.6,
-      "status": "success",
-      "summary": "No PRs to review — 34 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
