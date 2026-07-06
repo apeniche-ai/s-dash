@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-07-06T12:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-07-06T11:34:00Z",
       "duration_seconds": 113.8,
@@ -4740,16 +4748,6 @@
       "status": "success",
       "summary": "No PRs to review — 35 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-06-24T17:30:00Z",
-      "duration_seconds": 202.6,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.4062347500000001,
-      "total_tokens": 10222
     }
   ]
 }
