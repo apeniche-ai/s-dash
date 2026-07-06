@@ -181,10 +181,12 @@
     {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-07-06T12:45:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Team Shipping Report...",
-      "details": null
+      "duration_seconds": 182.0,
+      "status": "success",
+      "summary": "Both messages delivered to the team-intel channel (Message 1 needed one retry).",
+      "details": null,
+      "cost_usd": 1.31081675,
+      "total_tokens": 13118
     },
     {
       "agent": "daily-todo-digest",
