@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-07-06T01:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 121.1,
+      "status": "success",
+      "summary": "Tick #88 complete. **SILENT.**",
+      "details": null,
+      "cost_usd": 1.5519175,
+      "total_tokens": 6779
     },
     {
       "agent": "career-market-weekly-digest",
