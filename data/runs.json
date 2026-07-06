@@ -189,10 +189,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-07-06T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 128.8,
+      "status": "success",
+      "summary": "Tick #6 (Jul 6, 11:00 AM) — SILENT by design.",
+      "details": null,
+      "cost_usd": 1.3938395,
+      "total_tokens": 9713
     },
     {
       "agent": "pr-reviewer",
