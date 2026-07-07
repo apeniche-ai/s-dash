@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-07T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 210.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4693 [6268] Add verbal games tasks to GRE study plan missions → Approved + Browser QA Skipped (GRE-only feature, local dev likely GMAT-configured)",
+      "details": null,
+      "cost_usd": 2.5716452500000004,
+      "total_tokens": 10581
     },
     {
       "agent": "pr-reviewer",
