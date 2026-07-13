@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-07-13T13:43:54Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-07-13T13:43:10Z",
       "duration_seconds": null,
@@ -4778,14 +4786,6 @@
       "duration_seconds": 0.8,
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-25T21:00:01Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
       "details": null
     }
   ]
