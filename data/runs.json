@@ -197,10 +197,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-13T14:00:44Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 238.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4697 [TTPAI-159/162/169/158/171] Example generation LLM judge improvements → Approved + Browser QA Skipped (AI backend internals — verification services require live LLM calls to exer",
+      "details": null,
+      "cost_usd": 2.4264864999999998,
+      "total_tokens": 12503
     },
     {
       "agent": "colombia-mintic-transition-watch",
