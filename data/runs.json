@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-07-13T17:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-13T17:15:01Z",
       "duration_seconds": 0.9,
@@ -4808,16 +4816,6 @@
       "details": null,
       "cost_usd": 2.9383277500000005,
       "total_tokens": 19996
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-06-26T13:02:23Z",
-      "duration_seconds": 67.9,
-      "status": "success",
-      "summary": "5 stagnant PRs flagged to pr-reviews channel (4 in ttp owned by apeniche/codefarz/alkeshrails, 0 in admissions). PR 4659 excluded — dev pushed commits after the label.",
-      "details": null,
-      "cost_usd": 0.84010825,
-      "total_tokens": 3360
     }
   ]
 }
