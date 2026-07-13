@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-builder-loop",
+      "timestamp": "2026-07-13T13:41:43Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Builder Loop...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-07-13T13:40:56Z",
       "duration_seconds": 47.1,
@@ -4775,14 +4783,6 @@
       "details": null,
       "cost_usd": 0.35882424999999996,
       "total_tokens": 7822
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-06-25T20:15:01Z",
-      "duration_seconds": 0.8,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
