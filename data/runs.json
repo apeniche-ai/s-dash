@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-07-13T13:25:36Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-07-13T13:24:54Z",
       "duration_seconds": 42.6,
@@ -4750,14 +4758,6 @@
       "duration_seconds": 0.9,
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-25T17:00:01Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review — 39 open, all skipped (labeled/draft)",
       "details": null
     }
   ]
