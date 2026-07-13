@@ -197,10 +197,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-13T13:31:51Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 348.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4507 [6115] Unify Self-Study and On-Demand A/B test → Changes Requested (two correctness bugs from prior review still unfixed — nil user_token collision + redirect not halting) + Brow",
+      "details": null,
+      "cost_usd": 2.5800662500000002,
+      "total_tokens": 15784
     },
     {
       "agent": "passive-income-research-loop",
