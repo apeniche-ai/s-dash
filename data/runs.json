@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-07-13T13:29:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-13T13:29:02Z",
       "duration_seconds": 1.0,
@@ -4762,16 +4770,6 @@
       "details": null,
       "cost_usd": 0.9729385,
       "total_tokens": 5807
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-25T18:30:01Z",
-      "duration_seconds": 184.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4674 [TTPAI-159] Replace random test values with strategic number set for algebraic verifier → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.7818335000000003,
-      "total_tokens": 11131
     }
   ]
 }
