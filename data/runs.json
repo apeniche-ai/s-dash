@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-07-13T13:46:06Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-07-13T13:45:18Z",
       "duration_seconds": 48.5,
@@ -4791,14 +4799,6 @@
       "details": null,
       "cost_usd": 0.9051905,
       "total_tokens": 6333
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-25T22:00:01Z",
-      "duration_seconds": 1.0,
-      "status": "success",
-      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
