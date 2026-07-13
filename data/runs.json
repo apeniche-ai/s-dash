@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-13T17:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 225.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4708 [TTPAI-225/226/221/230][6289] AI Deploy — ELO rating quality + exercise chat context quick wins → Changes Requested (FAQ block unreachable for grouped exercises, `StableRelabeler",
+      "details": null,
+      "cost_usd": 2.028175,
+      "total_tokens": 12180
     },
     {
       "agent": "pr-reviewer",
