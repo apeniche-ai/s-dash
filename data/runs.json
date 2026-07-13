@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "colombia-mintic-transition-watch",
+      "timestamp": "2026-07-13T14:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Colombia MinTIC Transition Watch...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-07-13T13:48:59Z",
       "duration_seconds": 44.4,
@@ -4800,16 +4808,6 @@
       "details": null,
       "cost_usd": 1.9438957499999994,
       "total_tokens": 11483
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-06-25T23:30:00Z",
-      "duration_seconds": 171.1,
-      "status": "success",
-      "summary": "Scan complete. Analyzing results:",
-      "details": null,
-      "cost_usd": 0.34605055,
-      "total_tokens": 8964
     }
   ]
 }
