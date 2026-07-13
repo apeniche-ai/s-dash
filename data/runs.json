@@ -197,10 +197,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-13T17:30:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 170.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4702 [TTPAI-151] Add DI exercise bank population pipeline → Changes Requested (fix commit accidentally reversed `||` → `or` in verbal_judge_service.rb — same lint pattern it claimed t",
+      "details": null,
+      "cost_usd": 1.6598567499999997,
+      "total_tokens": 8802
     },
     {
       "agent": "slack-watch",
