@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-13T16:00:43Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-07-13T16:00:00Z",
       "duration_seconds": 42.5,
@@ -4807,16 +4815,6 @@
       "details": null,
       "cost_usd": 2.45178825,
       "total_tokens": 16282
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-06-26T12:00:00Z",
-      "duration_seconds": 107.3,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 OK: HN Show + HN Ask + Anthropic/OpenAI/Gemini changelogs; 4 Reddit subs blocked, perpetual blackout day ~45). 0 findings written — all 3 vendors flat since the Jun 25 snapshot, H",
-      "details": null,
-      "cost_usd": 1.0478185,
-      "total_tokens": 5881
     }
   ]
 }
