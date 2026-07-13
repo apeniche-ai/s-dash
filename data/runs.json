@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-13T20:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 330.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4507 [6115] Unify Self-Study and On-Demand A/B test → Approved + Browser QA Skipped (A/B bucketing feature, not a single user-flow)",
+      "details": null,
+      "cost_usd": 2.6839067500000002,
+      "total_tokens": 18493
     },
     {
       "agent": "pr-reviewer",
