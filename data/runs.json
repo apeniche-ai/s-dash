@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-07-13T14:05:21Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "colombia-mintic-transition-watch",
       "timestamp": "2026-07-13T14:04:41Z",
       "duration_seconds": null,
@@ -4799,16 +4807,6 @@
       "details": null,
       "cost_usd": 0.9585885,
       "total_tokens": 6242
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-06-26T02:30:01Z",
-      "duration_seconds": 17.8,
-      "status": "success",
-      "summary": "Nothing to reconcile — exiting silently.",
-      "details": null,
-      "cost_usd": 0.77283275,
-      "total_tokens": 335
     }
   ]
 }
