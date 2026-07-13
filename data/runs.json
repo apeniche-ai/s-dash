@@ -197,10 +197,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-13T16:00:43Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 170.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4705 [6296] Fix visual tile ordering to follow topic sequence within chapter → Approved + Browser QA Skipped (data-dependent seed setup)",
+      "details": null,
+      "cost_usd": 1.71718125,
+      "total_tokens": 7609
     },
     {
       "agent": "career-market-research-loop",
