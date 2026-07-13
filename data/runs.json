@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-weekly-digest",
+      "timestamp": "2026-07-13T13:26:58Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Weekly Digest...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-07-13T13:26:17Z",
       "duration_seconds": null,
@@ -4752,16 +4760,6 @@
       "status": "success",
       "summary": "No PRs to review — 39 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-06-25T17:30:00Z",
-      "duration_seconds": 125.8,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.30979585,
-      "total_tokens": 6077
     }
   ]
 }
