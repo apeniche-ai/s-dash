@@ -197,10 +197,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-07-13T13:29:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 82.3,
+      "status": "success",
+      "summary": "Sent. 4 stagnant PRs in TTP (0 in Admissions): #4673, #4589, #4565 (all Amaury), and #4390 (Felipe, 108 days). Five other Changes-Requested PRs excluded — new commits since the label were pushed.",
+      "details": null,
+      "cost_usd": 0.8769227499999999,
+      "total_tokens": 3141
     },
     {
       "agent": "admissions-pr-reviewer",
