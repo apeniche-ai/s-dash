@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-13T19:00:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 216.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4714 [6305] Order visual tiles by lesson order → Approved + Browser QA Skipped (env — missing gems locally)",
+      "details": null,
+      "cost_usd": 2.0794970000000004,
+      "total_tokens": 11580
     },
     {
       "agent": "passive-income-research-loop",
