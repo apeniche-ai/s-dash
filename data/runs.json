@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-13T18:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-13T18:15:02Z",
       "duration_seconds": 1.1,
@@ -4812,16 +4820,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-26T14:00:01Z",
-      "duration_seconds": 229.3,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4678 [TTPAI-226] Add difficulty_at_attempt freeze and Elo stable relabeling → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 2.77242875,
-      "total_tokens": 11978
     }
   ]
 }
