@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-13T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 245.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4709 [TTPAI-254] Add activity-derived signals to session close summary payload → Changes Requested (outer rescue clobbers successful summary with failed marker) + Browser QA Skipped (",
+      "details": null,
+      "cost_usd": 2.0499842499999996,
+      "total_tokens": 12257
     },
     {
       "agent": "slack-watch",
