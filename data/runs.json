@@ -197,10 +197,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-13T15:00:44Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 247.8,
+      "status": "success",
+      "summary": "Telegram fetch failed — not retrying per fail-fast. Review itself completed and posted cleanly on GitHub.",
+      "details": null,
+      "cost_usd": 2.10472025,
+      "total_tokens": 14697
     },
     {
       "agent": "passive-income-research-loop",
