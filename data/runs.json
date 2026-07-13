@@ -1,5 +1,13 @@
 {
   "agents": {
+    "colombia-mintic-transition-watch": {
+      "id": "01KW505SCXAR53MZT7MYTYGRWZ",
+      "name": "Colombia MinTIC Transition Watch",
+      "agent": "career-market-scout",
+      "status": "enabled",
+      "schedule": "0 9 * * 1",
+      "description": "Weekly monitor for Colombia's MinTIC appointment under the new De la Espriella government. Fires silently until the appointment is announced, then notifies Amaury and self-disables."
+    },
     "passive-income-builder-loop": {
       "id": "01KT50CDGX2155Z6VJA953HXBT",
       "name": "Passive Income Builder Loop",
