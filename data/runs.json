@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-13T15:04:51Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-13T15:00:44Z",
       "duration_seconds": null,
@@ -4801,16 +4809,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-26T11:02:57Z",
-      "duration_seconds": 352.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4674 [TTPAI-159] Replace random test values with strategic number set for algebraic verifier → Approved + Browser QA Skipped (TTPAI backend service, no user-facing UI)",
-      "details": null,
-      "cost_usd": 1.9332532500000001,
-      "total_tokens": 11196
     }
   ]
 }
