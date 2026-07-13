@@ -197,10 +197,13 @@
     {
       "agent": "passive-income-state-consolidation",
       "timestamp": "2026-07-13T13:46:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income State Consolidation...",
-      "details": null
+      "duration_seconds": 42.9,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1: 827fc0ad\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"3fbf4beb-f2d5-4f98-a0ed-ccc96169437d\"}"
+      ]
     },
     {
       "agent": "daily-todo-digest",
