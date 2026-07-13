@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-13T22:00:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-13T21:30:02Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4820,16 +4828,6 @@
       "status": "success",
       "summary": "No PRs to review — 39 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-26T17:31:37Z",
-      "duration_seconds": 239.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4681 [6284] Port improved GMAT quant instruction into GRE lessons (Ch 1-19) → Changes Requested (find_lesson + anchor lookup silently swallow no-match/ambiguous/anchor-miss cases — ra",
-      "details": null,
-      "cost_usd": 2.18672375,
-      "total_tokens": 13934
     }
   ]
 }
