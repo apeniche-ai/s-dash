@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-13T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 218.1,
+      "status": "success",
+      "summary": "Telegram delivery failed twice — review is complete on GitHub. Not retrying per fail-fast rule.",
+      "details": null,
+      "cost_usd": 1.7609065000000004,
+      "total_tokens": 14403
     },
     {
       "agent": "admissions-pr-reviewer",
