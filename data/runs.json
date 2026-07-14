@@ -189,10 +189,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-07-14T13:03:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 106.7,
+      "status": "success",
+      "summary": "Sent (attempted). 6 stagnant PRs in TTP (0 in Admissions): #4673, #4589, #4565 (Amaury), #4640 (Maria, 7d/47d), #4390 (Felipe, 110d), and #3569 (Akhilesh, 154d). Telegram delivery failed with \"fetch f",
+      "details": null,
+      "cost_usd": 0.94512175,
+      "total_tokens": 5288
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
