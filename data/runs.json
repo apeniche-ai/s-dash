@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-14T23:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-14T22:30:01Z",
       "duration_seconds": 0.9,
@@ -4804,16 +4812,6 @@
       "details": null,
       "cost_usd": 1.4579477500000002,
       "total_tokens": 8398
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-29T13:00:01Z",
-      "duration_seconds": 202.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4679 [TTPAI-223] SIP Change layer deltas & milestones → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.9060995000000003,
-      "total_tokens": 10990
     }
   ]
 }
