@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "evening-performance-reflection",
+      "timestamp": "2026-07-14T01:06:45Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Evening Performance Reflection...",
+      "details": null
+    },
+    {
+      "agent": "evening-performance-reflection",
       "timestamp": "2026-07-14T01:05:00Z",
       "duration_seconds": 44.3,
       "status": "error",
@@ -4840,14 +4848,6 @@
       "duration_seconds": 0.8,
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-26T21:00:02Z",
-      "duration_seconds": 1.3,
-      "status": "success",
-      "summary": "No PRs to review — 39 open, all skipped (labeled/draft)",
       "details": null
     }
   ]
