@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-07-14T16:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-14T16:03:14Z",
       "duration_seconds": 1.1,
@@ -4840,16 +4848,6 @@
       "details": null,
       "cost_usd": 1.3290282500000001,
       "total_tokens": 7364
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-28T19:00:00Z",
-      "duration_seconds": 100.4,
-      "status": "success",
-      "summary": "Tick #313 complete. SILENT by design — Sun Jun 28 14:00 weekend-afternoon, ~7h before mandatory weekly consolidation tick #315 at 21:00. Ledger unchanged 7th day post-consolidation (3 pursuing / 1 dis",
-      "details": null,
-      "cost_usd": 0.9693309999999999,
-      "total_tokens": 6573
     }
   ]
 }
