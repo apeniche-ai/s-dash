@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-07-14T12:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-07-14T11:33:18Z",
       "duration_seconds": 118.5,
@@ -4852,16 +4860,6 @@
       "details": null,
       "cost_usd": 0.9504312499999998,
       "total_tokens": 6335
-    },
-    {
-      "agent": "passive-income-builder-loop",
-      "timestamp": "2026-06-27T11:00:00Z",
-      "duration_seconds": 88.0,
-      "status": "success",
-      "summary": "Tick #16 complete. Silent — no notification.",
-      "details": null,
-      "cost_usd": 1.2178849999999999,
-      "total_tokens": 4820
     }
   ]
 }
