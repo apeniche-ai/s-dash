@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-14T12:30:45Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-07-14T12:30:00Z",
       "duration_seconds": 43.8,
@@ -4850,16 +4858,6 @@
       "details": null,
       "cost_usd": 0.9394994999999999,
       "total_tokens": 5942
-    },
-    {
-      "agent": "behavioral-experiments-follow-up",
-      "timestamp": "2026-06-27T14:30:00Z",
-      "duration_seconds": 73.6,
-      "status": "success",
-      "summary": "Saturday Behavioral Experiments Follow-Up **HELD** — no Telegram send. Third consecutive Saturday hold under the locked light_conversational_no_rotation preference.",
-      "details": null,
-      "cost_usd": 1.0513925,
-      "total_tokens": 4226
     }
   ]
 }
