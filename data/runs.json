@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-07-14T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-14T23:00:00Z",
       "duration_seconds": 88.1,
@@ -4804,16 +4812,6 @@
       "details": null,
       "cost_usd": 0.917691,
       "total_tokens": 4005
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-06-29T13:03:22Z",
-      "duration_seconds": 127.2,
-      "status": "success",
-      "summary": "Tick #75 complete. **SILENT by design.**",
-      "details": null,
-      "cost_usd": 1.4579477500000002,
-      "total_tokens": 8398
     }
   ]
 }
