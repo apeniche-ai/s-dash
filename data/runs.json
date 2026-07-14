@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-07-14T13:03:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-07-14T13:00:01Z",
       "duration_seconds": 182.7,
@@ -4850,16 +4858,6 @@
       "details": null,
       "cost_usd": 1.6202629999999998,
       "total_tokens": 10196
-    },
-    {
-      "agent": "system-health-audit",
-      "timestamp": "2026-06-27T15:01:31Z",
-      "duration_seconds": 399.4,
-      "status": "success",
-      "summary": "Audit complete. Here's the summary:",
-      "details": null,
-      "cost_usd": 0.7444185000000001,
-      "total_tokens": 21873
     }
   ]
 }
