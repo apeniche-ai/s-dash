@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-14T21:00:03Z",
+      "duration_seconds": 2.2,
+      "status": "success",
+      "summary": "No PRs to review — 43 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-14T20:31:11Z",
       "duration_seconds": 1.8,
       "status": "success",
@@ -4814,16 +4822,6 @@
       "details": null,
       "cost_usd": 1.13010675,
       "total_tokens": 6038
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-29T12:00:01Z",
-      "duration_seconds": 301.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4678 [TTPAI-226] Add difficulty_at_attempt freeze and Elo stable relabeling → Changes Requested (rubocop continuation indent) + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 2.6236877499999993,
-      "total_tokens": 16154
     }
   ]
 }
