@@ -189,10 +189,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-07-14T11:33:18Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 118.5,
+      "status": "success",
+      "summary": "Sent. Named the 2-week silence gently, offered three low-cost reads (overloaded / probe-didn't-land / integration-happening-quietly) as an honest-out sort, no exercise assigned, no thread-chasing. Del",
+      "details": null,
+      "cost_usd": 1.188296,
+      "total_tokens": 5232
     },
     {
       "agent": "pr-reviewer",
