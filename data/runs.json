@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-14T11:05:34Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-14T11:03:28Z",
       "duration_seconds": 124.8,
@@ -4854,16 +4862,6 @@
       "details": null,
       "cost_usd": 0.8886747500000001,
       "total_tokens": 2408
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-06-27T01:00:01Z",
-      "duration_seconds": 172.1,
-      "status": "success",
-      "summary": "Not applicable — this is a single-shot scheduled tick, not multi-step task work.",
-      "details": null,
-      "cost_usd": 1.7854267500000005,
-      "total_tokens": 10943
     }
   ]
 }
