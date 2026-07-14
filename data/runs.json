@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-14T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 198.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4711 [TTPAI-253] Add SIP game plan seeding fields and broadens activity recompute triggers → Approved + Browser QA Skipped (data-layer only)",
+      "details": null,
+      "cost_usd": 2.09460075,
+      "total_tokens": 10222
     },
     {
       "agent": "admissions-pr-reviewer",
