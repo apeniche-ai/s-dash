@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-14T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 441.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (CI failing on SIP specs; team-known cherry-pick from TTPAI-252 needed) + Browser QA Skipped (epic-branch in",
+      "details": null,
+      "cost_usd": 3.74313975,
+      "total_tokens": 21961
     },
     {
       "agent": "admissions-pr-reviewer",
