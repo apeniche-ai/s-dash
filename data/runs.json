@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-14T11:05:34Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 300.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4709 [TTPAI-254] Add activity-derived signals to session close summary payload → Changes Requested (ai_insight_freshness column now dead schema — read dropped but migration kept; dive",
+      "details": null,
+      "cost_usd": 2.35769625,
+      "total_tokens": 15253
     },
     {
       "agent": "passive-income-research-loop",
