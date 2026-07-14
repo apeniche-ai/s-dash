@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-14T12:02:17Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 176.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4707 [6294] Add TTP AI Coach intro modal → Approved + Browser QA Skipped (stacked PR on unmerged base; feature specs cover interactions)",
+      "details": null,
+      "cost_usd": 1.8883155,
+      "total_tokens": 9347
     },
     {
       "agent": "passive-income-discovery-scan",
