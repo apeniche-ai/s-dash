@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-14T12:30:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 139.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4707 [6294] Add TTP AI Coach intro modal → Approved + Browser QA Skipped (stacked PR on unmerged base; feature specs cover interactions)",
+      "details": null,
+      "cost_usd": 1.4494032500000003,
+      "total_tokens": 6216
     },
     {
       "agent": "daily-todo-digest",
