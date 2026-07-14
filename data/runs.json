@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-14T14:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-14T13:31:41Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4846,16 +4854,6 @@
       "details": null,
       "cost_usd": 0.77323675,
       "total_tokens": 332
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-06-28T01:00:01Z",
-      "duration_seconds": 123.3,
-      "status": "success",
-      "summary": "Tick #72 complete. SILENT by design.",
-      "details": null,
-      "cost_usd": 1.3550777499999997,
-      "total_tokens": 6985
     }
   ]
 }
