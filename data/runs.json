@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-07-14T14:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-14T14:00:01Z",
       "duration_seconds": 223.2,
@@ -4846,16 +4854,6 @@
       "details": null,
       "cost_usd": 0.9648935,
       "total_tokens": 6522
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-06-28T02:30:01Z",
-      "duration_seconds": 13.5,
-      "status": "success",
-      "summary": "Nothing to reconcile — exiting silently.",
-      "details": null,
-      "cost_usd": 0.77323675,
-      "total_tokens": 332
     }
   ]
 }
