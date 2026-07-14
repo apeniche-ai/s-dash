@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-14T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 348.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4702 [TTPAI-151] Add DI exercise bank population pipeline → Changes Requested (spec asserts short_circuit: true but batch now passes false) + Browser QA Skipped (offline rake/service,",
+      "details": null,
+      "cost_usd": 3.40653875,
+      "total_tokens": 18561
     },
     {
       "agent": "pr-reviewer",
