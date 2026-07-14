@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-07-14T21:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-14T21:00:03Z",
       "duration_seconds": 2.2,
@@ -4812,16 +4820,6 @@
       "details": null,
       "cost_usd": 1.5377720000000001,
       "total_tokens": 8992
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-06-29T12:05:02Z",
-      "duration_seconds": 105.7,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 OK: HN Show + HN Ask + Anthropic/OpenAI/Gemini changelogs; 4 Reddit subs blocked, perpetual blackout day ~48). 0 findings written — HN top-of-feed unchanged from Jun 27/28 (audien",
-      "details": null,
-      "cost_usd": 1.13010675,
-      "total_tokens": 6038
     }
   ]
 }
