@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-07-15T01:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-07-14T23:30:00Z",
       "duration_seconds": 71.3,
@@ -4804,16 +4812,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-06-29T13:05:29Z",
-      "duration_seconds": 87.4,
-      "status": "success",
-      "summary": "5 stagnant PRs flagged to pr-reviews channel (all in ttp; admissions had 0 PRs with \"Changes Requested\"). PRs #4659 and #4642 excluded — #4659 has commits newer than the label, #4642's label is <24h o",
-      "details": null,
-      "cost_usd": 0.917691,
-      "total_tokens": 4005
     }
   ]
 }
