@@ -189,10 +189,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-07-15T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 63.9,
+      "status": "success",
+      "summary": "Held tonight — no evening message sent. This morning's check-in already gently named the 2-week silence with three easy read-out paths; stacking a Self-Trust rotation probe on top 13h later would nag ",
+      "details": null,
+      "cost_usd": 0.8744925000000001,
+      "total_tokens": 2880
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
