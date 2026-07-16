@@ -197,10 +197,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-07-16T14:43:17Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 133.5,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK: HN Show/Ask by-date, Anthropic + OpenAI + Gemini changelogs; 4 blocked: all Reddit subs, day ~64 of the perpetual WebFetch blackout). Wrote 0 findings — Anthropic Jul 14 Enter",
+      "details": null,
+      "cost_usd": 1.2443795,
+      "total_tokens": 8034
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
