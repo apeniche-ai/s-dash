@@ -189,10 +189,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-07-16T14:46:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 79.2,
+      "status": "success",
+      "summary": "silent",
+      "details": null,
+      "cost_usd": 0.2618158,
+      "total_tokens": 3067
     },
     {
       "agent": "daily-todo-digest",
