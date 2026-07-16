@@ -197,10 +197,12 @@
     {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-07-16T14:35:19Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Builder Loop...",
-      "details": null
+      "duration_seconds": 190.9,
+      "status": "success",
+      "summary": "Tick complete. Silent to Amaury per hard rules.",
+      "details": null,
+      "cost_usd": 1.516205,
+      "total_tokens": 7780
     },
     {
       "agent": "evening-performance-reflection",
