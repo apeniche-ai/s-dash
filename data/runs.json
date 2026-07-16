@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-16T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 359.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4716 [TTPAI-257] Migrate inline AI prompts to composable prompt architecture → Changes Requested (residual byte-drifts + load_prompt outside per-batch rescue) + Browser QA Skipped (ba",
+      "details": null,
+      "cost_usd": 3.0172587500000003,
+      "total_tokens": 22410
     },
     {
       "agent": "pr-reviewer",
