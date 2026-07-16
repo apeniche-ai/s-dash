@@ -197,10 +197,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-07-16T14:38:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 293.2,
+      "status": "success",
+      "summary": "Ignoring — this tick is complete (single-flow scan → notify → 4 memory writes) and doesn't benefit from task tracking.",
+      "details": null,
+      "cost_usd": 1.96132425,
+      "total_tokens": 20290
     },
     {
       "agent": "passive-income-builder-loop",
