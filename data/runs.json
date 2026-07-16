@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-07-16T14:45:31Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-07-16T14:43:17Z",
       "duration_seconds": null,
@@ -4804,16 +4812,6 @@
       "details": null,
       "cost_usd": 0.797092,
       "total_tokens": 2569
-    },
-    {
-      "agent": "colombia-mintic-transition-watch",
-      "timestamp": "2026-06-29T14:04:12Z",
-      "duration_seconds": 46.2,
-      "status": "success",
-      "summary": "No MinTIC appointment confirmed. Only Rodrigo Lara (Interior) is officially named so far. Reporting tick result silently per instructions.",
-      "details": null,
-      "cost_usd": 0.8063227500000001,
-      "total_tokens": 1716
     }
   ]
 }
