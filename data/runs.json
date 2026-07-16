@@ -197,10 +197,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-07-16T14:45:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 75.5,
+      "status": "success",
+      "summary": "Silent exit. No open todos, no recent completions — nothing to surface. Digest timestamp logged for next run.",
+      "details": null,
+      "cost_usd": 0.2555481,
+      "total_tokens": 2894
     },
     {
       "agent": "passive-income-discovery-scan",
