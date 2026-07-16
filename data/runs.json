@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-16T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 279.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (2 CI failures from this PR's own new specs — unique-index violation + wrong attach_file option) + Browser Q",
+      "details": null,
+      "cost_usd": 2.02771075,
+      "total_tokens": 14713
     },
     {
       "agent": "admissions-pr-reviewer",
