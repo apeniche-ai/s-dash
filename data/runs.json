@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-16T16:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 266.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4698 [TTPAI-238] Extend exercise bank for GRE/EA/SAT → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.2281435000000003,
+      "total_tokens": 14033
     },
     {
       "agent": "admissions-pr-reviewer",
