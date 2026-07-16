@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-07-16T14:38:24Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-07-16T14:35:19Z",
       "duration_seconds": null,
@@ -4804,16 +4812,6 @@
       "details": null,
       "cost_usd": 2.46702375,
       "total_tokens": 12305
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-06-29T13:35:34Z",
-      "duration_seconds": 100.6,
-      "status": "success",
-      "summary": "Telegram delivery also failed (same intermittent fetch flake seen this week). Memory entry stored.",
-      "details": null,
-      "cost_usd": 0.312562,
-      "total_tokens": 4334
     }
   ]
 }
