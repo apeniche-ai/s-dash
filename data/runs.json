@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-16T17:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 312.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4707 [6294] Redesign TTP AI Coach intro modal → Approved + Browser QA Skipped (local env can't boot stacked base branch)",
+      "details": null,
+      "cost_usd": 2.6023802500000004,
+      "total_tokens": 15916
     },
     {
       "agent": "pr-reviewer",
