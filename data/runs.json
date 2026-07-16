@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-16T18:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-16T17:34:47Z",
       "duration_seconds": 312.5,
       "status": "success",
@@ -4820,16 +4828,6 @@
       "details": null,
       "cost_usd": 0.9494782499999999,
       "total_tokens": 5516
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-29T18:30:02Z",
-      "duration_seconds": 301.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4685 [TTPAI-216] Add gated Maren mode with CS-only support and curriculum lockdown → Approved + Browser QA Skipped (epic branch, gated-state fixture unavailable)",
-      "details": null,
-      "cost_usd": 2.65898725,
-      "total_tokens": 16418
     }
   ]
 }
