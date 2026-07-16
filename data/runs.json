@@ -205,10 +205,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-07-16T14:48:06Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 93.8,
+      "status": "success",
+      "summary": "Sent. 6 stagnant PRs in TTP (0 in Admissions): #4708 (Maria, 3d), #4673 #4589 #4565 (Amaury own PRs, 21d/48d/57d), #4390 (Felipe, 112d), #3569 (Akhilesh, 156d/248d). Four excluded: #4713 & #4630 label",
+      "details": null,
+      "cost_usd": 0.8595615,
+      "total_tokens": 3697
     },
     {
       "agent": "slack-watch",
