@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-17T15:01:36Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 216.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4630 [TTPAI-147/157/218] Chatbot sessions, memory and cross page continuity → Approved + Browser QA Skipped (epic-on-epic session/memory feature not verifiable via smoke test)",
+      "details": null,
+      "cost_usd": 2.0259454999999997,
+      "total_tokens": 10283
     },
     {
       "agent": "passive-income-research-loop",
