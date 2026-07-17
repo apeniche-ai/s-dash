@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-07-17T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-17T12:30:34Z",
       "duration_seconds": 1.5,
@@ -4809,16 +4817,6 @@
       "details": null,
       "cost_usd": 0.27112045,
       "total_tokens": 3664
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-30T13:30:01Z",
-      "duration_seconds": 273.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4688 [TTPAI-158] Universal Distractor Rationale + Skill Tagging → Approved + Browser QA Skipped (warn-only telemetry, no user-visible behavior)",
-      "details": null,
-      "cost_usd": 2.3365922500000003,
-      "total_tokens": 16180
     }
   ]
 }
