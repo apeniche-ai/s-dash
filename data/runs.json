@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-17T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-17T14:30:02Z",
       "duration_seconds": 1.2,
@@ -4807,16 +4815,6 @@
       "details": null,
       "cost_usd": 1.6999880000000003,
       "total_tokens": 9692
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-30T16:00:01Z",
-      "duration_seconds": 291.7,
-      "status": "success",
-      "summary": "Inside work hours, no batched reviews, telegram delivery is failing today (same issue PR Follow-up Check job hit earlier). Skipping the digest send per fail-fast rule.",
-      "details": null,
-      "cost_usd": 1.9364764999999997,
-      "total_tokens": 12295
     }
   ]
 }
