@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-07-17T17:30:04Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-17T17:30:01Z",
       "duration_seconds": 0.9,
@@ -4807,16 +4815,6 @@
       "status": "success",
       "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-06-30T19:00:00Z",
-      "duration_seconds": 89.2,
-      "status": "success",
-      "summary": "Tick #323 complete. SILENT — log written (id 01KWCYGPHB2T8FNTX96XB112VV), no notify, no ledger writes, no state update (state ~41h inside 48h gate), no sub-agent dispatch. Scout filed 0 candidates Tue",
-      "details": null,
-      "cost_usd": 0.97387475,
-      "total_tokens": 6359
     }
   ]
 }
