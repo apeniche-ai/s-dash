@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-07-17T13:05:22Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-07-17T13:00:01Z",
       "duration_seconds": 321.6,
@@ -4809,16 +4817,6 @@
       "details": null,
       "cost_usd": 2.6747805000000002,
       "total_tokens": 12731
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-06-30T13:34:34Z",
-      "duration_seconds": 83.5,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.27112045,
-      "total_tokens": 3664
     }
   ]
 }
