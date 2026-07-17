@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-07-17T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-07-17T01:05:00Z",
       "duration_seconds": 84.4,
@@ -4813,16 +4821,6 @@
       "details": null,
       "cost_usd": 0.95651375,
       "total_tokens": 5893
-    },
-    {
-      "agent": "passive-income-builder-loop",
-      "timestamp": "2026-06-30T11:00:00Z",
-      "duration_seconds": 144.4,
-      "status": "success",
-      "summary": "Tick #19 complete. SILENT + LOG only. Day 45 post-launch: site still NXDOMAIN, passive-income channel transport still broken (suggestion 14d unactioned), Amaury silent on PI lane 44+d. All 6 pre-stage",
-      "details": null,
-      "cost_usd": 1.2217377500000002,
-      "total_tokens": 7960
     }
   ]
 }
