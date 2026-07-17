@@ -189,10 +189,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-07-17T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 321.6,
+      "status": "success",
+      "summary": "Not applicable — this tick is complete. Single-shot maintenance run, all 6 steps executed sequentially, all 4 memory writes landed, notify delivered.",
+      "details": null,
+      "cost_usd": 2.02298975,
+      "total_tokens": 18864
     },
     {
       "agent": "pr-reviewer",
