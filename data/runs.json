@@ -189,10 +189,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-07-17T23:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 223.7,
+      "status": "success",
+      "summary": "alarmed 1 item: 🧭 Giovanny DMing Amaury at ~5 PM asking about his final paycheck and payment timeline before access is cut — flagged alongside Scott's morning note that Giovanni's agreement paperwork",
+      "details": null,
+      "cost_usd": 0.4909885,
+      "total_tokens": 10231
     },
     {
       "agent": "passive-income-research-loop",
