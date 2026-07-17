@@ -189,10 +189,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-07-17T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 84.4,
+      "status": "success",
+      "summary": "Not applicable — this is a single-decision evening reflection (HOLD vs SEND), not a multi-step task. No task tracking needed.",
+      "details": null,
+      "cost_usd": 0.98204975,
+      "total_tokens": 3232
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
