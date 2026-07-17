@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-07-17T01:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-07-16T23:30:01Z",
       "duration_seconds": 72.8,
@@ -4813,16 +4821,6 @@
       "details": null,
       "cost_usd": 3.0294649999999996,
       "total_tokens": 17233
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-30T10:00:02Z",
-      "duration_seconds": 229.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4684 [6282] Add AI content quality flag across chat, exercise, summary, and flashcard surfaces → Approved + Browser QA Skipped (epic-child PR, CI failing system-wide)",
-      "details": null,
-      "cost_usd": 2.10959575,
-      "total_tokens": 11948
     }
   ]
 }
