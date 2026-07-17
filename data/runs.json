@@ -197,10 +197,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-07-17T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 118.4,
+      "status": "success",
+      "summary": "Sent to coaching channel. Posture A diagnostic naming the Cool Guy split — market/ROI question on career channel, no wanting/identity question on coaching channel. One question about the Tuesday-after",
+      "details": null,
+      "cost_usd": 1.05805975,
+      "total_tokens": 5755
     },
     {
       "agent": "admissions-pr-reviewer",
