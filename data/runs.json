@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-07-17T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-17T23:00:00Z",
       "duration_seconds": 83.8,
@@ -4803,16 +4811,6 @@
       "details": null,
       "cost_usd": 1.79646725,
       "total_tokens": 9182
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-01T03:00:00Z",
-      "duration_seconds": 89.0,
-      "status": "success",
-      "summary": "Tick #325 complete. SILENT — log written (id 01KWDSZJBZHDDEEXVR22NX8J55). Tue closes 5/5 SILENT. No notify, no ledger writes, no state update (state ~49h, ~1h past 48h gate but no substantive-change t",
-      "details": null,
-      "cost_usd": 1.0285514999999998,
-      "total_tokens": 6309
     }
   ]
 }
