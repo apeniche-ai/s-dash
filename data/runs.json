@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-17T13:07:16Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-07-17T13:05:22Z",
       "duration_seconds": 112.4,
@@ -4809,16 +4817,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-06-30T14:00:01Z",
-      "duration_seconds": 257.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4687 [TTPAI-162] Add TA single-cell heuristic and MSR multi-tab structural checks → Changes Requested (QC retry prompt mis-instructs model with DS-only A-E for QC question type) + Bro",
-      "details": null,
-      "cost_usd": 2.6747805000000002,
-      "total_tokens": 12731
     }
   ]
 }
