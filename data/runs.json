@@ -189,10 +189,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-07-17T13:05:22Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 112.4,
+      "status": "success",
+      "summary": "Sent. 7 stagnant PRs in TTP (0 in Admissions): #4708 (Maria, 4d/21d), #4673 (Amaury own, 22d), #4630 (Maria, 38h/37d), #4589 #4565 (Amaury own, 49d/58d), #4390 (Felipe, 113d), #3569 (Akhilesh, 158d/24",
+      "details": null,
+      "cost_usd": 0.90025825,
+      "total_tokens": 5432
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
