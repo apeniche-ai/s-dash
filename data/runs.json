@@ -189,10 +189,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-07-18T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 82.0,
+      "status": "success",
+      "summary": "Held tonight — no evening message sent to the coaching channel.",
+      "details": null,
+      "cost_usd": 1.0412974999999998,
+      "total_tokens": 3935
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
