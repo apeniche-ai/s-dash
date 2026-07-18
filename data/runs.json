@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "evening-performance-reflection",
+      "timestamp": "2026-07-18T01:05:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Evening Performance Reflection...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-07-18T01:00:00Z",
       "duration_seconds": 227.0,
@@ -4803,16 +4811,6 @@
       "details": null,
       "cost_usd": 1.1041830000000001,
       "total_tokens": 9022
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-01T10:30:01Z",
-      "duration_seconds": 147.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4669 [TTPAI-237] Render Maren tool-status labels and forwards extended thinking → Approved + Browser QA Skipped (TTPAI epic-branch pusher-plumbing)",
-      "details": null,
-      "cost_usd": 1.617644,
-      "total_tokens": 7489
     }
   ]
 }
