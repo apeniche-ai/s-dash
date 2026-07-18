@@ -189,10 +189,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-07-18T01:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 227.0,
+      "status": "success",
+      "summary": "Tick #92 complete. **SILENT** — Amaury declined the $135-160 ladder this morning (\"just monitor, strong signals only\"); NBIS continued its slide Friday to $167 (-14% day, -28% 2-day), Nebius launched ",
+      "details": null,
+      "cost_usd": 1.8273512499999998,
+      "total_tokens": 14375
     },
     {
       "agent": "slack-watch",
