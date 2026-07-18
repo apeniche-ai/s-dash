@@ -189,10 +189,12 @@
     {
       "agent": "behavioral-experiments-follow-up",
       "timestamp": "2026-07-18T14:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Behavioral Experiments Follow-Up...",
-      "details": null
+      "duration_seconds": 74.5,
+      "status": "success",
+      "summary": "Held. 5th consecutive Saturday hold under the light-mode lock. No Telegram send. Rationale logged (01KXTT6SAN2K6JXPFD09RQ2W5K) — self-handicap exercise already has explicit Mon 7/20 check-in, Fri 7/17",
+      "details": null,
+      "cost_usd": 1.0810092500000001,
+      "total_tokens": 3904
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
