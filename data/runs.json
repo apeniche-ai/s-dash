@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-18T23:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "soren-improvement-review",
       "timestamp": "2026-07-18T22:10:00Z",
       "duration_seconds": 70.9,
@@ -4811,16 +4819,6 @@
       "details": null,
       "cost_usd": 1.5974405,
       "total_tokens": 7297
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-07-01T13:03:41Z",
-      "duration_seconds": 79.2,
-      "status": "success",
-      "summary": "Delivered to `pr-reviews`. Scanned ttp (7 PRs with `Changes Requested`) + admissions (0). Excluded #4659 (dev pushed a fix — newer commits than the label) and #4559 (label added ~13h ago, still inside",
-      "details": null,
-      "cost_usd": 0.8750990000000001,
-      "total_tokens": 3532
     }
   ]
 }
