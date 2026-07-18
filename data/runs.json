@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-18T19:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-07-18T16:00:00Z",
       "duration_seconds": 155.7,
@@ -4811,16 +4819,6 @@
       "details": null,
       "cost_usd": 1.66307825,
       "total_tokens": 13335
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-01T12:30:31Z",
-      "duration_seconds": 198.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4694 [TTPAI-169] Add GI structural verifier, judge, and correction retry → Approved + Browser QA Skipped (backend AI verification service internals)",
-      "details": null,
-      "cost_usd": 2.22064525,
-      "total_tokens": 9758
     }
   ]
 }
