@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-18T11:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
+      "agent": "passive-income-research-loop",
       "timestamp": "2026-07-18T03:00:00Z",
       "duration_seconds": 146.1,
       "status": "success",
@@ -4803,16 +4811,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-01T11:04:06Z",
-      "duration_seconds": 234.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4694 [TTPAI-169] Add GI structural verifier, judge, and correction retry → Changes Requested (negative-index wraparound in GiValidator + GiJudgeService) + Browser QA Skipped (backend ",
-      "details": null,
-      "cost_usd": 2.1261005,
-      "total_tokens": 13401
     }
   ]
 }
