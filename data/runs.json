@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-07-19T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 125.7,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK: HN Show/Ask by-date, Anthropic + OpenAI + Gemini changelogs; 4 blocked: all Reddit subs, day ~67 perpetual WebFetch blackout). Wrote 0 findings — every surviving cluster (AWS ",
+      "details": null,
+      "cost_usd": 1.21461825,
+      "total_tokens": 8309
     },
     {
       "agent": "passive-income-builder-loop",
