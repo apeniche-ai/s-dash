@@ -189,10 +189,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-07-19T23:01:21Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 80.2,
+      "status": "success",
+      "summary": "Weekly digest delivered to the assistant Telegram channel. Four themes: (1) AI-native is the only band above his $312K floor (KORE1 direct confirms P75 = his floor); (2) Pragmatic Engineer's 50-hiring",
+      "details": null,
+      "cost_usd": 1.00535775,
+      "total_tokens": 5123
     },
     {
       "agent": "passive-income-research-loop",
