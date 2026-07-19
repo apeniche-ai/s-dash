@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-builder-loop",
+      "timestamp": "2026-07-19T11:01:19Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Builder Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-19T11:00:00Z",
       "duration_seconds": 79.3,
@@ -4813,16 +4821,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-01T14:00:02Z",
-      "duration_seconds": 160.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4669 [TTPAI-237] Render Maren tool-status labels and forwards extended thinking → Approved + Browser QA Skipped (epic-branch plumbing, requires full AI stack to exercise)",
-      "details": null,
-      "cost_usd": 1.71891375,
-      "total_tokens": 8084
     }
   ]
 }
