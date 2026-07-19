@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-19T03:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-07-19T02:30:00Z",
       "duration_seconds": 26.6,
@@ -4813,16 +4821,6 @@
       "details": null,
       "cost_usd": 2.6142345,
       "total_tokens": 12840
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-07-01T13:30:00Z",
-      "duration_seconds": 90.0,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.2640352,
-      "total_tokens": 3016
     }
   ]
 }
