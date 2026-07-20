@@ -189,10 +189,12 @@
     {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-07-20T12:02:08Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly VP Performance Edge...",
-      "details": null
+      "duration_seconds": 205.9,
+      "status": "success",
+      "summary": "Tip shipped. \"The Assumption Audit\" — Larson's Jul 11 post on verifying underlying data behind AI-augmented analyses, post-mortems, and strategy docs (not just conclusions). Try-this-week: 20-min audi",
+      "details": null,
+      "cost_usd": 1.5116937499999998,
+      "total_tokens": 9650
     },
     {
       "agent": "passive-income-discovery-scan",
