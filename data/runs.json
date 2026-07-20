@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-20T14:30:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-20T14:15:01Z",
       "duration_seconds": 0.9,
@@ -4831,16 +4839,6 @@
       "status": "success",
       "summary": "No PRs to review — 47 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-02T10:00:02Z",
-      "duration_seconds": 218.0,
-      "status": "success",
-      "summary": "Label added. Outside work hours (Thu 05:00), so stored to batch memory silently — no Telegram.",
-      "details": null,
-      "cost_usd": 2.2847467499999996,
-      "total_tokens": 11871
     }
   ]
 }
