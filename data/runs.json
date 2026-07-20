@@ -189,10 +189,12 @@
     {
       "agent": "weekly-goal-review",
       "timestamp": "2026-07-20T14:05:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Goal Review...",
-      "details": null
+      "duration_seconds": 49.7,
+      "status": "success",
+      "summary": "Weekly goal review sent. No tasks auto-reconciled this week. Key call-outs: Admissions team silent 2 weeks with no agent watching a single-engineer team, and Heroku Audit is 65d stuck — needs a kill/m",
+      "details": null,
+      "cost_usd": 0.7757872499999999,
+      "total_tokens": 1846
     },
     {
       "agent": "colombia-mintic-transition-watch",
