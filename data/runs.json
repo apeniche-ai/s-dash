@@ -197,10 +197,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-20T12:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 177.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-99/100/121/206/207] Chatbot Agentic Tool Calls + SIP → Approved + Browser QA Skipped (TTPAI epic branch)",
+      "details": null,
+      "cost_usd": 1.6761292499999998,
+      "total_tokens": 8899
     },
     {
       "agent": "admissions-pr-reviewer",
