@@ -189,10 +189,12 @@
     {
       "agent": "colombia-mintic-transition-watch",
       "timestamp": "2026-07-20T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Colombia MinTIC Transition Watch...",
-      "details": null
+      "duration_seconds": 77.4,
+      "status": "success",
+      "summary": "Task complete — this was a one-shot alert workflow, no ongoing task tracking needed.",
+      "details": null,
+      "cost_usd": 1.025532,
+      "total_tokens": 3053
     },
     {
       "agent": "pr-reviewer",
