@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-20T17:00:01Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-20T16:30:02Z",
       "duration_seconds": 1.0,
       "status": "success",
@@ -4825,16 +4833,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-02T12:01:44Z",
-      "duration_seconds": 366.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (CI failing on maren_days_until_exam spec after `<=` → `<` guard change) + Browser QA Skipped (stacked epic ",
-      "details": null,
-      "cost_usd": 3.3988365000000003,
-      "total_tokens": 18200
     }
   ]
 }
