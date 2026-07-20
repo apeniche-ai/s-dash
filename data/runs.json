@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-20T19:30:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-20T19:15:01Z",
       "duration_seconds": 1.1,
@@ -4815,16 +4823,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-02T14:00:01Z",
-      "duration_seconds": 284.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4698 [TTPAI-238] Add verbal exercise bank for gre ea extension → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 2.4081005,
-      "total_tokens": 17647
     }
   ]
 }
