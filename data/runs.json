@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-20T11:01:33Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-07-20T11:00:02Z",
       "duration_seconds": 90.9,
@@ -4825,16 +4833,6 @@
       "details": null,
       "cost_usd": 1.8432009999999996,
       "total_tokens": 10207
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-01T19:00:00Z",
-      "duration_seconds": 87.9,
-      "status": "success",
-      "summary": "Tick #328 complete. SILENT, log written (id 01KWFGXCSXW6E9BW8BFWXYZZSC), no ledger writes, no state update, no sub-agent dispatch, no Telegram traffic. Next scheduled tick #329 at Wed 18:00.",
-      "details": null,
-      "cost_usd": 0.9928572499999999,
-      "total_tokens": 5830
     }
   ]
 }
