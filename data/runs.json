@@ -189,10 +189,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-07-20T22:10:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 100.6,
+      "status": "success",
+      "summary": "Nudge sent. One item in the backlog has a real deadline (EU AI Act, Aug 2 — 13 days out) and ties directly to the career-path thread Amaury opened himself this week — a legitimate first-and-only nudge",
+      "details": null,
+      "cost_usd": 1.16775375,
+      "total_tokens": 4807
     },
     {
       "agent": "pr-reviewer",
