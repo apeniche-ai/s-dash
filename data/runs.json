@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-20T12:00:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-07-20T11:30:02Z",
       "duration_seconds": 90.4,
@@ -4825,16 +4833,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-01T20:00:01Z",
-      "duration_seconds": 189.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4694 [TTPAI-169] Add GI structural verifier, judge, and correction retry → Approved + Browser QA Skipped (internal AI verification pipeline, no UI surface)",
-      "details": null,
-      "cost_usd": 1.8339262499999998,
-      "total_tokens": 11512
     }
   ]
 }
