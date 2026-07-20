@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-20T20:30:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-20T20:15:01Z",
       "duration_seconds": 0.9,
@@ -4811,16 +4819,6 @@
       "status": "success",
       "summary": "No PRs to review — 49 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-02T15:00:01Z",
-      "duration_seconds": 120.1,
-      "status": "success",
-      "summary": "Tick #332 complete. SILENT, log written (id `01KWHNKEVHJ0GCPT3YZF58C2ST`), no ledger writes, no state update, no sub-agent dispatch, no Telegram traffic. Thu Jul 2 running 2/5 SILENT. Scout Thu AM: 0 ",
-      "details": null,
-      "cost_usd": 1.0381405,
-      "total_tokens": 5193
     }
   ]
 }
