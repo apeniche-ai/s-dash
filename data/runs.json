@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-07-20T15:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-20T15:00:02Z",
       "duration_seconds": 113.7,
@@ -4829,16 +4837,6 @@
       "status": "success",
       "summary": "No PRs to review — 47 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-02T11:01:47Z",
-      "duration_seconds": 94.4,
-      "status": "success",
-      "summary": "Tick #331 complete. SILENT, log written (id `01KWH7YN45R0MF63NBFJK34G5E`), no ledger writes, no state update, no sub-agent dispatch, no Telegram traffic. Thu Jul 2 opens with day-4 first tick. Next sc",
-      "details": null,
-      "cost_usd": 0.9842537499999999,
-      "total_tokens": 6383
     }
   ]
 }
