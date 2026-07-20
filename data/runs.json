@@ -187,6 +187,16 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-07-20T01:02:27Z",
+      "duration_seconds": 145.0,
+      "status": "success",
+      "summary": "Tick #96 complete. **SILENT.**",
+      "details": null,
+      "cost_usd": 1.5948772500000001,
+      "total_tokens": 6336
+    },
+    {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-07-19T23:01:21Z",
       "duration_seconds": 80.2,
@@ -4820,14 +4830,6 @@
       "duration_seconds": 1.2,
       "status": "success",
       "summary": "No PRs to review — 49 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-07-01T16:15:01Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
     }
   ]
