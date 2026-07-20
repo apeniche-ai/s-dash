@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-20T14:00:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-07-20T13:32:27Z",
       "duration_seconds": 90.5,
@@ -4835,16 +4843,6 @@
       "details": null,
       "cost_usd": 0.9588497500000001,
       "total_tokens": 2976
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-07-02T01:00:01Z",
-      "duration_seconds": 383.8,
-      "status": "success",
-      "summary": "Task-tool reminder acknowledged — not applicable to this tick. Trading-intel work is stateless per-tick; state is persisted via soren memory (state singleton + ledger + log + alert dedup), not the har",
-      "details": null,
-      "cost_usd": 2.4123904999999994,
-      "total_tokens": 24632
     }
   ]
 }
