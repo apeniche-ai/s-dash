@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-07-20T19:15:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-20T19:01:30Z",
       "duration_seconds": 1.4,
@@ -4817,16 +4825,6 @@
       "details": null,
       "cost_usd": 2.4081005,
       "total_tokens": 17647
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-02T13:31:14Z",
-      "duration_seconds": 164.6,
-      "status": "success",
-      "summary": "Telegram delivery failed (`telegram: failed: fetch failed`) — same intermittent issue that hit the earlier PR Follow-up Check today. Not retrying per fail-fast rule.",
-      "details": null,
-      "cost_usd": 1.5967897499999997,
-      "total_tokens": 8048
     }
   ]
 }
