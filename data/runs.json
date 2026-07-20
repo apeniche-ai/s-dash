@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-20T16:30:02Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-20T16:15:02Z",
       "duration_seconds": 0.9,
@@ -4827,16 +4835,6 @@
       "details": null,
       "cost_usd": 3.3988365000000003,
       "total_tokens": 18200
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-07-02T12:00:00Z",
-      "duration_seconds": 103.4,
-      "status": "success",
-      "summary": "Scanned 9 sources, 5 OK (HN Show HN, HN Ask HN, and all 3 vendor changelogs), 4 blocked (Reddit day ~51). Zero findings passed the 5-criterion filter today — Anthropic's Jul 1 update was a Fable 5/Myt",
-      "details": null,
-      "cost_usd": 1.0733282499999997,
-      "total_tokens": 5583
     }
   ]
 }
