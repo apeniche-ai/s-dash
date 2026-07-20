@@ -189,10 +189,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-07-20T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 90.4,
+      "status": "success",
+      "summary": "Coaching check-in delivered to the coaching channel. Led with the self-handicap exercise follow-up (check-in date today), asked for Tried/Noticed with honest-out for \"didn't pick anything is also data",
+      "details": null,
+      "cost_usd": 1.0343159999999998,
+      "total_tokens": 4373
     },
     {
       "agent": "pr-reviewer",
