@@ -197,10 +197,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-07-21T13:02:36Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 105.4,
+      "status": "success",
+      "summary": "Sent. 5 stagnant PRs in TTP (0 in Admissions): #4640 (Maria, 5d/41d), #4673 (Amaury own, 26d), #4589 (Amaury own Snyk, 53d), #4565 (Amaury own, 62d), #4390 (Felipe, 117d). Two from last week cleared t",
+      "details": null,
+      "cost_usd": 1.100284,
+      "total_tokens": 5417
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
