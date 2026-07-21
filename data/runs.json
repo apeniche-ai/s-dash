@@ -189,10 +189,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-07-21T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 120.2,
+      "status": "success",
+      "summary": "Created and sent one suggestion: **Live Career Decision Board** — turns the scattered Stanford/MIT/Wharton exec-ed evaluation into one persistent, updated matrix with a deadline radar so Amaury doesn'",
+      "details": null,
+      "cost_usd": 1.2328127499999997,
+      "total_tokens": 5655
     },
     {
       "agent": "pr-reviewer",
