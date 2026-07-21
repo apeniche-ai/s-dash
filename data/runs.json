@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-21T10:00:02Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 40 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-21T03:00:00Z",
       "duration_seconds": 85.7,
@@ -4819,16 +4827,6 @@
       "status": "success",
       "summary": "No PRs to review — 49 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-02T19:00:00Z",
-      "duration_seconds": 75.8,
-      "status": "success",
-      "summary": "Tick #333 complete. SILENT, log written (id `01KWJ39Q7Q4Y037HWQHSHWSMY7`), no ledger writes, no state update, no sub-agent dispatch, no Telegram traffic. Thu Jul 2 running 3/5 SILENT. Ledger 11th sile",
-      "details": null,
-      "cost_usd": 0.99438825,
-      "total_tokens": 5110
     }
   ]
 }
