@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-21T13:31:44Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 334.0,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4717 [TTPAI-259] Add deterministic question dedup clustering service → Changes Requested (QC/DS payload gap in ai_exercise_bank.rake — quantity_a/quantity_b/statements not forwarded, p",
+      "details": null,
+      "cost_usd": 3.0631500000000003,
+      "total_tokens": 19554
     },
     {
       "agent": "slack-watch",
