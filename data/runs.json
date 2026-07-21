@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-07-21T19:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-21T19:01:29Z",
       "duration_seconds": 1.1,
@@ -4811,16 +4819,6 @@
       "status": "success",
       "summary": "No PRs to review — 45 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-03T13:31:31Z",
-      "duration_seconds": 196.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4699 [TTPAI-166] Add KB retrieval relaxation cascade and lesson pov injection → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.7472665000000003,
-      "total_tokens": 11757
     }
   ]
 }
