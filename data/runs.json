@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-builder-loop",
       "timestamp": "2026-07-21T11:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Builder Loop...",
-      "details": null
+      "duration_seconds": 133.0,
+      "status": "success",
+      "summary": "Tick complete. **SILENT** to Amaury per hard rules.",
+      "details": null,
+      "cost_usd": 1.37264675,
+      "total_tokens": 7061
     },
     {
       "agent": "pr-reviewer",
