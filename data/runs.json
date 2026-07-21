@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-21T12:30:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 221.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4700 [TTPAI-245] Upgrade Claude Sonnet 4.6 to 5 + AI model registry → Changes Requested (CI red on this PR's own guard spec — 2 unmigrated `ANTHROPIC_OPUS_MODEL_ID` literals in `verba",
+      "details": null,
+      "cost_usd": 2.1046705,
+      "total_tokens": 12944
     },
     {
       "agent": "daily-todo-digest",
