@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-21T17:00:01Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-21T16:30:01Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4813,16 +4821,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-03T12:01:27Z",
-      "duration_seconds": 194.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4700 [TTPAI-245] Upgrade Claude Sonnet model from 4.6 to 5 across AI services → Approved + Browser QA Skipped (bundler env broken)",
-      "details": null,
-      "cost_usd": 1.8014032500000001,
-      "total_tokens": 10724
     }
   ]
 }
