@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-21T14:30:02Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-21T14:15:01Z",
       "duration_seconds": 0.9,
@@ -4825,16 +4833,6 @@
       "details": null,
       "cost_usd": 1.8829360000000002,
       "total_tokens": 8635
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-03T10:00:01Z",
-      "duration_seconds": 171.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4684 [6282] Add AI content quality flag → Approved + Browser QA Skipped (already QA'd by human, epic-branch base)",
-      "details": null,
-      "cost_usd": 1.8004875000000002,
-      "total_tokens": 8627
     }
   ]
 }
