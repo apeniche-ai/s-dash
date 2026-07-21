@@ -189,10 +189,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-07-21T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 155.2,
+      "status": "success",
+      "summary": "Evening reflection sent to coaching channel. Soft-surfaced the \"One Thing at 100%\" self-handicap check-in that Friday teed up for today — Amaury was heavily engaged on career/exec-ed but silent on the",
+      "details": null,
+      "cost_usd": 1.41351725,
+      "total_tokens": 6675
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
