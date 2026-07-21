@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-21T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 205.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4700 [TTPAI-245] Upgrade Claude Sonnet 4.6 to 5 + AI model registry → Approved + Browser QA Skipped (AI infra/model swap)",
+      "details": null,
+      "cost_usd": 2.048053,
+      "total_tokens": 11438
     },
     {
       "agent": "admissions-pr-reviewer",
