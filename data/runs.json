@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-21T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 257.5,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4717 [TTPAI-259] Add deterministic question dedup clustering service → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 3.3976452499999996,
+      "total_tokens": 13446
     },
     {
       "agent": "pr-reviewer",
