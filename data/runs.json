@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-22T12:30:52Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-07-22T12:30:00Z",
       "duration_seconds": 50.4,
@@ -4833,16 +4841,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-07-03T22:10:00Z",
-      "duration_seconds": 163.4,
-      "status": "success",
-      "summary": "Done. Proposed a **Cross-team Decision Ledger** — Soren captures decisions ambiently from Slack, PRs, and voice notes into a searchable log so his three teams stop re-litigating and pinging him for in",
-      "details": null,
-      "cost_usd": 1.1833905,
-      "total_tokens": 8841
     }
   ]
 }
