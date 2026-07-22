@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-22T15:30:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 39 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-22T15:15:01Z",
       "duration_seconds": 0.9,
@@ -4825,16 +4833,6 @@
       "details": null,
       "cost_usd": 0.97189775,
       "total_tokens": 5468
-    },
-    {
-      "agent": "system-health-audit",
-      "timestamp": "2026-07-04T15:00:01Z",
-      "duration_seconds": 349.0,
-      "status": "success",
-      "summary": "Audit complete. Report sent to Telegram (the initial test ping failed but the final message got through — confirms intermittent transport, not total failure).",
-      "details": null,
-      "cost_usd": 0.70852165,
-      "total_tokens": 18623
     }
   ]
 }
