@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-07-22T14:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-22T14:00:01Z",
       "duration_seconds": 220.6,
@@ -4831,16 +4839,6 @@
       "details": null,
       "cost_usd": 1.49632525,
       "total_tokens": 13988
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-04T11:00:00Z",
-      "duration_seconds": 78.1,
-      "status": "success",
-      "summary": "Tick #341 complete. SILENT. Sat Jul 4 06:00, US July 4 holiday + weekend. Ledger unchanged 13th day post-Jun-28 consolidation. Channel quiet ~49d. State ~129h (over 48h gate but under 10d, SKIP per si",
-      "details": null,
-      "cost_usd": 1.0580507499999998,
-      "total_tokens": 4842
     }
   ]
 }
