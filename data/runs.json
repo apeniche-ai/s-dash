@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-22T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 239.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4704 [TTPAI-243] Add batch distractor analysis pre-computation pipeline → Approved + Browser QA Skipped (data-layer only, no user-facing surface)",
+      "details": null,
+      "cost_usd": 2.446845,
+      "total_tokens": 11237
     },
     {
       "agent": "admissions-pr-reviewer",
