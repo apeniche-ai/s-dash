@@ -189,10 +189,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-07-22T01:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 175.9,
+      "status": "success",
+      "summary": "Tick complete. **SILENT.**",
+      "details": null,
+      "cost_usd": 1.9391777500000003,
+      "total_tokens": 11099
     },
     {
       "agent": "slack-watch",
