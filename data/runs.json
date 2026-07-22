@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-22T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 447.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (lessons_spec.rb:68 attach_file test still red — block-form fix suggested) + Browser QA Skipped (epic-to-epi",
+      "details": null,
+      "cost_usd": 3.1418912499999996,
+      "total_tokens": 20522
     },
     {
       "agent": "passive-income-research-loop",
