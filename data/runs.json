@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-22T12:01:20Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 221.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-140/22] Agentic Chatbot Tools + SIP + Adaptive Summaries & Flashcards → Approved + Browser QA Skipped (prompt-hardening + minor UI polish not exercisable in a single brows",
+      "details": null,
+      "cost_usd": 2.1453437500000003,
+      "total_tokens": 10590
     },
     {
       "agent": "passive-income-discovery-scan",
