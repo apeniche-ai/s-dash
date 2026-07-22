@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-22T11:02:56Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 202.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4708 [TTPAI-225/226/221/230][6289] AI Deploy — ELO rating quality + exercise chat context quick wins → Approved + Browser QA Skipped (multi-feature deploy bundle)",
+      "details": null,
+      "cost_usd": 2.0644830000000005,
+      "total_tokens": 10700
     },
     {
       "agent": "passive-income-research-loop",
