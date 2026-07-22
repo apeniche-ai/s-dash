@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-07-22T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-22T14:30:02Z",
       "duration_seconds": 239.1,
@@ -4829,16 +4837,6 @@
       "details": null,
       "cost_usd": 1.5363109999999998,
       "total_tokens": 8741
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-07-04T12:00:00Z",
-      "duration_seconds": 99.2,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 OK, 4 Reddit blocked day ~53). Wrote 0 findings. One real candidate — Anthropic Sonnet 5 (Jun 30, 1M context, adaptive thinking default, cheaper pricing) — dropped at filter: Gemi",
-      "details": null,
-      "cost_usd": 1.04733725,
-      "total_tokens": 5837
     }
   ]
 }
