@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-22T14:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-22T14:15:01Z",
       "duration_seconds": 0.9,
@@ -4829,16 +4837,6 @@
       "details": null,
       "cost_usd": 1.04733725,
       "total_tokens": 5837
-    },
-    {
-      "agent": "passive-income-builder-loop",
-      "timestamp": "2026-07-04T11:01:18Z",
-      "duration_seconds": 217.0,
-      "status": "success",
-      "summary": "Tick #23 complete. SILENT to user (attempted send failed on fetch, honored fail-fast).",
-      "details": null,
-      "cost_usd": 1.49632525,
-      "total_tokens": 13988
     }
   ]
 }
