@@ -189,10 +189,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-07-22T12:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 50.4,
+      "status": "success",
+      "summary": "Silent exit complete. No open todos, no reminders, no recent completions — nothing to surface. Timestamp logged for tomorrow's run.",
+      "details": null,
+      "cost_usd": 0.25594084999999994,
+      "total_tokens": 1845
     },
     {
       "agent": "admissions-pr-reviewer",
