@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-22T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 344.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4684 [6282] Add AI content quality flag across chat, exercise, summary, and flashcard surfaces → Approved + Browser QA Skipped (stacked on blocked epic branch)",
+      "details": null,
+      "cost_usd": 3.1301065,
+      "total_tokens": 19205
     },
     {
       "agent": "pr-reviewer",
