@@ -189,10 +189,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-07-22T13:02:19Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 99.4,
+      "status": "success",
+      "summary": "Sent. 6 stagnant PRs in TTP (0 in Admissions): #4703 (Augusto, 1d/12d), #4673 (Amaury own, 27d), #4589 (Amaury own Snyk, 54d), #4565 (Amaury own, 62d), #4390 (Felipe, 118d), #3569 (Akhilesh, 164d/254d",
+      "details": null,
+      "cost_usd": 0.95613575,
+      "total_tokens": 4308
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
