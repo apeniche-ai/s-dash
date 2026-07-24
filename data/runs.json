@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-24T18:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-24T17:35:34Z",
       "duration_seconds": 217.6,
       "status": "success",
@@ -4805,16 +4813,6 @@
       "details": null,
       "cost_usd": 0.9894372499999999,
       "total_tokens": 5059
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-06T11:00:00Z",
-      "duration_seconds": 99.6,
-      "status": "success",
-      "summary": "Tick #350 complete. SILENT. Log written (id `01KWVHEESTJB0QYNZK1KF4CCK6`). Week 7 opens on schedule — state fresh from Sunday consolidation, ledger unchanged, scout hasn't fired yet. Next tick 10:00.",
-      "details": null,
-      "cost_usd": 1.1827505,
-      "total_tokens": 6144
     }
   ]
 }
