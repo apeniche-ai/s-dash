@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-24T15:01:53Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 268.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4721 [6306] Add SAT age verification and consent disclosure → Approved + Browser QA Skipped (SAT-only flow, local test user is GMAT track)",
+      "details": null,
+      "cost_usd": 2.365929,
+      "total_tokens": 14629
     },
     {
       "agent": "passive-income-research-loop",
