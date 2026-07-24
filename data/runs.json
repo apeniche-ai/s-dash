@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-07-24T13:48:28Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-07-24T13:45:27Z",
       "duration_seconds": 180.9,
@@ -4815,16 +4823,6 @@
       "details": null,
       "cost_usd": 0.98484225,
       "total_tokens": 5893
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-07-04T22:10:00Z",
-      "duration_seconds": 106.1,
-      "status": "success",
-      "summary": "Not applicable — this run is a single decision (nudge one stale suggestion, then exit). No multi-step tracking needed.",
-      "details": null,
-      "cost_usd": 1.1400160000000001,
-      "total_tokens": 5924
     }
   ]
 }
