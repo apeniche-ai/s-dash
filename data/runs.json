@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-24T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 151.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4713 [6258] Add full-screen layout with AI Coach panel for RC, MSR and Table Analysis → Approved + Browser QA Skipped (part of epic #4703 stack; grouped QA runs at epic level)",
+      "details": null,
+      "cost_usd": 1.599319,
+      "total_tokens": 7302
     },
     {
       "agent": "admissions-pr-reviewer",
