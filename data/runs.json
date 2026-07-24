@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-07-24T13:57:50Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 109.3,
+      "status": "success",
+      "summary": "Delivered. Fri AM coaching check-in sent to the coaching channel first try. Named the live parallel between Wed's apathy-in-meetings self-handicap naming and the six-day exec-ed evaluation running wit",
+      "details": null,
+      "cost_usd": 1.1914755000000001,
+      "total_tokens": 4958
     },
     {
       "agent": "pr-reviewer",
