@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-24T15:01:53Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-24T15:00:00Z",
       "duration_seconds": 112.1,
@@ -4811,16 +4819,6 @@
       "details": null,
       "cost_usd": 1.0618502500000002,
       "total_tokens": 5015
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-05T19:00:00Z",
-      "duration_seconds": 90.6,
-      "status": "success",
-      "summary": "Tick #347 complete. SILENT. Log written. All three state-write gates fail (ledger unchanged 14th day, 6.7d < 10d, not consolidation) and Sun 21:00 mandatory weekly consolidation is ~7h out — front-run",
-      "details": null,
-      "cost_usd": 1.1277335000000002,
-      "total_tokens": 6186
     }
   ]
 }
