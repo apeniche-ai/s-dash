@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-24T22:00:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-24T21:30:01Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4795,16 +4803,6 @@
       "details": null,
       "cost_usd": 0.9104367499999999,
       "total_tokens": 4411
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-07-06T13:00:01Z",
-      "duration_seconds": 133.4,
-      "status": "success",
-      "summary": "Tick #89 complete. **SILENT.**",
-      "details": null,
-      "cost_usd": 1.41263725,
-      "total_tokens": 9384
     }
   ]
 }
