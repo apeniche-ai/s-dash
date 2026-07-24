@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-24T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 131.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4708 [TTPAI-225/226/221/230][6289] AI Deploy — ELO rating quality + exercise chat context quick wins → Approved + Browser QA Skipped (deploy branch)",
+      "details": null,
+      "cost_usd": 1.9700655,
+      "total_tokens": 6999
     },
     {
       "agent": "admissions-pr-reviewer",
