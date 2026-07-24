@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-24T19:01:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 136.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4731 [6326] Use the cohort instructor in bootcamp emails → Approved + Browser QA Skipped (mailer-only)",
+      "details": null,
+      "cost_usd": 1.6654580000000003,
+      "total_tokens": 6327
     },
     {
       "agent": "passive-income-research-loop",
