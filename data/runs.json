@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-07-24T17:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-24T17:15:01Z",
       "duration_seconds": 0.8,
@@ -4805,16 +4813,6 @@
       "details": null,
       "cost_usd": 1.494236,
       "total_tokens": 9097
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-06T10:00:02Z",
-      "duration_seconds": 325.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4693 [6268] Add verbal games tasks to GRE study plan missions → Changes Requested (data migration seeds verbal_games into every subsection including Quant/AWA after the section filter",
-      "details": null,
-      "cost_usd": 2.8438142500000003,
-      "total_tokens": 18502
     }
   ]
 }
