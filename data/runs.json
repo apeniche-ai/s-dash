@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-07-24T22:10:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 53.0,
+      "status": "success",
+      "summary": "Exiting silently. 40+ suggestions already sit in the proposed queue, one was created 2 days ago, and every version of \"nudge stale suggestions\" would either duplicate an existing ⏳ nudge or add noise ",
+      "details": null,
+      "cost_usd": 0.98518075,
+      "total_tokens": 2333
     },
     {
       "agent": "pr-reviewer",
