@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-24T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 198.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4722 Adds context divider feature and fixes chat session continuity bugs → Approved + Browser QA Skipped (chat-sessions epic branch, multi-lesson AI-chat flow not reliably reproducibl",
+      "details": null,
+      "cost_usd": 1.8409830000000003,
+      "total_tokens": 11845
     },
     {
       "agent": "admissions-pr-reviewer",
