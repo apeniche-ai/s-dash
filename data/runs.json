@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-24T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 306.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4681 [6284] Port improved GMAT quant instruction into GRE lessons (Ch 1-19) → Approved + Browser QA Skipped (data migration, no UI path)",
+      "details": null,
+      "cost_usd": 2.8306292500000003,
+      "total_tokens": 16314
     },
     {
       "agent": "daily-performance-check-in",
