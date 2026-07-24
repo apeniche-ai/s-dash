@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-24T16:03:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 318.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4726 Add Target Test Prep OnDemand™ trademark symbol to LiveTeach, bootcamp, and checkout copy → Approved + Browser QA Skipped (bundler 2.6.9 missing)",
+      "details": null,
+      "cost_usd": 2.28148575,
+      "total_tokens": 14819
     },
     {
       "agent": "career-market-research-loop",
