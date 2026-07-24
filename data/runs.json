@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-07-24T13:45:27Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-07-24T13:42:30Z",
       "duration_seconds": null,
@@ -4813,16 +4821,6 @@
       "details": null,
       "cost_usd": 1.1400160000000001,
       "total_tokens": 5924
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-04T19:00:00Z",
-      "duration_seconds": 80.1,
-      "status": "success",
-      "summary": "Tick #342 complete. SILENT. Sat Jul 4 14:00, US July 4 holiday + weekend + markets closed. Ledger unchanged 13th day. Scout AM filed 0 candidates. Sun Jul 5 21:00 mandatory consolidation ~31h out.",
-      "details": null,
-      "cost_usd": 1.1272817499999999,
-      "total_tokens": 5358
     }
   ]
 }
