@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-24T21:00:02Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 37 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-24T20:31:46Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4799,16 +4807,6 @@
       "details": null,
       "cost_usd": 1.31081675,
       "total_tokens": 13118
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-07-06T12:34:19Z",
-      "duration_seconds": 39.1,
-      "status": "success",
-      "summary": "Inbox zero. No open todos, no reminders due, nothing completed since July 3. No Telegram sent. Timestamp stored.",
-      "details": null,
-      "cost_usd": 0.22270905000000002,
-      "total_tokens": 1446
     }
   ]
 }
