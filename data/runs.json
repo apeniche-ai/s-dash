@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-07-25T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 31.2,
+      "status": "success",
+      "summary": "Exiting silently. The proposed queue holds 45+ items, six of which are already stale nudges (⏳). Every category I'd want to touch — pre-meeting context, decision briefs, build agent, governance memo, ",
+      "details": null,
+      "cost_usd": 0.94173175,
+      "total_tokens": 1079
     },
     {
       "agent": "passive-income-research-loop",
