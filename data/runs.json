@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-07-25T01:05:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 98.0,
+      "status": "success",
+      "summary": "Sent on retry. Friday VP-Ruler probe delivered to coaching channel. Active exercise (implementation intentions in meetings, check-in Mon Jul 27) left untouched per instructions. Rotation question stor",
+      "details": null,
+      "cost_usd": 1.09042375,
+      "total_tokens": 2691
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
