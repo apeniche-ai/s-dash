@@ -181,10 +181,12 @@
     {
       "agent": "system-health-audit",
       "timestamp": "2026-07-25T15:01:41Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running System Health Audit...",
-      "details": null
+      "duration_seconds": 400.1,
+      "status": "success",
+      "summary": "As expected — Telegram transport is down for all three calls (soren_notify, both soren_suggestion_notify attempts). This is the same failure that's been occurring since May.",
+      "details": null,
+      "cost_usd": 0.7439805,
+      "total_tokens": 22003
     },
     {
       "agent": "passive-income-research-loop",
