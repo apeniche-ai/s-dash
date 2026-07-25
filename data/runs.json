@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "aschenbrenner-intelligence-loop",
+      "timestamp": "2026-07-25T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Aschenbrenner Intelligence Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-07-25T12:00:01Z",
       "duration_seconds": 156.3,
@@ -4801,14 +4809,6 @@
       "details": null,
       "cost_usd": 1.3938395,
       "total_tokens": 9713
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-06T15:30:01Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review — 45 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
