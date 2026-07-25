@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-builder-loop",
+      "timestamp": "2026-07-25T11:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Builder Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-25T03:00:00Z",
       "duration_seconds": 87.2,
@@ -4795,16 +4803,6 @@
       "status": "success",
       "summary": "No PRs to review — 45 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-06T15:00:00Z",
-      "duration_seconds": 88.6,
-      "status": "success",
-      "summary": "Tick #351 complete. SILENT. Log `01KWVZ5GCNZ9W446CM7ZXA9QMJ`. Mon 10:00 pre-open — scout 07:00 filed 0 candidates (standard), state fresh from Sunday consolidation, ledger unchanged, JEPQ/XDTE dormant",
-      "details": null,
-      "cost_usd": 1.0432585,
-      "total_tokens": 5582
     }
   ]
 }
