@@ -181,10 +181,12 @@
     {
       "agent": "behavioral-experiments-follow-up",
       "timestamp": "2026-07-25T14:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Behavioral Experiments Follow-Up...",
-      "details": null
+      "duration_seconds": 78.8,
+      "status": "success",
+      "summary": "6th consecutive Saturday hold logged. No Telegram send. Mon 7/27 AM check-in on the meetings implementation-intentions exercise is the designed feedback loop landing — that's the next coaching-channel",
+      "details": null,
+      "cost_usd": 1.37086475,
+      "total_tokens": 4093
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
