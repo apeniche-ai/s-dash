@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-builder-loop",
+      "timestamp": "2026-07-26T11:01:36Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Builder Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-26T11:00:01Z",
       "duration_seconds": 95.7,
@@ -4819,16 +4827,6 @@
       "details": null,
       "cost_usd": 2.01624,
       "total_tokens": 11255
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-06T19:00:00Z",
-      "duration_seconds": 91.7,
-      "status": "success",
-      "summary": "Tick #352 complete. SILENT. Mon 14:00 mid-session — scout filed 0 candidates AM, ledger unchanged 1st day post-Sun-consolidation, JEPQ/XDTE dormant, channel quiet 51d. State fresh (~17h), all write ga",
-      "details": null,
-      "cost_usd": 0.9904617499999998,
-      "total_tokens": 5918
     }
   ]
 }
