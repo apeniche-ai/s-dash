@@ -181,10 +181,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-07-26T23:01:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 108.7,
+      "status": "success",
+      "summary": "Weekly digest delivered to the assistant Telegram channel on retry. Four themes: (1) $312K sits AT Series A-B VPE ceiling per KORE1, no remote discount in 2026; (2) governance skills shifted audit-tim",
+      "details": null,
+      "cost_usd": 1.1354024999999999,
+      "total_tokens": 6763
     },
     {
       "agent": "passive-income-research-loop",
