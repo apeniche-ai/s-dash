@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-07-26T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 112.6,
+      "status": "success",
+      "summary": "Scanned 9 sources, 5 OK (HN Show/Ask, all three vendor changelogs), 4 blocked (Reddit blackout day 76). Wrote 0 findings — every HN cluster deduped against prior drops (AI-coding = audience-first/OSS,",
+      "details": null,
+      "cost_usd": 1.1622977499999998,
+      "total_tokens": 5891
     },
     {
       "agent": "passive-income-builder-loop",
