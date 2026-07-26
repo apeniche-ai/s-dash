@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-07-26T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 62.3,
+      "status": "success",
+      "summary": "The proposed queue holds 45+ items, six with active nudges already sent. Every high-leverage concept I'd otherwise propose today — build agent, merge brief, team-blocker radar, decision ledger, memory",
+      "details": null,
+      "cost_usd": 0.9883127500000001,
+      "total_tokens": 2934
     },
     {
       "agent": "passive-income-research-loop",
