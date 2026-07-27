@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-27T23:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 89.4,
+      "status": "success",
+      "summary": "Tick complete. **SILENT** — Mon Jul 27 18:00, ~1h post-US-close, ledger frozen 8d, channel quiet ~72d, no material close-price ETF flag, career/coaching/team-intel/default channels already busy today.",
+      "details": null,
+      "cost_usd": 0.99068975,
+      "total_tokens": 5200
     },
     {
       "agent": "pr-reviewer",
