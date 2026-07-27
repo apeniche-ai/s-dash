@@ -181,10 +181,12 @@
     {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-07-27T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Aschenbrenner Intelligence Loop...",
-      "details": null
+      "duration_seconds": 212.7,
+      "status": "success",
+      "summary": "Tick #109 complete — **SILENT** to Amaury.",
+      "details": null,
+      "cost_usd": 1.7349610000000002,
+      "total_tokens": 10979
     },
     {
       "agent": "weekly-team-shipping-report",
