@@ -181,10 +181,12 @@
     {
       "agent": "weekly-goal-review",
       "timestamp": "2026-07-27T14:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Goal Review...",
-      "details": null
+      "duration_seconds": 50.3,
+      "status": "success",
+      "summary": "Weekly goal review sent on retry. Nothing auto-reconciled this week. Key call-outs: **P10** is missing the browser-QA end-to-end verification piece (job still disabled); **P8** is critically stalled o",
+      "details": null,
+      "cost_usd": 0.7831652499999999,
+      "total_tokens": 2627
     },
     {
       "agent": "pr-reviewer",
