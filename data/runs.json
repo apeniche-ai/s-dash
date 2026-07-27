@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-27T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 265.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4721 [6306] Add SAT age verification and consent disclosure → Approved + Browser QA Skipped (SAT-only, EXAM_NAME gate not reachable in local GMAT dev tenant)",
+      "details": null,
+      "cost_usd": 2.6512427499999998,
+      "total_tokens": 13364
     },
     {
       "agent": "admissions-pr-reviewer",
