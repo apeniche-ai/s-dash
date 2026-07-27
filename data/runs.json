@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-07-27T13:03:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 88.2,
+      "status": "success",
+      "summary": "Telegram transport failed (`fetch failed`) — matches known Telegram outage per health-auditor. Per fail-fast rule, not retrying.",
+      "details": null,
+      "cost_usd": 0.8938987500000002,
+      "total_tokens": 4268
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
