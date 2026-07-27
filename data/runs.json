@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-07-27T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 126.3,
+      "status": "success",
+      "summary": "Scanned 9 sources, 5 OK (HN Show/Ask + all three vendor changelogs), 4 blocked (Reddit blackout day 77). Wrote 0 findings — HN Show HN was sub-scale (all <10pts, AI-agent-tooling cluster deduped for t",
+      "details": null,
+      "cost_usd": 1.1824945,
+      "total_tokens": 6742
     },
     {
       "agent": "pr-reviewer",
