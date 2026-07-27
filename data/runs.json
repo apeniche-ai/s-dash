@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-07-27T13:03:33Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "aschenbrenner-intelligence-loop",
       "timestamp": "2026-07-27T13:00:01Z",
       "duration_seconds": 212.7,
@@ -4821,16 +4829,6 @@
       "errors": [
         "claude exited with code 1: 315817d5\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"1a22c867-4544-402b-8fc8-a6f71e3a2622\"}"
       ]
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-07-13T13:29:02Z",
-      "duration_seconds": 82.3,
-      "status": "success",
-      "summary": "Sent. 4 stagnant PRs in TTP (0 in Admissions): #4673, #4589, #4565 (all Amaury), and #4390 (Felipe, 108 days). Five other Changes-Requested PRs excluded — new commits since the label were pushed.",
-      "details": null,
-      "cost_usd": 0.8769227499999999,
-      "total_tokens": 3141
     }
   ]
 }
