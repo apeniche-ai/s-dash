@@ -181,10 +181,12 @@
     {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-07-27T12:02:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly VP Performance Edge...",
-      "details": null
+      "duration_seconds": 207.4,
+      "status": "success",
+      "summary": "Not applicable — this is a single-shot autonomous scheduled run, complete end-to-end. No multi-step tracking needed.",
+      "details": null,
+      "cost_usd": 1.4685519999999999,
+      "total_tokens": 11840
     },
     {
       "agent": "passive-income-discovery-scan",
