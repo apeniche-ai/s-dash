@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-27T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 121.9,
+      "status": "success",
+      "summary": "Tick complete. **SILENT** — Mon Jul 27 10:00, first live-market tick of the week (~30min post-US-open). State ~13h fresh from Sun consolidation, ledger frozen 8d, channel quiet ~72d. Scout Mon AM file",
+      "details": null,
+      "cost_usd": 1.0578417500000001,
+      "total_tokens": 6368
     },
     {
       "agent": "pr-reviewer",
