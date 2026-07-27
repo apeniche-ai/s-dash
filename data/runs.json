@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-27T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 208.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4732 [6327] Fix Next button, slow loading, and scroll flash on Tests → Approved + Browser QA Skipped (fix path requires mid-practice-test state — heavy to bootstrap)",
+      "details": null,
+      "cost_usd": 1.836297,
+      "total_tokens": 11165
     },
     {
       "agent": "pr-reviewer",
