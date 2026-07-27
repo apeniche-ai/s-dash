@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-07-27T19:01:16Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-27T19:00:00Z",
       "duration_seconds": null,
@@ -4774,16 +4782,6 @@
       "errors": [
         "claude exited with code 1: 031288d5\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"d1194c16-ea5f-4e67-973a-1122e4c137b8\"}"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-13T15:00:44Z",
-      "duration_seconds": 247.8,
-      "status": "success",
-      "summary": "Telegram fetch failed — not retrying per fail-fast. Review itself completed and posted cleanly on GitHub.",
-      "details": null,
-      "cost_usd": 2.10472025,
-      "total_tokens": 14697
     }
   ]
 }
