@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-27T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 407.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4730 [TTPAI-256] Lazy judge-on-pull for exercise bank → Changes Requested (content digest joins fields with empty separator, allowing collisions that defeat the mid-flight change guar",
+      "details": null,
+      "cost_usd": 3.5336614999999996,
+      "total_tokens": 24117
     },
     {
       "agent": "admissions-pr-reviewer",
