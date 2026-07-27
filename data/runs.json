@@ -181,10 +181,12 @@
     {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-07-27T12:45:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Team Shipping Report...",
-      "details": null
+      "duration_seconds": 175.1,
+      "status": "success",
+      "summary": "Both messages delivered to the team-intel channel.",
+      "details": null,
+      "cost_usd": 1.3692027499999997,
+      "total_tokens": 11155
     },
     {
       "agent": "pr-reviewer",
