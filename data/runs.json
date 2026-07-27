@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-07-27T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 55.9,
+      "status": "success",
+      "summary": "Exiting silently. The proposed queue is at 45+ items with 6 active ⏳ nudges already outstanding; every high-leverage concept (build agent, merge brief, team-blocker radar, decision ledger, memory hygi",
+      "details": null,
+      "cost_usd": 0.9998819999999999,
+      "total_tokens": 2466
     },
     {
       "agent": "pr-reviewer",
