@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-27T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 212.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4729 TTPAI-260 Add exercise bank drain and upgrade pipeline → Changes Requested (content-digest join missing separator; nil verdicts drop from drain-task totals) + Browser QA Skipped ",
+      "details": null,
+      "cost_usd": 1.9022555,
+      "total_tokens": 10410
     },
     {
       "agent": "pr-reviewer",
