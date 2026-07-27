@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-07-27T12:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-27T11:31:48Z",
       "duration_seconds": 0.7,
@@ -4831,16 +4839,6 @@
       "errors": [
         "claude exited with code 1: 679dd6aa\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"22460dc5-f0f2-41bf-aff7-bbaa6a2c650e\"}"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-07T10:30:01Z",
-      "duration_seconds": 210.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4693 [6268] Add verbal games tasks to GRE study plan missions → Approved + Browser QA Skipped (GRE-only feature, local dev likely GMAT-configured)",
-      "details": null,
-      "cost_usd": 2.5716452500000004,
-      "total_tokens": 10581
     }
   ]
 }
