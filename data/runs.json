@@ -181,10 +181,12 @@
     {
       "agent": "daily-performance-check-in",
       "timestamp": "2026-07-28T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Performance Check-in...",
-      "details": null
+      "duration_seconds": 162.9,
+      "status": "success",
+      "summary": "Delivered on retry. Named the pattern that surfaced from Monday's silence — Amaury engages when asked to *describe*, goes quiet when asked to *report on doing* — and asked him about the moment-of-not-",
+      "details": null,
+      "cost_usd": 1.4238615,
+      "total_tokens": 8403
     },
     {
       "agent": "admissions-pr-reviewer",
