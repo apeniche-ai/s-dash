@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-07-28T13:02:56Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 101.5,
+      "status": "success",
+      "summary": "Telegram transport failed (`fetch failed`) — same outage that hit yesterday's run and multiple other agents (coaching-digest, performance-coach, health-auditor). Per fail-fast rule, not retrying.",
+      "details": null,
+      "cost_usd": 1.0028195,
+      "total_tokens": 4746
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
