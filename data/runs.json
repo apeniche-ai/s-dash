@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-07-28T11:02:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 92.6,
+      "status": "success",
+      "summary": "Tick complete. **SILENT** — Tue Jul 28 06:00 first tick of day. State ~33h fresh from Sun consolidation, ledger unchanged 9d, channel quiet ~73d, no overnight ETF flag, pre-scout, pre-coaching-check-i",
+      "details": null,
+      "cost_usd": 1.0001007499999999,
+      "total_tokens": 5617
     },
     {
       "agent": "passive-income-builder-loop",
