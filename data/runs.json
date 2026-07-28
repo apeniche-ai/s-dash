@@ -181,10 +181,12 @@
     {
       "agent": "evening-performance-reflection",
       "timestamp": "2026-07-28T01:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Evening Performance Reflection...",
-      "details": null
+      "duration_seconds": 122.9,
+      "status": "success",
+      "summary": "Sent on retry. Monday VP-Ruler probe delivered to coaching channel. Diagnostic frame connected this morning's team-intel shipping report (IC-shaped scoreboard of other people's output) to the standing",
+      "details": null,
+      "cost_usd": 1.2431817500000002,
+      "total_tokens": 5476
     },
     {
       "agent": "aschenbrenner-intelligence-loop",
