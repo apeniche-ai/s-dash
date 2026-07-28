@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-28T12:01:52Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 167.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4721 [6306] Add SAT age verification and consent disclosure → Approved + Browser QA Skipped (SAT-only feature, local dev env runs different EXAM_NAME)",
+      "details": null,
+      "cost_usd": 1.96439275,
+      "total_tokens": 8662
     },
     {
       "agent": "passive-income-discovery-scan",
