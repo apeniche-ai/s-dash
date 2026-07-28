@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-07-28T17:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-07-28T16:30:01Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4733,16 +4741,6 @@
       "details": null,
       "cost_usd": 2.35769625,
       "total_tokens": 15253
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-14T11:03:28Z",
-      "duration_seconds": 124.8,
-      "status": "success",
-      "summary": "Not applicable — this tick is a single atomic recovery action (log + state correction), not multi-step work.",
-      "details": null,
-      "cost_usd": 1.13526925,
-      "total_tokens": 7123
     }
   ]
 }
