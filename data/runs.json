@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-28T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 137.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4735 [6330] Remove maren suggested walkthrough reasoning gate so chips deliver immediately → Approved + Browser QA Skipped (frontend JS on epic branch)",
+      "details": null,
+      "cost_usd": 1.4438442499999997,
+      "total_tokens": 6869
     },
     {
       "agent": "pr-reviewer",
