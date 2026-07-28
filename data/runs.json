@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-28T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 454.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4721 [6306] SAT age verification and consent disclosure → Changes Requested (over-broad CoppaAgeGate on ContentPagesController blocks /privacy /terms /contact for minors) + Browser QA",
+      "details": null,
+      "cost_usd": 3.713549499999999,
+      "total_tokens": 26626
     },
     {
       "agent": "passive-income-research-loop",
