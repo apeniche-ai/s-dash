@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-28T17:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 268.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4737 [6334] Load Google tags in the head and split the marketing switches → Changes Requested (Meta purchase silently drops when track_analytics off + marketing_scripts on) + Browser ",
+      "details": null,
+      "cost_usd": 2.3327282499999997,
+      "total_tokens": 14049
     },
     {
       "agent": "pr-reviewer",
