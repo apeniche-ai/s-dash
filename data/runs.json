@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-28T13:04:38Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 214.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4735 [6330] Remove Maren suggested-walkthrough reasoning gate → Approved + Browser QA Skipped (frontend JS on epic branch)",
+      "details": null,
+      "cost_usd": 2.1313370000000003,
+      "total_tokens": 11619
     },
     {
       "agent": "pr-follow-up-check",
