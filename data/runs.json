@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-07-31T15:20:42Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 331.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Approved + Browser QA Skipped (epic-to-epic merge to `epic/ttpai-onboarding`, not master)",
+      "details": null,
+      "cost_usd": 2.6638740000000003,
+      "total_tokens": 13171
     },
     {
       "agent": "admissions-pr-reviewer",
