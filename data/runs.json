@@ -180,6 +180,17 @@
   "runs": [
     {
       "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-07-31T14:37:51Z",
+      "duration_seconds": 411.4,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "claude exited with code 1: 7b6488a0\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"deb013f0-225d-433c-acd0-8eb5c7ef3887\"}"
+      ]
+    },
+    {
+      "agent": "admissions-pr-reviewer",
       "timestamp": "2026-07-28T18:15:02Z",
       "duration_seconds": 0.9,
       "status": "success",
@@ -4727,16 +4738,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-14T12:02:17Z",
-      "duration_seconds": 176.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4707 [6294] Add TTP AI Coach intro modal → Approved + Browser QA Skipped (stacked PR on unmerged base; feature specs cover interactions)",
-      "details": null,
-      "cost_usd": 1.8883155,
-      "total_tokens": 9347
     }
   ]
 }
