@@ -165,10 +165,12 @@
     {
       "agent": "weekly-goal-review",
       "timestamp": "2026-08-03T20:39:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Goal Review...",
-      "details": null
+      "duration_seconds": 58.3,
+      "status": "success",
+      "summary": "Weekly goal review sent. Nothing auto-reconciled this week. Key call-outs: **P8 passive income is critically stalled** (79 days post-launch, no revenue, scout dry, Heroku Audit still BLOCKED-INDEFINIT",
+      "details": null,
+      "cost_usd": 0.8390025,
+      "total_tokens": 2042
     },
     {
       "agent": "weekly-team-shipping-report",
