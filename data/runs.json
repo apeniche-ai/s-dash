@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-state-consolidation",
       "timestamp": "2026-08-03T20:20:36Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income State Consolidation...",
-      "details": null
+      "duration_seconds": 170.1,
+      "status": "success",
+      "summary": "Consolidation complete. Silent by mandate — no Telegram sent.",
+      "details": null,
+      "cost_usd": 1.4551905,
+      "total_tokens": 9488
     },
     {
       "agent": "admissions-pr-reviewer",
