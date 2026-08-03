@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-08-03T20:39:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-08-03T20:35:23Z",
       "duration_seconds": null,
@@ -4714,16 +4722,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-14T15:02:05Z",
-      "duration_seconds": 258.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4681 [6284] Port improved GMAT quant instruction into GRE lessons (Ch 1-19) → Approved + Browser QA Skipped (data migration only)",
-      "details": null,
-      "cost_usd": 2.456149500000001,
-      "total_tokens": 12936
     }
   ]
 }
