@@ -8,14 +8,6 @@
       "schedule": "0 6 * * *",
       "description": "Daily 6 AM — autonomously ships one missing piece on the current in-market product (or asks Amaury for one tap when he's the bottleneck)."
     },
-    "aschenbrenner-intelligence-loop": {
-      "id": "01KS6H0Q428QCH4TCC45E1X8FS",
-      "name": "Aschenbrenner Intelligence Loop",
-      "agent": "trading-intel",
-      "status": "enabled",
-      "schedule": "0 8,20 * * *",
-      "description": "2x/day — tracks Leopold Aschenbrenner's public AI investment thesis and portfolio signals. Auto-detects bootstrap (30+ source deep scan on first run) vs maintenance mode. Dispatches financial-analyst for independent company analysis + entry signals. Only notifies when a complete actionable report is ready. Posts to trading-intel Telegram channel."
-    },
     "passive-income-discovery-scan": {
       "id": "01KRV8QNZHKBYENXQJGWYNK17Y",
       "name": "Passive Income Discovery Scan",
@@ -152,20 +144,12 @@
       "schedule": "10 17 * * *",
       "description": "Think big — identify high-leverage capability gaps and 10x improvements; propose 2-4 per week"
     },
-    "evening-performance-reflection": {
-      "id": "01KNW58WDFWS6JQVNAYBEPXZG2",
-      "name": "Evening Performance Reflection",
-      "agent": "performance-coach",
-      "status": "enabled",
-      "schedule": "5 20 * * 1-5",
-      "description": "Evening coaching check-in — close the feedback loop on today's exercise"
-    },
-    "daily-performance-check-in": {
+    "performance-check-in-(mon/wed/fri)": {
       "id": "01KNW58WDBP08NMCDS0SEF8609",
-      "name": "Daily Performance Check-in",
+      "name": "Performance Check-in (Mon/Wed/Fri)",
       "agent": "performance-coach",
       "status": "enabled",
-      "schedule": "30 6 * * 1-5",
+      "schedule": "30 6 * * 1,3,5",
       "description": "Morning interactive coaching session — questions, exercises, and pattern tracking"
     },
     "weekly-goal-review": {
