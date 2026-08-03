@@ -181,10 +181,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-08-03T20:16:42Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 153.5,
+      "status": "success",
+      "summary": "Digest delivered to the assistant Telegram channel. Four themes with sources, TTP read strengthening (108-day Glassdoor quiet + superscoring 9 days out), focus tied to yesterday's EU AI Act enforcemen",
+      "details": null,
+      "cost_usd": 1.3603452500000002,
+      "total_tokens": 8480
     },
     {
       "agent": "passive-income-builder-loop",
