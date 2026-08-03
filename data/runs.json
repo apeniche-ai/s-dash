@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-03T20:23:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 113.3,
+      "status": "success",
+      "summary": "Tick complete. SILENT — Mon Aug 3 15:23 catch-up run after ~76h machine-sleep gap. State ~7.7d fresh, ledger unchanged 15d, channel quiet ~79d, no scout candidate, no ETF event. Career lane very activ",
+      "details": null,
+      "cost_usd": 1.0480555,
+      "total_tokens": 6702
     },
     {
       "agent": "passive-income-state-consolidation",
