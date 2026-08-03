@@ -165,10 +165,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-08-03T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 142.4,
+      "status": "success",
+      "summary": "Nudge suggestion created (`01KZ4TYD4W4YG9HSJEXSZVNXRR`) for the stalled Cross-team Decision Ledger. Telegram delivery failed (`fetch failed` — the ongoing transport issue health-auditor is tracking); ",
+      "details": null,
+      "cost_usd": 1.07128725,
+      "total_tokens": 6282
     },
     {
       "agent": "pr-reviewer",
