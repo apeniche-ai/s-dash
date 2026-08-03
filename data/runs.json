@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-03T20:31:39Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-08-03T20:30:02Z",
       "duration_seconds": 95.9,
@@ -4714,16 +4722,6 @@
       "details": null,
       "cost_usd": 2.456149500000001,
       "total_tokens": 12936
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-14T15:00:00Z",
-      "duration_seconds": 124.1,
-      "status": "success",
-      "summary": "Tick complete. Silent by design.",
-      "details": null,
-      "cost_usd": 1.376695,
-      "total_tokens": 7183
     }
   ]
 }
