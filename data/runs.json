@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-03T20:31:39Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 224.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-140/22] Agentic Chatbot Tools + SIP + Adaptive Summaries & Flashcards → Approved + Browser QA Skipped (epic aggregate — child features individually QA'd)",
+      "details": null,
+      "cost_usd": 1.86968975,
+      "total_tokens": 9915
     },
     {
       "agent": "slack-watch",
