@@ -165,10 +165,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-08-04T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 95.2,
+      "status": "success",
+      "summary": "Telegram send failed with \"fetch failed\". Per fail-fast policy, not retrying. Since Telegram itself is the failing transport, there's no way to notify Amaury outside of my agent output.",
+      "details": null,
+      "cost_usd": 0.891381,
+      "total_tokens": 4119
     },
     {
       "agent": "pr-reviewer",
