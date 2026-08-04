@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-08-04T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-04T22:00:01Z",
       "duration_seconds": 269.7,
@@ -4748,16 +4756,6 @@
       "status": "success",
       "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-16T19:00:00Z",
-      "duration_seconds": 143.5,
-      "status": "success",
-      "summary": "Not applicable — this is a single-shot silent tick, not a multi-step task warranting task tracking. Tick complete.",
-      "details": null,
-      "cost_usd": 1.17961925,
-      "total_tokens": 7625
     }
   ]
 }
