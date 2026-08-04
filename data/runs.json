@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-04T13:33:13Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 513.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4735 [6330] Remove maren suggested walkthrough reasoning gate → Changes Requested (spec asserts `to include(\"<spoiler-guard>\")` for attempted lesson exercises but the code path that a",
+      "details": null,
+      "cost_usd": 3.6069637499999994,
+      "total_tokens": 31359
     },
     {
       "agent": "slack-watch",
