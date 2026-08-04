@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-08-04T15:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-04T15:02:05Z",
       "duration_seconds": 1.1,
@@ -4744,16 +4752,6 @@
       "details": null,
       "cost_usd": 1.516205,
       "total_tokens": 7780
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-07-15T01:05:00Z",
-      "duration_seconds": 63.9,
-      "status": "success",
-      "summary": "Held tonight — no evening message sent. This morning's check-in already gently named the 2-week silence with three easy read-out paths; stacking a Self-Trust rotation probe on top 13h later would nag ",
-      "details": null,
-      "cost_usd": 0.8744925000000001,
-      "total_tokens": 2880
     }
   ]
 }
