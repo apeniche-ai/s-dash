@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-08-04T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-04T15:30:02Z",
       "duration_seconds": 1.5,
@@ -4740,16 +4748,6 @@
       "details": null,
       "cost_usd": 1.2443795,
       "total_tokens": 8034
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-07-16T14:38:24Z",
-      "duration_seconds": 293.2,
-      "status": "success",
-      "summary": "Ignoring — this tick is complete (single-flow scan → notify → 4 memory writes) and doesn't benefit from task tracking.",
-      "details": null,
-      "cost_usd": 1.96132425,
-      "total_tokens": 20290
     }
   ]
 }
