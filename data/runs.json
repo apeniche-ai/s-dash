@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-04T15:30:02Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 37 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-04T15:15:01Z",
       "duration_seconds": 0.9,
@@ -4742,16 +4750,6 @@
       "details": null,
       "cost_usd": 1.96132425,
       "total_tokens": 20290
-    },
-    {
-      "agent": "passive-income-builder-loop",
-      "timestamp": "2026-07-16T14:35:19Z",
-      "duration_seconds": 190.9,
-      "status": "success",
-      "summary": "Tick complete. Silent to Amaury per hard rules.",
-      "details": null,
-      "cost_usd": 1.516205,
-      "total_tokens": 7780
     }
   ]
 }
