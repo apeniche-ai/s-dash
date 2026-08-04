@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-04T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 122.8,
+      "status": "success",
+      "summary": "Tick complete. Silent. Ledger unchanged 16d, state ~8.5d fresh (under 10d gate — refresh due ~Wed Aug 5), channel quiet ~80d, scout 0 candidates, no ETF event. Goal-tracker already flagged P8 stall in",
+      "details": null,
+      "cost_usd": 1.2906665000000002,
+      "total_tokens": 6269
     },
     {
       "agent": "pr-reviewer",
