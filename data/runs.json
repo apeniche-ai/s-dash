@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-04T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 93.1,
+      "status": "success",
+      "summary": "Tick complete. Silent — Tue Aug 4 06:00 first tick of Tuesday, pre-market and pre-scout. Ledger unchanged 16d, state ~8.4d fresh (under 10d gate; age-driven refresh due Wed Aug 5), channel quiet ~80d,",
+      "details": null,
+      "cost_usd": 1.0504695000000002,
+      "total_tokens": 5707
     },
     {
       "agent": "pr-reviewer",
