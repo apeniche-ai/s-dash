@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-04T12:02:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 176.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4745 [6343] Catches duplicate migration timestamps in CI instead of on deploy → Approved + Browser QA Skipped (CI-only workflow/docs change)",
+      "details": null,
+      "cost_usd": 1.5835759999999999,
+      "total_tokens": 8540
     },
     {
       "agent": "passive-income-discovery-scan",
