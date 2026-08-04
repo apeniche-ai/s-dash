@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-04T20:31:01Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-08-04T20:30:00Z",
       "duration_seconds": 59.4,
@@ -4750,16 +4758,6 @@
       "details": null,
       "cost_usd": 3.142300250000001,
       "total_tokens": 14950
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-07-16T17:30:00Z",
-      "duration_seconds": 285.6,
-      "status": "success",
-      "summary": "alarmed 1 item: 🧭 [DM] Developer reported to Amaury that Gio's QA is more burden than help — asks Claude-generated questions, asked to manipulate DB records to pass tests, rarely finds real bugs. Ker",
-      "details": null,
-      "cost_usd": 0.55165885,
-      "total_tokens": 14930
     }
   ]
 }
