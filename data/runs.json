@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-08-04T18:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-04T18:00:01Z",
       "duration_seconds": 1.1,
@@ -4758,16 +4766,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-16T15:03:14Z",
-      "duration_seconds": 236.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4631 [TTPAI-99/100/121/206/207] Chatbot Agentic Tool Calls + SIP → Approved + Browser QA Skipped (stochastic LLM-driven chatbot not reliably testable in one session)",
-      "details": null,
-      "cost_usd": 1.99674975,
-      "total_tokens": 11951
     }
   ]
 }
