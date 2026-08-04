@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-04T22:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 269.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4749 [6338] Adopt the expert Score Analyzer report format and move to Opus 5 → Approved + Browser QA Skipped (background job + email template)",
+      "details": null,
+      "cost_usd": 2.9728097499999993,
+      "total_tokens": 13565
     },
     {
       "agent": "pr-reviewer",
