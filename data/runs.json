@@ -163,6 +163,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-04T16:03:17Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-08-04T16:00:01Z",
       "duration_seconds": 194.5,
@@ -4740,16 +4748,6 @@
       "details": null,
       "cost_usd": 0.2555481,
       "total_tokens": 2894
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-07-16T14:43:17Z",
-      "duration_seconds": 133.5,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 OK: HN Show/Ask by-date, Anthropic + OpenAI + Gemini changelogs; 4 blocked: all Reddit subs, day ~64 of the perpetual WebFetch blackout). Wrote 0 findings — Anthropic Jul 14 Enter",
-      "details": null,
-      "cost_usd": 1.2443795,
-      "total_tokens": 8034
     }
   ]
 }
