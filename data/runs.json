@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-04T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-04T20:31:01Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4748,16 +4756,6 @@
       "details": null,
       "cost_usd": 3.0172587500000003,
       "total_tokens": 22410
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-16T17:34:47Z",
-      "duration_seconds": 312.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4711 [TTPAI-253] Add SIP game plan seeding fields and broadens activity recompute triggers → Approved + Browser QA Skipped (data-layer only per ticket)",
-      "details": null,
-      "cost_usd": 3.142300250000001,
-      "total_tokens": 14950
     }
   ]
 }
