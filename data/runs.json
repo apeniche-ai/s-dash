@@ -165,10 +165,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-04T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 350.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4746 [TTPAI-278] Add parent+children grouping for MSR and RC bank import → Changes Requested (RC importer silently corrupts data on child-count mismatch and collapses malformed-group ",
+      "details": null,
+      "cost_usd": 2.520439249999999,
+      "total_tokens": 19494
     },
     {
       "agent": "pr-reviewer",
