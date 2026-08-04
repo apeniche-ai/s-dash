@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-04T16:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 187.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4748 [6316] LiveTeach emails Round 2 — instructor pre-class report → Approved + Browser QA Skipped (mailer/service change, no user-facing UI)",
+      "details": null,
+      "cost_usd": 2.22162475,
+      "total_tokens": 8122
     },
     {
       "agent": "admissions-pr-reviewer",
