@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-08-04T19:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-04T18:30:01Z",
       "duration_seconds": 1.2,
@@ -4756,16 +4764,6 @@
       "details": null,
       "cost_usd": 1.4659429999999998,
       "total_tokens": 8522
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-16T15:30:01Z",
-      "duration_seconds": 279.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (2 CI failures from this PR's own new specs — unique-index violation + wrong attach_file option) + Browser Q",
-      "details": null,
-      "cost_usd": 2.02771075,
-      "total_tokens": 14713
     }
   ]
 }
