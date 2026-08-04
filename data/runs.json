@@ -165,10 +165,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-04T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 113.7,
+      "status": "success",
+      "summary": "Tick complete. Silent — Mon Aug 3 22:00 final tick of Monday, evening wind-down. Ledger unchanged 15d, state ~8d fresh (under 10d gate), channel quiet ~79d, no ETF event, no scout candidate. Goal-trac",
+      "details": null,
+      "cost_usd": 1.03042375,
+      "total_tokens": 6594
     },
     {
       "agent": "goal-progress-reconciliation",
