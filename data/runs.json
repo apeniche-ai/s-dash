@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-08-05T12:30:37Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "one-time:-ibkr-transfer-steps",
       "timestamp": "2026-08-05T12:30:00Z",
       "duration_seconds": 37.1,
@@ -4758,16 +4766,6 @@
       "details": null,
       "cost_usd": 0.9887155000000001,
       "total_tokens": 5277
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-07-17T02:30:00Z",
-      "duration_seconds": 13.2,
-      "status": "success",
-      "summary": "Nothing changed. Exiting silently.",
-      "details": null,
-      "cost_usd": 0.6685129999999999,
-      "total_tokens": 280
     }
   ]
 }
