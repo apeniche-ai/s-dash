@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-05T13:01:32Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 336.2,
+      "status": "success",
+      "summary": "Reviewed 2 PRs: #4735 Remove maren suggested walkthrough reasoning gate → Approved + Browser QA Skipped (bundler env error), #4684 [6282] Add AI content quality flag across chat, exercise, summary, an",
+      "details": null,
+      "cost_usd": 3.073212749999999,
+      "total_tokens": 16806
     },
     {
       "agent": "pr-follow-up-check",
