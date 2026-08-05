@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-05T21:17:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 227.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4684 [6282] Add AI content quality flag across chat, exercise, summary, and flashcard surfaces → Approved + Browser QA Skipped (feature stacks on WIP epic/maren-chatbot-redesign base ",
+      "details": null,
+      "cost_usd": 2.7545479999999998,
+      "total_tokens": 11150
     },
     {
       "agent": "admissions-pr-reviewer",
