@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-05T11:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 95.8,
+      "status": "success",
+      "summary": "Tick complete. Silent — no signal on any thread. State ~9d9h fresh (crossover expected tonight Wed 22:00), ledger unchanged 17d, channel quiet ~80d, scout pre-window, no ETF event, goal-tracker's Aug ",
+      "details": null,
+      "cost_usd": 1.2976852499999998,
+      "total_tokens": 5942
     },
     {
       "agent": "pr-reviewer",
