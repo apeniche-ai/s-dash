@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-05T21:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 183.8,
+      "status": "success",
+      "summary": "Telegram transport failing (known ongoing issue). Not retrying per fail-fast policy.",
+      "details": null,
+      "cost_usd": 1.6568829999999999,
+      "total_tokens": 9618
     },
     {
       "agent": "pr-reviewer",
