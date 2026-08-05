@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-08-05T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 110.3,
+      "status": "success",
+      "summary": "Scanned 9 sources, 5 OK (HN Show HN + Ask HN + Anthropic/OpenAI/Google changelogs), 4 blocked (Reddit day ~79). Zero findings passed the 5-criterion filter — Anthropic Opus 5 launch is a step-change m",
+      "details": null,
+      "cost_usd": 1.171026,
+      "total_tokens": 7461
     },
     {
       "agent": "pr-reviewer",
