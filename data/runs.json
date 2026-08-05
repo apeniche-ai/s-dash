@@ -189,10 +189,12 @@
     {
       "agent": "one-time:-ibkr-transfer-steps",
       "timestamp": "2026-08-05T12:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running One-time: IBKR transfer steps...",
-      "details": null
+      "duration_seconds": 37.1,
+      "status": "success",
+      "summary": "Done. Reminder sent to the assistant Telegram channel, and the job is disabled — it won't fire again.",
+      "details": null,
+      "cost_usd": 0.20490504999999998,
+      "total_tokens": 831
     },
     {
       "agent": "admissions-pr-reviewer",
