@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-08-05T20:50:07Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-08-05T20:30:01Z",
       "duration_seconds": 69.8,
@@ -4764,16 +4772,6 @@
       "status": "success",
       "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-07-17T12:00:00Z",
-      "duration_seconds": 144.7,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 OK: HN Show/Ask by-date, Anthropic + OpenAI + Gemini changelogs; 4 blocked: all Reddit subs, day ~65 perpetual WebFetch blackout). Wrote 0 findings — Anthropic Jul 15 mid-conversa",
-      "details": null,
-      "cost_usd": 1.1497392499999997,
-      "total_tokens": 7774
     }
   ]
 }
