@@ -189,10 +189,12 @@
     {
       "agent": "one-time:-tonight's-side-income-applications",
       "timestamp": "2026-08-05T00:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running One-time: Tonight's side-income applications...",
-      "details": null
+      "duration_seconds": 36.5,
+      "status": "success",
+      "summary": "Job disabled. Telegram delivery failed with \"fetch failed\" — same transport issue the health-auditor has been tracking. The reminder content is ready; it just didn't reach Amaury's phone. The job won'",
+      "details": null,
+      "cost_usd": 0.19178415000000001,
+      "total_tokens": 930
     },
     {
       "agent": "slack-watch",
