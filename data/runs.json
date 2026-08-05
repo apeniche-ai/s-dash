@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-08-05T11:15:01Z",
+      "duration_seconds": 0.7,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-05T11:01:37Z",
       "duration_seconds": 1.3,
@@ -4762,16 +4770,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-07-16T22:10:01Z",
-      "duration_seconds": 114.0,
-      "status": "success",
-      "summary": "Tick complete. One suggestion created and pushed to Telegram: **\"Turn identified skill gaps into shipped artifacts — starting with an AI Governance memo before Aug 2\"** (ID `01KXPFQX3E18EKV05STZPYQCQ5",
-      "details": null,
-      "cost_usd": 1.1710145,
-      "total_tokens": 5941
     }
   ]
 }
