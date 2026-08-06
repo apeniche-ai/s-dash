@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-06T11:01:52Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 37 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-06T11:00:00Z",
       "duration_seconds": 110.7,
@@ -4772,16 +4780,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-17T15:01:36Z",
-      "duration_seconds": 216.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4630 [TTPAI-147/157/218] Chatbot sessions, memory and cross page continuity → Approved + Browser QA Skipped (epic-on-epic session/memory feature not verifiable via smoke test)",
-      "details": null,
-      "cost_usd": 2.0259454999999997,
-      "total_tokens": 10283
     }
   ]
 }
