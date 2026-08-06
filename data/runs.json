@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-06T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 163.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4755 [6355] Match the reviewer's prose style and fix the weekly-hours misreading → Approved + Browser QA Skipped (prompt-only markdown, no UI surface)",
+      "details": null,
+      "cost_usd": 1.872204,
+      "total_tokens": 9384
     },
     {
       "agent": "pr-reviewer",
