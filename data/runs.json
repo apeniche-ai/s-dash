@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-06T19:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 89.4,
+      "status": "success",
+      "summary": "Silent tick logged. No notify, no ledger change, no state update — scout filed 0 candidates, ledger unchanged 18d, PI channel quiet ~81d, coaching-lane discipline from yesterday's exec-ed hard-close a",
+      "details": null,
+      "cost_usd": 1.2688405,
+      "total_tokens": 5259
     },
     {
       "agent": "pr-reviewer",
