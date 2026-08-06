@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-06T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 298.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4755 [6355] Match the reviewer's prose style and fix the weekly-hours misreading → Changes Requested (Section 4 accuracy-figure rule conflicts with unchanged bullet at line 363, under",
+      "details": null,
+      "cost_usd": 2.19508275,
+      "total_tokens": 16007
     },
     {
       "agent": "admissions-pr-reviewer",
