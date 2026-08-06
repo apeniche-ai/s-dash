@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-06T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 157.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4665 [TTPAI-66/192/193/228] Chatbot CS Tools + knowledge → Approved + Browser QA Skipped (TTPAI epic-branch stack, base not master)",
+      "details": null,
+      "cost_usd": 1.764556,
+      "total_tokens": 7622
     },
     {
       "agent": "admissions-pr-reviewer",
