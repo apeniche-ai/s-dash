@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-06T14:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-06T13:31:36Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4778,14 +4786,6 @@
       "details": null,
       "cost_usd": 1.1963389999999998,
       "total_tokens": 5311
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-17T18:30:02Z",
-      "duration_seconds": 1.1,
-      "status": "success",
-      "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
