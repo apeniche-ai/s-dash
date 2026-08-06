@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-06T10:00:05Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 237.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4751 [TTPAI-277] Add human adjudication review queue and Tier 1 to Tier 2 curated promotion → Approved + Browser QA Skipped (TTPAI epic-branch stack, base not master, per-PR QA deferr",
+      "details": null,
+      "cost_usd": 2.3836764999999995,
+      "total_tokens": 12641
     },
     {
       "agent": "passive-income-research-loop",
