@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-08-06T20:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-06T20:15:01Z",
       "duration_seconds": 1.0,
@@ -4776,16 +4784,6 @@
       "details": null,
       "cost_usd": 1.9271755000000002,
       "total_tokens": 19942
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-07-18T12:00:01Z",
-      "duration_seconds": 86.6,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 OK: HN Show/Ask by-date, Anthropic + OpenAI + Gemini changelogs; 4 blocked: all Reddit subs, day ~66 perpetual WebFetch blackout). Wrote 0 findings — HN Show HN had no traction it",
-      "details": null,
-      "cost_usd": 1.1338275,
-      "total_tokens": 5437
     }
   ]
 }
