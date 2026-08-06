@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-06T15:01:50Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-06T15:00:00Z",
       "duration_seconds": 108.5,
@@ -4780,16 +4788,6 @@
       "status": "success",
       "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-17T19:30:01Z",
-      "duration_seconds": 299.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4713 [6258] Add full-screen layout with AI Coach panel for RC, MSR and Table Analysis → Approved + Browser QA Skipped (stacked base branch, UI test setup risk)",
-      "details": null,
-      "cost_usd": 2.39492475,
-      "total_tokens": 17404
     }
   ]
 }
