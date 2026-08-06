@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-06T17:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-06T17:15:01Z",
       "duration_seconds": 1.0,
@@ -4786,16 +4794,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-07-17T22:10:01Z",
-      "duration_seconds": 61.1,
-      "status": "success",
-      "summary": "Silent exit. Yesterday's AI Governance artifact suggestion is 23h fresh, the proposed backlog already sits at 40+ items covering every category I'd otherwise pitch (Build Agent, Merge Brief, team bloc",
-      "details": null,
-      "cost_usd": 0.9197442499999999,
-      "total_tokens": 2943
     }
   ]
 }
