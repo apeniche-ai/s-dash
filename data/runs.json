@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-06T13:01:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 291.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4730 [TTPAI-256/260] Lazy judge-on-pull for exercise bank + drain and upgrade → Approved + Browser QA Skipped (backend drain/judge pipeline, no user-facing surface)",
+      "details": null,
+      "cost_usd": 3.0846485,
+      "total_tokens": 17956
     },
     {
       "agent": "pr-follow-up-check",
