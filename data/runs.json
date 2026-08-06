@@ -197,10 +197,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-08-06T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 82.4,
+      "status": "success",
+      "summary": "Digest for 4 stagnant PRs assembled but Telegram send failed with `fetch failed` — same transport issue as the previous run and the ongoing pattern the health-auditor is tracking. Per fail-fast policy",
+      "details": null,
+      "cost_usd": 0.855362,
+      "total_tokens": 3530
     },
     {
       "agent": "pr-reviewer",
