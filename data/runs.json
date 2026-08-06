@@ -197,10 +197,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-06T17:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 208.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4728 [6316] LiveTeach cohort emails — instructor prep + student recaps (V1) → Approved + Browser QA Skipped (background rake tasks + admin viewer)",
+      "details": null,
+      "cost_usd": 2.4801632499999995,
+      "total_tokens": 10328
     },
     {
       "agent": "admissions-pr-reviewer",
