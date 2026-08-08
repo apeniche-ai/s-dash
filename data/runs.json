@@ -187,6 +187,16 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-08-08T14:22:54Z",
+      "duration_seconds": 193.8,
+      "status": "success",
+      "summary": "Scanned 9 sources, 5 OK (HN Show/Ask + all 3 vendor changelogs), 4 blocked (Reddit day ~82 perpetual blackout). Anthropic Aug 7 shipped a real 3-primitive Managed Agents wave (session budgets + adviso",
+      "details": null,
+      "cost_usd": 1.6765592500000002,
+      "total_tokens": 7740
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-06T21:30:02Z",
       "duration_seconds": 1.2,
@@ -4768,16 +4778,6 @@
       "details": null,
       "cost_usd": 1.24970675,
       "total_tokens": 5164
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-07-18T16:00:00Z",
-      "duration_seconds": 155.7,
-      "status": "success",
-      "summary": "Tick complete. **SILENT** — no Telegram send.",
-      "details": null,
-      "cost_usd": 1.4041557500000001,
-      "total_tokens": 8417
     }
   ]
 }
