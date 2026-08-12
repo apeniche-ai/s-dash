@@ -173,10 +173,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-08-12T15:11:19Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 125.4,
+      "status": "success",
+      "summary": "Digest delivered to the assistant channel. Four themes with sources: Anthropic's 85/15 verification numbers, AI-native team fragmentation, comp bands (your $312K is at/above SaaS ceiling), and Spec-Dr",
+      "details": null,
+      "cost_usd": 1.3076712499999998,
+      "total_tokens": 7084
     },
     {
       "agent": "colombia-mintic-transition-watch",
