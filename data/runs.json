@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "colombia-mintic-transition-watch",
+      "timestamp": "2026-08-12T15:09:14Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Colombia MinTIC Transition Watch...",
+      "details": null
+    },
+    {
       "agent": "weekly-side-income-tracker",
       "timestamp": "2026-08-12T15:07:33Z",
       "duration_seconds": 100.7,
@@ -4750,16 +4758,6 @@
       "details": null,
       "cost_usd": 1.634307,
       "total_tokens": 11795
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-19T15:00:01Z",
-      "duration_seconds": 72.6,
-      "status": "success",
-      "summary": "Tick complete. **SILENT.**",
-      "details": null,
-      "cost_usd": 1.1773144999999998,
-      "total_tokens": 5068
     }
   ]
 }
