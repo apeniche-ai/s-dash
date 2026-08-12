@@ -181,10 +181,12 @@
     {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-08-12T15:13:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly VP Performance Edge...",
-      "details": null
+      "duration_seconds": 171.6,
+      "status": "success",
+      "summary": "Done. Tip #12 shipped to career channel and logged for dedup.",
+      "details": null,
+      "cost_usd": 1.38284375,
+      "total_tokens": 7845
     },
     {
       "agent": "career-market-weekly-digest",
