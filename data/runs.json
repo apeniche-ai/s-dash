@@ -181,10 +181,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-08-12T14:54:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 59.7,
+      "status": "success",
+      "summary": "Done. Todo list is empty, nothing completed since Aug 5 — sent inbox-zero message to the assistant channel and stored bookkeeping for next run.",
+      "details": null,
+      "cost_usd": 0.27938539999999995,
+      "total_tokens": 1783
     },
     {
       "agent": "passive-income-discovery-scan",
