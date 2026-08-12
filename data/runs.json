@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-08-12T14:59:09Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 101.4,
+      "status": "success",
+      "summary": "Digest sent to pr-reviews. 6 stagnant PRs across TTP (0 in admissions): 1 from alkeshrails (47h), 3 authored by apeniche (48-84d), 1 from codefarz (139d), 1 from alkeshrails (184d).",
+      "details": null,
+      "cost_usd": 1.6308809999999998,
+      "total_tokens": 3918
     },
     {
       "agent": "slack-watch",
