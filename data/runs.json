@@ -173,10 +173,12 @@
     {
       "agent": "weekly-goal-review",
       "timestamp": "2026-08-12T15:29:54Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Goal Review...",
-      "details": null
+      "duration_seconds": 64.3,
+      "status": "success",
+      "summary": "Weekly goal review sent. Key call-outs:",
+      "details": null,
+      "cost_usd": 0.8898612499999999,
+      "total_tokens": 2465
     },
     {
       "agent": "performance-check-in-(mon/wed/fri)",
