@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-12T18:00:17Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 329.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4704 [TTPAI-243] Add batch distractor analysis pre-computation pipeline → Changes Requested (CI-failing spec hardcodes old model id after master upgraded via #4700) + Browser QA Skipp",
+      "details": null,
+      "cost_usd": 3.051774,
+      "total_tokens": 18236
     },
     {
       "agent": "slack-watch",
