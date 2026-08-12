@@ -173,10 +173,12 @@
     {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-08-12T15:21:18Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Coaching Digest...",
-      "details": null
+      "duration_seconds": 195.2,
+      "status": "success",
+      "summary": "Digest delivered to the coaching channel. Stored as memory `01KZV95QN6GMKMKF01R411DRE4` for next week's comparison.",
+      "details": null,
+      "cost_usd": 1.63755875,
+      "total_tokens": 9886
     },
     {
       "agent": "passive-income-state-consolidation",
