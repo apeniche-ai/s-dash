@@ -173,10 +173,12 @@
     {
       "agent": "weekly-side-income-tracker",
       "timestamp": "2026-08-12T15:07:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Side-Income Tracker...",
-      "details": null
+      "duration_seconds": 100.7,
+      "status": "success",
+      "summary": "Done. First tick sent to the passive-income channel: no status yet on the Aug 4 application session, asked Amaury to reply with which of the 5 platforms he actually applied to. Log stored for next Sun",
+      "details": null,
+      "cost_usd": 0.8104844999999999,
+      "total_tokens": 2822
     },
     {
       "agent": "pr-reviewer",
