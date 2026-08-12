@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-side-income-tracker",
+      "timestamp": "2026-08-12T15:07:33Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Side-Income Tracker...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-12T15:03:39Z",
       "duration_seconds": 235.4,
@@ -4750,16 +4758,6 @@
       "details": null,
       "cost_usd": 1.1773144999999998,
       "total_tokens": 5068
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-07-19T13:00:00Z",
-      "duration_seconds": 101.3,
-      "status": "success",
-      "summary": "Tick #95 complete. **SILENT.**",
-      "details": null,
-      "cost_usd": 1.3247502500000001,
-      "total_tokens": 8120
     }
   ]
 }
