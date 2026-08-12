@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "performance-check-in-(mon/wed/fri)",
+      "timestamp": "2026-08-12T15:27:58Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Performance Check-in (Mon/Wed/Fri)...",
+      "details": null
+    },
+    {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-08-12T15:24:34Z",
       "duration_seconds": null,
@@ -4748,16 +4756,6 @@
       "details": null,
       "cost_usd": 1.1472947500000001,
       "total_tokens": 6774
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-07-20T01:02:27Z",
-      "duration_seconds": 145.0,
-      "status": "success",
-      "summary": "Tick #96 complete. **SILENT.**",
-      "details": null,
-      "cost_usd": 1.5948772500000001,
-      "total_tokens": 6336
     }
   ]
 }
