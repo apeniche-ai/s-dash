@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-08-12T20:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-12T20:15:02Z",
       "duration_seconds": 1.1,
@@ -4765,16 +4773,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 8 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-07-20T13:07:29Z",
-      "duration_seconds": 95.3,
-      "status": "success",
-      "summary": "Sent. 7 stagnant PRs in TTP (0 in Admissions): #4708 (Maria, 6d/24d), #4673 (Amaury own, 25d), #4640 (Maria, 3d/52d), #4589 (Amaury own Snyk, 51d), #4565 (Amaury own, 60d), #4390 (Felipe, 115d), #3569",
-      "details": null,
-      "cost_usd": 0.88123875,
-      "total_tokens": 3878
     }
   ]
 }
