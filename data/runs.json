@@ -173,10 +173,12 @@
     {
       "agent": "performance-check-in-(mon/wed/fri)",
       "timestamp": "2026-08-12T15:27:58Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Performance Check-in (Mon/Wed/Fri)...",
-      "details": null
+      "duration_seconds": 115.1,
+      "status": "success",
+      "summary": "Sent. Led with the keystone-anchor follow-up (check-in was Tue 8/11, 1 day past due), warm mid-week opener acknowledging the house is still disrupted, taught why not-picking IS the data, honest-out in",
+      "details": null,
+      "cost_usd": 1.1552875,
+      "total_tokens": 4717
     },
     {
       "agent": "weekly-team-shipping-report",
