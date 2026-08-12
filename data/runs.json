@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-12T17:30:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 241.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4529 [6038] Add self-managed billing engine foundation → Approved + Browser QA Skipped (checkout flow — complex Stripe/India setup)",
+      "details": null,
+      "cost_usd": 2.4369015,
+      "total_tokens": 11260
     },
     {
       "agent": "slack-watch",
