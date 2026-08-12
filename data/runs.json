@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-state-consolidation",
+      "timestamp": "2026-08-12T15:16:16Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income State Consolidation...",
+      "details": null
+    },
+    {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-08-12T15:13:24Z",
       "duration_seconds": null,
@@ -4748,16 +4756,6 @@
       "details": null,
       "cost_usd": 0.996618,
       "total_tokens": 5159
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-07-19T22:10:00Z",
-      "duration_seconds": 164.6,
-      "status": "success",
-      "summary": "Proposed and notified. Fresh idea, not in the backlog: Soren pre-drafts his Manager README (a VP practice he committed to but hasn't shipped) using profile + coaching memory. Low effort, one-shot, shi",
-      "details": null,
-      "cost_usd": 1.3880979999999998,
-      "total_tokens": 9014
     }
   ]
 }
