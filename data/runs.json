@@ -179,6 +179,16 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-08-12T21:18:06Z",
+      "duration_seconds": 183.0,
+      "status": "success",
+      "summary": "No PR reviewed and no batches. Exit silently per protocol.",
+      "details": null,
+      "cost_usd": 1.53133675,
+      "total_tokens": 1835
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-12T21:04:15Z",
       "duration_seconds": null,
@@ -4767,14 +4777,6 @@
       "details": null,
       "cost_usd": 1.025532,
       "total_tokens": 3053
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-20T14:00:01Z",
-      "duration_seconds": 1.0,
-      "status": "success",
-      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
