@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-12T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 207.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4764 [TTPAI-168] Expand exercise eval entry to all question types and adds CI prompt eval workflow → Approved + Browser QA Skipped (CI/eval-config only)",
+      "details": null,
+      "cost_usd": 1.9413795,
+      "total_tokens": 13084
     },
     {
       "agent": "admissions-pr-reviewer",
