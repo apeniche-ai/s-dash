@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-12T20:31:22Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 271.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4757 [6338] Add GPT-polished score analyzer reports → Approved + Browser QA Skipped (background-job internal logic)",
+      "details": null,
+      "cost_usd": 2.2986762500000006,
+      "total_tokens": 16258
     },
     {
       "agent": "slack-watch",
