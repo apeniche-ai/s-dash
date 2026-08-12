@@ -8,22 +8,6 @@
       "schedule": "30 19 * * 0",
       "description": "Sunday 7:30 PM — one plain-English status on the side-income pipeline to the passive-income channel; silent when nothing changed and nothing is pending on Amaury."
     },
-    "one-time:-ibkr-transfer-steps": {
-      "id": "01KZ6RQXBSYWRH0SSRTPBMSA3Y",
-      "name": "One-time: IBKR transfer steps",
-      "agent": "assistant",
-      "status": "enabled",
-      "schedule": "30 7 5 8 *",
-      "description": "One-shot reminder Aug 5, 2026, 7:30 AM with the $20k Chase→IBKR transfer steps. Self-disables after sending."
-    },
-    "one-time:-tonight's-side-income-applications": {
-      "id": "01KZ6RQNJCDC607ND2GSQR26VF",
-      "name": "One-time: Tonight's side-income applications",
-      "agent": "assistant",
-      "status": "enabled",
-      "schedule": "0 19 4 8 *",
-      "description": "One-shot reminder for tonight's application session (Aug 4, 2026, 7 PM). Self-disables after sending."
-    },
     "colombia-mintic-transition-watch": {
       "id": "01KW505SCXAR53MZT7MYTYGRWZ",
       "name": "Colombia MinTIC Transition Watch",
