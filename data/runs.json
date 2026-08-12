@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-08-12T20:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 80.2,
+      "status": "success",
+      "summary": "silent",
+      "details": null,
+      "cost_usd": 0.2854848,
+      "total_tokens": 3417
     },
     {
       "agent": "admissions-pr-reviewer",
