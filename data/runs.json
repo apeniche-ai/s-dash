@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-12T20:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 389.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4752 [6115] Splits unified self-study A/B test into separate control/variation-B views → Approved + Browser QA Skipped (stacked-branch refactor, peer-QA'd by Kerly)",
+      "details": null,
+      "cost_usd": 4.71181875,
+      "total_tokens": 20237
     },
     {
       "agent": "pr-reviewer",
