@@ -1,5 +1,13 @@
 {
   "agents": {
+    "maren-v0-launch-digest": {
+      "id": "01KZVABGJJ7YW2W9B57BTC00MN",
+      "name": "Maren V0 Launch Digest",
+      "agent": "maren-launch",
+      "status": "enabled",
+      "schedule": "0 16 * * *",
+      "description": "Daily 4:00 PM Bogotá (5 PM ET) — Maren V0 launch status to the assistant channel: done count vs required pace, PRs waiting on Amaury's merge, stuck tickets, Jira↔GitHub mismatches. Temporary job; retire after Maren V0 ships."
+    },
     "weekly-side-income-tracker": {
       "id": "01KZ6RWA5HZ1T8SHMXR7P0JSW4",
       "name": "Weekly Side-Income Tracker",
