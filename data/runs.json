@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-08-12T15:29:54Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "performance-check-in-(mon/wed/fri)",
       "timestamp": "2026-08-12T15:27:58Z",
       "duration_seconds": 115.1,
@@ -4750,16 +4758,6 @@
       "details": null,
       "cost_usd": 1.48772225,
       "total_tokens": 11196
-    },
-    {
-      "agent": "weekly-coaching-digest",
-      "timestamp": "2026-07-20T01:30:01Z",
-      "duration_seconds": 142.7,
-      "status": "success",
-      "summary": "Digest delivered to the coaching channel first try. Stored as memory `01KXYJDD96H893WYWCZDSW45YQ` for next week's comparison.",
-      "details": null,
-      "cost_usd": 1.1472947500000001,
-      "total_tokens": 6774
     }
   ]
 }
