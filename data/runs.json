@@ -173,10 +173,12 @@
     {
       "agent": "colombia-mintic-transition-watch",
       "timestamp": "2026-08-12T15:09:14Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Colombia MinTIC Transition Watch...",
-      "details": null
+      "duration_seconds": 124.9,
+      "status": "success",
+      "summary": "Done. Two material items sent to career channel and logged under `mintic-watch`:",
+      "details": null,
+      "cost_usd": 1.4017634999999995,
+      "total_tokens": 6272
     },
     {
       "agent": "weekly-side-income-tracker",
