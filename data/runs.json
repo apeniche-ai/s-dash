@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-08-12T14:54:04Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-08-12T14:51:52Z",
       "duration_seconds": 133.4,
@@ -4752,16 +4760,6 @@
       "details": null,
       "cost_usd": 0.82707075,
       "total_tokens": 328
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-07-19T01:00:00Z",
-      "duration_seconds": 122.0,
-      "status": "success",
-      "summary": "Tick #94 complete. **SILENT.**",
-      "details": null,
-      "cost_usd": 1.7159855,
-      "total_tokens": 8392
     }
   ]
 }
