@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-12T15:03:39Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 235.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Approved + Browser QA Skipped (epic — no single testable feature)",
+      "details": null,
+      "cost_usd": 2.17583675,
+      "total_tokens": 10329
     },
     {
       "agent": "passive-income-research-loop",
