@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-08-12T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 165.7,
+      "status": "success",
+      "summary": "Nudged the \"Weekly memory hygiene\" proposal (40+ days old, never nudged). Skipped creating a new suggestion — the backlog is at 50+ proposed items and Amaury named acute cognitive overload tonight; pi",
+      "details": null,
+      "cost_usd": 1.01795875,
+      "total_tokens": 9665
     },
     {
       "agent": "pr-reviewer",
