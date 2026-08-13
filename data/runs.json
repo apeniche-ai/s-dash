@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T12:31:11Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 363.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4507 [6115] Unify Self-Study and On-Demand A/B test → Changes Requested (critical SyntaxError from missing comma in `admin/settings_helper.rb:21` — merge-conflict artifact, breaks ent",
+      "details": null,
+      "cost_usd": 2.4053160000000005,
+      "total_tokens": 13849
     },
     {
       "agent": "daily-todo-digest",
