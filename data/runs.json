@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T12:02:34Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 319.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4424 [6038] Migrate payment system from Recurly to Stripe → Changes Requested (both April blockers unresolved — missing `/subscriptions/create_stripe_payment_intent` endpoint breaks P",
+      "details": null,
+      "cost_usd": 2.05933075,
+      "total_tokens": 15518
     },
     {
       "agent": "passive-income-discovery-scan",
