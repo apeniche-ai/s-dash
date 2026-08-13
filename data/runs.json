@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-13T17:31:21Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-08-13T17:30:00Z",
       "duration_seconds": 79.9,
@@ -4808,16 +4816,6 @@
       "details": null,
       "cost_usd": 0.990779,
       "total_tokens": 5141
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-07-21T02:30:01Z",
-      "duration_seconds": 19.7,
-      "status": "success",
-      "summary": "Nothing to reconcile. Exiting silently.",
-      "details": null,
-      "cost_usd": 0.84000675,
-      "total_tokens": 336
     }
   ]
 }
