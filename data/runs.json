@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T15:01:37Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 411.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4691 [6262] Replace 100-test cap on Custom Tests list with pagination → Changes Requested (JS sends section=all which fails authorize_section_access, causing 404 on Load more / filter",
+      "details": null,
+      "cost_usd": 3.817478,
+      "total_tokens": 22685
     },
     {
       "agent": "passive-income-research-loop",
