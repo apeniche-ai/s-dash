@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T21:04:48Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 591.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4777 [6365] Screens the cardless trial signup for fraud and reCAPTCHA → Approved + Browser QA Skipped (bundle setup broken on branch)",
+      "details": null,
+      "cost_usd": 3.51379225,
+      "total_tokens": 17766
     },
     {
       "agent": "maren-v0-launch-digest",
