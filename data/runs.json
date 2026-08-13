@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T22:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 213.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4779 [6367] Split two GRE Critical Reasoning lessons to match the GMAT course → Approved + Browser QA Skipped (data migration, requires local DB mutation)",
+      "details": null,
+      "cost_usd": 1.77686275,
+      "total_tokens": 11253
     },
     {
       "agent": "pr-reviewer",
