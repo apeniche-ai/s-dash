@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-08-13T17:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-13T17:15:01Z",
       "duration_seconds": 1.0,
@@ -4808,16 +4816,6 @@
       "details": null,
       "cost_usd": 0.84000675,
       "total_tokens": 336
-    },
-    {
-      "agent": "evening-performance-reflection",
-      "timestamp": "2026-07-21T01:05:00Z",
-      "duration_seconds": 155.2,
-      "status": "success",
-      "summary": "Evening reflection sent to coaching channel. Soft-surfaced the \"One Thing at 100%\" self-handicap check-in that Friday teed up for today — Amaury was heavily engaged on career/exec-ed but silent on the",
-      "details": null,
-      "cost_usd": 1.41351725,
-      "total_tokens": 6675
     }
   ]
 }
