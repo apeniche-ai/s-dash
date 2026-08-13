@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T18:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 181.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4768 [6358] Support GRE calculator keyboard operators → Approved + Browser QA Skipped (dev server down)",
+      "details": null,
+      "cost_usd": 1.67628225,
+      "total_tokens": 9815
     },
     {
       "agent": "pr-reviewer",
