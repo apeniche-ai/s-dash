@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T10:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 453.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4665 [TTPAI-66/192/193/228] Chatbot CS Tools + knowledge → Approved + Browser QA Skipped (TTPAI epic-branch feature not testable in local dev without vector KB ingestion + trial state",
+      "details": null,
+      "cost_usd": 4.15757325,
+      "total_tokens": 22173
     },
     {
       "agent": "passive-income-research-loop",
