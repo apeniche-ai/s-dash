@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T11:01:44Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 355.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4337 [5787] Add ttp rapid review screen → Approved + Browser QA Skipped (bundler env broken)",
+      "details": null,
+      "cost_usd": 2.99173775,
+      "total_tokens": 16988
     },
     {
       "agent": "passive-income-research-loop",
