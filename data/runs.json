@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T20:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 234.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4775 [6115] Fix variation resolution to respect the declared winner → Approved + Browser QA Skipped (env — bundler 2.6.9 missing, dev server won't start)",
+      "details": null,
+      "cost_usd": 2.50888625,
+      "total_tokens": 13128
     },
     {
       "agent": "pr-reviewer",
