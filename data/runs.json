@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-08-13T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 94.5,
+      "status": "success",
+      "summary": "Digest sent to pr-reviews. 4 stagnant PRs across TTP (0 in admissions): 3 authored by apeniche (49-85d) and 1 from codefarz (140d). Excluded 5 PRs where the \"Changes Requested\" label was re-added with",
+      "details": null,
+      "cost_usd": 0.96524775,
+      "total_tokens": 4537
     },
     {
       "agent": "pr-reviewer",
