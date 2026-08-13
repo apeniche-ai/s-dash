@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 517.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4684 [6282] Add AI content quality flag across chat, exercise, summary, and flashcard surfaces → Changes Requested (dangling `chat_connection` ref in chat.js:558 breaks error handling",
+      "details": null,
+      "cost_usd": 4.384429500000001,
+      "total_tokens": 28356
     },
     {
       "agent": "pr-reviewer",
