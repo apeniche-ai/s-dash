@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-08-13T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 153.1,
+      "status": "success",
+      "summary": "Scanned 9 sources, 5 OK (HN Show/Ask + Anthropic/OpenAI/Gemini changelogs), 4 blocked (all Reddit — day ~87 perpetual blackout). Zero findings written: 5 raw candidates dropped at filter (OpenAI Daybr",
+      "details": null,
+      "cost_usd": 1.36018125,
+      "total_tokens": 9092
     },
     {
       "agent": "pr-reviewer",
