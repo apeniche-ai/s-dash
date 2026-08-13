@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 382.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4396 [6029][Admin] Add Word document export for topics and chapters → Changes Requested (pandoc merge exit status still ignored — 3rd time flagging) + Browser QA Skipped (dev env bund",
+      "details": null,
+      "cost_usd": 2.7207525,
+      "total_tokens": 18774
     },
     {
       "agent": "admissions-pr-reviewer",
