@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T19:01:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 379.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4775 [6115] Fix variation resolution to respect the declared winner → Changes Requested (CI failing — EA-always-treatment breaks pre-existing /ondemand spec) + Browser QA Skipped (req",
+      "details": null,
+      "cost_usd": 2.74555775,
+      "total_tokens": 25281
     },
     {
       "agent": "passive-income-research-loop",
