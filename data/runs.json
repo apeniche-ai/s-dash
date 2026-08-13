@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T17:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 370.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4691 [6262] Replace 100-test cap on Custom Tests list with pagination → Approved + Browser QA Skipped (dev server toolchain broken)",
+      "details": null,
+      "cost_usd": 2.3056950000000005,
+      "total_tokens": 13498
     },
     {
       "agent": "pr-reviewer",
