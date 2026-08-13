@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T20:31:55Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 293.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4776 [TTPAI-286] Add Maren chatbot server-owned conversation history and a cacheable prompt prefix → Changes Requested (duplicate `add_foreign_key` in schema.rb breaks db:schema:load,",
+      "details": null,
+      "cost_usd": 3.8729617500000004,
+      "total_tokens": 18881
     },
     {
       "agent": "slack-watch",
