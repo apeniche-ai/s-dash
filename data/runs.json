@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T19:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 293.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4774 [6358] Fix GRE calculator clear and operator shortcuts → Approved + Browser QA Skipped (env — bundler 2.6.9 missing, dev server won't start)",
+      "details": null,
+      "cost_usd": 1.9789185000000002,
+      "total_tokens": 14603
     },
     {
       "agent": "admissions-pr-reviewer",
