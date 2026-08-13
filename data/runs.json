@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-08-13T23:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T22:30:01Z",
       "duration_seconds": 50.1,
@@ -4814,16 +4822,6 @@
       "details": null,
       "cost_usd": 2.5639304999999997,
       "total_tokens": 16479
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-21T13:31:44Z",
-      "duration_seconds": 334.0,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4717 [TTPAI-259] Add deterministic question dedup clustering service → Changes Requested (QC/DS payload gap in ai_exercise_bank.rake — quantity_a/quantity_b/statements not forwarded, p",
-      "details": null,
-      "cost_usd": 3.0631500000000003,
-      "total_tokens": 19554
     }
   ]
 }
