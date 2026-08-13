@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T13:31:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 284.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4659 [6263] LiveTeach prorated upgrade for self-study & On Demand users → Changes Requested (partner-org users still get prorated LiveTeach credit — ticket says not eligible) + Browse",
+      "details": null,
+      "cost_usd": 2.2808162499999995,
+      "total_tokens": 16743
     },
     {
       "agent": "slack-watch",
