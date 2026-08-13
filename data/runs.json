@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T15:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 583.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4710 [6300] Add unified self-study variant API for external pages → Approved + Browser QA Skipped (JSON API endpoint, no user-facing UI)",
+      "details": null,
+      "cost_usd": 4.659322749999999,
+      "total_tokens": 35454
     },
     {
       "agent": "admissions-pr-reviewer",
