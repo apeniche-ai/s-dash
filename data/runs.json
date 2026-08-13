@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-13T16:07:13Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 229.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4752 [6115] Splits unified self-study A/B test into separate control/variation-B views → Approved + Browser QA Skipped (backend guard + cosmetic SCSS)",
+      "details": null,
+      "cost_usd": 1.9068004999999997,
+      "total_tokens": 12730
     },
     {
       "agent": "career-market-research-loop",
