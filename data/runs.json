@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-08-14T17:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 338.9,
+      "status": "success",
+      "summary": "alarmed 1 item: 🔴 DM from U0A6HTAGUPM — two unanswered messages (3h+): urgent email forward request before a 10-min meeting (9:20am) then score analyzer product questions 35 min later (9:55am), no re",
+      "details": null,
+      "cost_usd": 0.6255183999999999,
+      "total_tokens": 15782
     },
     {
       "agent": "admissions-pr-reviewer",
