@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-14T13:02:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 298.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4770 [TTPAI-284] Adds rolling session compaction and server-authoritative chat history → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.7732925,
+      "total_tokens": 17999
     },
     {
       "agent": "pr-follow-up-check",
