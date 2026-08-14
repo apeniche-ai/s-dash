@@ -181,10 +181,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-08-14T12:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 74.4,
+      "status": "success",
+      "summary": "Done. Silent exit — todo list empty, no completions since yesterday. Bookkeeping stored for tomorrow's run.",
+      "details": null,
+      "cost_usd": 0.26626945,
+      "total_tokens": 3293
     },
     {
       "agent": "admissions-pr-reviewer",
