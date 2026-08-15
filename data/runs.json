@@ -181,10 +181,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-08-15T21:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 290.3,
+      "status": "success",
+      "summary": "Digest sent to the assistant Telegram channel. Log stored.",
+      "details": null,
+      "cost_usd": 1.97112425,
+      "total_tokens": 19058
     },
     {
       "agent": "passive-income-research-loop",
