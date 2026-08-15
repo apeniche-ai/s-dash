@@ -181,10 +181,12 @@
     {
       "agent": "behavioral-experiments-follow-up",
       "timestamp": "2026-08-15T14:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Behavioral Experiments Follow-Up...",
-      "details": null
+      "duration_seconds": 173.7,
+      "status": "success",
+      "summary": "Held. 8th consecutive Saturday. Three overrides on top of the standing light-mode lock:",
+      "details": null,
+      "cost_usd": 1.059591,
+      "total_tokens": 6648
     },
     {
       "agent": "passive-income-research-loop",
