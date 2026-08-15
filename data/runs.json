@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-15T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 92.4,
+      "status": "success",
+      "summary": "Tick complete. Silent by design — 4th consecutive Fri tick silent.",
+      "details": null,
+      "cost_usd": 1.0203495,
+      "total_tokens": 5729
     },
     {
       "agent": "goal-progress-reconciliation",
