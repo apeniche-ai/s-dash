@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-08-15T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "behavioral-experiments-follow-up",
       "timestamp": "2026-08-15T14:30:00Z",
       "duration_seconds": 173.7,
@@ -4805,16 +4813,6 @@
       "details": null,
       "cost_usd": 1.1411642499999999,
       "total_tokens": 7005
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-22T14:30:02Z",
-      "duration_seconds": 239.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4704 [TTPAI-243] Add batch distractor analysis pre-computation pipeline → Approved + Browser QA Skipped (data-layer only, no user-facing surface)",
-      "details": null,
-      "cost_usd": 2.446845,
-      "total_tokens": 11237
     }
   ]
 }
