@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-08-16T19:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-08-16T16:00:00Z",
       "duration_seconds": 229.3,
@@ -4813,16 +4821,6 @@
       "details": null,
       "cost_usd": 1.1914755000000001,
       "total_tokens": 4958
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-24T13:53:49Z",
-      "duration_seconds": 242.0,
-      "status": "success",
-      "summary": "Reviewed 2 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (CI still failing on lessons_spec.rb:68 — prior fix applied but Capybara can't intercept jQuery-triggered cl",
-      "details": null,
-      "cost_usd": 2.3161455,
-      "total_tokens": 12837
     }
   ]
 }
