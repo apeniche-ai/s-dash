@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-08-16T23:02:25Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-08-16T23:00:00Z",
       "duration_seconds": null,
@@ -4813,16 +4821,6 @@
       "details": null,
       "cost_usd": 1.07221275,
       "total_tokens": 6637
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-24T14:30:01Z",
-      "duration_seconds": 151.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4713 [6258] Add full-screen layout with AI Coach panel for RC, MSR and Table Analysis → Approved + Browser QA Skipped (part of epic #4703 stack; grouped QA runs at epic level)",
-      "details": null,
-      "cost_usd": 1.599319,
-      "total_tokens": 7302
     }
   ]
 }
