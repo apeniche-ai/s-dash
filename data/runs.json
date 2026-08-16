@@ -181,10 +181,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-08-16T21:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 153.6,
+      "status": "success",
+      "summary": "Silent Sunday — no digest sent. Nothing moved since yesterday's Saturday log: same 51-ticket scope, zero merges, zero PR pushes/label changes/reviews across the full weekend. Log stored. Next run Mond",
+      "details": null,
+      "cost_usd": 1.459782,
+      "total_tokens": 11207
     },
     {
       "agent": "passive-income-research-loop",
