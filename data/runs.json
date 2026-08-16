@@ -189,10 +189,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-08-16T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 145.2,
+      "status": "success",
+      "summary": "Digest delivered to the assistant channel. Four themes with hard numbers and sources:",
+      "details": null,
+      "cost_usd": 1.50647475,
+      "total_tokens": 10228
     },
     {
       "agent": "soren-improvement-review",
