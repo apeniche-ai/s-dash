@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "performance-check-in-(mon/wed/fri)",
+      "timestamp": "2026-08-17T11:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Performance Check-in (Mon/Wed/Fri)...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-17T11:30:01Z",
       "duration_seconds": 1.0,
@@ -4817,16 +4825,6 @@
       "details": null,
       "cost_usd": 2.0628107499999997,
       "total_tokens": 11694
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-24T17:35:34Z",
-      "duration_seconds": 217.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4724 [AI Deploy] Sonnet 5 upgrade + AI prompt, KB retrieval, and example-title fixes → Approved + Browser QA Skipped (prompt/model-config deploy)",
-      "details": null,
-      "cost_usd": 2.06782325,
-      "total_tokens": 12379
     }
   ]
 }
