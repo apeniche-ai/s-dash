@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-17T11:01:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 456.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4782 [TTPAI-288] Add exercise bank judging hardening, revision service, and unified AI exercises console → Changes Requested (reject flow requires reason but index button + reject spe",
+      "details": null,
+      "cost_usd": 3.70103775,
+      "total_tokens": 32682
     },
     {
       "agent": "passive-income-research-loop",
