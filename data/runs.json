@@ -181,10 +181,12 @@
     {
       "agent": "weekly-side-income-tracker",
       "timestamp": "2026-08-17T00:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Side-Income Tracker...",
-      "details": null
+      "duration_seconds": 85.3,
+      "status": "success",
+      "summary": "Silent tick logged (ID `01M06J2JKMM0QJ2N73M6GZ7HGB`). No Telegram sent.",
+      "details": null,
+      "cost_usd": 0.8459635000000001,
+      "total_tokens": 4016
     },
     {
       "agent": "passive-income-research-loop",
