@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-17T20:00:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 45 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-17T19:30:02Z",
       "duration_seconds": 1.9,
       "status": "success",
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 1.57758875,
       "total_tokens": 9366
-    },
-    {
-      "agent": "system-health-audit",
-      "timestamp": "2026-07-25T15:01:41Z",
-      "duration_seconds": 400.1,
-      "status": "success",
-      "summary": "As expected — Telegram transport is down for all three calls (soren_notify, both soren_suggestion_notify attempts). This is the same failure that's been occurring since May.",
-      "details": null,
-      "cost_usd": 0.7439805,
-      "total_tokens": 22003
     }
   ]
 }
