@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-17T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 242.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4781 [TTP-6370] Keep the study plan working when lessons are removed from a track → Approved + Browser QA Skipped (bug reproduction requires admin track-editing setup)",
+      "details": null,
+      "cost_usd": 2.7627734999999993,
+      "total_tokens": 12516
     },
     {
       "agent": "passive-income-research-loop",
