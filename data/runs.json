@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-17T11:01:40Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-17T11:00:01Z",
       "duration_seconds": 98.6,
@@ -4819,16 +4827,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-24T17:00:01Z",
-      "duration_seconds": 147.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4727 [TTPAI-194] AI Coach voice guide + shared conversational voice base → Approved + Browser QA Skipped (prompt-config change)",
-      "details": null,
-      "cost_usd": 1.6801642499999998,
-      "total_tokens": 8149
     }
   ]
 }
