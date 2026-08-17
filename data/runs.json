@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-08-17T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "passive-income-state-consolidation",
       "timestamp": "2026-08-17T02:00:00Z",
       "duration_seconds": 258.0,
@@ -4817,16 +4825,6 @@
       "details": null,
       "cost_usd": 1.4252120000000001,
       "total_tokens": 9953
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-24T15:30:01Z",
-      "duration_seconds": 198.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4722 Adds context divider feature and fixes chat session continuity bugs → Approved + Browser QA Skipped (chat-sessions epic branch, multi-lesson AI-chat flow not reliably reproducibl",
-      "details": null,
-      "cost_usd": 1.8409830000000003,
-      "total_tokens": 11845
     }
   ]
 }
