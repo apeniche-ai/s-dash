@@ -181,10 +181,12 @@
     {
       "agent": "performance-check-in-(mon/wed/fri)",
       "timestamp": "2026-08-17T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Performance Check-in (Mon/Wed/Fri)...",
-      "details": null
+      "duration_seconds": 127.4,
+      "status": "success",
+      "summary": "Held. No coaching-channel message sent this morning.",
+      "details": null,
+      "cost_usd": 1.1905465000000002,
+      "total_tokens": 6440
     },
     {
       "agent": "pr-reviewer",
