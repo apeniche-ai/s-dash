@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-17T13:31:36Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 267.3,
+      "status": "success",
+      "summary": "Reviewed 3 PRs: #4776 [TTPAI-286] Maren chatbot server-owned history → Changes Requested + Browser QA Skipped (code blockers make it pointless), #4781 [TTP-6370] Keep study plan working when lessons r",
+      "details": null,
+      "cost_usd": 2.6027922500000007,
+      "total_tokens": 14548
     },
     {
       "agent": "slack-watch",
