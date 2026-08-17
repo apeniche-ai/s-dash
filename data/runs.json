@@ -189,10 +189,12 @@
     {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-08-17T12:03:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly VP Performance Edge...",
-      "details": null
+      "duration_seconds": 268.4,
+      "status": "success",
+      "summary": "Task tools not applicable — this was a linear scripted procedure that's now complete.",
+      "details": null,
+      "cost_usd": 2.295033,
+      "total_tokens": 11530
     },
     {
       "agent": "passive-income-discovery-scan",
