@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-17T18:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-17T17:32:04Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4825,16 +4833,6 @@
       "details": null,
       "cost_usd": 1.48524525,
       "total_tokens": 9480
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-07-25T12:00:01Z",
-      "duration_seconds": 156.3,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 OK: HN Show/Ask by-date, Anthropic + OpenAI + Gemini changelogs; 4 blocked: all Reddit — perpetual blackout day 75). Wrote 0 findings — Anthropic's biggest release day since Sonne",
-      "details": null,
-      "cost_usd": 1.4739385,
-      "total_tokens": 10806
     }
   ]
 }
