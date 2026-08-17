@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-side-income-tracker",
+      "timestamp": "2026-08-17T00:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Side-Income Tracker...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-16T23:02:25Z",
       "duration_seconds": 96.4,
@@ -4815,16 +4823,6 @@
       "details": null,
       "cost_usd": 2.365929,
       "total_tokens": 14629
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-24T15:00:00Z",
-      "duration_seconds": 112.1,
-      "status": "success",
-      "summary": "Tick complete. **SILENT.**",
-      "details": null,
-      "cost_usd": 1.07221275,
-      "total_tokens": 6637
     }
   ]
 }
