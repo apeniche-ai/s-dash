@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-17T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 533.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4776 [TTPAI-286] Add Maren chatbot server-owned conversation history and a cacheable prompt prefix → Changes Requested (orphan user row on failed Claude call breaks next request) + Br",
+      "details": null,
+      "cost_usd": 3.81093775,
+      "total_tokens": 34903
     },
     {
       "agent": "pr-reviewer",
