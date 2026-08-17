@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-17T19:01:57Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 550.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4787 [6115] Revert unified self-study to separate OnDemand plan codes → Changes Requested (CI failing on office-hours specs, directly caused by home_helper switching from full_ondeman",
+      "details": null,
+      "cost_usd": 4.213216750000001,
+      "total_tokens": 33803
     },
     {
       "agent": "passive-income-research-loop",
