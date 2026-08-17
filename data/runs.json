@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-08-17T19:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-17T19:01:57Z",
       "duration_seconds": 550.0,
@@ -4825,16 +4833,6 @@
       "details": null,
       "cost_usd": 1.0820724999999998,
       "total_tokens": 5652
-    },
-    {
-      "agent": "behavioral-experiments-follow-up",
-      "timestamp": "2026-07-25T14:30:00Z",
-      "duration_seconds": 78.8,
-      "status": "success",
-      "summary": "6th consecutive Saturday hold logged. No Telegram send. Mon 7/27 AM check-in on the meetings implementation-intentions exercise is the designed feedback loop landing — that's the next coaching-channel",
-      "details": null,
-      "cost_usd": 1.37086475,
-      "total_tokens": 4093
     }
   ]
 }
