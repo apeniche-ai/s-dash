@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-17T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 148.1,
+      "status": "success",
+      "summary": "Not applicable — this is a single-tick research loop with one linear procedure (load → decide → log). Task tracking would add noise, not signal. Log entry written (ID: 01M06TPYSN4XNVG01K5EQB6207), tic",
+      "details": null,
+      "cost_usd": 1.2240845,
+      "total_tokens": 9013
     },
     {
       "agent": "goal-progress-reconciliation",
