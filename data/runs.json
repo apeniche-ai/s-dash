@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-08-17T19:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-17T18:30:01Z",
       "duration_seconds": null,
@@ -4823,16 +4831,6 @@
       "details": null,
       "cost_usd": 1.37086475,
       "total_tokens": 4093
-    },
-    {
-      "agent": "aschenbrenner-intelligence-loop",
-      "timestamp": "2026-07-25T13:00:00Z",
-      "duration_seconds": 159.0,
-      "status": "success",
-      "summary": "Tick #105 complete. **SILENT.**",
-      "details": null,
-      "cost_usd": 1.48524525,
-      "total_tokens": 9480
     }
   ]
 }
