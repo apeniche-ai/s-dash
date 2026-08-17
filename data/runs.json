@@ -189,10 +189,12 @@
     {
       "agent": "colombia-mintic-transition-watch",
       "timestamp": "2026-08-17T14:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Colombia MinTIC Transition Watch...",
-      "details": null
+      "duration_seconds": 120.2,
+      "status": "success",
+      "summary": "Done. Two material items sent to career channel and logged under `mintic-watch`:",
+      "details": null,
+      "cost_usd": 1.4004244999999997,
+      "total_tokens": 5343
     },
     {
       "agent": "pr-reviewer",
