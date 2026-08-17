@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-08-17T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 258.9,
+      "status": "success",
+      "summary": "Shipped one proposal: **Scout-to-Draft** — turns every scout that spots a real opportunity (MinTIC minister, expert-network apps, founder pings) into a Telegram card with the first email already draft",
+      "details": null,
+      "cost_usd": 1.63862975,
+      "total_tokens": 14575
     },
     {
       "agent": "pr-reviewer",
