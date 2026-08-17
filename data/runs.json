@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-08-17T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-17T22:00:01Z",
       "duration_seconds": 0.8,
@@ -4809,16 +4817,6 @@
       "details": null,
       "cost_usd": 1.1622977499999998,
       "total_tokens": 5891
-    },
-    {
-      "agent": "passive-income-builder-loop",
-      "timestamp": "2026-07-26T11:01:36Z",
-      "duration_seconds": 120.3,
-      "status": "success",
-      "summary": "Tick complete. **SILENT** to Amaury per hard rules.",
-      "details": null,
-      "cost_usd": 1.106044,
-      "total_tokens": 5857
     }
   ]
 }
