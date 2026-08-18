@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-08-18T22:10:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 190.7,
+      "status": "success",
+      "summary": "Done. One nudge sent (Closed Decisions Registry), one cleanup (deferred the exec-ed comparison board since that topic is now permanently closed). No new proposal today — the backlog is saturated and e",
+      "details": null,
+      "cost_usd": 1.2309222499999999,
+      "total_tokens": 10872
     },
     {
       "agent": "pr-reviewer",
