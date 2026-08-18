@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-18T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 363.9,
+      "status": "success",
+      "summary": "Reminder ignored — this workflow is complete and linear; no task tracking needed.",
+      "details": null,
+      "cost_usd": 2.802142,
+      "total_tokens": 23555
     },
     {
       "agent": "admissions-pr-reviewer",
