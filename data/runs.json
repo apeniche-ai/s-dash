@@ -179,6 +179,16 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-18T14:38:52Z",
+      "duration_seconds": 523.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4770 [TTPAI-284] - Adds rolling session compaction and server-authoritative chat history → Changes Requested (`generation_in_progress?` calls `generation_lock_key` with 1 arg after 3-",
+      "details": null,
+      "cost_usd": 3.545465749999999,
+      "total_tokens": 33293
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-18T14:15:01Z",
       "duration_seconds": 0.8,
@@ -4809,14 +4819,6 @@
       "details": null,
       "cost_usd": 0.25580405,
       "total_tokens": 1360
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-07-27T12:15:01Z",
-      "duration_seconds": 0.8,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
