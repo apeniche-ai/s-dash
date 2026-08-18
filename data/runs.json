@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-18T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 244.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4757 [6338] Add GPT-polished score analyzer reports → Approved + Browser QA Skipped (dev DB broken)",
+      "details": null,
+      "cost_usd": 2.173104000000001,
+      "total_tokens": 12944
     },
     {
       "agent": "pr-reviewer",
