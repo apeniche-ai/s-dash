@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-18T16:03:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 414.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4776 [TTPAI-286] Maren chatbot: server-owned conversation history and a cacheable prompt prefix → Changes Requested (CI-red specs + AC5 ephemeral-syntax violation + 3 view-layer regre",
+      "details": null,
+      "cost_usd": 3.3991537499999995,
+      "total_tokens": 26157
     },
     {
       "agent": "career-market-research-loop",
