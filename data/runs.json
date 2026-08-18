@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-18T14:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-18T13:31:27Z",
       "duration_seconds": 195.3,
       "status": "success",
@@ -4807,16 +4815,6 @@
       "status": "success",
       "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "weekly-vp-performance-edge",
-      "timestamp": "2026-07-27T12:02:07Z",
-      "duration_seconds": 207.4,
-      "status": "success",
-      "summary": "Not applicable — this is a single-shot autonomous scheduled run, complete end-to-end. No multi-step tracking needed.",
-      "details": null,
-      "cost_usd": 1.4685519999999999,
-      "total_tokens": 11840
     }
   ]
 }
