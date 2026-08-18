@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-18T17:31:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 269.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4787 [6115] Revert unified self-study to separate OnDemand plan codes → Approved + Browser QA Skipped (A/B-test-gated backend)",
+      "details": null,
+      "cost_usd": 2.9037165000000007,
+      "total_tokens": 15954
     },
     {
       "agent": "slack-watch",
