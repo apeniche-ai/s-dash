@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-08-18T22:10:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-18T22:00:01Z",
       "duration_seconds": 1.0,
@@ -4807,16 +4815,6 @@
       "details": null,
       "cost_usd": 2.6082925000000006,
       "total_tokens": 10351
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-27T19:00:00Z",
-      "duration_seconds": 75.4,
-      "status": "success",
-      "summary": "Tick complete. **SILENT** — Mon Jul 27 14:00, US mid-day (~1h to close), no intraday ETF flag, ledger frozen 8d, channel quiet ~72d, competing lanes (career/coaching/CEO Q) already busy. Log only. Nex",
-      "details": null,
-      "cost_usd": 1.275182,
-      "total_tokens": 5037
     }
   ]
 }
