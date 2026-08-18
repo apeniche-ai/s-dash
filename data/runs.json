@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-18T18:00:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-18T17:31:23Z",
       "duration_seconds": 269.8,
       "status": "success",
@@ -4813,16 +4821,6 @@
       "details": null,
       "cost_usd": 1.0578417500000001,
       "total_tokens": 6368
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-27T14:30:01Z",
-      "duration_seconds": 407.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4730 [TTPAI-256] Lazy judge-on-pull for exercise bank → Changes Requested (content digest joins fields with empty separator, allowing collisions that defeat the mid-flight change guar",
-      "details": null,
-      "cost_usd": 3.5336614999999996,
-      "total_tokens": 24117
     }
   ]
 }
