@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-18T16:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 201.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4778 [6366] Keeps one failed send from stopping Scott's personal mailer batches → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.1651525,
+      "total_tokens": 11386
     },
     {
       "agent": "admissions-pr-reviewer",
