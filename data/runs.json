@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-18T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 261.2,
+      "status": "success",
+      "summary": "Ignoring — single linear review, no task tracking needed. Telegram delivery failed (fetch error) but the review itself completed: approved and labeled on GitHub.",
+      "details": null,
+      "cost_usd": 2.0641772499999997,
+      "total_tokens": 18212
     },
     {
       "agent": "admissions-pr-reviewer",
