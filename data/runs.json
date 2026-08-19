@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-08-19T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-19T12:30:35Z",
       "duration_seconds": 318.9,
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 1.01061475,
       "total_tokens": 5330
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-07-28T02:30:01Z",
-      "duration_seconds": 16.3,
-      "status": "success",
-      "summary": "Nothing to reconcile. Exiting silently.",
-      "details": null,
-      "cost_usd": 0.71392225,
-      "total_tokens": 331
     }
   ]
 }
