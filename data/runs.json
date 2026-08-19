@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-19T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 496.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4587 [6198][6197][6351] Add Lesson Summary Screen Multi-State Design Implementation → Approved + Browser QA Skipped (stacked-epic base branch, delta-only re-review)",
+      "details": null,
+      "cost_usd": 2.63457075,
+      "total_tokens": 19180
     },
     {
       "agent": "pr-reviewer",
