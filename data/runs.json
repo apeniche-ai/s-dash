@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-19T11:32:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 554.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4738 [6292] Add tabbed personalized-example generation with unified ExerciseService entry point → Approved + Browser QA Skipped (local Gemfile gems not installed)",
+      "details": null,
+      "cost_usd": 6.288060000000001,
+      "total_tokens": 31524
     },
     {
       "agent": "performance-check-in-(mon/wed/fri)",
