@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-19T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 499.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4782 [TTPAI-288] Add exercise bank judging hardening, revision service, and unified AI exercises console → Approved + Browser QA Skipped (admin-console-only)",
+      "details": null,
+      "cost_usd": 3.854022,
+      "total_tokens": 21956
     },
     {
       "agent": "pr-reviewer",
