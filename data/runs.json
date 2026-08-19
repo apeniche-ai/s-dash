@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-19T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 118.6,
+      "status": "success",
+      "summary": "Not applicable — this is a scheduled single-focused tick with linear procedure (load state → decide → log). Task tracking would add overhead without benefit.",
+      "details": null,
+      "cost_usd": 1.2301995,
+      "total_tokens": 8026
     },
     {
       "agent": "pr-reviewer",
