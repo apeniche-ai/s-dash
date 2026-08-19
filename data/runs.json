@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-19T13:01:37Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-08-19T13:00:00Z",
       "duration_seconds": 96.2,
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 3.713549499999999,
       "total_tokens": 26626
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-07-28T03:00:01Z",
-      "duration_seconds": 88.4,
-      "status": "success",
-      "summary": "Tick complete. **SILENT** — Mon Jul 27 22:00 end-of-day. Ledger unchanged 8d, channel quiet ~72d, no close-print ETF flag, no scout candidate, coaching reflection just delivered (wind-down window). Mo",
-      "details": null,
-      "cost_usd": 1.01061475,
-      "total_tokens": 5330
     }
   ]
 }
