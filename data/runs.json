@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-19T18:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-19T17:31:35Z",
       "duration_seconds": 484.1,
       "status": "success",
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 1.4438442499999997,
       "total_tokens": 6869
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-28T13:31:36Z",
-      "duration_seconds": 149.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4736 [6331] Fix duplicate exercise_block request causing feedback load error → Approved + Browser QA Skipped (frontend JS on epic branch)",
-      "details": null,
-      "cost_usd": 1.5363584999999997,
-      "total_tokens": 8493
     }
   ]
 }
