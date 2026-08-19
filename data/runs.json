@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-19T13:32:14Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 331.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 Maren Chatbot Redesign + Trial flows → Approved + Browser QA Skipped (stacked-epic base branch, delta-only re-review)",
+      "details": null,
+      "cost_usd": 2.4828360000000003,
+      "total_tokens": 15968
     },
     {
       "agent": "slack-watch",
