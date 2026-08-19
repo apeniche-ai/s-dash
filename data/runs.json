@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-19T17:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-19T16:30:01Z",
       "duration_seconds": 337.8,
       "status": "success",
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 2.1313370000000003,
       "total_tokens": 11619
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-07-28T13:02:56Z",
-      "duration_seconds": 101.5,
-      "status": "success",
-      "summary": "Telegram transport failed (`fetch failed`) — same outage that hit yesterday's run and multiple other agents (coaching-digest, performance-coach, health-auditor). Per fail-fast rule, not retrying.",
-      "details": null,
-      "cost_usd": 1.0028195,
-      "total_tokens": 4746
     }
   ]
 }
