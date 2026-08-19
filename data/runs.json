@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-19T19:01:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 192.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4752 [6115] Splits unified self-study A/B test into separate control/variation-B views → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.2714004999999995,
+      "total_tokens": 11003
     },
     {
       "agent": "passive-income-research-loop",
