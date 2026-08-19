@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-19T20:31:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 369.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4790 [TTPAI-195/205] Correct the source and scope of batch-generated lesson summaries → Approved + Browser QA Skipped (background pipeline change on epic branch, unit-tested)",
+      "details": null,
+      "cost_usd": 3.51430975,
+      "total_tokens": 22145
     },
     {
       "agent": "slack-watch",
