@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-19T15:02:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 194.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4770 [TTPAI-284] Adds rolling session compaction and server-authoritative chat history → Approved + Browser QA Skipped (stacked-epic base)",
+      "details": null,
+      "cost_usd": 2.10762775,
+      "total_tokens": 10889
     },
     {
       "agent": "passive-income-research-loop",
