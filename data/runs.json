@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-19T17:31:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 484.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (not mergeable + 5 test suites failing; lint checks fail due to reviewdog hitting GitHub's 300-file diff cap",
+      "details": null,
+      "cost_usd": 3.4136947500000003,
+      "total_tokens": 23531
     },
     {
       "agent": "slack-watch",
