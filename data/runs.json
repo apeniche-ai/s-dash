@@ -181,10 +181,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-08-20T16:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 271.0,
+      "status": "success",
+      "summary": "Silent tick logged. Job market pulse (7d rotation gap, longest stale). Scanned 6 boards + LinkedIn — zero new alert-tier fits. AIOS (Aug 13) remains the singular live alert. Jack & Jill VP/CTO $300-50",
+      "details": null,
+      "cost_usd": 1.9675020000000003,
+      "total_tokens": 12240
     },
     {
       "agent": "pr-reviewer",
