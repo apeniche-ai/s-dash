@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-20T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 290.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4587 [6198] [6197][6351] Add Lesson Summary Screen Multi-State Design Implementation → Approved + Browser QA Skipped (setup requires very specific user state; under active human QA)",
+      "details": null,
+      "cost_usd": 2.8148020000000002,
+      "total_tokens": 17022
     },
     {
       "agent": "passive-income-research-loop",
