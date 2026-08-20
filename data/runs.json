@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-20T14:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-20T14:15:01Z",
       "duration_seconds": 0.8,
@@ -4824,16 +4832,6 @@
       "details": null,
       "cost_usd": 0.296599,
       "total_tokens": 3427
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-08-03T23:00:01Z",
-      "duration_seconds": 106.8,
-      "status": "success",
-      "summary": "Tick complete. Silent — no ETF event, no scout candidate, ledger unchanged 15d, state 7.8d fresh (under 10d gate), channel quiet ~79d. Goal-tracker's P8-stalled flag observed this morning but delibera",
-      "details": null,
-      "cost_usd": 1.117186,
-      "total_tokens": 6503
     }
   ]
 }
