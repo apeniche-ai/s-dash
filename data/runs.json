@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-08-20T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 156.8,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK: HN Show HN + HN Ask HN + Anthropic + OpenAI + Gemini; 4 blocked: Reddit day ~95 blackout). Wrote 0 findings — 10 raw candidates dropped at filter. Notable: Anthropic shipped 6",
+      "details": null,
+      "cost_usd": 1.3664352499999999,
+      "total_tokens": 10662
     },
     {
       "agent": "pr-reviewer",
