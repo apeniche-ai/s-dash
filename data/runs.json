@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-20T12:02:38Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 142.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4793 [TTPAI-291] Wire prose rules and structural solution check into generation → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.5802772500000002,
+      "total_tokens": 8378
     },
     {
       "agent": "passive-income-discovery-scan",
