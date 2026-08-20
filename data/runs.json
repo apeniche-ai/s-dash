@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-20T21:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 200.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4507 [6115] Unify Self-Study and On-Demand A/B test → Approved + Browser QA Skipped (delta is unrelated master-merges, no user-facing change)",
+      "details": null,
+      "cost_usd": 1.9156277499999999,
+      "total_tokens": 11480
     },
     {
       "agent": "admissions-pr-reviewer",
