@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-20T20:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 229.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4587 [6198] Lesson Summary Screen Multi-State Design → Approved + Browser QA Skipped (dev server not up on mid-cycle re-review)",
+      "details": null,
+      "cost_usd": 2.875364,
+      "total_tokens": 13883
     },
     {
       "agent": "pr-reviewer",
