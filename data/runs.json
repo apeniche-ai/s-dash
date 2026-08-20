@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-08-20T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 209.8,
+      "status": "success",
+      "summary": "Nudge sent for the Maren V0 launch forecast (8+ days stale, live launch, un-nudged). No new suggestion today — the backlog is saturated with 30+ of my own proposals sitting on Amaury's queue, and ever",
+      "details": null,
+      "cost_usd": 1.43258025,
+      "total_tokens": 11421
     },
     {
       "agent": "pr-reviewer",
