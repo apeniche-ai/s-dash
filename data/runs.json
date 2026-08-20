@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-20T22:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 238.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4507 [6115] Unify Self-Study and On-Demand A/B test → Approved + Browser QA Skipped (delta is already-reviewed sibling PR #4752 merge + master merges, no new authored work)",
+      "details": null,
+      "cost_usd": 2.4739545,
+      "total_tokens": 13446
     },
     {
       "agent": "pr-reviewer",
