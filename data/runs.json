@@ -179,6 +179,16 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-08-20T03:02:01Z",
+      "duration_seconds": 105.3,
+      "status": "success",
+      "summary": "Tick complete. Silent — no Telegram sent.",
+      "details": null,
+      "cost_usd": 1.0840315,
+      "total_tokens": 6893
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-08-20T02:30:36Z",
       "duration_seconds": 17.0,
@@ -4830,16 +4840,6 @@
       "details": null,
       "cost_usd": 1.3603452500000002,
       "total_tokens": 8480
-    },
-    {
-      "agent": "passive-income-builder-loop",
-      "timestamp": "2026-08-03T20:13:14Z",
-      "duration_seconds": 213.3,
-      "status": "success",
-      "summary": "Silent tick complete. Day 79 post-launch. Site still NXDOMAIN, repo untouched 44d, passive-income channel silent 79d. All 4 external triggers fail — scope remains BLOCKED-INDEFINITE. Log written, no n",
-      "details": null,
-      "cost_usd": 1.47126,
-      "total_tokens": 7718
     }
   ]
 }
