@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-20T23:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 122.2,
+      "status": "success",
+      "summary": "Tick complete. Silent — no Telegram notification. Log 01M0GPHSKB96KSVFBMMBRKW8WA written. No ledger transitions, no state update (state ~93h fresh, under 10d gate), no sub-agent dispatch (no trigger, ",
+      "details": null,
+      "cost_usd": 1.2648077500000001,
+      "total_tokens": 8259
     },
     {
       "agent": "pr-reviewer",
