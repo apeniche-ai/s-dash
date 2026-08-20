@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-08-20T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-20T12:15:01Z",
       "duration_seconds": 0.8,
@@ -4828,16 +4836,6 @@
       "details": null,
       "cost_usd": 0.8390025,
       "total_tokens": 2042
-    },
-    {
-      "agent": "weekly-team-shipping-report",
-      "timestamp": "2026-08-03T20:35:23Z",
-      "duration_seconds": 219.5,
-      "status": "success",
-      "summary": "Both messages delivered to the team-intel channel.",
-      "details": null,
-      "cost_usd": 1.4205167499999998,
-      "total_tokens": 13317
     }
   ]
 }
