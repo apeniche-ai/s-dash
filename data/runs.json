@@ -179,6 +179,16 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-08-20T02:30:36Z",
+      "duration_seconds": 17.0,
+      "status": "success",
+      "summary": "Nothing to reconcile. Exiting silently.",
+      "details": null,
+      "cost_usd": 0.7225162500000001,
+      "total_tokens": 323
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-08-19T23:30:00Z",
       "duration_seconds": 83.1,
@@ -4830,16 +4840,6 @@
       "details": null,
       "cost_usd": 1.47126,
       "total_tokens": 7718
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-07-31T15:20:42Z",
-      "duration_seconds": 331.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Approved + Browser QA Skipped (epic-to-epic merge to `epic/ttpai-onboarding`, not master)",
-      "details": null,
-      "cost_usd": 2.6638740000000003,
-      "total_tokens": 13171
     }
   ]
 }
