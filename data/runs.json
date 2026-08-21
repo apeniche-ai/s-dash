@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-08-21T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 98.3,
+      "status": "success",
+      "summary": "Digest sent to pr-reviews. 9 stagnant PRs in TTP, 0 in admissions. Five are Amaury's own (4673, 4659, 4589, 4565 — plus 4424/4396/3569 on team members codefarz, akshay2408, alkeshrails; 4640 on mxrgxr",
+      "details": null,
+      "cost_usd": 1.75821775,
+      "total_tokens": 4497
     },
     {
       "agent": "pr-reviewer",
