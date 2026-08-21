@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-21T13:31:12Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 416.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4782 [TTPAI-288] Add exercise bank judging hardening, revision service, and unified AI exercises console → Approved + Browser QA Skipped (admin backend, no user-facing surface)",
+      "details": null,
+      "cost_usd": 3.621452500000001,
+      "total_tokens": 26852
     },
     {
       "agent": "slack-watch",
