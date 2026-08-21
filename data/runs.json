@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-21T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 114.1,
+      "status": "success",
+      "summary": "Tick complete. Silent — no Telegram notification. Log 01M0H490S9303ZGJMESXAB0BQ7 written. No ledger transitions, no state update (state ~97h fresh, under 10d gate), no sub-agent dispatch (no trigger; ",
+      "details": null,
+      "cost_usd": 1.10694025,
+      "total_tokens": 7432
     },
     {
       "agent": "goal-progress-reconciliation",
