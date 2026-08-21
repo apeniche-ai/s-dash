@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-21T16:02:43Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 193.1,
+      "status": "success",
+      "summary": "Label re-applied. No fresh review needed — the PR's current HEAD (`253ae58da1`) is the exact commit I already approved on Aug 19. The label was simply missing. Skipping Telegram since this was a state",
+      "details": null,
+      "cost_usd": 2.0311375000000003,
+      "total_tokens": 11724
     },
     {
       "agent": "career-market-research-loop",
