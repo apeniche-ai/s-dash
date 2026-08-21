@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-21T22:00:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 41 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-21T21:30:02Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4812,16 +4820,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-08-05T22:10:01Z",
-      "duration_seconds": 183.1,
-      "status": "success",
-      "summary": "Telegram transport failed (expected — ongoing issue the health-auditor tracks). Suggestion is created and persisted; Amaury will see it in the pipeline.",
-      "details": null,
-      "cost_usd": 1.3219632500000003,
-      "total_tokens": 8296
     }
   ]
 }
