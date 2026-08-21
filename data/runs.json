@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-21T11:01:49Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 295.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4776 [TTPAI-286] Add Maren chatbot server-owned conversation history and a cacheable prompt prefix → Approved + Browser QA Skipped (TTPAI backend cost/history change, UI surface perip",
+      "details": null,
+      "cost_usd": 2.8394452500000003,
+      "total_tokens": 18412
     },
     {
       "agent": "passive-income-research-loop",
