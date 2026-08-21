@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-21T13:01:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 305.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4587 [6198] [6197][6351] Add Lesson Summary Screen Multi-State Design Implementation → Approved + Browser QA Skipped (base-branch merge only, no PR-scope code change)",
+      "details": null,
+      "cost_usd": 2.1431009999999997,
+      "total_tokens": 14661
     },
     {
       "agent": "pr-follow-up-check",
