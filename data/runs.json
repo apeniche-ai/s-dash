@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-21T17:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 232.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4790 [TTPAI-195/205] Correct the source and scope of batch-generated lesson summaries → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.31516475,
+      "total_tokens": 14040
     },
     {
       "agent": "pr-reviewer",
