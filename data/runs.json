@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-08-22T03:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-08-22T02:30:00Z",
       "duration_seconds": 12.0,
@@ -4810,16 +4818,6 @@
       "details": null,
       "cost_usd": 2.652147,
       "total_tokens": 14210
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-06T10:00:05Z",
-      "duration_seconds": 237.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4751 [TTPAI-277] Add human adjudication review queue and Tier 1 to Tier 2 curated promotion → Approved + Browser QA Skipped (TTPAI epic-branch stack, base not master, per-PR QA deferr",
-      "details": null,
-      "cost_usd": 2.3836764999999995,
-      "total_tokens": 12641
     }
   ]
 }
