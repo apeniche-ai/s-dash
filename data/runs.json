@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "passive-income-research-loop",
+      "timestamp": "2026-08-22T11:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
+      "agent": "passive-income-research-loop",
       "timestamp": "2026-08-22T03:00:00Z",
       "duration_seconds": 125.2,
       "status": "success",
@@ -4810,16 +4818,6 @@
       "details": null,
       "cost_usd": 1.309399,
       "total_tokens": 6408
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-06T10:30:01Z",
-      "duration_seconds": 262.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4752 [6115] Splits unified self-study A/B test into separate control/variation-B views → Approved + Browser QA Skipped (stacked feature branch, base not master)",
-      "details": null,
-      "cost_usd": 2.652147,
-      "total_tokens": 14210
     }
   ]
 }
