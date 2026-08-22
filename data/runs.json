@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-08-22T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 69.8,
+      "status": "success",
+      "summary": "Reviewing the backlog and current context before deciding whether to propose.",
+      "details": null,
+      "cost_usd": 0.8058755000000002,
+      "total_tokens": 3886
     },
     {
       "agent": "maren-v0-launch-digest",
