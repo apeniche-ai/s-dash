@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-22T19:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 147.1,
+      "status": "success",
+      "summary": "Not applicable — this is a single-tick research loop, not multi-step task work. Tick is complete: SILENT, log written (ID `01M0NDMDK24EKFQ4W90M9B7ATV`), no ledger/state/notify.",
+      "details": null,
+      "cost_usd": 1.2587195,
+      "total_tokens": 8895
     },
     {
       "agent": "career-market-research-loop",
