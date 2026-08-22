@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-08-22T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-08-21T23:30:01Z",
       "duration_seconds": 81.4,
@@ -4810,16 +4818,6 @@
       "details": null,
       "cost_usd": 2.3836764999999995,
       "total_tokens": 12641
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-08-06T03:00:00Z",
-      "duration_seconds": 120.3,
-      "status": "success",
-      "summary": "Silent tick. Wed Aug 5 22:00 gate-crossover completed as planned — state singleton refreshed via soren_memory_correct (new ID 01KZAG8YSQ6FN6R7EG5P3X2Q10, discipline-write, ledger snapshot unchanged). ",
-      "details": null,
-      "cost_usd": 1.1360167499999998,
-      "total_tokens": 7648
     }
   ]
 }
