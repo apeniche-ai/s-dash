@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-22T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 133.2,
+      "status": "success",
+      "summary": "Silent tick logged. Sat opens with same posture as Fri closed: no PI signal, coaching-lane hard-block active (Aug 21 renovation-freeze voice note still being held), markets closed weekend, scout hasn'",
+      "details": null,
+      "cost_usd": 1.1823635000000001,
+      "total_tokens": 8374
     },
     {
       "agent": "passive-income-research-loop",
