@@ -181,10 +181,12 @@
     {
       "agent": "system-health-audit",
       "timestamp": "2026-08-22T15:02:38Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running System Health Audit...",
-      "details": null
+      "duration_seconds": 326.1,
+      "status": "success",
+      "summary": "Audit complete. Here's the summary:",
+      "details": null,
+      "cost_usd": 0.7405201499999999,
+      "total_tokens": 16129
     },
     {
       "agent": "passive-income-research-loop",
