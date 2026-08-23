@@ -189,10 +189,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-08-23T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 143.0,
+      "status": "success",
+      "summary": "Digest delivered to the assistant channel. Summary:",
+      "details": null,
+      "cost_usd": 1.5252912500000002,
+      "total_tokens": 9974
     },
     {
       "agent": "soren-improvement-review",
