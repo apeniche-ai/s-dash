@@ -181,10 +181,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-08-23T21:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 146.9,
+      "status": "success",
+      "summary": "Done. Silent Sunday — no digest sent, log stored for Monday's diff.",
+      "details": null,
+      "cost_usd": 1.4384229999999998,
+      "total_tokens": 8094
     },
     {
       "agent": "passive-income-research-loop",
