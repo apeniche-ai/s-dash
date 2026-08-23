@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-08-23T21:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-23T19:00:00Z",
       "duration_seconds": 196.0,
@@ -4826,16 +4834,6 @@
       "details": null,
       "cost_usd": 1.3845785,
       "total_tokens": 5690
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-06T14:30:01Z",
-      "duration_seconds": 176.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4752 [6115] Splits unified self-study A/B test into separate control/variation-B views → Approved + Browser QA Skipped (A/B-test-stacked, deferred to epic QA)",
-      "details": null,
-      "cost_usd": 1.6249097500000003,
-      "total_tokens": 8336
     }
   ]
 }
