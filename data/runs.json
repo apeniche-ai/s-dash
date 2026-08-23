@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-08-23T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 77.6,
+      "status": "success",
+      "summary": "Exiting silently. The backlog has 40+ proposed items with 14 already nudged and no movement for weeks — Amaury is in a house-renovation freeze phase, coaching-lane has right-of-way, and adding a 41st ",
+      "details": null,
+      "cost_usd": 0.918248,
+      "total_tokens": 3543
     },
     {
       "agent": "maren-v0-launch-digest",
