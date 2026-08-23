@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-08-23T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-08-23T21:00:00Z",
       "duration_seconds": 146.9,
@@ -4826,16 +4834,6 @@
       "details": null,
       "cost_usd": 2.5507472499999997,
       "total_tokens": 14480
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-08-06T15:00:00Z",
-      "duration_seconds": 108.5,
-      "status": "success",
-      "summary": "Silent tick. State fresh (~12h), ledger unchanged 18d, Thu scout filed 0 candidates, PI channel quiet ~81d, no market trigger, coaching-lane discipline (Aug 5 exec-ed hard-close) applies here — do not",
-      "details": null,
-      "cost_usd": 1.3845785,
-      "total_tokens": 5690
     }
   ]
 }
