@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-23T23:02:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 171.0,
+      "status": "success",
+      "summary": "Not applicable — this is a linear scheduled research tick with no multi-step task tracking needed. Log-tier memory is the tracking mechanism per system prompt STEP 4. Tick complete.",
+      "details": null,
+      "cost_usd": 1.35045725,
+      "total_tokens": 10743
     },
     {
       "agent": "career-market-weekly-digest",
