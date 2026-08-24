@@ -181,10 +181,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-08-24T02:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 12.7,
+      "status": "success",
+      "summary": "Nothing to reconcile. Exiting silently.",
+      "details": null,
+      "cost_usd": 0.56899575,
+      "total_tokens": 254
     },
     {
       "agent": "passive-income-state-consolidation",
