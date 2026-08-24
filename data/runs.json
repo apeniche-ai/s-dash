@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-24T21:04:27Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-08-24T21:00:00Z",
       "duration_seconds": 266.1,
@@ -4825,14 +4833,6 @@
       "details": null,
       "cost_usd": 1.9413795,
       "total_tokens": 13084
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-08-12T18:15:01Z",
-      "duration_seconds": 0.8,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
