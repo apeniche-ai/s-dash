@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-24T20:31:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 223.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Changes Requested (CI failing + multiple unresolved blocking items) + Browser QA Skipped (multi-su",
+      "details": null,
+      "cost_usd": 2.11061,
+      "total_tokens": 13456
     },
     {
       "agent": "slack-watch",
