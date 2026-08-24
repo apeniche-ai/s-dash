@@ -181,10 +181,12 @@
     {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-08-24T12:02:17Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly VP Performance Edge...",
-      "details": null
+      "duration_seconds": 157.7,
+      "status": "success",
+      "summary": "Shipped Tip #13 — \"Kill the Backlog Ghosts\" — to the career channel, and stored in memory as `01M0STHAVEDJ0NH5C2PR6718TF` for future dedup.",
+      "details": null,
+      "cost_usd": 1.3856935000000001,
+      "total_tokens": 8411
     },
     {
       "agent": "passive-income-discovery-scan",
