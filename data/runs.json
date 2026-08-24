@@ -181,10 +181,12 @@
     {
       "agent": "performance-check-in-(mon/wed/fri)",
       "timestamp": "2026-08-24T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Performance Check-in (Mon/Wed/Fri)...",
-      "details": null
+      "duration_seconds": 117.2,
+      "status": "success",
+      "summary": "Task tools aren't applicable here — this was a single held check-in decision (no multi-step work to track).",
+      "details": null,
+      "cost_usd": 1.21690875,
+      "total_tokens": 6378
     },
     {
       "agent": "admissions-pr-reviewer",
