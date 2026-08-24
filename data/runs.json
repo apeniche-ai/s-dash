@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-24T12:04:55Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 235.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4776 [TTPAI-286] Add Maren chatbot server-owned conversation history and a cacheable prompt prefix → Approved + Browser QA Skipped (chatbot needs live Anthropic creds + multi-turn sta",
+      "details": null,
+      "cost_usd": 2.3028412499999997,
+      "total_tokens": 13746
     },
     {
       "agent": "weekly-vp-performance-edge",
