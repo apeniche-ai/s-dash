@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-24T14:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-24T14:15:02Z",
       "duration_seconds": 0.9,
@@ -4844,16 +4852,6 @@
       "details": null,
       "cost_usd": 1.6308809999999998,
       "total_tokens": 3918
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-08-12T14:55:04Z",
-      "duration_seconds": 243.6,
-      "status": "success",
-      "summary": "Now I have full context. Let me classify everything found.",
-      "details": null,
-      "cost_usd": 0.4916214,
-      "total_tokens": 9923
     }
   ]
 }
