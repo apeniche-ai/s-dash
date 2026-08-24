@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-08-24T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 136.6,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK: HN Show HN + HN Ask HN + Anthropic + OpenAI + Gemini changelogs; 4 blocked: Reddit day ~100 blackout). Wrote 0 findings — 10 raw candidates dropped at filter. Notable: Nameche",
+      "details": null,
+      "cost_usd": 1.5394217500000003,
+      "total_tokens": 9543
     },
     {
       "agent": "pr-reviewer",
