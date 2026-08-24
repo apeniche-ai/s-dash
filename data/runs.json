@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-24T20:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 436.0,
+      "status": "success",
+      "summary": "Telegram notification failed with 504 Gateway Timeout — per fail-fast rule I won't retry. The review itself (APPROVE + label) succeeded on GitHub.",
+      "details": null,
+      "cost_usd": 2.8732455,
+      "total_tokens": 18739
     },
     {
       "agent": "pr-reviewer",
