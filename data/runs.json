@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-24T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 174.5,
+      "status": "success",
+      "summary": "Tick #38 complete. Silent — no Telegram sent.",
+      "details": null,
+      "cost_usd": 1.4254282500000002,
+      "total_tokens": 10101
     },
     {
       "agent": "pr-reviewer",
