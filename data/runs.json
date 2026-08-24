@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-24T22:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 285.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4776 [TTPAI-286] Add Maren chatbot server-owned conversation history and a cacheable prompt prefix → Approved + Browser QA Skipped (chatbot needs live LLM API)",
+      "details": null,
+      "cost_usd": 2.5805295,
+      "total_tokens": 17066
     },
     {
       "agent": "admissions-pr-reviewer",
