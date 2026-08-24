@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-24T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 181.9,
+      "status": "success",
+      "summary": "Not applicable — this is a linear scheduled research tick with no multi-step task tracking needed. Log-tier memory is the tracking mechanism per system prompt STEP 4. Tick complete.",
+      "details": null,
+      "cost_usd": 1.412177,
+      "total_tokens": 9773
     },
     {
       "agent": "goal-progress-reconciliation",
