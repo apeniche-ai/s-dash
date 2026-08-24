@@ -181,10 +181,12 @@
     {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-08-24T12:45:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Team Shipping Report...",
-      "details": null
+      "duration_seconds": 250.7,
+      "status": "success",
+      "summary": "Done. Summary of this week's report:",
+      "details": null,
+      "cost_usd": 1.56886725,
+      "total_tokens": 19438
     },
     {
       "agent": "pr-reviewer",
