@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-08-24T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 90.7,
+      "status": "success",
+      "summary": "Exiting silently. Same conditions as yesterday, worsened: 40+ proposed items with 14+ already nudged, no movement for weeks, and today alone Amaury received 15+ Soren surfaces across channels (health ",
+      "details": null,
+      "cost_usd": 1.213692,
+      "total_tokens": 4220
     },
     {
       "agent": "pr-reviewer",
