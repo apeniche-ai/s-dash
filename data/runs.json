@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-24T22:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 145.4,
+      "status": "success",
+      "summary": "No batched reviews. Since this was a label backfill (my apeniche-ai identity already approved #4507 at 19:33 UTC on the current commit), sending a duplicate Telegram would spam Amaury. Skipping the no",
+      "details": null,
+      "cost_usd": 1.3343145,
+      "total_tokens": 7869
     },
     {
       "agent": "pr-reviewer",
