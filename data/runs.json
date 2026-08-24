@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-24T13:01:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 225.2,
+      "status": "success",
+      "summary": "Not applicable — this was a single scripted PR review with no multi-step task tracking needed.",
+      "details": null,
+      "cost_usd": 2.1046210000000003,
+      "total_tokens": 14194
     },
     {
       "agent": "pr-follow-up-check",
