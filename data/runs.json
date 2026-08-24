@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-24T21:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 515.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (CI red — ~60 spec failures + HAML-Lint + Rubocop; biggest cluster is `Ai::SubsectionPolicy.capable?` in 14 ",
+      "details": null,
+      "cost_usd": 3.762444,
+      "total_tokens": 21996
     },
     {
       "agent": "admissions-pr-reviewer",
