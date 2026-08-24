@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-24T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 322.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4798 [TTPAI-292] Add variant sameness, vocabulary grounding, and three blank Text Completion → Changes Requested (CI-breaking spec NameError + deterministic alphabetical vocab limit +",
+      "details": null,
+      "cost_usd": 3.2288272499999993,
+      "total_tokens": 19827
     },
     {
       "agent": "passive-income-research-loop",
