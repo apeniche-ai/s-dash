@@ -181,10 +181,12 @@
     {
       "agent": "weekly-side-income-tracker",
       "timestamp": "2026-08-24T00:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Side-Income Tracker...",
-      "details": null
+      "duration_seconds": 94.5,
+      "status": "success",
+      "summary": "Task tools aren't applicable here — this was a single scripted weekly tick (load state, decide, log), not a multi-step task worth tracking.",
+      "details": null,
+      "cost_usd": 0.9327637499999999,
+      "total_tokens": 3498
     },
     {
       "agent": "passive-income-research-loop",
