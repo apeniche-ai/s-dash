@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-side-income-tracker",
+      "timestamp": "2026-08-24T00:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Side-Income Tracker...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-23T23:02:23Z",
       "duration_seconds": 171.0,
@@ -4828,16 +4836,6 @@
       "details": null,
       "cost_usd": 1.9309817500000004,
       "total_tokens": 16213
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-06T15:30:01Z",
-      "duration_seconds": 298.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4755 [6355] Match the reviewer's prose style and fix the weekly-hours misreading → Changes Requested (Section 4 accuracy-figure rule conflicts with unchanged bullet at line 363, under",
-      "details": null,
-      "cost_usd": 2.19508275,
-      "total_tokens": 16007
     }
   ]
 }
