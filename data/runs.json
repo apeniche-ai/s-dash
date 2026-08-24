@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-24T11:31:59Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 263.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4770 [TTPAI-284] Adds rolling session compaction and server-authoritative chat history → Changes Requested (4 unresolved mxrgxr comments verified at HEAD + failing CI on tangential ex",
+      "details": null,
+      "cost_usd": 2.4570505000000002,
+      "total_tokens": 15758
     },
     {
       "agent": "performance-check-in-(mon/wed/fri)",
