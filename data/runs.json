@@ -181,10 +181,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-08-25T21:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 445.7,
+      "status": "success",
+      "summary": "Log stored. Summary:",
+      "details": null,
+      "cost_usd": 2.730436,
+      "total_tokens": 23464
     },
     {
       "agent": "pr-reviewer",
