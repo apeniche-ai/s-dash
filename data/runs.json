@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-25T13:02:32Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 349.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4793 [TTPAI-291] Wire prose rules and structural solution check into generation → Changes Requested (CI red on every RSpec shard — CrExerciseBankGenerator/RcExerciseBankGenerator stil",
+      "details": null,
+      "cost_usd": 3.054839500000001,
+      "total_tokens": 18588
     },
     {
       "agent": "pr-follow-up-check",
