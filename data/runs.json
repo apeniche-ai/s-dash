@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-25T20:31:06Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 43 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-08-25T20:30:00Z",
       "duration_seconds": 65.2,
@@ -4804,16 +4812,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-13T18:00:01Z",
-      "duration_seconds": 181.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4768 [6358] Support GRE calculator keyboard operators → Approved + Browser QA Skipped (dev server down)",
-      "details": null,
-      "cost_usd": 1.67628225,
-      "total_tokens": 9815
     }
   ]
 }
