@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-08-25T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-25T22:00:02Z",
       "duration_seconds": 1.4,
@@ -4798,16 +4806,6 @@
       "details": null,
       "cost_usd": 2.50888625,
       "total_tokens": 13128
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-13T19:30:02Z",
-      "duration_seconds": 293.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4774 [6358] Fix GRE calculator clear and operator shortcuts → Approved + Browser QA Skipped (env — bundler 2.6.9 missing, dev server won't start)",
-      "details": null,
-      "cost_usd": 1.9789185000000002,
-      "total_tokens": 14603
     }
   ]
 }
