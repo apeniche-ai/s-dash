@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-08-25T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-25T12:30:45Z",
       "duration_seconds": 1.1,
@@ -4818,16 +4826,6 @@
       "details": null,
       "cost_usd": 1.33125325,
       "total_tokens": 6256
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-13T10:30:02Z",
-      "duration_seconds": 517.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4684 [6282] Add AI content quality flag across chat, exercise, summary, and flashcard surfaces → Changes Requested (dangling `chat_connection` ref in chat.js:558 breaks error handling",
-      "details": null,
-      "cost_usd": 4.384429500000001,
-      "total_tokens": 28356
     }
   ]
 }
