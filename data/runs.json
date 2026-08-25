@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-25T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 176.2,
+      "status": "success",
+      "summary": "Not applicable — this is a linear scripted scheduled loop. Log-tier memory is the tracking mechanism per system prompt STEP 4. Tick complete.",
+      "details": null,
+      "cost_usd": 1.6527059999999998,
+      "total_tokens": 11112
     },
     {
       "agent": "pr-reviewer",
