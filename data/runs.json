@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-08-25T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-08-24T23:30:00Z",
       "duration_seconds": 95.7,
@@ -4823,16 +4831,6 @@
       "details": null,
       "cost_usd": 2.2986762500000006,
       "total_tokens": 16258
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-08-12T20:30:01Z",
-      "duration_seconds": 80.2,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.2854848,
-      "total_tokens": 3417
     }
   ]
 }
