@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-08-25T02:31:42Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
+      "agent": "goal-progress-reconciliation",
       "timestamp": "2026-08-25T02:30:01Z",
       "duration_seconds": 41.6,
       "status": "error",
@@ -4824,16 +4832,6 @@
       "details": null,
       "cost_usd": 1.665223,
       "total_tokens": 16817
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-12T20:31:22Z",
-      "duration_seconds": 271.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4757 [6338] Add GPT-polished score analyzer reports → Approved + Browser QA Skipped (background-job internal logic)",
-      "details": null,
-      "cost_usd": 2.2986762500000006,
-      "total_tokens": 16258
     }
   ]
 }
