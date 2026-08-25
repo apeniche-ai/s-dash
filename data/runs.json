@@ -181,10 +181,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-08-25T16:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 208.8,
+      "status": "success",
+      "summary": "Tick complete. Silent — no Amaury notify.",
+      "details": null,
+      "cost_usd": 2.0633269999999997,
+      "total_tokens": 13193
     },
     {
       "agent": "pr-reviewer",
