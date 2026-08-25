@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-25T19:30:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 43 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-25T19:15:01Z",
       "duration_seconds": 0.9,
@@ -4808,16 +4816,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-13T17:00:02Z",
-      "duration_seconds": 370.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4691 [6262] Replace 100-test cap on Custom Tests list with pagination → Approved + Browser QA Skipped (dev server toolchain broken)",
-      "details": null,
-      "cost_usd": 2.3056950000000005,
-      "total_tokens": 13498
     }
   ]
 }
