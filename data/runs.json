@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-25T13:02:32Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-08-25T13:00:00Z",
       "duration_seconds": 150.4,
@@ -4818,16 +4826,6 @@
       "details": null,
       "cost_usd": 2.99173775,
       "total_tokens": 16988
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-08-13T11:00:00Z",
-      "duration_seconds": 103.1,
-      "status": "success",
-      "summary": "Tick complete — SILENT by design. Log written. No notify, no ledger transitions, no state update (81h fresh, under 10d gate), no sub-agent dispatch (no trigger). Next tick Thu 10:00 will check post-sc",
-      "details": null,
-      "cost_usd": 1.33125325,
-      "total_tokens": 6256
     }
   ]
 }
