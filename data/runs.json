@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-25T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 368.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4800 [6115] Grant OnDemand access to existing EA users → Approved + Browser QA Skipped (EA-only backend DM)",
+      "details": null,
+      "cost_usd": 3.24064775,
+      "total_tokens": 23966
     },
     {
       "agent": "admissions-pr-reviewer",
