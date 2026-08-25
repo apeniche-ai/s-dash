@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-25T17:31:38Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 317.5,
+      "status": "success",
+      "summary": "Reminder acknowledged — task tools not applicable to this linear scripted PR-review procedure. Complete.",
+      "details": null,
+      "cost_usd": 2.833719500000001,
+      "total_tokens": 19490
     },
     {
       "agent": "slack-watch",
