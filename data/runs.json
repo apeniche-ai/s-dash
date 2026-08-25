@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-25T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 238.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4801 [6393] Support 15-minute increments and show hours as words instead of decimals → Approved + Browser QA Skipped (admin-only feature)",
+      "details": null,
+      "cost_usd": 3.1329265,
+      "total_tokens": 14766
     },
     {
       "agent": "pr-reviewer",
