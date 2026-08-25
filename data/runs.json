@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-25T15:03:17Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 387.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4793 [TTPAI-291] Wire prose rules and structural solution check into generation → Changes Requested (14 PR-related spec failures — drain rake + verbal_bank generator specs) + Browser ",
+      "details": null,
+      "cost_usd": 4.2780200000000015,
+      "total_tokens": 21607
     },
     {
       "agent": "passive-income-research-loop",
