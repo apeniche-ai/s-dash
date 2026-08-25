@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-08-25T20:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-25T20:15:01Z",
       "duration_seconds": 0.9,
@@ -4804,16 +4812,6 @@
       "details": null,
       "cost_usd": 1.67628225,
       "total_tokens": 9815
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-13T17:31:21Z",
-      "duration_seconds": 182.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4763 [TTPAI-281] Fix Maren chatbot conversation history and AI cost report pricing and alerting → Approved + Browser QA Skipped (chatbot truncation requires 30+ message thread to obse",
-      "details": null,
-      "cost_usd": 1.9068244999999997,
-      "total_tokens": 9847
     }
   ]
 }
