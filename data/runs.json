@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-25T16:03:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 139.7,
+      "status": "success",
+      "summary": "No batched notifications. Label recovered on PR #4800 — my approval from 27 min ago is still valid for the current HEAD commit, so no new review was performed. Exiting silently.",
+      "details": null,
+      "cost_usd": 1.4883395,
+      "total_tokens": 7989
     },
     {
       "agent": "career-market-research-loop",
