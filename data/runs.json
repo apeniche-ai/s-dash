@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-25T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 372.2,
+      "status": "success",
+      "summary": "Telegram delivery failed but the GitHub side is complete (approved + Claude Reviewed label added), and the batch memory was cleared.",
+      "details": null,
+      "cost_usd": 3.927769750000001,
+      "total_tokens": 22695
     },
     {
       "agent": "admissions-pr-reviewer",
