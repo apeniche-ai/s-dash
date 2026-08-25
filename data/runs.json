@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-25T10:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 337.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Changes Requested (24 judge specs + 1 model spec broken by CallResult refactor; specs still stub r",
+      "details": null,
+      "cost_usd": 3.11015075,
+      "total_tokens": 18277
     },
     {
       "agent": "passive-income-research-loop",
