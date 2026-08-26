@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-26T10:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-26T10:00:01Z",
       "duration_seconds": 356.3,
       "status": "success",
@@ -4798,16 +4806,6 @@
       "details": null,
       "cost_usd": 1.77686275,
       "total_tokens": 11253
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-13T21:30:01Z",
-      "duration_seconds": 167.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4778 [6366] Keeps one failed send from stopping Scott's personal mailer batches → Approved + Browser QA Skipped (nightly rake task, no UI)",
-      "details": null,
-      "cost_usd": 1.7215505,
-      "total_tokens": 8527
     }
   ]
 }
