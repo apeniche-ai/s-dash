@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-08-26T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 187.0,
+      "status": "success",
+      "summary": "Scanned 9 sources, wrote 0 findings — 10 raw candidates dropped at filter (Reddit blackout day ~103; HN Show HN thin/no-traction; HN Ask HN pain clusters — GitHub outage 3-post cluster, Cloudflare sil",
+      "details": null,
+      "cost_usd": 1.58666,
+      "total_tokens": 12260
     },
     {
       "agent": "pr-reviewer",
