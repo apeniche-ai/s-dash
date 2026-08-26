@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-26T18:30:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 356.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4802 [6115] Remove the OnDemand plan card from partner org pages for the variation → Changes Requested (GRE partner-org page layout regresses because col_class falls to col-md-6 col-l",
+      "details": null,
+      "cost_usd": 2.8700910000000004,
+      "total_tokens": 18020
     },
     {
       "agent": "admissions-pr-reviewer",
