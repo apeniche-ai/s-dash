@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-26T13:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 207.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4784 [TTPAI-289] Retires file-store exercise reads and hardens database-driven bank serving → Approved + Browser QA Skipped (backend AI bank refactor, deploy-branch integration)",
+      "details": null,
+      "cost_usd": 2.86996425,
+      "total_tokens": 11963
     },
     {
       "agent": "pr-reviewer",
