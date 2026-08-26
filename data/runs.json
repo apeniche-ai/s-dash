@@ -181,10 +181,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-08-26T21:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 338.2,
+      "status": "success",
+      "summary": "Done. Digest delivered to the assistant Telegram channel on the first attempt (yesterday's send failed at the Telegram layer, so Amaury's actually seeing back-to-back readouts this evening). Log store",
+      "details": null,
+      "cost_usd": 2.10305175,
+      "total_tokens": 18910
     },
     {
       "agent": "pr-reviewer",
