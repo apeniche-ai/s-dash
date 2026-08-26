@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-08-26T13:03:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 140.4,
+      "status": "success",
+      "summary": "Telegram delivery failed (`fetch failed`) on the outbound `soren_notify` call — same failure mode as yesterday's run. Per the fail-fast rule, not retrying.",
+      "details": null,
+      "cost_usd": 1.448425,
+      "total_tokens": 6976
     },
     {
       "agent": "pr-reviewer",
