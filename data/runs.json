@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-26T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 447.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4784 [TTPAI-289] Retires file-store exercise reads and hardens database-driven bank serving → Changes Requested (classify_unseen_miss mislabels open-ended chatbot misses as tier_unsto",
+      "details": null,
+      "cost_usd": 5.308108000000001,
+      "total_tokens": 28061
     },
     {
       "agent": "pr-reviewer",
