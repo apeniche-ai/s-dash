@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-08-26T23:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 95.5,
+      "status": "success",
+      "summary": "Telegram delivery also failed (`fetch failed`) — same recurring issue seen in other agents today. Memory entry stored (ID: 01M106M2HZTNZ5MR7N9EEY3M1T).",
+      "details": null,
+      "cost_usd": 0.29549695,
+      "total_tokens": 3702
     },
     {
       "agent": "passive-income-research-loop",
