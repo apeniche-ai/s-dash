@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-27T16:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 350.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4804 [6400] Newsweek Readers' Choice vote banner → Approved + Browser QA Skipped (bundler env still broken)",
+      "details": null,
+      "cost_usd": 4.044965750000001,
+      "total_tokens": 19820
     },
     {
       "agent": "admissions-pr-reviewer",
