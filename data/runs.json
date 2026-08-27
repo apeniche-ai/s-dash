@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-27T18:00:03Z",
+      "duration_seconds": 2.0,
+      "status": "success",
+      "summary": "No PRs to review — 40 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-27T17:31:55Z",
       "duration_seconds": 253.6,
       "status": "success",
@@ -4789,16 +4797,6 @@
       "details": null,
       "cost_usd": 2.0872865000000003,
       "total_tokens": 15056
-    },
-    {
-      "agent": "weekly-coaching-digest",
-      "timestamp": "2026-08-17T01:30:00Z",
-      "duration_seconds": 198.5,
-      "status": "success",
-      "summary": "Digest delivered to the coaching channel. Stored as memory `01M06NK8SKA828J95QYQBR0BYW` for next week's comparison.",
-      "details": null,
-      "cost_usd": 1.51877325,
-      "total_tokens": 10921
     }
   ]
 }
