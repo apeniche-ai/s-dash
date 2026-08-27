@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-27T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 508.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4738 [6292] Add tabbed personalized-example generation with unified ExerciseService entry point → Approved + Browser QA Skipped (scoped delta to already-QA'd feature)",
+      "details": null,
+      "cost_usd": 3.90843525,
+      "total_tokens": 23877
     },
     {
       "agent": "pr-reviewer",
