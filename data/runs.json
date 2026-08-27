@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-27T16:05:05Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-08-27T16:00:00Z",
       "duration_seconds": 303.6,
@@ -4795,16 +4803,6 @@
       "details": null,
       "cost_usd": 1.1589732499999998,
       "total_tokens": 6096
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-08-16T16:00:00Z",
-      "duration_seconds": 229.3,
-      "status": "success",
-      "summary": "Tick complete. SILENT — no Telegram fired.",
-      "details": null,
-      "cost_usd": 1.7366155,
-      "total_tokens": 13289
     }
   ]
 }
