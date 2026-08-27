@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-08-27T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 183.4,
+      "status": "success",
+      "summary": "Nudge suggestion created (ID: 01M12MGZQFRX5SZCF65BMEE3P8). Telegram notify failed with \"fetch failed\" — that's the known transport issue health-auditor tracks, not something I fix. The suggestion stil",
+      "details": null,
+      "cost_usd": 1.28846525,
+      "total_tokens": 10290
     },
     {
       "agent": "pr-reviewer",
