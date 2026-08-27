@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-27T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 219.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4803 [6401] Show the Newsweek Readers' Choice modal after the scheduled modal has been seen → Approved + Browser QA Skipped (bundler 2.6.9 missing on host)",
+      "details": null,
+      "cost_usd": 2.5228525000000004,
+      "total_tokens": 12209
     },
     {
       "agent": "admissions-pr-reviewer",
