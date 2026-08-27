@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-27T17:31:55Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 253.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4805 [TTPAI-304] Replaces the onboarding placement question lists for all four exams → Approved + Browser QA Skipped (data-migration seed, hasn't run yet)",
+      "details": null,
+      "cost_usd": 2.76842125,
+      "total_tokens": 14691
     },
     {
       "agent": "slack-watch",
