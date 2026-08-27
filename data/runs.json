@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-08-27T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 120.5,
+      "status": "success",
+      "summary": "Scanned 9 sources (4 Reddit blocked day ~104, HN Show HN + Ask HN, 3 vendor changelogs) — wrote 0 findings. 7 raw candidates dropped at filter: Anthropic Aug 26 Compliance API expansion (enterprise-on",
+      "details": null,
+      "cost_usd": 1.3985935,
+      "total_tokens": 7709
     },
     {
       "agent": "pr-reviewer",
