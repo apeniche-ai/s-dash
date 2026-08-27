@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-27T17:31:55Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-08-27T17:30:00Z",
       "duration_seconds": 113.6,
@@ -4789,16 +4797,6 @@
       "details": null,
       "cost_usd": 1.51877325,
       "total_tokens": 10921
-    },
-    {
-      "agent": "weekly-side-income-tracker",
-      "timestamp": "2026-08-17T00:30:01Z",
-      "duration_seconds": 85.3,
-      "status": "success",
-      "summary": "Silent tick logged (ID `01M06J2JKMM0QJ2N73M6GZ7HGB`). No Telegram sent.",
-      "details": null,
-      "cost_usd": 0.8459635000000001,
-      "total_tokens": 4016
     }
   ]
 }
