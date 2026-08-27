@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-27T14:00:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-27T13:31:50Z",
       "duration_seconds": 383.5,
       "status": "success",
@@ -4799,16 +4807,6 @@
       "details": null,
       "cost_usd": 1.34648,
       "total_tokens": 13177
-    },
-    {
-      "agent": "maren-v0-launch-digest",
-      "timestamp": "2026-08-15T21:00:00Z",
-      "duration_seconds": 290.3,
-      "status": "success",
-      "summary": "Digest sent to the assistant Telegram channel. Log stored.",
-      "details": null,
-      "cost_usd": 1.97112425,
-      "total_tokens": 19058
     }
   ]
 }
