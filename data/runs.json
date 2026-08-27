@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-27T16:05:05Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 320.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4804 [6400] Newsweek Readers' Choice vote banner → Changes Requested (CI regression: resubscribe-banner spec fails because Newsweek replaces it) + Browser QA Skipped (bundler 2.6.9 mi",
+      "details": null,
+      "cost_usd": 2.7881862500000008,
+      "total_tokens": 18573
     },
     {
       "agent": "career-market-research-loop",
