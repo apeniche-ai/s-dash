@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-08-27T17:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 113.6,
+      "status": "success",
+      "summary": "alarmed 1 item: Slack cache not ready at 12:30 — failure notification sent to Telegram, run skipped. Previous 08:30 run was clean; next retry at 15:30.",
+      "details": null,
+      "cost_usd": 0.4174213,
+      "total_tokens": 4891
     },
     {
       "agent": "admissions-pr-reviewer",
