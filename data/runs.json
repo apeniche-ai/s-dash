@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-27T13:31:50Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 383.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4798 [TTPAI-292] Add variant sameness, vocabulary grounding, and three blank Text Completion → Changes Requested (CR collect_existing_variants override missing memoization) + Browser ",
+      "details": null,
+      "cost_usd": 4.23643975,
+      "total_tokens": 22087
     },
     {
       "agent": "slack-watch",
