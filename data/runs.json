@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-27T12:31:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 250.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4791 [TTPAI-290] Add EA-specific prompt files and component-level inheritance with section aliasing → Approved + Browser QA Skipped (deep AI prompt/service infra targeting epic branch",
+      "details": null,
+      "cost_usd": 2.77250025,
+      "total_tokens": 13388
     },
     {
       "agent": "daily-todo-digest",
