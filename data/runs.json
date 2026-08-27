@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-27T17:00:02Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 40 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-27T16:30:02Z",
       "duration_seconds": 350.2,
       "status": "success",
@@ -4793,16 +4801,6 @@
       "details": null,
       "cost_usd": 1.50647475,
       "total_tokens": 10228
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-08-16T22:10:01Z",
-      "duration_seconds": 169.8,
-      "status": "success",
-      "summary": "Shipped one proposal: **Weekly Maren V0 launch forecast** — turns the existing daily monitor into an early-warning system so Amaury sees the launch date slipping while there's still time to react. Sen",
-      "details": null,
-      "cost_usd": 1.11535275,
-      "total_tokens": 9578
     }
   ]
 }
