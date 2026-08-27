@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-08-27T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-27T14:30:01Z",
       "duration_seconds": 438.9,
@@ -4797,16 +4805,6 @@
       "details": null,
       "cost_usd": 1.0428837499999999,
       "total_tokens": 5763
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-08-16T02:30:00Z",
-      "duration_seconds": 13.3,
-      "status": "success",
-      "summary": "Nothing to reconcile. Exiting silently.",
-      "details": null,
-      "cost_usd": 0.5188812500000001,
-      "total_tokens": 268
     }
   ]
 }
