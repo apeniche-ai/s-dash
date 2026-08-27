@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-27T20:00:02Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 40 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-27T19:30:01Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4777,16 +4785,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-17T11:01:40Z",
-      "duration_seconds": 456.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4782 [TTPAI-288] Add exercise bank judging hardening, revision service, and unified AI exercises console → Changes Requested (reject flow requires reason but index button + reject spe",
-      "details": null,
-      "cost_usd": 3.70103775,
-      "total_tokens": 32682
     }
   ]
 }
