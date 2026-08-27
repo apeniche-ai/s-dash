@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-27T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 172.9,
+      "status": "success",
+      "summary": "Tick complete. Silent — no notify. Log filed (01M10JQ2G8H54W36H7DTP9VVBW). No ledger or state write (consolidation 73h fresh, ledger unchanged 38d, no status transitions). JEPQ closed $59.79 (+0.07%),",
+      "details": null,
+      "cost_usd": 1.5412885,
+      "total_tokens": 11334
     },
     {
       "agent": "goal-progress-reconciliation",
