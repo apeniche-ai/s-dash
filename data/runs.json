@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-27T22:30:01Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 39 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-27T22:15:02Z",
       "duration_seconds": 1.2,
@@ -4771,16 +4779,6 @@
       "details": null,
       "cost_usd": 0.87369225,
       "total_tokens": 1508
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-08-17T13:00:00Z",
-      "duration_seconds": 104.3,
-      "status": "success",
-      "summary": "Digest sent to pr-reviews. 9 stagnant PRs in TTP (0 in admissions). Four are Amaury's own (4565 88d, 4589 80d, 4673 53d, 4659 4d); five are on team members (codefarz ×2, akshay2408 ×2, alkeshrails). P",
-      "details": null,
-      "cost_usd": 1.3465340000000001,
-      "total_tokens": 5248
     }
   ]
 }
