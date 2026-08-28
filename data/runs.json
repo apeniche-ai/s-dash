@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-08-28T23:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-28T23:00:00Z",
       "duration_seconds": 240.9,
@@ -4751,16 +4759,6 @@
       "details": null,
       "cost_usd": 1.2312634999999998,
       "total_tokens": 8404
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-18T14:38:52Z",
-      "duration_seconds": 523.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4770 [TTPAI-284] - Adds rolling session compaction and server-authoritative chat history → Changes Requested (`generation_in_progress?` calls `generation_lock_key` with 1 arg after 3-",
-      "details": null,
-      "cost_usd": 3.545465749999999,
-      "total_tokens": 33293
     }
   ]
 }
