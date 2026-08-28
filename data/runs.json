@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-08-28T19:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-28T18:30:01Z",
       "duration_seconds": 194.2,
@@ -4765,16 +4773,6 @@
       "details": null,
       "cost_usd": 1.32767375,
       "total_tokens": 6660
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-18T10:30:01Z",
-      "duration_seconds": 262.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Approved + Browser QA Skipped (stacked epic against feature branch)",
-      "details": null,
-      "cost_usd": 2.5212642499999993,
-      "total_tokens": 14375
     }
   ]
 }
