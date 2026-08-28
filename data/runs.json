@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-28T10:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-28T10:00:02Z",
       "duration_seconds": 221.4,
       "status": "success",
@@ -4769,16 +4777,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "weekly-goal-review",
-      "timestamp": "2026-08-17T14:10:42Z",
-      "duration_seconds": 55.7,
-      "status": "success",
-      "summary": "Not applicable — this was a linear scripted procedure (reconcile → load 4 sources → assess → notify), now complete. Report delivered to Telegram.",
-      "details": null,
-      "cost_usd": 0.824712,
-      "total_tokens": 2419
     }
   ]
 }
