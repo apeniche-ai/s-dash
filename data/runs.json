@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-08-28T20:00:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-08-28T19:30:01Z",
       "duration_seconds": 1.0,
       "status": "success",
@@ -4760,16 +4768,6 @@
       "details": null,
       "cost_usd": 1.2826267500000004,
       "total_tokens": 9115
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-18T11:30:01Z",
-      "duration_seconds": 363.9,
-      "status": "success",
-      "summary": "Reminder ignored — this workflow is complete and linear; no task tracking needed.",
-      "details": null,
-      "cost_usd": 2.802142,
-      "total_tokens": 23555
     }
   ]
 }
