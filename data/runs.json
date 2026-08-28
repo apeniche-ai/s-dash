@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-28T23:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 240.9,
+      "status": "success",
+      "summary": "Silent tick complete. Fri 8/28 18:00 post-close. JEPQ locked at Fri close $60.31 — flat vs Thu close $60.31; AH $60.23 (-0.13%); mark-to-market $1,025.27 (+$11.05 / +1.09% vs cost basis) — modestly gr",
+      "details": null,
+      "cost_usd": 2.0582902499999998,
+      "total_tokens": 17385
     },
     {
       "agent": "pr-reviewer",
