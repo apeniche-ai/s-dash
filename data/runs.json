@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "performance-check-in-(mon/wed/fri)",
+      "timestamp": "2026-08-28T11:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Performance Check-in (Mon/Wed/Fri)...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-28T11:15:01Z",
       "duration_seconds": 0.9,
@@ -4771,14 +4779,6 @@
       "details": null,
       "cost_usd": 1.0545305,
       "total_tokens": 996
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-08-17T15:15:01Z",
-      "duration_seconds": 0.8,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
