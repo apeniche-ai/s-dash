@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-08-28T23:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 96.3,
+      "status": "success",
+      "summary": "Slack cache failed again — Telegram notification also failed on delivery (\"fetch failed\"). Memory logged successfully (ID: `01M15BDJNE3EZNCYH7QPTZV828`).",
+      "details": null,
+      "cost_usd": 0.32067144999999997,
+      "total_tokens": 4264
     },
     {
       "agent": "passive-income-research-loop",
