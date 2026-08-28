@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-08-28T21:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-28T20:31:26Z",
       "duration_seconds": 1.1,
@@ -4755,16 +4763,6 @@
       "details": null,
       "cost_usd": 4.65973175,
       "total_tokens": 25737
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-08-18T12:30:00Z",
-      "duration_seconds": 45.5,
-      "status": "success",
-      "summary": "Done. Silent exit — todo list is empty, no completions since Aug 13. Bookkeeping stored for tomorrow's run.",
-      "details": null,
-      "cost_usd": 0.25526000000000004,
-      "total_tokens": 1741
     }
   ]
 }
