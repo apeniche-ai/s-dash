@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-28T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 212.6,
+      "status": "success",
+      "summary": "Silent tick complete. Fri 8/28 10:00 mid-morning post-open. JEPQ open $60.13 → mid-morning $60.31 (+0.30% intraday, tight 0.6% day band); mark-to-market ~$1,022-$1,025 modestly green vs cost basis, no",
+      "details": null,
+      "cost_usd": 1.752792,
+      "total_tokens": 14588
     },
     {
       "agent": "pr-reviewer",
