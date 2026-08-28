@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-08-28T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 169.1,
+      "status": "success",
+      "summary": "New proposal created: **Meeting Debrief** (ID: 01M156WHM3G8AZ7J0RF9NXF52R). Turns Amaury's 4-5h/day of meetings from a black hole into structured output — decisions, action items by owner, verbal comm",
+      "details": null,
+      "cost_usd": 1.37777975,
+      "total_tokens": 10573
     },
     {
       "agent": "pr-reviewer",
