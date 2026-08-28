@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-08-28T18:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-28T18:15:01Z",
       "duration_seconds": 1.2,
@@ -4765,16 +4773,6 @@
       "details": null,
       "cost_usd": 2.5212642499999993,
       "total_tokens": 14375
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-18T10:00:01Z",
-      "duration_seconds": 282.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4587 [6198] [6197][6351] Add Lesson Summary Screen Multi-State Design Implementation → Approved + Browser QA Skipped (one-line show-overlay CSS class addressing QA feedback; base feat",
-      "details": null,
-      "cost_usd": 3.4012577499999996,
-      "total_tokens": 14274
     }
   ]
 }
