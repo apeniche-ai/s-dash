@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-08-28T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 194.2,
+      "status": "success",
+      "summary": "Telegram delivery hit a network error. The final output line below is the source of truth for the scheduler regardless.",
+      "details": null,
+      "cost_usd": 1.9034612500000003,
+      "total_tokens": 11554
     },
     {
       "agent": "admissions-pr-reviewer",
