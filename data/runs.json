@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-28T11:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 204.5,
+      "status": "success",
+      "summary": "Silent tick complete. Fri 06:00 pre-market: JEPQ $60.14 (-0.28% vs Thu close, not material), no Amaury reply overnight (~93h cross-channel silence), coaching-lane owns imminent right-of-way with Fri 0",
+      "details": null,
+      "cost_usd": 1.83325225,
+      "total_tokens": 13214
     },
     {
       "agent": "pr-reviewer",
