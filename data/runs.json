@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-08-28T13:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-08-28T13:15:00Z",
       "duration_seconds": 0.7,
@@ -4767,16 +4775,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-17T19:01:57Z",
-      "duration_seconds": 550.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4787 [6115] Revert unified self-study to separate OnDemand plan codes → Changes Requested (CI failing on office-hours specs, directly caused by home_helper switching from full_ondeman",
-      "details": null,
-      "cost_usd": 4.213216750000001,
-      "total_tokens": 33803
     }
   ]
 }
