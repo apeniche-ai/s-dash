@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-08-28T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-08-27T23:30:00Z",
       "duration_seconds": 307.0,
@@ -4769,16 +4777,6 @@
       "details": null,
       "cost_usd": 1.4004244999999997,
       "total_tokens": 5343
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-17T13:31:36Z",
-      "duration_seconds": 267.3,
-      "status": "success",
-      "summary": "Reviewed 3 PRs: #4776 [TTPAI-286] Maren chatbot server-owned history → Changes Requested + Browser QA Skipped (code blockers make it pointless), #4781 [TTP-6370] Keep study plan working when lessons r",
-      "details": null,
-      "cost_usd": 2.6027922500000007,
-      "total_tokens": 14548
     }
   ]
 }
