@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-08-29T03:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 226.9,
+      "status": "success",
+      "summary": "Silent tick — Fri 22:00 close-of-week. JEPQ Fri close $60.31 (two-day flat vs Thu), modestly green +$11.05 vs cost basis, not material. No Amaury reply, no scout candidates, no material catalyst. Fri ",
+      "details": null,
+      "cost_usd": 1.71141825,
+      "total_tokens": 16167
     },
     {
       "agent": "goal-progress-reconciliation",
