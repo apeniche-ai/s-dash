@@ -189,10 +189,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-09-01T14:56:22Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 108.3,
+      "status": "success",
+      "summary": "Ran the check. Results:",
+      "details": null,
+      "cost_usd": 1.3863860000000001,
+      "total_tokens": 5439
     },
     {
       "agent": "slack-watch",
