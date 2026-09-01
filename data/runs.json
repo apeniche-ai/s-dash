@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-01T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 257.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4810 [TTPAI-242] Content faults → Changes Requested (CI red on 4 branch-code specs + Actions 6/8/9/10/11 status unconfirmed) + Browser QA Skipped (AI backend + admin-only)",
+      "details": null,
+      "cost_usd": 2.71307175,
+      "total_tokens": 13334
     },
     {
       "agent": "pr-reviewer",
