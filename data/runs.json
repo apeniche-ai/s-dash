@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-01T23:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-01T22:30:02Z",
       "duration_seconds": 1.5,
@@ -4763,16 +4771,6 @@
       "details": null,
       "cost_usd": 1.3229870000000001,
       "total_tokens": 6459
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-19T10:30:01Z",
-      "duration_seconds": 499.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4782 [TTPAI-288] Add exercise bank judging hardening, revision service, and unified AI exercises console → Approved + Browser QA Skipped (admin-console-only)",
-      "details": null,
-      "cost_usd": 3.854022,
-      "total_tokens": 21956
     }
   ]
 }
