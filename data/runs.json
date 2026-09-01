@@ -189,10 +189,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-09-01T21:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 590.9,
+      "status": "success",
+      "summary": "Notify path is genuinely broken right now — this matches the Sep 1 morning burst pattern (Slack cache failures + Diagnostics failures + Weekly Goal Review delayed catch-up). Stopping retries per proto",
+      "details": null,
+      "cost_usd": 3.35752825,
+      "total_tokens": 34832
     },
     {
       "agent": "pr-reviewer",
