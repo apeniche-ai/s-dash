@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-01T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 209.2,
+      "status": "success",
+      "summary": "No batches, no new review authored this run — #4770's label state was reconciled with its existing 1-hour-old review from apeniche-ai (same head commit, no new pushes). Silent exit per work-hours rule",
+      "details": null,
+      "cost_usd": 1.79523425,
+      "total_tokens": 13657
     },
     {
       "agent": "admissions-pr-reviewer",
