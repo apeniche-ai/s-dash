@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-01T19:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 380.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4813 [TTP-6402] Fix chatbot widget rendering when trial lesson limit is reached → Approved + Browser QA Skipped (dev server bundler mismatch)",
+      "details": null,
+      "cost_usd": 4.34269675,
+      "total_tokens": 16628
     },
     {
       "agent": "admissions-pr-reviewer",
