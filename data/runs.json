@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-09-01T22:10:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 172.1,
+      "status": "success",
+      "summary": "Nudge sent for **Quarterly merge autopsy** (~2 months stale, never nudged, addresses P10 DEFENSE). No new proposal today — Meeting Debrief went out 3 days ago and nothing in my current thinking clears",
+      "details": null,
+      "cost_usd": 1.2746510000000002,
+      "total_tokens": 8073
     },
     {
       "agent": "pr-reviewer",
