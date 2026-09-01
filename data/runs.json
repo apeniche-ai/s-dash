@@ -181,10 +181,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-01T16:20:18Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 344.6,
+      "status": "success",
+      "summary": "Tick complete. Silent per rules — no TTP negative, no fresh high-fit role.",
+      "details": null,
+      "cost_usd": 1.9923385,
+      "total_tokens": 14183
     },
     {
       "agent": "pr-reviewer",
