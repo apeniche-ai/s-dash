@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-01T15:04:34Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 322.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4587 [6198] Lesson Summary Screen Multi-State → Approved + Browser QA Skipped (env-complexity)",
+      "details": null,
+      "cost_usd": 3.5511682500000004,
+      "total_tokens": 17831
     },
     {
       "agent": "passive-income-research-loop",
