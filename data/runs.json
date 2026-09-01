@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-01T22:30:02Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 40 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-01T22:15:02Z",
       "duration_seconds": 1.5,
@@ -4765,16 +4773,6 @@
       "details": null,
       "cost_usd": 3.854022,
       "total_tokens": 21956
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-19T10:00:03Z",
-      "duration_seconds": 573.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4776 [TTPAI-286] Add Maren chatbot server-owned conversation history and a cacheable prompt prefix → Changes Requested (CI failing on 4 chatbot_service #call retry specs; 2 architect ",
-      "details": null,
-      "cost_usd": 4.314827750000001,
-      "total_tokens": 36013
     }
   ]
 }
