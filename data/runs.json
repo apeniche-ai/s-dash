@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-09-01T23:32:16Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-01T23:00:00Z",
       "duration_seconds": 259.7,
@@ -4763,16 +4771,6 @@
       "details": null,
       "cost_usd": 3.444539,
       "total_tokens": 24329
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-08-19T11:00:00Z",
-      "duration_seconds": 99.6,
-      "status": "success",
-      "summary": "Tick complete. Silent — no Telegram sent.",
-      "details": null,
-      "cost_usd": 1.3229870000000001,
-      "total_tokens": 6459
     }
   ]
 }
