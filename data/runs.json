@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-01T14:50:08Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 201.6,
+      "status": "success",
+      "summary": "Scanned 9 sources (4 Reddit blocked day ~109, HN Show HN + Ask HN, 3 vendor changelogs) — wrote 0 findings. 9 raw candidates dropped at filter: OpenAI Aug 29 mTLS/X.509 workload identity federation (a",
+      "details": null,
+      "cost_usd": 1.3947405000000002,
+      "total_tokens": 8106
     },
     {
       "agent": "passive-income-research-loop",
