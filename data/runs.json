@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-01T14:58:10Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 383.0,
+      "status": "success",
+      "summary": "Silent tick. Machine slept Fri Aug 28 → Tue Sep 1 morning (~59h gap). Sun Aug 30 weekly consolidation missed; state now ~9.5d fresh, approaching but not crossing 10d gate. JEPQ ex-div fired today as a",
+      "details": null,
+      "cost_usd": 2.15118575,
+      "total_tokens": 20465
     },
     {
       "agent": "admissions-pr-reviewer",
