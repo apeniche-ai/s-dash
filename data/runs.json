@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-02T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 328.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4758 [6298] Add expired trial dashboard with data state → Approved + Browser QA Skipped (needs expired-account fixture)",
+      "details": null,
+      "cost_usd": 3.1658527499999987,
+      "total_tokens": 18096
     },
     {
       "agent": "admissions-pr-reviewer",
