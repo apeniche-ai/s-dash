@@ -181,10 +181,12 @@
     {
       "agent": "performance-check-in-(mon/wed/fri)",
       "timestamp": "2026-09-02T11:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Performance Check-in (Mon/Wed/Fri)...",
-      "details": null
+      "duration_seconds": 156.2,
+      "status": "success",
+      "summary": "Session complete.",
+      "details": null,
+      "cost_usd": 1.6135112500000002,
+      "total_tokens": 7183
     },
     {
       "agent": "admissions-pr-reviewer",
