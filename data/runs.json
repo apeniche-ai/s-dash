@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-02T15:04:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-02T15:00:01Z",
       "duration_seconds": 240.4,
@@ -4759,16 +4767,6 @@
       "details": null,
       "cost_usd": 3.114967,
       "total_tokens": 35549
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-19T16:30:01Z",
-      "duration_seconds": 337.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4776 [TTPAI-286] Add Maren chatbot server-owned conversation history and a cacheable prompt prefix → Changes Requested (CI still red — 4 retry specs shadowed by global ClaudeService#c",
-      "details": null,
-      "cost_usd": 3.0496477500000005,
-      "total_tokens": 15918
     }
   ]
 }
