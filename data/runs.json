@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-02T16:04:22Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-02T16:00:00Z",
       "duration_seconds": 259.9,
@@ -4759,16 +4767,6 @@
       "details": null,
       "cost_usd": 3.7106925,
       "total_tokens": 22572
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-19T17:31:35Z",
-      "duration_seconds": 484.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (not mergeable + 5 test suites failing; lint checks fail due to reviewdog hitting GitHub's 300-file diff cap",
-      "details": null,
-      "cost_usd": 3.4136947500000003,
-      "total_tokens": 23531
     }
   ]
 }
