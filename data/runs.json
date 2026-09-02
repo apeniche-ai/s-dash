@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-02T12:03:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 278.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4725 [TTPAI-242] AI Exercise Bank → Approved + Browser QA Skipped (deploy epic, per author's QA manifest)",
+      "details": null,
+      "cost_usd": 2.59832325,
+      "total_tokens": 15896
     },
     {
       "agent": "passive-income-discovery-scan",
