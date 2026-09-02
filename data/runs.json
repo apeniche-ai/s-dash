@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-02T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 222.3,
+      "status": "success",
+      "summary": "Silent tick. JEPQ pre-market -1.61% (below 5% bar), Amaury silent 9 days across all channels, coaching-lane check-in imminent at 6:30 AM. Log written, no notify, no state write (Wed 22:00 owns the 10-",
+      "details": null,
+      "cost_usd": 1.8704412499999998,
+      "total_tokens": 13596
     },
     {
       "agent": "pr-reviewer",
