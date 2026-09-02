@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-02T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 375.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4587 [6198] Add Lesson Summary Screen Multi-State Design Implementation → Approved + Browser QA Skipped (dev server boot failure: missing bundler 2.6.9)",
+      "details": null,
+      "cost_usd": 3.0772269999999993,
+      "total_tokens": 18841
     },
     {
       "agent": "pr-reviewer",
