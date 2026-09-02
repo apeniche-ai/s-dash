@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-02T10:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-02T10:00:04Z",
       "duration_seconds": 221.7,
       "status": "success",
@@ -4765,16 +4773,6 @@
       "details": null,
       "cost_usd": 1.23985575,
       "total_tokens": 7740
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-19T11:32:07Z",
-      "duration_seconds": 554.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4738 [6292] Add tabbed personalized-example generation with unified ExerciseService entry point → Approved + Browser QA Skipped (local Gemfile gems not installed)",
-      "details": null,
-      "cost_usd": 6.288060000000001,
-      "total_tokens": 31524
     }
   ]
 }
