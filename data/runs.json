@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-02T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 206.5,
+      "status": "success",
+      "summary": "Scanned 9 sources (5 OK: HN Show HN + HN Ask HN + 3 vendor changelogs; 4 Reddit blocked day ~110). Wrote 0 findings — 13 raw candidates dropped at filter. Notable this cycle: Anthropic Sep 1 Fable 5.1",
+      "details": null,
+      "cost_usd": 1.5780547499999997,
+      "total_tokens": 10575
     },
     {
       "agent": "pr-reviewer",
