@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-02T18:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 474.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4810 [TTPAI-242] Content faults, the quality checks that never ran, and registry coverage → Approved + Browser QA Skipped (TTPAI backend pipeline — validators, generators, prompt file",
+      "details": null,
+      "cost_usd": 4.331255000000001,
+      "total_tokens": 25340
     },
     {
       "agent": "pr-reviewer",
