@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-02T21:07:06Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 150.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4821 [6404] Fix Course Settings checkbox label overflow and Test Name width → Approved + Browser QA Skipped (admin-only page, test user has no admin permissions)",
+      "details": null,
+      "cost_usd": 1.8227972500000003,
+      "total_tokens": 7976
     },
     {
       "agent": "maren-v0-launch-digest",
