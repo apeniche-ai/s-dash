@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-02T16:06:11Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-02T16:04:22Z",
       "duration_seconds": 48.9,
       "status": "error",
@@ -4760,16 +4768,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-19T18:00:01Z",
-      "duration_seconds": 438.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4507 [6115] Unify Self-Study and On-Demand A/B test → Approved + Browser QA Skipped (env setup)",
-      "details": null,
-      "cost_usd": 3.7106925,
-      "total_tokens": 22572
     }
   ]
 }
