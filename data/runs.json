@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-02T17:31:22Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 312.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4765 [6314] Add Expired Trial Dashboard No Data state screen → Approved + Browser QA Skipped (feature only renders for expired student with <2 planner moves, can't exercise locally)",
+      "details": null,
+      "cost_usd": 2.96804425,
+      "total_tokens": 17096
     },
     {
       "agent": "slack-watch",
