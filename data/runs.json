@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-02T21:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 447.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4820 [6403] Show GRE lesson videos to all students, with the first five missions on trial → Approved + Browser QA Skipped (feature ships setting-off, needs GRE-track fixture user)",
+      "details": null,
+      "cost_usd": 2.95280375,
+      "total_tokens": 30540
     },
     {
       "agent": "admissions-pr-reviewer",
