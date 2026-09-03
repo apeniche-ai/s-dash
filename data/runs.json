@@ -179,6 +179,16 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-03T17:31:16Z",
+      "duration_seconds": 473.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4809 [TTP-6214] Adds Maren Get Help chip as first-line support → Approved + Browser QA Skipped (bundler env issue)",
+      "details": null,
+      "cost_usd": 3.2087637500000006,
+      "total_tokens": 19492
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-03T15:15:01Z",
       "duration_seconds": 1.1,
@@ -4761,16 +4771,6 @@
       "details": null,
       "cost_usd": 3.0607869999999995,
       "total_tokens": 17786
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-08-20T17:30:02Z",
-      "duration_seconds": 63.0,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.2475778,
-      "total_tokens": 2389
     }
   ]
 }
