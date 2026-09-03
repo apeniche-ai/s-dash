@@ -189,10 +189,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-03T17:31:15Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 193.4,
+      "status": "success",
+      "summary": "Silent tick complete. Focus = comp bands sweep (9d since Aug 25). Bands held flat across VPE/DoE/Head-of-AI tiers; two new anchors surfaced (sign-on $50-150k standard + remote saturation confirmed sin",
+      "details": null,
+      "cost_usd": 1.6752192499999996,
+      "total_tokens": 10680
     },
     {
       "agent": "admissions-pr-reviewer",
