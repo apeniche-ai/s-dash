@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-03T10:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-03T10:00:03Z",
       "duration_seconds": 279.1,
       "status": "success",
@@ -4757,16 +4765,6 @@
       "details": null,
       "cost_usd": 2.983855250000001,
       "total_tokens": 23251
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-08-20T12:30:00Z",
-      "duration_seconds": 66.9,
-      "status": "success",
-      "summary": "Done. Silent exit — todo list is empty, no completions since Aug 13. Bookkeeping stored for tomorrow's run.",
-      "details": null,
-      "cost_usd": 0.2880473,
-      "total_tokens": 2867
     }
   ]
 }
