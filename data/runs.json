@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-09-03T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-03T22:00:01Z",
       "duration_seconds": 1.0,
@@ -4763,16 +4771,6 @@
       "details": null,
       "cost_usd": 0.29473540000000004,
       "total_tokens": 3294
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-08-20T23:00:01Z",
-      "duration_seconds": 122.2,
-      "status": "success",
-      "summary": "Tick complete. Silent — no Telegram notification. Log 01M0GPHSKB96KSVFBMMBRKW8WA written. No ledger transitions, no state update (state ~93h fresh, under 10d gate), no sub-agent dispatch (no trigger, ",
-      "details": null,
-      "cost_usd": 1.2648077500000001,
-      "total_tokens": 8259
     }
   ]
 }
