@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-03T14:22:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 355.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Approved + Browser QA Skipped (stacked mega-PR against epic base; alkeshrails did comprehensive manual browser QA today)",
+      "details": null,
+      "cost_usd": 2.6917645,
+      "total_tokens": 21594
     },
     {
       "agent": "admissions-pr-reviewer",
