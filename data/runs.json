@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-09-03T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 145.0,
+      "status": "success",
+      "summary": "Done. One nudge sent — no new proposal today.",
+      "details": null,
+      "cost_usd": 1.2536789999999998,
+      "total_tokens": 8438
     },
     {
       "agent": "pr-reviewer",
