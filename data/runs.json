@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-09-03T23:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 90.0,
+      "status": "success",
+      "summary": "silent",
+      "details": null,
+      "cost_usd": 0.30564915,
+      "total_tokens": 3481
     },
     {
       "agent": "passive-income-research-loop",
