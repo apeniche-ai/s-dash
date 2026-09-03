@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-03T21:00:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 37 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-03T20:31:21Z",
       "duration_seconds": 191.3,
       "status": "success",
@@ -4767,16 +4775,6 @@
       "details": null,
       "cost_usd": 2.4739545,
       "total_tokens": 13446
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-20T21:30:01Z",
-      "duration_seconds": 200.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4507 [6115] Unify Self-Study and On-Demand A/B test → Approved + Browser QA Skipped (delta is unrelated master-merges, no user-facing change)",
-      "details": null,
-      "cost_usd": 1.9156277499999999,
-      "total_tokens": 11480
     }
   ]
 }
