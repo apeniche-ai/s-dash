@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-03T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 387.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4820 [6403] Show GRE lesson videos to all students, with the first five missions on trial → Approved + Browser QA Skipped (bundle env — ~40 gems missing locally)",
+      "details": null,
+      "cost_usd": 3.9737495,
+      "total_tokens": 20747
     },
     {
       "agent": "slack-watch",
