@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-03T20:31:21Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 191.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4824 [6408] Fix three specs that fail on run order, on the date, or because a live modal covers the page → Approved + Browser QA Skipped (spec-only, no production behavior change)",
+      "details": null,
+      "cost_usd": 2.08208075,
+      "total_tokens": 11394
     },
     {
       "agent": "slack-watch",
