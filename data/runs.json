@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-09-03T20:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 79.5,
+      "status": "success",
+      "summary": "**alarmed 1 item: Slack cache empty again — machine slept since the 12:30 run, no channels readable. Notified Amaury once, next retry at 18:30.**",
+      "details": null,
+      "cost_usd": 0.27873345,
+      "total_tokens": 3087
     },
     {
       "agent": "admissions-pr-reviewer",
