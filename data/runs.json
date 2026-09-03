@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-09-03T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-03T21:00:01Z",
       "duration_seconds": 1.1,
@@ -4765,16 +4773,6 @@
       "details": null,
       "cost_usd": 1.43258025,
       "total_tokens": 11421
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-20T22:00:01Z",
-      "duration_seconds": 238.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4507 [6115] Unify Self-Study and On-Demand A/B test → Approved + Browser QA Skipped (delta is already-reviewed sibling PR #4752 merge + master merges, no new authored work)",
-      "details": null,
-      "cost_usd": 2.4739545,
-      "total_tokens": 13446
     }
   ]
 }
