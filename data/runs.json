@@ -179,6 +179,16 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-03T14:22:01Z",
+      "duration_seconds": 184.5,
+      "status": "success",
+      "summary": "No admissions batch memories exist (the two found are for ttp repo). No PR reviewed and no batches → exit silently, no Telegram.",
+      "details": null,
+      "cost_usd": 0.94871575,
+      "total_tokens": 1498
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-03T13:32:22Z",
       "duration_seconds": 1.3,
@@ -4757,16 +4767,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-08-20T16:00:02Z",
-      "duration_seconds": 271.0,
-      "status": "success",
-      "summary": "Silent tick logged. Job market pulse (7d rotation gap, longest stale). Scanned 6 boards + LinkedIn — zero new alert-tier fits. AIOS (Aug 13) remains the singular live alert. Jack & Jill VP/CTO $300-50",
-      "details": null,
-      "cost_usd": 1.9675020000000003,
-      "total_tokens": 12240
     }
   ]
 }
