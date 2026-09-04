@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-04T11:03:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 410.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4823 [6407][6408] Stop the RSpec browser job timing out, cut the Actions bill, and fix three specs → Changes Requested (LiveTeach spec fix incomplete on next_liveteach_class_spec.rb:4",
+      "details": null,
+      "cost_usd": 4.15056225,
+      "total_tokens": 21570
     },
     {
       "agent": "passive-income-research-loop",
