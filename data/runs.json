@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-09-04T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-04T23:00:00Z",
       "duration_seconds": 203.1,
@@ -4777,16 +4785,6 @@
       "details": null,
       "cost_usd": 1.2431595,
       "total_tokens": 7397
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-08-22T02:30:00Z",
-      "duration_seconds": 12.0,
-      "status": "success",
-      "summary": "Nothing to reconcile. Exiting silently.",
-      "details": null,
-      "cost_usd": 0.5630925,
-      "total_tokens": 255
     }
   ]
 }
