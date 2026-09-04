@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-04T17:31:51Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 303.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4809 [TTP-6214] Adds Maren Get Help chip as first-line support → Approved + Browser QA Skipped (edge-case race conditions not manually testable)",
+      "details": null,
+      "cost_usd": 2.6650715000000003,
+      "total_tokens": 15246
     },
     {
       "agent": "slack-watch",
