@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-04T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 217.9,
+      "status": "success",
+      "summary": "Silent tick complete. Fri Sep 4 10:00 second tick of Fri, post-open early-mid-AM. Scout Fri 07:02 clean (0 candidates; ~81d streak). Coach Fri 06:36 fresh presence-hold delivered ~3.5h ago — owns Amau",
+      "details": null,
+      "cost_usd": 1.82026125,
+      "total_tokens": 13037
     },
     {
       "agent": "pr-reviewer",
