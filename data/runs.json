@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-04T03:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-09-04T02:30:01Z",
       "duration_seconds": 22.9,
@@ -4759,16 +4767,6 @@
       "details": null,
       "cost_usd": 2.8394452500000003,
       "total_tokens": 18412
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-08-21T11:00:00Z",
-      "duration_seconds": 107.7,
-      "status": "success",
-      "summary": "Tick complete. Silent — no Telegram notification. Log 01M0HZQNWE93CYG6XZDEH95WF5 written. No ledger transitions, no state update (state ~105h fresh, under 10d gate), no sub-agent dispatch (no trigger;",
-      "details": null,
-      "cost_usd": 1.2335535,
-      "total_tokens": 7103
     }
   ]
 }
