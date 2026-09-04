@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-04T16:04:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-04T16:00:00Z",
       "duration_seconds": 239.5,
@@ -4769,16 +4777,6 @@
       "details": null,
       "cost_usd": 2.31516475,
       "total_tokens": 14040
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-21T16:30:01Z",
-      "duration_seconds": 405.8,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4776 [TTPAI-286] Add Maren chatbot server-owned conversation history and a cacheable prompt prefix → Approved + Browser QA Skipped (backend refactor with comprehensive spec coverage; C",
-      "details": null,
-      "cost_usd": 3.0989617500000004,
-      "total_tokens": 24866
     }
   ]
 }
