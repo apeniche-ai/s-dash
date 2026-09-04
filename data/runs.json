@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-04T14:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-04T14:00:02Z",
       "duration_seconds": 275.8,
       "status": "success",
@@ -4767,16 +4775,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-21T15:02:39Z",
-      "duration_seconds": 361.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4791 [TTPAI-290] Add EA-specific prompt files and component-level inheritance with section aliasing → Approved + Browser QA Skipped (EA-only behavior; requires EA-deployed staging)",
-      "details": null,
-      "cost_usd": 3.99094075,
-      "total_tokens": 21547
     }
   ]
 }
