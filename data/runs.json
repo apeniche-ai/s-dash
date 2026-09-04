@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-04T14:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-04T13:31:51Z",
       "duration_seconds": 356.3,
       "status": "success",
@@ -4767,16 +4775,6 @@
       "details": null,
       "cost_usd": 3.99094075,
       "total_tokens": 21547
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-08-21T15:00:00Z",
-      "duration_seconds": 157.1,
-      "status": "success",
-      "summary": "Not applicable — this is a single-action passive-income research tick, not a multi-step task benefiting from a TaskList. The tick is complete.",
-      "details": null,
-      "cost_usd": 1.41659775,
-      "total_tokens": 10181
     }
   ]
 }
