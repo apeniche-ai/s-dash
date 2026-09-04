@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-04T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 272.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4825 [TTPAI-312] Restrict AI Pusher channels to their own student via private channels → Approved + Browser QA Skipped (backend security plumbing)",
+      "details": null,
+      "cost_usd": 2.8817239999999997,
+      "total_tokens": 15337
     },
     {
       "agent": "admissions-pr-reviewer",
