@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-04T22:00:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 32 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-04T21:30:02Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4779,16 +4787,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-08-21T22:10:01Z",
-      "duration_seconds": 74.5,
-      "status": "success",
-      "summary": "Nudge sent for the Slack DM reply-draft proposal (18 days stale, un-nudged, high-leverage, respects read-only-Slack). No new suggestion today — backlog is saturated with 30+ of my own proposals and 14",
-      "details": null,
-      "cost_usd": 0.82960075,
-      "total_tokens": 3838
     }
   ]
 }
