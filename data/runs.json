@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-04T12:30:51Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 283.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4826 [TTPAI-309] Add page kinds and keeps Maren available during an open test → Approved + Browser QA Skipped (stacked epic base + live EvaluationAttempt fixture impractical)",
+      "details": null,
+      "cost_usd": 2.6607989999999995,
+      "total_tokens": 17497
     },
     {
       "agent": "daily-todo-digest",
