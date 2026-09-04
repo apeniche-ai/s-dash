@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-04T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 273.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4808 [6345] Study Plan Mission adjustments → Approved + Browser QA Skipped (data-migration-gated UI change, requires mutating shared dev DB)",
+      "details": null,
+      "cost_usd": 2.2060797500000002,
+      "total_tokens": 16405
     },
     {
       "agent": "pr-reviewer",
