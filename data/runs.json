@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-04T15:15:02Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-04T15:03:40Z",
       "duration_seconds": 322.3,
@@ -4769,16 +4777,6 @@
       "details": null,
       "cost_usd": 2.0311375000000003,
       "total_tokens": 11724
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-08-21T16:00:01Z",
-      "duration_seconds": 161.3,
-      "status": "success",
-      "summary": "Silent tick logged. Adjacent-role focus (7d rotation gap). AI-native VP AI Eng band now triangulated by 4 sources at $260-525k base — Amaury's $312k contractor floor sits mid-band, not P90 as prior re",
-      "details": null,
-      "cost_usd": 1.68303575,
-      "total_tokens": 10358
     }
   ]
 }
