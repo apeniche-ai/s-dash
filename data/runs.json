@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-04T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 309.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4823 [6407][6408] Stop the RSpec browser job timing out, cut the Actions bill, and fix three specs → Approved + Browser QA Skipped (CI/spec config only)",
+      "details": null,
+      "cost_usd": 2.6901607500000004,
+      "total_tokens": 17261
     },
     {
       "agent": "pr-reviewer",
