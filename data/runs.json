@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-04T15:03:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 322.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4587 [6198] [6197][6351] Add Lesson Summary Screen Multi-State Design Implementation → Approved + Browser QA Skipped (Maren epic sub-PR, base is epic/ttpai-onboarding not master)",
+      "details": null,
+      "cost_usd": 2.5631889999999995,
+      "total_tokens": 19024
     },
     {
       "agent": "passive-income-research-loop",
