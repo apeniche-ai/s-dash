@@ -179,6 +179,16 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-04T16:36:33Z",
+      "duration_seconds": 391.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (CI red on 5 categories, prior 10-item review still in flight) + Browser QA Skipped (epic aggregation, no si",
+      "details": null,
+      "cost_usd": 3.1575897499999996,
+      "total_tokens": 19666
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-04T16:15:01Z",
       "duration_seconds": 1.0,
@@ -4769,14 +4779,6 @@
       "details": null,
       "cost_usd": 0.27383514999999997,
       "total_tokens": 2803
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-08-21T17:15:02Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
