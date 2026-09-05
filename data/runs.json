@@ -181,10 +181,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-05T16:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 228.5,
+      "status": "success",
+      "summary": "Memory + notes persisted. Alert check: neither trigger fires — no TTP negative signal (Sep 4 near-term positive-holding-strengthening carries), no new high-fit role (AIOS dedup preserved day-28; all 6",
+      "details": null,
+      "cost_usd": 1.9975585000000007,
+      "total_tokens": 14035
     },
     {
       "agent": "system-health-audit",
