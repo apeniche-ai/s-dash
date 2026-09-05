@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-05T11:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 176.6,
+      "status": "success",
+      "summary": "Task-tools not applicable to this linear scripted PI loop tick (per documented pattern in every prior tick log). This tick is one focused action — weekend early-AM state check + silent close-out log —",
+      "details": null,
+      "cost_usd": 1.4289984999999998,
+      "total_tokens": 12004
     },
     {
       "agent": "passive-income-research-loop",
