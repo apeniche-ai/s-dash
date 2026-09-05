@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-05T15:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "behavioral-experiments-follow-up",
       "timestamp": "2026-09-05T14:30:01Z",
       "duration_seconds": 84.3,
@@ -4777,16 +4785,6 @@
       "details": null,
       "cost_usd": 1.66151175,
       "total_tokens": 10339
-    },
-    {
-      "agent": "system-health-audit",
-      "timestamp": "2026-08-22T15:02:38Z",
-      "duration_seconds": 326.1,
-      "status": "success",
-      "summary": "Audit complete. Here's the summary:",
-      "details": null,
-      "cost_usd": 0.7405201499999999,
-      "total_tokens": 16129
     }
   ]
 }
