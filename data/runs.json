@@ -181,10 +181,12 @@
     {
       "agent": "behavioral-experiments-follow-up",
       "timestamp": "2026-09-05T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Behavioral Experiments Follow-Up...",
-      "details": null
+      "duration_seconds": 84.3,
+      "status": "success",
+      "summary": "Held. 10th consecutive Saturday. No Telegram sent.",
+      "details": null,
+      "cost_usd": 1.01923075,
+      "total_tokens": 4178
     },
     {
       "agent": "passive-income-discovery-scan",
