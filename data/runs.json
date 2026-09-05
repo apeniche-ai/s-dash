@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-05T11:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
+      "agent": "passive-income-research-loop",
       "timestamp": "2026-09-05T03:00:01Z",
       "duration_seconds": 215.2,
       "status": "success",
@@ -4777,16 +4785,6 @@
       "details": null,
       "cost_usd": 1.23373525,
       "total_tokens": 7050
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-08-22T12:00:00Z",
-      "duration_seconds": 115.6,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 OK: HN Show HN + HN Ask HN + Anthropic + OpenAI + Gemini changelogs; 4 blocked: Reddit day ~99 blackout). Wrote 0 findings — 8 raw candidates dropped at filter. Notable: OpenAI Au",
-      "details": null,
-      "cost_usd": 1.26428875,
-      "total_tokens": 7963
     }
   ]
 }
