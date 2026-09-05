@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-09-05T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 109.4,
+      "status": "success",
+      "summary": "Exiting silently.",
+      "details": null,
+      "cost_usd": 1.26751025,
+      "total_tokens": 4916
     },
     {
       "agent": "maren-v0-launch-digest",
