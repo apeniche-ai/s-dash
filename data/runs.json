@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-05T23:01:50Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 142.2,
+      "status": "success",
+      "summary": "Silent tick. Sat 18:00 evening window, US markets closed weekend + Mon Sep 7 Labor Day. State singleton ~68h fresh (Sun 21:00 consolidation ~27h out owns next). Ledger unchanged 48d. Scout Sat 07:02 f",
+      "details": null,
+      "cost_usd": 1.39588725,
+      "total_tokens": 10523
     },
     {
       "agent": "soren-improvement-review",
