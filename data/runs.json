@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-06T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 153.6,
+      "status": "success",
+      "summary": "Tick complete. Sat Sep 5 22:00 = FINAL tick of Sat weekend cadence. SILENT + LOG ONLY per rubric. Sat closed out 5/5 SILENT.",
+      "details": null,
+      "cost_usd": 1.42486775,
+      "total_tokens": 11587
     },
     {
       "agent": "goal-progress-reconciliation",
