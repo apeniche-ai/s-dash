@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-06T11:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 221.1,
+      "status": "success",
+      "summary": "Task tools are not applicable to this linear scripted scheduled loop — the log-tier memory (just written) is the tracking mechanism per system prompt STEP 4. This tick is one focused action (Sun early",
+      "details": null,
+      "cost_usd": 1.77340825,
+      "total_tokens": 14314
     },
     {
       "agent": "passive-income-research-loop",
