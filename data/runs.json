@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-09-06T22:10:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 234.7,
+      "status": "success",
+      "summary": "Nudge sent. Tied it to today's \"Run both\" failure so the connection between the proposal and today's live pain is unmistakable. No new proposal — the 65+ queue is already the message.",
+      "details": null,
+      "cost_usd": 1.63456775,
+      "total_tokens": 12716
     },
     {
       "agent": "maren-v0-launch-digest",
