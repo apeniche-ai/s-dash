@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "soren-improvement-review",
+      "timestamp": "2026-09-06T22:10:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Soren Improvement Review...",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-09-06T21:00:01Z",
       "duration_seconds": 162.0,
@@ -4777,16 +4785,6 @@
       "details": null,
       "cost_usd": 1.35045725,
       "total_tokens": 10743
-    },
-    {
-      "agent": "career-market-weekly-digest",
-      "timestamp": "2026-08-23T23:00:00Z",
-      "duration_seconds": 143.0,
-      "status": "success",
-      "summary": "Digest delivered to the assistant channel. Summary:",
-      "details": null,
-      "cost_usd": 1.5252912500000002,
-      "total_tokens": 9974
     }
   ]
 }
