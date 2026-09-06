@@ -181,10 +181,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-06T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 234.2,
+      "status": "success",
+      "summary": "Task-tools not applicable to a linear scheduled scout tick — ignoring per documented pattern.",
+      "details": null,
+      "cost_usd": 1.78104675,
+      "total_tokens": 13113
     },
     {
       "agent": "passive-income-research-loop",
