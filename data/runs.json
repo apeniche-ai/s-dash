@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-06T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 196.2,
+      "status": "success",
+      "summary": "Tick complete. Silent — no PI signal, markets closed weekend + Mon Labor Day, Amaury on wife-career thread (assistant channel), Sun 21:00 State Consolidation ~11h out owns next state write.",
+      "details": null,
+      "cost_usd": 1.890853,
+      "total_tokens": 12893
     },
     {
       "agent": "passive-income-discovery-scan",
