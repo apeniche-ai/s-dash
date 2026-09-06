@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-06T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 124.0,
+      "status": "success",
+      "summary": "Tick complete. Silent — US markets closed weekend + Mon Labor Day, no PI-lane signal, wife-career thread owns Amaury's attention on assistant channel, Sun 21:00 State Consolidation ~7h out owns weekly",
+      "details": null,
+      "cost_usd": 1.46309275,
+      "total_tokens": 8985
     },
     {
       "agent": "career-market-research-loop",
