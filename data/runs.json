@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-07T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 165.9,
+      "status": "success",
+      "summary": "Tick complete. Silent — no notify, no ledger/state writes. Log stored (id 01M1YM0JJD12VS4RF7S4XWV7FN).",
+      "details": null,
+      "cost_usd": 1.59432475,
+      "total_tokens": 11835
     },
     {
       "agent": "pr-reviewer",
