@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-07T14:03:08Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 346.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Changes Requested (CI red on 4 checks + mxrgxr's 2 unpatched access-control bugs at current HEAD) ",
+      "details": null,
+      "cost_usd": 2.20367575,
+      "total_tokens": 14240
     },
     {
       "agent": "colombia-mintic-transition-watch",
