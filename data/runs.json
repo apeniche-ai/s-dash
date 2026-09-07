@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-07T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 190.4,
+      "status": "success",
+      "summary": "Tick complete. Silent — Sun 22:00 closes Sunday 5/5 silent. Sun 21:00 State Consolidation ~1h ago already owned this week's mandatory state rewrite via memory_correct; ledger unchanged 49d; markets cl",
+      "details": null,
+      "cost_usd": 1.67740375,
+      "total_tokens": 12222
     },
     {
       "agent": "goal-progress-reconciliation",
