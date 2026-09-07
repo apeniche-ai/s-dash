@@ -181,10 +181,12 @@
     {
       "agent": "weekly-side-income-tracker",
       "timestamp": "2026-09-07T00:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Side-Income Tracker...",
-      "details": null
+      "duration_seconds": 114.3,
+      "status": "success",
+      "summary": "Sent the first non-silent tracker message. Mercor + METR are both in screening; Surge is dead (Colombia region-blocked); the three $400/hr expert networks (Office Hours, GLG, AlphaSights) are the one ",
+      "details": null,
+      "cost_usd": 1.1134215,
+      "total_tokens": 4859
     },
     {
       "agent": "passive-income-research-loop",
