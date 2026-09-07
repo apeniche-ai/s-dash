@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-side-income-tracker",
+      "timestamp": "2026-09-07T00:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Side-Income Tracker...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-06T23:02:14Z",
       "duration_seconds": 132.4,
@@ -4777,16 +4785,6 @@
       "details": null,
       "cost_usd": 1.08270425,
       "total_tokens": 6547
-    },
-    {
-      "agent": "weekly-coaching-digest",
-      "timestamp": "2026-08-24T01:30:00Z",
-      "duration_seconds": 140.4,
-      "status": "success",
-      "summary": "Digest delivered to the coaching channel. Stored as memory `01M0RPAFGR4MTEETWCD9ZJEWDS` for next week's comparison.",
-      "details": null,
-      "cost_usd": 1.338481,
-      "total_tokens": 7257
     }
   ]
 }
