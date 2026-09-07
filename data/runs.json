@@ -181,10 +181,12 @@
     {
       "agent": "soren-improvement-review",
       "timestamp": "2026-09-07T22:10:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Soren Improvement Review...",
-      "details": null
+      "duration_seconds": 160.9,
+      "status": "success",
+      "summary": "Nudge sent. Tied the Scout-to-Draft proposal to Saturday's wife-career \"Run both\" moment — the freshest live example of the exact class of failure it fixes. No new proposal today: the 65-item queue is",
+      "details": null,
+      "cost_usd": 1.39102425,
+      "total_tokens": 7694
     },
     {
       "agent": "pr-reviewer",
