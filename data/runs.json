@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-09-07T12:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-07T12:19:17Z",
       "duration_seconds": 0.9,
@@ -4778,16 +4786,6 @@
       "details": null,
       "cost_usd": 1.56886725,
       "total_tokens": 19438
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-24T12:30:41Z",
-      "duration_seconds": 274.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4790 [TTPAI-195/205] Correct the source and scope of batch-generated lesson summaries → Approved + Browser QA Skipped (backend sync service + prompt-marker stripping + batch-job scope",
-      "details": null,
-      "cost_usd": 2.8063582499999993,
-      "total_tokens": 16796
     }
   ]
 }
