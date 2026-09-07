@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-09-07T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 126.8,
+      "status": "success",
+      "summary": "Done. 9 stagnant PRs on ttp flagged to pr-reviews (0 on admissions). 4 are Amaury's own (#4565, #4589, #4673, #4659); the oldest is Felipe's #4390 at 164 days.",
+      "details": null,
+      "cost_usd": 1.1494317500000002,
+      "total_tokens": 5903
     },
     {
       "agent": "weekly-team-shipping-report",
