@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-07T11:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 160.6,
+      "status": "success",
+      "summary": "Tick complete. Silent — Mon Sep 7 06:00 pre-dawn Bogotá, US markets CLOSED Labor Day, state ~9h fresh from Sun 21:00 consolidation, ledger unchanged 50d, no PI-lane signal. Log written; no notify, no ",
+      "details": null,
+      "cost_usd": 1.6526962499999998,
+      "total_tokens": 10880
     },
     {
       "agent": "pr-reviewer",
