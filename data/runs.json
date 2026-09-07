@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-vp-performance-edge",
+      "timestamp": "2026-09-07T12:02:46Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly VP Performance Edge...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-07T12:00:00Z",
       "duration_seconds": 166.1,
@@ -4777,16 +4785,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-24T12:04:55Z",
-      "duration_seconds": 235.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4776 [TTPAI-286] Add Maren chatbot server-owned conversation history and a cacheable prompt prefix → Approved + Browser QA Skipped (chatbot needs live Anthropic creds + multi-turn sta",
-      "details": null,
-      "cost_usd": 2.3028412499999997,
-      "total_tokens": 13746
     }
   ]
 }
