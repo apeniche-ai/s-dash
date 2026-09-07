@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-09-07T12:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "performance-check-in-(mon/wed/fri)",
       "timestamp": "2026-09-07T11:34:43Z",
       "duration_seconds": 160.1,
@@ -4777,16 +4785,6 @@
       "details": null,
       "cost_usd": 2.3028412499999997,
       "total_tokens": 13746
-    },
-    {
-      "agent": "weekly-vp-performance-edge",
-      "timestamp": "2026-08-24T12:02:17Z",
-      "duration_seconds": 157.7,
-      "status": "success",
-      "summary": "Shipped Tip #13 — \"Kill the Backlog Ghosts\" — to the career channel, and stored in memory as `01M0STHAVEDJ0NH5C2PR6718TF` for future dedup.",
-      "details": null,
-      "cost_usd": 1.3856935000000001,
-      "total_tokens": 8411
     }
   ]
 }
