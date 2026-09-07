@@ -181,10 +181,12 @@
     {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-09-07T01:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Coaching Digest...",
-      "details": null
+      "duration_seconds": 145.4,
+      "status": "success",
+      "summary": "Digest delivered to the coaching channel. Stored as memory `01M1WQWSKGB1FAMXZF2WK6T6T4` for next week's comparison.",
+      "details": null,
+      "cost_usd": 1.28361825,
+      "total_tokens": 7475
     },
     {
       "agent": "weekly-side-income-tracker",
