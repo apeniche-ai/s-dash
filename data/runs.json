@@ -181,10 +181,12 @@
     {
       "agent": "weekly-goal-review",
       "timestamp": "2026-09-07T14:08:53Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Goal Review...",
-      "details": null
+      "duration_seconds": 65.0,
+      "status": "success",
+      "summary": "Not applicable — this was a linear scripted procedure (reconcile → load 4 sources → assess → notify), now complete. Report delivered to Telegram.",
+      "details": null,
+      "cost_usd": 0.93358625,
+      "total_tokens": 3821
     },
     {
       "agent": "pr-reviewer",
