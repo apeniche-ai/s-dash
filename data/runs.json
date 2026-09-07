@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-07T21:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 136.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4835 [6422] Turns off Bootstrap transitions in browser specs so a modal can always be dismissed → Approved + Browser QA Skipped (spec-only)",
+      "details": null,
+      "cost_usd": 1.735333,
+      "total_tokens": 5888
     },
     {
       "agent": "pr-reviewer",
