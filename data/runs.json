@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-07T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-07T20:31:19Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4774,16 +4782,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-24T21:04:27Z",
-      "duration_seconds": 208.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4782 [TTPAI-288] Add exercise bank judging hardening, revision service, and unified AI exercises console → Approved + Browser QA Skipped (admin console workflow, TTPAI)",
-      "details": null,
-      "cost_usd": 2.44056425,
-      "total_tokens": 12454
     }
   ]
 }
