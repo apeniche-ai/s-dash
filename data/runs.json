@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-state-consolidation",
+      "timestamp": "2026-09-07T02:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income State Consolidation...",
+      "details": null
+    },
+    {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-09-07T01:30:01Z",
       "duration_seconds": 145.4,
@@ -4777,16 +4785,6 @@
       "details": null,
       "cost_usd": 1.412177,
       "total_tokens": 9773
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-08-24T02:30:01Z",
-      "duration_seconds": 12.7,
-      "status": "success",
-      "summary": "Nothing to reconcile. Exiting silently.",
-      "details": null,
-      "cost_usd": 0.56899575,
-      "total_tokens": 254
     }
   ]
 }
