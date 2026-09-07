@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-09-07T17:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 77.8,
+      "status": "success",
+      "summary": "Slack cache is still down — same error as this morning's 08:30 run. Amaury already knows (he was notified then). No duplicate alert sent. Failure logged for the 15:30 run.",
+      "details": null,
+      "cost_usd": 0.2981308,
+      "total_tokens": 3315
     },
     {
       "agent": "admissions-pr-reviewer",
