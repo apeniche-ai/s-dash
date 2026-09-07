@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-09-07T21:02:17Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-07T21:00:01Z",
       "duration_seconds": null,
@@ -4774,14 +4782,6 @@
       "details": null,
       "cost_usd": 3.762444,
       "total_tokens": 21996
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-08-24T21:15:01Z",
-      "duration_seconds": 0.8,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
