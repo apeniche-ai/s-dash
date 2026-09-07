@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-07T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 182.8,
+      "status": "success",
+      "summary": "Acknowledged and not applicable to this linear scripted scheduled loop — the tick procedure is a fixed 6-step sequence, and log-tier memory is the tracking mechanism per system prompt STEP 4 (already ",
+      "details": null,
+      "cost_usd": 1.6545117500000002,
+      "total_tokens": 12916
     },
     {
       "agent": "pr-reviewer",
