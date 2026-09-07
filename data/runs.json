@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-07T21:15:02Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-09-07T21:02:17Z",
       "duration_seconds": 295.1,
@@ -4776,16 +4784,6 @@
       "details": null,
       "cost_usd": 1.3343145,
       "total_tokens": 7869
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-24T21:30:01Z",
-      "duration_seconds": 515.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (CI red — ~60 spec failures + HAML-Lint + Rubocop; biggest cluster is `Ai::SubsectionPolicy.capable?` in 14 ",
-      "details": null,
-      "cost_usd": 3.762444,
-      "total_tokens": 21996
     }
   ]
 }
