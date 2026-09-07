@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-09-07T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "passive-income-state-consolidation",
       "timestamp": "2026-09-07T02:00:00Z",
       "duration_seconds": 182.1,
@@ -4777,16 +4785,6 @@
       "details": null,
       "cost_usd": 3.2288272499999993,
       "total_tokens": 19827
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-08-24T03:00:01Z",
-      "duration_seconds": 181.9,
-      "status": "success",
-      "summary": "Not applicable — this is a linear scheduled research tick with no multi-step task tracking needed. Log-tier memory is the tracking mechanism per system prompt STEP 4. Tick complete.",
-      "details": null,
-      "cost_usd": 1.412177,
-      "total_tokens": 9773
     }
   ]
 }
