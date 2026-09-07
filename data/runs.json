@@ -180,6 +180,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-07T10:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-07T10:00:03Z",
       "duration_seconds": 304.5,
       "status": "success",
@@ -4777,16 +4785,6 @@
       "details": null,
       "cost_usd": 2.5055015,
       "total_tokens": 16052
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-08-24T11:00:01Z",
-      "duration_seconds": 131.9,
-      "status": "success",
-      "summary": "Not applicable — this is a linear scheduled research tick with no multi-step task tracking needed. Log-tier memory is the tracking mechanism per system prompt STEP 4. Tick complete.",
-      "details": null,
-      "cost_usd": 1.5896520000000003,
-      "total_tokens": 7910
     }
   ]
 }
