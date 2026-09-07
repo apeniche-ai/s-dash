@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-07T11:02:41Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 328.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4831 [6405] Route the OnDemand video checks through one shared helper → Changes Requested (broken helper spec regression + missing Jira coverage) + Browser QA Skipped (fresh REQUEST_C",
+      "details": null,
+      "cost_usd": 2.7191552500000005,
+      "total_tokens": 21351
     },
     {
       "agent": "passive-income-research-loop",
