@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-08T20:36:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 331.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4837 [TTPAI-311] Adds a way back into a support conversation after a Maren handoff → Approved + Browser QA Skipped (stacked on unmerged #4809)",
+      "details": null,
+      "cost_usd": 2.6115845,
+      "total_tokens": 17616
     },
     {
       "agent": "slack-watch",
