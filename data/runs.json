@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-08T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 191.3,
+      "status": "success",
+      "summary": "Silent tick complete. JEPQ intraday gave back the morning gap-open (~$60.13 → ~$59.72), landing essentially flat vs Fri close — sub-material below the 1% surface threshold. No PI-lane engagement from ",
+      "details": null,
+      "cost_usd": 1.7680565000000001,
+      "total_tokens": 13010
     },
     {
       "agent": "pr-reviewer",
