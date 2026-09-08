@@ -181,10 +181,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-09-08T12:36:29Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 108.9,
+      "status": "success",
+      "summary": "Silent exit. Todo list is empty, no reminders due, no recent completions. No Telegram sent. Bookkeeping stored.",
+      "details": null,
+      "cost_usd": 0.3519536,
+      "total_tokens": 1597
     },
     {
       "agent": "pr-reviewer",
