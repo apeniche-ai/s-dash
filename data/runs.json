@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-08T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 225.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4840 [6424] Restructure Score Analyzer form → Approved + Browser QA Skipped (env: bundler gems missing on branch)",
+      "details": null,
+      "cost_usd": 2.2974954999999997,
+      "total_tokens": 12745
     },
     {
       "agent": "slack-watch",
