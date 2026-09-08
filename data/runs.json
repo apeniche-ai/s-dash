@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-08T15:03:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 113.7,
+      "status": "success",
+      "summary": "Label added. The previous run at ~09:02 Bogotá had already approved this PR and posted Manual QA Steps but failed to add the \"Claude Reviewed\" label. State is now consistent — this run performed no ne",
+      "details": null,
+      "cost_usd": 1.3640554999999996,
+      "total_tokens": 6147
     },
     {
       "agent": "passive-income-research-loop",
