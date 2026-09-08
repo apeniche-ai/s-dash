@@ -181,10 +181,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-08T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 195.9,
+      "status": "success",
+      "summary": "Tick complete. Silent to Amaury per default (both alert triggers failed cleanly).",
+      "details": null,
+      "cost_usd": 1.860719,
+      "total_tokens": 11575
     },
     {
       "agent": "pr-reviewer",
