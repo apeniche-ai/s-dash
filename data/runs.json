@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-08T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 347.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4841 [6414] Personalized performance dashboard email after the first LiveTeach class → Approved + Browser QA Skipped (email-only feature, no browser surface)",
+      "details": null,
+      "cost_usd": 3.45359475,
+      "total_tokens": 20941
     },
     {
       "agent": "pr-reviewer",
