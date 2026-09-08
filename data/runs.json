@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-08T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 112.2,
+      "status": "success",
+      "summary": "Silent tick logged. Mon Sep 7 closed 5/5 silent — bedtime window, US markets closed Labor Day, ledger unchanged 50d, PI-lane silence intact ~114d. State ~25h fresh; no writes owed. Next tick Tue Sep 8",
+      "details": null,
+      "cost_usd": 1.352315,
+      "total_tokens": 7636
     },
     {
       "agent": "goal-progress-reconciliation",
