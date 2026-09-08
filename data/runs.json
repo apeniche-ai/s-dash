@@ -181,10 +181,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-09-08T21:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 335.8,
+      "status": "success",
+      "summary": "Task tools aren't applicable to this linear scripted scheduled loop — the log-tier memory is the tracking mechanism per the system prompt. Ignoring per documented pattern.",
+      "details": null,
+      "cost_usd": 1.92223,
+      "total_tokens": 18927
     },
     {
       "agent": "pr-reviewer",
