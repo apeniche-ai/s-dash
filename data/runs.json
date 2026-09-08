@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-08T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 269.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4838 [6423] Fix lesson navigation hang when subscription expires mid-session → Changes Requested (alert dropped on format.js branch, regression for XHR 2FA/unauthorized callers) + Bro",
+      "details": null,
+      "cost_usd": 2.2897262499999997,
+      "total_tokens": 13346
     },
     {
       "agent": "pr-reviewer",
