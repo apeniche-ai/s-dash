@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-08T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 228.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4839 [TTPAI-310] Clear broken quantitative-comparison practice questions → Approved + Browser QA Skipped (data migration, no user-facing surface)",
+      "details": null,
+      "cost_usd": 2.3635427499999997,
+      "total_tokens": 12233
     },
     {
       "agent": "admissions-pr-reviewer",
