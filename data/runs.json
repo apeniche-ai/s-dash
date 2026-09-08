@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-08T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 389.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4839 [TTPAI-310] Add data migration to clear broken quantitative-comparison practice questions → Approved + Browser QA Skipped (data migration, backend-only, self-verified)",
+      "details": null,
+      "cost_usd": 2.1301315,
+      "total_tokens": 18358
     },
     {
       "agent": "admissions-pr-reviewer",
