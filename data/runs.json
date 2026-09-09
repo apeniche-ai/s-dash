@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-09T11:32:44Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 317.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Changes Requested (Spec Shard Coverage CI failing — 2 new spec files not assigned to any CI shard)",
+      "details": null,
+      "cost_usd": 3.004509499999999,
+      "total_tokens": 16056
     },
     {
       "agent": "performance-check-in-(mon/wed/fri)",
