@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-09T19:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 155.0,
+      "status": "success",
+      "summary": "Task tools aren't applicable here — this is a linear scripted PR review procedure, not multi-step work worth tracking.",
+      "details": null,
+      "cost_usd": 1.7689685,
+      "total_tokens": 9167
     },
     {
       "agent": "admissions-pr-reviewer",
