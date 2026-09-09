@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-09T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 161.9,
+      "status": "success",
+      "summary": "Silent tick complete. Tue Sep 8 22:00 closes Tue weekday cadence 5/5 silent, 0/3 notify budget used. JEPQ Tue close $59.87 essentially flat (already logged at 18:00 tick, no fresh data post-close). No",
+      "details": null,
+      "cost_usd": 1.42715975,
+      "total_tokens": 10161
     },
     {
       "agent": "goal-progress-reconciliation",
