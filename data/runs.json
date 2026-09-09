@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-09T11:02:37Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 393.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4843 [TTPAI-320] Add RC group review: passage display, cascade decisions, group promotion → Changes Requested (critical: `apply_decision!` is private but called on external receivers ",
+      "details": null,
+      "cost_usd": 4.0414805000000005,
+      "total_tokens": 24924
     },
     {
       "agent": "passive-income-research-loop",
