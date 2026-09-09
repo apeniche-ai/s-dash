@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-09T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 191.8,
+      "status": "success",
+      "summary": "Tick complete. Silent to Amaury per rubric — no material catalyst, no PI-lane reply, JEPQ yield uptick sub-material, scout likely 0 candidates. Log-tier entry filed (id 01M23B3B3DX8K3S2QNTZ35PFW1). St",
+      "details": null,
+      "cost_usd": 1.6140370000000002,
+      "total_tokens": 11939
     },
     {
       "agent": "pr-reviewer",
