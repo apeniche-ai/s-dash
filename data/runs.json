@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-09-09T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 153.8,
+      "status": "success",
+      "summary": "Done. 10 stagnant PRs on ttp flagged to pr-reviews (0 on admissions). Oldest is Felipe's #4390 at 166 days. Four are Amaury's own (#4565, #4589, #4673, #4659). Excluded #4832 (labeled 26min ago, under",
+      "details": null,
+      "cost_usd": 1.286504,
+      "total_tokens": 5841
     },
     {
       "agent": "pr-reviewer",
