@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-09T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 589.1,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Changes Requested (Features User 1 CI regression + Action 5 Maren insight partial rendered twice half-fixed) + Browser QA",
+      "details": null,
+      "cost_usd": 5.406930499999998,
+      "total_tokens": 31491
     },
     {
       "agent": "admissions-pr-reviewer",
