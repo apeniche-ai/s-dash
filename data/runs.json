@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-09-09T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-09T12:30:58Z",
       "duration_seconds": 320.5,
@@ -4762,16 +4770,6 @@
       "details": null,
       "cost_usd": 1.448425,
       "total_tokens": 6976
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-26T13:00:02Z",
-      "duration_seconds": 207.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4784 [TTPAI-289] Retires file-store exercise reads and hardens database-driven bank serving → Approved + Browser QA Skipped (backend AI bank refactor, deploy-branch integration)",
-      "details": null,
-      "cost_usd": 2.86996425,
-      "total_tokens": 11963
     }
   ]
 }
