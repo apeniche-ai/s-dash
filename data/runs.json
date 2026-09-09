@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-09T15:03:13Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 484.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4809 [TTP-6214] Adds Maren Get Help chip as first-line support → Approved + Browser QA Skipped (dev server won't boot — bundler 2.6.9 missing)",
+      "details": null,
+      "cost_usd": 4.026689999999999,
+      "total_tokens": 21505
     },
     {
       "agent": "passive-income-research-loop",
