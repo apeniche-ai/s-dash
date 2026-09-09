@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-09T19:03:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 159.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4832 [TTPAI-313] Fix cost report pricing labels and large-request premium threshold → Changes Requested (AC #3 missing Gemini family fallback — silent zero on unknown gemini-* models)",
+      "details": null,
+      "cost_usd": 1.7024602500000001,
+      "total_tokens": 9228
     },
     {
       "agent": "passive-income-research-loop",
