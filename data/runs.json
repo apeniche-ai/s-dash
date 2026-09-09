@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-09T14:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 296.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4844 [TTPAI-321] Fix AI Tutor typewriter animation stalling when tab is hidden → Approved + Browser QA Skipped (bug requires real Chrome hidden-tab throttling + live AI backend + acti",
+      "details": null,
+      "cost_usd": 1.8157734999999997,
+      "total_tokens": 10158
     },
     {
       "agent": "admissions-pr-reviewer",
