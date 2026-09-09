@@ -181,10 +181,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-09-09T02:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 23.5,
+      "status": "success",
+      "summary": "Empty result — exiting silently per protocol.",
+      "details": null,
+      "cost_usd": 0.9162797500000001,
+      "total_tokens": 333
     },
     {
       "agent": "slack-watch",
