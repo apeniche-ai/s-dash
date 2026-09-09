@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-09T12:30:58Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 320.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4832 [TTPAI-313] Fix cost report pricing labels and large-request premium threshold → Changes Requested (missing Gemini family fallback per AC #3) + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 3.0745532500000006,
+      "total_tokens": 17768
     },
     {
       "agent": "daily-todo-digest",
