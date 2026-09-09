@@ -181,10 +181,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-09-09T21:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 375.3,
+      "status": "success",
+      "summary": "Daily Maren V0 check complete. Digest delivered to the assistant Telegram channel.",
+      "details": null,
+      "cost_usd": 2.6139937499999997,
+      "total_tokens": 22010
     },
     {
       "agent": "pr-reviewer",
