@@ -181,10 +181,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-09T12:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 213.0,
+      "status": "success",
+      "summary": "Task tools not applicable — this is a linear scripted scan loop; the passive-income-discovery-log memory tier is the tracking mechanism per system prompt STEP 5.",
+      "details": null,
+      "cost_usd": 1.8055477500000001,
+      "total_tokens": 11532
     },
     {
       "agent": "pr-reviewer",
