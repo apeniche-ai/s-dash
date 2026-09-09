@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-09T13:02:36Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 375.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4843 [TTPAI-320] Add RC group review: passage display, cascade decisions, group promotion → Approved + Browser QA Skipped (admin-only)",
+      "details": null,
+      "cost_usd": 3.9476827500000007,
+      "total_tokens": 23320
     },
     {
       "agent": "pr-follow-up-check",
