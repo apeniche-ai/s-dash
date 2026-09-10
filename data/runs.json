@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T21:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 229.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4829 [6412] Daily revenue reports hide revenue and read the other apps too early → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.2723880000000003,
+      "total_tokens": 13226
     },
     {
       "agent": "admissions-pr-reviewer",
