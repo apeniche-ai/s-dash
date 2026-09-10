@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 547.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4738 [6292] Add tabbed personalized-example generation with unified ExerciseService entry point → Changes Requested (CI failing on `exercises_spec.rb:100` in-flight generation case af",
+      "details": null,
+      "cost_usd": 4.8101572500000005,
+      "total_tokens": 32833
     },
     {
       "agent": "admissions-pr-reviewer",
