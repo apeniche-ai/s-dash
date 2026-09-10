@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 395.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4725 [TTPAI-242] AI Exercise Bank — Generation, Judging & Promotion → Changes Requested (two unresolved author-flagged Sep 5 issues: table columns lost in chatbot normalizer + fingerp",
+      "details": null,
+      "cost_usd": 2.962340249999999,
+      "total_tokens": 20897
     },
     {
       "agent": "admissions-pr-reviewer",
