@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 365.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4529 [6038] Add self-managed billing engine foundation → Approved + Browser QA Skipped (feature-flag-gated billing engine)",
+      "details": null,
+      "cost_usd": 3.7152237499999994,
+      "total_tokens": 18810
     },
     {
       "agent": "pr-reviewer",
