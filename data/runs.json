@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 331.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4725 [TTPAI-242] AI Exercise Bank — Generation, Judging & Promotion → Approved + Browser QA Skipped (admin AI pipeline, needs seeded bank data)",
+      "details": null,
+      "cost_usd": 2.52748675,
+      "total_tokens": 18145
     },
     {
       "agent": "admissions-pr-reviewer",
