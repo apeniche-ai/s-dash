@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T21:04:16Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 532.6,
+      "status": "success",
+      "summary": "Task tools not applicable — linear scripted PR review workflow.",
+      "details": null,
+      "cost_usd": 3.4131167500000004,
+      "total_tokens": 29533
     },
     {
       "agent": "maren-v0-launch-digest",
