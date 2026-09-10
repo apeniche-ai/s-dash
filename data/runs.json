@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T13:01:58Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 443.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot Epic → Approved (superseded an erroneous Changes Requested caused by a stale-sweep pagination bug; labels restored) + Browser QA Skippe",
+      "details": null,
+      "cost_usd": 2.5534117499999995,
+      "total_tokens": 21648
     },
     {
       "agent": "pr-follow-up-check",
