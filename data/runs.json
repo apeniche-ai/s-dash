@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-10T14:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-10T14:15:01Z",
       "duration_seconds": 0.9,
@@ -4773,16 +4781,6 @@
       "details": null,
       "cost_usd": 1.5980895,
       "total_tokens": 12350
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-27T14:30:01Z",
-      "duration_seconds": 438.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (CI red on 6 of 8 suites — real failures in `Ai::ChatbotService#resize_image_if_needed` and `summary_request",
-      "details": null,
-      "cost_usd": 2.8630005000000005,
-      "total_tokens": 21314
     }
   ]
 }
