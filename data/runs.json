@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T20:32:11Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 191.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4828 [6411] Lock the trial videos for students without a membership → Approved + Browser QA Skipped (feature-flag gated to GRE prod)",
+      "details": null,
+      "cost_usd": 1.81809575,
+      "total_tokens": 10573
     },
     {
       "agent": "slack-watch",
