@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T11:04:09Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 486.9,
+      "status": "success",
+      "summary": "Task tools not applicable — this is a linear scripted PR review procedure.",
+      "details": null,
+      "cost_usd": 3.33232725,
+      "total_tokens": 32621
     },
     {
       "agent": "passive-income-research-loop",
