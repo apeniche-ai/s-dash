@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 453.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Approved + Browser QA Skipped (361-file epic, human QA plan in TTPAI-147)",
+      "details": null,
+      "cost_usd": 3.041434,
+      "total_tokens": 23681
     },
     {
       "agent": "pr-reviewer",
