@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T19:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 257.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4819 [TTPAI-308] Fix an AI-generated exercise whose id equals its own source exercise_id → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.46184725,
+      "total_tokens": 14475
     },
     {
       "agent": "admissions-pr-reviewer",
