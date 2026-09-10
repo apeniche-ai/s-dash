@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-09-10T17:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 211.6,
+      "status": "success",
+      "summary": "alarmed 2 items: 🔴 Scott DM \"I have a question\" (09:09 Bogotá, 3h+ unanswered) + 🧭 Scott pinging across 5 channels since 09:09 with no visible response — DM, #dev ×2, group DM (conversion rates), #c",
+      "details": null,
+      "cost_usd": 0.49251525,
+      "total_tokens": 10236
     },
     {
       "agent": "admissions-pr-reviewer",
