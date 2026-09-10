@@ -181,10 +181,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-09-10T23:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 296.0,
+      "status": "success",
+      "summary": "alarmed 1 item: 🔥 Lorraine DM — student received GRE on-demand video email but can't find the videos (18:12 Bogotá), likely the same issue from yesterday's video outage.",
+      "details": null,
+      "cost_usd": 0.6086093,
+      "total_tokens": 17503
     },
     {
       "agent": "passive-income-research-loop",
