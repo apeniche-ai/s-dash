@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T16:04:37Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 424.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Approved + Browser QA Skipped (5-ticket epic, no single feature to exercise)",
+      "details": null,
+      "cost_usd": 3.0981500000000004,
+      "total_tokens": 21514
     },
     {
       "agent": "career-market-research-loop",
