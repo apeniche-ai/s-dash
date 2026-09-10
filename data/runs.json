@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-10T22:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 438.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Changes Requested (authorization guards missing on generate_exercise and search_exercise_bank tool",
+      "details": null,
+      "cost_usd": 2.76429225,
+      "total_tokens": 20442
     },
     {
       "agent": "pr-reviewer",
