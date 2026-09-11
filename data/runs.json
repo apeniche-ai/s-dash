@@ -157,8 +157,8 @@
       "name": "Improvement Review",
       "agent": "improvement-reviewer",
       "status": "enabled",
-      "schedule": "10 17 * * *",
-      "description": "Think big — identify high-leverage capability gaps and 10x improvements; propose 2-4 per week"
+      "schedule": "30 8 * * 6",
+      "description": "Weekly Saturday morning — one plain-English message with the week's best 1-3 improvement ideas, no buttons"
     },
     "performance-check-in-(mon/wed/fri)": {
       "id": "01KNW58WDBP08NMCDS0SEF8609",
