@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T15:07:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 502.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Changes Requested (live chapter count joins to flags and counts join rows, so a duplicate completed-flag re-hides the Cu",
+      "details": null,
+      "cost_usd": 1.8274313,
+      "total_tokens": 33987
     },
     {
       "agent": "passive-income-research-loop",
