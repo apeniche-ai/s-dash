@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 558.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4809 [TTP-6214] Adds Maren Get Help chip as first-line support → Approved + Browser QA Skipped (no Ruby 3.4.9 on this machine — dev server cannot boot)",
+      "details": null,
+      "cost_usd": 2.13215825,
+      "total_tokens": 35482
     },
     {
       "agent": "admissions-pr-reviewer",
