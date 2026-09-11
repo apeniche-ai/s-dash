@@ -179,6 +179,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-11T03:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-09-11T02:31:44Z",
       "duration_seconds": 39.6,
@@ -4797,16 +4805,6 @@
       "details": null,
       "cost_usd": 2.3348204999999997,
       "total_tokens": 14214
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-28T10:00:02Z",
-      "duration_seconds": 221.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4791 [TTPAI-290] Add EA-specific prompt files and component-level inheritance with section aliasing → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 2.426267,
-      "total_tokens": 10657
     }
   ]
 }
