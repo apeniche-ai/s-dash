@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T22:36:56Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 698.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Changes Requested (pooled_section_attempts re-derives testable_sections per section, loading the full in-track problem b",
+      "details": null,
+      "cost_usd": 2.629237350000001,
+      "total_tokens": 37433
     },
     {
       "agent": "pr-reviewer",
