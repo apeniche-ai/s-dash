@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T15:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 466.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4826 [TTPAI-309] Add page kinds and keeps Maren available during an open test → Changes Requested (chat turns from any page refresh the abandoned-test timer, so a student who walks aw",
+      "details": null,
+      "cost_usd": 2.3169068000000004,
+      "total_tokens": 30296
     },
     {
       "agent": "admissions-pr-reviewer",
