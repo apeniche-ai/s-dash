@@ -1,5 +1,13 @@
 {
   "agents": {
+    "opportunity-scout-(2x-daily)": {
+      "id": "01M277XX9TFFM62TKQCXTPR35Y",
+      "name": "Opportunity Scout (2x daily)",
+      "agent": "opportunity-scout",
+      "status": "enabled",
+      "schedule": "0 9,15 * * *",
+      "description": "9 AM and 3 PM daily — rotate one research avenue (AI-work listings, fractional market, exec-search/board, LatAm ecosystem, events/deadlines, bet re-verification), verify adversarially, surface only findings that pass the full evidence bar. Silent runs are the norm."
+    },
     "maren-v0-launch-digest": {
       "id": "01KZVABGJJ7YW2W9B57BTC00MN",
       "name": "Maren V0 Launch Digest",
