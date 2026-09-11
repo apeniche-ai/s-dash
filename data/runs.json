@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-(2x-daily)",
+      "timestamp": "2026-09-11T20:07:07Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout (2x daily)...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T20:00:01Z",
       "duration_seconds": null,
@@ -4850,14 +4858,6 @@
       "details": null,
       "cost_usd": 2.49796125,
       "total_tokens": 17235
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-28T21:30:01Z",
-      "duration_seconds": 1.1,
-      "status": "success",
-      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
