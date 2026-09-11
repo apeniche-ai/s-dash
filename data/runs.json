@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T11:07:43Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 427.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4809 [TTP-6214] Adds Maren Get Help chip as first-line support → Approved + Browser QA Skipped (local Ruby/bundler environment broken — reported to Telegram, silent on GitHub)",
+      "details": null,
+      "cost_usd": 2.0261156,
+      "total_tokens": 32121
     },
     {
       "agent": "passive-income-research-loop",
