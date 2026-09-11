@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-11T16:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-11T16:16:52Z",
       "duration_seconds": 0.9,
@@ -4833,16 +4841,6 @@
       "details": null,
       "cost_usd": 2.0161427499999998,
       "total_tokens": 13552
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-08-28T17:32:15Z",
-      "duration_seconds": 299.2,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4806 [6396] Install the OpenAI Ads measurement pixel → Approved + Browser QA Skipped (pixel merges dark, spec-covered refactor)",
-      "details": null,
-      "cost_usd": 3.16545275,
-      "total_tokens": 18976
     }
   ]
 }
