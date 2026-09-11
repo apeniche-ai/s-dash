@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T13:02:56Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 299.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Approved + Browser QA Skipped (local Ruby/bundler env broken — `bundle exec` aborts, reported to T",
+      "details": null,
+      "cost_usd": 1.6560428,
+      "total_tokens": 23839
     },
     {
       "agent": "pr-follow-up-check",
