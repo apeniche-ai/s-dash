@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T12:04:05Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 345.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4826 [TTPAI-309] Add page kinds and keeps Maren available during an open test → Changes Requested (panel gate made conditional instead of removed, so students on evaluations#start and",
+      "details": null,
+      "cost_usd": 1.5381309999999997,
+      "total_tokens": 26689
     },
     {
       "agent": "passive-income-discovery-scan",
