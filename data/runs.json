@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T12:30:43Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 416.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4829 [6412] Daily revenue reports hide revenue and read the other apps too early → Approved + Browser QA Skipped (report emails only, no user-facing surface)",
+      "details": null,
+      "cost_usd": 1.6822611500000004,
+      "total_tokens": 31727
     },
     {
       "agent": "daily-todo-digest",
