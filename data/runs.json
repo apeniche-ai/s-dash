@@ -189,10 +189,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-09-11T20:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 93.4,
+      "status": "success",
+      "summary": "Slack's cache was empty on all 5 channels — same \"not found in empty cache\" error as the 08:30 and 12:30 runs. Retried once (immediately, since the harness blocks standalone `sleep`), still failing. T",
+      "details": null,
+      "cost_usd": 0.8812634500000002,
+      "total_tokens": 8807
     },
     {
       "agent": "admissions-pr-reviewer",
