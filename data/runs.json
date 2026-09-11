@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-11T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 243.2,
+      "status": "success",
+      "summary": "Scanned 8 sources (7 OK; Indie Hackers returned no content and was skipped — Reddit not attempted, still blocked), found 9 raw candidates, wrote 0 findings. Everything dropped at the filter: four vend",
+      "details": null,
+      "cost_usd": 1.1819749,
+      "total_tokens": 18528
     },
     {
       "agent": "performance-check-in-(mon/wed/fri)",
