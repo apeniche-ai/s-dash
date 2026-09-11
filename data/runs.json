@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T13:32:38Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 498.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4851 [6292] Fix chat answering about the wrong example and supports generated ones → Changes Requested (personalized examples resolve `number_in_lesson` against the wrong id space, re",
+      "details": null,
+      "cost_usd": 2.5762433,
+      "total_tokens": 38899
     },
     {
       "agent": "slack-watch",
