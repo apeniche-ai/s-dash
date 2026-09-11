@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T18:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 472.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4833 [6415] Replace stale Font Awesome 5.15.1 webfonts with matching 6.7.2 versions → Approved + Browser QA Skipped (dev server failed to boot — bundler 2.6.9 missing)",
+      "details": null,
+      "cost_usd": 1.9305309000000002,
+      "total_tokens": 27642
     },
     {
       "agent": "pr-reviewer",
