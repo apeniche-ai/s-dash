@@ -197,10 +197,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T20:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 427.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Changes Requested (Rubocop, HAML-Lint and Features User 4 failing on branch while master is green;",
+      "details": null,
+      "cost_usd": 1.9982588999999997,
+      "total_tokens": 27569
     },
     {
       "agent": "pr-reviewer",
