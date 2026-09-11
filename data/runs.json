@@ -189,10 +189,13 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T20:31:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 12.4,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage"
+      ]
     },
     {
       "agent": "slack-watch",
