@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-11T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 288.9,
+      "status": "success",
+      "summary": "Reviewed 1 PR: #4725 [TTPAI-242] AI Exercise Bank — Generation, Judging & Promotion → Changes Requested (unclassified `judge_confidence` column failing the privacy drift guard; MSR cost spec compares ",
+      "details": null,
+      "cost_usd": 1.325963,
+      "total_tokens": 23633
     },
     {
       "agent": "admissions-pr-reviewer",
