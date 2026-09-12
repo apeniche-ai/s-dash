@@ -189,10 +189,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-09-12T05:00:58Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 29.2,
+      "status": "success",
+      "summary": "Reconcile done. One delta:",
+      "details": null,
+      "cost_usd": 0.5104441000000001,
+      "total_tokens": 4541
     },
     {
       "agent": "passive-income-research-loop",
