@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-12T11:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 252.8,
+      "status": "success",
+      "summary": "Tick complete — **silent, nothing sent to Telegram.** Correct call: it's 6 AM Saturday, Monday's MentalTune conversation is already fully prepped, and the one idea I generated this tick died on valida",
+      "details": null,
+      "cost_usd": 1.3743696000000003,
+      "total_tokens": 20361
     },
     {
       "agent": "passive-income-research-loop",
