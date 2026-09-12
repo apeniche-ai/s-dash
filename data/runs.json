@@ -189,10 +189,13 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-09-12T21:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 603.0,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code timed out after 600s"
+      ]
     },
     {
       "agent": "opportunity-scout-(2x-daily)",
