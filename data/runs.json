@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-(2x-daily)",
+      "timestamp": "2026-09-12T20:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout (2x daily)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-12T19:00:01Z",
       "duration_seconds": 229.8,
@@ -4864,16 +4872,6 @@
       "details": null,
       "cost_usd": 1.5654065,
       "total_tokens": 11099
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-01T19:00:01Z",
-      "duration_seconds": 257.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4810 [TTPAI-242] Content faults → Changes Requested (CI red on 4 branch-code specs + Actions 6/8/9/10/11 status unconfirmed) + Browser QA Skipped (AI backend + admin-only)",
-      "details": null,
-      "cost_usd": 2.71307175,
-      "total_tokens": 13334
     }
   ]
 }
