@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-12T19:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-12T16:00:00Z",
       "duration_seconds": 288.9,
@@ -4864,16 +4872,6 @@
       "details": null,
       "cost_usd": 2.71307175,
       "total_tokens": 13334
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-01T18:30:02Z",
-      "duration_seconds": 209.2,
-      "status": "success",
-      "summary": "No batches, no new review authored this run — #4770's label state was reconciled with its existing 1-hour-old review from apeniche-ai (same head commit, no new pushes). Silent exit per work-hours rule",
-      "details": null,
-      "cost_usd": 1.79523425,
-      "total_tokens": 13657
     }
   ]
 }
