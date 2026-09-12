@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-09-12T12:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-12T11:00:01Z",
       "duration_seconds": 252.8,
@@ -4860,16 +4868,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-09-01T16:20:18Z",
-      "duration_seconds": 344.6,
-      "status": "success",
-      "summary": "Tick complete. Silent per rules — no TTP negative, no fresh high-fit role.",
-      "details": null,
-      "cost_usd": 1.9923385,
-      "total_tokens": 14183
     }
   ]
 }
