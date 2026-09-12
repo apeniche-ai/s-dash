@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-12T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 247.7,
+      "status": "success",
+      "summary": "Scanned 8 sources (7 OK; Indie Hackers failed again — JS-rendered, WebFetch sees only the nav shell; Reddit not attempted, still blocked). Found 11 raw candidates, wrote 0 findings — everything droppe",
+      "details": null,
+      "cost_usd": 1.1323871000000003,
+      "total_tokens": 18181
     },
     {
       "agent": "passive-income-research-loop",
