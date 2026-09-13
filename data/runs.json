@@ -189,10 +189,12 @@
     {
       "agent": "opportunity-scout-(2x-daily)",
       "timestamp": "2026-09-13T20:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout (2x daily)...",
-      "details": null
+      "duration_seconds": 241.3,
+      "status": "success",
+      "summary": "**Silent run — nothing sent to Telegram.** Nothing cleared the bar.",
+      "details": null,
+      "cost_usd": 1.0486692499999997,
+      "total_tokens": 18985
     },
     {
       "agent": "passive-income-research-loop",
