@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-09-13T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-12T23:00:01Z",
       "duration_seconds": 551.5,
@@ -4867,16 +4875,6 @@
       "details": null,
       "cost_usd": 1.9950435,
       "total_tokens": 11071
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-01T19:30:01Z",
-      "duration_seconds": 380.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4813 [TTP-6402] Fix chatbot widget rendering when trial lesson limit is reached → Approved + Browser QA Skipped (dev server bundler mismatch)",
-      "details": null,
-      "cost_usd": 4.34269675,
-      "total_tokens": 16628
     }
   ]
 }
