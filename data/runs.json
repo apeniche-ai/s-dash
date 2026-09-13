@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-(2x-daily)",
+      "timestamp": "2026-09-13T14:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout (2x daily)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-13T12:00:01Z",
       "duration_seconds": 237.1,
@@ -4872,14 +4880,6 @@
       "details": null,
       "cost_usd": 3.35752825,
       "total_tokens": 34832
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-01T20:35:56Z",
-      "duration_seconds": 2.6,
-      "status": "success",
-      "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
