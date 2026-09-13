@@ -189,10 +189,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-09-13T02:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 15.6,
+      "status": "success",
+      "summary": "Reconcile ran clean — nothing changed. All goal tasks are already accurate, so no Telegram sent.",
+      "details": null,
+      "cost_usd": 0.4441844,
+      "total_tokens": 3996
     },
     {
       "agent": "passive-income-research-loop",
