@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-weekly-digest",
+      "timestamp": "2026-09-13T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Weekly Digest...",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-09-13T21:00:01Z",
       "duration_seconds": 351.5,
@@ -4880,16 +4888,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-09-01T22:10:01Z",
-      "duration_seconds": 172.1,
-      "status": "success",
-      "summary": "Nudge sent for **Quarterly merge autopsy** (~2 months stale, never nudged, addresses P10 DEFENSE). No new proposal today — Meeting Debrief went out 3 days ago and nothing in my current thinking clears",
-      "details": null,
-      "cost_usd": 1.2746510000000002,
-      "total_tokens": 8073
     }
   ]
 }
