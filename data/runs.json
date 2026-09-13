@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-13T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 237.1,
+      "status": "success",
+      "summary": "Scan complete, silent as designed — no notification sent.",
+      "details": null,
+      "cost_usd": 1.1714654500000001,
+      "total_tokens": 16154
     },
     {
       "agent": "passive-income-research-loop",
