@@ -197,10 +197,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-14T15:00:11Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 345.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4858 [6446] Fix admin dashboard charts grouping days in UTC → Approved + Browser QA Skipped (local Rails env cannot boot — missing gems)",
+      "details": null,
+      "cost_usd": 1.7073250500000003,
+      "total_tokens": 23919
     },
     {
       "agent": "passive-income-research-loop",
