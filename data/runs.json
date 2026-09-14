@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-14T15:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-14T14:30:02Z",
       "duration_seconds": 1.2,
@@ -4901,16 +4909,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-02T17:00:01Z",
-      "duration_seconds": 284.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4807 [TTPAI-205/22] Keep banked summaries current, and check every one a student sees → Approved + Browser QA Skipped (epic-targeted, can't exercise locally)",
-      "details": null,
-      "cost_usd": 2.6271115,
-      "total_tokens": 15499
     }
   ]
 }
