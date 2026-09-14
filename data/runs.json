@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-14T15:15:01Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-14T15:05:55Z",
       "duration_seconds": 10.2,
@@ -4905,16 +4913,6 @@
       "details": null,
       "cost_usd": 4.331255000000001,
       "total_tokens": 25340
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-02T17:31:22Z",
-      "duration_seconds": 312.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4765 [6314] Add Expired Trial Dashboard No Data state screen → Approved + Browser QA Skipped (feature only renders for expired student with <2 planner moves, can't exercise locally)",
-      "details": null,
-      "cost_usd": 2.96804425,
-      "total_tokens": 17096
     }
   ]
 }
