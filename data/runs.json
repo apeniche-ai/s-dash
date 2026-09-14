@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-side-income-tracker",
+      "timestamp": "2026-09-14T00:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Side-Income Tracker...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-13T23:02:12Z",
       "duration_seconds": 556.5,
@@ -4884,14 +4892,6 @@
       "details": null,
       "cost_usd": 1.7760170000000002,
       "total_tokens": 16774
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-01T22:30:02Z",
-      "duration_seconds": 1.5,
-      "status": "success",
-      "summary": "No PRs to review — 40 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
