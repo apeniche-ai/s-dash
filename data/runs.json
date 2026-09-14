@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-14T14:30:02Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-14T14:15:01Z",
       "duration_seconds": 0.8,
@@ -4903,16 +4911,6 @@
       "details": null,
       "cost_usd": 2.6271115,
       "total_tokens": 15499
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-02T16:30:01Z",
-      "duration_seconds": 328.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4758 [6298] Add expired trial dashboard with data state → Approved + Browser QA Skipped (needs expired-account fixture)",
-      "details": null,
-      "cost_usd": 3.1658527499999987,
-      "total_tokens": 18096
     }
   ]
 }
