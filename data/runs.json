@@ -197,10 +197,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-14T12:30:25Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 426.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4849 [6435] Report specs that cannot fail on the pull request → Approved + Browser QA Skipped (CI script, workflow config, docs and two spec files — zero application code)",
+      "details": null,
+      "cost_usd": 1.815735,
+      "total_tokens": 29825
     },
     {
       "agent": "daily-todo-digest",
