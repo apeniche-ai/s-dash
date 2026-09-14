@@ -189,10 +189,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-09-14T20:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 83.7,
+      "status": "success",
+      "summary": "Retry scheduled — waiting ~90 seconds for the Slack cache to rebuild before re-attempting the scan.",
+      "details": null,
+      "cost_usd": 1.1097670999999998,
+      "total_tokens": 9400
     },
     {
       "agent": "admissions-pr-reviewer",
