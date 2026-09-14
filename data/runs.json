@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-14T23:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-14T22:30:01Z",
       "duration_seconds": 1.0,
@@ -4889,16 +4897,6 @@
       "details": null,
       "cost_usd": 1.428801,
       "total_tokens": 8869
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-03T11:30:02Z",
-      "duration_seconds": 385.2,
-      "status": "success",
-      "summary": "Task tools reminder — not applicable to this linear scripted PR review workflow.",
-      "details": null,
-      "cost_usd": 3.7857892499999997,
-      "total_tokens": 24189
     }
   ]
 }
