@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-14T21:06:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 670.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4809 [TTP-6214] Adds Maren Get Help chip as first-line support → Changes Requested (PR's own new spec `ai_assist_streaming_spec.rb:125`, added today to lock in the previous fix, fails",
+      "details": null,
+      "cost_usd": 2.9598890999999994,
+      "total_tokens": 47476
     },
     {
       "agent": "maren-v0-launch-digest",
