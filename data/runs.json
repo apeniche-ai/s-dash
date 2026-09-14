@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-14T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 633.8,
+      "status": "success",
+      "summary": "Done. Results batched to memory (05:30 is outside work hours, so no Telegram) and the sweep bug filed as a high-priority suggestion.",
+      "details": null,
+      "cost_usd": 2.4485533500000005,
+      "total_tokens": 45599
     },
     {
       "agent": "pr-reviewer",
