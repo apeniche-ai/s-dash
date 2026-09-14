@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-14T10:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-14T10:00:03Z",
       "duration_seconds": 578.0,
       "status": "success",
@@ -4885,16 +4893,6 @@
       "details": null,
       "cost_usd": 1.8704412499999998,
       "total_tokens": 13596
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-02T10:30:01Z",
-      "duration_seconds": 375.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4587 [6198] Add Lesson Summary Screen Multi-State Design Implementation → Approved + Browser QA Skipped (dev server boot failure: missing bundler 2.6.9)",
-      "details": null,
-      "cost_usd": 3.0772269999999993,
-      "total_tokens": 18841
     }
   ]
 }
