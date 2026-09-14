@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-14T13:30:12Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 384.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4854 [6442] Port GMAT On Demand solution videos to identical GRE and EA problems → Approved + Browser QA Skipped (local Ruby env broken — bundler 2.6.9 missing; migration also only ru",
+      "details": null,
+      "cost_usd": 2.1255694999999997,
+      "total_tokens": 25510
     },
     {
       "agent": "slack-watch",
