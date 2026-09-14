@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-14T11:04:39Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 442.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4845 [6434] Backfill video pipeline status for examples/problems with ondemand videos → Approved + Browser QA Skipped (local dev env missing 7 gems, cannot boot Rails)",
+      "details": null,
+      "cost_usd": 2.1301144499999998,
+      "total_tokens": 32080
     },
     {
       "agent": "passive-income-research-loop",
