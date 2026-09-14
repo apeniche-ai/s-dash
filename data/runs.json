@@ -197,10 +197,13 @@
     {
       "agent": "colombia-mintic-transition-watch",
       "timestamp": "2026-09-14T14:00:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Colombia MinTIC Transition Watch...",
-      "details": null
+      "duration_seconds": 8.4,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
+      ]
     },
     {
       "agent": "opportunity-scout-(2x-daily)",
