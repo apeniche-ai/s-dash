@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-14T10:00:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-14T03:00:01Z",
       "duration_seconds": 605.2,
@@ -4885,16 +4893,6 @@
       "details": null,
       "cost_usd": 3.0772269999999993,
       "total_tokens": 18841
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-02T10:00:04Z",
-      "duration_seconds": 221.7,
-      "status": "success",
-      "summary": "Task tools not applicable — linear scripted PR review workflow, already complete.",
-      "details": null,
-      "cost_usd": 2.5673872499999995,
-      "total_tokens": 13148
     }
   ]
 }
