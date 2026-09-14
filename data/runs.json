@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-(2x-daily)",
+      "timestamp": "2026-09-14T14:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout (2x daily)...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-09-14T13:36:35Z",
       "duration_seconds": 9.4,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 3.485867,
       "total_tokens": 27350
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-02T15:00:01Z",
-      "duration_seconds": 240.4,
-      "status": "success",
-      "summary": "Tick complete. Silent — no notification sent.",
-      "details": null,
-      "cost_usd": 1.85333475,
-      "total_tokens": 14762
     }
   ]
 }
