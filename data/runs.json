@@ -189,10 +189,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-09-14T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 205.5,
+      "status": "success",
+      "summary": "Sent to the pr-reviews channel.",
+      "details": null,
+      "cost_usd": 0.73134715,
+      "total_tokens": 11411
     },
     {
       "agent": "weekly-team-shipping-report",
