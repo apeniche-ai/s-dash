@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-09-14T13:36:35Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-14T13:30:12Z",
       "duration_seconds": 384.0,
@@ -4898,16 +4906,6 @@
       "details": null,
       "cost_usd": 1.85333475,
       "total_tokens": 14762
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-02T14:30:02Z",
-      "duration_seconds": 356.3,
-      "status": "success",
-      "summary": "Ignoring the task-tools reminder — linear scripted review.",
-      "details": null,
-      "cost_usd": 2.6851837500000006,
-      "total_tokens": 18251
     }
   ]
 }
