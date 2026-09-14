@@ -197,10 +197,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-14T12:08:39Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 437.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4848 [6432] Hide Concept Masteries bookmarks tab when no active content exists → Approved + Browser QA Skipped (local env cannot boot Rails — rbenv not initialized in job shell, ~40 g",
+      "details": null,
+      "cost_usd": 2.338089,
+      "total_tokens": 29320
     },
     {
       "agent": "weekly-vp-performance-edge",
