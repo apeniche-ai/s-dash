@@ -189,10 +189,13 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-09-14T12:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 23.9,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
+      ]
     },
     {
       "agent": "admissions-pr-reviewer",
