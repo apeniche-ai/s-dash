@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-14T18:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-14T18:00:03Z",
       "duration_seconds": 1.3,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 2.31872175,
       "total_tokens": 26899
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-02T20:35:18Z",
-      "duration_seconds": 290.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4807 [TTPAI-205/22] Keep banked summaries current, and check every one a student sees → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 2.8864782499999992,
-      "total_tokens": 16000
     }
   ]
 }
