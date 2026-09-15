@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-09-15T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-15T21:00:01Z",
       "duration_seconds": 1.0,
@@ -4898,16 +4906,6 @@
       "details": null,
       "cost_usd": 2.9272855,
       "total_tokens": 19376
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-09-04T12:00:01Z",
-      "duration_seconds": 177.2,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 OK: HN Show HN + HN Ask HN + all 3 vendor changelogs; 4 blocked: Reddit day ~112 blackout on all 4 subs). Wrote 0 findings — 6 raw candidates dropped at filter (2 OpenAI Sep 3 ite",
-      "details": null,
-      "cost_usd": 1.8094932500000003,
-      "total_tokens": 10012
     }
   ]
 }
