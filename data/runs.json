@@ -189,10 +189,12 @@
     {
       "agent": "opportunity-scout-(2x-daily)",
       "timestamp": "2026-09-15T14:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout (2x daily)...",
-      "details": null
+      "duration_seconds": 344.1,
+      "status": "success",
+      "summary": "Run complete. **Silent — nothing sent to Telegram.** Seventh consecutive silent run.",
+      "details": null,
+      "cost_usd": 1.5745762499999998,
+      "total_tokens": 21218
     },
     {
       "agent": "pr-reviewer",
