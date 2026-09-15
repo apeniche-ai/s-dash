@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-15T16:04:26Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 48 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-15T16:00:01Z",
       "duration_seconds": 264.8,
@@ -4908,16 +4916,6 @@
       "details": null,
       "cost_usd": 2.08208075,
       "total_tokens": 11394
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-09-03T20:30:00Z",
-      "duration_seconds": 79.5,
-      "status": "success",
-      "summary": "**alarmed 1 item: Slack cache empty again — machine slept since the 12:30 run, no channels readable. Notified Amaury once, next retry at 18:30.**",
-      "details": null,
-      "cost_usd": 0.27873345,
-      "total_tokens": 3087
     }
   ]
 }
