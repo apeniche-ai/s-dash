@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-15T15:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 691.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4861 [6038] Charge purchases where the flag says and hand over the other provider's subscription → Changes Requested (handoff runs inline after the Recurly charge with only `Recurly::",
+      "details": null,
+      "cost_usd": 3.16878255,
+      "total_tokens": 43314
     },
     {
       "agent": "admissions-pr-reviewer",
