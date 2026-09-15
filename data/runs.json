@@ -189,10 +189,13 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-15T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 27.8,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
+      ]
     },
     {
       "agent": "pr-reviewer",
