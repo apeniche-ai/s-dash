@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-15T15:17:54Z",
+      "duration_seconds": 5.3,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-15T15:09:33Z",
       "duration_seconds": 8.4,
@@ -4906,16 +4914,6 @@
       "status": "success",
       "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-03T19:30:01Z",
-      "duration_seconds": 207.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4823 [6407] Stop the RSpec browser job timing out and cut the Actions bill → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 2.3321777499999996,
-      "total_tokens": 11960
     }
   ]
 }
