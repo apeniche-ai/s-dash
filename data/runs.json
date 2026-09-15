@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-15T12:31:14Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-09-15T12:30:00Z",
       "duration_seconds": 71.9,
@@ -4900,16 +4908,6 @@
       "status": "success",
       "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-03T15:10:23Z",
-      "duration_seconds": 374.3,
-      "status": "success",
-      "summary": "Silent tick. Thu 10:00 done. JEPQ Sep 3 opening $60.13 (+0.69% intraday recovery from Sep 2 close, nearly fully recovered from dip); $0.683 dividend confirmed pay day = $11.61 income (vs $11.56 estima",
-      "details": null,
-      "cost_usd": 1.810657,
-      "total_tokens": 14640
     }
   ]
 }
