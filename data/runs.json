@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-15T14:05:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 762.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4725 [TTPAI-242] AI Exercise Bank — Generation, Judging & Promotion → Changes Requested (admin `#upgraded` page 500s on Problem-promoted questions — `includes(:lesson)` on an STI set ",
+      "details": null,
+      "cost_usd": 2.6849279000000004,
+      "total_tokens": 46226
     },
     {
       "agent": "opportunity-scout-(2x-daily)",
