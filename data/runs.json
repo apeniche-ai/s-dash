@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-(2x-daily)",
+      "timestamp": "2026-09-15T20:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout (2x daily)...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-15T19:30:02Z",
       "duration_seconds": 1.2,
@@ -4902,16 +4910,6 @@
       "details": null,
       "cost_usd": 2.2060797500000002,
       "total_tokens": 16405
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-04T10:00:02Z",
-      "duration_seconds": 485.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4738 [6292] Add tabbed personalized-example generation with unified ExerciseService entry point → Approved + Browser QA Skipped (dev server bundler mismatch)",
-      "details": null,
-      "cost_usd": 4.46936675,
-      "total_tokens": 23990
     }
   ]
 }
