@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-15T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 594.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4861 [6038] Charge purchases where the flag says and hand over the other provider's subscription → Changes Requested (free_account_access? change treats free-trial guests as paying me",
+      "details": null,
+      "cost_usd": 3.2498445499999997,
+      "total_tokens": 42920
     },
     {
       "agent": "admissions-pr-reviewer",
