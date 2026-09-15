@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-15T19:10:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 415.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4849 [6435] Report specs that cannot fail on the pull request → Changes Requested (base-ref abort is swallowed by the CI pipe, so any crash in bin/spec_policy still shows a green chec",
+      "details": null,
+      "cost_usd": 1.8307557,
+      "total_tokens": 27059
     },
     {
       "agent": "passive-income-research-loop",
