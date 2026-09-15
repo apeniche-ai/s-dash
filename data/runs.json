@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-15T19:30:02Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 48 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-15T19:17:02Z",
       "duration_seconds": 0.9,
@@ -4904,16 +4912,6 @@
       "details": null,
       "cost_usd": 4.46936675,
       "total_tokens": 23990
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-04T03:00:01Z",
-      "duration_seconds": 192.4,
-      "status": "success",
-      "summary": "Not applicable — this is a linear scripted scheduled loop (one tick, five fixed steps). Log-tier memory is the tracking mechanism per system prompt STEP 4.",
-      "details": null,
-      "cost_usd": 1.6467859999999999,
-      "total_tokens": 13019
     }
   ]
 }
