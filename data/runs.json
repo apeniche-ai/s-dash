@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-15T03:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 183.4,
+      "status": "success",
+      "summary": "Tick complete. **Silent — nothing sent to Telegram.**",
+      "details": null,
+      "cost_usd": 0.9423959999999999,
+      "total_tokens": 15617
     },
     {
       "agent": "goal-progress-reconciliation",
