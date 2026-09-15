@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-15T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 359.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4850 [TTPAI-325] Add Elo coverage for test problem attempts and rejects missing bootstrap accuracy → Approved + Browser QA Skipped (local Rails env cannot boot)",
+      "details": null,
+      "cost_usd": 1.4093007000000006,
+      "total_tokens": 24970
     },
     {
       "agent": "pr-reviewer",
