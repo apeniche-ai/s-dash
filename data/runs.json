@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-(2x-daily)",
+      "timestamp": "2026-09-15T14:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout (2x daily)...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-15T13:33:03Z",
       "duration_seconds": 728.1,
@@ -4902,16 +4910,6 @@
       "details": null,
       "cost_usd": 3.9737495,
       "total_tokens": 20747
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-09-03T17:34:28Z",
-      "duration_seconds": 365.3,
-      "status": "success",
-      "summary": "alarmed 1 item: Maria in #ai-dev — PR 4796 QA-approved but blocked on Amaury's call about purging ~754 GRE records with faulty stems. Sent at midnight, no reply seen after 4.5h of his active day.",
-      "details": null,
-      "cost_usd": 0.7355917,
-      "total_tokens": 17849
     }
   ]
 }
