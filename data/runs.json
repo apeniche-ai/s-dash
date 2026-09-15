@@ -197,10 +197,13 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-09-15T20:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 12.6,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code rate limited: You've hit your session limit · resets 4pm (America/Bogota)"
+      ]
     },
     {
       "agent": "admissions-pr-reviewer",
