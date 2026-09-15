@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-15T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 581.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4809 [TTP-6214] Adds Maren Get Help chip as first-line support → Changes Requested (inline Intercom escalation has no HTTP timeout, blocking the student's reply behind three 60s-defau",
+      "details": null,
+      "cost_usd": 2.4284428499999997,
+      "total_tokens": 38591
     },
     {
       "agent": "passive-income-research-loop",
