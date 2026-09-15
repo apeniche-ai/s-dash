@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-09-15T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-15T15:30:03Z",
       "duration_seconds": 691.9,
@@ -4908,14 +4916,6 @@
       "details": null,
       "cost_usd": 0.27873345,
       "total_tokens": 3087
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-09-03T20:15:01Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
