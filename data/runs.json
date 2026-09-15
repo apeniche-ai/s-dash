@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-09-15T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-15T12:15:47Z",
       "duration_seconds": 1.3,
@@ -4900,14 +4908,6 @@
       "details": null,
       "cost_usd": 1.810657,
       "total_tokens": 14640
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-03T14:30:02Z",
-      "duration_seconds": 1.4,
-      "status": "success",
-      "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
