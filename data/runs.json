@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-15T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 299.5,
+      "status": "success",
+      "summary": "Scanned 9 sources (8 OK — Product Hunt, Lobsters, three HN passes, and all three vendor changelogs; Indie Hackers failed for the third+ day, now confirmed as structurally unreadable JavaScript-rendere",
+      "details": null,
+      "cost_usd": 1.1493545,
+      "total_tokens": 20128
     },
     {
       "agent": "pr-reviewer",
