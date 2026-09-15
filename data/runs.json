@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-15T22:15:02Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-15T22:00:02Z",
       "duration_seconds": 464.9,
@@ -4898,16 +4906,6 @@
       "details": null,
       "cost_usd": 1.3067955,
       "total_tokens": 5308
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-04T12:30:51Z",
-      "duration_seconds": 283.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4826 [TTPAI-309] Add page kinds and keeps Maren available during an open test → Approved + Browser QA Skipped (stacked epic base + live EvaluationAttempt fixture impractical)",
-      "details": null,
-      "cost_usd": 2.6607989999999995,
-      "total_tokens": 17497
     }
   ]
 }
