@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-16T13:31:15Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-09-16T13:30:01Z",
       "duration_seconds": 73.5,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.639619,
       "total_tokens": 13760
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-04T18:30:01Z",
-      "duration_seconds": 299.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4825 [TTPAI-312] Restrict AI Pusher channels to their own student via private channels → Approved + Browser QA Skipped (real-time pusher auth; specs cover)",
-      "details": null,
-      "cost_usd": 2.942579499999999,
-      "total_tokens": 16819
     }
   ]
 }
