@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-16T18:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 564.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4864 [6450] Fixes square roots showing without the bar on top → Approved + Browser QA Skipped (local Rails environment cannot boot — wrong Ruby on PATH and ~40 gems uninstalled)",
+      "details": null,
+      "cost_usd": 2.9179990499999997,
+      "total_tokens": 36474
     },
     {
       "agent": "pr-reviewer",
