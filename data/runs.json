@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-16T12:04:22Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-16T12:00:01Z",
       "duration_seconds": 259.9,
@@ -4899,16 +4907,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-04T16:04:01Z",
-      "duration_seconds": 502.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Approved + Browser QA Skipped (epic PR, 14 tickets, no single feature route)",
-      "details": null,
-      "cost_usd": 3.578948,
-      "total_tokens": 21540
     }
   ]
 }
