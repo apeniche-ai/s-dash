@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-16T15:07:31Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-16T15:00:09Z",
       "duration_seconds": 443.9,
@@ -4904,16 +4912,6 @@
       "status": "success",
       "summary": "No PRs to review — 32 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-04T20:31:16Z",
-      "duration_seconds": 252.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4829 [6412] Daily revenue reports hide revenue and read the other apps too early → Approved + Browser QA Skipped (backend + rake + email; no user-facing UI)",
-      "details": null,
-      "cost_usd": 2.8706110000000002,
-      "total_tokens": 12915
     }
   ]
 }
