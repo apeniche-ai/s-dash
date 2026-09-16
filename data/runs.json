@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-16T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 355.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4847 [6431] Fix unclickable notes on highlighted math expressions → Approved + Browser QA Skipped (local app cannot boot — gems not installed for Ruby 3.4.9)",
+      "details": null,
+      "cost_usd": 1.599912,
+      "total_tokens": 29119
     },
     {
       "agent": "admissions-pr-reviewer",
