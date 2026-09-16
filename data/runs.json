@@ -189,10 +189,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-09-16T02:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 19.0,
+      "status": "success",
+      "summary": "Reconcile ran clean — nothing changed. No Telegram sent.",
+      "details": null,
+      "cost_usd": 0.40141984999999997,
+      "total_tokens": 4190
     },
     {
       "agent": "slack-watch",
