@@ -197,10 +197,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-16T12:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 463.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4850 [TTPAI-325] Add Elo coverage for test problem attempts and rejects missing bootstrap accuracy → Approved + Browser QA Skipped (local gems not installed)",
+      "details": null,
+      "cost_usd": 2.5166791499999994,
+      "total_tokens": 32655
     },
     {
       "agent": "admissions-pr-reviewer",
