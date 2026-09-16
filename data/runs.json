@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-16T12:04:22Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 444.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4848 [6432] Hide Concept Masteries bookmarks tab when no active content exists → Changes Requested (concept_masteries_exist? not memoized — runs once per chapter against unindexed exe",
+      "details": null,
+      "cost_usd": 1.8308767499999998,
+      "total_tokens": 34380
     },
     {
       "agent": "passive-income-discovery-scan",
