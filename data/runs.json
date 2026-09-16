@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-16T15:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 488.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4860 [6449] Add error category classification to failure reasons → Changes Requested (acceptance criterion 11 scale evidence still absent from PR description despite being marked done",
+      "details": null,
+      "cost_usd": 1.9768018499999997,
+      "total_tokens": 37362
     },
     {
       "agent": "admissions-pr-reviewer",
