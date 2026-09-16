@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-16T16:05:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 621.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4861 [6038] Charge purchases where the flag says and hand over the other provider's subscription → Approved + Browser QA Skipped (local Ruby toolchain broken — rbenv shims not on PATH",
+      "details": null,
+      "cost_usd": 2.99987715,
+      "total_tokens": 45463
     },
     {
       "agent": "career-market-research-loop",
