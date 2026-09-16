@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-09-16T12:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-16T11:30:01Z",
       "duration_seconds": 355.1,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 3.578948,
       "total_tokens": 21540
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-09-04T16:00:00Z",
-      "duration_seconds": 239.5,
-      "status": "success",
-      "summary": "Silent tick complete. TTP-specific scan (8d gap since Aug 27).",
-      "details": null,
-      "cost_usd": 1.7836005,
-      "total_tokens": 13078
     }
   ]
 }
