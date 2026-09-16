@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-16T13:31:15Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 565.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4738 [6292] Add tabbed personalized-example generation with unified ExerciseService entry point → Approved + Browser QA Skipped (local app cannot boot — ~40 gems missing, needs `bundl",
+      "details": null,
+      "cost_usd": 3.7645805500000016,
+      "total_tokens": 35414
     },
     {
       "agent": "slack-watch",
