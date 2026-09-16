@@ -189,10 +189,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-09-16T13:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 73.5,
+      "status": "success",
+      "summary": "Waiting for the cache warmup pause to complete before retrying the Slack scan.",
+      "details": null,
+      "cost_usd": 0.76498045,
+      "total_tokens": 8637
     },
     {
       "agent": "admissions-pr-reviewer",
