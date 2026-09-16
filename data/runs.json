@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-16T17:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 326.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4862 [TTPAI-336] Retire unused student feature snapshots and difficulty dial service → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.4999882,
+      "total_tokens": 20917
     },
     {
       "agent": "pr-reviewer",
