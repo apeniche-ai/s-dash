@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-16T13:15:02Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-16T13:02:31Z",
       "duration_seconds": 714.3,
@@ -4899,16 +4907,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-04T18:00:02Z",
-      "duration_seconds": 309.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4823 [6407][6408] Stop the RSpec browser job timing out, cut the Actions bill, and fix three specs → Approved + Browser QA Skipped (CI/spec config only)",
-      "details": null,
-      "cost_usd": 2.6901607500000004,
-      "total_tokens": 17261
     }
   ]
 }
