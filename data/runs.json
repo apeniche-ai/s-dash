@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-16T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 418.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4848 [6432] Hide Concept Masteries bookmarks tab when no active content exists → Approved + Browser QA Skipped (local app cannot boot — 40 gems missing)",
+      "details": null,
+      "cost_usd": 1.9825570499999996,
+      "total_tokens": 28233
     },
     {
       "agent": "admissions-pr-reviewer",
