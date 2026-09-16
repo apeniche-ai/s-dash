@@ -189,10 +189,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-09-16T12:37:44Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 33.1,
+      "status": "success",
+      "summary": "Digest complete — silent exit. No open todos exist (checked both all-open and doable-by-Soren filters), and no reminders were due. The only \"done\" items on record are from May, so there's nothing comp",
+      "details": null,
+      "cost_usd": 0.7518779500000001,
+      "total_tokens": 6083
     },
     {
       "agent": "pr-reviewer",
