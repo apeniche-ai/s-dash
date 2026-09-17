@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-17T13:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-09-17T12:30:01Z",
       "duration_seconds": 30.3,
@@ -4906,16 +4914,6 @@
       "details": null,
       "cost_usd": 1.3803960000000002,
       "total_tokens": 7934
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-06T11:00:01Z",
-      "duration_seconds": 221.1,
-      "status": "success",
-      "summary": "Task tools are not applicable to this linear scripted scheduled loop — the log-tier memory (just written) is the tracking mechanism per system prompt STEP 4. This tick is one focused action (Sun early",
-      "details": null,
-      "cost_usd": 1.77340825,
-      "total_tokens": 14314
     }
   ]
 }
