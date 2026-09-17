@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-09-17T21:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-09-17T20:45:19Z",
       "duration_seconds": 11.0,
@@ -4889,16 +4897,6 @@
       "details": null,
       "cost_usd": 0.93358625,
       "total_tokens": 3821
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-07T14:03:08Z",
-      "duration_seconds": 346.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Changes Requested (CI red on 4 checks + mxrgxr's 2 unpatched access-control bugs at current HEAD) ",
-      "details": null,
-      "cost_usd": 2.20367575,
-      "total_tokens": 14240
     }
   ]
 }
