@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-17T11:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-17T11:22:43Z",
       "duration_seconds": 0.9,
@@ -4910,16 +4918,6 @@
       "details": null,
       "cost_usd": 1.9897292499999997,
       "total_tokens": 16595
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-05T19:00:00Z",
-      "duration_seconds": 167.8,
-      "status": "success",
-      "summary": "Reminder acknowledged. Task tools not applicable to this linear scripted scheduled loop — this is a single focused action (weekend mid-day state check + close-out log), tracked via log-tier memory per",
-      "details": null,
-      "cost_usd": 1.6965665,
-      "total_tokens": 11298
     }
   ]
 }
