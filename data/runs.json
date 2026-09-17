@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-17T16:00:03Z",
+      "duration_seconds": 1.7,
+      "status": "success",
+      "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-17T15:30:02Z",
       "duration_seconds": 1.6,
       "status": "success",
@@ -4898,16 +4906,6 @@
       "details": null,
       "cost_usd": 1.6526962499999998,
       "total_tokens": 10880
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-07T10:30:02Z",
-      "duration_seconds": 250.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4830 [6418] On Demand trial locks the strategy lessons inside the unlocked missions → Approved + Browser QA Skipped (trial-mode user setup not supported by standard fixture)",
-      "details": null,
-      "cost_usd": 1.67874875,
-      "total_tokens": 11593
     }
   ]
 }
