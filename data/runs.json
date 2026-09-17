@@ -125,8 +125,8 @@
       "name": "Passive Income Research Loop",
       "agent": "passive-income",
       "status": "enabled",
-      "schedule": "0 6,10,14,18,22 * * *",
-      "description": "Continuous-research tick (5x/day) driving P8 — see passive-income agent system prompt"
+      "schedule": "0 6,14,18,22 * * *",
+      "description": "Research tick (4x/day) driving P8 — see passive-income agent system prompt"
     },
     "weekly-coaching-digest": {
       "id": "01KPCKKB2W0TKGNH5EPE6WNJJY",
