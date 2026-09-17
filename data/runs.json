@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-17T16:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 412.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4865 [6414] LiveTeach welcome email and personalized class recaps → Approved + Browser QA Skipped (mailer/background-job only)",
+      "details": null,
+      "cost_usd": 1.9543362,
+      "total_tokens": 32630
     },
     {
       "agent": "career-market-research-loop",
