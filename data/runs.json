@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-17T22:00:03Z",
+      "duration_seconds": 2.4,
+      "status": "success",
+      "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-17T21:30:01Z",
       "duration_seconds": 436.6,
       "status": "success",
@@ -4891,16 +4899,6 @@
       "details": null,
       "cost_usd": 1.6545117500000002,
       "total_tokens": 12916
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-07T14:30:02Z",
-      "duration_seconds": 241.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4831 [6405] Route the OnDemand video checks through one shared helper → Approved + Browser QA Skipped (bundler mismatch — Rails env can't boot)",
-      "details": null,
-      "cost_usd": 2.08135125,
-      "total_tokens": 12295
     }
   ]
 }
