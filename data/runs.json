@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-17T21:12:50Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 377.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4809 [TTP-6214] Adds Maren Get Help chip as first-line support → Approved + Browser QA Skipped (local env broken — ~40 gems missing)",
+      "details": null,
+      "cost_usd": 1.8831864,
+      "total_tokens": 27929
     },
     {
       "agent": "maren-v0-launch-digest",
