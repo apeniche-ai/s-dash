@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-09-17T17:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-17T17:15:02Z",
       "duration_seconds": 1.5,
@@ -4894,16 +4902,6 @@
       "details": null,
       "cost_usd": 1.6581180000000002,
       "total_tokens": 10484
-    },
-    {
-      "agent": "performance-check-in-(mon/wed/fri)",
-      "timestamp": "2026-09-07T11:34:43Z",
-      "duration_seconds": 160.1,
-      "status": "success",
-      "summary": "Session complete.",
-      "details": null,
-      "cost_usd": 1.3734255,
-      "total_tokens": 8424
     }
   ]
 }
