@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-17T12:07:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 396.8,
+      "status": "success",
+      "summary": "Scanned 8 sources (7 worked, Indie Hackers failed for the 5th day) and wrote 1 finding — the ~96-day zero-finding streak broke without loosening the filter: a 4B model trained for $1,200 that writes P",
+      "details": null,
+      "cost_usd": 1.4674709,
+      "total_tokens": 26042
     },
     {
       "agent": "pr-reviewer",
