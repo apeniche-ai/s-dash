@@ -189,10 +189,13 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-09-17T20:45:19Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 11.0,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code rate limited: You've hit your session limit · resets 4pm (America/Bogota)"
+      ]
     },
     {
       "agent": "pr-reviewer",
