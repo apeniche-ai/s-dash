@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-17T13:30:02Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-09-17T13:30:02Z",
       "duration_seconds": null,
@@ -4902,16 +4910,6 @@
       "details": null,
       "cost_usd": 1.76393875,
       "total_tokens": 9489
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-06T19:00:01Z",
-      "duration_seconds": 124.0,
-      "status": "success",
-      "summary": "Tick complete. Silent — US markets closed weekend + Mon Labor Day, no PI-lane signal, wife-career thread owns Amaury's attention on assistant channel, Sun 21:00 State Consolidation ~7h out owns weekly",
-      "details": null,
-      "cost_usd": 1.46309275,
-      "total_tokens": 8985
     }
   ]
 }
