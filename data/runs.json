@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-17T11:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-17T10:30:01Z",
       "duration_seconds": 467.5,
@@ -4911,16 +4919,6 @@
       "details": null,
       "cost_usd": 0.7863184500000001,
       "total_tokens": 20303
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-05T15:00:00Z",
-      "duration_seconds": 191.3,
-      "status": "success",
-      "summary": "Tick complete. Silent — no Telegram sent.",
-      "details": null,
-      "cost_usd": 1.701079,
-      "total_tokens": 12838
     }
   ]
 }
