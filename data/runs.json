@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-17T15:15:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-17T15:02:09Z",
       "duration_seconds": 7.9,
@@ -4902,16 +4910,6 @@
       "details": null,
       "cost_usd": 3.1853767499999996,
       "total_tokens": 18404
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-07T03:00:01Z",
-      "duration_seconds": 190.4,
-      "status": "success",
-      "summary": "Tick complete. Silent — Sun 22:00 closes Sunday 5/5 silent. Sun 21:00 State Consolidation ~1h ago already owned this week's mandatory state rewrite via memory_correct; ledger unchanged 49d; markets cl",
-      "details": null,
-      "cost_usd": 1.67740375,
-      "total_tokens": 12222
     }
   ]
 }
