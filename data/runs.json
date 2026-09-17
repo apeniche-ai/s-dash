@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-17T13:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-09-17T13:08:15Z",
       "duration_seconds": 162.4,
@@ -4906,16 +4914,6 @@
       "details": null,
       "cost_usd": 1.78104675,
       "total_tokens": 13113
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-06T15:00:01Z",
-      "duration_seconds": 196.2,
-      "status": "success",
-      "summary": "Tick complete. Silent — no PI signal, markets closed weekend + Mon Labor Day, Amaury on wife-career thread (assistant channel), Sun 21:00 State Consolidation ~11h out owns next state write.",
-      "details": null,
-      "cost_usd": 1.890853,
-      "total_tokens": 12893
     }
   ]
 }
