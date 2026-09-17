@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-17T13:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 494.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4863 [TTPAI-338] Add math solution step verifier to exercise generation and bank approval → Approved + Browser QA Skipped (local Rails env down)",
+      "details": null,
+      "cost_usd": 2.38804845,
+      "total_tokens": 32397
     },
     {
       "agent": "daily-todo-digest",
