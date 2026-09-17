@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-17T11:15:08Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 454.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4865 [6414] LiveTeach welcome email and personalized class recaps → Changes Requested (NextClassBridge.grounded? lets predicted scores and percentile language through, violating an ex",
+      "details": null,
+      "cost_usd": 2.4615828,
+      "total_tokens": 32099
     },
     {
       "agent": "passive-income-research-loop",
