@@ -93,8 +93,8 @@
       "name": "Admissions PR Reviewer",
       "agent": "qa",
       "status": "enabled",
-      "schedule": "15 6-17 * * 1-5",
-      "description": "Automated code review of open PRs on targettestprep/admissions every hour during work hours"
+      "schedule": "15 9,12,15 * * 1-5",
+      "description": "Automated code review of open PRs on targettestprep/admissions, 3x/day (low PR volume on this repo)"
     },
     "pr-follow-up-check": {
       "id": "01KQARE8V65AWQC5YB1YCGTE1J",
