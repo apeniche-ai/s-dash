@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-17T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 599.1,
+      "status": "success",
+      "summary": "Done. Final state verified: review submitted (`CHANGES_REQUESTED`), labels are `[\"Changes Requested\", \"Pre-Maren\"]`, no Manual QA Steps comment (TTPAI rule), no Browser QA comment or label, branch cle",
+      "details": null,
+      "cost_usd": 2.8619071499999995,
+      "total_tokens": 43202
     },
     {
       "agent": "pr-reviewer",
