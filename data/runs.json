@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-17T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 581.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4529 [6038] Add self-managed billing engine foundation → Changes Requested (unauthenticated account takeover on /billing_checkout/success via enumerable billing_core_payment_attempt_i",
+      "details": null,
+      "cost_usd": 2.70779205,
+      "total_tokens": 35808
     },
     {
       "agent": "admissions-pr-reviewer",
