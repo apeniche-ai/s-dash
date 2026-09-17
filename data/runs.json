@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "opportunity-scout-(2x-daily)",
+      "timestamp": "2026-09-17T14:12:13Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout (2x daily)...",
+      "details": null
+    },
+    {
+      "agent": "opportunity-scout-(2x-daily)",
       "timestamp": "2026-09-17T14:10:00Z",
       "duration_seconds": 13.1,
       "status": "error",
@@ -4903,16 +4911,6 @@
       "details": null,
       "cost_usd": 1.42144425,
       "total_tokens": 9771
-    },
-    {
-      "agent": "career-market-weekly-digest",
-      "timestamp": "2026-09-06T23:00:00Z",
-      "duration_seconds": 134.0,
-      "status": "success",
-      "summary": "Digest delivered to the assistant channel. Five themes with hard numbers and sources: TTP two-timescale read (148d Glassdoor quiet vs GMAT -19% / ETS 97% collapse), AI-native VP comp premium (+$50-165",
-      "details": null,
-      "cost_usd": 1.4788260000000002,
-      "total_tokens": 9121
     }
   ]
 }
