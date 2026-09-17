@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-09-17T12:07:26Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-17T12:00:02Z",
       "duration_seconds": null,
@@ -4908,16 +4916,6 @@
       "details": null,
       "cost_usd": 1.39588725,
       "total_tokens": 10523
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-09-05T22:10:00Z",
-      "duration_seconds": 109.4,
-      "status": "success",
-      "summary": "Exiting silently.",
-      "details": null,
-      "cost_usd": 1.26751025,
-      "total_tokens": 4916
     }
   ]
 }
