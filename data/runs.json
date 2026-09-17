@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-17T14:15:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-(2x-daily)",
       "timestamp": "2026-09-17T14:12:13Z",
       "duration_seconds": 5.2,
@@ -4904,16 +4912,6 @@
       "details": null,
       "cost_usd": 1.1134215,
       "total_tokens": 4859
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-06T23:02:14Z",
-      "duration_seconds": 132.4,
-      "status": "success",
-      "summary": "Task-tools not applicable to this linear scheduled loop — log-tier memory is the tracking mechanism per system prompt STEP 4. Correctly ignoring per documented pattern.",
-      "details": null,
-      "cost_usd": 1.42144425,
-      "total_tokens": 9771
     }
   ]
 }
