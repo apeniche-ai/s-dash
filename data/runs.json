@@ -189,10 +189,12 @@
     {
       "agent": "opportunity-scout-(2x-daily)",
       "timestamp": "2026-09-18T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout (2x daily)...",
-      "details": null
+      "duration_seconds": 426.2,
+      "status": "success",
+      "summary": "Surfaced. One message sent to the passive-income channel.",
+      "details": null,
+      "cost_usd": 2.04853975,
+      "total_tokens": 33491
     },
     {
       "agent": "pr-reviewer",
