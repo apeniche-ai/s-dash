@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-18T22:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-18T21:30:02Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4896,16 +4904,6 @@
       "details": null,
       "cost_usd": 1.428299,
       "total_tokens": 6059
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-09-08T12:36:29Z",
-      "duration_seconds": 108.9,
-      "status": "success",
-      "summary": "Silent exit. Todo list is empty, no reminders due, no recent completions. No Telegram sent. Bookkeeping stored.",
-      "details": null,
-      "cost_usd": 0.3519536,
-      "total_tokens": 1597
     }
   ]
 }
