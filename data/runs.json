@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-18T21:30:02Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-18T21:10:05Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4898,16 +4906,6 @@
       "details": null,
       "cost_usd": 0.3519536,
       "total_tokens": 1597
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-08T12:30:01Z",
-      "duration_seconds": 389.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4839 [TTPAI-310] Add data migration to clear broken quantitative-comparison practice questions → Approved + Browser QA Skipped (data migration, backend-only, self-verified)",
-      "details": null,
-      "cost_usd": 2.1301315,
-      "total_tokens": 18358
     }
   ]
 }
