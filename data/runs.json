@@ -189,10 +189,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-09-18T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 52.3,
+      "status": "success",
+      "summary": "Digest sent. No reminders due, no doable todos in the pool, nothing completed since last time — just the 3 standing MentalTune decisions (merge PRs, weekend build call, customer-worth question), all o",
+      "details": null,
+      "cost_usd": 0.7440450000000001,
+      "total_tokens": 7849
     },
     {
       "agent": "pr-reviewer",
