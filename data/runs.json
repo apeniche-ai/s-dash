@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-09-18T17:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-18T17:15:02Z",
       "duration_seconds": 1.0,
@@ -4903,16 +4911,6 @@
       "details": null,
       "cost_usd": 1.7752269999999999,
       "total_tokens": 12339
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-07T22:30:02Z",
-      "duration_seconds": 157.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4836 [TTPAI-286] Fixes DM failure when the chat messages table is empty → Approved + Browser QA Skipped (data migration, no user-visible path)",
-      "details": null,
-      "cost_usd": 2.1104459999999996,
-      "total_tokens": 8428
     }
   ]
 }
