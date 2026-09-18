@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-18T17:31:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-09-18T17:30:01Z",
       "duration_seconds": 60.0,
@@ -4903,16 +4911,6 @@
       "details": null,
       "cost_usd": 0.37802464999999996,
       "total_tokens": 4722
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-07T23:36:49Z",
-      "duration_seconds": 176.4,
-      "status": "success",
-      "summary": "Task tools are not applicable to this linear scripted scheduled loop — log-tier memory is the tracking mechanism per system prompt STEP 4. Reminder acknowledged and correctly ignored per documented pa",
-      "details": null,
-      "cost_usd": 1.7752269999999999,
-      "total_tokens": 12339
     }
   ]
 }
