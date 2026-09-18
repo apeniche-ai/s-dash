@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-18T14:07:09Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 767.2,
+      "status": "success",
+      "summary": "Cleanup done (on `master`). Review is complete on GitHub: approved with a detailed body explaining why the four red checks don't block, and the \"Claude Reviewed\" label applied. Manual QA steps skipped",
+      "details": null,
+      "cost_usd": 3.4232742,
+      "total_tokens": 41287
     },
     {
       "agent": "opportunity-scout-(2x-daily)",
