@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-18T19:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-18T18:30:01Z",
       "duration_seconds": 640.9,
@@ -4899,16 +4907,6 @@
       "status": "success",
       "summary": "No PRs to review — 36 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-08T03:00:01Z",
-      "duration_seconds": 112.2,
-      "status": "success",
-      "summary": "Silent tick logged. Mon Sep 7 closed 5/5 silent — bedtime window, US markets closed Labor Day, ledger unchanged 50d, PI-lane silence intact ~114d. State ~25h fresh; no writes owed. Next tick Tue Sep 8",
-      "details": null,
-      "cost_usd": 1.352315,
-      "total_tokens": 7636
     }
   ]
 }
