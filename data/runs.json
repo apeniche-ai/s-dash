@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-18T20:30:44Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-09-18T20:30:00Z",
       "duration_seconds": 42.8,
@@ -4897,16 +4905,6 @@
       "status": "success",
       "summary": "No PRs to review — 37 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-09-08T12:00:02Z",
-      "duration_seconds": 213.5,
-      "status": "success",
-      "summary": "Scanned 9 sources (5 OK: HN Show HN + HN Ask HN + Anthropic + OpenAI + Gemini changelogs; 4 blocked: Reddit ~117-day perpetual blackout). Wrote 0 findings — 6 raw candidates dropped: 2 high-traction A",
-      "details": null,
-      "cost_usd": 1.6172364999999997,
-      "total_tokens": 8134
     }
   ]
 }
