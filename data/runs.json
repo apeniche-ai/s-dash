@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-09-18T20:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-18T20:15:01Z",
       "duration_seconds": 1.1,
@@ -4897,16 +4905,6 @@
       "details": null,
       "cost_usd": 1.6172364999999997,
       "total_tokens": 8134
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-08T11:30:02Z",
-      "duration_seconds": 152.9,
-      "status": "success",
-      "summary": "Not applicable — the review is a linear single-PR scripted workflow, not multi-task work that benefits from a task list.",
-      "details": null,
-      "cost_usd": 1.7988305,
-      "total_tokens": 9213
     }
   ]
 }
