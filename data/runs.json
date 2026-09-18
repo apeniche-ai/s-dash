@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-18T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 640.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Changes Requested (PR's own feature spec `expired_rich_dashboard_spec.rb:74` fails in CI — two eligible moves tip the ba",
+      "details": null,
+      "cost_usd": 3.6853773,
+      "total_tokens": 40371
     },
     {
       "agent": "pr-reviewer",
