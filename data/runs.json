@@ -189,10 +189,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-09-18T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 192.5,
+      "status": "success",
+      "summary": "Sent to the pr-reviews channel.",
+      "details": null,
+      "cost_usd": 1.10711705,
+      "total_tokens": 11441
     },
     {
       "agent": "pr-reviewer",
