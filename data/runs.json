@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-18T10:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 619.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4831 [6405] Route the OnDemand video checks through one shared helper → Changes Requested (ticket requires spec coverage; the one spec edit stubs `full_ondemand_access?` so the lock c",
+      "details": null,
+      "cost_usd": 3.34950645,
+      "total_tokens": 42131
     },
     {
       "agent": "passive-income-research-loop",
