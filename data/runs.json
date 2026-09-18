@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-18T13:31:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 397.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4831 [6405] Route the OnDemand video checks through one shared helper → Approved + Browser QA Skipped (local gem environment can't boot the app)",
+      "details": null,
+      "cost_usd": 1.87295865,
+      "total_tokens": 26817
     },
     {
       "agent": "slack-watch",
