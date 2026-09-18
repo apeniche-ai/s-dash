@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-18T22:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-18T22:00:02Z",
       "duration_seconds": 748.0,
       "status": "success",
@@ -4896,16 +4904,6 @@
       "status": "success",
       "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-09-08T13:00:01Z",
-      "duration_seconds": 136.4,
-      "status": "success",
-      "summary": "Done. 9 stagnant PRs on ttp flagged to pr-reviews (0 on admissions). The oldest is Felipe's #4390 at 166 days. Four are Amaury's own (#4565, #4589, #4673, #4659). Excluded #4817, #4809 (dev already pu",
-      "details": null,
-      "cost_usd": 1.428299,
-      "total_tokens": 6059
     }
   ]
 }
