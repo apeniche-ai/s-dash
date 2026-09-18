@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-18T13:03:14Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 589.4,
+      "status": "success",
+      "summary": "Reviewed 2 PRs: #4738 [6292] Add tabbed personalized-example generation with unified ExerciseService entry point → Approved + Browser QA Skipped (local gem environment can't boot the app), #4831 [6405",
+      "details": null,
+      "cost_usd": 3.626146349999999,
+      "total_tokens": 40678
     },
     {
       "agent": "pr-follow-up-check",
