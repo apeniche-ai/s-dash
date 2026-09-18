@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-18T22:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 561.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4865 [6414] LiveTeach welcome email and personalized class recaps → Changes Requested (`strip_greeting`'s `[^,.!]*` runs to the first sentence-ending punctuation in the whole paragrap",
+      "details": null,
+      "cost_usd": 2.412273,
+      "total_tokens": 36425
     },
     {
       "agent": "pr-reviewer",
