@@ -189,10 +189,12 @@
     {
       "agent": "behavioral-experiments-follow-up",
       "timestamp": "2026-09-19T14:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Behavioral Experiments Follow-Up...",
-      "details": null
+      "duration_seconds": 128.8,
+      "status": "success",
+      "summary": "**Held. No Telegram sent — 13th consecutive Saturday.**",
+      "details": null,
+      "cost_usd": 0.90312895,
+      "total_tokens": 11893
     },
     {
       "agent": "opportunity-scout-(2x-daily)",
