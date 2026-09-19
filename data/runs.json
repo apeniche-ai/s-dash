@@ -189,10 +189,12 @@
     {
       "agent": "opportunity-scout-(2x-daily)",
       "timestamp": "2026-09-19T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout (2x daily)...",
-      "details": null
+      "duration_seconds": 400.7,
+      "status": "success",
+      "summary": "**Silent run — nothing sent to Telegram.** That's the correct outcome here.",
+      "details": null,
+      "cost_usd": 1.52801045,
+      "total_tokens": 29799
     },
     {
       "agent": "soren-improvement-review",
