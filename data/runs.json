@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-19T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 211.6,
+      "status": "success",
+      "summary": "Scanned 9 sources (8 worked; Indie Hackers failed for the 7th day, Reddit skipped as permanently blocked) and wrote **0 findings** — 4 raw candidates surfaced and all 4 died at the filter, the stronge",
+      "details": null,
+      "cost_usd": 1.1954759999999998,
+      "total_tokens": 17395
     },
     {
       "agent": "passive-income-research-loop",
