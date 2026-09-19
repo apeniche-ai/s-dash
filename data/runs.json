@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-09-19T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "system-health-audit",
       "timestamp": "2026-09-19T15:00:00Z",
       "duration_seconds": 373.4,
@@ -4908,14 +4916,6 @@
       "details": null,
       "cost_usd": 1.860719,
       "total_tokens": 11575
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-08T15:30:01Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
