@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "behavioral-experiments-follow-up",
+      "timestamp": "2026-09-19T14:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Behavioral Experiments Follow-Up...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-(2x-daily)",
       "timestamp": "2026-09-19T14:00:01Z",
       "duration_seconds": 400.7,
@@ -4904,16 +4912,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-08T15:03:35Z",
-      "duration_seconds": 113.7,
-      "status": "success",
-      "summary": "Label added. The previous run at ~09:02 Bogotá had already approved this PR and posted Manual QA Steps but failed to add the \"Claude Reviewed\" label. State is now consistent — this run performed no ne",
-      "details": null,
-      "cost_usd": 1.3640554999999996,
-      "total_tokens": 6147
     }
   ]
 }
