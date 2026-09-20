@@ -189,10 +189,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-20T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 275.9,
+      "status": "success",
+      "summary": "Tick complete. **Silent — nothing sent to Telegram.** Neither alert trigger fired.",
+      "details": null,
+      "cost_usd": 1.7592322,
+      "total_tokens": 23507
     },
     {
       "agent": "opportunity-scout-(2x-daily)",
