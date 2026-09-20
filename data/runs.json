@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-(2x-daily)",
+      "timestamp": "2026-09-20T14:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout (2x daily)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-20T12:00:01Z",
       "duration_seconds": 265.3,
@@ -4918,16 +4926,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-08T18:00:02Z",
-      "duration_seconds": 347.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4841 [6414] Personalized performance dashboard email after the first LiveTeach class → Approved + Browser QA Skipped (email-only feature, no browser surface)",
-      "details": null,
-      "cost_usd": 3.45359475,
-      "total_tokens": 20941
     }
   ]
 }
