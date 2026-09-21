@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-team-shipping-report",
+      "timestamp": "2026-09-21T12:45:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Team Shipping Report...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-09-21T12:39:40Z",
       "duration_seconds": 61.4,
@@ -4937,16 +4945,6 @@
       "status": "success",
       "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-09T03:00:01Z",
-      "duration_seconds": 161.9,
-      "status": "success",
-      "summary": "Silent tick complete. Tue Sep 8 22:00 closes Tue weekday cadence 5/5 silent, 0/3 notify budget used. JEPQ Tue close $59.87 essentially flat (already logged at 18:00 tick, no fresh data post-close). No",
-      "details": null,
-      "cost_usd": 1.42715975,
-      "total_tokens": 10161
     }
   ]
 }
