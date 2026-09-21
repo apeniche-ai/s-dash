@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-21T20:15:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-21T20:05:45Z",
       "duration_seconds": 537.2,
@@ -4951,16 +4959,6 @@
       "status": "success",
       "summary": "No PRs to review — 40 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-09T16:30:02Z",
-      "duration_seconds": 310.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4841 [6414] Personalized performance dashboard email after the first LiveTeach class → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 3.2151395000000007,
-      "total_tokens": 17937
     }
   ]
 }
