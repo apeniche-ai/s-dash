@@ -189,10 +189,12 @@
     {
       "agent": "opportunity-scout-(2x-daily)",
       "timestamp": "2026-09-21T20:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout (2x daily)...",
-      "details": null
+      "duration_seconds": 343.3,
+      "status": "success",
+      "summary": "Run complete. **Silent — nothing sent to Amaury.** That's the correct outcome.",
+      "details": null,
+      "cost_usd": 1.4664704,
+      "total_tokens": 26606
     },
     {
       "agent": "pr-reviewer",
