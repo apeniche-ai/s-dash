@@ -197,10 +197,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-21T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 175.2,
+      "status": "success",
+      "summary": "Scan complete. Silent by design — nothing sent to Amaury.",
+      "details": null,
+      "cost_usd": 1.08670775,
+      "total_tokens": 14803
     },
     {
       "agent": "pr-reviewer",
