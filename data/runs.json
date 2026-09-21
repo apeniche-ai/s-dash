@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-21T17:30:57Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 491.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4854 [6442] Port GMAT On Demand solution videos to matching GRE and EA questions → Approved + Browser QA Skipped (data-migration-only, no app code changed)",
+      "details": null,
+      "cost_usd": 2.0747808,
+      "total_tokens": 35227
     },
     {
       "agent": "slack-watch",
