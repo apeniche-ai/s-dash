@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-21T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 310.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Approved + Browser QA Skipped (env error — rbenv not on PATH)",
+      "details": null,
+      "cost_usd": 0.9352314000000002,
+      "total_tokens": 18108
     },
     {
       "agent": "pr-reviewer",
