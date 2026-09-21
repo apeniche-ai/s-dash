@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-09-21T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "passive-income-state-consolidation",
       "timestamp": "2026-09-21T02:00:00Z",
       "duration_seconds": 134.0,
@@ -4929,16 +4937,6 @@
       "details": null,
       "cost_usd": 1.92223,
       "total_tokens": 18927
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-08T20:36:30Z",
-      "duration_seconds": 331.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4837 [TTPAI-311] Adds a way back into a support conversation after a Maren handoff → Approved + Browser QA Skipped (stacked on unmerged #4809)",
-      "details": null,
-      "cost_usd": 2.6115845,
-      "total_tokens": 17616
     }
   ]
 }
