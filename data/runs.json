@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-09-21T14:24:33Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "colombia-mintic-transition-watch",
       "timestamp": "2026-09-21T14:20:10Z",
       "duration_seconds": 262.5,
@@ -4944,16 +4952,6 @@
       "status": "success",
       "summary": "No PRs to review — 39 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-09-09T12:00:02Z",
-      "duration_seconds": 213.0,
-      "status": "success",
-      "summary": "Task tools not applicable — this is a linear scripted scan loop; the passive-income-discovery-log memory tier is the tracking mechanism per system prompt STEP 5.",
-      "details": null,
-      "cost_usd": 1.8055477500000001,
-      "total_tokens": 11532
     }
   ]
 }
