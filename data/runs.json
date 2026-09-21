@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-21T20:05:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 537.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (PR's own new spec block in summary_service_spec.rb fails 5 examples — the double omits `refused?`, which th",
+      "details": null,
+      "cost_usd": 2.1065750000000003,
+      "total_tokens": 38655
     },
     {
       "agent": "opportunity-scout-(2x-daily)",
