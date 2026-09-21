@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-21T21:06:29Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 474.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4837 [TTPAI-311] Adds a way back into a support conversation after a Maren handoff → Changes Requested (PR breaks its own chatbot_service_spec tool-count assertions; re-entry window i",
+      "details": null,
+      "cost_usd": 1.85417115,
+      "total_tokens": 34040
     },
     {
       "agent": "maren-v0-launch-digest",
