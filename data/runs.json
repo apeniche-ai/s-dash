@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-21T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 95.4,
+      "status": "success",
+      "summary": "State was broken — no active state memory existed, so the loop had been running without a canonical picture since the September 2 orphaning. Repaired it, which per the procedure is the whole tick.",
+      "details": null,
+      "cost_usd": 0.71804585,
+      "total_tokens": 9088
     },
     {
       "agent": "goal-progress-reconciliation",
