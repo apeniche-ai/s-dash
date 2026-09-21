@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-vp-performance-edge",
+      "timestamp": "2026-09-21T12:02:57Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly VP Performance Edge...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-21T12:00:01Z",
       "duration_seconds": null,
@@ -4935,16 +4943,6 @@
       "details": null,
       "cost_usd": 0.3189687,
       "total_tokens": 3683
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-08T23:00:00Z",
-      "duration_seconds": 192.2,
-      "status": "success",
-      "summary": "Silent tick complete. JEPQ Tue Sep 8 official close $59.87 = essentially flat vs Fri ($0.01 net-day, intraday -0.43% sub-material). No PI-lane engagement. Ledger unchanged 51d. State ~45h fresh — hard",
-      "details": null,
-      "cost_usd": 1.99289475,
-      "total_tokens": 10999
     }
   ]
 }
