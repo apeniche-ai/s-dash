@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-21T19:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-21T19:00:53Z",
       "duration_seconds": 1.7,
       "status": "success",
@@ -4947,16 +4955,6 @@
       "status": "success",
       "summary": "No PRs to review — 40 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-09-09T16:00:01Z",
-      "duration_seconds": 186.3,
-      "status": "success",
-      "summary": "Tick complete. Silent to Amaury per default.",
-      "details": null,
-      "cost_usd": 1.88281775,
-      "total_tokens": 10562
     }
   ]
 }
