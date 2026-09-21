@@ -189,10 +189,12 @@
     {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-09-21T12:02:57Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly VP Performance Edge...",
-      "details": null
+      "duration_seconds": 209.5,
+      "status": "success",
+      "summary": "**Tip shipped to the career channel.** Confirmed sent, logged for dedup.",
+      "details": null,
+      "cost_usd": 1.1188631500000001,
+      "total_tokens": 16767
     },
     {
       "agent": "passive-income-discovery-scan",
