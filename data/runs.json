@@ -189,10 +189,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-09-21T12:39:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 61.4,
+      "status": "success",
+      "summary": "Digest sent. Nothing changed from three days ago: no reminders due, nothing doable in my queue, nothing completed. Just the same 3 standing MentalTune decisions waiting on you (merge the two safety PR",
+      "details": null,
+      "cost_usd": 0.9477437000000001,
+      "total_tokens": 8692
     },
     {
       "agent": "pr-reviewer",
