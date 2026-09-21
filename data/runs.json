@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-21T13:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-09-21T12:45:01Z",
       "duration_seconds": 268.1,
@@ -4936,14 +4944,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-09-09T10:30:16Z",
       "duration_seconds": 1.3,
-      "status": "success",
-      "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-09T10:00:02Z",
-      "duration_seconds": 1.7,
       "status": "success",
       "summary": "No PRs to review — 38 open, all skipped (labeled/draft)",
       "details": null
