@@ -189,10 +189,12 @@
     {
       "agent": "weekly-side-income-tracker",
       "timestamp": "2026-09-21T00:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Side-Income Tracker...",
-      "details": null
+      "duration_seconds": 241.0,
+      "status": "success",
+      "summary": "Tick done. Message sent to the passive-income channel, log stored.",
+      "details": null,
+      "cost_usd": 0.9601251500000001,
+      "total_tokens": 17400
     },
     {
       "agent": "career-market-weekly-digest",
