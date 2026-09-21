@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-21T21:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 312.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4819 [TTPAI-308] Fix an AI-generated exercise whose id equals its own source exercise_id → Approved + Browser QA Skipped (env error — bundler/Ruby missing in job PATH)",
+      "details": null,
+      "cost_usd": 1.46704425,
+      "total_tokens": 26610
     },
     {
       "agent": "pr-reviewer",
