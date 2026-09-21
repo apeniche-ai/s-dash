@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-21T13:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-09-21T13:06:42Z",
       "duration_seconds": 143.3,
@@ -4941,16 +4949,6 @@
       "details": null,
       "cost_usd": 4.0414805000000005,
       "total_tokens": 24924
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-09T11:00:01Z",
-      "duration_seconds": 155.5,
-      "status": "success",
-      "summary": "Acknowledged — not applicable. This is a linear scripted scheduled loop; log-tier memory is the tracking mechanism per system prompt STEP 4. TaskCreate/TaskUpdate is not the right tool for this cadenc",
-      "details": null,
-      "cost_usd": 1.545627,
-      "total_tokens": 9857
     }
   ]
 }
