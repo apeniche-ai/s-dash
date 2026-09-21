@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-21T12:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 579.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339] Generate exercise bank candidates through the Anthropic Batch API → Changes Requested (stale-claim reclaim resubmits submission_unknown attempts, causing duplicate pa",
+      "details": null,
+      "cost_usd": 3.616482000000001,
+      "total_tokens": 37618
     },
     {
       "agent": "weekly-vp-performance-edge",
