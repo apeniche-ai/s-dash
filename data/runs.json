@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-21T13:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 402.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4868 [TTPAI-340] Retrieve image descriptions into the chat's context → Changes Requested (image-description queries not scoped by exam, so a GRE sync can overwrite GMAT's chunk; image",
+      "details": null,
+      "cost_usd": 1.4581068000000001,
+      "total_tokens": 26799
     },
     {
       "agent": "weekly-team-shipping-report",
