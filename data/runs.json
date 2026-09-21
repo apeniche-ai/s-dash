@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-21T20:30:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 658.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4725 [TTPAI-242] AI Exercise Bank — Generation, Judging & Promotion → Approved + Browser QA Skipped (local Ruby env missing ~40 gems, app won't boot) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 2.6852729999999996,
+      "total_tokens": 48723
     },
     {
       "agent": "slack-watch",
