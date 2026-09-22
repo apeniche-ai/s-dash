@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T19:00:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 529.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4738 [6292] Add tabbed personalized-example generation with unified ExerciseService entry point → Changes Requested (post-approval commit re-enables the New Example button for image-b",
+      "details": null,
+      "cost_usd": 2.2696999499999992,
+      "total_tokens": 37371
     },
     {
       "agent": "passive-income-research-loop",
