@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 607.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339] Generate exercise bank candidates through the Anthropic Batch API → Changes Requested (verification/cost log matched by unindexed JSONB scan races across concurrent i",
+      "details": null,
+      "cost_usd": 2.46675165,
+      "total_tokens": 42392
     },
     {
       "agent": "admissions-pr-reviewer",
