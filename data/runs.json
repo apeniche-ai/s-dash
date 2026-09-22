@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T13:02:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 635.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339] Generate exercise bank candidates through the Anthropic Batch API → Changes Requested (the new submission-unknown reconciler never contacts Anthropic and marks possib",
+      "details": null,
+      "cost_usd": 3.0819261,
+      "total_tokens": 46531
     },
     {
       "agent": "pr-follow-up-check",
