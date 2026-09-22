@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-22T17:00:04Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-22T16:30:01Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4973,16 +4981,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-10T11:04:09Z",
-      "duration_seconds": 486.9,
-      "status": "success",
-      "summary": "Task tools not applicable — this is a linear scripted PR review procedure.",
-      "details": null,
-      "cost_usd": 3.33232725,
-      "total_tokens": 32621
     }
   ]
 }
