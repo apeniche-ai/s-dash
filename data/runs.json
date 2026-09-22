@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-22T05:01:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 98.0,
+      "status": "success",
+      "summary": "Tick done. **Silent — nothing sent to Amaury.**",
+      "details": null,
+      "cost_usd": 0.85082655,
+      "total_tokens": 9751
     },
     {
       "agent": "goal-progress-reconciliation",
