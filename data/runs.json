@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-09-22T20:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-22T20:15:01Z",
       "duration_seconds": 1.0,
@@ -4973,16 +4981,6 @@
       "details": null,
       "cost_usd": 2.6306342500000004,
       "total_tokens": 19620
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-10T13:34:02Z",
-      "duration_seconds": 511.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (3 spec failures + Rubocop/HAML-Lint red; inline fix on `chat.js:2287` label mismap; TTPAI-284 tip commit it",
-      "details": null,
-      "cost_usd": 3.932295999999999,
-      "total_tokens": 31942
     }
   ]
 }
