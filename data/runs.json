@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T20:05:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 342.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Approved + Browser QA Skipped (Rails cannot boot locally — 39 gems missing, needs bundle install)",
+      "details": null,
+      "cost_usd": 2.0241201500000003,
+      "total_tokens": 23126
     },
     {
       "agent": "opportunity-scout-(2x-daily)",
