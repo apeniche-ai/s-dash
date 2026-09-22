@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T10:00:05Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 631.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4837 [TTPAI-311] Adds a way back into a support conversation after a Maren handoff → Changes Requested (support re-entry row renders only in its unread state; the ticket requires it p",
+      "details": null,
+      "cost_usd": 2.6745697499999994,
+      "total_tokens": 42907
     },
     {
       "agent": "passive-income-research-loop",
