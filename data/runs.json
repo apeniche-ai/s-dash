@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-22T20:15:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T20:05:26Z",
       "duration_seconds": 342.5,
@@ -4975,16 +4983,6 @@
       "details": null,
       "cost_usd": 3.932295999999999,
       "total_tokens": 31942
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-09-10T13:30:01Z",
-      "duration_seconds": 239.6,
-      "status": "success",
-      "summary": "alarmed 0 items (cache failure): Slack cache still down at 08:30 — all 5 channels unreadable, @amaury search empty. Notified Amaury once per protocol. Logged. Next retry at 12:30.",
-      "details": null,
-      "cost_usd": 0.5078556,
-      "total_tokens": 12485
     }
   ]
 }
