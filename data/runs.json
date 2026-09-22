@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T12:04:05Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 517.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4872 [TTPAI-343] Stop the chatbot error handler from sending exception text to the browser → Changes Requested (remaining_messages still renders raw e.message to the browser at chatbo",
+      "details": null,
+      "cost_usd": 2.5879521000000008,
+      "total_tokens": 35875
     },
     {
       "agent": "passive-income-discovery-scan",
