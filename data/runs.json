@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-22T14:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-22T14:15:54Z",
       "duration_seconds": 0.9,
@@ -4977,16 +4985,6 @@
       "details": null,
       "cost_usd": 0.8458072499999999,
       "total_tokens": 257
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-09-09T23:30:01Z",
-      "duration_seconds": 228.4,
-      "status": "success",
-      "summary": "alarmed 1 item: 🔥 Scott (CEO) + Brent in #gmat-on-demand reporting on-demand videos not appearing, asked Amaury directly at 17:28–17:41 Bogotá with no reply — feature launched Sep 3 and is actively d",
-      "details": null,
-      "cost_usd": 0.534483,
-      "total_tokens": 11410
     }
   ]
 }
