@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-09-22T05:00:42Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-21T22:00:03Z",
       "duration_seconds": 308.5,
@@ -4959,16 +4967,6 @@
       "details": null,
       "cost_usd": 1.5857740000000002,
       "total_tokens": 12605
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-09T18:30:01Z",
-      "duration_seconds": 589.1,
-      "status": "success",
-      "summary": "Reviewed 1 PR: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Changes Requested (Features User 1 CI regression + Action 5 Maren insight partial rendered twice half-fixed) + Browser QA",
-      "details": null,
-      "cost_usd": 5.406930499999998,
-      "total_tokens": 31491
     }
   ]
 }
