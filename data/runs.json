@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T15:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 467.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4871 [TTPAI-342] Fix AI features generating nothing when the course material fetch fails → Approved + Browser QA Skipped (local Ruby environment broken — rbenv shims not on PATH, `rub",
+      "details": null,
+      "cost_usd": 1.827381,
+      "total_tokens": 31857
     },
     {
       "agent": "pr-reviewer",
