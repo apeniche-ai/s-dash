@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 345.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4873 [TTPAI-344] Fixe flashcard error reporting when the lesson is missing → Approved + Browser QA Skipped (local Ruby environment broken — 14 gems missing from ~/Desktop/ttp, Rails c",
+      "details": null,
+      "cost_usd": 1.4472142999999997,
+      "total_tokens": 22727
     },
     {
       "agent": "pr-reviewer",
