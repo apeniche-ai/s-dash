@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T12:31:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 371.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4873 [TTPAI-344] Fixe flashcard error reporting when the lesson is missing → Changes Requested (fix is correct, but it makes the flashcards_error path reachable for the first time and",
+      "details": null,
+      "cost_usd": 1.7047073999999998,
+      "total_tokens": 24368
     },
     {
       "agent": "daily-todo-digest",
