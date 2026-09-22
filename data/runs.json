@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T19:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 380.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4837 [TTPAI-311] Adds a way back into a support conversation after a Maren handoff → Approved + Browser QA Skipped (Rails cannot boot locally — bundle 39 gems out of date)",
+      "details": null,
+      "cost_usd": 2.49091245,
+      "total_tokens": 32288
     },
     {
       "agent": "pr-reviewer",
