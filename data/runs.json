@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 462.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Approved + Browser QA Skipped (rbenv not on PATH for non-interactive shells — Rails cannot boot) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 2.1823403999999997,
+      "total_tokens": 35567
     },
     {
       "agent": "pr-reviewer",
