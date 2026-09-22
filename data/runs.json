@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T13:30:32Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 387.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4869 [TTP-6416] Fail spec suite on live third party API calls → Approved + Browser QA Skipped (spec-only change)",
+      "details": null,
+      "cost_usd": 1.8741354,
+      "total_tokens": 31793
     },
     {
       "agent": "slack-watch",
