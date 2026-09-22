@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-09-22T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T12:04:05Z",
       "duration_seconds": 517.7,
@@ -4967,16 +4975,6 @@
       "status": "success",
       "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "maren-v0-launch-digest",
-      "timestamp": "2026-09-09T21:00:00Z",
-      "duration_seconds": 375.3,
-      "status": "success",
-      "summary": "Daily Maren V0 check complete. Digest delivered to the assistant Telegram channel.",
-      "details": null,
-      "cost_usd": 2.6139937499999997,
-      "total_tokens": 22010
     }
   ]
 }
