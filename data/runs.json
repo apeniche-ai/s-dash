@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-22T14:15:54Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-22T14:09:50Z",
       "duration_seconds": 364.6,
@@ -4979,16 +4987,6 @@
       "details": null,
       "cost_usd": 0.534483,
       "total_tokens": 11410
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-09T23:00:00Z",
-      "duration_seconds": 180.2,
-      "status": "success",
-      "summary": "Task tools not applicable — this is a linear scripted tick per the documented pattern in every prior tick log.",
-      "details": null,
-      "cost_usd": 1.80959225,
-      "total_tokens": 10184
     }
   ]
 }
