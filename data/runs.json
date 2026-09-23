@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-23T21:30:02Z",
+      "duration_seconds": 2.2,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-23T21:08:35Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4965,16 +4973,6 @@
       "errors": [
         "Claude Code timed out after 600s"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-11T10:00:03Z",
-      "duration_seconds": 312.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4725 [TTPAI-242] AI Exercise Bank — Generation, Judging & Promotion → Changes Requested (unscoped AiAssist::Exercise lookup in chatbot_service.rb lets a student load another student's",
-      "details": null,
-      "cost_usd": 1.6547381,
-      "total_tokens": 22852
     }
   ]
 }
