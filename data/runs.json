@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-23T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 246.6,
+      "status": "success",
+      "summary": "Scanned 9 sources (8 returned data; Indie Hackers dark for the 11th day, both WebFetch and firecrawl routes still dead) — 12 raw candidates, all 12 dropped at the filter, 0 findings written. The one g",
+      "details": null,
+      "cost_usd": 1.1764846500000001,
+      "total_tokens": 19048
     },
     {
       "agent": "pr-reviewer",
