@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-23T10:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-23T10:00:03Z",
       "duration_seconds": 909.0,
       "status": "error",
@@ -4976,16 +4984,6 @@
       "details": null,
       "cost_usd": 3.4473550000000004,
       "total_tokens": 21433
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-10T15:00:01Z",
-      "duration_seconds": 183.0,
-      "status": "success",
-      "summary": "Silent tick. Thu 10:00 mid-morning post-open: JEPQ $59.78 (+0.23% intraday, noise band); scout Thu 07:03 filed 0 findings; no PI-lane reply from Amaury. State singleton ~85h fresh from Sun consolidati",
-      "details": null,
-      "cost_usd": 1.7484315,
-      "total_tokens": 11121
     }
   ]
 }
