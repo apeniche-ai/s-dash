@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-23T17:15:02Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-23T17:00:13Z",
       "duration_seconds": 12.0,
@@ -4983,16 +4991,6 @@
       "details": null,
       "cost_usd": 1.74661525,
       "total_tokens": 15514
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-10T20:32:11Z",
-      "duration_seconds": 191.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4828 [6411] Lock the trial videos for students without a membership → Approved + Browser QA Skipped (feature-flag gated to GRE prod)",
-      "details": null,
-      "cost_usd": 1.81809575,
-      "total_tokens": 10573
     }
   ]
 }
