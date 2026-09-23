@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-23T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 401.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4872 [TTPAI-343] Stop the chatbot error handler from sending exception text to the browser → Approved + Browser QA Skipped (environment blocked)",
+      "details": null,
+      "cost_usd": 1.5550754,
+      "total_tokens": 31255
     },
     {
       "agent": "admissions-pr-reviewer",
