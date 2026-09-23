@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-23T16:07:20Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 311.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4877 [6473] Fixes admin pages querying the admin role once per menu item → Approved + Browser QA Skipped (bundle install needed)",
+      "details": null,
+      "cost_usd": 1.38338115,
+      "total_tokens": 25427
     },
     {
       "agent": "career-market-research-loop",
