@@ -189,10 +189,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-09-23T20:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 99.9,
+      "status": "success",
+      "summary": "Live verification on the one borderline case (DM with U0B2J1ZEW, channel D0B2F48M6) shows the message is indeed the latest with no reply — but on closer read it's not an explicit ask: it's the teammat",
+      "details": null,
+      "cost_usd": 0.7846522500000002,
+      "total_tokens": 11151
     },
     {
       "agent": "admissions-pr-reviewer",
