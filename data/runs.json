@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-23T14:15:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-23T14:04:35Z",
       "duration_seconds": 464.1,
@@ -4985,16 +4993,6 @@
       "details": null,
       "cost_usd": 1.61994325,
       "total_tokens": 13254
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-10T18:30:02Z",
-      "duration_seconds": 395.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4725 [TTPAI-242] AI Exercise Bank — Generation, Judging & Promotion → Changes Requested (two unresolved author-flagged Sep 5 issues: table columns lost in chatbot normalizer + fingerp",
-      "details": null,
-      "cost_usd": 2.962340249999999,
-      "total_tokens": 20897
     }
   ]
 }
