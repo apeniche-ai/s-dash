@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-23T14:04:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 464.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4869 [TTP-6416] Fail spec suite on live third party API calls → Changes Requested (the new `Net::HTTP#start` example never exercises the guard it names — WebMock's subclass shadows th",
+      "details": null,
+      "cost_usd": 1.7383492499999997,
+      "total_tokens": 31449
     },
     {
       "agent": "opportunity-scout-(2x-daily)",
