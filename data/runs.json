@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-(2x-daily)",
+      "timestamp": "2026-09-23T20:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout (2x daily)...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-23T19:30:02Z",
       "duration_seconds": 320.0,
@@ -4977,16 +4985,6 @@
       "details": null,
       "cost_usd": 1.5890810000000002,
       "total_tokens": 13268
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-10T22:30:02Z",
-      "duration_seconds": 248.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Approved + Browser QA Skipped (merge-only delta) (⚠️ no Jira context)",
-      "details": null,
-      "cost_usd": 2.1703330000000003,
-      "total_tokens": 13762
     }
   ]
 }
