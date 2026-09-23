@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-23T13:30:29Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 641.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339] Generate exercise bank candidates through the Anthropic Batch API → Approved + Browser QA Skipped (local bundle missing gems — Rails will not boot)",
+      "details": null,
+      "cost_usd": 3.5931171000000006,
+      "total_tokens": 40956
     },
     {
       "agent": "slack-watch",
