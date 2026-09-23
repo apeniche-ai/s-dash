@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-23T12:31:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 437.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4832 [TTPAI-313] Fix cost report pricing labels and large-request premium threshold → Approved + Browser QA Skipped (internal ops email, no user-facing surface)",
+      "details": null,
+      "cost_usd": 1.5156528500000002,
+      "total_tokens": 25704
     },
     {
       "agent": "daily-todo-digest",
