@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-23T12:04:09Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 593.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4825 [TTPAI-312] Restrict AI Pusher channels to their own student via private channels → Changes Requested (new session-expired handler drops `error_data`, so the tutor surface render",
+      "details": null,
+      "cost_usd": 2.71260405,
+      "total_tokens": 49948
     },
     {
       "agent": "passive-income-discovery-scan",
