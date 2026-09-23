@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-23T18:30:02Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-23T18:00:02Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4979,16 +4987,6 @@
       "details": null,
       "cost_usd": 2.76429225,
       "total_tokens": 20442
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-10T21:30:02Z",
-      "duration_seconds": 229.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4829 [6412] Daily revenue reports hide revenue and read the other apps too early → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 2.2723880000000003,
-      "total_tokens": 13226
     }
   ]
 }
