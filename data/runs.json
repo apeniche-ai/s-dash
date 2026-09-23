@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-23T15:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 228.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4874 [6469] Port the GMAT solution videos added after the first video port to GRE and EA → Approved + Browser QA Skipped (environment blocked)",
+      "details": null,
+      "cost_usd": 1.2360132,
+      "total_tokens": 18736
     },
     {
       "agent": "pr-reviewer",
