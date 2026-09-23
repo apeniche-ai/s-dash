@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-09-23T17:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-23T17:15:02Z",
       "duration_seconds": 1.5,
@@ -4981,16 +4989,6 @@
       "details": null,
       "cost_usd": 3.4131167500000004,
       "total_tokens": 29533
-    },
-    {
-      "agent": "maren-v0-launch-digest",
-      "timestamp": "2026-09-10T21:00:00Z",
-      "duration_seconds": 254.4,
-      "status": "success",
-      "summary": "Daily Maren V0 check complete. Digest delivered to the assistant Telegram channel.",
-      "details": null,
-      "cost_usd": 1.74661525,
-      "total_tokens": 15514
     }
   ]
 }
