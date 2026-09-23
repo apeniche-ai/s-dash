@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-23T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 337.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4819 [TTPAI-308] Fix an AI-generated exercise whose id equals its own source exercise_id → Approved + Browser QA Skipped (local bundle missing gems, Rails won't boot)",
+      "details": null,
+      "cost_usd": 1.4656518,
+      "total_tokens": 25224
     },
     {
       "agent": "pr-reviewer",
