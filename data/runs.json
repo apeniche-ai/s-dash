@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-23T10:00:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-23T05:01:12Z",
       "duration_seconds": 30.7,
@@ -4975,16 +4983,6 @@
       "details": null,
       "cost_usd": 1.7484315,
       "total_tokens": 11121
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-10T14:30:01Z",
-      "duration_seconds": 433.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Changes Requested (deferring to lead's Sep 4 \"Changes required\" — 5 items open at HEAD; HAML-Lint ",
-      "details": null,
-      "cost_usd": 2.95411725,
-      "total_tokens": 20832
     }
   ]
 }
