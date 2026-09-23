@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-23T15:00:04Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-23T14:30:02Z",
       "duration_seconds": 401.0,
       "status": "success",
@@ -4983,16 +4991,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-10T19:03:15Z",
-      "duration_seconds": 376.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Approved + Browser QA Skipped (Maren-epic base branch, extensive human QA already done)",
-      "details": null,
-      "cost_usd": 2.5764812500000005,
-      "total_tokens": 19716
     }
   ]
 }
