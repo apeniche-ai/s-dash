@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-23T13:02:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 357.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4844 [TTPAI-321] Fix AI Tutor typewriter animation stalling when tab is hidden → Approved + Browser QA Skipped (local bundle missing gems — Rails will not boot)",
+      "details": null,
+      "cost_usd": 2.01789425,
+      "total_tokens": 28651
     },
     {
       "agent": "pr-follow-up-check",
