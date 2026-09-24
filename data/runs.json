@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-24T14:04:49Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 507.6,
+      "status": "success",
+      "summary": "Review complete. Summary of what happened:",
+      "details": null,
+      "cost_usd": 2.0623257000000006,
+      "total_tokens": 39043
     },
     {
       "agent": "opportunity-scout-(2x-daily)",
