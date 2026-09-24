@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-09-24T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-24T15:30:02Z",
       "duration_seconds": 695.2,
@@ -4957,16 +4965,6 @@
       "details": null,
       "cost_usd": 2.0506755499999993,
       "total_tokens": 37188
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-09-11T16:00:01Z",
-      "duration_seconds": 232.2,
-      "status": "success",
-      "summary": "Tick complete. **Silent — no Telegram sent.** Neither alert trigger fired.",
-      "details": null,
-      "cost_usd": 1.2086710999999997,
-      "total_tokens": 18697
     }
   ]
 }
