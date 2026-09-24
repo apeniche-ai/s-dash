@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-09-24T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-09-23T23:30:01Z",
       "duration_seconds": 44.3,
@@ -4960,16 +4968,6 @@
       "details": null,
       "cost_usd": 1.1368121000000002,
       "total_tokens": 15088
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-11T11:30:01Z",
-      "duration_seconds": 309.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4819 [TTPAI-308] Fix an AI-generated exercise whose id equals its own source exercise_id → Approved + Browser QA Skipped (local Ruby/bundler environment broken)",
-      "details": null,
-      "cost_usd": 1.39916525,
-      "total_tokens": 25237
     }
   ]
 }
