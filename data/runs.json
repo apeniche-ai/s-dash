@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-24T15:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 695.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Approved + Browser QA Skipped (local Rails env cannot boot — gems not installed)",
+      "details": null,
+      "cost_usd": 2.1236636,
+      "total_tokens": 29219
     },
     {
       "agent": "pr-reviewer",
