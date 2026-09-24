@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-24T23:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-24T22:30:03Z",
       "duration_seconds": 1.9,
@@ -4930,17 +4938,6 @@
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-09-11T21:00:01Z",
       "duration_seconds": 9.2,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage"
-      ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-11T20:33:47Z",
-      "duration_seconds": 11.1,
       "status": "error",
       "summary": "",
       "details": null,
