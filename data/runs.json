@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-09-24T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-24T12:31:16Z",
       "duration_seconds": 525.5,
@@ -4962,16 +4970,6 @@
       "details": null,
       "cost_usd": 1.7737138,
       "total_tokens": 22820
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-11T13:32:38Z",
-      "duration_seconds": 498.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4851 [6292] Fix chat answering about the wrong example and supports generated ones → Changes Requested (personalized examples resolve `number_in_lesson` against the wrong id space, re",
-      "details": null,
-      "cost_usd": 2.5762433,
-      "total_tokens": 38899
     }
   ]
 }
