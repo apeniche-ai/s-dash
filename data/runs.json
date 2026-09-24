@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-24T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 399.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4869 [TTP-6416] Fail spec suite on live third party API calls → Approved + Browser QA Skipped (spec-only change)",
+      "details": null,
+      "cost_usd": 1.68644035,
+      "total_tokens": 37833
     },
     {
       "agent": "pr-reviewer",
