@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-24T14:30:01Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-24T14:15:01Z",
       "duration_seconds": 1.0,
@@ -4957,17 +4965,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-11T15:15:51Z",
-      "duration_seconds": 12.0,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your session limit · resets 10:40am (America/Bogota)"
-      ]
     }
   ]
 }
