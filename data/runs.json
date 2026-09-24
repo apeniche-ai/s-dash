@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-24T17:00:02Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 49 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-24T16:30:02Z",
       "duration_seconds": 1.4,
       "status": "success",
@@ -4957,16 +4965,6 @@
       "details": null,
       "cost_usd": 2.1012189,
       "total_tokens": 39736
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-11T16:30:01Z",
-      "duration_seconds": 846.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4851 [6292] Fix chat answering about the wrong example and supports generated ones → Changes Requested (personalized-example and real-example IDs come from two separate sequences but ",
-      "details": null,
-      "cost_usd": 2.6091770499999996,
-      "total_tokens": 46822
     }
   ]
 }
