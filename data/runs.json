@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-09-24T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-24T20:30:51Z",
       "duration_seconds": 1.4,
@@ -4944,16 +4952,6 @@
       "details": null,
       "cost_usd": 1.4051023999999999,
       "total_tokens": 19618
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-11T20:00:01Z",
-      "duration_seconds": 427.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Changes Requested (Rubocop, HAML-Lint and Features User 4 failing on branch while master is green;",
-      "details": null,
-      "cost_usd": 1.9982588999999997,
-      "total_tokens": 27569
     }
   ]
 }
