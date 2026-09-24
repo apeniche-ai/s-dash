@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-09-24T12:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-24T11:30:03Z",
       "duration_seconds": 309.4,
@@ -4962,16 +4970,6 @@
       "details": null,
       "cost_usd": 1.6560428,
       "total_tokens": 23839
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-09-11T13:00:00Z",
-      "duration_seconds": 174.9,
-      "status": "success",
-      "summary": "**Silent exit — nothing sent to Telegram, nothing posted to GitHub.**",
-      "details": null,
-      "cost_usd": 0.5211207999999999,
-      "total_tokens": 12453
     }
   ]
 }
