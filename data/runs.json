@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-24T16:05:19Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-24T16:00:01Z",
       "duration_seconds": 317.0,
@@ -4957,16 +4965,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-11T16:06:51Z",
-      "duration_seconds": 601.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Changes Requested (three new Pusher publish sites stay on the public `ai_user_` channel after #482",
-      "details": null,
-      "cost_usd": 2.0506755499999993,
-      "total_tokens": 37188
     }
   ]
 }
