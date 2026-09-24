@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-24T15:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 614.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4875 [TTPAI-326] Add chat content guard for pasted and photographed questions → Changes Requested (pasted text skipped when attachment extraction fails — Action 2 from human reviewer ",
+      "details": null,
+      "cost_usd": 2.3613295999999995,
+      "total_tokens": 52416
     },
     {
       "agent": "pr-reviewer",
