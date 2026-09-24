@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-24T20:30:51Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 49 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-09-24T20:30:01Z",
       "duration_seconds": 49.3,
@@ -4946,17 +4954,6 @@
       "details": null,
       "cost_usd": 1.9982588999999997,
       "total_tokens": 27569
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-11T19:32:13Z",
-      "duration_seconds": 12.4,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage"
-      ]
     }
   ]
 }
