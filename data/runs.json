@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-24T12:31:16Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 525.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4875 [TTPAI-326] Add chat content guard for pasted and photographed questions → Changes Requested (trial refund not retry-idempotent while the FeatureEvent beside it is; empty vector-",
+      "details": null,
+      "cost_usd": 2.3068655999999996,
+      "total_tokens": 40479
     },
     {
       "agent": "daily-todo-digest",
