@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-24T11:00:48Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 398.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4875 [TTPAI-326] Add chat content guard for pasted and photographed questions → Changes Requested (extraction JSON parsed without tolerating a code fence — attachment guard fails open",
+      "details": null,
+      "cost_usd": 1.9086289499999995,
+      "total_tokens": 32950
     },
     {
       "agent": "passive-income-research-loop",
