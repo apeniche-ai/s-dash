@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-09-25T16:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-25T15:30:01Z",
       "duration_seconds": 549.5,
@@ -4930,17 +4938,6 @@
       "details": null,
       "cost_usd": 2.31485625,
       "total_tokens": 21801
-    },
-    {
-      "agent": "maren-v0-launch-digest",
-      "timestamp": "2026-09-12T21:00:01Z",
-      "duration_seconds": 603.0,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 600s"
-      ]
     }
   ]
 }
