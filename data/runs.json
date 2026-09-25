@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-25T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 549.5,
+      "status": "success",
+      "summary": "That CI memory is already current and explicitly warns against making it durable — no edit needed, so I've left it as is.",
+      "details": null,
+      "cost_usd": 2.4490959499999994,
+      "total_tokens": 40039
     },
     {
       "agent": "pr-reviewer",
