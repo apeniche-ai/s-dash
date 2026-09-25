@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-25T14:10:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 528.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4837 [TTPAI-311] Adds a way back into a support conversation after a Maren handoff → Changes Requested (migration 20260924032200 missing from db/schema.rb, all 12 CI spec shards abort",
+      "details": null,
+      "cost_usd": 2.2192304999999997,
+      "total_tokens": 30863
     },
     {
       "agent": "opportunity-scout-(2x-daily)",
