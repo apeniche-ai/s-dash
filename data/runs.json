@@ -189,10 +189,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-09-25T02:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 17.9,
+      "status": "success",
+      "summary": "Reconcile ran clean — nothing changed. Every goal task is already marked done or has no matching job/suggestion to link against.",
+      "details": null,
+      "cost_usd": 0.44480109999999995,
+      "total_tokens": 3533
     },
     {
       "agent": "slack-watch",
