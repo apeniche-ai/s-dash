@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-25T15:00:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-25T14:30:02Z",
       "duration_seconds": 640.7,
       "status": "success",
@@ -4931,16 +4939,6 @@
       "details": null,
       "cost_usd": 1.1351520499999999,
       "total_tokens": 16150
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-12T19:00:01Z",
-      "duration_seconds": 229.8,
-      "status": "success",
-      "summary": "Tick complete — **silent**, nothing sent to Telegram.",
-      "details": null,
-      "cost_usd": 1.7859667499999998,
-      "total_tokens": 18272
     }
   ]
 }
