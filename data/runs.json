@@ -189,10 +189,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-25T12:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 253.0,
+      "status": "success",
+      "summary": "Scanned 8 sources (6 returned usable data; Indie Hackers dark for the 13th straight day, Product Hunt returned yesterday's already-analyzed board) — 11 raw candidates, all 11 dropped at the filter, 0 ",
+      "details": null,
+      "cost_usd": 1.1759039500000001,
+      "total_tokens": 16873
     },
     {
       "agent": "pr-reviewer",
