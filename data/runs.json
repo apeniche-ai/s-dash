@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-25T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 548.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Changes Requested (restored resize-modal handler returns the chat to the lesson sidebar instead of",
+      "details": null,
+      "cost_usd": 2.974038599999999,
+      "total_tokens": 44990
     },
     {
       "agent": "passive-income-research-loop",
