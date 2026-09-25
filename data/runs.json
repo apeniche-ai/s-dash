@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-25T18:30:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-25T18:00:03Z",
       "duration_seconds": 1.8,
       "status": "success",
@@ -4919,16 +4927,6 @@
       "details": null,
       "cost_usd": 1.7443748999999995,
       "total_tokens": 22999
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-09-13T16:00:01Z",
-      "duration_seconds": 256.3,
-      "status": "success",
-      "summary": "Tick complete. **Silent — nothing sent to Telegram.** Neither alert trigger fired.",
-      "details": null,
-      "cost_usd": 1.3942202500000005,
-      "total_tokens": 20165
     }
   ]
 }
