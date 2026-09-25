@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-09-25T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-25T12:04:14Z",
       "duration_seconds": 557.3,
@@ -4933,16 +4941,6 @@
       "details": null,
       "cost_usd": 2.6938178500000007,
       "total_tokens": 21902
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-09-12T05:00:58Z",
-      "duration_seconds": 29.2,
-      "status": "success",
-      "summary": "Reconcile done. One delta:",
-      "details": null,
-      "cost_usd": 0.5104441000000001,
-      "total_tokens": 4541
     }
   ]
 }
