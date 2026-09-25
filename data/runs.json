@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-09-25T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-09-24T23:30:01Z",
       "duration_seconds": 48.7,
@@ -4928,17 +4936,6 @@
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-09-11T21:02:10Z",
       "duration_seconds": 10.5,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage"
-      ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-11T21:00:13Z",
-      "duration_seconds": 12.6,
       "status": "error",
       "summary": "",
       "details": null,
