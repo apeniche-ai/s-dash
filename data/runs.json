@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-25T21:30:01Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-25T21:08:02Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4904,16 +4912,6 @@
       "details": null,
       "cost_usd": 1.3521393000000002,
       "total_tokens": 24162
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-14T10:30:02Z",
-      "duration_seconds": 633.8,
-      "status": "success",
-      "summary": "Done. Results batched to memory (05:30 is outside work hours, so no Telegram) and the sweep bug filed as a high-priority suggestion.",
-      "details": null,
-      "cost_usd": 2.4485533500000005,
-      "total_tokens": 45599
     }
   ]
 }
