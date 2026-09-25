@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-25T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 341.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (the `.perform persistence and delivery` spec block this PR adds still fails 5 examples — its `Ai::SummarySe",
+      "details": null,
+      "cost_usd": 1.4817163500000001,
+      "total_tokens": 23180
     },
     {
       "agent": "pr-reviewer",
