@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-25T12:32:04Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-09-25T12:30:00Z",
       "duration_seconds": 121.7,
@@ -4933,16 +4941,6 @@
       "details": null,
       "cost_usd": 1.3743696000000003,
       "total_tokens": 20361
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-12T05:01:27Z",
-      "duration_seconds": 583.0,
-      "status": "success",
-      "summary": "Tick complete — **silent, nothing sent to Telegram.** Correct outcome: it's 12:01 AM Saturday and Friday's runs deliberately banked the live decision for Monday.",
-      "details": null,
-      "cost_usd": 2.6938178500000007,
-      "total_tokens": 21902
     }
   ]
 }
