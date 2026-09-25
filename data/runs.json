@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-25T14:18:51Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-25T14:10:04Z",
       "duration_seconds": 528.2,
@@ -4933,16 +4941,6 @@
       "details": null,
       "cost_usd": 1.4070840000000002,
       "total_tokens": 21500
-    },
-    {
-      "agent": "system-health-audit",
-      "timestamp": "2026-09-12T15:05:39Z",
-      "duration_seconds": 327.6,
-      "status": "success",
-      "summary": "## Health Audit Complete — Overall: 9/10",
-      "details": null,
-      "cost_usd": 1.591038,
-      "total_tokens": 35363
     }
   ]
 }
