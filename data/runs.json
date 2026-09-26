@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-26T19:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-26T16:00:01Z",
       "duration_seconds": 390.1,
@@ -4900,16 +4908,6 @@
       "details": null,
       "cost_usd": 2.67470735,
       "total_tokens": 44844
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-09-14T13:00:01Z",
-      "duration_seconds": 205.5,
-      "status": "success",
-      "summary": "Sent to the pr-reviews channel.",
-      "details": null,
-      "cost_usd": 0.73134715,
-      "total_tokens": 11411
     }
   ]
 }
