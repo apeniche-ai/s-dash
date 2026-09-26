@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-09-26T12:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-26T11:00:01Z",
       "duration_seconds": 20.6,
@@ -4900,16 +4908,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-14T12:08:39Z",
-      "duration_seconds": 437.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4848 [6432] Hide Concept Masteries bookmarks tab when no active content exists → Approved + Browser QA Skipped (local env cannot boot Rails — rbenv not initialized in job shell, ~40 g",
-      "details": null,
-      "cost_usd": 2.338089,
-      "total_tokens": 29320
     }
   ]
 }
