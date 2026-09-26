@@ -189,10 +189,12 @@
     {
       "agent": "career-market-research-loop",
       "timestamp": "2026-09-26T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Research Loop...",
-      "details": null
+      "duration_seconds": 390.1,
+      "status": "success",
+      "summary": "Tick complete. **Silent — nothing sent to Amaury.** Neither alert trigger fired, which is the correct outcome.",
+      "details": null,
+      "cost_usd": 1.6237477999999996,
+      "total_tokens": 25836
     },
     {
       "agent": "system-health-audit",
