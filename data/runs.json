@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-research-loop",
+      "timestamp": "2026-09-26T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Research Loop...",
+      "details": null
+    },
+    {
       "agent": "system-health-audit",
       "timestamp": "2026-09-26T15:00:00Z",
       "duration_seconds": 501.0,
@@ -4900,16 +4908,6 @@
       "details": null,
       "cost_usd": 0.73134715,
       "total_tokens": 11411
-    },
-    {
-      "agent": "weekly-team-shipping-report",
-      "timestamp": "2026-09-14T12:45:01Z",
-      "duration_seconds": 288.6,
-      "status": "success",
-      "summary": "Report sent to the team-intel channel. Summary of what the data showed:",
-      "details": null,
-      "cost_usd": 1.19518825,
-      "total_tokens": 25563
     }
   ]
 }
