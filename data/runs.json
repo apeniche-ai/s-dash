@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-09-26T21:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-(2x-daily)",
       "timestamp": "2026-09-26T20:00:01Z",
       "duration_seconds": 261.5,
@@ -4902,14 +4910,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
       ]
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-09-14T13:15:02Z",
-      "duration_seconds": 1.3,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
