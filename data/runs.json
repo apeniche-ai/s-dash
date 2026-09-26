@@ -189,10 +189,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-09-26T02:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 15.0,
+      "status": "success",
+      "summary": "Reconcile ran clean — nothing changed. No Telegram sent (silent exit per spec). Fifth consecutive clean run: every goal task is either already marked done or has no matching job/suggestion to link aga",
+      "details": null,
+      "cost_usd": 0.44072915,
+      "total_tokens": 3524
     },
     {
       "agent": "slack-watch",
