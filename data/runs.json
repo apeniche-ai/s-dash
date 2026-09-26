@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-26T03:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-09-26T02:30:01Z",
       "duration_seconds": 15.0,
@@ -4900,16 +4908,6 @@
       "details": null,
       "cost_usd": 1.1061974999999997,
       "total_tokens": 15984
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-09-14T12:00:00Z",
-      "duration_seconds": 297.5,
-      "status": "success",
-      "summary": "Scan complete, silent as designed — nothing sent to Amaury.",
-      "details": null,
-      "cost_usd": 1.2509941,
-      "total_tokens": 20891
     }
   ]
 }
