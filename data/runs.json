@@ -189,10 +189,12 @@
     {
       "agent": "opportunity-scout-(2x-daily)",
       "timestamp": "2026-09-26T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout (2x daily)...",
-      "details": null
+      "duration_seconds": 347.4,
+      "status": "success",
+      "summary": "Run complete — **silent, nothing sent to Amaury.** That's the correct outcome.",
+      "details": null,
+      "cost_usd": 1.3139831,
+      "total_tokens": 24845
     },
     {
       "agent": "soren-improvement-review",
