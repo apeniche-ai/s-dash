@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-09-26T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-09-25T23:30:01Z",
       "duration_seconds": 44.0,
@@ -4900,16 +4908,6 @@
       "details": null,
       "cost_usd": 1.2509941,
       "total_tokens": 20891
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-14T11:33:55Z",
-      "duration_seconds": 306.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4847 [6431] Fix unclickable notes on highlighted math expressions → Approved + Browser QA Skipped (local dev env cannot boot Rails — ~40 gems missing from bundle)",
-      "details": null,
-      "cost_usd": 1.4339734499999999,
-      "total_tokens": 21064
     }
   ]
 }
