@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-(2x-daily)",
+      "timestamp": "2026-09-27T20:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout (2x daily)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-27T19:00:01Z",
       "duration_seconds": 80.0,
@@ -4892,17 +4900,6 @@
       "agent": "weekly-goal-review",
       "timestamp": "2026-09-14T14:07:06Z",
       "duration_seconds": 5.3,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
-      ]
-    },
-    {
-      "agent": "weekly-goal-review",
-      "timestamp": "2026-09-14T14:05:00Z",
-      "duration_seconds": 5.5,
       "status": "error",
       "summary": "",
       "details": null,
