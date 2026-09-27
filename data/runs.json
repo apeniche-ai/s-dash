@@ -189,10 +189,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-09-27T23:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 193.8,
+      "status": "success",
+      "summary": "Digest sent to the assistant channel and logged.",
+      "details": null,
+      "cost_usd": 1.0891340500000002,
+      "total_tokens": 15910
     },
     {
       "agent": "maren-v0-launch-digest",
