@@ -189,10 +189,12 @@
     {
       "agent": "opportunity-scout-(2x-daily)",
       "timestamp": "2026-09-27T20:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout (2x daily)...",
-      "details": null
+      "duration_seconds": 377.9,
+      "status": "success",
+      "summary": "Run complete — **silent, nothing sent to Amaury.** Correct outcome.",
+      "details": null,
+      "cost_usd": 1.4725574500000003,
+      "total_tokens": 25234
     },
     {
       "agent": "passive-income-research-loop",
