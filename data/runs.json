@@ -188,6 +188,14 @@
   "runs": [
     {
       "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-27T11:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
+      "agent": "passive-income-research-loop",
       "timestamp": "2026-09-27T03:00:02Z",
       "duration_seconds": 23.5,
       "status": "success",
@@ -4894,17 +4902,6 @@
       "agent": "colombia-mintic-transition-watch",
       "timestamp": "2026-09-14T14:00:07Z",
       "duration_seconds": 8.4,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
-      ]
-    },
-    {
-      "agent": "opportunity-scout-(2x-daily)",
-      "timestamp": "2026-09-14T14:00:01Z",
-      "duration_seconds": 5.6,
       "status": "error",
       "summary": "",
       "details": null,
