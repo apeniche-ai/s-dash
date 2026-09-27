@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-27T23:03:14Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-09-27T23:00:01Z",
       "duration_seconds": 193.8,
@@ -4901,14 +4909,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-14T14:30:02Z",
-      "duration_seconds": 1.2,
-      "status": "success",
-      "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
