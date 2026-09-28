@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-28T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-28T22:30:02Z",
       "duration_seconds": 1.3,
@@ -4898,16 +4906,6 @@
       "details": null,
       "cost_usd": 1.5745762499999998,
       "total_tokens": 21218
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-15T13:33:03Z",
-      "duration_seconds": 728.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4863 [TTPAI-338] Add math solution step verifier to exercise generation and bank approval → Changes Requested (PARTIAL coverage treated as a pass, contradicting the ticket's approval ",
-      "details": null,
-      "cost_usd": 3.3579534000000004,
-      "total_tokens": 51851
     }
   ]
 }
