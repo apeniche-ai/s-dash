@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-28T17:15:02Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-28T17:00:03Z",
       "duration_seconds": 738.7,
@@ -4930,16 +4938,6 @@
       "details": null,
       "cost_usd": 0.4526065,
       "total_tokens": 4077
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-09-14T23:30:01Z",
-      "duration_seconds": 82.9,
-      "status": "success",
-      "summary": "Slack cache was still empty on retry (all 5 channels + DM search failed identically). Logged the failure — no earlier failures today, so this is an isolated gap, not a full-day outage, and per protoco",
-      "details": null,
-      "cost_usd": 0.90985385,
-      "total_tokens": 9773
     }
   ]
 }
