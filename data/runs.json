@@ -189,10 +189,12 @@
     {
       "agent": "weekly-side-income-tracker",
       "timestamp": "2026-09-28T00:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Side-Income Tracker...",
-      "details": null
+      "duration_seconds": 451.0,
+      "status": "success",
+      "summary": "Done. Message sent to the passive-income channel, log stored, one doc fix.",
+      "details": null,
+      "cost_usd": 1.50936705,
+      "total_tokens": 22473
     },
     {
       "agent": "passive-income-research-loop",
