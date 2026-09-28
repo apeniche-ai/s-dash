@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-28T12:10:41Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 486.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337] Refresh student intelligence profiles on source changes → Changes Requested (the invalidation batch still never drains — `failed` and worker-orphaned `running` batche",
+      "details": null,
+      "cost_usd": 2.00423835,
+      "total_tokens": 38113
     },
     {
       "agent": "weekly-vp-performance-edge",
