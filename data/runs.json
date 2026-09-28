@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-28T19:00:27Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-28T19:00:01Z",
       "duration_seconds": 24.8,
@@ -4924,16 +4932,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-15T11:04:53Z",
-      "duration_seconds": 590.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4860 [6449] Add error category classification to failure reasons → Approved + Browser QA Skipped (local Rails env cannot boot)",
-      "details": null,
-      "cost_usd": 1.9427694,
-      "total_tokens": 34152
     }
   ]
 }
