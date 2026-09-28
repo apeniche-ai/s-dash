@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-28T10:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 452.1,
+      "status": "success",
+      "summary": "Review complete and durable: APPROVE submitted against head `71f7f925`, \"Claude Reviewed\" label applied, branch cleaned back to master, results batched to memory (05:00 Mon is outside work hours, so n",
+      "details": null,
+      "cost_usd": 2.5263306000000005,
+      "total_tokens": 37576
     },
     {
       "agent": "passive-income-research-loop",
