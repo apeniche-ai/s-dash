@@ -1,5 +1,13 @@
 {
   "agents": {
+    "opportunity-scout-delivery-(morning)": {
+      "id": "01M3N1EVQPZYJRT7FBKKQDQR77",
+      "name": "Opportunity Scout Delivery (morning)",
+      "agent": "opportunity-scout",
+      "status": "enabled",
+      "schedule": "30 9 * * *",
+      "description": "9:30 AM daily — sends whatever the 02:00 research run queued, if anything. No research. Cheap by design; most days it finds nothing."
+    },
     "side-income-delivery-(morning)": {
       "id": "01M3N0BQV6PAYZC5EJRMA35ZE4",
       "name": "Side-Income Delivery (morning)",
@@ -8,12 +16,12 @@
       "schedule": "0 9 * * 0",
       "description": "Sunday 9 AM — sends the message the 01:00 analysis run queued, if there is one. No research. Cheap by design."
     },
-    "opportunity-scout-(2x-daily)": {
+    "opportunity-scout-research-(overnight)": {
       "id": "01M277XX9TFFM62TKQCXTPR35Y",
-      "name": "Opportunity Scout (2x daily)",
+      "name": "Opportunity Scout Research (overnight)",
       "agent": "opportunity-scout",
       "status": "enabled",
-      "schedule": "0 9,15 * * *",
+      "schedule": "0 2 * * *",
       "description": "9 AM and 3 PM daily — rotate one research avenue (AI-work listings, fractional market, exec-search/board, LatAm ecosystem, events/deadlines, bet re-verification), verify adversarially, surface only findings that pass the full evidence bar. Silent runs are the norm."
     },
     "maren-v0-launch-digest": {
