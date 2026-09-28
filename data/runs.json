@@ -1,5 +1,13 @@
 {
   "agents": {
+    "side-income-delivery-(morning)": {
+      "id": "01M3N0BQV6PAYZC5EJRMA35ZE4",
+      "name": "Side-Income Delivery (morning)",
+      "agent": "side-income-tracker",
+      "status": "enabled",
+      "schedule": "0 9 * * 0",
+      "description": "Sunday 9 AM — sends the message the 01:00 analysis run queued, if there is one. No research. Cheap by design."
+    },
     "opportunity-scout-(2x-daily)": {
       "id": "01M277XX9TFFM62TKQCXTPR35Y",
       "name": "Opportunity Scout (2x daily)",
@@ -16,12 +24,12 @@
       "schedule": "0 16 * * *",
       "description": "Daily 4:00 PM Bogotá (5 PM ET) — Maren V0 launch status to the assistant channel: done count vs required pace, PRs waiting on Amaury's merge, stuck tickets, Jira↔GitHub mismatches. Temporary job; retire after Maren V0 ships."
     },
-    "weekly-side-income-tracker": {
+    "side-income-analysis-(overnight)": {
       "id": "01KZ6RWA5HZ1T8SHMXR7P0JSW4",
-      "name": "Weekly Side-Income Tracker",
+      "name": "Side-Income Analysis (overnight)",
       "agent": "side-income-tracker",
       "status": "enabled",
-      "schedule": "30 19 * * 0",
+      "schedule": "0 1 * * 0",
       "description": "Sunday 7:30 PM — one plain-English status on the side-income pipeline to the passive-income channel; silent when nothing changed and nothing is pending on Amaury."
     },
     "passive-income-discovery-scan": {
