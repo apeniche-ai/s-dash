@@ -187,6 +187,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-coaching-digest",
+      "timestamp": "2026-09-28T01:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Coaching Digest...",
+      "details": null
+    },
+    {
       "agent": "weekly-side-income-tracker",
       "timestamp": "2026-09-28T00:30:01Z",
       "duration_seconds": 451.0,
@@ -4900,16 +4908,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-14T15:00:11Z",
-      "duration_seconds": 345.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4858 [6446] Fix admin dashboard charts grouping days in UTC → Approved + Browser QA Skipped (local Rails env cannot boot — missing gems)",
-      "details": null,
-      "cost_usd": 1.7073250500000003,
-      "total_tokens": 23919
     }
   ]
 }
