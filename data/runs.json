@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-28T17:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 738.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4882 [6484] Improve the QA database restore process → Changes Requested (dyno formation saved after scale-to-zero, so a failed run silently resumes the QA app with no dynos; `online_c",
+      "details": null,
+      "cost_usd": 3.270334950000001,
+      "total_tokens": 60308
     },
     {
       "agent": "pr-reviewer",
