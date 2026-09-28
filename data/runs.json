@@ -45,8 +45,8 @@
       "name": "Passive Income Discovery Scan",
       "agent": "passive-income-scout",
       "status": "enabled",
-      "schedule": "0 7 * * *",
-      "description": "Daily 7 AM — silent outside-signal scanner for Reddit, Hacker News, and AI vendor release notes. Writes 0-3 filtered candidates to memory for the 10 AM passive-income tick to consume."
+      "schedule": "0 3 * * *",
+      "description": "Daily 3 AM — silent outside-signal scanner. Writes 0-3 filtered candidates to memory for the passive-income loop to consume. Never notifies Amaury directly."
     },
     "career-market-weekly-digest": {
       "id": "01KRMBP8QF66A23BMMNE23XDE1",
