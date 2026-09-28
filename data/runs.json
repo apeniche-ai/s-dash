@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-28T12:31:45Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 434.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4848 [6432] Hide Concept Masteries bookmarks tab when no active content exists → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 2.6376327,
+      "total_tokens": 33993
     },
     {
       "agent": "daily-todo-digest",
