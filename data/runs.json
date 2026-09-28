@@ -189,10 +189,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-09-28T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 102.3,
+      "status": "success",
+      "summary": "Digest sent. No reminders, no doable tasks, nothing completed since last run — just the same 3 MentalTune decisions still sitting on Amaury.",
+      "details": null,
+      "cost_usd": 0.8618165,
+      "total_tokens": 11047
     },
     {
       "agent": "pr-reviewer",
