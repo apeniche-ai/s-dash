@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-28T11:00:20Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 442.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 2.4352888500000005,
+      "total_tokens": 35580
     },
     {
       "agent": "passive-income-research-loop",
