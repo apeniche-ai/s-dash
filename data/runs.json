@@ -189,10 +189,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-28T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 400.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4880 [6475] Hide Transfer Display on GRE read-only results pages → Approved + Browser QA Skipped (local Rails env cannot boot — missing gems)",
+      "details": null,
+      "cost_usd": 1.82241495,
+      "total_tokens": 30055
     },
     {
       "agent": "weekly-goal-review",
