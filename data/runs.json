@@ -189,10 +189,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-09-28T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 113.1,
+      "status": "success",
+      "summary": "**11 stagnant PRs — all in `targettestprep/ttp`. Admissions is clean (0 PRs labeled \"Changes Requested\").** Message delivered to the pr-reviews channel.",
+      "details": null,
+      "cost_usd": 0.43081435,
+      "total_tokens": 8717
     },
     {
       "agent": "weekly-team-shipping-report",
