@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-09-29T07:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-29T03:00:02Z",
       "duration_seconds": 64.0,
@@ -4903,17 +4911,6 @@
       "details": null,
       "cost_usd": 2.7631750499999996,
       "total_tokens": 35714
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-15T15:00:01Z",
-      "duration_seconds": 27.8,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
-      ]
     }
   ]
 }
