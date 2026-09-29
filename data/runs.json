@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-29T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-29T22:30:02Z",
       "duration_seconds": 1.5,
@@ -4897,16 +4905,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-16T11:14:39Z",
-      "duration_seconds": 323.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4838 [6423] Fix lesson navigation hang when subscription expires mid-session → Approved + Browser QA Skipped (local app cannot boot — gems not installed for Ruby 3.4.9)",
-      "details": null,
-      "cost_usd": 1.6950596999999998,
-      "total_tokens": 22106
     }
   ]
 }
