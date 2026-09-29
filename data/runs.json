@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-29T11:00:27Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 309.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4883 [TTPAI-242][6292] Consolidates exercise bank and tabbed new example → Changes Requested (critical: LaTeX samples added to chatbot.md trip the prompt-placeholder check, so every A",
+      "details": null,
+      "cost_usd": 2.1324463999999996,
+      "total_tokens": 16418
     },
     {
       "agent": "passive-income-research-loop",
