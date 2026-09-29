@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-29T11:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 432.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Changes Requested (critical: new lesson-number code crashes Home when the Next item has no lesson; own expired-dashboard",
+      "details": null,
+      "cost_usd": 1.903581,
+      "total_tokens": 14378
     },
     {
       "agent": "pr-reviewer",
