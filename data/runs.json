@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-29T14:30:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 316.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4883 [TTPAI-242][6292] Consolidates exercise bank and tabbed new example → Approved + Browser QA Skipped (local gems missing)",
+      "details": null,
+      "cost_usd": 1.334774,
+      "total_tokens": 8040
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
