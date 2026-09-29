@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-29T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 429.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4885 [6360] Add inactivity modal that pauses study time visibly → Changes Requested (modal still shows on the in-test Review Center, and an error while opening it can leave the study ",
+      "details": null,
+      "cost_usd": 1.7218743999999997,
+      "total_tokens": 13690
     },
     {
       "agent": "pr-reviewer",
