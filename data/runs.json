@@ -173,10 +173,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-09-29T12:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 25.1,
+      "status": "success",
+      "summary": "I sent the digest to the assistant channel and stored the last-digest-sent marker.",
+      "details": null,
+      "cost_usd": 0.27469439999999995,
+      "total_tokens": 1019
     },
     {
       "agent": "pr-reviewer",
