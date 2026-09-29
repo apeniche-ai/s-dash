@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-29T21:30:03Z",
+      "duration_seconds": 2.1,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-29T21:03:08Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4903,16 +4911,6 @@
       "details": null,
       "cost_usd": 1.9114175999999998,
       "total_tokens": 34922
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-16T10:00:03Z",
-      "duration_seconds": 542.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4809 [TTP-6214] Adds Maren Get Help chip as first-line support → Approved + Browser QA Skipped (local app cannot boot — bundler 2.6.9 missing)",
-      "details": null,
-      "cost_usd": 2.4104904,
-      "total_tokens": 37433
     }
   ]
 }
