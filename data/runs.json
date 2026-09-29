@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-29T13:01:57Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-09-29T13:00:00Z",
       "duration_seconds": 116.2,
@@ -4912,16 +4920,6 @@
       "status": "success",
       "summary": "No PRs to review — 48 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-09-15T17:30:00Z",
-      "duration_seconds": 51.7,
-      "status": "success",
-      "summary": "I've scheduled a wakeup in ~2 minutes to retry the Slack calls once the cache has had time to rebuild. Ending this turn now — I'll resume automatically.",
-      "details": null,
-      "cost_usd": 0.8330635999999998,
-      "total_tokens": 7437
     }
   ]
 }
