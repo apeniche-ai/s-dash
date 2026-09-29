@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-29T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 24.1,
+      "status": "success",
+      "summary": "silent",
+      "details": null,
+      "cost_usd": 0.5356034000000001,
+      "total_tokens": 214
     },
     {
       "agent": "pr-reviewer",
