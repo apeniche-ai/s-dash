@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-29T12:00:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 217.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4884 [6476] Fix today's week scrolling before calendar tasks render → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.3111731999999998,
+      "total_tokens": 6699
     },
     {
       "agent": "pr-reviewer",
