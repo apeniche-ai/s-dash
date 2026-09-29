@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-09-29T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 119.7,
+      "status": "success",
+      "summary": "silent: the last untested lead, corporate technical-training work (DevelopIntelligence, O'Reilly), failed. Classes run for whole business days, no pay rate is published anywhere, and the O'Reilly rout",
+      "details": null,
+      "cost_usd": 1.0426354,
+      "total_tokens": 5398
     },
     {
       "agent": "passive-income-research-loop",
