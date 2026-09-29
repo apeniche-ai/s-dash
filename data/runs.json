@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-delivery-(morning)",
+      "timestamp": "2026-09-29T14:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Delivery (morning)...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-29T14:15:01Z",
       "duration_seconds": 1.4,
@@ -4912,17 +4920,6 @@
       "details": null,
       "cost_usd": 1.8307557,
       "total_tokens": 27059
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-15T19:00:00Z",
-      "duration_seconds": 604.5,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 600s"
-      ]
     }
   ]
 }
