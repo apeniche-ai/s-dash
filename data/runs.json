@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-09-29T08:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-09-29T07:00:01Z",
       "duration_seconds": 119.7,
@@ -4903,16 +4911,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-15T15:00:30Z",
-      "duration_seconds": 543.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4809 [TTP-6214] Adds Maren Get Help chip as first-line support → Approved + Browser QA Skipped (local Rails environment broken — bundle install needed)",
-      "details": null,
-      "cost_usd": 2.7631750499999996,
-      "total_tokens": 35714
     }
   ]
 }
