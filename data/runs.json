@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-09-29T17:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-09-29T17:15:02Z",
       "duration_seconds": 1.9,
@@ -4915,14 +4923,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your session limit · resets 4pm (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-15T20:30:02Z",
-      "duration_seconds": 1.4,
-      "status": "success",
-      "summary": "No PRs to review — 48 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
