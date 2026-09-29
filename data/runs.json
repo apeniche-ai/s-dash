@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-29T16:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 170.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4882 [6484] Improve the QA database restore process → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.2160160000000002,
+      "total_tokens": 6758
     },
     {
       "agent": "pr-reviewer",
