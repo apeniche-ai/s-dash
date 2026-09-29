@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-29T13:01:57Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 522.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4875 [TTPAI-326] Add chat content guard for pasted and photographed questions → Changes Requested (copies of GMAT/GRE questions from the page have no choice letters, so they no longer",
+      "details": null,
+      "cost_usd": 2.6623298000000006,
+      "total_tokens": 24520
     },
     {
       "agent": "pr-follow-up-check",
