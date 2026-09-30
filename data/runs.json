@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T12:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 422.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4881 [6335] Add LiveTeach modal template with dynamic cohort data → Changes Requested (NPS survey outranks every promotion and re-shows daily until answered, starving admin-sale/LiveT",
+      "details": null,
+      "cost_usd": 2.105919,
+      "total_tokens": 17937
     },
     {
       "agent": "pr-reviewer",
