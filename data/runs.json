@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T15:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 306.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4887 [6394] Update ActiveReview modal copy to remove track terminology → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.1428034000000002,
+      "total_tokens": 5090
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
