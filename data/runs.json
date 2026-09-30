@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-delivery-(morning)",
       "timestamp": "2026-09-30T14:33:09Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Delivery (morning)...",
-      "details": null
+      "duration_seconds": 24.3,
+      "status": "success",
+      "summary": "nothing-queued",
+      "details": null,
+      "cost_usd": 0.4198238,
+      "total_tokens": 335
     },
     {
       "agent": "pr-reviewer",
