@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-09-30T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 83.3,
+      "status": "success",
+      "summary": "silent. I checked one new idea: paid expert-evaluator and development-bank consultant rosters. EU grant evaluators get a fixed €450 a day, roughly $65 an hour, and the Inter-American Development Bank'",
+      "details": null,
+      "cost_usd": 1.0010912,
+      "total_tokens": 4814
     },
     {
       "agent": "passive-income-research-loop",
