@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T15:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 252.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4889 [TTPAI-349] Track checkout page views through to purchase → Changes Requested (online class and bootcamp checkout pages have no spec, which the ticket requires) + Browser QA Skip",
+      "details": null,
+      "cost_usd": 1.4700707999999998,
+      "total_tokens": 11775
     },
     {
       "agent": "pr-reviewer",
