@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-30T20:15:02Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T20:00:03Z",
       "duration_seconds": 171.8,
@@ -4893,17 +4901,6 @@
       "details": null,
       "cost_usd": 2.4615828,
       "total_tokens": 32099
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-17T11:00:02Z",
-      "duration_seconds": 905.0,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 900s"
-      ]
     }
   ]
 }
