@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-09-30T12:37:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T12:30:02Z",
       "duration_seconds": 422.1,
@@ -4902,17 +4910,6 @@
       "details": null,
       "cost_usd": 1.6851268499999998,
       "total_tokens": 24997
-    },
-    {
-      "agent": "opportunity-scout-(2x-daily)",
-      "timestamp": "2026-09-16T14:00:00Z",
-      "duration_seconds": 345.2,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
-      ]
     }
   ]
 }
