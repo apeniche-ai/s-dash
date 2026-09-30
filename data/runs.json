@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 280.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4837 [TTPAI-311] Adds a way back into a support conversation after a Maren handoff → Changes Requested (PR's own new spec ai_assist_streaming_spec.rb:491 failing in CI; missed on my 0",
+      "details": null,
+      "cost_usd": 1.5726366,
+      "total_tokens": 13074
     },
     {
       "agent": "passive-income-discovery-scan",
