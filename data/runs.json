@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-09-30T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T20:30:30Z",
       "duration_seconds": 1.5,
@@ -4891,16 +4899,6 @@
       "details": null,
       "cost_usd": 2.3059670999999997,
       "total_tokens": 37869
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-17T11:30:02Z",
-      "duration_seconds": 572.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4863 [TTPAI-338] Add math solution step verifier to exercise generation and bank approval → Changes Requested (graphics_interpretation can no longer be generated for students — the st",
-      "details": null,
-      "cost_usd": 2.16241695,
-      "total_tokens": 41681
     }
   ]
 }
