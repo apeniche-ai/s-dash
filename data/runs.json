@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-09-30T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-09-30T12:37:02Z",
       "duration_seconds": 24.8,
@@ -4902,16 +4910,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-16T14:05:46Z",
-      "duration_seconds": 379.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4844 [TTPAI-321] Fix AI Tutor typewriter animation stalling when tab is hidden → Approved + Browser QA Skipped (local app cannot boot — 40 gems missing and job PATH misses rbenv)",
-      "details": null,
-      "cost_usd": 1.6851268499999998,
-      "total_tokens": 24997
     }
   ]
 }
