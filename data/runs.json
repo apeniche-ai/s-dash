@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 312.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4886 [6395] Rename Desired Score (Track) to Target Score across Settings and ActiveReview → Approved + Browser QA Skipped (local Rails env missing gems, needs bundle install)",
+      "details": null,
+      "cost_usd": 1.300337,
+      "total_tokens": 7618
     },
     {
       "agent": "pr-reviewer",
