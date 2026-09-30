@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-09-30T10:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-09-30T08:00:00Z",
       "duration_seconds": 139.6,
@@ -4901,16 +4909,6 @@
       "details": null,
       "cost_usd": 0.7518779500000001,
       "total_tokens": 6083
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-16T12:30:02Z",
-      "duration_seconds": 463.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4850 [TTPAI-325] Add Elo coverage for test problem attempts and rejects missing bootstrap accuracy → Approved + Browser QA Skipped (local gems not installed)",
-      "details": null,
-      "cost_usd": 2.5166791499999994,
-      "total_tokens": 32655
     }
   ]
 }
