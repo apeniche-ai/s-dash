@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-09-30T23:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-30T23:00:01Z",
       "duration_seconds": 27.0,
@@ -4887,16 +4895,6 @@
       "details": null,
       "cost_usd": 0.7489481000000001,
       "total_tokens": 10585
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-17T13:00:02Z",
-      "duration_seconds": 494.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4863 [TTPAI-338] Add math solution step verifier to exercise generation and bank approval → Approved + Browser QA Skipped (local Rails env down)",
-      "details": null,
-      "cost_usd": 2.38804845,
-      "total_tokens": 32397
     }
   ]
 }
