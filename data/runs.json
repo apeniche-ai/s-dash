@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-09-30T20:00:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-09-30T19:30:04Z",
       "duration_seconds": 267.7,
       "status": "success",
@@ -4894,16 +4902,6 @@
       "errors": [
         "Claude Code timed out after 900s"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-17T10:30:01Z",
-      "duration_seconds": 467.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4850 [TTPAI-325] Add Elo coverage for test problem attempts and rejects missing bootstrap accuracy → Approved + Browser QA Skipped (local Rails env — 5 missing gems)",
-      "details": null,
-      "cost_usd": 1.6553139499999998,
-      "total_tokens": 34780
     }
   ]
 }
