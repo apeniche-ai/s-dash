@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-30T03:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-09-30T02:30:01Z",
       "duration_seconds": 17.8,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.8308767499999998,
       "total_tokens": 34380
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-09-16T12:00:01Z",
-      "duration_seconds": 259.9,
-      "status": "success",
-      "summary": "Scanned 10 sources (8 worked, 2 failed) and wrote 0 findings — 10 raw candidates all dropped at the filter, mostly because a free open-source tool already covers the job. The two genuinely new vendor ",
-      "details": null,
-      "cost_usd": 1.3181786999999998,
-      "total_tokens": 20450
     }
   ]
 }
