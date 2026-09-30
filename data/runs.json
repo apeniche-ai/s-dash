@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-09-30T14:15:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T14:00:02Z",
       "duration_seconds": 184.5,
@@ -4903,16 +4911,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-16T15:00:09Z",
-      "duration_seconds": 443.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4854 [6442] Port GMAT On Demand solution videos to identical GRE and EA problems → Approved + Browser QA Skipped (migration is a no-op on the local GMAT app)",
-      "details": null,
-      "cost_usd": 2.0555311499999998,
-      "total_tokens": 30480
     }
   ]
 }
