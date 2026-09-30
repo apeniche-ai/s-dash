@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-30T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T22:30:03Z",
       "duration_seconds": 2.0,
@@ -4887,16 +4895,6 @@
       "details": null,
       "cost_usd": 2.38804845,
       "total_tokens": 32397
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-09-17T12:30:01Z",
-      "duration_seconds": 30.3,
-      "status": "success",
-      "summary": "Digest complete — silent inbox-zero exit. No open todos, no reminders due, and the only completed items on record are from May, so nothing to report as done since yesterday. Sent the inbox-zero messag",
-      "details": null,
-      "cost_usd": 0.74353045,
-      "total_tokens": 5557
     }
   ]
 }
