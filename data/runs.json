@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-09-30T19:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T18:30:03Z",
       "duration_seconds": 175.0,
@@ -4894,16 +4902,6 @@
       "details": null,
       "cost_usd": 3.683703600000002,
       "total_tokens": 31138
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-09-17T05:00:43Z",
-      "duration_seconds": 17.6,
-      "status": "success",
-      "summary": "Reconcile ran clean — nothing changed. No Telegram sent.",
-      "details": null,
-      "cost_usd": 0.44513919999999996,
-      "total_tokens": 4110
     }
   ]
 }
