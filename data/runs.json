@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T19:00:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 214.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4885 [6360] Add inactivity modal that pauses study time visibly → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.3344479999999996,
+      "total_tokens": 6691
     },
     {
       "agent": "passive-income-research-loop",
