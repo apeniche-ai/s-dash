@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-09-30T19:30:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 267.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4825 [TTPAI-312] Restrict AI Pusher channels to their own student via private channels → Changes Requested (tutor hint still stuck on loading dots when subscription refused; same comm",
+      "details": null,
+      "cost_usd": 1.1126277999999998,
+      "total_tokens": 4943
     },
     {
       "agent": "pr-reviewer",
