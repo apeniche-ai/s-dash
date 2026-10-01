@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-10-01T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-01T23:00:01Z",
       "duration_seconds": 22.1,
@@ -4875,14 +4883,6 @@
       "details": null,
       "cost_usd": 0.30539865,
       "total_tokens": 3085
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-18T10:30:03Z",
-      "duration_seconds": 2.5,
-      "status": "success",
-      "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
