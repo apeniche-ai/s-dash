@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-01T13:30:33Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-01T13:30:01Z",
       "duration_seconds": 30.5,
@@ -4897,16 +4905,6 @@
       "details": null,
       "cost_usd": 1.9543362,
       "total_tokens": 32630
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-09-17T16:00:03Z",
-      "duration_seconds": 305.6,
-      "status": "success",
-      "summary": "Tick complete. **Silent — nothing sent to Telegram.** Neither alert trigger fired.",
-      "details": null,
-      "cost_usd": 1.6116698499999997,
-      "total_tokens": 23628
     }
   ]
 }
