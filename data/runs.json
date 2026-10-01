@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-01T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-01T22:30:01Z",
       "duration_seconds": 1.2,
@@ -4873,16 +4881,6 @@
       "status": "success",
       "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-18T10:00:03Z",
-      "duration_seconds": 619.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4831 [6405] Route the OnDemand video checks through one shared helper → Changes Requested (ticket requires spec coverage; the one spec edit stubs `full_ondemand_access?` so the lock c",
-      "details": null,
-      "cost_usd": 3.34950645,
-      "total_tokens": 42131
     }
   ]
 }
