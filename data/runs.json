@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-01T13:01:52Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 399.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4890 [6485] Redesign the Visual Learning page header → Changes Requested (switching sections with the new pills keeps the first section's colours because the body class is never updat",
+      "details": null,
+      "cost_usd": 1.7135456,
+      "total_tokens": 13622
     },
     {
       "agent": "pr-follow-up-check",
