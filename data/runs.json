@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-01T11:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-01T11:00:34Z",
       "duration_seconds": 284.0,
       "status": "success",
@@ -4891,16 +4899,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your session limit · resets 11am (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-17T14:30:02Z",
-      "duration_seconds": 581.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4529 [6038] Add self-managed billing engine foundation → Changes Requested (unauthenticated account takeover on /billing_checkout/success via enumerable billing_core_payment_attempt_i",
-      "details": null,
-      "cost_usd": 2.70779205,
-      "total_tokens": 35808
     }
   ]
 }
