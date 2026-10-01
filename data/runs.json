@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-10-01T08:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 107.5,
+      "status": "success",
+      "summary": "I scanned 10 working sources today and wrote 0 findings. All 5 possible ideas failed the filter. The closest was a growing set of complaints about malware getting into Ruby packages, which I dropped b",
+      "details": null,
+      "cost_usd": 1.0233963999999998,
+      "total_tokens": 5987
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
