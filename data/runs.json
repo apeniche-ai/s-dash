@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-10-01T08:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-01T07:00:01Z",
       "duration_seconds": 99.0,
@@ -4891,14 +4899,6 @@
       "details": null,
       "cost_usd": 2.8619071499999995,
       "total_tokens": 43202
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-17T13:30:02Z",
-      "duration_seconds": 1.1,
-      "status": "success",
-      "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
