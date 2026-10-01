@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-10-01T20:15:02Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-01T20:00:02Z",
       "duration_seconds": 1.6,
@@ -4881,16 +4889,6 @@
       "details": null,
       "cost_usd": 1.9152702,
       "total_tokens": 33828
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-17T21:12:50Z",
-      "duration_seconds": 377.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4809 [TTP-6214] Adds Maren Get Help chip as first-line support → Approved + Browser QA Skipped (local env broken — ~40 gems missing)",
-      "details": null,
-      "cost_usd": 1.8831864,
-      "total_tokens": 27929
     }
   ]
 }
