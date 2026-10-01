@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-01T10:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 365.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (own spec still failing: summary_service_spec double missing `refused?` stub, 5 examples) + Browser QA Skipp",
+      "details": null,
+      "cost_usd": 1.7407153999999996,
+      "total_tokens": 12551
     },
     {
       "agent": "passive-income-discovery-scan",
