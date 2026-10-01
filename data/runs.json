@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-01T11:00:34Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 284.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4832 [TTPAI-310/313/321/325] Consolidates AI fixes for cost report pricing, broken comparison questions, background-tab tutor hints and test-answer Elo → Approved + Browser QA Skipped",
+      "details": null,
+      "cost_usd": 1.7078858000000001,
+      "total_tokens": 10481
     },
     {
       "agent": "passive-income-research-loop",
