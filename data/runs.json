@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-01T22:00:03Z",
+      "duration_seconds": 1.7,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-01T21:30:02Z",
       "duration_seconds": 1.4,
       "status": "success",
@@ -4877,16 +4885,6 @@
       "details": null,
       "cost_usd": 0.25402305,
       "total_tokens": 3087
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-09-18T02:30:01Z",
-      "duration_seconds": 20.8,
-      "status": "success",
-      "summary": "Reconcile ran clean — nothing changed. No Telegram sent.",
-      "details": null,
-      "cost_usd": 0.45471114999999995,
-      "total_tokens": 4135
     }
   ]
 }
