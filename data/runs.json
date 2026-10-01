@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-01T13:30:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 183.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4889 [TTPAI-349] Track checkout page views through to purchase → Approved + Browser QA Skipped (local Rails environment missing gems)",
+      "details": null,
+      "cost_usd": 1.2380016000000003,
+      "total_tokens": 6350
     },
     {
       "agent": "slack-watch",
