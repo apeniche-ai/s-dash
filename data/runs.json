@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-01T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 265.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4868 [TTPAI-308/340/343/344] Consolidates AI fixes for image descriptions in chat, chatbot and flashcard error messages, and AI exercise deletion → Approved + Browser QA Skipped (loca",
+      "details": null,
+      "cost_usd": 1.5580081999999997,
+      "total_tokens": 9278
     },
     {
       "agent": "pr-reviewer",
