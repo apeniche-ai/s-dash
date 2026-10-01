@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-01T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 99.0,
+      "status": "success",
+      "summary": "silent — the micro1 Senior Software Engineer listing is still open with the same $245–280 rate, so there's nothing new to tell him. I also rejected the one new engineering listing on the board: it nee",
+      "details": null,
+      "cost_usd": 1.0794096000000002,
+      "total_tokens": 5751
     },
     {
       "agent": "passive-income-research-loop",
