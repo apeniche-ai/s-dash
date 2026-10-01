@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-01T19:30:04Z",
+      "duration_seconds": 2.8,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-01T19:00:32Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4885,17 +4893,6 @@
       "details": null,
       "cost_usd": 1.4049424499999998,
       "total_tokens": 24483
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-09-17T20:45:19Z",
-      "duration_seconds": 11.0,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your session limit · resets 4pm (America/Bogota)"
-      ]
     }
   ]
 }
