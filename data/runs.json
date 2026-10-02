@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-10-02T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-02T12:30:26Z",
       "duration_seconds": 1.7,
@@ -4873,16 +4881,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-18T14:07:09Z",
-      "duration_seconds": 767.2,
-      "status": "success",
-      "summary": "Cleanup done (on `master`). Review is complete on GitHub: approved with a detailed body explaining why the four red checks don't block, and the \"Claude Reviewed\" label applied. Manual QA steps skipped",
-      "details": null,
-      "cost_usd": 3.4232742,
-      "total_tokens": 41287
     }
   ]
 }
