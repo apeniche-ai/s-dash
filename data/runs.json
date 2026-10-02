@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-02T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 72.2,
+      "status": "success",
+      "summary": "I've logged this run in my notes and queued nothing for the morning.",
+      "details": null,
+      "cost_usd": 0.7692604000000002,
+      "total_tokens": 3376
     },
     {
       "agent": "passive-income-research-loop",
