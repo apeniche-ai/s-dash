@@ -173,10 +173,12 @@
     {
       "agent": "performance-check-in-(fri)",
       "timestamp": "2026-10-02T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Performance Check-in (Fri)...",
-      "details": null
+      "duration_seconds": 108.8,
+      "status": "success",
+      "summary": "I sent this morning's coaching message to the Coaching channel.",
+      "details": null,
+      "cost_usd": 1.0148804,
+      "total_tokens": 5067
     },
     {
       "agent": "pr-reviewer",
