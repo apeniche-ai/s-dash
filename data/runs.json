@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-02T21:02:15Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 344.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Changes Requested (PR's own trial-banner spec fails depending on time of day) + Browser QA Skipped (local env missing ge",
+      "details": null,
+      "cost_usd": 1.6043298,
+      "total_tokens": 11862
     },
     {
       "agent": "maren-v0-launch-digest",
