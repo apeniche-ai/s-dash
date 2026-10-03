@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-03T23:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 24.2,
+      "status": "success",
+      "summary": "silent",
+      "details": null,
+      "cost_usd": 0.5459608,
+      "total_tokens": 298
     },
     {
       "agent": "maren-v0-launch-digest",
