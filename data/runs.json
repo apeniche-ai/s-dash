@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-03T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 106.5,
+      "status": "success",
+      "summary": "silent — no check is due until Singulier around Oct 11. The one new idea tonight was paid research sessions for software companies (Respondent, User Interviews), and I ruled it out without researching",
+      "details": null,
+      "cost_usd": 1.1770349999999998,
+      "total_tokens": 6590
     },
     {
       "agent": "passive-income-research-loop",
