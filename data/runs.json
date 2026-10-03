@@ -173,10 +173,12 @@
     {
       "agent": "system-health-audit",
       "timestamp": "2026-10-03T15:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running System Health Audit...",
-      "details": null
+      "duration_seconds": 44.5,
+      "status": "success",
+      "summary": "Audit finished. I filed one suggestion and sent nothing to Telegram, since nothing is broken.",
+      "details": null,
+      "cost_usd": 0.434717,
+      "total_tokens": 3538
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
