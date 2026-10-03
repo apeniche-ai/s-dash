@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-10-03T07:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-03T03:00:01Z",
       "duration_seconds": 25.8,
@@ -4864,16 +4872,6 @@
       "details": null,
       "cost_usd": 0.90312895,
       "total_tokens": 11893
-    },
-    {
-      "agent": "opportunity-scout-(2x-daily)",
-      "timestamp": "2026-09-19T14:00:01Z",
-      "duration_seconds": 400.7,
-      "status": "success",
-      "summary": "**Silent run — nothing sent to Telegram.** That's the correct outcome here.",
-      "details": null,
-      "cost_usd": 1.52801045,
-      "total_tokens": 29799
     }
   ]
 }
