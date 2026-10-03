@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-03T03:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 25.8,
+      "status": "success",
+      "summary": "The only \"new candidate\" is the overnight scan's own summary: it found 0 ideas and says there is nothing to act on. The state is healthy, and every live thread is waiting on Amaury. So nothing changed",
+      "details": null,
+      "cost_usd": 0.5427455999999999,
+      "total_tokens": 236
     },
     {
       "agent": "goal-progress-reconciliation",
