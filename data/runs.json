@@ -173,10 +173,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-10-03T21:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 88.3,
+      "status": "success",
+      "summary": "I didn't send a Telegram message today. It's Saturday, and nothing important changed since yesterday's report. I saved today's log.",
+      "details": null,
+      "cost_usd": 0.7707382,
+      "total_tokens": 4283
     },
     {
       "agent": "passive-income-research-loop",
