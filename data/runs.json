@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-04T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 56.6,
+      "status": "success",
+      "summary": "silent: no check is due until the Singulier repost check around Oct 11. I ruled out the few new names I found without any web research, because each matches a type of channel already ruled out: staffi",
+      "details": null,
+      "cost_usd": 0.7935804,
+      "total_tokens": 3157
     },
     {
       "agent": "side-income-analysis-(overnight)",
