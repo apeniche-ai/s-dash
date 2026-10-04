@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "side-income-delivery-(morning)",
+      "timestamp": "2026-10-04T14:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Side-Income Delivery (morning)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-04T11:00:01Z",
       "duration_seconds": 23.9,
@@ -4863,16 +4871,6 @@
       "details": null,
       "cost_usd": 1.75689435,
       "total_tokens": 27142
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-20T19:00:01Z",
-      "duration_seconds": 135.9,
-      "status": "success",
-      "summary": "Tick done. **Silent — nothing sent to Amaury.**",
-      "details": null,
-      "cost_usd": 0.9385357500000001,
-      "total_tokens": 13467
     }
   ]
 }
