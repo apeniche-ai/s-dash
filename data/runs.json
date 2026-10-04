@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-delivery-(morning)",
+      "timestamp": "2026-10-04T14:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Delivery (morning)...",
+      "details": null
+    },
+    {
       "agent": "side-income-delivery-(morning)",
       "timestamp": "2026-10-04T14:00:01Z",
       "duration_seconds": 40.6,
@@ -4863,16 +4871,6 @@
       "details": null,
       "cost_usd": 1.5465468,
       "total_tokens": 27343
-    },
-    {
-      "agent": "opportunity-scout-(2x-daily)",
-      "timestamp": "2026-09-20T20:00:00Z",
-      "duration_seconds": 360.6,
-      "status": "success",
-      "summary": "Run complete. **Silent — nothing sent to Amaury.** That's the correct outcome.",
-      "details": null,
-      "cost_usd": 1.75689435,
-      "total_tokens": 27142
     }
   ]
 }
