@@ -173,10 +173,12 @@
     {
       "agent": "side-income-analysis-(overnight)",
       "timestamp": "2026-10-04T06:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Side-Income Analysis (overnight)...",
-      "details": null
+      "duration_seconds": 104.4,
+      "status": "success",
+      "summary": "queued — Mercor and micro1 are both unknown, and next Sunday's keep-or-stop call depends on them, so I'm asking him one short question first.",
+      "details": null,
+      "cost_usd": 0.8367964,
+      "total_tokens": 4661
     },
     {
       "agent": "passive-income-research-loop",
