@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-10-04T07:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "side-income-analysis-(overnight)",
       "timestamp": "2026-10-04T06:00:00Z",
       "duration_seconds": 104.4,
@@ -4864,16 +4872,6 @@
       "errors": [
         "Claude Code timed out after 600s"
       ]
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-09-20T12:00:01Z",
-      "duration_seconds": 265.3,
-      "status": "success",
-      "summary": "Scan complete. Silent by design — nothing sent to Amaury.",
-      "details": null,
-      "cost_usd": 1.2550896,
-      "total_tokens": 19032
     }
   ]
 }
