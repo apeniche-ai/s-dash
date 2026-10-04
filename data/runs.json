@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-weekly-digest",
+      "timestamp": "2026-10-04T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Weekly Digest...",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-10-04T21:00:01Z",
       "duration_seconds": 77.2,
@@ -4863,16 +4871,6 @@
       "details": null,
       "cost_usd": 0.9601251500000001,
       "total_tokens": 17400
-    },
-    {
-      "agent": "career-market-weekly-digest",
-      "timestamp": "2026-09-20T23:00:19Z",
-      "duration_seconds": 200.3,
-      "status": "success",
-      "summary": "Digest sent to the assistant channel and logged.",
-      "details": null,
-      "cost_usd": 1.0662343,
-      "total_tokens": 16888
     }
   ]
 }
