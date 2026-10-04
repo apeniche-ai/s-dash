@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-04T23:01:46Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 24.5,
+      "status": "success",
+      "summary": "silent",
+      "details": null,
+      "cost_usd": 0.5528134,
+      "total_tokens": 519
     },
     {
       "agent": "career-market-weekly-digest",
