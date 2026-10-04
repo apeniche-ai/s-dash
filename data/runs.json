@@ -173,10 +173,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-10-04T23:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 106.2,
+      "status": "success",
+      "summary": "This week's career digest went out to the assistant channel on Telegram. It's logged, and the notes file is updated.",
+      "details": null,
+      "cost_usd": 1.1884907999999998,
+      "total_tokens": 7076
     },
     {
       "agent": "maren-v0-launch-digest",
