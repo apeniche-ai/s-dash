@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-05T21:30:02Z",
+      "duration_seconds": 1.7,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-10-05T21:00:03Z",
       "duration_seconds": 168.9,
@@ -4839,16 +4847,6 @@
       "details": null,
       "cost_usd": 1.12621095,
       "total_tokens": 23849
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-21T20:30:45Z",
-      "duration_seconds": 658.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4725 [TTPAI-242] AI Exercise Bank — Generation, Judging & Promotion → Approved + Browser QA Skipped (local Ruby env missing ~40 gems, app won't boot) (⚠️ no Jira context)",
-      "details": null,
-      "cost_usd": 2.6852729999999996,
-      "total_tokens": 48723
     }
   ]
 }
