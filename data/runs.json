@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-05T19:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-05T18:30:02Z",
       "duration_seconds": 125.2,
       "status": "success",
@@ -4845,16 +4853,6 @@
       "details": null,
       "cost_usd": 1.4977687499999999,
       "total_tokens": 30158
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-21T18:00:03Z",
-      "duration_seconds": 580.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4868 [TTPAI-340] Retrieve image descriptions into the chat's context → Approved + Browser QA Skipped (vector KB not available locally, feature inert)",
-      "details": null,
-      "cost_usd": 2.6766209999999995,
-      "total_tokens": 38139
     }
   ]
 }
