@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-10-05T20:15:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-05T20:00:02Z",
       "duration_seconds": 1.4,
@@ -4843,16 +4851,6 @@
       "details": null,
       "cost_usd": 1.4664704,
       "total_tokens": 26606
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-21T19:30:02Z",
-      "duration_seconds": 427.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Approved + Browser QA Skipped (local bundler broken — env failure, reported to Telegram only)",
-      "details": null,
-      "cost_usd": 2.03524845,
-      "total_tokens": 32150
     }
   ]
 }
