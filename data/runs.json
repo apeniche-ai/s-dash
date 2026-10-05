@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-05T18:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-05T18:00:03Z",
       "duration_seconds": 1.7,
       "status": "success",
@@ -4845,16 +4853,6 @@
       "details": null,
       "cost_usd": 2.6766209999999995,
       "total_tokens": 38139
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-21T17:30:57Z",
-      "duration_seconds": 491.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4854 [6442] Port GMAT On Demand solution videos to matching GRE and EA questions → Approved + Browser QA Skipped (data-migration-only, no app code changed)",
-      "details": null,
-      "cost_usd": 2.0747808,
-      "total_tokens": 35227
     }
   ]
 }
