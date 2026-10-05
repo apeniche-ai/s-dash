@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-team-shipping-report",
+      "timestamp": "2026-10-05T12:45:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Team Shipping Report...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-10-05T12:30:03Z",
       "duration_seconds": 23.6,
@@ -4857,16 +4865,6 @@
       "details": null,
       "cost_usd": 0.67512125,
       "total_tokens": 10202
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-21T13:00:02Z",
-      "duration_seconds": 402.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4868 [TTPAI-340] Retrieve image descriptions into the chat's context → Changes Requested (image-description queries not scoped by exam, so a GRE sync can overwrite GMAT's chunk; image",
-      "details": null,
-      "cost_usd": 1.4581068000000001,
-      "total_tokens": 26799
     }
   ]
 }
