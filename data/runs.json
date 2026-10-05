@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-05T12:30:03Z",
+      "duration_seconds": 1.8,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-10-05T12:00:04Z",
       "duration_seconds": 127.6,
@@ -4859,16 +4867,6 @@
       "details": null,
       "cost_usd": 1.1591222499999998,
       "total_tokens": 23100
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-09-21T12:39:40Z",
-      "duration_seconds": 61.4,
-      "status": "success",
-      "summary": "Digest sent. Nothing changed from three days ago: no reminders due, nothing doable in my queue, nothing completed. Just the same 3 standing MentalTune decisions waiting on you (merge the two safety PR",
-      "details": null,
-      "cost_usd": 0.9477437000000001,
-      "total_tokens": 8692
     }
   ]
 }
