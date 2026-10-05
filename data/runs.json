@@ -173,10 +173,12 @@
     {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-10-05T12:00:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly VP Performance Edge...",
-      "details": null
+      "duration_seconds": 127.6,
+      "status": "success",
+      "summary": "I skipped this week and didn't send Amaury anything. None of the ideas I found passed the bar, and the rules say to skip rather than send something weak.",
+      "details": null,
+      "cost_usd": 0.9889668,
+      "total_tokens": 4512
     },
     {
       "agent": "pr-reviewer",
