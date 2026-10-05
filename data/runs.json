@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-05T15:30:03Z",
+      "duration_seconds": 1.7,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-05T15:00:02Z",
       "duration_seconds": 1.9,
       "status": "success",
@@ -4847,16 +4855,6 @@
       "status": "success",
       "summary": "No PRs to review — 45 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-21T15:00:01Z",
-      "duration_seconds": 310.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Approved + Browser QA Skipped (env error — rbenv not on PATH)",
-      "details": null,
-      "cost_usd": 0.9352314000000002,
-      "total_tokens": 18108
     }
   ]
 }
