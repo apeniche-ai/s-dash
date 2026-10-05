@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-10-05T08:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 108.2,
+      "status": "success",
+      "summary": "I scanned 10 sources this morning and saved no new ideas. All 8 possible ideas failed the filter: free tools already cover them, or they fall under topics Amaury has already closed, like cloud-spend c",
+      "details": null,
+      "cost_usd": 1.070518,
+      "total_tokens": 7435
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
