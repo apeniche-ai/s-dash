@@ -173,10 +173,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-10-05T12:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 23.6,
+      "status": "success",
+      "summary": "I sent today's digest to the assistant channel on Telegram. It lists the three open todos, all with no deadline and all needing you:",
+      "details": null,
+      "cost_usd": 0.28373679999999996,
+      "total_tokens": 1188
     },
     {
       "agent": "pr-reviewer",
