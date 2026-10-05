@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-10-05T08:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-05T07:00:01Z",
       "duration_seconds": 49.0,
@@ -4863,16 +4871,6 @@
       "details": null,
       "cost_usd": 0.31134545,
       "total_tokens": 3103
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-21T10:30:01Z",
-      "duration_seconds": 473.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4832 [TTPAI-313] Fix cost report pricing labels and large-request premium threshold → Approved + Browser QA Skipped (ticket states not browser-testable — internal ops email, no studen",
-      "details": null,
-      "cost_usd": 2.29407,
-      "total_tokens": 31198
     }
   ]
 }
