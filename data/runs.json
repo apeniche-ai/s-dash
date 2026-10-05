@@ -173,10 +173,12 @@
     {
       "agent": "weekly-goal-review",
       "timestamp": "2026-10-05T14:07:08Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Goal Review...",
-      "details": null
+      "duration_seconds": 55.7,
+      "status": "success",
+      "summary": "I sent this week's goal review to Telegram and it was delivered. Nothing new got ticked off. The reconcile step matched no tasks.",
+      "details": null,
+      "cost_usd": 0.6944761999999999,
+      "total_tokens": 3938
     },
     {
       "agent": "pr-reviewer",
