@@ -173,10 +173,12 @@
     {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-10-05T01:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Coaching Digest...",
-      "details": null
+      "duration_seconds": 104.0,
+      "status": "success",
+      "summary": "I sent this week's coaching digest (Sep 28 – Oct 4) to the Coaching channel, and it was delivered. It's also saved to memory, so next week's digest can compare against it.",
+      "details": null,
+      "cost_usd": 0.9457679999999999,
+      "total_tokens": 5961
     },
     {
       "agent": "passive-income-research-loop",
