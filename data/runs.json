@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-10-05T20:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-10-05T20:15:02Z",
       "duration_seconds": 1.4,
@@ -4841,16 +4849,6 @@
       "details": null,
       "cost_usd": 2.1065750000000003,
       "total_tokens": 38655
-    },
-    {
-      "agent": "opportunity-scout-(2x-daily)",
-      "timestamp": "2026-09-21T20:00:01Z",
-      "duration_seconds": 343.3,
-      "status": "success",
-      "summary": "Run complete. **Silent — nothing sent to Amaury.** That's the correct outcome.",
-      "details": null,
-      "cost_usd": 1.4664704,
-      "total_tokens": 26606
     }
   ]
 }
