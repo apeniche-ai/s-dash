@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-05T13:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-05T13:00:02Z",
       "duration_seconds": 1.4,
       "status": "success",
@@ -4855,16 +4863,6 @@
       "errors": [
         "Claude Code timed out after 900s"
       ]
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-09-21T13:40:36Z",
-      "duration_seconds": 34.1,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.68245475,
-      "total_tokens": 5375
     }
   ]
 }
