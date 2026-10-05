@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-05T19:02:35Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-05T19:00:02Z",
       "duration_seconds": 154.7,
@@ -4845,16 +4853,6 @@
       "details": null,
       "cost_usd": 0.6967875499999999,
       "total_tokens": 5894
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-21T18:30:02Z",
-      "duration_seconds": 398.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4870 [6468] Report the same order id in every purchase pixel → Approved + Browser QA Skipped (requires a completed live Recurly purchase; output is inside tracking script tags, not re",
-      "details": null,
-      "cost_usd": 1.4977687499999999,
-      "total_tokens": 30158
     }
   ]
 }
