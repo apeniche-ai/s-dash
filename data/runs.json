@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-05T10:30:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-05T10:00:01Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4861,16 +4869,6 @@
       "status": "success",
       "summary": "No PRs to review — 42 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-21T11:00:18Z",
-      "duration_seconds": 392.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4866 [6458] Add auto-scroll to keep the active sidebar section visible on admin panel → Approved + Browser QA Skipped (admin-only feature, fixture user lacks admin access)",
-      "details": null,
-      "cost_usd": 2.3031534,
-      "total_tokens": 28952
     }
   ]
 }
