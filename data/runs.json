@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-05T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 125.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4891 [TTPAI-351] Compute AI cost figures for any date range → Changes Requested (ticket's required performance and adoption-denominator notes still not written down; label cleared wit",
+      "details": null,
+      "cost_usd": 1.0905075999999998,
+      "total_tokens": 5545
     },
     {
       "agent": "pr-reviewer",
