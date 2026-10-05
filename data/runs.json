@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-05T17:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 508.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (summary_service_spec fix still missing; 2 TTPAI-311 specs from the #4837 merge fail, including a Maren togg",
+      "details": null,
+      "cost_usd": 2.172342,
+      "total_tokens": 18463
     },
     {
       "agent": "admissions-pr-reviewer",
