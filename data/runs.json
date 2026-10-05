@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-05T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 427.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4891 [TTPAI-351] Compute AI cost figures for any date range → Changes Requested (ticket-required scale report and adoption denominator source not stated) + Browser QA Skipped (backend",
+      "details": null,
+      "cost_usd": 2.130475,
+      "total_tokens": 19820
     },
     {
       "agent": "slack-watch",
