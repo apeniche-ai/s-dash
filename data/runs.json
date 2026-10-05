@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-05T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 49.0,
+      "status": "success",
+      "summary": "silent: no check is due until about Oct 11. The new research-group names I found belong to a group of AI-evaluation jobs that my earlier runs already checked and ruled out, so I didn't spend web resea",
+      "details": null,
+      "cost_usd": 0.8283964,
+      "total_tokens": 2864
     },
     {
       "agent": "passive-income-research-loop",
