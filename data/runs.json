@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-06T17:30:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 391.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4865 [6414] LiveTeach welcome email and personalized class recaps → Approved + Browser QA Skipped (email-only background job)",
+      "details": null,
+      "cost_usd": 2.1510079999999996,
+      "total_tokens": 15763
     },
     {
       "agent": "slack-watch",
