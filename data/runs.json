@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-06T11:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-06T10:30:02Z",
       "duration_seconds": 194.1,
@@ -4833,16 +4841,6 @@
       "details": null,
       "cost_usd": 1.2540484000000003,
       "total_tokens": 18289
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-22T11:30:03Z",
-      "duration_seconds": 346.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4871 [TTPAI-342] Fix AI features generating nothing when the course material fetch fails → Changes Requested (ChatbotService swallows the DB error to nil, so the student's exercise si",
-      "details": null,
-      "cost_usd": 1.6240812,
-      "total_tokens": 28755
     }
   ]
 }
