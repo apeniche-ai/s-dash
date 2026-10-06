@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-06T14:30:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 352.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4897 [6505] Fix Score Analyzer reports being cut off during analysis → Changes Requested (20-min request timeout still sized for the old 64k ceiling) + Browser QA Skipped (background ",
+      "details": null,
+      "cost_usd": 1.9959038,
+      "total_tokens": 12599
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
