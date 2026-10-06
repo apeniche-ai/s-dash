@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-06T11:00:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 454.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337] Refresh student intelligence profiles on source changes → Changes Requested (refresh job rebuilds already-current profiles on every change; bulk invalidation queues n",
+      "details": null,
+      "cost_usd": 2.5384854000000003,
+      "total_tokens": 23913
     },
     {
       "agent": "passive-income-research-loop",
