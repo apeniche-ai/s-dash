@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-06T13:01:57Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 272.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4890 [6485] Redesign the Visual Learning page header → Approved + Browser QA Skipped (local Rails can't boot — missing gems)",
+      "details": null,
+      "cost_usd": 1.3359838000000004,
+      "total_tokens": 7578
     },
     {
       "agent": "pr-follow-up-check",
