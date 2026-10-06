@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-06T21:02:07Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-10-06T21:00:00Z",
       "duration_seconds": 125.3,
@@ -4820,16 +4828,6 @@
       "errors": [
         "Claude Code timed out after 900s"
       ]
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-23T05:01:12Z",
-      "duration_seconds": 30.7,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.32472709999999994,
-      "total_tokens": 3529
     }
   ]
 }
