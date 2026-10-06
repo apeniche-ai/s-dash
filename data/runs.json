@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-06T21:02:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 465.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (PR's own intercom_proxy_spec create_intercom_note examples fail on an unstubbed Intercom contact search) + ",
+      "details": null,
+      "cost_usd": 1.7464254000000001,
+      "total_tokens": 13298
     },
     {
       "agent": "maren-v0-launch-digest",
