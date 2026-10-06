@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-06T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 297.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4890 [6485] Redesign the Visual Learning page header → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.5962192000000002,
+      "total_tokens": 9233
     },
     {
       "agent": "pr-reviewer",
