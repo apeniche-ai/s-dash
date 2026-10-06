@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-06T20:30:35Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-06T20:30:01Z",
       "duration_seconds": 32.5,
@@ -4820,16 +4828,6 @@
       "details": null,
       "cost_usd": 0.46635129999999997,
       "total_tokens": 3773
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-09-22T20:30:00Z",
-      "duration_seconds": 113.0,
-      "status": "success",
-      "summary": "No alarms this cycle. Summary of what I checked:",
-      "details": null,
-      "cost_usd": 0.9494808,
-      "total_tokens": 11790
     }
   ]
 }
