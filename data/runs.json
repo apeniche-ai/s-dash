@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-06T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 329.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4890 [6485] Redesign the Visual Learning page header → Changes Requested (latest commit broke two of the PR's own specs because `calendar_helper.rb` uses `t`, not `I18n.t`; Back/Forwa",
+      "details": null,
+      "cost_usd": 1.5843461999999997,
+      "total_tokens": 11767
     },
     {
       "agent": "pr-reviewer",
