@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-06T12:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 264.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4895 [TTPAI-350] Record which dashboard cards a student sees and clicks → Approved + Browser QA Skipped (local Rails can't boot — missing gems)",
+      "details": null,
+      "cost_usd": 1.3720902,
+      "total_tokens": 8064
     },
     {
       "agent": "pr-reviewer",
