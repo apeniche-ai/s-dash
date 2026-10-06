@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-06T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 80.3,
+      "status": "success",
+      "summary": "silent: the last untested lead, freelance corporate tech-training work, was checked tonight and doesn't fit his 5–10 evening hours or the $150/hr floor, so nothing was queued.",
+      "details": null,
+      "cost_usd": 0.9825256,
+      "total_tokens": 4417
     },
     {
       "agent": "passive-income-research-loop",
