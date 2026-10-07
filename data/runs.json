@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-10-07T17:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-10-07T17:15:02Z",
       "duration_seconds": 1.1,
@@ -4814,16 +4822,6 @@
       "details": null,
       "cost_usd": 1.4995916999999999,
       "total_tokens": 28004
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-23T19:30:02Z",
-      "duration_seconds": 320.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4825 [TTPAI-312] Restrict AI Pusher channels to their own student via private channels → Approved + Browser QA Skipped (local bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.6027438999999997,
-      "total_tokens": 23707
     }
   ]
 }
