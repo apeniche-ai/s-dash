@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-07T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 56.8,
+      "status": "success",
+      "summary": "silent — nothing new was ready to check tonight. The next scheduled check is Singulier, around Oct 11. The one avenue earlier notes kept recommending, paid conference programme committees and standard",
+      "details": null,
+      "cost_usd": 0.8080234000000002,
+      "total_tokens": 2691
     },
     {
       "agent": "passive-income-research-loop",
