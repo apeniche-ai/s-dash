@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-07T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 247.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4875 [TTPAI-326] Add chat content guard for pasted and photographed questions → Approved + Browser QA Skipped (local bundle missing gems) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.3027574000000004,
+      "total_tokens": 7124
     },
     {
       "agent": "pr-reviewer",
