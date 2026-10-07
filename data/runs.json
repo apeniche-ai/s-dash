@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-10-07T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-07T12:30:24Z",
       "duration_seconds": 215.4,
@@ -4810,16 +4818,6 @@
       "details": null,
       "cost_usd": 1.2360132,
       "total_tokens": 18736
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-23T15:00:04Z",
-      "duration_seconds": 207.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4873 [TTPAI-344] Fixe flashcard error reporting when the lesson is missing → Approved + Browser QA Skipped (environment blocked)",
-      "details": null,
-      "cost_usd": 0.9891312,
-      "total_tokens": 17240
     }
   ]
 }
