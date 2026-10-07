@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-07T11:00:23Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-07T11:00:00Z",
       "duration_seconds": 21.4,
@@ -4812,16 +4820,6 @@
       "details": null,
       "cost_usd": 1.35751775,
       "total_tokens": 19803
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-23T13:30:29Z",
-      "duration_seconds": 641.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339] Generate exercise bank candidates through the Anthropic Batch API → Approved + Browser QA Skipped (local bundle missing gems — Rails will not boot)",
-      "details": null,
-      "cost_usd": 3.5931171000000006,
-      "total_tokens": 40956
     }
   ]
 }
