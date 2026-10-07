@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-07T03:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-10-07T02:30:01Z",
       "duration_seconds": 27.3,
@@ -4812,16 +4820,6 @@
       "details": null,
       "cost_usd": 0.9761228,
       "total_tokens": 10343
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-23T12:04:09Z",
-      "duration_seconds": 593.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4825 [TTPAI-312] Restrict AI Pusher channels to their own student via private channels → Changes Requested (new session-expired handler drops `error_data`, so the tutor surface render",
-      "details": null,
-      "cost_usd": 2.71260405,
-      "total_tokens": 49948
     }
   ]
 }
