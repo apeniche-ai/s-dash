@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-07T13:01:45Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-10-07T13:00:01Z",
       "duration_seconds": 103.1,
@@ -4810,16 +4818,6 @@
       "details": null,
       "cost_usd": 2.54984065,
       "total_tokens": 34529
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-23T15:30:02Z",
-      "duration_seconds": 228.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4874 [6469] Port the GMAT solution videos added after the first video port to GRE and EA → Approved + Browser QA Skipped (environment blocked)",
-      "details": null,
-      "cost_usd": 1.2360132,
-      "total_tokens": 18736
     }
   ]
 }
