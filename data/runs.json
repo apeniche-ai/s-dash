@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-07T19:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 302.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4902 [6510] Fixes New Example failing on factorial and permutation lessons → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.4811428,
+      "total_tokens": 11219
     },
     {
       "agent": "pr-reviewer",
