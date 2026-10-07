@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-07T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-07T22:30:03Z",
       "duration_seconds": 257.1,
@@ -4816,16 +4824,6 @@
       "details": null,
       "cost_usd": 0.70296075,
       "total_tokens": 5586
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-24T10:30:01Z",
-      "duration_seconds": 399.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4869 [TTP-6416] Fail spec suite on live third party API calls → Approved + Browser QA Skipped (spec-only change)",
-      "details": null,
-      "cost_usd": 1.68644035,
-      "total_tokens": 37833
     }
   ]
 }
