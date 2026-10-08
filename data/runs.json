@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-08T14:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-08T13:34:46Z",
       "duration_seconds": 31.3,
@@ -4818,16 +4826,6 @@
       "details": null,
       "cost_usd": 2.8352717999999997,
       "total_tokens": 51207
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-09-24T16:00:01Z",
-      "duration_seconds": 317.0,
-      "status": "success",
-      "summary": "Tick complete. **Silent — nothing sent to Amaury.** Correct outcome: neither alert trigger fired.",
-      "details": null,
-      "cost_usd": 1.5503825500000001,
-      "total_tokens": 23968
     }
   ]
 }
