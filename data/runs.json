@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-08T17:30:04Z",
+      "duration_seconds": 1.7,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-10-08T17:15:02Z",
       "duration_seconds": 1.5,
@@ -4814,16 +4822,6 @@
       "status": "success",
       "summary": "No PRs to review — 49 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-24T19:00:59Z",
-      "duration_seconds": 573.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4725 [TTPAI-242] AI Exercise Bank — Generation, Judging & Promotion → Approved + Browser QA Skipped (local Rails env cannot boot)",
-      "details": null,
-      "cost_usd": 2.4714790499999997,
-      "total_tokens": 42008
     }
   ]
 }
