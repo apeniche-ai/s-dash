@@ -173,10 +173,13 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-08T19:00:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 16.3,
+      "status": "error",
+      "summary": "",
+      "details": null,
+      "errors": [
+        "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your session limit resets 3pm (America/Bogota)"
+      ]
     },
     {
       "agent": "passive-income-research-loop",
