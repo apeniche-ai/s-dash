@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-10-08T14:15:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-08T14:00:02Z",
       "duration_seconds": 175.6,
@@ -4818,16 +4826,6 @@
       "status": "success",
       "summary": "No PRs to review — 49 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-24T16:05:19Z",
-      "duration_seconds": 690.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4878 [TTPAI-345] Add Maren's dashboard insight note from the student's last study session → Changes Requested (topic.problems is STI-scoped to type='Problem', so the exercises student",
-      "details": null,
-      "cost_usd": 2.8352717999999997,
-      "total_tokens": 51207
     }
   ]
 }
