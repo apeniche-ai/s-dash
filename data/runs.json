@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-08T21:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 500.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4908 [6523] Fixes GMAT copy on the EA and GRE plans pages → Approved + Browser QA Skipped (local Rails bundle not installed)",
+      "details": null,
+      "cost_usd": 1.7607614000000003,
+      "total_tokens": 12077
     },
     {
       "agent": "slack-watch",
