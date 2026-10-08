@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-delivery-(morning)",
+      "timestamp": "2026-10-08T14:33:58Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Delivery (morning)...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-08T14:30:01Z",
       "duration_seconds": 238.1,
@@ -4819,14 +4827,6 @@
       "duration_seconds": 1.2,
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-24T17:00:02Z",
-      "duration_seconds": 1.3,
-      "status": "success",
-      "summary": "No PRs to review — 49 open, all skipped (labeled/draft)",
       "details": null
     }
   ]
