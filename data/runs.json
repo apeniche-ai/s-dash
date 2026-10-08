@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-10-08T21:08:21Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-08T21:00:02Z",
       "duration_seconds": 500.3,
@@ -4828,16 +4836,6 @@
       "details": null,
       "cost_usd": 0.7840540500000001,
       "total_tokens": 7523
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-09-25T02:30:01Z",
-      "duration_seconds": 17.9,
-      "status": "success",
-      "summary": "Reconcile ran clean — nothing changed. Every goal task is already marked done or has no matching job/suggestion to link against.",
-      "details": null,
-      "cost_usd": 0.44480109999999995,
-      "total_tokens": 3533
     }
   ]
 }
