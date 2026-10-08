@@ -173,10 +173,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-10-08T12:33:09Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 28.4,
+      "status": "success",
+      "summary": "I didn't send a digest today. The three open todos are the same as yesterday, nothing was completed since, and none of them are ones I can do myself. Your standing rule is not to repeat an unchanged l",
+      "details": null,
+      "cost_usd": 0.277233,
+      "total_tokens": 636
     },
     {
       "agent": "pr-reviewer",
