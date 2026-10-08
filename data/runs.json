@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-08T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 89.2,
+      "status": "success",
+      "summary": "silent: nothing passed the bar, nothing was queued, and Amaury hasn't sent anything new since Sep 15. A live check shows Techstars mentor applications are still closed, and the next scheduled check is",
+      "details": null,
+      "cost_usd": 0.7308163999999999,
+      "total_tokens": 3622
     },
     {
       "agent": "passive-income-research-loop",
