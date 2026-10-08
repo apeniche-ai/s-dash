@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-08T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 175.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4883 [TTPAI-242][6292] Consolidates exercise bank and tabbed new example → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.3339978000000003,
+      "total_tokens": 7203
     },
     {
       "agent": "slack-watch",
