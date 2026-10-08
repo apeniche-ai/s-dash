@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-08T13:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 285.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4896 [6474] Add self-serve course progress reset to the Adjust Study Plan page → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.5003552000000002,
+      "total_tokens": 7865
     },
     {
       "agent": "pr-follow-up-check",
