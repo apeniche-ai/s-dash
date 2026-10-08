@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-08T22:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 524.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4910 [6483] Checkout payment tabs for card, PayPal and local methods via Stripe, without Google Pay → Changes Requested (Stripe tab says payment opens on this page, but it actually re",
+      "details": null,
+      "cost_usd": 1.5000009999999997,
+      "total_tokens": 12074
     },
     {
       "agent": "pr-reviewer",
