@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-08T10:00:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 314.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337] Refresh student intelligence profiles on source changes → Approved + Browser QA Skipped (local Rails bundle not installed)",
+      "details": null,
+      "cost_usd": 1.5587958000000002,
+      "total_tokens": 9102
     },
     {
       "agent": "passive-income-discovery-scan",
