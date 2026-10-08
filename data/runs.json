@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-10-08T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-08T23:00:00Z",
       "duration_seconds": 26.2,
@@ -4827,16 +4835,6 @@
       "details": null,
       "cost_usd": 1.0789039500000002,
       "total_tokens": 12469
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-25T11:01:08Z",
-      "duration_seconds": 613.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Changes Requested (unconditional `@hide_expired_plan_banner = true` hides the upgrade CTA for every trial student outsid",
-      "details": null,
-      "cost_usd": 2.3062001,
-      "total_tokens": 38651
     }
   ]
 }
