@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-08T13:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 407.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4883 [TTPAI-242][6292] Consolidates exercise bank and tabbed new example → Changes Requested (generation-failure fallback serves bank rows the AI judge never approved) + Browser QA Sk",
+      "details": null,
+      "cost_usd": 2.5461602000000005,
+      "total_tokens": 17457
     },
     {
       "agent": "daily-todo-digest",
