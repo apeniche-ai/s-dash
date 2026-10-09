@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-10-09T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-09T20:30:29Z",
       "duration_seconds": 1.5,
@@ -540,14 +548,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your session limit resets 8pm (America/Bogota)"
       ]
-    },
-    {
-      "agent": "maren-v0-launch-digest",
-      "timestamp": "2026-10-08T21:08:21Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
     },
     {
       "agent": "pr-reviewer",
