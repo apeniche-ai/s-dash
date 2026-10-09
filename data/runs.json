@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-09T22:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 377.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4911 [6524] Score Analyzer: clearer reports with a Claude draft, a Claude check and a GPT plain-language pass → Changes Requested (score-range gate can count one exam twice when typed",
+      "details": null,
+      "cost_usd": 1.8723697999999998,
+      "total_tokens": 13861
     },
     {
       "agent": "pr-reviewer",
