@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-10-09T07:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-09T03:00:00Z",
       "duration_seconds": 20.4,
@@ -4827,16 +4835,6 @@
       "details": null,
       "cost_usd": 1.1759039500000001,
       "total_tokens": 16873
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-25T11:33:20Z",
-      "duration_seconds": 487.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4868 [TTPAI-340] Retrieve image descriptions into the chat's context → Changes Requested (extract_image has no HTTP status check, so an S3 403 error page is sent to the vision API as ",
-      "details": null,
-      "cost_usd": 2.3645816999999996,
-      "total_tokens": 34286
     }
   ]
 }
