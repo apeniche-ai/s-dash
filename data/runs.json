@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-09T21:02:40Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 361.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4879 [6448] Maren unified dev handoff: launcher, badges, tooltip and panel → Approved + Browser QA Skipped (local Rails bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.7676738,
+      "total_tokens": 10107
     },
     {
       "agent": "maren-v0-launch-digest",
