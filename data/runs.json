@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-09T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-09T22:30:01Z",
       "duration_seconds": 377.1,
@@ -4816,16 +4824,6 @@
       "details": null,
       "cost_usd": 0.44072915,
       "total_tokens": 3524
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-09-25T23:30:01Z",
-      "duration_seconds": 44.0,
-      "status": "success",
-      "summary": "Reviewed the digest: 5 channels, 14 messages in the last 3.5h. It's Friday 18:30, outside work hours, so only CRITICAL and strong PATTERN signals can fire.",
-      "details": null,
-      "cost_usd": 0.65233405,
-      "total_tokens": 5604
     }
   ]
 }
