@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-10-09T13:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-09T12:30:23Z",
       "duration_seconds": 486.2,
@@ -4820,16 +4828,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-25T14:10:04Z",
-      "duration_seconds": 528.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4837 [TTPAI-311] Adds a way back into a support conversation after a Maren handoff → Changes Requested (migration 20260924032200 missing from db/schema.rb, all 12 CI spec shards abort",
-      "details": null,
-      "cost_usd": 2.2192304999999997,
-      "total_tokens": 30863
     }
   ]
 }
