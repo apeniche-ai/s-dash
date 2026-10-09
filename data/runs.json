@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-09T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 357.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4910 [6483] Checkout payment tabs for card, PayPal and local methods via Stripe, without Google Pay → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.6043192000000002,
+      "total_tokens": 9068
     },
     {
       "agent": "admissions-pr-reviewer",
