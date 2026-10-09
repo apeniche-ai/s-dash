@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-10-09T13:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-09T13:01:15Z",
       "duration_seconds": 1.3,
@@ -4820,16 +4828,6 @@
       "details": null,
       "cost_usd": 2.35350845,
       "total_tokens": 34465
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-25T14:30:02Z",
-      "duration_seconds": 640.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337] Refresh student intelligence profiles on source changes → Changes Requested (exhausted invalidation batches drop out of `active`, so `blocking?` goes false and stale ",
-      "details": null,
-      "cost_usd": 2.47823235,
-      "total_tokens": 39176
     }
   ]
 }
