@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-09T12:30:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 486.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4912 [6369] Remove the superseded AI Coach intro modal → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.488211,
+      "total_tokens": 9258
     },
     {
       "agent": "daily-todo-digest",
