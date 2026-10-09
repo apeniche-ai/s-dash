@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-09T16:30:02Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-09T16:00:02Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4818,16 +4826,6 @@
       "status": "success",
       "summary": "No PRs to review — 49 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-25T17:31:07Z",
-      "duration_seconds": 365.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Approved + Browser QA Skipped (Rails cannot boot locally — missing gems)",
-      "details": null,
-      "cost_usd": 1.7932630500000002,
-      "total_tokens": 29071
     }
   ]
 }
