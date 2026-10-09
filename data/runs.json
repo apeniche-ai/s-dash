@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-09T14:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 196.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4914 [6526] Replace GMAT tutoring Typeform link with Jotform → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.3839058,
+      "total_tokens": 7698
     },
     {
       "agent": "pr-reviewer",
