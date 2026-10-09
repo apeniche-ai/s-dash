@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-09T11:00:25Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 427.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4906 [6363] Maren launch announcement modal → Approved + Browser QA Skipped (local Ruby gems missing)",
+      "details": null,
+      "cost_usd": 1.4544742000000002,
+      "total_tokens": 9722
     },
     {
       "agent": "passive-income-research-loop",
