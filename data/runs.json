@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-09T11:00:25Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-09T11:00:01Z",
       "duration_seconds": 22.4,
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 2.8749926999999995,
       "total_tokens": 40802
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-09-25T13:00:01Z",
-      "duration_seconds": 146.1,
-      "status": "success",
-      "summary": "**8 stagnant PRs — all in `targettestprep/ttp`. Admissions is clean (0 PRs labeled \"Changes Requested\").** Message delivered to the pr-reviews channel.",
-      "details": null,
-      "cost_usd": 0.7588631499999999,
-      "total_tokens": 9800
     }
   ]
 }
