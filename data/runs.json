@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-09T12:30:23Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-10-09T12:30:00Z",
       "duration_seconds": 21.1,
@@ -4820,17 +4828,6 @@
       "details": null,
       "cost_usd": 2.2192304999999997,
       "total_tokens": 30863
-    },
-    {
-      "agent": "opportunity-scout-(2x-daily)",
-      "timestamp": "2026-09-25T14:00:00Z",
-      "duration_seconds": 602.2,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 600s"
-      ]
     }
   ]
 }
