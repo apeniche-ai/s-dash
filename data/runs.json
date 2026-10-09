@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-09T11:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-09T10:30:02Z",
       "duration_seconds": 2.0,
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 0.7588631499999999,
       "total_tokens": 9800
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-25T12:32:04Z",
-      "duration_seconds": 519.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4871 [TTPAI-342] Fix AI features generating nothing when the course material fetch fails → Approved + Browser QA Skipped (bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.9743485999999997,
-      "total_tokens": 33773
     }
   ]
 }
