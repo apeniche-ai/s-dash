@@ -173,10 +173,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-10-10T02:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 12.9,
+      "status": "success",
+      "summary": "I ran tonight's goal check, and none of Amaury's goals needed changes. Every goal task was either already marked done or didn't match a running job or a finished suggestion. Nothing was updated, so I ",
+      "details": null,
+      "cost_usd": 0.3693432,
+      "total_tokens": 274
     },
     {
       "agent": "slack-watch",
