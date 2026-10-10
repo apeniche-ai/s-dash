@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-10T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 67.7,
+      "status": "success",
+      "summary": "silent: I checked Singulier's live jobs board tonight and its freelance CTO due-diligence role is still closed (all 13 openings are full-time, in Paris or London). There are also no new replies from A",
+      "details": null,
+      "cost_usd": 0.800906,
+      "total_tokens": 3134
     },
     {
       "agent": "passive-income-research-loop",
