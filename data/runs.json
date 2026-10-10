@@ -173,10 +173,12 @@
     {
       "agent": "system-health-audit",
       "timestamp": "2026-10-10T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running System Health Audit...",
-      "details": null
+      "duration_seconds": 34.0,
+      "status": "success",
+      "summary": "Everything is healthy, so I sent nothing to Telegram. I also created no new suggestion, and I skipped the test ping because it would be status theater. The overall score is 9/10. The weighted average ",
+      "details": null,
+      "cost_usd": 0.4033324,
+      "total_tokens": 2541
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
