@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-delivery-(morning)",
+      "timestamp": "2026-10-10T14:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Delivery (morning)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-10T11:00:01Z",
       "duration_seconds": 26.5,
@@ -4820,16 +4828,6 @@
       "details": null,
       "cost_usd": 1.3139831,
       "total_tokens": 24845
-    },
-    {
-      "agent": "soren-improvement-review",
-      "timestamp": "2026-09-26T13:30:01Z",
-      "duration_seconds": 587.2,
-      "status": "success",
-      "summary": "Weekly review done. One message sent.",
-      "details": null,
-      "cost_usd": 2.443261500000001,
-      "total_tokens": 38071
     }
   ]
 }
