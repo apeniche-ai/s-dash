@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-delivery-(morning)",
+      "timestamp": "2026-10-11T14:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Delivery (morning)...",
+      "details": null
+    },
+    {
       "agent": "side-income-delivery-(morning)",
       "timestamp": "2026-10-11T14:00:00Z",
       "duration_seconds": 33.0,
@@ -4817,16 +4825,6 @@
       "details": null,
       "cost_usd": 1.0588851,
       "total_tokens": 18654
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-09-27T12:00:01Z",
-      "duration_seconds": 445.4,
-      "status": "success",
-      "summary": "Scan complete. No notification sent, as designed.",
-      "details": null,
-      "cost_usd": 1.4206937,
-      "total_tokens": 20752
     }
   ]
 }
