@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-weekly-digest",
+      "timestamp": "2026-10-11T23:00:24Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Weekly Digest...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-11T23:00:01Z",
       "duration_seconds": null,
@@ -4815,16 +4823,6 @@
       "details": null,
       "cost_usd": 1.3628475,
       "total_tokens": 28394
-    },
-    {
-      "agent": "opportunity-scout-(2x-daily)",
-      "timestamp": "2026-09-27T20:00:00Z",
-      "duration_seconds": 377.9,
-      "status": "success",
-      "summary": "Run complete — **silent, nothing sent to Amaury.** Correct outcome.",
-      "details": null,
-      "cost_usd": 1.4725574500000003,
-      "total_tokens": 25234
     }
   ]
 }
