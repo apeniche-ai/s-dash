@@ -173,10 +173,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-10-11T21:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 79.5,
+      "status": "success",
+      "summary": "I didn't send Amaury a digest today. It's Sunday, and nothing in Maren V0 has changed since yesterday's run. I saved today's log.",
+      "details": null,
+      "cost_usd": 0.7307222,
+      "total_tokens": 4564
     },
     {
       "agent": "passive-income-research-loop",
