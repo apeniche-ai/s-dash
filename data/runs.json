@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-11T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-10-11T21:00:00Z",
       "duration_seconds": 79.5,
@@ -4817,16 +4825,6 @@
       "details": null,
       "cost_usd": 1.4725574500000003,
       "total_tokens": 25234
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-27T19:00:01Z",
-      "duration_seconds": 80.0,
-      "status": "success",
-      "summary": "His pending-decision list is intact and accurate — the three MentalTune calls that are genuinely his, no duplicates, none of them acted on yet. Nothing to add, nothing to close.",
-      "details": null,
-      "cost_usd": 0.6831275,
-      "total_tokens": 5083
     }
   ]
 }
