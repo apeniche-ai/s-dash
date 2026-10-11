@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-11T19:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-delivery-(morning)",
       "timestamp": "2026-10-11T14:30:00Z",
       "duration_seconds": 24.4,
@@ -4817,16 +4825,6 @@
       "details": null,
       "cost_usd": 1.6644915999999996,
       "total_tokens": 21308
-    },
-    {
-      "agent": "opportunity-scout-(2x-daily)",
-      "timestamp": "2026-09-27T14:00:01Z",
-      "duration_seconds": 226.5,
-      "status": "success",
-      "summary": "Run complete — **silent, nothing sent to Amaury.** Correct outcome.",
-      "details": null,
-      "cost_usd": 1.0588851,
-      "total_tokens": 18654
     }
   ]
 }
