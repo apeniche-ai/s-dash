@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-12T18:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-12T17:30:31Z",
       "duration_seconds": 1.4,
       "status": "success",
@@ -4799,16 +4807,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "career-market-research-loop",
-      "timestamp": "2026-09-28T16:00:01Z",
-      "duration_seconds": 347.3,
-      "status": "success",
-      "summary": "Tick done. **Nothing sent to Amaury** — neither alert trigger fired, which is the correct outcome.",
-      "details": null,
-      "cost_usd": 1.69441465,
-      "total_tokens": 26494
     }
   ]
 }
