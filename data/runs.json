@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-12T11:30:02Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-12T11:00:22Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4817,16 +4825,6 @@
       "details": null,
       "cost_usd": 0.3155366,
       "total_tokens": 2594
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-28T10:30:02Z",
-      "duration_seconds": 484.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4725 [TTPAI-242] AI Exercise Bank — Generation, Judging & Promotion → Approved + Browser QA Skipped (local bundle missing gems; admin-only UI)",
-      "details": null,
-      "cost_usd": 1.9358112000000003,
-      "total_tokens": 37862
     }
   ]
 }
