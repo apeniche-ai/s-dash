@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-10-12T14:15:02Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "weekly-goal-review",
       "timestamp": "2026-10-12T14:05:00Z",
       "duration_seconds": 67.9,
@@ -4813,16 +4821,6 @@
       "details": null,
       "cost_usd": 3.074346700000001,
       "total_tokens": 34975
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-09-28T13:30:00Z",
-      "duration_seconds": 24.8,
-      "status": "success",
-      "summary": "The digest shows zero messages in the last 3.5 hours — nothing to classify, so no dedup lookup is even needed.",
-      "details": null,
-      "cost_usd": 0.44650785000000004,
-      "total_tokens": 3670
     }
   ]
 }
