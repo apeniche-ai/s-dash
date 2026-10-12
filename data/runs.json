@@ -173,10 +173,12 @@
     {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-10-12T12:45:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Team Shipping Report...",
-      "details": null
+      "duration_seconds": 105.8,
+      "status": "success",
+      "summary": "I sent this week's shipping report (Oct 5–12) to the team-intel channel as one message, and it was delivered.",
+      "details": null,
+      "cost_usd": 0.7751504,
+      "total_tokens": 7882
     },
     {
       "agent": "daily-todo-digest",
