@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-12T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 128.0,
+      "status": "success",
+      "summary": "silent — nothing qualified tonight. I checked Colombia and Latin America events for the side of the goal about meeting CEOs, CTOs and investors:",
+      "details": null,
+      "cost_usd": 1.1389808,
+      "total_tokens": 5699
     },
     {
       "agent": "passive-income-research-loop",
