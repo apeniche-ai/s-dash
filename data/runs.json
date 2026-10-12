@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-10-12T14:05:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-12T14:00:03Z",
       "duration_seconds": 2.0,
@@ -4813,16 +4821,6 @@
       "details": null,
       "cost_usd": 0.44650785000000004,
       "total_tokens": 3670
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-28T13:01:55Z",
-      "duration_seconds": 542.9,
-      "status": "success",
-      "summary": "Done. Summary of this run:",
-      "details": null,
-      "cost_usd": 2.5755603,
-      "total_tokens": 41362
     }
   ]
 }
