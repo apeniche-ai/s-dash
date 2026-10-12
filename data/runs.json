@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-12T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 264.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4901 [TTPAI-352] Adds one cost row for every paid AI call including failures and retries → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.6558832000000003,
+      "total_tokens": 11006
     },
     {
       "agent": "pr-reviewer",
