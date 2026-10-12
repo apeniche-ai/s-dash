@@ -173,10 +173,12 @@
     {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-10-12T01:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Coaching Digest...",
-      "details": null
+      "duration_seconds": 82.3,
+      "status": "success",
+      "summary": "I didn't send a coaching digest to Amaury this week.",
+      "details": null,
+      "cost_usd": 0.8886923999999999,
+      "total_tokens": 2795
     },
     {
       "agent": "career-market-weekly-digest",
