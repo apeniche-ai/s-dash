@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-12T12:30:13Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-10-12T12:07:42Z",
       "duration_seconds": 113.7,
@@ -4815,16 +4823,6 @@
       "details": null,
       "cost_usd": 1.3190836499999998,
       "total_tokens": 21502
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-28T11:30:02Z",
-      "duration_seconds": 594.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4848 [6432] Hide Concept Masteries bookmarks tab when no active content exists → Changes Requested (the new column gate calls `@facade.flaggable_types` inside the per-chapter loop, do",
-      "details": null,
-      "cost_usd": 2.16321705,
-      "total_tokens": 34775
     }
   ]
 }
