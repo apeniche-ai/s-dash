@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-10-12T21:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-12T20:35:33Z",
       "duration_seconds": 15.0,
@@ -4819,16 +4827,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "opportunity-scout-(2x-daily)",
-      "timestamp": "2026-09-28T20:00:02Z",
-      "duration_seconds": 375.5,
-      "status": "success",
-      "summary": "Run complete — **silent, nothing sent to Amaury.** That's the correct outcome.",
-      "details": null,
-      "cost_usd": 1.6514674500000004,
-      "total_tokens": 28977
     }
   ]
 }
