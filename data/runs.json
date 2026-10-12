@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-12T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-10-12T12:45:00Z",
       "duration_seconds": 105.8,
@@ -4815,16 +4823,6 @@
       "details": null,
       "cost_usd": 0.8618165,
       "total_tokens": 11047
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-28T12:10:41Z",
-      "duration_seconds": 486.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337] Refresh student intelligence profiles on source changes → Changes Requested (the invalidation batch still never drains — `failed` and worker-orphaned `running` batche",
-      "details": null,
-      "cost_usd": 2.00423835,
-      "total_tokens": 38113
     }
   ]
 }
