@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-10-12T13:34:55Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-12T13:30:02Z",
       "duration_seconds": 294.6,
@@ -4815,16 +4823,6 @@
       "details": null,
       "cost_usd": 0.43081435,
       "total_tokens": 8717
-    },
-    {
-      "agent": "weekly-team-shipping-report",
-      "timestamp": "2026-09-28T12:45:00Z",
-      "duration_seconds": 348.7,
-      "status": "success",
-      "summary": "Report sent to the team-intel channel.",
-      "details": null,
-      "cost_usd": 1.2685237,
-      "total_tokens": 29586
     }
   ]
 }
