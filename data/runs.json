@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-12T12:00:12Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 462.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4883 [TTPAI-242][6292] Consolidates exercise bank and tabbed new example → Changes Requested (in-request bank judge has no timeout: up to 3 retried Claude calls on RubyLLM's 300s defa",
+      "details": null,
+      "cost_usd": 2.4047988000000005,
+      "total_tokens": 22610
     },
     {
       "agent": "pr-reviewer",
