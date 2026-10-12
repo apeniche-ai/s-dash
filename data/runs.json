@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-10-12T08:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-12T07:00:00Z",
       "duration_seconds": 128.0,
@@ -4819,16 +4827,6 @@
       "details": null,
       "cost_usd": 1.5724398000000002,
       "total_tokens": 23933
-    },
-    {
-      "agent": "weekly-coaching-digest",
-      "timestamp": "2026-09-28T01:30:01Z",
-      "duration_seconds": 232.8,
-      "status": "success",
-      "summary": "Digest sent to the coaching channel and stored as memory `01M3JT9T7TPZTDAFZV5TPF6DHP`.",
-      "details": null,
-      "cost_usd": 1.0351161,
-      "total_tokens": 19080
     }
   ]
 }
