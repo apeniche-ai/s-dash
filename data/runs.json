@@ -173,10 +173,12 @@
     {
       "agent": "weekly-goal-review",
       "timestamp": "2026-10-12T14:05:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Goal Review...",
-      "details": null
+      "duration_seconds": 67.9,
+      "status": "success",
+      "summary": "I didn't send Amaury a goal review this week. Nothing changed since last Monday's review, which was delivered on Oct 8, and resending the same picture would just be noise. The reconcile step found no ",
+      "details": null,
+      "cost_usd": 0.9048092,
+      "total_tokens": 3505
     },
     {
       "agent": "pr-reviewer",
