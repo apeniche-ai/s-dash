@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-13T11:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-13T10:30:01Z",
       "duration_seconds": 309.0,
       "status": "success",
@@ -4839,16 +4847,6 @@
       "details": null,
       "cost_usd": 1.6823546,
       "total_tokens": 13016
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-09-29T08:00:00Z",
-      "duration_seconds": 116.2,
-      "status": "success",
-      "summary": "I scanned 11 working sources today, and all 6 possible ideas failed the filter, so I wrote 0 findings. The only vendor change was Anthropic's Claude Sonnet 5.5 (Sep 28). It's a new model whose breakin",
-      "details": null,
-      "cost_usd": 1.1423417999999999,
-      "total_tokens": 6742
     }
   ]
 }
