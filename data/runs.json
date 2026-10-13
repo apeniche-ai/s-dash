@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-13T11:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 348.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4832 [TTPAI-310/313/321/325/351] Consolidates AI fixes for cost report pricing, broken comparison questions, background-tab tutor hints, test-answer Elo and AI cost figures → Approved",
+      "details": null,
+      "cost_usd": 1.6690588,
+      "total_tokens": 10450
     },
     {
       "agent": "pr-reviewer",
