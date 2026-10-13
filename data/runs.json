@@ -181,10 +181,12 @@
     {
       "agent": "opportunity-scout-delivery-(morning)",
       "timestamp": "2026-10-13T14:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Delivery (morning)...",
-      "details": null
+      "duration_seconds": 29.3,
+      "status": "success",
+      "summary": "No message was queued, so nothing was sent.",
+      "details": null,
+      "cost_usd": 0.501642,
+      "total_tokens": 456
     },
     {
       "agent": "admissions-pr-reviewer",
