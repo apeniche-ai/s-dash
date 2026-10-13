@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-13T13:00:02Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-10-13T13:00:02Z",
       "duration_seconds": null,
@@ -4837,16 +4845,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-09-29T12:30:00Z",
-      "duration_seconds": 25.1,
-      "status": "success",
-      "summary": "I sent the digest to the assistant channel and stored the last-digest-sent marker.",
-      "details": null,
-      "cost_usd": 0.27469439999999995,
-      "total_tokens": 1019
     }
   ]
 }
