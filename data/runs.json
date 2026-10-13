@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-13T16:30:03Z",
+      "duration_seconds": 1.9,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-13T16:00:01Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4829,16 +4837,6 @@
       "details": null,
       "cost_usd": 1.2296081999999997,
       "total_tokens": 5958
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-29T15:00:03Z",
-      "duration_seconds": 187.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4875 [TTPAI-326] Add chat content guard for pasted and photographed questions → Approved + Browser QA Skipped (local gems missing)",
-      "details": null,
-      "cost_usd": 1.1636364000000001,
-      "total_tokens": 6397
     }
   ]
 }
