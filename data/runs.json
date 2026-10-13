@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-13T17:00:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-13T16:30:03Z",
       "duration_seconds": 1.9,
       "status": "success",
@@ -4827,16 +4835,6 @@
       "details": null,
       "cost_usd": 1.2160160000000002,
       "total_tokens": 6758
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-29T15:30:02Z",
-      "duration_seconds": 247.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337] Refresh student intelligence profiles on source changes → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.2296081999999997,
-      "total_tokens": 5958
     }
   ]
 }
