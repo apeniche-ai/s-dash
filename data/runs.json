@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-13T19:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 425.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (the PR's own new chatbot \"Dashboard\" spec fails depending on test order because the navigation registry spe",
+      "details": null,
+      "cost_usd": 2.2175096000000005,
+      "total_tokens": 15489
     },
     {
       "agent": "passive-income-research-loop",
