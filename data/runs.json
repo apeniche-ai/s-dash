@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-10-13T08:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 119.4,
+      "status": "success",
+      "summary": "I scanned 9 sources today and wrote no findings: all 7 candidates failed the filter, and none of the three AI vendors shipped anything new. This week's source search tried Stack Overflow, but it now g",
+      "details": null,
+      "cost_usd": 1.1885332000000002,
+      "total_tokens": 7282
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
