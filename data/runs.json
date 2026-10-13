@@ -181,10 +181,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-10-13T13:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 103.1,
+      "status": "success",
+      "summary": "I didn't send anything to Telegram today. No PR has become newly stuck since the list that went out on Friday, Oct 9, and the rule is not to resend a list that hasn't changed.",
+      "details": null,
+      "cost_usd": 0.8173375999999999,
+      "total_tokens": 2445
     },
     {
       "agent": "daily-todo-digest",
