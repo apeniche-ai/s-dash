@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-13T17:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 541.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Changes Requested (Oct 9 merge dropped the 6282 quality-flag preloading, so the PR's own exercises_controller_spec fails 3 exa",
+      "details": null,
+      "cost_usd": 2.6210823999999997,
+      "total_tokens": 19794
     },
     {
       "agent": "admissions-pr-reviewer",
