@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-10-13T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-12T23:30:01Z",
       "duration_seconds": 26.9,
@@ -4834,17 +4842,6 @@
       "agent": "passive-income-research-loop",
       "timestamp": "2026-09-28T23:01:51Z",
       "duration_seconds": 47.5,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "claude exited with code 1: API Error: 400 Claude Code 2.1.170 does not support this model; version 2.1.280 or newer is required. Run 'claude update', or update the Claude desktop app, then try again."
-      ]
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-09-28T23:00:01Z",
-      "duration_seconds": 50.8,
       "status": "error",
       "summary": "",
       "details": null,
