@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-13T11:05:49Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-13T11:00:02Z",
       "duration_seconds": null,
@@ -4837,16 +4845,6 @@
       "details": null,
       "cost_usd": 1.9259207999999994,
       "total_tokens": 21194
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-29T10:00:05Z",
-      "duration_seconds": 340.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337] Refresh student intelligence profiles on source changes → Changes Requested (new stalled-batch check scans the whole delayed_jobs table every 20s without an index) + ",
-      "details": null,
-      "cost_usd": 1.6823546,
-      "total_tokens": 13016
     }
   ]
 }
