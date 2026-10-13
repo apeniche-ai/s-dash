@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-13T17:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 339.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Changes Requested (the PR's own guest_request spec fails in CI on a live Intercom call) + Browser ",
+      "details": null,
+      "cost_usd": 1.9843030000000002,
+      "total_tokens": 15070
     },
     {
       "agent": "pr-reviewer",
