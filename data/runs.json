@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-13T19:04:41Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-13T19:00:03Z",
       "duration_seconds": null,
@@ -4831,16 +4839,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-29T18:00:02Z",
-      "duration_seconds": 429.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4885 [6360] Add inactivity modal that pauses study time visibly → Changes Requested (modal still shows on the in-test Review Center, and an error while opening it can leave the study ",
-      "details": null,
-      "cost_usd": 1.7218743999999997,
-      "total_tokens": 13690
     }
   ]
 }
