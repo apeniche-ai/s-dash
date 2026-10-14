@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-14T21:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 370.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4905 [TTPAI-353] Add worked example link POC candidate rules, ranking and review sheet → Changes Requested (reliability snapshot file shared across exams, so the next run's comparison",
+      "details": null,
+      "cost_usd": 2.1603404,
+      "total_tokens": 15817
     },
     {
       "agent": "pr-reviewer",
