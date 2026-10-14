@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-14T19:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-14T19:02:45Z",
       "duration_seconds": 19.1,
       "status": "error",
@@ -4856,16 +4864,6 @@
       "details": null,
       "cost_usd": 1.1126277999999998,
       "total_tokens": 4943
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-30T19:00:31Z",
-      "duration_seconds": 214.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4885 [6360] Add inactivity modal that pauses study time visibly → Approved + Browser QA Skipped (local env missing gems)",
-      "details": null,
-      "cost_usd": 1.3344479999999996,
-      "total_tokens": 6691
     }
   ]
 }
