@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-14T16:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-14T16:00:02Z",
       "duration_seconds": 430.5,
       "status": "success",
@@ -4842,16 +4850,6 @@
       "details": null,
       "cost_usd": 1.4700707999999998,
       "total_tokens": 11775
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-30T15:00:02Z",
-      "duration_seconds": 306.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4887 [6394] Update ActiveReview modal copy to remove track terminology → Approved + Browser QA Skipped (local env missing gems)",
-      "details": null,
-      "cost_usd": 1.1428034000000002,
-      "total_tokens": 5090
     }
   ]
 }
