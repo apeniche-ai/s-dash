@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-14T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 231.2,
+      "status": "success",
+      "summary": "Silent: I checked the two board-seat platforms, and neither one works for Amaury right now.",
+      "details": null,
+      "cost_usd": 1.6895834,
+      "total_tokens": 10395
     },
     {
       "agent": "passive-income-research-loop",
