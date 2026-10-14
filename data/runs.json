@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-14T16:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 713.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4913 [TTPAI-356] Exercise bank shares and rc judge → Changes Requested (reading New Example now serves only banked sets, but the ticket asks for a judged live path; live Multi-Source ",
+      "details": null,
+      "cost_usd": 4.5092821999999995,
+      "total_tokens": 36822
     },
     {
       "agent": "pr-reviewer",
