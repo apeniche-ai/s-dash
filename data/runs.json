@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-14T16:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 430.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4879 [6448] Maren unified dev handoff: launcher, badges, tooltip and panel → Changes Requested (new pending-reply rescue calls current_user.id on nil, breaking chatbots_spec.rb:678) +",
+      "details": null,
+      "cost_usd": 1.9095152000000004,
+      "total_tokens": 13093
     },
     {
       "agent": "pr-reviewer",
