@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-14T12:30:22Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-10-14T12:30:00Z",
       "duration_seconds": 20.2,
@@ -4843,16 +4851,6 @@
       "details": null,
       "cost_usd": 1.3860937999999998,
       "total_tokens": 8291
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-30T11:30:01Z",
-      "duration_seconds": 312.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4886 [6395] Rename Desired Score (Track) to Target Score across Settings and ActiveReview → Approved + Browser QA Skipped (local Rails env missing gems, needs bundle install)",
-      "details": null,
-      "cost_usd": 1.300337,
-      "total_tokens": 7618
     }
   ]
 }
