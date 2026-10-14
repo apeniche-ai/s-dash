@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-14T10:00:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 333.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Changes Requested (base redirect drops from=dashboard on the dashboard's Visual Tiles link and breaks 3 of the PR's own ",
+      "details": null,
+      "cost_usd": 2.042266,
+      "total_tokens": 14960
     },
     {
       "agent": "passive-income-discovery-scan",
