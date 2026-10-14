@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-10-14T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-14T12:00:03Z",
       "duration_seconds": 190.2,
@@ -4843,16 +4851,6 @@
       "details": null,
       "cost_usd": 1.300337,
       "total_tokens": 7618
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-30T11:00:24Z",
-      "duration_seconds": 252.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4885 [6360] Add inactivity modal that pauses study time visibly → Approved + Browser QA Skipped (local Rails env missing gems, needs bundle install)",
-      "details": null,
-      "cost_usd": 1.2336362,
-      "total_tokens": 5499
     }
   ]
 }
