@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-14T20:33:28Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-14T20:30:00Z",
       "duration_seconds": 31.2,
@@ -4858,16 +4866,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-09-30T20:30:00Z",
-      "duration_seconds": 28.6,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.23161220000000002,
-      "total_tokens": 206
     }
   ]
 }
