@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-14T17:30:32Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 372.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4879 [6448] Maren unified dev handoff: launcher, badges, tooltip and panel → Approved + Browser QA Skipped (local bundle still broken)",
+      "details": null,
+      "cost_usd": 1.7068268000000002,
+      "total_tokens": 8185
     },
     {
       "agent": "slack-watch",
