@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-14T21:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 215.2,
+      "status": "success",
+      "summary": "Still waiting on CI for #4879's latest commits. I'll submit the review once the run finishes.",
+      "details": null,
+      "cost_usd": 1.6960114,
+      "total_tokens": 10236
     },
     {
       "agent": "maren-v0-launch-digest",
