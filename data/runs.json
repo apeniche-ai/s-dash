@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-14T15:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 249.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Approved + Browser QA Skipped (test-only change since last review)",
+      "details": null,
+      "cost_usd": 1.4147734,
+      "total_tokens": 8500
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
