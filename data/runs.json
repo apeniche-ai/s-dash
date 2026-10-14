@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-10-14T20:15:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-14T19:32:19Z",
       "duration_seconds": 16.5,
@@ -4858,16 +4866,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-30T20:00:03Z",
-      "duration_seconds": 171.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4889 [TTPAI-349] Track checkout page views through to purchase → Approved + Browser QA Skipped (local Rails bundle broken)",
-      "details": null,
-      "cost_usd": 1.1828296000000003,
-      "total_tokens": 5772
     }
   ]
 }
