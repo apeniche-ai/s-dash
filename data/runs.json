@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-10-14T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-14T12:30:22Z",
       "duration_seconds": 195.8,
@@ -4843,16 +4851,6 @@
       "details": null,
       "cost_usd": 2.105919,
       "total_tokens": 17937
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-09-30T12:00:03Z",
-      "duration_seconds": 286.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4825 [TTPAI-312] Restrict AI Pusher channels to their own student via private channels → Changes Requested (the tutor still gets stuck on the loading dots when the Pusher subscription",
-      "details": null,
-      "cost_usd": 1.3860937999999998,
-      "total_tokens": 8291
     }
   ]
 }
