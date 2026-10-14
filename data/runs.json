@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-10-14T23:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-14T23:00:01Z",
       "duration_seconds": 23.0,
@@ -4872,16 +4880,6 @@
       "details": null,
       "cost_usd": 0.5374648,
       "total_tokens": 151
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-10-01T02:30:01Z",
-      "duration_seconds": 16.6,
-      "status": "success",
-      "summary": "Tonight's goal check found nothing to update, so I didn't send a Telegram message. Every goal task is already marked done or doesn't match any running job or finished suggestion.",
-      "details": null,
-      "cost_usd": 0.35459359999999995,
-      "total_tokens": 240
     }
   ]
 }
