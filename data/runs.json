@@ -173,10 +173,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-10-14T02:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 15.2,
+      "status": "success",
+      "summary": "Nothing changed in tonight's goal check, so I didn't send a Telegram message. Every goal task was either already marked done or had no running job or finished suggestion that matched it.",
+      "details": null,
+      "cost_usd": 0.3683596,
+      "total_tokens": 261
     },
     {
       "agent": "slack-watch",
