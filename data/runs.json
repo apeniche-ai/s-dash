@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-14T13:02:05Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 307.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4917 [6038] Add local pagination to Transactions → Approved + Browser QA Skipped (local env: bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.5249914000000002,
+      "total_tokens": 8797
     },
     {
       "agent": "pr-follow-up-check",
