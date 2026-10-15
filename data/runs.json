@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-15T11:30:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-15T11:00:23Z",
       "duration_seconds": 274.9,
       "status": "success",
@@ -4872,16 +4880,6 @@
       "details": null,
       "cost_usd": 0.28612899999999997,
       "total_tokens": 983
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-01T12:00:03Z",
-      "duration_seconds": 250.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4869 [TTP-6416] Fail spec suite on live third party API calls → Changes Requested (embedding_client_spec still fails when run alone, AC2 open) + Browser QA Skipped (spec-only)",
-      "details": null,
-      "cost_usd": 1.5172135999999998,
-      "total_tokens": 10100
     }
   ]
 }
