@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-15T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 252.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4920 [6421] Add the EA version of the Score Analyzer form → Approved + Browser QA Skipped (local Rails bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.7430487999999995,
+      "total_tokens": 12748
     },
     {
       "agent": "pr-reviewer",
