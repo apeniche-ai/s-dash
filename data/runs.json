@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-15T14:30:25Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 302.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4919 [6420] Add the GRE version of the Score Analyzer form → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.3769799999999996,
+      "total_tokens": 7263
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
