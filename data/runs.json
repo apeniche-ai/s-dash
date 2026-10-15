@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-15T23:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-15T22:30:02Z",
       "duration_seconds": 1.7,
@@ -4892,16 +4900,6 @@
       "details": null,
       "cost_usd": 0.361906,
       "total_tokens": 263
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-10-01T23:30:00Z",
-      "duration_seconds": 26.9,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.237505,
-      "total_tokens": 206
     }
   ]
 }
