@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-15T12:30:33Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-10-15T12:30:01Z",
       "duration_seconds": 30.6,
@@ -4872,16 +4880,6 @@
       "details": null,
       "cost_usd": 1.7135456,
       "total_tokens": 13622
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-10-01T13:00:01Z",
-      "duration_seconds": 110.2,
-      "status": "success",
-      "summary": "I sent the list of stuck PRs to the pr-reviews channel on Telegram, but the message has two mistakes.",
-      "details": null,
-      "cost_usd": 0.6450164,
-      "total_tokens": 2646
     }
   ]
 }
