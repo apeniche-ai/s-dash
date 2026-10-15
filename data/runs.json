@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-15T13:30:29Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-15T13:30:00Z",
       "duration_seconds": 27.4,
@@ -4872,16 +4880,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-01T14:00:01Z",
-      "duration_seconds": 291.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4869 [TTP-6416] Fail spec suite on live third party API calls → Approved + Browser QA Skipped (test-only change)",
-      "details": null,
-      "cost_usd": 1.2741300000000002,
-      "total_tokens": 6136
     }
   ]
 }
