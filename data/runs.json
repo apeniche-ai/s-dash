@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-10-15T12:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-15T12:00:03Z",
       "duration_seconds": 270.9,
@@ -4872,16 +4880,6 @@
       "details": null,
       "cost_usd": 0.6450164,
       "total_tokens": 2646
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-01T12:30:27Z",
-      "duration_seconds": 897.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4875 [TTPAI-326] Add chat content guard for pasted and photographed questions → Approved + Browser QA Skipped (local env missing gems)",
-      "details": null,
-      "cost_usd": 2.3169325999999995,
-      "total_tokens": 16281
     }
   ]
 }
