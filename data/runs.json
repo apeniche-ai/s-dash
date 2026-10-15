@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-15T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 86.8,
+      "status": "success",
+      "summary": "silent: today was a planned hold day, there are still no replies from Amaury about Mercor or micro1, and Surge AI has shown no public sign of reopening to Colombia (I've logged this in the ledger; the",
+      "details": null,
+      "cost_usd": 0.7683026000000001,
+      "total_tokens": 3316
     },
     {
       "agent": "passive-income-research-loop",
