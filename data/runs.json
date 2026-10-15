@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-15T17:30:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 208.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4919 [6420] Add the GRE version of the Score Analyzer form → Approved + Browser QA Skipped (local Rails bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.1796256000000003,
+      "total_tokens": 7500
     },
     {
       "agent": "slack-watch",
