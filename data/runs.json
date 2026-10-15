@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-15T12:30:33Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 349.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4906 [6363][6369] Maren launch announcement modal + Remove AI Coach superseded modal → Changes Requested (QA's mobile item still open: Back and Study with Maren buttons differ in size",
+      "details": null,
+      "cost_usd": 1.5489431999999999,
+      "total_tokens": 10997
     },
     {
       "agent": "daily-todo-digest",
