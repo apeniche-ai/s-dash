@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-15T13:30:29Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 299.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4906 [6363][6369] Maren launch announcement modal + Remove AI Coach superseded modal → Changes Requested (label cleared with no new commit; mobile Back/Study with Maren buttons still ",
+      "details": null,
+      "cost_usd": 1.2920588,
+      "total_tokens": 6740
     },
     {
       "agent": "slack-watch",
