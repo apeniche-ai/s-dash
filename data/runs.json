@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-10-16T23:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-16T23:00:01Z",
       "duration_seconds": 27.6,
@@ -4910,16 +4918,6 @@
       "details": null,
       "cost_usd": 1.0583293999999999,
       "total_tokens": 6067
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-03T07:00:01Z",
-      "duration_seconds": 106.5,
-      "status": "success",
-      "summary": "silent — no check is due until Singulier around Oct 11. The one new idea tonight was paid research sessions for software companies (Respondent, User Interviews), and I ruled it out without researching",
-      "details": null,
-      "cost_usd": 1.1770349999999998,
-      "total_tokens": 6590
     }
   ]
 }
