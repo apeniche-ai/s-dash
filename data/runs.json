@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-16T12:00:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "performance-check-in-(fri)",
       "timestamp": "2026-10-16T11:36:39Z",
       "duration_seconds": 82.2,
@@ -4900,16 +4908,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-10-02T12:30:01Z",
-      "duration_seconds": 24.4,
-      "status": "success",
-      "summary": "I sent today's digest to the assistant channel on Telegram. It lists the three open todos, all with no deadline and all needing you:",
-      "details": null,
-      "cost_usd": 0.28456560000000003,
-      "total_tokens": 1348
     }
   ]
 }
