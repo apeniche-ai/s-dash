@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-16T20:30:02Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-16T20:30:02Z",
       "duration_seconds": null,
@@ -4912,16 +4920,6 @@
       "details": null,
       "cost_usd": 2.0539112000000004,
       "total_tokens": 15483
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-02T21:02:15Z",
-      "duration_seconds": 344.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4788 [6328] Dashboard Epic: Active and Expired Home redesign → Changes Requested (PR's own trial-banner spec fails depending on time of day) + Browser QA Skipped (local env missing ge",
-      "details": null,
-      "cost_usd": 1.6043298,
-      "total_tokens": 11862
     }
   ]
 }
