@@ -173,10 +173,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-10-16T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 77.3,
+      "status": "success",
+      "summary": "I didn't send a Telegram message today because the list hasn't changed since yesterday's check.",
+      "details": null,
+      "cost_usd": 0.7147648,
+      "total_tokens": 2275
     },
     {
       "agent": "pr-reviewer",
