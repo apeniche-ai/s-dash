@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-16T21:00:04Z",
+      "duration_seconds": 1.9,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-16T20:30:02Z",
       "duration_seconds": 1.6,
       "status": "success",
@@ -4912,16 +4920,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-02T21:30:03Z",
-      "duration_seconds": 468.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4879 [6448] Maren unified dev handoff: launcher, badges, tooltip and panel → Approved + Browser QA Skipped (local env missing gems)",
-      "details": null,
-      "cost_usd": 2.0539112000000004,
-      "total_tokens": 15483
     }
   ]
 }
