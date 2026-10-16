@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-16T11:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-16T11:00:30Z",
       "duration_seconds": 188.9,
       "status": "success",
@@ -4898,16 +4906,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "performance-check-in-(fri)",
-      "timestamp": "2026-10-02T11:30:02Z",
-      "duration_seconds": 108.8,
-      "status": "success",
-      "summary": "I sent this morning's coaching message to the Coaching channel.",
-      "details": null,
-      "cost_usd": 1.0148804,
-      "total_tokens": 5067
     }
   ]
 }
