@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "performance-check-in-(fri)",
+      "timestamp": "2026-10-16T11:36:39Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Performance Check-in (Fri)...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-16T11:30:02Z",
       "duration_seconds": null,
@@ -4898,14 +4906,6 @@
       "details": null,
       "cost_usd": 0.28456560000000003,
       "total_tokens": 1348
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-02T12:00:03Z",
-      "duration_seconds": 2.1,
-      "status": "success",
-      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
