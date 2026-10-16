@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-16T10:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 341.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4906 [6363][6369] Maren launch announcement modal + Remove AI Coach superseded modal → Changes Requested (mobile Back and Study with Maren buttons still different sizes at most phone ",
+      "details": null,
+      "cost_usd": 1.6336338,
+      "total_tokens": 13193
     },
     {
       "agent": "pr-reviewer",
