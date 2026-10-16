@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-16T14:30:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 194.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4922 [6508] Update the test bar bookmark tooltips → Approved + Browser QA Skipped (local Rails bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.1408378000000001,
+      "total_tokens": 6699
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
