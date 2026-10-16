@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-16T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 91.8,
+      "status": "success",
+      "summary": "silent: I checked the live Mercor job board and found one new $200/hr infrastructure engineering role (Kubernetes, AWS, Datadog), but its posting requires full-time commitment, so it fails his 5–10 ho",
+      "details": null,
+      "cost_usd": 0.8384905999999999,
+      "total_tokens": 4336
     },
     {
       "agent": "passive-income-research-loop",
