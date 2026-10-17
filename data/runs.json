@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-10-17T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-16T23:30:01Z",
       "duration_seconds": 28.6,
@@ -4910,16 +4918,6 @@
       "details": null,
       "cost_usd": 0.5437514000000001,
       "total_tokens": 174
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-10-03T08:00:00Z",
-      "duration_seconds": 105.2,
-      "status": "success",
-      "summary": "I checked 9 sources and saved no new ideas. All 7 possible ideas failed the filter: most already had free tools or funded companies covering them, and the rest weren't a real problem or didn't use Ama",
-      "details": null,
-      "cost_usd": 1.0583293999999999,
-      "total_tokens": 6067
     }
   ]
 }
