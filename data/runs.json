@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-10-17T08:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 117.4,
+      "status": "success",
+      "summary": "I checked 11 sources and wrote no findings today: all 7 ideas I found failed the filter. Several were the Rails upgrade tooling Amaury already closed, the recurring AI-coding debate, and agent tools o",
+      "details": null,
+      "cost_usd": 1.2334550000000002,
+      "total_tokens": 5722
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
