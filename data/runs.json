@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-18T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 77.5,
+      "status": "success",
+      "summary": "silent: I checked Mercor's live job board again tonight and found nothing new: 298 listings, no new engineering role at $150+/hr, and neither of his two applications has filled any slots yet. The reco",
+      "details": null,
+      "cost_usd": 0.7296288,
+      "total_tokens": 3007
     },
     {
       "agent": "side-income-analysis-(overnight)",
