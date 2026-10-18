@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-10-18T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-17T23:00:01Z",
       "duration_seconds": 32.2,
@@ -4910,16 +4918,6 @@
       "details": null,
       "cost_usd": 1.1081214000000001,
       "total_tokens": 6067
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-04T07:00:01Z",
-      "duration_seconds": 56.6,
-      "status": "success",
-      "summary": "silent: no check is due until the Singulier repost check around Oct 11. I ruled out the few new names I found without any web research, because each matches a type of channel already ruled out: staffi",
-      "details": null,
-      "cost_usd": 0.7935804,
-      "total_tokens": 3157
     }
   ]
 }
