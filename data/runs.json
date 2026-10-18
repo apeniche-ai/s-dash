@@ -173,10 +173,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-10-18T23:00:27Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 136.1,
+      "status": "success",
+      "summary": "I sent this week's career digest to Amaury on Telegram, saved it to memory, and added the week's findings to the notes file.",
+      "details": null,
+      "cost_usd": 1.2368336000000002,
+      "total_tokens": 7738
     },
     {
       "agent": "passive-income-research-loop",
