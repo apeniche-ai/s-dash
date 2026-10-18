@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-10-18T07:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "side-income-analysis-(overnight)",
       "timestamp": "2026-10-18T06:00:01Z",
       "duration_seconds": 83.9,
@@ -4910,16 +4918,6 @@
       "details": null,
       "cost_usd": 0.4230142,
       "total_tokens": 291
-    },
-    {
-      "agent": "side-income-delivery-(morning)",
-      "timestamp": "2026-10-04T14:00:01Z",
-      "duration_seconds": 40.6,
-      "status": "success",
-      "summary": "nothing-queued",
-      "details": null,
-      "cost_usd": 0.6265765999999999,
-      "total_tokens": 1419
     }
   ]
 }
