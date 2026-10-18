@@ -173,10 +173,12 @@
     {
       "agent": "side-income-analysis-(overnight)",
       "timestamp": "2026-10-18T06:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Side-Income Analysis (overnight)...",
-      "details": null
+      "duration_seconds": 83.9,
+      "status": "success",
+      "summary": "Silent. Last Sunday's keep-or-stop message was delivered, and Amaury hasn't replied. That message already told him the weekly updates would stop. Sending another would be the same ask twice, and nothi",
+      "details": null,
+      "cost_usd": 0.6460194,
+      "total_tokens": 2592
     },
     {
       "agent": "passive-income-research-loop",
