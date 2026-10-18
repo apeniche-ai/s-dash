@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-10-18T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-18T19:00:01Z",
       "duration_seconds": 23.8,
@@ -4910,16 +4918,6 @@
       "details": null,
       "cost_usd": 0.9455124,
       "total_tokens": 6789
-    },
-    {
-      "agent": "weekly-coaching-digest",
-      "timestamp": "2026-10-05T01:30:01Z",
-      "duration_seconds": 104.0,
-      "status": "success",
-      "summary": "I sent this week's coaching digest (Sep 28 – Oct 4) to the Coaching channel, and it was delivered. It's also saved to memory, so next week's digest can compare against it.",
-      "details": null,
-      "cost_usd": 0.9457679999999999,
-      "total_tokens": 5961
     }
   ]
 }
