@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-10-18T08:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 99.1,
+      "status": "success",
+      "summary": "I scanned 9 sources (Hacker News, Lobsters, Product Hunt, all three AI vendor changelogs, and the MCP servers list) and wrote no findings today. All 8 ideas failed the filter: the OpenCode leaked-keys",
+      "details": null,
+      "cost_usd": 1.001921,
+      "total_tokens": 5360
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
