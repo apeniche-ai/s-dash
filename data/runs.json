@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-weekly-digest",
+      "timestamp": "2026-10-18T23:00:27Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Weekly Digest...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-18T23:00:00Z",
       "duration_seconds": null,
@@ -4908,16 +4916,6 @@
       "details": null,
       "cost_usd": 0.5412866,
       "total_tokens": 110
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-10-05T02:30:00Z",
-      "duration_seconds": 21.4,
-      "status": "success",
-      "summary": "I ran tonight's goal check and nothing needed updating. Every goal task is either already marked done or doesn't match a running job or a finished suggestion. I didn't send a Telegram message.",
-      "details": null,
-      "cost_usd": 0.3639894,
-      "total_tokens": 258
     }
   ]
 }
