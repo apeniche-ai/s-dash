@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-19T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 180.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4921 [TTPAI-357] Add a student upload reader that runs once per upload → Changes Requested (PR description still missing the measured cost per read, record cap and 95th-percentile fig",
+      "details": null,
+      "cost_usd": 1.1528327999999999,
+      "total_tokens": 6449
     },
     {
       "agent": "pr-reviewer",
