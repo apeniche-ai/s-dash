@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-19T21:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 338.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4929 [6544] Copy two GMAT lesson examples and their solution videos to GRE and EA → Approved + Browser QA Skipped (data migration only affects GRE/EA data, not available locally)",
+      "details": null,
+      "cost_usd": 1.2489102,
+      "total_tokens": 8675
     },
     {
       "agent": "pr-reviewer",
