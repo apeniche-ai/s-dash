@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-coaching-digest",
+      "timestamp": "2026-10-19T01:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Coaching Digest...",
+      "details": null
+    },
+    {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-10-18T23:00:27Z",
       "duration_seconds": 136.1,
@@ -4910,16 +4918,6 @@
       "details": null,
       "cost_usd": 0.8283964,
       "total_tokens": 2864
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-10-05T03:00:01Z",
-      "duration_seconds": 21.7,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.5412866,
-      "total_tokens": 110
     }
   ]
 }
