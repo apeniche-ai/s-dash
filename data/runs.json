@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-10-19T08:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 130.0,
+      "status": "success",
+      "summary": "I checked 8 sources (Hacker News, Lobsters, Product Hunt and the Anthropic, OpenAI and Google changelogs) and wrote no findings. All 7 ideas failed the filter, mostly because free tools already cover ",
+      "details": null,
+      "cost_usd": 1.1660094,
+      "total_tokens": 6156
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
