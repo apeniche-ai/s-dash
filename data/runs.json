@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-19T19:00:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 323.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4918 [TTPAI-359] Move every AI feature onto Sonnet 5.5, Haiku 5.5 and Opus 5.5 → Approved + Browser QA Skipped (local Rails gems missing)",
+      "details": null,
+      "cost_usd": 1.2617626000000002,
+      "total_tokens": 6890
     },
     {
       "agent": "passive-income-research-loop",
