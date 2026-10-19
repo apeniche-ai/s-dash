@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "weekly-team-shipping-report",
+      "timestamp": "2026-10-19T12:48:43Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Team Shipping Report...",
+      "details": null
+    },
+    {
+      "agent": "weekly-team-shipping-report",
       "timestamp": "2026-10-19T12:45:01Z",
       "duration_seconds": 101.9,
       "status": "error",
@@ -4919,16 +4927,6 @@
       "details": null,
       "cost_usd": 2.130475,
       "total_tokens": 19820
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-10-05T13:34:18Z",
-      "duration_seconds": 28.5,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.23118120000000003,
-      "total_tokens": 199
     }
   ]
 }
