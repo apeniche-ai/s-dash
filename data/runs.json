@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-10-19T13:00:17Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-19T13:00:02Z",
       "duration_seconds": null,
@@ -4918,16 +4926,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "weekly-goal-review",
-      "timestamp": "2026-10-05T14:07:08Z",
-      "duration_seconds": 55.7,
-      "status": "success",
-      "summary": "I sent this week's goal review to Telegram and it was delivered. Nothing new got ticked off. The reconcile step matched no tasks.",
-      "details": null,
-      "cost_usd": 0.6944761999999999,
-      "total_tokens": 3938
     }
   ]
 }
