@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-10-19T21:05:39Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-19T21:00:02Z",
       "duration_seconds": null,
@@ -4942,16 +4950,6 @@
       "details": null,
       "cost_usd": 0.9957646000000003,
       "total_tokens": 5277
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-06T07:00:01Z",
-      "duration_seconds": 80.3,
-      "status": "success",
-      "summary": "silent: the last untested lead, freelance corporate tech-training work, was checked tonight and doesn't fit his 5–10 evening hours or the $150/hr floor, so nothing was queued.",
-      "details": null,
-      "cost_usd": 0.9825256,
-      "total_tokens": 4417
     }
   ]
 }
