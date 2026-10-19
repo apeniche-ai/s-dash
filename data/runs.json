@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-19T11:00:29Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 353.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4915 [TTPAI-354] Store checked figure descriptions for screen readers and every model call → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.3839696000000001,
+      "total_tokens": 9662
     },
     {
       "agent": "passive-income-research-loop",
