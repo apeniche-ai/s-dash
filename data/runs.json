@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-19T21:30:02Z",
+      "duration_seconds": 1.7,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-10-19T21:05:39Z",
       "duration_seconds": 194.0,
@@ -4944,16 +4952,6 @@
       "details": null,
       "cost_usd": 1.1417118000000002,
       "total_tokens": 5812
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-10-06T08:00:01Z",
-      "duration_seconds": 99.4,
-      "status": "success",
-      "summary": "I scanned 8 working sources: the Hacker News front page and Ask HN, Lobsters, Product Hunt, and the Anthropic, OpenAI and Google changelogs. No new ideas were saved today, because all 9 possible ideas",
-      "details": null,
-      "cost_usd": 0.9957646000000003,
-      "total_tokens": 5277
     }
   ]
 }
