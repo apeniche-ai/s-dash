@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-19T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 315.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4918 [TTPAI-359] Move every AI feature onto Sonnet 5.5, Haiku 5.5 and Opus 5.5 → Changes Requested (the New Example fix still turns powers over brackets like (x+1)² into plain text, s",
+      "details": null,
+      "cost_usd": 1.5041980000000001,
+      "total_tokens": 11649
     },
     {
       "agent": "admissions-pr-reviewer",
