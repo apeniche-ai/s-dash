@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-10-19T12:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-10-19T12:07:10Z",
       "duration_seconds": 158.5,
@@ -4918,16 +4926,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-10-05T13:00:02Z",
-      "duration_seconds": 107.7,
-      "status": "success",
-      "summary": "I sent the list of stuck PRs to the pr-reviews channel on Telegram. It went through.",
-      "details": null,
-      "cost_usd": 0.6674478,
-      "total_tokens": 2426
     }
   ]
 }
