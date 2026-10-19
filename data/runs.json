@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-19T11:00:29Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-19T11:00:01Z",
       "duration_seconds": 26.4,
@@ -4918,16 +4926,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "weekly-vp-performance-edge",
-      "timestamp": "2026-10-05T12:00:04Z",
-      "duration_seconds": 127.6,
-      "status": "success",
-      "summary": "I skipped this week and didn't send Amaury anything. None of the ideas I found passed the bar, and the rules say to skip rather than send something weak.",
-      "details": null,
-      "cost_usd": 0.9889668,
-      "total_tokens": 4512
     }
   ]
 }
