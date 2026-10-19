@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-19T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 269.0,
+      "status": "success",
+      "summary": "queued — Techstars' real mentor sign-up (mentor.techstars.com) is open now, unlike the old \"closed\" page past runs checked: Colombia is selectable, remote is fine, and the terms don't block founder or",
+      "details": null,
+      "cost_usd": 1.6200318000000005,
+      "total_tokens": 11527
     },
     {
       "agent": "passive-income-research-loop",
