@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-19T17:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 347.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4926 [6541] Global billing panel across GMAT, GRE, EA and SAT → Changes Requested (Recurly reads have no time limit, so a slow Recurly runs past Heroku's 30s cutoff and the page error",
+      "details": null,
+      "cost_usd": 1.7567869999999999,
+      "total_tokens": 16111
     },
     {
       "agent": "pr-reviewer",
