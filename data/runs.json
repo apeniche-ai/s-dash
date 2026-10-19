@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-19T03:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-10-19T02:30:01Z",
       "duration_seconds": 19.9,
@@ -4912,14 +4920,6 @@
       "details": null,
       "cost_usd": 1.578313,
       "total_tokens": 9027
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-05T10:00:01Z",
-      "duration_seconds": 1.5,
-      "status": "success",
-      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
