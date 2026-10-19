@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-vp-performance-edge",
+      "timestamp": "2026-10-19T12:07:10Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly VP Performance Edge...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-19T12:00:02Z",
       "duration_seconds": null,
@@ -4916,16 +4924,6 @@
       "details": null,
       "cost_usd": 0.6674478,
       "total_tokens": 2426
-    },
-    {
-      "agent": "weekly-team-shipping-report",
-      "timestamp": "2026-10-05T12:45:02Z",
-      "duration_seconds": 126.4,
-      "status": "success",
-      "summary": "I sent this week's shipping report to the team-intel channel (Sep 28 – Oct 5). It was one message, and it went through.",
-      "details": null,
-      "cost_usd": 0.8829897999999999,
-      "total_tokens": 9335
     }
   ]
 }
