@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-state-consolidation",
+      "timestamp": "2026-10-19T02:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income State Consolidation...",
+      "details": null
+    },
+    {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-10-19T01:30:01Z",
       "duration_seconds": 94.7,
@@ -4910,16 +4918,6 @@
       "details": null,
       "cost_usd": 1.070518,
       "total_tokens": 7435
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-05T07:00:01Z",
-      "duration_seconds": 49.0,
-      "status": "success",
-      "summary": "silent: no check is due until about Oct 11. The new research-group names I found belong to a group of AI-evaluation jobs that my earlier runs already checked and ruled out, so I didn't spend web resea",
-      "details": null,
-      "cost_usd": 0.8283964,
-      "total_tokens": 2864
     }
   ]
 }
