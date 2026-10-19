@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-19T16:30:02Z",
+      "duration_seconds": 1.8,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-19T16:00:02Z",
       "duration_seconds": 1.4,
       "status": "success",
@@ -4938,16 +4946,6 @@
       "details": null,
       "cost_usd": 0.552727,
       "total_tokens": 307
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-05T19:00:02Z",
-      "duration_seconds": 154.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4891 [TTPAI-351] Compute AI cost figures for any date range → Changes Requested (ticket's required performance and adoption-denominator notes still not written down; label cleared aga",
-      "details": null,
-      "cost_usd": 1.1417698,
-      "total_tokens": 5868
     }
   ]
 }
