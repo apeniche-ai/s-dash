@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-20T10:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-10-20T08:00:00Z",
       "duration_seconds": 126.8,
@@ -4938,16 +4946,6 @@
       "details": null,
       "cost_usd": 1.3359838000000004,
       "total_tokens": 7578
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-10-06T13:00:02Z",
-      "duration_seconds": 115.0,
-      "status": "success",
-      "summary": "I sent today's list of stuck PRs to the pr-reviews channel on Telegram, and it was delivered.",
-      "details": null,
-      "cost_usd": 0.6360587999999999,
-      "total_tokens": 2337
     }
   ]
 }
