@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-20T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 281.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4931 [TTPAI-368] Fix chapter test result cards for GRE question types, DI timing and zero accuracy targets → Approved + Browser QA Skipped (env: local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.4118262000000001,
+      "total_tokens": 6141
     },
     {
       "agent": "pr-reviewer",
