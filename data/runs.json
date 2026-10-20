@@ -173,10 +173,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-10-20T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 31.2,
+      "status": "success",
+      "summary": "I sent today's digest to the assistant channel. It lists the same three open MentalTune items as yesterday, none with a deadline. All three need a decision from you:",
+      "details": null,
+      "cost_usd": 0.3196778,
+      "total_tokens": 1243
     },
     {
       "agent": "pr-reviewer",
