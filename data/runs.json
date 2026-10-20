@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-20T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 121.1,
+      "status": "success",
+      "summary": "silent — I checked all 56 live Fractional Jobs listings tonight, and for the third month running none is an engineering role that's open to Colombia and pays $150+/hr. The one Latin-America-friendly r",
+      "details": null,
+      "cost_usd": 1.1854727999999999,
+      "total_tokens": 6290
     },
     {
       "agent": "passive-income-research-loop",
