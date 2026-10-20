@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-20T21:30:02Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-20T21:02:16Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4928,16 +4936,6 @@
       "details": null,
       "cost_usd": 1.6624323999999997,
       "total_tokens": 13575
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-10-07T08:00:02Z",
-      "duration_seconds": 103.7,
-      "status": "success",
-      "summary": "I scanned 8 working sources: Hacker News front page and Ask HN, Lobsters, Product Hunt, and the Anthropic, OpenAI and Google changelogs. Show HN was dead for the third day running, so I didn't count i",
-      "details": null,
-      "cost_usd": 0.9878935999999999,
-      "total_tokens": 4386
     }
   ]
 }
