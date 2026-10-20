@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-20T12:00:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 486.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4932 [6520] Lesson page header redesign and Lesson Tools → Changes Requested (the Lesson Tools collapse button saves the student's choice backwards when they expand it while Maren is ",
+      "details": null,
+      "cost_usd": 2.3717068,
+      "total_tokens": 17776
     },
     {
       "agent": "pr-reviewer",
