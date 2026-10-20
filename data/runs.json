@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-20T22:30:03Z",
+      "duration_seconds": 2.0,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-20T22:00:03Z",
       "duration_seconds": 2.4,
       "status": "success",
@@ -4924,16 +4932,6 @@
       "details": null,
       "cost_usd": 0.5548964,
       "total_tokens": 366
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-07T10:30:01Z",
-      "duration_seconds": 209.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4900 [6509] Fix the failure email's instructions not sending the report → Approved + Browser QA Skipped (internal email only)",
-      "details": null,
-      "cost_usd": 1.1391859999999998,
-      "total_tokens": 5016
     }
   ]
 }
