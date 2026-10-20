@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-delivery-(morning)",
+      "timestamp": "2026-10-20T14:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Delivery (morning)...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-10-20T14:15:04Z",
       "duration_seconds": 2.8,
@@ -4942,16 +4950,6 @@
       "details": null,
       "cost_usd": 2.1510079999999996,
       "total_tokens": 15763
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-10-06T17:30:01Z",
-      "duration_seconds": 31.7,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.24829400000000001,
-      "total_tokens": 320
     }
   ]
 }
