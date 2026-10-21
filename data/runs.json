@@ -173,10 +173,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-10-21T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 88.6,
+      "status": "success",
+      "summary": "I sent one Telegram message to the PR Reviews channel. It flags 7 ttp PRs where changes were requested 24h or more ago and nothing has been pushed since. Admissions has no PRs labeled \"Changes Request",
+      "details": null,
+      "cost_usd": 0.6324491999999999,
+      "total_tokens": 2293
     },
     {
       "agent": "pr-reviewer",
