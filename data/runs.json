@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-10-21T08:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-21T07:00:00Z",
       "duration_seconds": 189.1,
@@ -4926,16 +4934,6 @@
       "details": null,
       "cost_usd": 0.6557332000000001,
       "total_tokens": 2495
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-07T12:30:24Z",
-      "duration_seconds": 215.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4890 [6485] Redesign the Visual Learning page header → Approved + Browser QA Skipped (local bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.7770192000000002,
-      "total_tokens": 10254
     }
   ]
 }
