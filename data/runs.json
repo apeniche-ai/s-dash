@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-21T19:00:35Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 269.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4878 [TTPAI-345] Add Maren's dashboard insight note from the student's last study session → Changes Requested (lead reviewer's 21 Oct redesign is still open, the new prompt commit mak",
+      "details": null,
+      "cost_usd": 2.1097828,
+      "total_tokens": 14670
     },
     {
       "agent": "passive-income-research-loop",
