@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-21T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 400.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4936 [6560] Fixes students getting repeated free trials by deleting or resetting their account → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.4058853999999998,
+      "total_tokens": 8978
     },
     {
       "agent": "pr-reviewer",
