@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-21T16:30:03Z",
+      "duration_seconds": 1.9,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-21T16:00:02Z",
       "duration_seconds": 1.4,
       "status": "success",
@@ -4920,16 +4928,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-07T19:30:02Z",
-      "duration_seconds": 302.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4902 [6510] Fixes New Example failing on factorial and permutation lessons → Approved + Browser QA Skipped (local env missing gems)",
-      "details": null,
-      "cost_usd": 1.4811428,
-      "total_tokens": 11219
     }
   ]
 }
