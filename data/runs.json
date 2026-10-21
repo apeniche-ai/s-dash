@@ -173,10 +173,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-10-21T21:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 170.8,
+      "status": "success",
+      "summary": "It was a quiet day. Maren V0 is still at **43 of 51 tickets done**, and I sent Amaury the short weekday note in the assistant channel.",
+      "details": null,
+      "cost_usd": 0.8744164000000001,
+      "total_tokens": 6654
     },
     {
       "agent": "pr-reviewer",
