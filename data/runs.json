@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-21T21:30:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-21T21:02:52Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4916,16 +4924,6 @@
       "details": null,
       "cost_usd": 1.9614782,
       "total_tokens": 18394
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-08T10:00:04Z",
-      "duration_seconds": 314.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337] Refresh student intelligence profiles on source changes → Approved + Browser QA Skipped (local Rails bundle not installed)",
-      "details": null,
-      "cost_usd": 1.5587958000000002,
-      "total_tokens": 9102
     }
   ]
 }
