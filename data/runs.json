@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-21T14:30:30Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-delivery-(morning)",
       "timestamp": "2026-10-21T14:30:01Z",
       "duration_seconds": 28.1,
@@ -4928,16 +4936,6 @@
       "details": null,
       "cost_usd": 1.4460363999999999,
       "total_tokens": 7941
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-07T18:00:02Z",
-      "duration_seconds": 256.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4891 [TTPAI-351] Compute AI cost figures for any date range → Approved + Browser QA Skipped (backend-only) (⚠️ no Jira context)",
-      "details": null,
-      "cost_usd": 1.3506528,
-      "total_tokens": 6374
     }
   ]
 }
