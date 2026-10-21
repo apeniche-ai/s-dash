@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-10-21T21:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-21T20:30:33Z",
       "duration_seconds": 1.1,
@@ -4918,16 +4926,6 @@
       "details": null,
       "cost_usd": 1.3103344,
       "total_tokens": 7756
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-08T07:00:01Z",
-      "duration_seconds": 89.2,
-      "status": "success",
-      "summary": "silent: nothing passed the bar, nothing was queued, and Amaury hasn't sent anything new since Sep 15. A live check shows Techstars mentor applications are still closed, and the next scheduled check is",
-      "details": null,
-      "cost_usd": 0.7308163999999999,
-      "total_tokens": 3622
     }
   ]
 }
