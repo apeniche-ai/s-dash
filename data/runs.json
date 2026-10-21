@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-21T11:00:29Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 165.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4921 [TTPAI-357] Add a student upload reader that runs once per upload → Changes Requested (PR description still empty: the ticket asks for the measured cost per read, the size caps a",
+      "details": null,
+      "cost_usd": 1.2870016,
+      "total_tokens": 6603
     },
     {
       "agent": "passive-income-research-loop",
