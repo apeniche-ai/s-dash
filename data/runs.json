@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-21T19:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-21T19:00:35Z",
       "duration_seconds": 269.3,
       "status": "success",
@@ -4924,16 +4932,6 @@
       "details": null,
       "cost_usd": 0.5566061999999999,
       "total_tokens": 456
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-07T22:30:03Z",
-      "duration_seconds": 257.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4640 [6094][6118] Maren Chatbot Redesign + Trial flows → Approved + Browser QA Skipped (local Rails bundle not installed)",
-      "details": null,
-      "cost_usd": 1.7049284,
-      "total_tokens": 10849
     }
   ]
 }
