@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-21T15:00:01Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-21T14:30:30Z",
       "duration_seconds": 1.4,
       "status": "success",
@@ -4926,16 +4934,6 @@
       "details": null,
       "cost_usd": 0.552856,
       "total_tokens": 273
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-07T18:30:02Z",
-      "duration_seconds": 276.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4895 [TTPAI-350] Record which dashboard cards a student sees and clicks → Approved + Browser QA Skipped (local env missing gems) (⚠️ no Jira context)",
-      "details": null,
-      "cost_usd": 1.4460363999999999,
-      "total_tokens": 7941
     }
   ]
 }
