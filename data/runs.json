@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-21T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 189.1,
+      "status": "success",
+      "summary": "silent — tonight I checked Colombian government expert calls and two big Medellín events in November. None passed. The Minciencias AI expert committee call that searches still show as open actually cl",
+      "details": null,
+      "cost_usd": 1.3051511999999998,
+      "total_tokens": 6989
     },
     {
       "agent": "passive-income-research-loop",
