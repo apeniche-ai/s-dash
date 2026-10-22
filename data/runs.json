@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-22T13:30:27Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 348.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4936 [6560] Fixes students getting repeated free trials by deleting or resetting their account → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.5087542000000003,
+      "total_tokens": 7951
     },
     {
       "agent": "slack-watch",
