@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-22T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 84.2,
+      "status": "success",
+      "summary": "silent: I checked whether tech executive-search recruiters have a sign-up route worth his time, and none passed. Signing up just puts him in a pool and waits, the contact is a recruiter rather than a ",
+      "details": null,
+      "cost_usd": 0.9955594,
+      "total_tokens": 4693
     },
     {
       "agent": "passive-income-research-loop",
