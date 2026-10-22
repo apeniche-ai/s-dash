@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-22T15:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 515.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4940 [6525] Add Chat History and Bookmark Library to Maren → Changes Requested (\"Ask About This\" not wired up, no Save on replies in the open chat) + Browser QA Skipped (local bundle ",
+      "details": null,
+      "cost_usd": 2.5417386000000004,
+      "total_tokens": 16930
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
