@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-10-22T21:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-22T20:30:34Z",
       "duration_seconds": 1.4,
@@ -4903,16 +4911,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-09T10:00:03Z",
-      "duration_seconds": 293.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4911 [6524] Score Analyzer: clearer reports with a Claude draft, a Claude check and a GPT plain-language pass → Changes Requested (GPT's final rewrite is kept even when it has no repo",
-      "details": null,
-      "cost_usd": 1.6652322,
-      "total_tokens": 11854
     }
   ]
 }
