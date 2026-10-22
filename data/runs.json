@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-10-22T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-22T23:00:00Z",
       "duration_seconds": 27.6,
@@ -4897,16 +4905,6 @@
       "details": null,
       "cost_usd": 1.488211,
       "total_tokens": 9258
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-10-09T12:30:00Z",
-      "duration_seconds": 21.1,
-      "status": "success",
-      "summary": "I didn't send a digest today. The same three MentalTune decisions are open as yesterday. Nothing has been completed since, and I can't do any of them myself. Your standing rule is not to repeat an unc",
-      "details": null,
-      "cost_usd": 0.28495539999999997,
-      "total_tokens": 835
     }
   ]
 }
