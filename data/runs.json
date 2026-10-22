@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-22T12:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 301.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4911 [6524] Score Analyzer: clearer reports with a Claude draft, a GPT writer and a Claude check → Approved + Browser QA Skipped (local bundle missing gems; feature is an AI-driven ba",
+      "details": null,
+      "cost_usd": 1.4520460000000002,
+      "total_tokens": 7646
     },
     {
       "agent": "pr-reviewer",
