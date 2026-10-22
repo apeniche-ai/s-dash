@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-10-22T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-21T23:30:01Z",
       "duration_seconds": 41.3,
@@ -4916,14 +4924,6 @@
       "details": null,
       "cost_usd": 1.2851252000000002,
       "total_tokens": 8114
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-08T12:00:02Z",
-      "duration_seconds": 2.0,
-      "status": "success",
-      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
