@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-22T15:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-delivery-(morning)",
       "timestamp": "2026-10-22T14:40:13Z",
       "duration_seconds": 20.6,
@@ -4930,16 +4938,6 @@
       "details": null,
       "cost_usd": 0.5607498000000001,
       "total_tokens": 577
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-08T18:30:02Z",
-      "duration_seconds": 196.1,
-      "status": "success",
-      "summary": "The review stopped partway through and no review was submitted. GitHub timed out once while loading PR #4890's comments, so I stopped there as the fail-fast rule requires.",
-      "details": null,
-      "cost_usd": 1.2481966,
-      "total_tokens": 6666
     }
   ]
 }
