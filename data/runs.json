@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-22T12:00:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-22T11:30:01Z",
       "duration_seconds": 488.1,
       "status": "success",
@@ -4918,16 +4926,6 @@
       "details": null,
       "cost_usd": 0.43048660000000005,
       "total_tokens": 315
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-08T14:30:01Z",
-      "duration_seconds": 238.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4891 [TTPAI-351] Compute AI cost figures for any date range → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.2964766,
-      "total_tokens": 7174
     }
   ]
 }
