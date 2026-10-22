@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-10-22T12:36:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-22T12:30:02Z",
       "duration_seconds": 363.1,
@@ -4917,14 +4925,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-10-08T15:37:39Z",
       "duration_seconds": 2.4,
-      "status": "success",
-      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-08T15:00:02Z",
-      "duration_seconds": 1.3,
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
