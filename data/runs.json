@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-22T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 429.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4529 [6038] Add self-managed billing engine foundation → Changes Requested (permission data migration gives Sales roles new access to Dunning Campaigns and Billing Email Templates) + ",
+      "details": null,
+      "cost_usd": 3.15646,
+      "total_tokens": 23962
     },
     {
       "agent": "pr-reviewer",
