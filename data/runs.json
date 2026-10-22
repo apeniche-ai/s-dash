@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-10-22T08:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 164.5,
+      "status": "success",
+      "summary": "I scanned 9 sources (Ruby Weekly isn't out yet and the MCP servers repo was skipped again) and wrote no findings: all 7 raw ideas failed the filter. Free tools already cover the security alerts, the P",
+      "details": null,
+      "cost_usd": 1.3795145999999998,
+      "total_tokens": 8285
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
