@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-22T15:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 410.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4941 [TTPAI-366] Plan every type from one run planner → Changes Requested (only part of Phase 1 of the six-phase ticket is delivered; a type with no plan settings still plans with a w",
+      "details": null,
+      "cost_usd": 1.7989673999999996,
+      "total_tokens": 14390
     },
     {
       "agent": "pr-reviewer",
