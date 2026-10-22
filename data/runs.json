@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-10-22T07:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-22T03:00:00Z",
       "duration_seconds": 28.2,
@@ -4916,16 +4924,6 @@
       "details": null,
       "cost_usd": 2.5461602000000005,
       "total_tokens": 17457
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-10-08T12:33:09Z",
-      "duration_seconds": 28.4,
-      "status": "success",
-      "summary": "I didn't send a digest today. The three open todos are the same as yesterday, nothing was completed since, and none of them are ones I can do myself. Your standing rule is not to repeat an unchanged l",
-      "details": null,
-      "cost_usd": 0.277233,
-      "total_tokens": 636
     }
   ]
 }
