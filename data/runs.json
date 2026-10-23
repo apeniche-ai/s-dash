@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-23T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 349.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4878 [TTPAI-345] Add Maren's dashboard insight note from the student's last study session → Changes Requested (lead reviewer's open blocker: the profile guard on base PR #4788 still c",
+      "details": null,
+      "cost_usd": 2.6520829999999997,
+      "total_tokens": 20059
     },
     {
       "agent": "performance-check-in-(fri)",
