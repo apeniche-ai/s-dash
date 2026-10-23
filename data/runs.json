@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-10-23T21:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-23T20:30:32Z",
       "duration_seconds": 1.4,
@@ -4915,16 +4923,6 @@
       "details": null,
       "cost_usd": 0.4033324,
       "total_tokens": 2541
-    },
-    {
-      "agent": "opportunity-scout-delivery-(morning)",
-      "timestamp": "2026-10-10T14:30:00Z",
-      "duration_seconds": 21.5,
-      "status": "success",
-      "summary": "nothing-queued",
-      "details": null,
-      "cost_usd": 0.4295164,
-      "total_tokens": 296
     }
   ]
 }
