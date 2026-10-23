@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-23T16:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 420.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4937 [TTPAI-365] Draw each Data Insights item's setting, size and answer format → Changes Requested (my earlier fix now skews the Two-Part reasoning_kind share outside the ticket's 0.",
+      "details": null,
+      "cost_usd": 2.2530492000000004,
+      "total_tokens": 19489
     },
     {
       "agent": "pr-reviewer",
