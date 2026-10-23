@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-23T11:00:26Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-23T11:00:00Z",
       "duration_seconds": 24.4,
@@ -4903,16 +4911,6 @@
       "details": null,
       "cost_usd": 0.4296604,
       "total_tokens": 302
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-09T14:30:01Z",
-      "duration_seconds": 357.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4910 [6483] Checkout payment tabs for card, PayPal and local methods via Stripe, without Google Pay → Approved + Browser QA Skipped (local bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.6043192000000002,
-      "total_tokens": 9068
     }
   ]
 }
