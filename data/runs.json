@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-23T16:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 521.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4941 [TTPAI-366] Plan every type from one run planner → Changes Requested (the lead reviewer's two ticket updates are still open, and the new near-repeat check finds no bank items for",
+      "details": null,
+      "cost_usd": 3.0981635999999995,
+      "total_tokens": 23002
     },
     {
       "agent": "pr-reviewer",
