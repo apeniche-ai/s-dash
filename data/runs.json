@@ -173,10 +173,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-10-23T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 103.1,
+      "status": "success",
+      "summary": "I sent nothing today. The stale list is exactly the same as the one that went to the PR Reviews channel yesterday, and your standing rule is not to repeat an unchanged list.",
+      "details": null,
+      "cost_usd": 0.8021532,
+      "total_tokens": 3321
     },
     {
       "agent": "pr-reviewer",
