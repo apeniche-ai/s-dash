@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-10-23T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-22T23:30:00Z",
       "duration_seconds": 28.3,
@@ -4897,16 +4905,6 @@
       "details": null,
       "cost_usd": 0.6523232,
       "total_tokens": 2411
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-09T12:30:23Z",
-      "duration_seconds": 486.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4912 [6369] Remove the superseded AI Coach intro modal → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.488211,
-      "total_tokens": 9258
     }
   ]
 }
