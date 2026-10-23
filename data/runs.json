@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-23T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 379.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4921 [TTPAI-357] Add a student upload reader that runs once per upload → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.5502974,
+      "total_tokens": 9518
     },
     {
       "agent": "admissions-pr-reviewer",
