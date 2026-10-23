@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-23T12:30:25Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 305.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4915 [TTPAI-354] Store checked figure descriptions for screen readers and every model call → Changes Requested (AI Tutor avatar now renders with no alt text — alt passed to asset_path",
+      "details": null,
+      "cost_usd": 1.9827936,
+      "total_tokens": 13583
     },
     {
       "agent": "daily-todo-digest",
