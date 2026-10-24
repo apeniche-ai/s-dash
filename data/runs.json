@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-10-24T08:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-24T07:00:00Z",
       "duration_seconds": 69.3,
@@ -4907,16 +4915,6 @@
       "details": null,
       "cost_usd": 0.5025763999999999,
       "total_tokens": 417
-    },
-    {
-      "agent": "side-income-delivery-(morning)",
-      "timestamp": "2026-10-11T14:00:00Z",
-      "duration_seconds": 33.0,
-      "status": "success",
-      "summary": "sent: delivered the queued keep-or-stop message (01M4MRTYJAZB7RTC7Z40YRX4M3) word for word to the passive-income channel, and marked it \"DELIVERED\" (new ID 01M4NM7PFHRJDRCJ1G26MC2274). I found it by s",
-      "details": null,
-      "cost_usd": 0.4431112,
-      "total_tokens": 1553
     }
   ]
 }
