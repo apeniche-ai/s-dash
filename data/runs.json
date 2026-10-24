@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-24T03:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-10-24T02:30:01Z",
       "duration_seconds": 16.7,
@@ -4907,16 +4915,6 @@
       "details": null,
       "cost_usd": 0.5631376,
       "total_tokens": 532
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-10-11T08:00:00Z",
-      "duration_seconds": 122.5,
-      "status": "success",
-      "summary": "I scanned 12 sources: three Hacker News feeds, Lobsters, Product Hunt, the three AI vendor changelogs, GitHub trending Ruby, Ruby Weekly, Postgres Weekly, and the Rails forum, which I tried for the fi",
-      "details": null,
-      "cost_usd": 1.1081056,
-      "total_tokens": 7163
     }
   ]
 }
