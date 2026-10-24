@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-10-24T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-23T23:30:00Z",
       "duration_seconds": 28.0,
@@ -4907,16 +4915,6 @@
       "details": null,
       "cost_usd": 1.1081056,
       "total_tokens": 7163
-    },
-    {
-      "agent": "side-income-analysis-(overnight)",
-      "timestamp": "2026-10-11T06:00:00Z",
-      "duration_seconds": 130.5,
-      "status": "success",
-      "summary": "queued: the keep-or-stop call I promised for this week (lean stop, since it's ten weeks at $0) plus the Mercor/micro1 question, because last week's question almost certainly never reached Amaury.",
-      "details": null,
-      "cost_usd": 1.0461261999999998,
-      "total_tokens": 6564
     }
   ]
 }
