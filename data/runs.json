@@ -173,10 +173,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-10-24T02:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 16.7,
+      "status": "success",
+      "summary": "No goal tasks changed tonight, so I didn't send Amaury a Telegram message. Every task was either already marked done or had no matching job or suggestion that would update it.",
+      "details": null,
+      "cost_usd": 0.36638820000000005,
+      "total_tokens": 206
     },
     {
       "agent": "slack-watch",
