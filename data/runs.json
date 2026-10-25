@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-10-25T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-24T23:00:01Z",
       "duration_seconds": 28.2,
@@ -4907,16 +4915,6 @@
       "details": null,
       "cost_usd": 0.3696262,
       "total_tokens": 223
-    },
-    {
-      "agent": "passive-income-state-consolidation",
-      "timestamp": "2026-10-12T02:00:00Z",
-      "duration_seconds": 92.2,
-      "status": "success",
-      "summary": "I rebuilt the weekly passive-income summary and sent nothing to Telegram, as this job requires.",
-      "details": null,
-      "cost_usd": 0.9882892,
-      "total_tokens": 7930
     }
   ]
 }
