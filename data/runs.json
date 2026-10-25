@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-weekly-digest",
+      "timestamp": "2026-10-25T23:00:26Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Weekly Digest...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-25T23:00:01Z",
       "duration_seconds": null,
@@ -4909,16 +4917,6 @@
       "details": null,
       "cost_usd": 0.5959253999999999,
       "total_tokens": 898
-    },
-    {
-      "agent": "weekly-vp-performance-edge",
-      "timestamp": "2026-10-12T12:07:42Z",
-      "duration_seconds": 113.7,
-      "status": "success",
-      "summary": "I skipped this week and sent Amaury nothing. None of this week's ideas passed the bar, and the rules say to skip rather than send something weak. This is the second skip in a row.",
-      "details": null,
-      "cost_usd": 0.9377186,
-      "total_tokens": 4388
     }
   ]
 }
