@@ -173,10 +173,12 @@
     {
       "agent": "side-income-delivery-(morning)",
       "timestamp": "2026-10-25T14:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Side-Income Delivery (morning)...",
-      "details": null
+      "duration_seconds": 38.6,
+      "status": "success",
+      "summary": "nothing-queued",
+      "details": null,
+      "cost_usd": 0.5347354,
+      "total_tokens": 574
     },
     {
       "agent": "passive-income-research-loop",
