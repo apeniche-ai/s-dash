@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-25T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 80.2,
+      "status": "success",
+      "summary": "silent. I checked Mercor's live job board tonight (306 roles). The only new engineering role at $200/hr, an infrastructure engineer job, requires full-time hours. Nothing else fits that Amaury hasn't ",
+      "details": null,
+      "cost_usd": 0.9624240000000001,
+      "total_tokens": 4301
     },
     {
       "agent": "side-income-analysis-(overnight)",
