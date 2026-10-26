@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-26T20:00:02Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-26T19:30:01Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4890,17 +4898,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-10-12T22:35:36Z",
       "duration_seconds": 16.3,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your weekly limit resets 4am (America/Bogota)"
-      ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-12T22:33:17Z",
-      "duration_seconds": 18.6,
       "status": "error",
       "summary": "",
       "details": null,
