@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-10-26T20:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-26T20:00:02Z",
       "duration_seconds": 1.2,
@@ -4893,17 +4901,6 @@
       "details": null,
       "cost_usd": 0.5539904,
       "total_tokens": 193
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-12T22:35:36Z",
-      "duration_seconds": 16.3,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your weekly limit resets 4am (America/Bogota)"
-      ]
     }
   ]
 }
