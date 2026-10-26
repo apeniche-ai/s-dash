@@ -173,10 +173,12 @@
     {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-10-26T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly VP Performance Edge...",
-      "details": null
+      "duration_seconds": 141.3,
+      "status": "success",
+      "summary": "I sent Amaury this week's tip in the career channel. Telegram confirmed delivery on the first try, and I saved the tip so a future run won't repeat it.",
+      "details": null,
+      "cost_usd": 1.087017,
+      "total_tokens": 6230
     },
     {
       "agent": "pr-reviewer",
