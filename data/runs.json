@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-10-26T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-26T20:30:40Z",
       "duration_seconds": 1.4,
@@ -4889,16 +4897,6 @@
       "details": null,
       "cost_usd": 0.5534194,
       "total_tokens": 187
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-10-13T02:30:00Z",
-      "duration_seconds": 20.7,
-      "status": "success",
-      "summary": "I ran tonight's goal check and nothing changed, so I didn't send a Telegram message. Every goal task was either already marked done or had no matching running job or finished suggestion.",
-      "details": null,
-      "cost_usd": 0.3680158,
-      "total_tokens": 250
     }
   ]
 }
