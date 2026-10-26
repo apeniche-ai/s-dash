@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-26T22:30:02Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-26T22:00:02Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4883,16 +4891,6 @@
       "details": null,
       "cost_usd": 1.3439324,
       "total_tokens": 6900
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-13T10:00:02Z",
-      "duration_seconds": 510.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4878 [TTPAI-345] Add Maren's dashboard insight note from the student's last study session → Changes Requested (the rule-copy check doesn't enforce the order of copied stretches, so a ",
-      "details": null,
-      "cost_usd": 2.527597,
-      "total_tokens": 22194
     }
   ]
 }
