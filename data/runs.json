@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-state-consolidation",
+      "timestamp": "2026-10-26T02:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income State Consolidation...",
+      "details": null
+    },
+    {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-10-26T01:30:01Z",
       "duration_seconds": 80.0,
@@ -4911,16 +4919,6 @@
       "details": null,
       "cost_usd": 0.7751504,
       "total_tokens": 7882
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-10-12T12:30:57Z",
-      "duration_seconds": 17.9,
-      "status": "success",
-      "summary": "I didn't send a digest today. The same three MentalTune decisions are still open and nothing has been completed since the last one. I can't do any of them myself.",
-      "details": null,
-      "cost_usd": 0.2635036,
-      "total_tokens": 584
     }
   ]
 }
