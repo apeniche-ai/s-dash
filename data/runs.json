@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-10-26T14:05:11Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-26T14:00:02Z",
       "duration_seconds": 310.3,
@@ -4924,17 +4932,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-10-12T18:37:23Z",
       "duration_seconds": 16.9,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your weekly limit resets 4am (America/Bogota)"
-      ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-12T18:30:02Z",
-      "duration_seconds": 321.8,
       "status": "error",
       "summary": "",
       "details": null,
