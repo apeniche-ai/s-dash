@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-26T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-26T22:30:02Z",
       "duration_seconds": 1.2,
@@ -4881,16 +4889,6 @@
       "details": null,
       "cost_usd": 1.6690588,
       "total_tokens": 10450
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-13T10:30:01Z",
-      "duration_seconds": 309.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4885 [6360] Add inactivity modal that pauses study time visibly → Approved + Browser QA Skipped (local bundle missing gems) (⚠️ no Jira context)",
-      "details": null,
-      "cost_usd": 1.3439324,
-      "total_tokens": 6900
     }
   ]
 }
