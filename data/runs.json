@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-26T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 57.2,
+      "status": "success",
+      "summary": "silent — the scheduled checks were on hold until early November, and one quick search on whether Surge AI has reopened to Colombia turned up nothing new. I saved tonight's notes and queued no message.",
+      "details": null,
+      "cost_usd": 0.6764117999999999,
+      "total_tokens": 2004
     },
     {
       "agent": "passive-income-research-loop",
