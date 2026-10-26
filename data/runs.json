@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-26T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 421.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4941 [TTPAI-366] Plan every type from one run planner → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.9784092,
+      "total_tokens": 12363
     },
     {
       "agent": "admissions-pr-reviewer",
