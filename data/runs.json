@@ -173,10 +173,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-10-26T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 111.3,
+      "status": "success",
+      "summary": "I didn't send anything to Telegram today. The list of PRs waiting on fixes is the same as on Friday's run (Oct 23), and an unchanged list doesn't get repeated.",
+      "details": null,
+      "cost_usd": 0.9688125999999999,
+      "total_tokens": 3725
     },
     {
       "agent": "weekly-team-shipping-report",
