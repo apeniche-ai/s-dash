@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-26T14:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-26T13:30:29Z",
       "duration_seconds": 377.2,
       "status": "success",
@@ -4931,16 +4939,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your weekly limit resets 4am (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-12T18:00:02Z",
-      "duration_seconds": 264.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4901 [TTPAI-352] Adds one cost row for every paid AI call including failures and retries → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.6558832000000003,
-      "total_tokens": 11006
     }
   ]
 }
