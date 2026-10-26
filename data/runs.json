@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-26T12:02:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 172.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339/356] Generate exercise bank items through the Batch API with drawn exam-share values and a two-step reading judge → Changes Requested (the 20-passage GMAT batch and th",
+      "details": null,
+      "cost_usd": 1.4059094,
+      "total_tokens": 7413
     },
     {
       "agent": "weekly-vp-performance-edge",
