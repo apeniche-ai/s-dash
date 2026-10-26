@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-26T11:00:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 498.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4937 [TTPAI-365] Draw each Data Insights item's setting, size and answer format → Changes Requested (run plans name `gmat.di` subjects that don't exist yet; Phase A item 4 field share",
+      "details": null,
+      "cost_usd": 2.2398516,
+      "total_tokens": 18604
     },
     {
       "agent": "passive-income-research-loop",
