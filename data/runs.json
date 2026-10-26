@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-26T13:01:52Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 416.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4937 [TTPAI-365] Draw each Data Insights item's setting, size and answer format → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.6786653999999999,
+      "total_tokens": 11447
     },
     {
       "agent": "pr-follow-up-check",
