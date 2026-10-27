@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-27T15:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-27T15:00:03Z",
       "duration_seconds": 395.7,
       "status": "success",
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 2.1665288,
       "total_tokens": 16648
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-13T18:00:02Z",
-      "duration_seconds": 368.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4529 [6038] Add self-managed billing engine foundation → Approved + Browser QA Skipped (local bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.8756892000000005,
-      "total_tokens": 13260
     }
   ]
 }
