@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-27T19:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 210.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4947 [6038] Fix stalled PayPal hosted checkouts → Approved + Browser QA Skipped (needs an injected PayPal failure; local env missing gems)",
+      "details": null,
+      "cost_usd": 1.5779864000000001,
+      "total_tokens": 10224
     },
     {
       "agent": "pr-reviewer",
