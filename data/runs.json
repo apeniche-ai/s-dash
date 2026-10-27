@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-27T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 381.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4937 [TTPAI-365] Draw each Data Insights item's setting, size and answer format → Approved + Browser QA Skipped (local env: bundle out of date)",
+      "details": null,
+      "cost_usd": 2.0864088,
+      "total_tokens": 11075
     },
     {
       "agent": "admissions-pr-reviewer",
