@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-27T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 80.0,
+      "status": "success",
+      "summary": "silent — I checked METR and Toloka's job boards live tonight. METR still has no remote contractor roles. Toloka's re-posted Latin America consultant role still lists no pay and is full-time in practic",
+      "details": null,
+      "cost_usd": 0.7691256000000001,
+      "total_tokens": 3722
     },
     {
       "agent": "passive-income-research-loop",
