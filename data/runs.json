@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-27T23:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-27T22:30:01Z",
       "duration_seconds": 381.4,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 0.5649788,
       "total_tokens": 608
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-14T10:30:03Z",
-      "duration_seconds": 400.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4878 [TTPAI-345] Add Maren's dashboard insight note from the student's last study session → Approved + Browser QA Skipped (local env missing gems)",
-      "details": null,
-      "cost_usd": 1.6833692,
-      "total_tokens": 10822
     }
   ]
 }
