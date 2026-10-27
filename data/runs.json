@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-27T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 195.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4946 [6038] Screen new buyers before the self-managed checkout creates their account → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.4325732,
+      "total_tokens": 8527
     },
     {
       "agent": "pr-reviewer",
