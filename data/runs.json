@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-27T21:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-27T21:01:59Z",
       "duration_seconds": 255.9,
       "status": "success",
@@ -4901,16 +4909,6 @@
       "details": null,
       "cost_usd": 1.0580521999999999,
       "total_tokens": 5651
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-14T07:00:00Z",
-      "duration_seconds": 231.2,
-      "status": "success",
-      "summary": "Silent: I checked the two board-seat platforms, and neither one works for Amaury right now.",
-      "details": null,
-      "cost_usd": 1.6895834,
-      "total_tokens": 10395
     }
   ]
 }
