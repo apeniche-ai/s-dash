@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-27T22:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 381.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4943 [6038] Removes the Recurly webhook and asks Recurly directly for linked accounts → Changes Requested (inline trial handoff makes Recurly calls with no timeout during a page reque",
+      "details": null,
+      "cost_usd": 1.6252237999999997,
+      "total_tokens": 13713
     },
     {
       "agent": "pr-reviewer",
