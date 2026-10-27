@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-27T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 423.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337/347] Refresh student intelligence profiles and keep weekly profile history → Changes Requested (study plan page marks tasks done in bulk without refreshing the profile",
+      "details": null,
+      "cost_usd": 2.4104131999999994,
+      "total_tokens": 19536
     },
     {
       "agent": "passive-income-discovery-scan",
