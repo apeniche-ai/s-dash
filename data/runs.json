@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-27T12:30:44Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 259.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4915 [TTPAI-354] Store checked figure descriptions for screen readers and every model call → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.8855479999999998,
+      "total_tokens": 10260
     },
     {
       "agent": "daily-todo-digest",
