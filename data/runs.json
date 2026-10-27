@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-27T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 394.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339/356] Generate exercise bank items through the Batch API with drawn exam-share values and a two-step reading judge → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.0739883999999997,
+      "total_tokens": 12916
     },
     {
       "agent": "pr-reviewer",
