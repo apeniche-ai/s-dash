@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-27T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-27T15:30:02Z",
       "duration_seconds": 500.2,
       "status": "success",
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 2.1386396000000003,
       "total_tokens": 16720
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-13T18:30:01Z",
-      "duration_seconds": 317.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4879 [6448] Maren unified dev handoff: launcher, badges, tooltip and panel → Changes Requested (fix commit regenerated db/schema.rb from a local DB, adding 4 tables no migration creat",
-      "details": null,
-      "cost_usd": 2.1665288,
-      "total_tokens": 16648
     }
   ]
 }
