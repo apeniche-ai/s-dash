@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-27T16:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-27T16:00:01Z",
       "duration_seconds": 464.6,
       "status": "success",
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 0.5559994,
       "total_tokens": 241
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-13T19:00:03Z",
-      "duration_seconds": 280.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4915 [TTPAI-354] Store checked figure descriptions for screen readers and every model call → Changes Requested (must-know figures are never described, so the must-know fix never fires",
-      "details": null,
-      "cost_usd": 2.1386396000000003,
-      "total_tokens": 16720
     }
   ]
 }
