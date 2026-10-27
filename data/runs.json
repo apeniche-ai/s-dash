@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-27T16:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 414.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4942 [TTPAI-370] Give students with a long answer history an ability rating built from it → Changes Requested (ticket-required production chunk timing still missing from PR descriptio",
+      "details": null,
+      "cost_usd": 1.9588608000000003,
+      "total_tokens": 12429
     },
     {
       "agent": "pr-reviewer",
