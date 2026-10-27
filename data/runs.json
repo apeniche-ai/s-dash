@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-10-27T08:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-27T07:00:00Z",
       "duration_seconds": 80.0,
@@ -4881,16 +4889,6 @@
       "details": null,
       "cost_usd": 0.2570712,
       "total_tokens": 548
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-13T12:30:02Z",
-      "duration_seconds": 271.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4918 [TTPAI-359] Move every AI feature onto Sonnet 5.5, Haiku 5.5 and Opus 5.5 → Approved + Browser QA Skipped (local env missing gems)",
-      "details": null,
-      "cost_usd": 1.9825988000000003,
-      "total_tokens": 13440
     }
   ]
 }
