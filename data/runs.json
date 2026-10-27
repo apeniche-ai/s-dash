@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-27T03:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-10-27T02:30:00Z",
       "duration_seconds": 13.1,
@@ -4881,16 +4889,6 @@
       "details": null,
       "cost_usd": 1.7843222,
       "total_tokens": 11355
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-13T11:30:02Z",
-      "duration_seconds": 317.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4915 [TTPAI-354] Store checked figure descriptions for screen readers and every model call → Approved + Browser QA Skipped (local env missing gems)",
-      "details": null,
-      "cost_usd": 2.6574114,
-      "total_tokens": 21670
     }
   ]
 }
