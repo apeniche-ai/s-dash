@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-28T19:00:31Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-28T19:00:01Z",
       "duration_seconds": 29.7,
@@ -4891,16 +4899,6 @@
       "details": null,
       "cost_usd": 2.1603404,
       "total_tokens": 15817
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-14T20:33:28Z",
-      "duration_seconds": 415.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4878 [TTPAI-345] Add Maren's dashboard insight note from the student's last study session → Approved + Browser QA Skipped (local gems missing)",
-      "details": null,
-      "cost_usd": 2.0380128000000006,
-      "total_tokens": 11726
     }
   ]
 }
