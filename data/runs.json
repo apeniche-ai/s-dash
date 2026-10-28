@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-28T17:00:02Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-28T16:30:02Z",
       "duration_seconds": 159.3,
       "status": "success",
@@ -4899,16 +4907,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your session limit resets 3pm (America/Bogota)"
       ]
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-10-14T19:00:01Z",
-      "duration_seconds": 23.8,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.5600742,
-      "total_tokens": 364
     }
   ]
 }
