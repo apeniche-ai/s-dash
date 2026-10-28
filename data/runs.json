@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-28T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 71.1,
+      "status": "success",
+      "summary": "silent: nothing new is open. The micro1 Senior Software Engineer role I told him about on Sep 18 (listed at $245–280/hr) is now closed. I logged that but didn't queue it, since it's a closure rather t",
+      "details": null,
+      "cost_usd": 0.7169651999999999,
+      "total_tokens": 3003
     },
     {
       "agent": "passive-income-research-loop",
