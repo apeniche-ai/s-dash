@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-28T11:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-28T11:00:32Z",
       "duration_seconds": 310.1,
       "status": "success",
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.40296,
       "total_tokens": 7658
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-14T13:30:34Z",
-      "duration_seconds": 301.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4918 [TTPAI-359] Move every AI feature onto Sonnet 5.5, Haiku 5.5 and Opus 5.5 → Approved + Browser QA Skipped (local env: bundle missing gems)",
-      "details": null,
-      "cost_usd": 2.1657992,
-      "total_tokens": 13466
     }
   ]
 }
