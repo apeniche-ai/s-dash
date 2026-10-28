@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 355.5,
+      "status": "success",
+      "summary": "Reviewed 0 PRs: #4867 [TTPAI-339/356] Generate exercise bank items through the Batch API → Not submitted (GitHub timed out on the approval call; no review or label changes landed, Telegram notified) +",
+      "details": null,
+      "cost_usd": 1.3306420000000003,
+      "total_tokens": 6702
     },
     {
       "agent": "pr-reviewer",
