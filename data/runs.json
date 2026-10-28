@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 271.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4865 [6414] LiveTeach welcome email and personalized class recaps → Approved + Browser QA Skipped (local gems out of date; email-only change)",
+      "details": null,
+      "cost_usd": 1.7330414000000005,
+      "total_tokens": 10913
     },
     {
       "agent": "passive-income-discovery-scan",
