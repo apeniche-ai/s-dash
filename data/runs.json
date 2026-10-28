@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T20:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 321.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4919 [6420] Add the GRE version of the Score Analyzer form → Approved + Browser QA Skipped (local Rails bundle missing gems) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.6758832000000001,
+      "total_tokens": 9873
     },
     {
       "agent": "pr-reviewer",
