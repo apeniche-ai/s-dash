@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T13:30:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 368.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4943 [6038] Removes the Recurly webhook and asks Recurly directly for linked accounts → Approved + Browser QA Skipped (local app won't start until `bundle install` runs in ~/Desktop/t",
+      "details": null,
+      "cost_usd": 1.6589558,
+      "total_tokens": 9544
     },
     {
       "agent": "slack-watch",
