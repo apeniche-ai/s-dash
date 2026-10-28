@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-28T22:02:16Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-28T22:00:01Z",
       "duration_seconds": 14.4,
       "status": "error",
@@ -4890,16 +4898,6 @@
       "details": null,
       "cost_usd": 1.115545,
       "total_tokens": 5766
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-15T07:00:01Z",
-      "duration_seconds": 86.8,
-      "status": "success",
-      "summary": "silent: today was a planned hold day, there are still no replies from Amaury about Mercor or micro1, and Surge AI has shown no public sign of reopening to Colombia (I've logged this in the ledger; the",
-      "details": null,
-      "cost_usd": 0.7683026000000001,
-      "total_tokens": 3316
     }
   ]
 }
