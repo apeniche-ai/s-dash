@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-28T10:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-28T10:00:02Z",
       "duration_seconds": 271.1,
       "status": "success",
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.5249914000000002,
       "total_tokens": 8797
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-10-14T13:00:00Z",
-      "duration_seconds": 122.7,
-      "status": "success",
-      "summary": "I didn't send a Telegram message today. Seven PRs are still stuck, but no new one has joined the list since the one that went out on Friday, Oct 9. The rule is not to resend a list that hasn't changed",
-      "details": null,
-      "cost_usd": 0.8245576000000001,
-      "total_tokens": 2814
     }
   ]
 }
