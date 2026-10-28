@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T21:03:20Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 190.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4943 [6038] Removes the Recurly webhook and asks Recurly directly for linked accounts → Approved + Browser QA Skipped (needs external Recurly purchase; local env blocked) (⚠️ no Jira ",
+      "details": null,
+      "cost_usd": 1.5422455999999998,
+      "total_tokens": 8491
     },
     {
       "agent": "maren-v0-launch-digest",
