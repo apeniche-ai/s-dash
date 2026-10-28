@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T13:01:07Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 237.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4942 [TTPAI-370] Give students with a long answer history an ability rating built from it → Changes Requested (the timing for one chunk on a production-size GMAT copy is still missing",
+      "details": null,
+      "cost_usd": 1.5091567999999997,
+      "total_tokens": 9226
     },
     {
       "agent": "pr-follow-up-check",
