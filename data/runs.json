@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-28T22:32:16Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-28T22:30:02Z",
       "duration_seconds": 14.6,
       "status": "error",
@@ -4892,16 +4900,6 @@
       "details": null,
       "cost_usd": 1.6426006,
       "total_tokens": 9919
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-15T10:00:01Z",
-      "duration_seconds": 325.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4883 [TTPAI-242][6292] Consolidates exercise bank and tabbed new example → Changes Requested (restoring the users foreign key broke 2 specs this PR added; Services 1 is red) + Browser",
-      "details": null,
-      "cost_usd": 1.678187,
-      "total_tokens": 9864
     }
   ]
 }
