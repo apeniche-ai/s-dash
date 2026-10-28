@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-10-28T08:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-28T07:00:00Z",
       "duration_seconds": 71.1,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.5633641999999999,
       "total_tokens": 8934
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-10-14T12:30:00Z",
-      "duration_seconds": 20.2,
-      "status": "success",
-      "summary": "No digest sent today, so nothing went to Telegram. Three to-dos are open and none changed since the last digest, and none are ones I can do:",
-      "details": null,
-      "cost_usd": 0.2860472,
-      "total_tokens": 993
     }
   ]
 }
