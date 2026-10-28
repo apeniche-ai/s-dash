@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-10-28T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-27T23:30:01Z",
       "duration_seconds": 28.4,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.4985305999999996,
       "total_tokens": 7872
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-14T11:00:26Z",
-      "duration_seconds": 341.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4879 [6448] Maren unified dev handoff: launcher, badges, tooltip and panel → Changes Requested (the PR's own spec maren_launcher_spec.rb:23 still triggers the old event name after the",
-      "details": null,
-      "cost_usd": 1.6428338,
-      "total_tokens": 9800
     }
   ]
 }
