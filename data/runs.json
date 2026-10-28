@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T21:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 445.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4948 [6038] Stabilize billing checkout and scheduled tasks → Changes Requested (if reserving a plan fails after Stripe saves the card, the cart keeps sending the buyer back to the fai",
+      "details": null,
+      "cost_usd": 2.0510742,
+      "total_tokens": 18052
     },
     {
       "agent": "pr-reviewer",
