@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 339.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4945 [6038] Replaces private-method spec probes → Approved + Browser QA Skipped (test-only)",
+      "details": null,
+      "cost_usd": 1.3104668000000004,
+      "total_tokens": 6216
     },
     {
       "agent": "pr-reviewer",
