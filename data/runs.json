@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-10-28T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T20:30:28Z",
       "duration_seconds": 158.5,
@@ -4889,16 +4897,6 @@
       "details": null,
       "cost_usd": 0.2409792,
       "total_tokens": 206
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-10-14T23:00:01Z",
-      "duration_seconds": 23.0,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.556795,
-      "total_tokens": 182
     }
   ]
 }
