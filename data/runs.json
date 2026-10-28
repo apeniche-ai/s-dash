@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-28T12:30:29Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-10-28T12:30:00Z",
       "duration_seconds": 27.0,
@@ -4901,16 +4909,6 @@
       "details": null,
       "cost_usd": 0.4309234,
       "total_tokens": 345
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-14T14:30:02Z",
-      "duration_seconds": 367.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4631 [TTPAI-22/140/147/157/218] Agentic Chatbot: Persistent Sessions & Study Tools → Approved + Browser QA Skipped (test-only change since last review)",
-      "details": null,
-      "cost_usd": 1.4089350000000003,
-      "total_tokens": 8056
     }
   ]
 }
