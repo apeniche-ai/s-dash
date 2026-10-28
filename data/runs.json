@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T15:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 181.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4954 [TTPAI-380] Reject TA statements keyed in both columns → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.2846984000000004,
+      "total_tokens": 7136
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
