@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T12:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 261.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4940 [6525] Add Chat History and Bookmark Library to Maren → Approved + Browser QA Skipped (Rails can't boot locally: missing gems, needs bundle install)",
+      "details": null,
+      "cost_usd": 1.7289282000000004,
+      "total_tokens": 10578
     },
     {
       "agent": "pr-reviewer",
