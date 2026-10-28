@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-28T15:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-28T15:00:02Z",
       "duration_seconds": 181.0,
       "status": "success",
@@ -4901,16 +4909,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your session limit resets 3pm (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-14T18:00:03Z",
-      "duration_seconds": 225.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4910 [6483] Checkout payment tabs for card, PayPal and local methods via Stripe, without Google Pay → Approved + Browser QA Skipped (local bundle still broken)",
-      "details": null,
-      "cost_usd": 1.7379727999999999,
-      "total_tokens": 10436
     }
   ]
 }
