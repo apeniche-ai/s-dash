@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-28T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T22:32:16Z",
       "duration_seconds": 13.3,
@@ -4893,16 +4901,6 @@
       "details": null,
       "cost_usd": 0.5607022,
       "total_tokens": 311
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-15T10:30:02Z",
-      "duration_seconds": 239.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4879 [6448] Maren unified dev handoff: launcher, badges, tooltip and panel → Approved + Browser QA Skipped (local env missing gems)",
-      "details": null,
-      "cost_usd": 1.6426006,
-      "total_tokens": 9919
     }
   ]
 }
