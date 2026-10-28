@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 334.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4939 [TTPAI-362] Draw GRE verbal settings per item from setting files and stops harder Text Completion adding a blank → Approved + Browser QA Skipped (Rails can't boot locally: missin",
+      "details": null,
+      "cost_usd": 1.5432466000000002,
+      "total_tokens": 7762
     },
     {
       "agent": "pr-reviewer",
