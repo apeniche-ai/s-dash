@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-28T19:30:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-28T19:08:17Z",
       "duration_seconds": 15.3,
       "status": "error",
@@ -4893,16 +4901,6 @@
       "details": null,
       "cost_usd": 1.6960114,
       "total_tokens": 10236
-    },
-    {
-      "agent": "maren-v0-launch-digest",
-      "timestamp": "2026-10-14T21:06:11Z",
-      "duration_seconds": 149.7,
-      "status": "success",
-      "summary": "I sent today's Maren digest to the assistant channel and saved the log.",
-      "details": null,
-      "cost_usd": 0.8818682,
-      "total_tokens": 6235
     }
   ]
 }
