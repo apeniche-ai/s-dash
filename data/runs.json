@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T16:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 159.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4942 [TTPAI-370] Give students with a long answer history an ability rating built from it → Changes Requested (PR description still missing the per-chunk backfill timing the ticket as",
+      "details": null,
+      "cost_usd": 1.1560260000000002,
+      "total_tokens": 6019
     },
     {
       "agent": "pr-reviewer",
