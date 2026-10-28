@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-28T19:32:18Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-28T19:30:03Z",
       "duration_seconds": 15.5,
       "status": "error",
@@ -4894,16 +4902,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your session limit resets 8:30pm (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-14T21:30:02Z",
-      "duration_seconds": 215.2,
-      "status": "success",
-      "summary": "Still waiting on CI for #4879's latest commits. I'll submit the review once the run finishes.",
-      "details": null,
-      "cost_usd": 1.6960114,
-      "total_tokens": 10236
     }
   ]
 }
