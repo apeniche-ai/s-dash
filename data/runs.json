@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-28T05:00:25Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-10-28T02:30:00Z",
       "duration_seconds": 23.7,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.7364918,
       "total_tokens": 8544
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-14T11:30:02Z",
-      "duration_seconds": 277.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4901 [TTPAI-352] Adds one cost row for every paid AI call including failures and retries → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.4985305999999996,
-      "total_tokens": 7872
     }
   ]
 }
