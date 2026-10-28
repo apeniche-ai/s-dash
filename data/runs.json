@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-10-28T20:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-28T20:00:02Z",
       "duration_seconds": 321.9,
@@ -4887,17 +4895,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-10-14T22:30:04Z",
       "duration_seconds": 18.8,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your session limit resets 8:30pm (America/Bogota)"
-      ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-14T22:08:02Z",
-      "duration_seconds": 16.5,
       "status": "error",
       "summary": "",
       "details": null,
