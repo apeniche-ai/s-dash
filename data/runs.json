@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T17:30:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 754.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4941 [TTPAI-366] Plan every type from one run planner → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.5387069999999996,
+      "total_tokens": 8832
     },
     {
       "agent": "slack-watch",
