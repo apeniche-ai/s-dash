@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T13:01:17Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 234.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337/347] Refresh student intelligence profiles and keep weekly profile history → Approved + Browser QA Skipped (CI lint guard only, no user-facing change)",
+      "details": null,
+      "cost_usd": 1.5078348,
+      "total_tokens": 9343
     },
     {
       "agent": "pr-follow-up-check",
