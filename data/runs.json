@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 225.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4942 [TTPAI-370] Give students with a long answer history an ability rating built from it → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.4649919999999998,
+      "total_tokens": 8106
     },
     {
       "agent": "admissions-pr-reviewer",
