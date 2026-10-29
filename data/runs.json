@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T19:00:25Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 327.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4957 [TTPAI-376] Maps user difficulty before building reference-example filter → Approved + Browser QA Skipped (hidden prompt change, nothing visible in the browser)",
+      "details": null,
+      "cost_usd": 1.3022863999999998,
+      "total_tokens": 6059
     },
     {
       "agent": "passive-income-research-loop",
