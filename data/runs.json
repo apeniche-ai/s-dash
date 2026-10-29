@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T12:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 490.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4878 [TTPAI-345] Add Maren's dashboard insight note from the student's last study session → Approved + Browser QA Skipped (AI note needs a live model call; local Rails env broken)",
+      "details": null,
+      "cost_usd": 2.4625129999999995,
+      "total_tokens": 17495
     },
     {
       "agent": "pr-reviewer",
