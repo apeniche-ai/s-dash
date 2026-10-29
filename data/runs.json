@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 182.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4939 [TTPAI-362] Draw GRE verbal settings per item from setting files and stops harder Text Completion adding a blank → Approved + Browser QA Skipped (prompt-only change)",
+      "details": null,
+      "cost_usd": 1.2938408,
+      "total_tokens": 6862
     },
     {
       "agent": "pr-reviewer",
