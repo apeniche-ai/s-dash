@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-10-29T08:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 162.5,
+      "status": "success",
+      "summary": "I scanned 11 sources and none failed: Hacker News, Lobsters, Product Hunt, the three AI vendor changelogs, Ruby Weekly, Postgres Weekly and the main Postgres user mailing list. I wrote no findings; al",
+      "details": null,
+      "cost_usd": 1.3206266,
+      "total_tokens": 9144
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
