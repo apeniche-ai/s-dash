@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-29T13:01:17Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-10-29T13:00:00Z",
       "duration_seconds": 75.3,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.311117,
       "total_tokens": 6532
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-15T15:30:03Z",
-      "duration_seconds": 242.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4879 [6448] Maren unified dev handoff: launcher, badges, tooltip and panel → Changes Requested (one Maren reply is counted as 2 when a second tab picks up the same unfinished answer) ",
-      "details": null,
-      "cost_usd": 1.7762508000000004,
-      "total_tokens": 11818
     }
   ]
 }
