@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-29T16:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-29T16:00:01Z",
       "duration_seconds": 247.5,
       "status": "success",
@@ -4899,16 +4907,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-15T19:00:36Z",
-      "duration_seconds": 299.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4923 [6537] Fix Maren server error on lessons from a section the student has not enabled → Approved + Browser QA Skipped (local Rails bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.3155400000000004,
-      "total_tokens": 7801
     }
   ]
 }
