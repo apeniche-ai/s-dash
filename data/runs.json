@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 415.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337/347] Refresh student intelligence profiles and keep weekly profile history → Changes Requested (write-path guard can't fail CI: the reviewdog Rubocop job never fails o",
+      "details": null,
+      "cost_usd": 2.1568792,
+      "total_tokens": 19598
     },
     {
       "agent": "pr-reviewer",
