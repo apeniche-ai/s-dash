@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-29T22:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-29T22:00:02Z",
       "duration_seconds": 184.8,
       "status": "success",
@@ -4912,16 +4920,6 @@
       "details": null,
       "cost_usd": 0.5657206,
       "total_tokens": 468
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-16T10:30:03Z",
-      "duration_seconds": 341.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4906 [6363][6369] Maren launch announcement modal + Remove AI Coach superseded modal → Changes Requested (mobile Back and Study with Maren buttons still different sizes at most phone ",
-      "details": null,
-      "cost_usd": 1.6336338,
-      "total_tokens": 13193
     }
   ]
 }
