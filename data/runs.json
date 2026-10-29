@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 273.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4950 [TTPAI-379] Fix DI math ratio-label skip → Changes Requested (correct percents rounded to one decimal, like 41.7%, now fail the math check) + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.6666611999999998,
+      "total_tokens": 15117
     },
     {
       "agent": "pr-reviewer",
