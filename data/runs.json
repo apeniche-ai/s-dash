@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-29T03:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-10-29T02:30:00Z",
       "duration_seconds": 12.3,
@@ -4893,16 +4901,6 @@
       "details": null,
       "cost_usd": 1.1813954000000002,
       "total_tokens": 5718
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-15T11:30:03Z",
-      "duration_seconds": 379.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4919 [6420] Add the GRE version of the Score Analyzer form → Changes Requested (PR's own new helper spec fails in CI; upload check needs a content-type allowlist) + Browser QA Skipped",
-      "details": null,
-      "cost_usd": 2.0337894,
-      "total_tokens": 13077
     }
   ]
 }
