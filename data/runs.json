@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-29T11:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T10:02:16Z",
       "duration_seconds": 15.0,
@@ -4895,16 +4903,6 @@
       "details": null,
       "cost_usd": 0.2410644,
       "total_tokens": 206
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-15T13:01:17Z",
-      "duration_seconds": 459.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4913 [TTPAI-356] Exercise bank shares and rc judge → Changes Requested (ticket still asks for live reading generation and needs Maria to amend it; the new reading re-judge deploy step",
-      "details": null,
-      "cost_usd": 2.4943172000000002,
-      "total_tokens": 18297
     }
   ]
 }
