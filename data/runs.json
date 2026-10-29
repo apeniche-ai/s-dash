@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-29T18:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-29T18:00:01Z",
       "duration_seconds": 372.4,
       "status": "success",
@@ -4905,16 +4913,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "maren-v0-launch-digest",
-      "timestamp": "2026-10-15T21:00:01Z",
-      "duration_seconds": 168.8,
-      "status": "success",
-      "summary": "I sent today's Maren digest to the assistant channel and saved the log.",
-      "details": null,
-      "cost_usd": 0.9414097999999999,
-      "total_tokens": 7179
     }
   ]
 }
