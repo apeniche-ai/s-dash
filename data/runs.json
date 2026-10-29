@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T15:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 287.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4948 [6038] Stabilize billing checkout and scheduled tasks → Approved + Browser QA Skipped (local Rails bundle missing gems)",
+      "details": null,
+      "cost_usd": 2.1852807999999997,
+      "total_tokens": 13842
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
