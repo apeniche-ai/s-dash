@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T21:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 251.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4959 [6038] Restores Recurly's production billing emails in BillingCore → Approved + Browser QA Skipped (local Rails bundle not installed) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.7855816,
+      "total_tokens": 12273
     },
     {
       "agent": "maren-v0-launch-digest",
