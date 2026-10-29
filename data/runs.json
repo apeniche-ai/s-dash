@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-29T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-29T15:30:02Z",
       "duration_seconds": 246.0,
       "status": "success",
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.3155400000000004,
       "total_tokens": 7801
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-10-15T19:00:00Z",
-      "duration_seconds": 34.7,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.6471194,
-      "total_tokens": 781
     }
   ]
 }
