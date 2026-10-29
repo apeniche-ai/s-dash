@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-29T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 91.5,
+      "status": "success",
+      "summary": "silent: micro1's three live senior engineering roles all pay $30–100/hr or are paid per task, none verifiably at $150+/hr, so nothing new passed and the ledger is updated.",
+      "details": null,
+      "cost_usd": 0.8142204000000003,
+      "total_tokens": 3893
     },
     {
       "agent": "passive-income-research-loop",
