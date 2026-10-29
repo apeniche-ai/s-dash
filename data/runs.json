@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T22:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 383.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4966 [TTPAI-391] Keep deck while flashcard generation is pending → Changes Requested (deck still deleted on reload once the 60s generation lock expires while the job is queued or gene",
+      "details": null,
+      "cost_usd": 1.6562306000000004,
+      "total_tokens": 12838
     },
     {
       "agent": "pr-reviewer",
