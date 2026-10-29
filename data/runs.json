@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-10-29T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-10-28T23:30:01Z",
       "duration_seconds": 24.7,
@@ -4893,16 +4901,6 @@
       "details": null,
       "cost_usd": 2.0337894,
       "total_tokens": 13077
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-15T11:00:23Z",
-      "duration_seconds": 274.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4915 [TTPAI-354] Store checked figure descriptions for screen readers and every model call → Approved + Browser QA Skipped (local env missing gems)",
-      "details": null,
-      "cost_usd": 1.4043394,
-      "total_tokens": 5698
     }
   ]
 }
