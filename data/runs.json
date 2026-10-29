@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T19:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 467.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4959 [6038] Restores Recurly's production billing emails in BillingCore → Changes Requested (inactive campaign blocks emails, trial emails promise a charge that never happens, India-o",
+      "details": null,
+      "cost_usd": 2.4954558000000002,
+      "total_tokens": 19244
     },
     {
       "agent": "pr-reviewer",
