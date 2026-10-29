@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 220.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4952 [TTPAI-381] Fix exercise check ignores a wrong ordering and passes the answer on a text match → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.4777536,
+      "total_tokens": 9074
     },
     {
       "agent": "pr-reviewer",
