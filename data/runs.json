@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-29T15:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-delivery-(morning)",
       "timestamp": "2026-10-29T14:33:46Z",
       "duration_seconds": 28.1,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.2676702000000002,
       "total_tokens": 7661
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-15T18:00:02Z",
-      "duration_seconds": 252.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4920 [6421] Add the EA version of the Score Analyzer form → Approved + Browser QA Skipped (local Rails bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.7430487999999995,
-      "total_tokens": 12748
     }
   ]
 }
