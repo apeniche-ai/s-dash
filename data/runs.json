@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T18:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 372.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4951 [TTPAI-369] Maren support-only mode uses one continuous thread → Changes Requested (summary and flashcard background jobs still save gated students' rows into a study session ins",
+      "details": null,
+      "cost_usd": 2.0242656,
+      "total_tokens": 14484
     },
     {
       "agent": "pr-reviewer",
