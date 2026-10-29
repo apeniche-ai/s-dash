@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-10-29T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T12:00:02Z",
       "duration_seconds": 490.4,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.3769799999999996,
       "total_tokens": 7263
-    },
-    {
-      "agent": "opportunity-scout-delivery-(morning)",
-      "timestamp": "2026-10-15T14:30:01Z",
-      "duration_seconds": 22.2,
-      "status": "success",
-      "summary": "nothing-queued",
-      "details": null,
-      "cost_usd": 0.35888,
-      "total_tokens": 357
     }
   ]
 }
