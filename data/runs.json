@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-10-29T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-29T23:00:01Z",
       "duration_seconds": 22.2,
@@ -4912,16 +4920,6 @@
       "details": null,
       "cost_usd": 1.5570582000000002,
       "total_tokens": 14346
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-16T11:00:30Z",
-      "duration_seconds": 188.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4905 [TTPAI-353] Add worked example link POC candidate rules, ranking and review sheet → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.1722198,
-      "total_tokens": 6352
     }
   ]
 }
