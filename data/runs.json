@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T13:30:37Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 251.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4921 [TTPAI-357] Add a student upload reader that runs once per upload → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.6319804,
+      "total_tokens": 8245
     },
     {
       "agent": "slack-watch",
