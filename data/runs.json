@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-10-29T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-29T12:30:45Z",
       "duration_seconds": 241.2,
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.7762508000000004,
       "total_tokens": 11818
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-15T15:00:02Z",
-      "duration_seconds": 331.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4921 [TTPAI-357] Add a student upload reader that runs once per upload → Changes Requested (upload-read job crashes every time with an ArgumentError, because keyword args don't surviv",
-      "details": null,
-      "cost_usd": 2.3824915999999994,
-      "total_tokens": 20409
     }
   ]
 }
