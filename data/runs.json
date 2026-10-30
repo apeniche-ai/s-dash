@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T13:01:15Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 334.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4838 [6423/6432/6504/6508] Fixes Outside AI: Subscription Expiry Hang, Bookmarks, Mobile Dashboard Tabs and Test Tooltips → Approved + Browser QA Skipped (local Rails bundle missing g",
+      "details": null,
+      "cost_usd": 1.7047454000000002,
+      "total_tokens": 11098
     },
     {
       "agent": "pr-follow-up-check",
