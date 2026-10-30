@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-30T11:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T10:30:01Z",
       "duration_seconds": 179.5,
@@ -4912,16 +4920,6 @@
       "details": null,
       "cost_usd": 0.2424116,
       "total_tokens": 306
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-16T13:01:19Z",
-      "duration_seconds": 460.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4920 [6421] Add the EA version of the Score Analyzer form → Approved + Browser QA Skipped (local Rails gems missing — needs bundle install)",
-      "details": null,
-      "cost_usd": 2.845935999999999,
-      "total_tokens": 23432
     }
   ]
 }
