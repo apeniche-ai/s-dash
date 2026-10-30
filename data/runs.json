@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-10-30T07:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-30T03:00:00Z",
       "duration_seconds": 21.5,
@@ -4912,16 +4920,6 @@
       "details": null,
       "cost_usd": 0.3123344,
       "total_tokens": 1526
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-16T12:00:03Z",
-      "duration_seconds": 387.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4919 [6420] Add the GRE version of the Score Analyzer form → Approved + Browser QA Skipped (local Rails gems missing — needs bundle install)",
-      "details": null,
-      "cost_usd": 2.491573600000001,
-      "total_tokens": 17069
     }
   ]
 }
