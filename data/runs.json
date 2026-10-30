@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T14:30:22Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 347.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4950 [TTPAI-379] Fix DI math ratio-label skip → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.9167998,
+      "total_tokens": 11896
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
