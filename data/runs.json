@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-30T11:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-30T11:00:24Z",
       "duration_seconds": 270.7,
       "status": "success",
@@ -4912,16 +4920,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your weekly limit resets Oct 20 at 4am (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-16T13:30:28Z",
-      "duration_seconds": 397.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4921 [TTPAI-357] Add a student upload reader that runs once per upload → Approved + Browser QA Skipped (no on-screen change; local Rails gems missing)",
-      "details": null,
-      "cost_usd": 1.6645786000000005,
-      "total_tokens": 13222
     }
   ]
 }
