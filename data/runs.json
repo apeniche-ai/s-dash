@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 205.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4960 [TTPAI-383/384/375] Vector KB Sync Keeps Lesson Edits and Retries Failures, Routing Health Email Reports Retrieval Failures → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.8171898000000002,
+      "total_tokens": 10061
     },
     {
       "agent": "pr-reviewer",
