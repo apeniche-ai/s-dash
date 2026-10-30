@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T11:00:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 270.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4931 [TTPAI-368/TTP-6476] Fix chapter test result cards and the Study Plan calendar opening on next week → Approved + Browser QA Skipped (local Rails bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.2942810000000002,
+      "total_tokens": 6582
     },
     {
       "agent": "passive-income-research-loop",
