@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T17:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 292.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4971 [TTPAI-388] Fix summary and flashcard results settling another lesson's request (moved onto #4631) → Approved + Browser QA Skipped (env: missing gems) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.4868480000000004,
+      "total_tokens": 7529
     },
     {
       "agent": "pr-reviewer",
