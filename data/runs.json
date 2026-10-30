@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-10-30T23:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-30T23:00:00Z",
       "duration_seconds": 18.3,
@@ -4930,16 +4938,6 @@
       "details": null,
       "cost_usd": 0.39901980000000004,
       "total_tokens": 2553
-    },
-    {
-      "agent": "opportunity-scout-delivery-(morning)",
-      "timestamp": "2026-10-17T14:30:01Z",
-      "duration_seconds": 29.6,
-      "status": "success",
-      "summary": "nothing-queued",
-      "details": null,
-      "cost_usd": 0.35781019999999997,
-      "total_tokens": 316
     }
   ]
 }
