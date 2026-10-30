@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-10-30T22:00:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-10-30T21:30:02Z",
       "duration_seconds": 262.1,
       "status": "success",
@@ -4934,16 +4942,6 @@
       "details": null,
       "cost_usd": 1.2334550000000002,
       "total_tokens": 5722
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-17T07:00:00Z",
-      "duration_seconds": 155.3,
-      "status": "success",
-      "summary": "silent: I checked the live job boards of 11 AI-safety research groups similar to METR, and every role is full-time, mostly on-site in the US, UK or Israel, so none fit his 5–10 evening hours.",
-      "details": null,
-      "cost_usd": 1.0492266000000001,
-      "total_tokens": 5355
     }
   ]
 }
