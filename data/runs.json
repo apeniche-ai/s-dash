@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T21:02:06Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 169.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4920 [6421] Add the EA version of the Score Analyzer form → Approved + Browser QA Skipped (local Rails env missing gems)",
+      "details": null,
+      "cost_usd": 1.3762206000000003,
+      "total_tokens": 9010
     },
     {
       "agent": "maren-v0-launch-digest",
