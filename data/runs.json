@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 362.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4878 [TTPAI-345] Add Maren's dashboard insight note from the student's last study session → Changes Requested (when a rule is only a formula and has no lead-in phrase, the check still",
+      "details": null,
+      "cost_usd": 1.8411662,
+      "total_tokens": 13993
     },
     {
       "agent": "pr-reviewer",
