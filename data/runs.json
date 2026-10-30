@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T21:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 262.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4970 [TTPAI-391] Keep the flashcard deck while generation is pending (moved onto #4631) → Approved + Browser QA Skipped (local Rails env missing gems) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.2425894000000004,
+      "total_tokens": 5575
     },
     {
       "agent": "pr-reviewer",
