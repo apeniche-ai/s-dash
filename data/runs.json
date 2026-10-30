@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-10-30T21:02:06Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-10-30T21:00:01Z",
       "duration_seconds": 124.1,
@@ -4934,16 +4942,6 @@
       "details": null,
       "cost_usd": 0.5593776,
       "total_tokens": 157
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-10-17T02:30:00Z",
-      "duration_seconds": 18.2,
-      "status": "success",
-      "summary": "No goal tasks changed tonight. Each one was already marked done or had no matching job or suggestion, so I didn't send anything on Telegram.",
-      "details": null,
-      "cost_usd": 0.36883579999999994,
-      "total_tokens": 244
     }
   ]
 }
