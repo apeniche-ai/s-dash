@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T16:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 191.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4968 [TTPAI-390] Fix MathML grouping of saved replies in ask about context → Approved + Browser QA Skipped (env: missing gems)",
+      "details": null,
+      "cost_usd": 1.37258,
+      "total_tokens": 9316
     },
     {
       "agent": "pr-reviewer",
