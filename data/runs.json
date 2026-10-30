@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 240.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4930 [TTPAI-367/376/387] Relabelled questions keep their level history, easier and harder AI examples use the right references, and Score Analyzer ignores a browser-supplied quiz id →",
+      "details": null,
+      "cost_usd": 1.9025264,
+      "total_tokens": 11553
     },
     {
       "agent": "pr-reviewer",
