@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-10-30T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T12:30:30Z",
       "duration_seconds": 340.9,
@@ -4912,16 +4920,6 @@
       "details": null,
       "cost_usd": 1.3214838,
       "total_tokens": 8410
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-16T14:30:26Z",
-      "duration_seconds": 194.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4922 [6508] Update the test bar bookmark tooltips → Approved + Browser QA Skipped (local Rails bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.1408378000000001,
-      "total_tokens": 6699
     }
   ]
 }
