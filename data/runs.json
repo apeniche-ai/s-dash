@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T20:30:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 212.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4902 [6510] Fixes New Example failing on factorial and permutation lessons → Approved + Browser QA Skipped (local Rails env missing gems)",
+      "details": null,
+      "cost_usd": 1.6936002000000001,
+      "total_tokens": 11177
     },
     {
       "agent": "slack-watch",
