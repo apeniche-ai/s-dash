@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-10-30T08:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 149.4,
+      "status": "success",
+      "summary": "I scanned 9 sources and none failed. That covered Hacker News, Lobsters, Product Hunt, the three AI vendor changelogs and Ruby Weekly #824, and I also read the 2026 Rails Community Survey once. All 7 ",
+      "details": null,
+      "cost_usd": 1.3504053999999996,
+      "total_tokens": 9163
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
