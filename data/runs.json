@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-10-30T19:00:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 336.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4970 [TTPAI-391] Keep the flashcard deck while generation is pending (moved onto #4631) → Changes Requested (an old job still saves its cards into the newer request's deck when the 60",
+      "details": null,
+      "cost_usd": 1.5609338000000004,
+      "total_tokens": 12705
     },
     {
       "agent": "passive-income-research-loop",
