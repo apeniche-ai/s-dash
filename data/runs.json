@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-10-31T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 59.8,
+      "status": "success",
+      "summary": "silent: I checked nothing new tonight because no planned re-check is due until Nov 10–20 and nothing new came up that was worth checking. There's still no word from Amaury on Mercor, micro1, Techstars",
+      "details": null,
+      "cost_usd": 0.7338532,
+      "total_tokens": 2740
     },
     {
       "agent": "passive-income-research-loop",
