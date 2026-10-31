@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-delivery-(morning)",
+      "timestamp": "2026-10-31T14:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Delivery (morning)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-31T11:00:00Z",
       "duration_seconds": 24.6,
@@ -4930,16 +4938,6 @@
       "details": null,
       "cost_usd": 0.6460194,
       "total_tokens": 2592
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-10-18T03:00:01Z",
-      "duration_seconds": 39.3,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.5627478,
-      "total_tokens": 368
     }
   ]
 }
