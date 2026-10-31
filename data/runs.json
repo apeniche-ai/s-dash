@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-10-31T19:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "system-health-audit",
       "timestamp": "2026-10-31T15:00:00Z",
       "duration_seconds": 39.2,
@@ -4930,16 +4938,6 @@
       "details": null,
       "cost_usd": 1.001921,
       "total_tokens": 5360
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-18T07:00:01Z",
-      "duration_seconds": 77.5,
-      "status": "success",
-      "summary": "silent: I checked Mercor's live job board again tonight and found nothing new: 298 listings, no new engineering role at $150+/hr, and neither of his two applications has filled any slots yet. The reco",
-      "details": null,
-      "cost_usd": 0.7296288,
-      "total_tokens": 3007
     }
   ]
 }
