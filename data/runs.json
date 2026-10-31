@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-10-31T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-31T19:00:01Z",
       "duration_seconds": 23.5,
@@ -4930,16 +4938,6 @@
       "details": null,
       "cost_usd": 0.5653366000000001,
       "total_tokens": 429
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-10-18T08:00:01Z",
-      "duration_seconds": 99.1,
-      "status": "success",
-      "summary": "I scanned 9 sources (Hacker News, Lobsters, Product Hunt, all three AI vendor changelogs, and the MCP servers list) and wrote no findings today. All 8 ideas failed the filter: the OpenCode leaked-keys",
-      "details": null,
-      "cost_usd": 1.001921,
-      "total_tokens": 5360
     }
   ]
 }
