@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-10-31T07:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-10-31T03:00:00Z",
       "duration_seconds": 22.2,
@@ -4930,16 +4938,6 @@
       "details": null,
       "cost_usd": 0.5686850000000001,
       "total_tokens": 565
-    },
-    {
-      "agent": "maren-v0-launch-digest",
-      "timestamp": "2026-10-17T21:00:01Z",
-      "duration_seconds": 183.1,
-      "status": "success",
-      "summary": "I sent today's Maren V0 digest to the assistant channel and saved today's log. I sent it even though it's Saturday, because it's the first successful check since Sep 19. The runs in between failed on ",
-      "details": null,
-      "cost_usd": 0.8464427999999999,
-      "total_tokens": 8010
     }
   ]
 }
