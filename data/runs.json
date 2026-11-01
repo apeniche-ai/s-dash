@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "career-market-weekly-digest",
+      "timestamp": "2026-11-01T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Career Market Weekly Digest...",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-11-01T21:00:00Z",
       "duration_seconds": 68.9,
@@ -4930,16 +4938,6 @@
       "details": null,
       "cost_usd": 1.1660094,
       "total_tokens": 6156
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-19T07:00:01Z",
-      "duration_seconds": 269.0,
-      "status": "success",
-      "summary": "queued — Techstars' real mentor sign-up (mentor.techstars.com) is open now, unlike the old \"closed\" page past runs checked: Colombia is selectable, remote is fine, and the terms don't block founder or",
-      "details": null,
-      "cost_usd": 1.6200318000000005,
-      "total_tokens": 11527
     }
   ]
 }
