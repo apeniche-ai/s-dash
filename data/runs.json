@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-11-01T19:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-delivery-(morning)",
       "timestamp": "2026-11-01T14:30:00Z",
       "duration_seconds": 19.9,
@@ -4930,16 +4938,6 @@
       "details": null,
       "cost_usd": 0.5507044000000001,
       "total_tokens": 110
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-10-19T02:30:01Z",
-      "duration_seconds": 19.9,
-      "status": "success",
-      "summary": "No goal tasks changed tonight, so I didn't send a Telegram message. Every task was either already marked done or had no matching job or suggestion to update it.",
-      "details": null,
-      "cost_usd": 0.37013240000000003,
-      "total_tokens": 242
     }
   ]
 }
