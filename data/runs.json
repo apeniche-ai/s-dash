@@ -181,10 +181,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-11-01T23:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 116.6,
+      "status": "success",
+      "summary": "I sent Amaury this week's career digest on Telegram. No daily research ran again this week, so I did it myself before writing the digest.",
+      "details": null,
+      "cost_usd": 1.2945678,
+      "total_tokens": 7684
     },
     {
       "agent": "maren-v0-launch-digest",
