@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-11-01T23:01:57Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-11-01T23:00:01Z",
       "duration_seconds": null,
@@ -4928,16 +4936,6 @@
       "details": null,
       "cost_usd": 1.5132854000000002,
       "total_tokens": 11314
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-10-19T08:00:02Z",
-      "duration_seconds": 130.0,
-      "status": "success",
-      "summary": "I checked 8 sources (Hacker News, Lobsters, Product Hunt and the Anthropic, OpenAI and Google changelogs) and wrote no findings. All 7 ideas failed the filter, mostly because free tools already cover ",
-      "details": null,
-      "cost_usd": 1.1660094,
-      "total_tokens": 6156
     }
   ]
 }
