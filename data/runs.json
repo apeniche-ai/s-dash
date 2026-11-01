@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-01T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 66.3,
+      "status": "success",
+      "summary": "silent: I checked all 43 live Fractional Jobs listings tonight and none pays a disclosed $150+/hr, fits his hours and is open to someone in Colombia (the two best-sized CTO roles only take applicants ",
+      "details": null,
+      "cost_usd": 0.9781324,
+      "total_tokens": 4124
     },
     {
       "agent": "side-income-analysis-(overnight)",
