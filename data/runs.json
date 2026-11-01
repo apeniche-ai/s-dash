@@ -173,10 +173,12 @@
     {
       "agent": "side-income-analysis-(overnight)",
       "timestamp": "2026-11-01T06:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Side-Income Analysis (overnight)...",
-      "details": null
+      "duration_seconds": 68.7,
+      "status": "success",
+      "summary": "silent: still nothing has changed (13 weeks, $0, and October also closed at $0), and Amaury hasn't answered the Oct 11 keep-or-stop message, so sending again would ask the same thing twice. The dollar",
+      "details": null,
+      "cost_usd": 0.712103,
+      "total_tokens": 1840
     },
     {
       "agent": "passive-income-research-loop",
