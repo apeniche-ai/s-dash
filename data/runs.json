@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-02T15:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 229.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4972 [TTPAI-386] Publish figure descriptions only for the source version the job read → Approved + Browser QA Skipped (backend job race fix, nothing to click through)",
+      "details": null,
+      "cost_usd": 1.4337946000000004,
+      "total_tokens": 12463
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
