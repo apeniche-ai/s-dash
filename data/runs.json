@@ -173,10 +173,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-11-02T21:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 126.1,
+      "status": "success",
+      "summary": "I sent today's Maren V0 update to the assistant channel and saved the log.",
+      "details": null,
+      "cost_usd": 0.7855700000000001,
+      "total_tokens": 5373
     },
     {
       "agent": "pr-reviewer",
