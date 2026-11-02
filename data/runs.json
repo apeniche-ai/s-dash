@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-02T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 203.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4968 [TTPAI-390] Fix MathML grouping of saved replies in ask about context → Approved + Browser QA Skipped (missing local gems)",
+      "details": null,
+      "cost_usd": 1.2614272,
+      "total_tokens": 7627
     },
     {
       "agent": "slack-watch",
