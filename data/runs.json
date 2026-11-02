@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-02T20:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-02T19:30:01Z",
       "duration_seconds": 375.6,
       "status": "success",
@@ -4924,16 +4932,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your weekly limit resets 4am (America/Bogota)"
       ]
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-10-19T17:30:01Z",
-      "duration_seconds": 31.6,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.257783,
-      "total_tokens": 310
     }
   ]
 }
