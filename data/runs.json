@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-02T15:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 258.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4973 [TTPAI-393] Fix lesson passages lost to the page budget and resending summarized turns → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.7328750000000004,
+      "total_tokens": 12644
     },
     {
       "agent": "pr-reviewer",
