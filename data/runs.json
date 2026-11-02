@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-02T19:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 375.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4832 [TTPAI-313/326/340/325] AI Fixes: Cost Reporting, Chat Content Guard, Figures in Chat, Elo and Maren Errors → Approved + Browser QA Skipped (local env needs bundle install) (⚠️ n",
+      "details": null,
+      "cost_usd": 1.6649022,
+      "total_tokens": 12118
     },
     {
       "agent": "pr-reviewer",
