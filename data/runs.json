@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-02T13:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 233.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4951 [TTPAI-369] Maren support-only mode uses one continuous thread → Approved + Browser QA Skipped (missing local gems)",
+      "details": null,
+      "cost_usd": 1.6818017999999997,
+      "total_tokens": 10333
     },
     {
       "agent": "pr-follow-up-check",
