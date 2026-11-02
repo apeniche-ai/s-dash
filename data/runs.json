@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-02T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 177.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4974 [6563] Fix weakest topics review test filter → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.1295755999999997,
+      "total_tokens": 6729
     },
     {
       "agent": "pr-reviewer",
