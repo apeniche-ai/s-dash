@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-team-shipping-report",
+      "timestamp": "2026-11-02T12:56:33Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Team Shipping Report...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-11-02T12:56:03Z",
       "duration_seconds": null,
@@ -4930,16 +4938,6 @@
       "details": null,
       "cost_usd": 0.3094566,
       "total_tokens": 1326
-    },
-    {
-      "agent": "weekly-vp-performance-edge",
-      "timestamp": "2026-10-19T12:07:10Z",
-      "duration_seconds": 158.5,
-      "status": "success",
-      "summary": "I sent Amaury this week's tip and logged it so a future run won't repeat it. The last two weeks were skipped, so this is the first tip since Sep 28.",
-      "details": null,
-      "cost_usd": 1.1638525999999998,
-      "total_tokens": 6720
     }
   ]
 }
