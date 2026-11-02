@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-02T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-02T15:30:02Z",
       "duration_seconds": 258.4,
       "status": "success",
@@ -4924,16 +4932,6 @@
       "details": null,
       "cost_usd": 0.7382482000000001,
       "total_tokens": 2294
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-19T14:00:03Z",
-      "duration_seconds": 403.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337/347] Refresh student intelligence profiles and keep weekly profile history → Approved + Browser QA Skipped (local Rails bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.5783816,
-      "total_tokens": 10663
     }
   ]
 }
