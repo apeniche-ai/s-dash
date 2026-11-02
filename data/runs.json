@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-02T19:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-02T19:00:20Z",
       "duration_seconds": 236.0,
       "status": "success",
@@ -4924,14 +4932,6 @@
       "details": null,
       "cost_usd": 0.257783,
       "total_tokens": 310
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-10-19T17:15:03Z",
-      "duration_seconds": 2.4,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
