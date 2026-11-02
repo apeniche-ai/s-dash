@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-02T12:50:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-11-02T12:50:00Z",
       "duration_seconds": 485.0,
@@ -4932,14 +4940,6 @@
       "details": null,
       "cost_usd": 1.8468324,
       "total_tokens": 12457
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-19T11:30:02Z",
-      "duration_seconds": 1.5,
-      "status": "success",
-      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
