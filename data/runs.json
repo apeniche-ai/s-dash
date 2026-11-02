@@ -173,10 +173,12 @@
     {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-11-02T01:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Coaching Digest...",
-      "details": null
+      "duration_seconds": 61.4,
+      "status": "success",
+      "summary": "I didn't send Amaury a coaching digest this week (Oct 26 – Nov 1). The rule is that a digest only goes out if he sent at least 2 real messages in the week, and he sent none.",
+      "details": null,
+      "cost_usd": 0.7137958000000001,
+      "total_tokens": 2590
     },
     {
       "agent": "passive-income-research-loop",
