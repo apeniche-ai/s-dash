@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-02T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 286.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4725 [TTPAI-242] AI Exercise Bank — Generation, Judging & Promotion → Approved + Browser QA Skipped (local env needs bundle install) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.5338244000000005,
+      "total_tokens": 10699
     },
     {
       "agent": "pr-reviewer",
