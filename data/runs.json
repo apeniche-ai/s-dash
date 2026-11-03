@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-03T19:00:21Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-03T19:00:01Z",
       "duration_seconds": 18.7,
@@ -4939,16 +4947,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-20T16:30:05Z",
-      "duration_seconds": 169.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4933 [6547] Fix Visual Learning losing the filter when the page is reloaded → Approved + Browser QA Skipped (local bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.3309857999999999,
-      "total_tokens": 6572
     }
   ]
 }
