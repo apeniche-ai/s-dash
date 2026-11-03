@@ -173,10 +173,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-11-03T17:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 29.0,
+      "status": "success",
+      "summary": "The scan shows one message. It's addressed to a different user ID, not Amaury, so it isn't an alarm. The dedup search failed because the tool name isn't available, but nothing survives to be deduplica",
+      "details": null,
+      "cost_usd": 0.2344716,
+      "total_tokens": 267
     },
     {
       "agent": "admissions-pr-reviewer",
