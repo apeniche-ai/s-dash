@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-03T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 295.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4951 [TTPAI-369/393] Maren support-only mode uses one thread, keeps cut lesson passages and stops resending summarized turns → Approved + Browser QA Skipped (local repo has uncommitte",
+      "details": null,
+      "cost_usd": 1.6969426000000005,
+      "total_tokens": 10946
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
