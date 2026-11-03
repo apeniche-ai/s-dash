@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-11-03T17:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-11-03T17:15:01Z",
       "duration_seconds": 0.8,
@@ -4933,16 +4941,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "opportunity-scout-delivery-(morning)",
-      "timestamp": "2026-10-20T14:30:01Z",
-      "duration_seconds": 81.1,
-      "status": "success",
-      "summary": "sent",
-      "details": null,
-      "cost_usd": 0.6559206,
-      "total_tokens": 4196
     }
   ]
 }
