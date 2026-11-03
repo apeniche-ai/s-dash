@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-03T12:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 231.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4931 [TTPAI-368][6476][6563][6547][6475] Fix chapter test result cards, the Study Plan calendar opening on next week, the weakest topics review test filter, the Visual Learning filter",
+      "details": null,
+      "cost_usd": 1.4487773999999998,
+      "total_tokens": 8172
     },
     {
       "agent": "pr-reviewer",
