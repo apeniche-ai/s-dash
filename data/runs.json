@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-03T14:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-11-03T14:15:01Z",
       "duration_seconds": 1.2,
@@ -4924,16 +4932,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-10-20T12:30:01Z",
-      "duration_seconds": 31.2,
-      "status": "success",
-      "summary": "I sent today's digest to the assistant channel. It lists the same three open MentalTune items as yesterday, none with a deadline. All three need a decision from you:",
-      "details": null,
-      "cost_usd": 0.3196778,
-      "total_tokens": 1243
     }
   ]
 }
