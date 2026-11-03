@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-03T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 210.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4919 [6420][6421] Add the GRE and EA versions of the Score Analyzer form → Approved + Browser QA Skipped (local checkout has uncommitted work on another branch) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.2243616000000002,
+      "total_tokens": 7685
     },
     {
       "agent": "pr-reviewer",
