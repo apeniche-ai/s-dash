@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-03T12:30:31Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-11-03T12:30:01Z",
       "duration_seconds": 29.6,
@@ -4928,16 +4936,6 @@
       "details": null,
       "cost_usd": 1.7599846,
       "total_tokens": 10366
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-10-20T08:00:00Z",
-      "duration_seconds": 126.8,
-      "status": "success",
-      "summary": "I checked 8 sources (Hacker News Show, Ask and front page, Lobsters, Product Hunt, and the Anthropic, OpenAI and Google changelogs) and wrote no findings. All 7 ideas failed the filter. Most already h",
-      "details": null,
-      "cost_usd": 1.2261616,
-      "total_tokens": 7596
     }
   ]
 }
