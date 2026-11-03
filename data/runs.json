@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-03T10:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 311.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4911 [6524] Score Analyzer: clearer reports with a Claude draft, a GPT writer and a Claude check → Changes Requested (new caching commit breaks the provider-isolation guard spec, Serv",
+      "details": null,
+      "cost_usd": 1.5918582000000001,
+      "total_tokens": 10355
     },
     {
       "agent": "passive-income-discovery-scan",
