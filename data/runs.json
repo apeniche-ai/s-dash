@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-03T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 54.5,
+      "status": "success",
+      "summary": "silent: Toloka's one Latin America freelance role (an AI data consulting job) lists no pay and is set up as a full-time job, and every other freelance role there asks for 40 hours a week, so nothing w",
+      "details": null,
+      "cost_usd": 0.87358,
+      "total_tokens": 3269
     },
     {
       "agent": "passive-income-research-loop",
