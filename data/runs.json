@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-03T19:00:21Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 269.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4878 [TTPAI-345] Add Maren's dashboard insight note from the student's last study session → Approved + Browser QA Skipped (Rails gems not installed locally)",
+      "details": null,
+      "cost_usd": 1.6172918000000003,
+      "total_tokens": 8916
     },
     {
       "agent": "passive-income-research-loop",
