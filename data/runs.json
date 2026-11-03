@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-03T16:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 298.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4976 [TTPAI-389] Fix Maren Retry dropping the uploaded file → Approved + Browser QA Skipped (local repo has uncommitted changes on another branch)",
+      "details": null,
+      "cost_usd": 1.8210460000000006,
+      "total_tokens": 12661
     },
     {
       "agent": "pr-reviewer",
