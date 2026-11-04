@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-04T08:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 121.8,
+      "status": "success",
+      "summary": "I scanned 8 sources and none of the 8 possible ideas passed the filter, so I wrote 0 findings. The biggest pattern was developers angry about tools leaking their data (the top post was Postman install",
+      "details": null,
+      "cost_usd": 1.3296568,
+      "total_tokens": 8218
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
