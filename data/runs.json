@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-04T17:30:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 162.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4940 [TTPAI-389][6525] Add Chat History and Bookmark Library to Maren, and fix Retry dropping the uploaded file → Approved + Browser QA Skipped (local Rails bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.3953872,
+      "total_tokens": 7754
     },
     {
       "agent": "slack-watch",
