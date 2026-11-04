@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-04T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 306.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4977 [6572] Card testing protection for the self-managed checkout → Changes Requested (a guest can lock a real customer out of checkout for 24h by typing their email) + Browser QA Ski",
+      "details": null,
+      "cost_usd": 2.0093426,
+      "total_tokens": 19031
     },
     {
       "agent": "pr-reviewer",
