@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-04T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 353.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4940 [TTPAI-389][6525] Add Chat History and Bookmark Library to Maren, and fix Retry dropping the uploaded file → Approved + Browser QA Skipped (local checkout has uncommitted work on",
+      "details": null,
+      "cost_usd": 2.0276928,
+      "total_tokens": 15044
     },
     {
       "agent": "pr-reviewer",
