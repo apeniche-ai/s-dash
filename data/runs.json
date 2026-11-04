@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-04T20:30:32Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 787.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4983 [6038] Show description, customer name and subscription number on Stripe payments → Approved + Browser QA Skipped (local env can't boot Rails)",
+      "details": null,
+      "cost_usd": 1.7039229999999992,
+      "total_tokens": 1809
     },
     {
       "agent": "slack-watch",
