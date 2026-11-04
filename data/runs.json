@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-04T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 62.1,
+      "status": "success",
+      "summary": "silent: the one new $150+/hr engineering role on Mercor's live board is a US-only, full-time, 40-hour employee job, and nothing else on the board has changed.",
+      "details": null,
+      "cost_usd": 0.9569078,
+      "total_tokens": 3730
     },
     {
       "agent": "passive-income-research-loop",
