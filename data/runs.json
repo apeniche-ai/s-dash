@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-04T21:02:13Z",
+      "duration_seconds": 1.7,
+      "status": "success",
+      "summary": "No PRs to review — 45 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-11-04T21:00:01Z",
       "duration_seconds": 131.0,
@@ -4964,16 +4972,6 @@
       "details": null,
       "cost_usd": 2.3423304,
       "total_tokens": 17269
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-21T18:00:02Z",
-      "duration_seconds": 400.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4936 [6560] Fixes students getting repeated free trials by deleting or resetting their account → Approved + Browser QA Skipped (local bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.4058853999999998,
-      "total_tokens": 8978
     }
   ]
 }
