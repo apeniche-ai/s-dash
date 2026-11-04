@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-11-04T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-04T12:30:32Z",
       "duration_seconds": 326.6,
@@ -576,14 +584,6 @@
       "details": null,
       "cost_usd": 1.9737444000000002,
       "total_tokens": 11867
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-11-03T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
     },
     {
       "agent": "pr-reviewer",
