@@ -173,10 +173,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-11-04T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 71.6,
+      "status": "success",
+      "summary": "I didn't send a Telegram message this morning because no new pull request (PR) has become stuck.",
+      "details": null,
+      "cost_usd": 0.7206122,
+      "total_tokens": 2015
     },
     {
       "agent": "pr-reviewer",
