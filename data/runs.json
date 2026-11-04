@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-04T11:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-04T11:00:25Z",
       "duration_seconds": 349.3,
       "status": "success",
@@ -4949,16 +4957,6 @@
       "details": null,
       "cost_usd": 0.5608179999999999,
       "total_tokens": 574
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-10-21T02:30:01Z",
-      "duration_seconds": 30.8,
-      "status": "success",
-      "summary": "No goal tasks changed tonight, so I didn't send a Telegram message. Every task was either already marked done or had no matching job or suggestion to update it.",
-      "details": null,
-      "cost_usd": 0.36981919999999996,
-      "total_tokens": 286
     }
   ]
 }
