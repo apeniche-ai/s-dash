@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-11-04T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-04T20:30:32Z",
       "duration_seconds": 787.7,
@@ -4964,14 +4972,6 @@
       "details": null,
       "cost_usd": 1.4058853999999998,
       "total_tokens": 8978
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-21T17:30:48Z",
-      "duration_seconds": 1.5,
-      "status": "success",
-      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
