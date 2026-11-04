@@ -171,6 +171,16 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-04T10:07:43Z",
+      "duration_seconds": 453.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4881 [6335] Add LiveTeach modal template with dynamic cohort data → Changes Requested (3 of the 5 feature icons show blank because the font the site loads is too old to have them) + B",
+      "details": null,
+      "cost_usd": 1.8138826000000001,
+      "total_tokens": 15054
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-04T08:00:01Z",
       "duration_seconds": 121.8,
@@ -4946,14 +4956,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-10-20T22:30:03Z",
       "duration_seconds": 2.0,
-      "status": "success",
-      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-20T22:00:03Z",
-      "duration_seconds": 2.4,
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
