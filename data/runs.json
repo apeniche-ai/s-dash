@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-04T13:01:14Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-11-04T13:00:01Z",
       "duration_seconds": 71.6,
@@ -4951,16 +4959,6 @@
       "details": null,
       "cost_usd": 1.1832885999999998,
       "total_tokens": 5424
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-21T10:00:01Z",
-      "duration_seconds": 342.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4875 [TTPAI-326] Add chat content guard for pasted and photographed questions → Approved + Browser QA Skipped (local Rails gems missing) (⚠️ no Jira context)",
-      "details": null,
-      "cost_usd": 1.3908238000000004,
-      "total_tokens": 8267
     }
   ]
 }
