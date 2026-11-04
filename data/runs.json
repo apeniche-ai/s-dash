@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-04T22:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 437.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4977 [6572] Card testing protection for the self-managed checkout → Changes Requested (opening the add-a-card form 5 times blocks a signed-in student from buying for 24h; wrong \"wait ",
+      "details": null,
+      "cost_usd": 2.4389364,
+      "total_tokens": 25066
     },
     {
       "agent": "pr-reviewer",
