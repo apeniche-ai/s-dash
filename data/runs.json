@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-05T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 72.0,
+      "status": "success",
+      "summary": "silent: Toloka's live board hasn't changed in a way that matters (the Latin America freelance role still shows no pay and is full-time shaped), and every other check isn't due until November 20.",
+      "details": null,
+      "cost_usd": 0.770631,
+      "total_tokens": 3438
     },
     {
       "agent": "passive-income-research-loop",
