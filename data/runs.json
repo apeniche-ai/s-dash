@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-05T13:30:42Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-05T13:30:00Z",
       "duration_seconds": 40.7,
@@ -4972,16 +4980,6 @@
       "details": null,
       "cost_usd": 0.5613698,
       "total_tokens": 500
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-22T10:30:01Z",
-      "duration_seconds": 429.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4529 [6038] Add self-managed billing engine foundation → Changes Requested (permission data migration gives Sales roles new access to Dunning Campaigns and Billing Email Templates) + ",
-      "details": null,
-      "cost_usd": 3.15646,
-      "total_tokens": 23962
     }
   ]
 }
