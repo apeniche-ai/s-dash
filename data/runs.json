@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-05T16:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 292.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4988 [6577] Fixes Next loading forever on a test question once the section has no answer edits left → Changes Requested (PR's own new spec fails: factory pre-fills answer \"0\") + Brows",
+      "details": null,
+      "cost_usd": 1.4211903999999997,
+      "total_tokens": 8764
     },
     {
       "agent": "pr-reviewer",
