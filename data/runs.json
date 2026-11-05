@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-05T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 357.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4986 [TTPAI-401] Fixes AI chat section access, trial message counting and per-student request ids → Changes Requested (resource lessons like AWA still get redirected because the real ",
+      "details": null,
+      "cost_usd": 1.706485,
+      "total_tokens": 14620
     },
     {
       "agent": "pr-reviewer",
