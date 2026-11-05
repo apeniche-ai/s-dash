@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-11-05T14:15:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-05T14:00:02Z",
       "duration_seconds": 231.4,
@@ -4972,16 +4980,6 @@
       "details": null,
       "cost_usd": 4.201574399999999,
       "total_tokens": 32577
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-22T11:00:25Z",
-      "duration_seconds": 261.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339/356] Generate exercise bank items through the Batch API with drawn exam-share values and a two-step reading judge → Changes Requested (two-paragraph passages can still",
-      "details": null,
-      "cost_usd": 1.9681179999999998,
-      "total_tokens": 14420
     }
   ]
 }
