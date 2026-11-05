@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-05T21:00:02Z",
+      "duration_seconds": 1.7,
+      "status": "success",
+      "summary": "No PRs to review — 48 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-11-05T21:00:02Z",
       "duration_seconds": null,
@@ -4965,14 +4973,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-10-22T18:00:02Z",
       "duration_seconds": 1.6,
-      "status": "success",
-      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
-      "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-22T17:30:41Z",
-      "duration_seconds": 1.5,
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
