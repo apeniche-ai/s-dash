@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-05T15:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 345.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4985 [TTPAI-404] Stop chat reaching content outside the student's track → Approved + Browser QA Skipped (local Rails gems missing) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.7837459999999998,
+      "total_tokens": 12948
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
