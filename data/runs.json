@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-05T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 306.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4977 [6572] Card testing protection for the self-managed checkout → Approved + Browser QA Skipped (local bundle not installed)",
+      "details": null,
+      "cost_usd": 1.7710489999999999,
+      "total_tokens": 11194
     },
     {
       "agent": "pr-reviewer",
