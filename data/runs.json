@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-05T13:01:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 313.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4986 [TTPAI-401] Fixes AI chat section access, trial message counting and per-student request ids → Changes Requested (new section check blocks chat and tutor on AWA/BWA/IR resource l",
+      "details": null,
+      "cost_usd": 2.0530776,
+      "total_tokens": 18855
     },
     {
       "agent": "pr-follow-up-check",
