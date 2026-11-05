@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-05T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 158.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4881 [6335] Add LiveTeach modal template with dynamic cohort data → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.5224297999999998,
+      "total_tokens": 8855
     },
     {
       "agent": "pr-reviewer",
