@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-05T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 144.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4989 [TTPAI-409] Fix concept masteries bookmark tab hiding, and header tab scroll on desktop → Approved + Browser QA Skipped (local Rails bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.3219322000000002,
+      "total_tokens": 6254
     },
     {
       "agent": "pr-reviewer",
