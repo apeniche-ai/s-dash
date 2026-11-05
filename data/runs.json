@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-05T14:30:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-11-05T14:15:01Z",
       "duration_seconds": 1.1,
@@ -4970,16 +4978,6 @@
       "details": null,
       "cost_usd": 1.4520460000000002,
       "total_tokens": 7646
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-22T11:30:01Z",
-      "duration_seconds": 488.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4878 [TTPAI-345] Add Maren's dashboard insight note from the student's last study session → Changes Requested (the name check rejects the plain rule's own words, so notes teaching tho",
-      "details": null,
-      "cost_usd": 4.201574399999999,
-      "total_tokens": 32577
     }
   ]
 }
