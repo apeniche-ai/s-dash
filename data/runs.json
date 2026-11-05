@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-05T18:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-05T18:00:02Z",
       "duration_seconds": 306.9,
       "status": "success",
@@ -4968,16 +4976,6 @@
       "details": null,
       "cost_usd": 0.36751320000000004,
       "total_tokens": 326
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-22T14:30:02Z",
-      "duration_seconds": 612.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4937 [TTPAI-365] Draw each Data Insights item's setting, size and answer format → Changes Requested (pure-math/verbal-logical draw contradiction, fixed-value example in three-statemen",
-      "details": null,
-      "cost_usd": 3.649155,
-      "total_tokens": 32571
     }
   ]
 }
