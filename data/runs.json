@@ -173,10 +173,12 @@
     {
       "agent": "slack-watch",
       "timestamp": "2026-11-05T13:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Slack Watch...",
-      "details": null
+      "duration_seconds": 40.7,
+      "status": "success",
+      "summary": "alarmed 1 item: 🔴 DM from Rafa, sent 06:27 and unanswered. Naufal is stuck on Q13 of a Quant test. Rafa wants Amaury to OK a prod console fix, and to give his GitHub access to billing_core.",
+      "details": null,
+      "cost_usd": 0.2915336,
+      "total_tokens": 959
     },
     {
       "agent": "pr-reviewer",
