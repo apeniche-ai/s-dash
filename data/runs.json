@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-06T20:00:01Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-06T19:30:01Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4968,16 +4976,6 @@
       "details": null,
       "cost_usd": 3.0981635999999995,
       "total_tokens": 23002
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-23T16:00:02Z",
-      "duration_seconds": 420.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4937 [TTPAI-365] Draw each Data Insights item's setting, size and answer format → Changes Requested (my earlier fix now skews the Two-Part reasoning_kind share outside the ticket's 0.",
-      "details": null,
-      "cost_usd": 2.2530492000000004,
-      "total_tokens": 19489
     }
   ]
 }
