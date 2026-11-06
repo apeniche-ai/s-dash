@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-06T12:30:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 250.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339/356/362/364/365/366] Exercise bank generation improvements: Batch API, one run plan, and checks for every question type → Changes Requested (GRE comparison check limit",
+      "details": null,
+      "cost_usd": 1.4867205999999997,
+      "total_tokens": 9101
     },
     {
       "agent": "daily-todo-digest",
