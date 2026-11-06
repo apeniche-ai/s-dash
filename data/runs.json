@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-06T12:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "performance-check-in-(fri)",
       "timestamp": "2026-11-06T11:34:23Z",
       "duration_seconds": 75.4,
@@ -4984,16 +4992,6 @@
       "details": null,
       "cost_usd": 0.3678196,
       "total_tokens": 244
-    },
-    {
-      "agent": "slack-watch",
-      "timestamp": "2026-10-22T23:30:00Z",
-      "duration_seconds": 28.3,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.2463382,
-      "total_tokens": 206
     }
   ]
 }
