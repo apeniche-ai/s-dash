@@ -173,10 +173,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-11-06T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 79.1,
+      "status": "success",
+      "summary": "No message sent today. The same 6 stuck PRs are on the list as yesterday, and no new one has stalled, so a Telegram note would only repeat the same list.",
+      "details": null,
+      "cost_usd": 0.6786596,
+      "total_tokens": 2094
     },
     {
       "agent": "pr-reviewer",
