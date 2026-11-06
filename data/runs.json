@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-06T14:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 360.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4990 [6572] Card testing protection follow-ups (R-13 to R-27) → Changes Requested (decline-message fallback can hit String#map and return a 500 on the Recurly trial duplicate-card pat",
+      "details": null,
+      "cost_usd": 2.2070109999999996,
+      "total_tokens": 15629
     },
     {
       "agent": "pr-reviewer",
