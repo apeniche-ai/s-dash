@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-11-06T20:15:02Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-06T20:00:01Z",
       "duration_seconds": 1.3,
@@ -4966,16 +4974,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-23T16:30:02Z",
-      "duration_seconds": 521.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4941 [TTPAI-366] Plan every type from one run planner → Changes Requested (the lead reviewer's two ticket updates are still open, and the new near-repeat check finds no bank items for",
-      "details": null,
-      "cost_usd": 3.0981635999999995,
-      "total_tokens": 23002
     }
   ]
 }
