@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-06T11:00:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 277.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4881 [6335] Add LiveTeach modal template with dynamic cohort data → Changes Requested (new commit replaced the ticket's \"max 1 LiveTeach modal per week\" with a once-per-stage rule, so",
+      "details": null,
+      "cost_usd": 1.9953916,
+      "total_tokens": 16104
     },
     {
       "agent": "passive-income-research-loop",
