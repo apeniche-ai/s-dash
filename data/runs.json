@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-06T13:30:29Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 326.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4977 [6572] Card testing protection for the self-managed checkout → Changes Requested (new defaults loosen every limit and drop the staff exemption, diverging from TTP-6572) + Browser",
+      "details": null,
+      "cost_usd": 1.7424120000000003,
+      "total_tokens": 15272
     },
     {
       "agent": "slack-watch",
