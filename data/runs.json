@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "performance-check-in-(fri)",
+      "timestamp": "2026-11-06T11:34:23Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Performance Check-in (Fri)...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-06T11:30:01Z",
       "duration_seconds": 262.4,
@@ -4984,16 +4992,6 @@
       "details": null,
       "cost_usd": 0.2463382,
       "total_tokens": 206
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-10-22T23:00:00Z",
-      "duration_seconds": 27.6,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.562607,
-      "total_tokens": 584
     }
   ]
 }
