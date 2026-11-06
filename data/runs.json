@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-06T15:30:02Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-06T15:00:02Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4980,16 +4988,6 @@
       "details": null,
       "cost_usd": 1.9827936,
       "total_tokens": 13583
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-10-23T12:30:01Z",
-      "duration_seconds": 23.4,
-      "status": "success",
-      "summary": "I sent today's digest to the assistant channel. It lists the same three open MentalTune items as yesterday. All three are decisions or answers that only you can give, and none has a deadline.",
-      "details": null,
-      "cost_usd": 0.28082820000000003,
-      "total_tokens": 926
     }
   ]
 }
