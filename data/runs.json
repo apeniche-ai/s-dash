@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-06T13:01:20Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-11-06T13:00:00Z",
       "duration_seconds": 79.1,
@@ -4984,16 +4992,6 @@
       "details": null,
       "cost_usd": 2.3895044000000008,
       "total_tokens": 17324
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-10-23T08:00:01Z",
-      "duration_seconds": 126.9,
-      "status": "success",
-      "summary": "I scanned 9 sources and wrote no findings. All 6 raw ideas failed the filter: the same security news again, agent sandboxing that free tools already cover, a closed Rails-upgrade lead (FastRuby now se",
-      "details": null,
-      "cost_usd": 1.1505606,
-      "total_tokens": 6438
     }
   ]
 }
