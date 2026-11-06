@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-06T14:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 247.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4993 [TTPAI-405] Fix flashcard, memory and failed reply data → Approved + Browser QA Skipped (local env can't boot Rails: bundle install needed)",
+      "details": null,
+      "cost_usd": 1.8275074000000007,
+      "total_tokens": 10367
     },
     {
       "agent": "admissions-pr-reviewer",
