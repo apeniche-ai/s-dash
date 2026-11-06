@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-06T19:30:01Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-06T19:00:25Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4970,16 +4978,6 @@
       "details": null,
       "cost_usd": 2.2530492000000004,
       "total_tokens": 19489
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-23T15:30:02Z",
-      "duration_seconds": 327.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4936 [6560] Fixes students getting repeated free trials by deleting or resetting their account → Changes Requested (the Recurly return page now signs out students who are already sign",
-      "details": null,
-      "cost_usd": 2.041617,
-      "total_tokens": 16154
     }
   ]
 }
