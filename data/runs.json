@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-06T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 54.6,
+      "status": "success",
+      "summary": "silent: METR's live job board has nothing new, and the job Amaury applied to there has been taken down (outcome unknown), which is a closed door, not something he can act on this week.",
+      "details": null,
+      "cost_usd": 0.7407413999999999,
+      "total_tokens": 3057
     },
     {
       "agent": "passive-income-research-loop",
