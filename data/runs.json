@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-06T20:30:29Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 262.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4990 [6572] Card testing protection follow-ups (R-13 to R-27) → Approved + Browser QA Skipped (local bundle missing gems) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.4772220000000003,
+      "total_tokens": 7647
     },
     {
       "agent": "slack-watch",
