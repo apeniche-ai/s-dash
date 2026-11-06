@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-06T16:30:02Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-06T16:00:02Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4976,16 +4984,6 @@
       "details": null,
       "cost_usd": 1.6190373999999998,
       "total_tokens": 10732
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-10-23T13:00:01Z",
-      "duration_seconds": 103.1,
-      "status": "success",
-      "summary": "I sent nothing today. The stale list is exactly the same as the one that went to the PR Reviews channel yesterday, and your standing rule is not to repeat an unchanged list.",
-      "details": null,
-      "cost_usd": 0.8021532,
-      "total_tokens": 3321
     }
   ]
 }
