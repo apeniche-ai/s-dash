@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-06T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 386.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4991 [TTPAI-228] Corrects the support and product KB to what master ships → Changes Requested (the KB undercounts the trial allowance, because Summarize and Flashcards taps also count",
+      "details": null,
+      "cost_usd": 2.4744423999999996,
+      "total_tokens": 17578
     },
     {
       "agent": "passive-income-discovery-scan",
