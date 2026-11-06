@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-06T18:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 241.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4990 [6572] Card testing protection follow-ups (R-13 to R-27) → Changes Requested (the \"Load payment form\" retry button has white text on a white background, so it's invisible) + Brow",
+      "details": null,
+      "cost_usd": 1.9017446000000005,
+      "total_tokens": 13286
     },
     {
       "agent": "pr-reviewer",
