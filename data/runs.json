@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-06T14:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-11-06T14:15:01Z",
       "duration_seconds": 0.9,
@@ -4982,16 +4990,6 @@
       "details": null,
       "cost_usd": 0.9101194000000001,
       "total_tokens": 3603
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-23T11:30:02Z",
-      "duration_seconds": 322.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4847 [6431] Fix unclickable notes on highlighted math expressions → Approved + Browser QA Skipped (local Rails setup missing gems)",
-      "details": null,
-      "cost_usd": 1.4204638000000003,
-      "total_tokens": 8790
     }
   ]
 }
