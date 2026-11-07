@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-07T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 67.2,
+      "status": "success",
+      "summary": "silent: nothing passed the bar. The plan is to hold until the Nov 20 checks. One search found no sign that Surge, the AI-work platform that turned him away for being in Colombia, has reopened to Colom",
+      "details": null,
+      "cost_usd": 0.8524835999999999,
+      "total_tokens": 2727
     },
     {
       "agent": "passive-income-research-loop",
