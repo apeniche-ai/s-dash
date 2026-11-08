@@ -173,10 +173,12 @@
     {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-11-08T02:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Goal Progress Reconciliation...",
-      "details": null
+      "duration_seconds": 12.8,
+      "status": "success",
+      "summary": "I ran tonight's goal check (Saturday, Nov 7, 9:30 PM). No tasks changed, so I didn't message Amaury. Every task was either already done or had nothing new showing it was finished.",
+      "details": null,
+      "cost_usd": 0.3715036,
+      "total_tokens": 275
     },
     {
       "agent": "passive-income-research-loop",
