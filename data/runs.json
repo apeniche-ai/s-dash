@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-delivery-(morning)",
+      "timestamp": "2026-11-08T14:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Delivery (morning)...",
+      "details": null
+    },
+    {
       "agent": "side-income-delivery-(morning)",
       "timestamp": "2026-11-08T14:00:01Z",
       "duration_seconds": 21.5,
@@ -4986,16 +4994,6 @@
       "details": null,
       "cost_usd": 0.5618428,
       "total_tokens": 386
-    },
-    {
-      "agent": "system-health-audit",
-      "timestamp": "2026-10-24T15:00:00Z",
-      "duration_seconds": 32.4,
-      "status": "success",
-      "summary": "The audit found nothing broken, so I sent no Telegram message and created no new suggestions. Overall score is 9/10.",
-      "details": null,
-      "cost_usd": 0.3961072,
-      "total_tokens": 1917
     }
   ]
 }
