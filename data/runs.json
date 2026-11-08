@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-11-08T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-11-08T21:00:01Z",
       "duration_seconds": 63.8,
@@ -4986,16 +4994,6 @@
       "details": null,
       "cost_usd": 0.3668922,
       "total_tokens": 206
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-10-24T23:00:01Z",
-      "duration_seconds": 28.2,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.5619644,
-      "total_tokens": 397
     }
   ]
 }
