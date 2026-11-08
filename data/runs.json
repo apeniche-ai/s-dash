@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-08T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 63.6,
+      "status": "success",
+      "summary": "silent — I checked Forward's live job board tonight (Forward places independent contractors with startups), and it lists the same six roles as on Oct 20. The one part-time role open to Latin America i",
+      "details": null,
+      "cost_usd": 0.8285087999999999,
+      "total_tokens": 2806
     },
     {
       "agent": "side-income-analysis-(overnight)",
