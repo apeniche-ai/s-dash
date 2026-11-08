@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "side-income-analysis-(overnight)",
+      "timestamp": "2026-11-08T06:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Side-Income Analysis (overnight)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-08T03:00:01Z",
       "duration_seconds": 21.6,
@@ -4986,16 +4994,6 @@
       "details": null,
       "cost_usd": 0.661195,
       "total_tokens": 2757
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-10-24T03:00:01Z",
-      "duration_seconds": 43.3,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.5574566000000001,
-      "total_tokens": 256
     }
   ]
 }
