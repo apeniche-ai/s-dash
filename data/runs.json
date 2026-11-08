@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-08T08:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 75.1,
+      "status": "success",
+      "summary": "I scanned 7 sources and wrote no findings: all 7 possible ideas failed the filter. Show HN was effectively dead tonight, and I didn't scan Product Hunt or the weekly newsletters. The strongest item wa",
+      "details": null,
+      "cost_usd": 0.8993062,
+      "total_tokens": 4470
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
