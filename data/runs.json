@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-11-09T03:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-11-09T02:30:00Z",
       "duration_seconds": 11.8,
@@ -4986,16 +4994,6 @@
       "details": null,
       "cost_usd": 0.5667914000000001,
       "total_tokens": 574
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-10-25T08:00:00Z",
-      "duration_seconds": 122.0,
-      "status": "success",
-      "summary": "I scanned 8 sources (Hacker News Show, Ask and front page, Lobsters, Product Hunt, and the Anthropic, OpenAI and Google changelogs) and wrote no findings. All 7 raw ideas failed the filter: they were ",
-      "details": null,
-      "cost_usd": 1.1047739999999997,
-      "total_tokens": 6108
     }
   ]
 }
