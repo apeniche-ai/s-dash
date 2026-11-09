@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-09T21:01:36Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 238.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4982 [6576] Delete a student's Score Analyzer submission from the admin users table → Approved + Browser QA Skipped (local Rails bundle not installed)",
+      "details": null,
+      "cost_usd": 1.4151963999999997,
+      "total_tokens": 9021
     },
     {
       "agent": "maren-v0-launch-digest",
