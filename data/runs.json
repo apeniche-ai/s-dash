@@ -173,10 +173,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-11-09T13:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 86.8,
+      "status": "success",
+      "summary": "I sent one message to the PR Reviews channel on Telegram. Two PRs got stuck since Friday's run. Admissions has no PRs marked \"Changes Requested\".",
+      "details": null,
+      "cost_usd": 0.6881608,
+      "total_tokens": 2320
     },
     {
       "agent": "weekly-team-shipping-report",
