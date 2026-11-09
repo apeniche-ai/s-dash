@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-09T18:30:01Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 48 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-09T18:00:02Z",
       "duration_seconds": 262.3,
       "status": "success",
@@ -4960,16 +4968,6 @@
       "details": null,
       "cost_usd": 0.378424,
       "total_tokens": 261
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-26T14:30:02Z",
-      "duration_seconds": 421.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4941 [TTPAI-366] Plan every type from one run planner → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.9784092,
-      "total_tokens": 12363
     }
   ]
 }
