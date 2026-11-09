@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-09T17:30:30Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-09T17:30:01Z",
       "duration_seconds": 28.4,
@@ -4958,16 +4966,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "weekly-goal-review",
-      "timestamp": "2026-10-26T14:05:11Z",
-      "duration_seconds": 69.6,
-      "status": "success",
-      "summary": "Nothing changed since the last goal review, so I didn't send Amaury a message this week. This is the second week in a row with nothing new.",
-      "details": null,
-      "cost_usd": 0.619828,
-      "total_tokens": 1447
     }
   ]
 }
