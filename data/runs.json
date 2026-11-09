@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-11-09T14:05:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-09T14:00:02Z",
       "duration_seconds": 1.6,
@@ -4972,16 +4980,6 @@
       "details": null,
       "cost_usd": 1.087017,
       "total_tokens": 6230
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-26T11:30:02Z",
-      "duration_seconds": 326.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4940 [6525] Add Chat History and Bookmark Library to Maren → Changes Requested (expired and trial-limit students are locked out of History and Bookmarks, against ticket section 6; clo",
-      "details": null,
-      "cost_usd": 2.7045048000000005,
-      "total_tokens": 19536
     }
   ]
 }
