@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-11-09T08:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-09T07:00:01Z",
       "duration_seconds": 80.9,
@@ -4986,16 +4994,6 @@
       "details": null,
       "cost_usd": 0.36963480000000004,
       "total_tokens": 339
-    },
-    {
-      "agent": "side-income-delivery-(morning)",
-      "timestamp": "2026-10-25T14:00:00Z",
-      "duration_seconds": 38.6,
-      "status": "success",
-      "summary": "nothing-queued",
-      "details": null,
-      "cost_usd": 0.5347354,
-      "total_tokens": 574
     }
   ]
 }
