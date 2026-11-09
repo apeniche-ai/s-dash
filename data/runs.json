@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-09T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 214.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4996 [TTPAI-406] Fix deploy table locks and slow chat replies → Approved + Browser QA Skipped (local gems missing)",
+      "details": null,
+      "cost_usd": 1.6819588,
+      "total_tokens": 11321
     },
     {
       "agent": "passive-income-discovery-scan",
