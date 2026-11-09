@@ -173,10 +173,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-11-09T21:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 94.4,
+      "status": "success",
+      "summary": "I sent Amaury the short weekday note in the assistant channel, and Telegram confirmed it went through. Nothing in Maren V0 has moved since last Thursday.",
+      "details": null,
+      "cost_usd": 0.7706948,
+      "total_tokens": 4568
     },
     {
       "agent": "pr-reviewer",
