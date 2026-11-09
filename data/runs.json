@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-09T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 262.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4999 [6587] Email tutoring students their tutor's survey partway through each package → Approved + Browser QA Skipped (local Rails can't boot because of missing gems)",
+      "details": null,
+      "cost_usd": 1.4187656000000002,
+      "total_tokens": 10123
     },
     {
       "agent": "pr-reviewer",
