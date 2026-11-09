@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-11-09T17:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-11-09T17:15:01Z",
       "duration_seconds": 0.7,
@@ -4958,16 +4966,6 @@
       "details": null,
       "cost_usd": 0.619828,
       "total_tokens": 1447
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-26T14:00:02Z",
-      "duration_seconds": 310.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339/356] Generate exercise bank items through the Batch API with drawn exam-share values and a two-step reading judge → Changes Requested (the bank stores rare turn words ",
-      "details": null,
-      "cost_usd": 2.2372659999999995,
-      "total_tokens": 16283
     }
   ]
 }
