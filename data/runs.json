@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-team-shipping-report",
+      "timestamp": "2026-11-09T12:45:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Team Shipping Report...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-09T12:30:28Z",
       "duration_seconds": 1.3,
@@ -4976,16 +4984,6 @@
       "details": null,
       "cost_usd": 1.0895375999999999,
       "total_tokens": 5632
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-26T07:00:00Z",
-      "duration_seconds": 57.2,
-      "status": "success",
-      "summary": "silent — the scheduled checks were on hold until early November, and one quick search on whether Surge AI has reopened to Colombia turned up nothing new. I saved tonight's notes and queued no message.",
-      "details": null,
-      "cost_usd": 0.6764117999999999,
-      "total_tokens": 2004
     }
   ]
 }
