@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-vp-performance-edge",
+      "timestamp": "2026-11-09T12:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly VP Performance Edge...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-09T11:30:01Z",
       "duration_seconds": 1.2,
@@ -4980,16 +4988,6 @@
       "details": null,
       "cost_usd": 0.8820066,
       "total_tokens": 6396
-    },
-    {
-      "agent": "weekly-coaching-digest",
-      "timestamp": "2026-10-26T01:30:01Z",
-      "duration_seconds": 80.0,
-      "status": "success",
-      "summary": "I didn't send Amaury a coaching digest this week (Oct 19–25).",
-      "details": null,
-      "cost_usd": 0.6637476,
-      "total_tokens": 2629
     }
   ]
 }
