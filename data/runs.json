@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-09T21:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 198.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4986 [TTPAI-401] Fixes AI chat section access, trial message counting and per-student request ids → Approved + Browser QA Skipped (local Rails bundle not installed)",
+      "details": null,
+      "cost_usd": 1.3546350000000003,
+      "total_tokens": 7574
     },
     {
       "agent": "pr-reviewer",
