@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-09T17:30:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 342.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4998 [6588] Coupon admin: expired status, redeem-by cutoff and Recurly-style list → Approved + Browser QA Skipped (local Rails can't boot because of missing gems)",
+      "details": null,
+      "cost_usd": 1.8765447999999998,
+      "total_tokens": 13139
     },
     {
       "agent": "slack-watch",
