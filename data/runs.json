@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-09T20:30:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 222.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4838 [TTPAI-368/409][6423][6432][6504][6508][6476][6563][6547][6475][6493] Fixes outside AI for students → Approved + Browser QA Skipped (local Rails bundle not installed)",
+      "details": null,
+      "cost_usd": 1.1642320000000002,
+      "total_tokens": 6991
     },
     {
       "agent": "slack-watch",
