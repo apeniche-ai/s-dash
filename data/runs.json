@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-09T14:00:02Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-09T13:30:32Z",
       "duration_seconds": 177.8,
       "status": "success",
@@ -4974,16 +4982,6 @@
       "details": null,
       "cost_usd": 2.7045048000000005,
       "total_tokens": 19536
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-26T11:00:23Z",
-      "duration_seconds": 498.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4937 [TTPAI-365] Draw each Data Insights item's setting, size and answer format → Changes Requested (run plans name `gmat.di` subjects that don't exist yet; Phase A item 4 field share",
-      "details": null,
-      "cost_usd": 2.2398516,
-      "total_tokens": 18604
     }
   ]
 }
