@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-10T22:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 275.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5004 [TTPAI-402] Closes chat content guard gaps and counts its cost as chatbot → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.6434152,
+      "total_tokens": 9463
     },
     {
       "agent": "pr-reviewer",
