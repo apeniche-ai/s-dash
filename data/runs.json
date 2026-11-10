@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-10T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 282.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5003 [TTPAI-394] Add AI-generated Graphics Interpretation chart questions drawn as course-style images → Approved + Browser QA Skipped (backend-only, feature gated off) (⚠️ no Jira co",
+      "details": null,
+      "cost_usd": 1.7830720000000004,
+      "total_tokens": 10757
     },
     {
       "agent": "pr-reviewer",
