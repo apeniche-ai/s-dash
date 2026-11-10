@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-10T18:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 254.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4929 [6544] Copy the GMAT sporting goods example and its solution video to GRE → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.2482863999999996,
+      "total_tokens": 6648
     },
     {
       "agent": "pr-reviewer",
