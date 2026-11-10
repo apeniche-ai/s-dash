@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-11-10T20:15:01Z",
+      "duration_seconds": 0.8,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-10T20:00:02Z",
       "duration_seconds": 352.3,
@@ -4998,16 +5006,6 @@
       "details": null,
       "cost_usd": 1.4325732,
       "total_tokens": 8527
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-27T18:00:02Z",
-      "duration_seconds": 227.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4945 [6038] Replaces private-method spec probes → Approved + Browser QA Skipped (spec-only)",
-      "details": null,
-      "cost_usd": 1.6157264,
-      "total_tokens": 9666
     }
   ]
 }
