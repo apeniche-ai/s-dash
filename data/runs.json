@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-10T20:30:36Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 331.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4970 [TTPAI-391/388/392/404] Keeps the flashcard deck while generation is pending, settles each result on its own request, saves one card set per deck, and keeps chat inside the stude",
+      "details": null,
+      "cost_usd": 2.0434946000000003,
+      "total_tokens": 14797
     },
     {
       "agent": "slack-watch",
