@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-10T17:30:30Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-10T17:30:00Z",
       "duration_seconds": 28.4,
@@ -4996,16 +5004,6 @@
       "details": null,
       "cost_usd": 2.648670799999999,
       "total_tokens": 17127
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-27T15:30:02Z",
-      "duration_seconds": 500.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4940 [6525] Add Chat History and Bookmark Library to Maren → Approved + Browser QA Skipped (local Rails bundle missing gems)",
-      "details": null,
-      "cost_usd": 2.419892000000001,
-      "total_tokens": 16858
     }
   ]
 }
