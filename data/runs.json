@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-10T20:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 352.3,
+      "status": "success",
+      "summary": "The request-spec shard is still running. I'll pick the review back up when it finishes.",
+      "details": null,
+      "cost_usd": 2.0963814000000003,
+      "total_tokens": 12521
     },
     {
       "agent": "pr-reviewer",
