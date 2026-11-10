@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-10T19:00:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 331.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5000 [TTPAI-39] KB sync production hardening → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.0087342000000006,
+      "total_tokens": 14378
     },
     {
       "agent": "passive-income-research-loop",
