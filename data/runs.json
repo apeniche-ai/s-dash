@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-10T20:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-10T19:30:02Z",
       "duration_seconds": 325.6,
       "status": "success",
@@ -4998,16 +5006,6 @@
       "details": null,
       "cost_usd": 1.6157264,
       "total_tokens": 9666
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-27T17:30:31Z",
-      "duration_seconds": 169.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4944 [6038] Hide billing secrets from admin Settings page → Approved + Browser QA Skipped (local bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.2824552,
-      "total_tokens": 6624
     }
   ]
 }
