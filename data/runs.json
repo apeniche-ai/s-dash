@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-10T21:02:04Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-11-10T21:00:01Z",
       "duration_seconds": 122.5,
@@ -4996,16 +5004,6 @@
       "status": "success",
       "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-27T19:30:02Z",
-      "duration_seconds": 210.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4947 [6038] Fix stalled PayPal hosted checkouts → Approved + Browser QA Skipped (needs an injected PayPal failure; local env missing gems)",
-      "details": null,
-      "cost_usd": 1.5779864000000001,
-      "total_tokens": 10224
     }
   ]
 }
