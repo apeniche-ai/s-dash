@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-10T17:30:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 264.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4980 [TTP-6575] Send the sale dates in the sale banner API and stop calling trial mode a 5-day trial → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.4054650000000002,
+      "total_tokens": 7146
     },
     {
       "agent": "slack-watch",
