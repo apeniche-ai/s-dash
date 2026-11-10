@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-10T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 357.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4994 [TTPAI-396] Fix the exercise bank math check rejecting correct data sufficiency answers and passing numbers it never computed → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.1872002000000004,
+      "total_tokens": 15303
     },
     {
       "agent": "pr-reviewer",
