@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-11-10T17:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-11-10T17:15:01Z",
       "duration_seconds": 1.0,
@@ -4996,16 +5004,6 @@
       "details": null,
       "cost_usd": 2.419892000000001,
       "total_tokens": 16858
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-27T15:00:03Z",
-      "duration_seconds": 395.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4939 [TTPAI-362] Draw GRE verbal settings per item from setting files and stops harder Text Completion adding a blank → Changes Requested (merge conflict with base branch in se_exerci",
-      "details": null,
-      "cost_usd": 2.3584332,
-      "total_tokens": 14740
     }
   ]
 }
