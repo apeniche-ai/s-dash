@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-delivery-(morning)",
+      "timestamp": "2026-11-10T14:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Delivery (morning)...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-11-10T14:15:01Z",
       "duration_seconds": 0.9,
@@ -4996,16 +5004,6 @@
       "details": null,
       "cost_usd": 1.5803327999999999,
       "total_tokens": 8347
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-10-27T13:00:00Z",
-      "duration_seconds": 75.5,
-      "status": "success",
-      "summary": "I didn't send a Telegram message today. Every stuck PR is one that was already on yesterday's list, so sending it would just repeat the same list.",
-      "details": null,
-      "cost_usd": 0.7703609999999999,
-      "total_tokens": 2828
     }
   ]
 }
