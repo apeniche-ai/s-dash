@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-11T13:01:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-11-11T13:00:00Z",
       "duration_seconds": 61.9,
@@ -5004,16 +5012,6 @@
       "details": null,
       "cost_usd": 1.5432466000000002,
       "total_tokens": 7762
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-28T11:00:32Z",
-      "duration_seconds": 310.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339/356] Generate exercise bank items through the Batch API with drawn exam-share values and a two-step reading judge → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.2556927999999998,
-      "total_tokens": 5784
     }
   ]
 }
