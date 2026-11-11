@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-11T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 303.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5007 [6581] Transactions filters, status cards and date ranges → Changes Requested (summary cards ignore the Status filter, and the filters sit on one row instead of the two the ticke",
+      "details": null,
+      "cost_usd": 1.5901680000000005,
+      "total_tokens": 12565
     },
     {
       "agent": "pr-reviewer",
