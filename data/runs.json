@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-11-11T20:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-11-11T20:15:02Z",
       "duration_seconds": 1.5,
@@ -4990,16 +4998,6 @@
       "details": null,
       "cost_usd": 0.6530132000000001,
       "total_tokens": 1132
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-28T18:30:01Z",
-      "duration_seconds": 267.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4911 [6524] Score Analyzer: clearer reports with a Claude draft, a GPT writer and a Claude check → Approved + Browser QA Skipped (local Rails environment missing gems)",
-      "details": null,
-      "cost_usd": 2.1019502000000005,
-      "total_tokens": 14617
     }
   ]
 }
