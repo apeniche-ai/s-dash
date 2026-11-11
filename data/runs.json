@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-11T15:30:02Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-11T15:00:03Z",
       "duration_seconds": 1.7,
       "status": "success",
@@ -5000,16 +5008,6 @@
       "details": null,
       "cost_usd": 1.3104668000000004,
       "total_tokens": 6216
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-28T13:30:28Z",
-      "duration_seconds": 368.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4943 [6038] Removes the Recurly webhook and asks Recurly directly for linked accounts → Approved + Browser QA Skipped (local app won't start until `bundle install` runs in ~/Desktop/t",
-      "details": null,
-      "cost_usd": 1.6589558,
-      "total_tokens": 9544
     }
   ]
 }
