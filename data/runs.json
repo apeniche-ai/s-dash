@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-11T08:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 161.6,
+      "status": "success",
+      "summary": "I scanned 9 of 10 sources and wrote no findings: all 8 ideas I found failed the filter, mostly because free tools already cover them. Claude Fable 5.2 is a new model and a price cut, not a new kind of",
+      "details": null,
+      "cost_usd": 1.1955349999999998,
+      "total_tokens": 7392
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
