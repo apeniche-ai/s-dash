@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-11T18:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-11T17:30:30Z",
       "duration_seconds": 561.8,
       "status": "success",
@@ -4994,16 +5002,6 @@
       "details": null,
       "cost_usd": 1.1560260000000002,
       "total_tokens": 6019
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-28T16:00:02Z",
-      "duration_seconds": 151.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4956 [TTPAI-377] Fix image feedback overwriting Maren chat records → Approved + Browser QA Skipped (local Rails bundle needs `bundle install`)",
-      "details": null,
-      "cost_usd": 1.2216669999999998,
-      "total_tokens": 5679
     }
   ]
 }
