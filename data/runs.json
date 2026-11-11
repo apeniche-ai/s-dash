@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-11-11T12:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-11T12:00:02Z",
       "duration_seconds": 450.2,
@@ -5004,16 +5012,6 @@
       "details": null,
       "cost_usd": 1.3306420000000003,
       "total_tokens": 6702
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-28T10:00:02Z",
-      "duration_seconds": 271.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4865 [6414] LiveTeach welcome email and personalized class recaps → Approved + Browser QA Skipped (local gems out of date; email-only change)",
-      "details": null,
-      "cost_usd": 1.7330414000000005,
-      "total_tokens": 10913
     }
   ]
 }
