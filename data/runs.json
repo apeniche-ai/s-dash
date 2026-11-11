@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-11T18:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 174.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5012 [6610] Billing emails show the full footer image → Approved + Browser QA Skipped (local Rails bundle needs `bundle install`)",
+      "details": null,
+      "cost_usd": 1.0120538000000001,
+      "total_tokens": 3969
     },
     {
       "agent": "pr-reviewer",
