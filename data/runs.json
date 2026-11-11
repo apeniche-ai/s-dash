@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-11T11:00:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 241.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5008 [6592] Make the daily marketing data export finish in seconds instead of hours → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.3870662,
+      "total_tokens": 10572
     },
     {
       "agent": "passive-income-research-loop",
