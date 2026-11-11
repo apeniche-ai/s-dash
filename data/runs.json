@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-11T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 63.9,
+      "status": "success",
+      "summary": "silent: I found no sign that Surge AI has reopened to Colombia, and its coding pay is below $150/hr for non-PhD engineers anyway, so I closed it as a lead. Nothing else is due until the micro1 check o",
+      "details": null,
+      "cost_usd": 0.8288962000000001,
+      "total_tokens": 3108
     },
     {
       "agent": "passive-income-research-loop",
