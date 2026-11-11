@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-11T17:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 265.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5011 [6607] {EXAM} Accounts billing page in the admin → Changes Requested (menu label says \"Accounts\", but the ticket asks for \"{EXAM} Accounts\") + Browser QA Skipped (local Rails bun",
+      "details": null,
+      "cost_usd": 1.3341611999999998,
+      "total_tokens": 8420
     },
     {
       "agent": "pr-reviewer",
