@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-11T12:31:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-11-11T12:30:01Z",
       "duration_seconds": 58.9,
@@ -5004,16 +5012,6 @@
       "details": null,
       "cost_usd": 0.5566988,
       "total_tokens": 212
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-28T10:30:02Z",
-      "duration_seconds": 355.5,
-      "status": "success",
-      "summary": "Reviewed 0 PRs: #4867 [TTPAI-339/356] Generate exercise bank items through the Batch API → Not submitted (GitHub timed out on the approval call; no review or label changes landed, Telegram notified) +",
-      "details": null,
-      "cost_usd": 1.3306420000000003,
-      "total_tokens": 6702
     }
   ]
 }
