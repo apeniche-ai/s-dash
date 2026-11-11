@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-11-11T13:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-11T13:01:03Z",
       "duration_seconds": 164.8,
@@ -5004,16 +5012,6 @@
       "details": null,
       "cost_usd": 1.7289282000000004,
       "total_tokens": 10578
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-28T11:30:02Z",
-      "duration_seconds": 334.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4939 [TTPAI-362] Draw GRE verbal settings per item from setting files and stops harder Text Completion adding a blank → Approved + Browser QA Skipped (Rails can't boot locally: missin",
-      "details": null,
-      "cost_usd": 1.5432466000000002,
-      "total_tokens": 7762
     }
   ]
 }
