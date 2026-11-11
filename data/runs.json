@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-11T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 168.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5006 [6591] Import only redeemable Recurly coupons → Approved + Browser QA Skipped (local env: bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.4788946,
+      "total_tokens": 10157
     },
     {
       "agent": "pr-reviewer",
