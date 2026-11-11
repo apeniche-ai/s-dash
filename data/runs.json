@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-11T14:30:22Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 243.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5010 [TTPAI-414] Fix Maren to count a reading comprehension lesson example once → Approved + Browser QA Skipped (local Rails environment not bootable) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.2398797999999998,
+      "total_tokens": 6885
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
