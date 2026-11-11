@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-11T17:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-11T16:30:02Z",
       "duration_seconds": 1.8,
       "status": "success",
@@ -4996,16 +5004,6 @@
       "details": null,
       "cost_usd": 0.3812398,
       "total_tokens": 406
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-28T14:30:01Z",
-      "duration_seconds": 503.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4953 [TTPAI-375] Fixe routing health report hiding retrieval failures → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.5153574,
-      "total_tokens": 8850
     }
   ]
 }
