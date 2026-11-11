@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-11T12:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-11T11:30:02Z",
       "duration_seconds": 196.7,
       "status": "success",
@@ -5004,16 +5012,6 @@
       "details": null,
       "cost_usd": 1.7330414000000005,
       "total_tokens": 10913
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-10-28T08:00:00Z",
-      "duration_seconds": 153.6,
-      "status": "success",
-      "summary": "I scanned 8 sources with no failures: Hacker News (Show HN, Ask HN and the front page), Lobsters, Product Hunt, and the Anthropic, OpenAI and Google changelogs. I also did this week's source hunt earl",
-      "details": null,
-      "cost_usd": 1.3371466,
-      "total_tokens": 5802
     }
   ]
 }
