@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-12T19:00:24Z",
+      "duration_seconds": 1.8,
+      "status": "success",
+      "summary": "No PRs to review — 47 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-12T19:00:01Z",
       "duration_seconds": 21.5,
@@ -4948,16 +4956,6 @@
       "details": null,
       "cost_usd": 1.6616764,
       "total_tokens": 10216
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-29T15:00:02Z",
-      "duration_seconds": 287.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4948 [6038] Stabilize billing checkout and scheduled tasks → Approved + Browser QA Skipped (local Rails bundle missing gems)",
-      "details": null,
-      "cost_usd": 2.1852807999999997,
-      "total_tokens": 13842
     }
   ]
 }
