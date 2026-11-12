@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-12T12:30:38Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 289.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5014 [6569] Add the Error Tracker empty state → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.6116652,
+      "total_tokens": 12038
     },
     {
       "agent": "daily-todo-digest",
