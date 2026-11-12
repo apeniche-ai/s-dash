@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-12T19:30:01Z",
+      "duration_seconds": 1.0,
+      "status": "success",
+      "summary": "No PRs to review — 47 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-12T19:00:24Z",
       "duration_seconds": 1.8,
       "status": "success",
@@ -4946,16 +4954,6 @@
       "details": null,
       "cost_usd": 1.4657398000000001,
       "total_tokens": 8467
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-29T15:30:02Z",
-      "duration_seconds": 246.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4948 [6038] Stabilize billing checkout and scheduled tasks → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.6616764,
-      "total_tokens": 10216
     }
   ]
 }
