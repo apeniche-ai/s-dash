@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-12T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 301.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5001 [TTPAI-407] Fix exercise bank batch attempts being lost, stuck or paid for twice → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.8258460000000003,
+      "total_tokens": 12698
     },
     {
       "agent": "pr-reviewer",
