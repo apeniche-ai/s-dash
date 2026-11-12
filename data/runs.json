@@ -173,10 +173,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-11-12T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 36.1,
+      "status": "success",
+      "summary": "I sent today's digest to the assistant channel, and Telegram confirmed it went through.",
+      "details": null,
+      "cost_usd": 0.3245584,
+      "total_tokens": 1422
     },
     {
       "agent": "pr-reviewer",
