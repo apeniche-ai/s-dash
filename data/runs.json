@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-11-12T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-11T23:30:01Z",
       "duration_seconds": 24.6,
@@ -4978,16 +4986,6 @@
       "details": null,
       "cost_usd": 0.8913312,
       "total_tokens": 6896
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-28T20:30:28Z",
-      "duration_seconds": 158.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4942 [TTPAI-370] Give students with a long answer history an ability rating built from it → Changes Requested (PR still doesn't state per-chunk timing on production-size GMAT data, as",
-      "details": null,
-      "cost_usd": 1.2398327999999998,
-      "total_tokens": 6686
     }
   ]
 }
