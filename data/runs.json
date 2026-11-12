@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-12T17:30:32Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 47 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-12T17:30:01Z",
       "duration_seconds": 30.5,
@@ -4952,16 +4960,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-29T14:00:02Z",
-      "duration_seconds": 182.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4939 [TTPAI-362] Draw GRE verbal settings per item from setting files and stops harder Text Completion adding a blank → Approved + Browser QA Skipped (prompt-only change)",
-      "details": null,
-      "cost_usd": 1.2938408,
-      "total_tokens": 6862
     }
   ]
 }
