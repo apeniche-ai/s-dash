@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-12T13:01:04Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 367.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5015 [6494] Redesign the GRE Vocab Hub with videos → Changes Requested (missing ticket items: alternate definition shown, no Clear filters empty state, incomplete Word of the Day, no ",
+      "details": null,
+      "cost_usd": 2.0873350000000004,
+      "total_tokens": 18778
     },
     {
       "agent": "pr-follow-up-check",
