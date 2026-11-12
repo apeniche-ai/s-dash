@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-12T21:30:02Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 45 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-12T21:01:32Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4938,16 +4946,6 @@
       "details": null,
       "cost_usd": 1.4777536,
       "total_tokens": 9074
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-29T18:00:01Z",
-      "duration_seconds": 372.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4951 [TTPAI-369] Maren support-only mode uses one continuous thread → Changes Requested (summary and flashcard background jobs still save gated students' rows into a study session ins",
-      "details": null,
-      "cost_usd": 2.0242656,
-      "total_tokens": 14484
     }
   ]
 }
