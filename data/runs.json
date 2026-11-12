@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-11-12T13:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-12T12:30:38Z",
       "duration_seconds": 289.3,
@@ -4974,16 +4982,6 @@
       "details": null,
       "cost_usd": 1.3206266,
       "total_tokens": 9144
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-29T07:00:00Z",
-      "duration_seconds": 91.5,
-      "status": "success",
-      "summary": "silent: micro1's three live senior engineering roles all pay $30–100/hr or are paid per task, none verifiably at $150+/hr, so nothing new passed and the ledger is updated.",
-      "details": null,
-      "cost_usd": 0.8142204000000003,
-      "total_tokens": 3893
     }
   ]
 }
