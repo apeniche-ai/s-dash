@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-12T12:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 304.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5013 [6608] Keeps billing jobs that run out of attempts and emails an alert → Changes Requested (missing the ticket's alert for billing jobs that never run) + Browser QA Skipped (loca",
+      "details": null,
+      "cost_usd": 1.614499,
+      "total_tokens": 15215
     },
     {
       "agent": "pr-reviewer",
