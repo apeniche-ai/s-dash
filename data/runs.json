@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-11-12T08:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-12T07:00:00Z",
       "duration_seconds": 37.5,
@@ -4978,16 +4986,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your session limit resets 8pm (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-28T21:30:02Z",
-      "duration_seconds": 445.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4948 [6038] Stabilize billing checkout and scheduled tasks → Changes Requested (if reserving a plan fails after Stripe saves the card, the cart keeps sending the buyer back to the fai",
-      "details": null,
-      "cost_usd": 2.0510742,
-      "total_tokens": 18052
     }
   ]
 }
