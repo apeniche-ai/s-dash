@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-12T16:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 344.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5013 [6608] Keeps billing jobs that run out of attempts and emails an alert → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.6312690000000003,
+      "total_tokens": 12445
     },
     {
       "agent": "pr-reviewer",
