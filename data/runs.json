@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-11-12T12:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-12T12:00:03Z",
       "duration_seconds": 304.7,
@@ -4974,16 +4982,6 @@
       "details": null,
       "cost_usd": 0.5535502000000001,
       "total_tokens": 146
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-10-29T02:30:00Z",
-      "duration_seconds": 12.3,
-      "status": "success",
-      "summary": "Tonight's goal check found no task changes, so I didn't message Amaury. Every task was either already marked done or had no job or suggestion that would update it.",
-      "details": null,
-      "cost_usd": 0.3686328,
-      "total_tokens": 249
     }
   ]
 }
