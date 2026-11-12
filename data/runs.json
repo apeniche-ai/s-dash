@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-12T14:30:23Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 47 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-delivery-(morning)",
       "timestamp": "2026-11-12T14:30:01Z",
       "duration_seconds": 21.6,
@@ -4964,16 +4972,6 @@
       "details": null,
       "cost_usd": 2.4625129999999995,
       "total_tokens": 17495
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-29T11:30:02Z",
-      "duration_seconds": 415.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4876 [TTPAI-337/347] Refresh student intelligence profiles and keep weekly profile history → Changes Requested (write-path guard can't fail CI: the reviewdog Rubocop job never fails o",
-      "details": null,
-      "cost_usd": 2.1568792,
-      "total_tokens": 19598
     }
   ]
 }
