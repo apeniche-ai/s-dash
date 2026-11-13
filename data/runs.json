@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-11-13T20:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-13T20:00:02Z",
       "duration_seconds": 1.3,
@@ -4905,16 +4913,6 @@
       "details": null,
       "cost_usd": 1.4868480000000004,
       "total_tokens": 7529
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-30T16:30:02Z",
-      "duration_seconds": 178.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4970 [TTPAI-391] Keep the flashcard deck while generation is pending (moved onto #4631) → Approved + Browser QA Skipped (env: missing gems)",
-      "details": null,
-      "cost_usd": 1.3584404,
-      "total_tokens": 7771
     }
   ]
 }
