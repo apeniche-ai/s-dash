@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-13T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 32.0,
+      "status": "success",
+      "summary": "silent: none of my scheduled checks is due until the micro1 role search on Nov 20, so I ran no web searches and found nothing new to verify. Tonight's notes are saved and nothing is queued for the mor",
+      "details": null,
+      "cost_usd": 0.399977,
+      "total_tokens": 1306
     },
     {
       "agent": "passive-income-research-loop",
