@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-13T20:00:02Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-13T19:30:01Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4907,16 +4915,6 @@
       "details": null,
       "cost_usd": 1.3584404,
       "total_tokens": 7771
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-30T16:00:02Z",
-      "duration_seconds": 191.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4968 [TTPAI-390] Fix MathML grouping of saved replies in ask about context → Approved + Browser QA Skipped (env: missing gems)",
-      "details": null,
-      "cost_usd": 1.37258,
-      "total_tokens": 9316
     }
   ]
 }
