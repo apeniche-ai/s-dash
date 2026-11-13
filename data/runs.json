@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-13T13:00:54Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 276.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5018 [6570] Add the Whiteboard Walkthrough lesson tool → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.5101950000000002,
+      "total_tokens": 11020
     },
     {
       "agent": "pr-follow-up-check",
