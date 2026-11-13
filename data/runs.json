@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-13T22:00:02Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-13T21:30:02Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4903,16 +4911,6 @@
       "details": null,
       "cost_usd": 0.5619986,
       "total_tokens": 391
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-30T18:30:01Z",
-      "duration_seconds": 362.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4878 [TTPAI-345] Add Maren's dashboard insight note from the student's last study session → Changes Requested (when a rule is only a formula and has no lead-in phrase, the check still",
-      "details": null,
-      "cost_usd": 1.8411662,
-      "total_tokens": 13993
     }
   ]
 }
