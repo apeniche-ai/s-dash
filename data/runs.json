@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-13T15:00:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 48 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-13T14:30:23Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4923,16 +4931,6 @@
       "details": null,
       "cost_usd": 0.2961152,
       "total_tokens": 1011
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-30T12:00:01Z",
-      "duration_seconds": 464.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4937 [TTPAI-365] Draw each Data Insights item's setting, size and answer format → Approved + Browser QA Skipped (local Rails bundle missing gems)",
-      "details": null,
-      "cost_usd": 2.5048239999999997,
-      "total_tokens": 17621
     }
   ]
 }
