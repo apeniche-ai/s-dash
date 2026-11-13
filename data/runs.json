@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-13T19:30:01Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-13T19:00:24Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4909,16 +4917,6 @@
       "details": null,
       "cost_usd": 1.37258,
       "total_tokens": 9316
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-30T15:30:01Z",
-      "duration_seconds": 205.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4960 [TTPAI-383/384/375] Vector KB Sync Keeps Lesson Edits and Retries Failures, Routing Health Email Reports Retrieval Failures → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.8171898000000002,
-      "total_tokens": 10061
     }
   ]
 }
