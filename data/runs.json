@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-13T18:30:01Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-13T18:00:02Z",
       "duration_seconds": 305.9,
       "status": "success",
@@ -4913,16 +4921,6 @@
       "details": null,
       "cost_usd": 1.9167998,
       "total_tokens": 11896
-    },
-    {
-      "agent": "opportunity-scout-delivery-(morning)",
-      "timestamp": "2026-10-30T14:30:01Z",
-      "duration_seconds": 20.1,
-      "status": "success",
-      "summary": "nothing-queued",
-      "details": null,
-      "cost_usd": 0.3711684,
-      "total_tokens": 351
     }
   ]
 }
