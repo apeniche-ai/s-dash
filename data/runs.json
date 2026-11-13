@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "performance-check-in-(fri)",
+      "timestamp": "2026-11-13T11:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Performance Check-in (Fri)...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-13T11:00:28Z",
       "duration_seconds": 268.0,
@@ -4933,16 +4941,6 @@
       "details": null,
       "cost_usd": 0.5633842,
       "total_tokens": 484
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-29T22:30:02Z",
-      "duration_seconds": 383.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4966 [TTPAI-391] Keep deck while flashcard generation is pending → Changes Requested (deck still deleted on reload once the 60s generation lock expires while the job is queued or gene",
-      "details": null,
-      "cost_usd": 1.6562306000000004,
-      "total_tokens": 12838
     }
   ]
 }
