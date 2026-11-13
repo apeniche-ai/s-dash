@@ -173,10 +173,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-11-13T21:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 141.4,
+      "status": "success",
+      "summary": "Maren V0 didn't move today. 48 of 51 tickets are done, and the list is still the same 51 tickets, with none added or removed. I sent the Friday note to the assistant channel and Telegram confirmed it ",
+      "details": null,
+      "cost_usd": 0.7740036,
+      "total_tokens": 4781
     },
     {
       "agent": "pr-reviewer",
