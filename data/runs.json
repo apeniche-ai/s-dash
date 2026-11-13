@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-13T17:30:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 151.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5014 [6569] Add the Error Tracker empty state → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.2641034000000002,
+      "total_tokens": 6619
     },
     {
       "agent": "slack-watch",
