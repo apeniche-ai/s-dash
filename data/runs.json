@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-13T16:30:01Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-13T16:00:02Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4917,16 +4925,6 @@
       "details": null,
       "cost_usd": 1.7047454000000002,
       "total_tokens": 11098
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-10-30T13:00:01Z",
-      "duration_seconds": 73.2,
-      "status": "success",
-      "summary": "I didn't send a Telegram message today because no new PR is stuck.",
-      "details": null,
-      "cost_usd": 0.687916,
-      "total_tokens": 2354
     }
   ]
 }
