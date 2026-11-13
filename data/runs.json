@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-13T10:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-13T08:00:00Z",
       "duration_seconds": 114.2,
@@ -4933,17 +4941,6 @@
       "details": null,
       "cost_usd": 0.9119654000000001,
       "total_tokens": 6568
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-29T21:00:02Z",
-      "duration_seconds": 908.7,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code timed out after 900s"
-      ]
     }
   ]
 }
