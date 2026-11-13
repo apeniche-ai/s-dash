@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-13T13:30:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 328.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5019 [TTPAI-416] Admin AI Dashboard: the page, the menu item, and the Cost tab → Changes Requested (\"Updated\" time not in Pacific; 25 `font-family: Inter` lines against the ticket's f",
+      "details": null,
+      "cost_usd": 2.2638922,
+      "total_tokens": 15918
     },
     {
       "agent": "slack-watch",
