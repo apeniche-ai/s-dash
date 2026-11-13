@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-13T13:30:31Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-13T13:30:00Z",
       "duration_seconds": 29.7,
@@ -4929,16 +4937,6 @@
       "details": null,
       "cost_usd": 0.5620808,
       "total_tokens": 407
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-30T10:30:01Z",
-      "duration_seconds": 179.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4921 [TTPAI-357/377] Maren remembers student uploads, and image feedback stops overwriting chat records → Approved + Browser QA Skipped (local Rails bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.5790171999999998,
-      "total_tokens": 8310
     }
   ]
 }
