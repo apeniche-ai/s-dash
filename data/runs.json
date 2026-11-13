@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-13T16:00:02Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-13T15:30:02Z",
       "duration_seconds": 1.9,
       "status": "success",
@@ -4919,16 +4927,6 @@
       "details": null,
       "cost_usd": 0.687916,
       "total_tokens": 2354
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-30T12:30:30Z",
-      "duration_seconds": 340.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4939 [TTPAI-362] Draw GRE verbal settings per item from setting files and stops harder Text Completion adding a blank → Approved + Browser QA Skipped (config data only, local Rails bu",
-      "details": null,
-      "cost_usd": 1.6928311999999999,
-      "total_tokens": 10197
     }
   ]
 }
