@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-11-13T07:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-13T03:00:01Z",
       "duration_seconds": 22.4,
@@ -4934,16 +4942,6 @@
       "details": null,
       "cost_usd": 0.2469544,
       "total_tokens": 274
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-29T20:30:02Z",
-      "duration_seconds": 277.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4963 [TTPAI-384] Fix retries failed on-demand vector KB syncs and marks the record stale → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.4376220000000004,
-      "total_tokens": 7573
     }
   ]
 }
