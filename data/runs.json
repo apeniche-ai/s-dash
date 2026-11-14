@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-11-14T11:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-14T08:00:01Z",
       "duration_seconds": 104.7,
@@ -4901,16 +4909,6 @@
       "details": null,
       "cost_usd": 0.8686212,
       "total_tokens": 6346
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-10-30T20:30:24Z",
-      "duration_seconds": 212.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4902 [6510] Fixes New Example failing on factorial and permutation lessons → Approved + Browser QA Skipped (local Rails env missing gems)",
-      "details": null,
-      "cost_usd": 1.6936002000000001,
-      "total_tokens": 11177
     }
   ]
 }
