@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-11-14T07:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-14T03:00:01Z",
       "duration_seconds": 25.2,
@@ -4901,14 +4909,6 @@
       "details": null,
       "cost_usd": 0.2547746,
       "total_tokens": 304
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-10-30T20:15:01Z",
-      "duration_seconds": 0.8,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
