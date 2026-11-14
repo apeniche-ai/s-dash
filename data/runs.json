@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-14T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 76.2,
+      "status": "success",
+      "summary": "silent: the one new lead was Handshake AI's $150/hr engineering contract, and it's US-only with US work permission required and 40 hours a week. The other leads paid less than $150/hr at the bottom of",
+      "details": null,
+      "cost_usd": 0.9041450000000001,
+      "total_tokens": 3804
     },
     {
       "agent": "passive-income-research-loop",
