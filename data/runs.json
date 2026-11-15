@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-11-15T08:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-15T07:00:01Z",
       "duration_seconds": 60.7,
@@ -4905,16 +4913,6 @@
       "details": null,
       "cost_usd": 1.1128358,
       "total_tokens": 6898
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-10-31T07:00:00Z",
-      "duration_seconds": 59.8,
-      "status": "success",
-      "summary": "silent: I checked nothing new tonight because no planned re-check is due until Nov 10–20 and nothing new came up that was worth checking. There's still no word from Amaury on Mercor, micro1, Techstars",
-      "details": null,
-      "cost_usd": 0.7338532,
-      "total_tokens": 2740
     }
   ]
 }
