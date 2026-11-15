@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-11-15T07:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "side-income-analysis-(overnight)",
       "timestamp": "2026-11-15T06:00:00Z",
       "duration_seconds": 67.9,
@@ -4905,16 +4913,6 @@
       "details": null,
       "cost_usd": 0.7338532,
       "total_tokens": 2740
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-10-31T03:00:00Z",
-      "duration_seconds": 22.2,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.5610382,
-      "total_tokens": 393
     }
   ]
 }
