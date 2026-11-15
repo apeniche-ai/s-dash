@@ -181,10 +181,12 @@
     {
       "agent": "career-market-weekly-digest",
       "timestamp": "2026-11-15T23:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Career Market Weekly Digest...",
-      "details": null
+      "duration_seconds": 111.7,
+      "status": "success",
+      "summary": "I sent this week's career digest to Amaury on Telegram, in the assistant channel. That's the channel this job's instructions name and the one used last week. The agent's general rules say to use the c",
+      "details": null,
+      "cost_usd": 1.2349839999999996,
+      "total_tokens": 7287
     },
     {
       "agent": "maren-v0-launch-digest",
