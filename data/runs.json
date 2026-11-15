@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-15T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 60.7,
+      "status": "success",
+      "summary": "silent: the one new name I checked, Revelo (a Latin American developer marketplace), pays Colombian senior engineers about $34–43/hr, well under the $150 floor; nothing else was due to be checked befo",
+      "details": null,
+      "cost_usd": 0.9628754000000002,
+      "total_tokens": 2791
     },
     {
       "agent": "side-income-analysis-(overnight)",
