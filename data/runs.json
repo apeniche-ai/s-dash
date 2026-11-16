@@ -173,10 +173,12 @@
     {
       "agent": "weekly-coaching-digest",
       "timestamp": "2026-11-16T01:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Coaching Digest...",
-      "details": null
+      "duration_seconds": 61.7,
+      "status": "success",
+      "summary": "I didn't send Amaury a coaching digest this week (Nov 9–15). There was nothing from him to reflect back.",
+      "details": null,
+      "cost_usd": 0.6728344,
+      "total_tokens": 2029
     },
     {
       "agent": "passive-income-research-loop",
