@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-16T17:00:02Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-16T16:30:02Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4893,16 +4901,6 @@
       "details": null,
       "cost_usd": 1.1295755999999997,
       "total_tokens": 6729
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-02T15:30:02Z",
-      "duration_seconds": 258.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4973 [TTPAI-393] Fix lesson passages lost to the page budget and resending summarized turns → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.7328750000000004,
-      "total_tokens": 12644
     }
   ]
 }
