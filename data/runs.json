@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "weekly-goal-review",
+      "timestamp": "2026-11-16T14:06:55Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Weekly Goal Review...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-16T14:00:02Z",
       "duration_seconds": null,
@@ -4897,16 +4905,6 @@
       "details": null,
       "cost_usd": 0.2429462,
       "total_tokens": 385
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-02T13:30:01Z",
-      "duration_seconds": 233.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4951 [TTPAI-369] Maren support-only mode uses one continuous thread → Approved + Browser QA Skipped (missing local gems)",
-      "details": null,
-      "cost_usd": 1.6818017999999997,
-      "total_tokens": 10333
     }
   ]
 }
