@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-16T10:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-16T08:00:01Z",
       "duration_seconds": 100.4,
@@ -4905,16 +4913,6 @@
       "details": null,
       "cost_usd": 0.37207660000000004,
       "total_tokens": 371
-    },
-    {
-      "agent": "side-income-delivery-(morning)",
-      "timestamp": "2026-11-01T14:00:01Z",
-      "duration_seconds": 19.6,
-      "status": "success",
-      "summary": "nothing-queued",
-      "details": null,
-      "cost_usd": 0.4599478,
-      "total_tokens": 414
     }
   ]
 }
