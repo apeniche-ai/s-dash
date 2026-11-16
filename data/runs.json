@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-16T14:30:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 208.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5026 [6613] Duplicate a coupon and clearer coupon form summary → Changes Requested (code reuse for expired coupons is explicitly out of scope in TTP-6613; ships an unreviewed billing_",
+      "details": null,
+      "cost_usd": 1.5162892000000001,
+      "total_tokens": 11383
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
