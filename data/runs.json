@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-16T15:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 305.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5026 [6613] Duplicate a coupon and clearer coupon form summary → Approved + Browser QA Skipped (local bundle out of date)",
+      "details": null,
+      "cost_usd": 1.606164,
+      "total_tokens": 10349
     },
     {
       "agent": "pr-reviewer",
