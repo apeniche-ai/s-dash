@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-16T14:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-16T13:30:30Z",
       "duration_seconds": 831.7,
       "status": "success",
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 1.6818017999999997,
       "total_tokens": 10333
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-11-02T13:06:08Z",
-      "duration_seconds": 69.7,
-      "status": "success",
-      "summary": "I sent one Telegram message to the PR Reviews channel this morning, because a new PR is stuck.",
-      "details": null,
-      "cost_usd": 0.6824582,
-      "total_tokens": 2365
     }
   ]
 }
