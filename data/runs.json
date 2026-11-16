@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-16T21:30:01Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-16T21:03:21Z",
       "duration_seconds": 1.2,
       "status": "success",
@@ -4887,16 +4895,6 @@
       "details": null,
       "cost_usd": 0.7855700000000001,
       "total_tokens": 5373
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-02T20:30:36Z",
-      "duration_seconds": 353.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4926 [6541] Global billing panel across GMAT, GRE, EA and SAT → Approved + Browser QA Skipped (local env needs bundle install)",
-      "details": null,
-      "cost_usd": 1.8963305999999998,
-      "total_tokens": 11979
     }
   ]
 }
