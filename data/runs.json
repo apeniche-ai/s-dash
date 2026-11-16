@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-16T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 56.4,
+      "status": "success",
+      "summary": "silent: no check was due until the micro1 one on Nov 20, and Amaury hasn't said anything new about Mercor, micro1, Techstars or METR, so nothing was queued.",
+      "details": null,
+      "cost_usd": 0.5545312,
+      "total_tokens": 2254
     },
     {
       "agent": "passive-income-research-loop",
