@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-16T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 413.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5025 [TTPAI-419] Admin AI Dashboard: the Quality tab → Approved + Browser QA Skipped (local Rails can't start: gems missing, bundle install needed)",
+      "details": null,
+      "cost_usd": 2.4411601999999997,
+      "total_tokens": 18840
     },
     {
       "agent": "pr-reviewer",
