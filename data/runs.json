@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-16T15:30:01Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-16T15:00:01Z",
       "duration_seconds": 305.4,
       "status": "success",
@@ -4899,16 +4907,6 @@
       "details": null,
       "cost_usd": 0.3641932,
       "total_tokens": 383
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-02T14:30:01Z",
-      "duration_seconds": 322.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4971 [TTPAI-388] Fix summary and flashcard results settling another lesson's request (moved onto #4631) → Approved + Browser QA Skipped (missing local gems)",
-      "details": null,
-      "cost_usd": 1.4037368000000003,
-      "total_tokens": 9243
     }
   ]
 }
