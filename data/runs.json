@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-16T10:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 215.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5023 [6619] Fix five flaky specs and one spec that can never fail → Approved + Browser QA Skipped (spec-only)",
+      "details": null,
+      "cost_usd": 1.1931697999999997,
+      "total_tokens": 5686
     },
     {
       "agent": "pr-reviewer",
