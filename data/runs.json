@@ -173,10 +173,12 @@
     {
       "agent": "weekly-goal-review",
       "timestamp": "2026-11-16T14:06:55Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Goal Review...",
-      "details": null
+      "duration_seconds": 33.9,
+      "status": "success",
+      "summary": "I checked all three goals for this week's review. Nothing has changed since last Monday, so I didn't message Amaury. This is the fifth Monday in a row with no movement, and sending the same list again",
+      "details": null,
+      "cost_usd": 0.5404382,
+      "total_tokens": 1679
     },
     {
       "agent": "pr-reviewer",
