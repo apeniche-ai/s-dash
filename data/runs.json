@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-16T13:01:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 510.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5017 [TTPAI-400] Check a banked lesson summary when two students report it → Changes Requested (calls enqueue_resync, which only exists in unmerged #5000; turning the setting off leav",
+      "details": null,
+      "cost_usd": 2.7577701999999995,
+      "total_tokens": 23336
     },
     {
       "agent": "pr-follow-up-check",
