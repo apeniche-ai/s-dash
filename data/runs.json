@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-16T11:30:01Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 47 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-16T11:00:25Z",
       "duration_seconds": 1.8,
       "status": "success",
@@ -4903,16 +4911,6 @@
       "details": null,
       "cost_usd": 0.5643545999999999,
       "total_tokens": 518
-    },
-    {
-      "agent": "career-market-weekly-digest",
-      "timestamp": "2026-11-01T23:00:01Z",
-      "duration_seconds": 116.6,
-      "status": "success",
-      "summary": "I sent Amaury this week's career digest on Telegram. No daily research ran again this week, so I did it myself before writing the digest.",
-      "details": null,
-      "cost_usd": 1.2945678,
-      "total_tokens": 7684
     }
   ]
 }
