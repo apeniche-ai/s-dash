@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-16T18:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 289.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5011 [6607] {EXAM} Accounts billing page in the admin → Approved + Browser QA Skipped (local Rails env missing gems)",
+      "details": null,
+      "cost_usd": 1.746863,
+      "total_tokens": 10627
     },
     {
       "agent": "pr-reviewer",
