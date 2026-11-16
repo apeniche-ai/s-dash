@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-16T12:02:12Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 47 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "weekly-vp-performance-edge",
       "timestamp": "2026-11-16T12:00:01Z",
       "duration_seconds": 130.1,
@@ -4901,16 +4909,6 @@
       "details": null,
       "cost_usd": 0.8830137999999998,
       "total_tokens": 6478
-    },
-    {
-      "agent": "weekly-coaching-digest",
-      "timestamp": "2026-11-02T01:30:01Z",
-      "duration_seconds": 61.4,
-      "status": "success",
-      "summary": "I didn't send Amaury a coaching digest this week (Oct 26 – Nov 1). The rule is that a digest only goes out if he sent at least 2 real messages in the week, and he sent none.",
-      "details": null,
-      "cost_usd": 0.7137958000000001,
-      "total_tokens": 2590
     }
   ]
 }
