@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-16T11:00:25Z",
+      "duration_seconds": 1.8,
+      "status": "success",
+      "summary": "No PRs to review — 47 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-16T11:00:00Z",
       "duration_seconds": 22.7,
@@ -4905,16 +4913,6 @@
       "details": null,
       "cost_usd": 1.2945678,
       "total_tokens": 7684
-    },
-    {
-      "agent": "maren-v0-launch-digest",
-      "timestamp": "2026-11-01T21:00:00Z",
-      "duration_seconds": 68.9,
-      "status": "success",
-      "summary": "I didn't send a Maren V0 update today. It's Sunday, and nothing has changed since yesterday's check. I saved today's log.",
-      "details": null,
-      "cost_usd": 0.7258060000000001,
-      "total_tokens": 3715
     }
   ]
 }
