@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-16T13:30:30Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 831.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5024 [TTPAI-400] Rewrite a banked lesson summary the check found wrong and lets an admin restore it → Approved + Browser QA Skipped (local Rails can't start: gems missing, bundle inst",
+      "details": null,
+      "cost_usd": 2.6081681999999993,
+      "total_tokens": 19837
     },
     {
       "agent": "slack-watch",
