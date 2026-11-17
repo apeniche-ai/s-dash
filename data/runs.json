@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-17T17:30:29Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-17T17:30:01Z",
       "duration_seconds": 26.2,
@@ -4862,14 +4870,6 @@
       "details": null,
       "cost_usd": 0.2344716,
       "total_tokens": 267
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-11-03T17:15:01Z",
-      "duration_seconds": 0.8,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
