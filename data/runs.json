@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-11-17T17:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-11-17T17:15:01Z",
       "duration_seconds": 1.4,
@@ -4860,16 +4868,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-03T17:00:02Z",
-      "duration_seconds": 262.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4931 [TTPAI-368][6476][6563][6547][6475][6493] Fix chapter test result cards, the Study Plan calendar opening on next week, the weakest topics review test filter, the Visual Learning ",
-      "details": null,
-      "cost_usd": 1.373719,
-      "total_tokens": 8177
     }
   ]
 }
