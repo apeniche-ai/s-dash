@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-17T15:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 279.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5028 [Snyk] Security upgrade bootsnap from 1.23.0 to 1.24.0 → Changes Requested (Gemfile.lock not updated so every CI job fails at bundle install; msgpack stays at vulnerable 1.8.0) +",
+      "details": null,
+      "cost_usd": 1.1544936000000001,
+      "total_tokens": 6898
     },
     {
       "agent": "pr-reviewer",
