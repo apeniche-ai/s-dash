@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-11-17T17:15:01Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-17T17:00:01Z",
       "duration_seconds": 1.1,
@@ -4862,16 +4870,6 @@
       "details": null,
       "cost_usd": 1.373719,
       "total_tokens": 8177
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-03T16:30:02Z",
-      "duration_seconds": 298.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4976 [TTPAI-389] Fix Maren Retry dropping the uploaded file → Approved + Browser QA Skipped (local repo has uncommitted changes on another branch)",
-      "details": null,
-      "cost_usd": 1.8210460000000006,
-      "total_tokens": 12661
     }
   ]
 }
