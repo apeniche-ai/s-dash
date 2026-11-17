@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-11-17T12:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-17T12:00:02Z",
       "duration_seconds": 1.1,
@@ -4877,16 +4885,6 @@
       "details": null,
       "cost_usd": 1.4897716,
       "total_tokens": 8659
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-03T11:00:23Z",
-      "duration_seconds": 227.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4921 [TTPAI-357/377/383/384/375/386] Maren remembers student uploads, lesson sync keeps edits, figure descriptions match the current image → Approved + Browser QA Skipped (local check",
-      "details": null,
-      "cost_usd": 1.4434078000000001,
-      "total_tokens": 8713
     }
   ]
 }
