@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-17T11:30:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-17T11:00:26Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4881,16 +4889,6 @@
       "details": null,
       "cost_usd": 0.5525802000000001,
       "total_tokens": 285
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-03T10:30:01Z",
-      "duration_seconds": 210.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4919 [6420][6421] Add the GRE and EA versions of the Score Analyzer form → Approved + Browser QA Skipped (local checkout has uncommitted work on another branch) (⚠️ no Jira context)",
-      "details": null,
-      "cost_usd": 1.2243616000000002,
-      "total_tokens": 7685
     }
   ]
 }
