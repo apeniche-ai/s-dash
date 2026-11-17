@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-17T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 84.3,
+      "status": "success",
+      "summary": "silent: both Colombian government AI expert calls I checked are long closed (one from January 2024, one from 2019), and the next scheduled check is micro1 on Nov 20.",
+      "details": null,
+      "cost_usd": 1.1194986,
+      "total_tokens": 3817
     },
     {
       "agent": "passive-income-research-loop",
