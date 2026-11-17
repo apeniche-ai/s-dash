@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-17T17:00:01Z",
+      "duration_seconds": 1.1,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-17T16:30:02Z",
       "duration_seconds": 1.4,
       "status": "success",
@@ -4864,16 +4872,6 @@
       "details": null,
       "cost_usd": 1.8210460000000006,
       "total_tokens": 12661
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-03T16:00:02Z",
-      "duration_seconds": 264.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4959 [6038] Restores Recurly's production billing emails in BillingCore → Approved + Browser QA Skipped (Rails gems missing in ~/Desktop/ttp) (⚠️ no Jira context)",
-      "details": null,
-      "cost_usd": 1.4244686000000002,
-      "total_tokens": 9770
     }
   ]
 }
