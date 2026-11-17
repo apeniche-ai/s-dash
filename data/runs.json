@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-17T10:30:03Z",
+      "duration_seconds": 2.1,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-17T10:00:02Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4885,16 +4893,6 @@
       "details": null,
       "cost_usd": 1.0902211999999998,
       "total_tokens": 5947
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-11-03T07:00:01Z",
-      "duration_seconds": 54.5,
-      "status": "success",
-      "summary": "silent: Toloka's one Latin America freelance role (an AI data consulting job) lists no pay and is set up as a full-time job, and every other freelance role there asks for 40 hours a week, so nothing w",
-      "details": null,
-      "cost_usd": 0.87358,
-      "total_tokens": 3269
     }
   ]
 }
