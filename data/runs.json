@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-17T16:00:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-17T15:30:03Z",
       "duration_seconds": 279.3,
       "status": "success",
@@ -4869,16 +4877,6 @@
       "errors": [
         "Claude Code timed out after 900s"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-03T15:00:01Z",
-      "duration_seconds": 295.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4951 [TTPAI-369/393] Maren support-only mode uses one thread, keeps cut lesson passages and stops resending summarized turns → Approved + Browser QA Skipped (local repo has uncommitte",
-      "details": null,
-      "cost_usd": 1.6969426000000005,
-      "total_tokens": 10946
     }
   ]
 }
