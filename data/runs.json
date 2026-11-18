@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-11-18T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-18T12:30:19Z",
       "duration_seconds": 211.3,
@@ -4856,16 +4864,6 @@
       "details": null,
       "cost_usd": 0.7206122,
       "total_tokens": 2015
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-04T12:30:32Z",
-      "duration_seconds": 326.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4931 [TTPAI-368][6476][6563][6547][6475][6493] Fix chapter test result cards, the Study Plan calendar opening on next week, the weakest topics review test filter, the Visual Learning ",
-      "details": null,
-      "cost_usd": 1.455987,
-      "total_tokens": 10489
     }
   ]
 }
