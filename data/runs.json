@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-18T14:30:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 240.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5025 [TTPAI-419] Admin AI Dashboard: the Quality tab → Approved + Browser QA Skipped (local Rails bundle missing gems) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.2515632,
+      "total_tokens": 7723
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
