@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-18T18:30:02Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-18T18:00:02Z",
       "duration_seconds": 1.6,
       "status": "success",
@@ -4845,16 +4853,6 @@
       "details": null,
       "cost_usd": 1.2173048,
       "total_tokens": 6287
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-04T18:00:02Z",
-      "duration_seconds": 306.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4977 [6572] Card testing protection for the self-managed checkout → Changes Requested (a guest can lock a real customer out of checkout for 24h by typing their email) + Browser QA Ski",
-      "details": null,
-      "cost_usd": 2.0093426,
-      "total_tokens": 19031
     }
   ]
 }
