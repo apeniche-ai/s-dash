@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-18T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 46.4,
+      "status": "success",
+      "summary": "silent: Colombia's science ministry (Minciencias) currently lists only funding calls for research institutions, most already closed, and no paid roles for individual experts. Nothing was queued, and t",
+      "details": null,
+      "cost_usd": 0.649109,
+      "total_tokens": 2116
     },
     {
       "agent": "passive-income-research-loop",
