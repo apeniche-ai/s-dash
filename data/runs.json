@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-11-18T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-18T12:00:02Z",
       "duration_seconds": 244.6,
@@ -4856,16 +4864,6 @@
       "details": null,
       "cost_usd": 0.3015474,
       "total_tokens": 1388
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-04T12:00:02Z",
-      "duration_seconds": 195.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4881 [6335] Add LiveTeach modal template with dynamic cohort data → Approved + Browser QA Skipped (local Rails bundle is missing gems)",
-      "details": null,
-      "cost_usd": 1.2002858,
-      "total_tokens": 6933
     }
   ]
 }
