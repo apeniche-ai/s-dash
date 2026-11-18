@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-18T12:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 244.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5029 [TTPAI-417] Fix GRE problem solving bank questions rejected for wrong option count → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.3040548,
+      "total_tokens": 7030
     },
     {
       "agent": "pr-reviewer",
