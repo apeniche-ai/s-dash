@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-18T10:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 244.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5019 [TTPAI-416] Admin AI Dashboard: the page, the menu item, and the Cost tab → Changes Requested (PR description still empty, which the ticket's acceptance criteria require) + Brows",
+      "details": null,
+      "cost_usd": 1.3261322,
+      "total_tokens": 7237
     },
     {
       "agent": "pr-reviewer",
