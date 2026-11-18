@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-11-18T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-18T20:30:28Z",
       "duration_seconds": 1.6,
@@ -4835,16 +4843,6 @@
       "details": null,
       "cost_usd": 0.8508085999999999,
       "total_tokens": 5706
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-04T20:30:32Z",
-      "duration_seconds": 787.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4983 [6038] Show description, customer name and subscription number on Stripe payments → Approved + Browser QA Skipped (local env can't boot Rails)",
-      "details": null,
-      "cost_usd": 1.7039229999999992,
-      "total_tokens": 1809
     }
   ]
 }
