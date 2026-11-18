@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-18T13:01:33Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-11-18T13:00:01Z",
       "duration_seconds": 90.9,
@@ -4856,16 +4864,6 @@
       "details": null,
       "cost_usd": 1.4751916000000003,
       "total_tokens": 8712
-    },
-    {
-      "agent": "pr-follow-up-check",
-      "timestamp": "2026-11-04T13:00:01Z",
-      "duration_seconds": 71.6,
-      "status": "success",
-      "summary": "I didn't send a Telegram message this morning because no new pull request (PR) has become stuck.",
-      "details": null,
-      "cost_usd": 0.7206122,
-      "total_tokens": 2015
     }
   ]
 }
