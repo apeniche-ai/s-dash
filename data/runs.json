@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-11-18T07:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-18T03:00:01Z",
       "duration_seconds": 23.7,
@@ -4856,16 +4864,6 @@
       "details": null,
       "cost_usd": 0.5489984,
       "total_tokens": 167
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-11-04T02:30:01Z",
-      "duration_seconds": 12.5,
-      "status": "success",
-      "summary": "I ran tonight's goal check at 9:30 PM and no tasks changed, so I didn't send Amaury a message. Every task was either already done or had nothing new to update it.",
-      "details": null,
-      "cost_usd": 0.36821740000000003,
-      "total_tokens": 208
     }
   ]
 }
