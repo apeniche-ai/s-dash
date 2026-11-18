@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-18T22:30:01Z",
+      "duration_seconds": 1.4,
+      "status": "success",
+      "summary": "No PRs to review — 49 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-18T22:00:02Z",
       "duration_seconds": 1.4,
       "status": "success",
@@ -4833,16 +4841,6 @@
       "status": "success",
       "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-04T22:00:02Z",
-      "duration_seconds": 437.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4977 [6572] Card testing protection for the self-managed checkout → Changes Requested (opening the add-a-card form 5 times blocks a signed-in student from buying for 24h; wrong \"wait ",
-      "details": null,
-      "cost_usd": 2.4389364,
-      "total_tokens": 25066
     }
   ]
 }
