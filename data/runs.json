@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-18T15:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 389.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5032 [6612] Closes four gaps of the Recurly accounts migration → Changes Requested (a held PayPal charge can be resent to a card, a reused Stripe payment isn't checked against the amo",
+      "details": null,
+      "cost_usd": 2.0269003999999997,
+      "total_tokens": 18630
     },
     {
       "agent": "pr-reviewer",
