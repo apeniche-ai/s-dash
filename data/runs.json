@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-18T08:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 107.1,
+      "status": "success",
+      "summary": "I scanned 7 working sources: Hacker News Show HN, Ask HN and front page, Lobsters, and the Anthropic, OpenAI and Google changelogs. None of the 7 candidates passed the filter, so I wrote no findings t",
+      "details": null,
+      "cost_usd": 1.0804532,
+      "total_tokens": 6167
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
