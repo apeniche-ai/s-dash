@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-18T18:00:02Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-18T17:30:29Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4847,16 +4855,6 @@
       "details": null,
       "cost_usd": 2.0093426,
       "total_tokens": 19031
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-04T17:30:31Z",
-      "duration_seconds": 162.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4940 [TTPAI-389][6525] Add Chat History and Bookmark Library to Maren, and fix Retry dropping the uploaded file → Approved + Browser QA Skipped (local Rails bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.3953872,
-      "total_tokens": 7754
     }
   ]
 }
