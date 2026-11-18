@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-11-18T20:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-18T20:00:02Z",
       "duration_seconds": 2.0,
@@ -4837,16 +4845,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-04T20:00:01Z",
-      "duration_seconds": 252.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4982 [6576] Delete a student's Score Analyzer submission from the admin users table → Approved + Browser QA Skipped (local env can't boot Rails)",
-      "details": null,
-      "cost_usd": 1.3719092000000002,
-      "total_tokens": 7839
     }
   ]
 }
