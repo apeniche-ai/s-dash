@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-18T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 303.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5027 [6612] Migrates the accounts still live at Recurly to BillingCore → Approved + Browser QA Skipped (local Rails setup still missing gems)",
+      "details": null,
+      "cost_usd": 1.9200637999999999,
+      "total_tokens": 13824
     },
     {
       "agent": "pr-reviewer",
