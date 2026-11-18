@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-11-18T19:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-18T18:30:02Z",
       "duration_seconds": 1.4,
@@ -4843,16 +4851,6 @@
       "details": null,
       "cost_usd": 0.5568826,
       "total_tokens": 410
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-04T18:30:02Z",
-      "duration_seconds": 632.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4978 [TTPAI-397] Fix the multi-source generator never seeing the base item tab text → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.2173048,
-      "total_tokens": 6287
     }
   ]
 }
