@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-delivery-(morning)",
+      "timestamp": "2026-11-18T14:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Delivery (morning)...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-11-18T14:15:02Z",
       "duration_seconds": 1.2,
@@ -4849,14 +4857,6 @@
       "details": null,
       "cost_usd": 1.2459716,
       "total_tokens": 7380
-    },
-    {
-      "agent": "admissions-pr-reviewer",
-      "timestamp": "2026-11-04T14:15:10Z",
-      "duration_seconds": 0.9,
-      "status": "success",
-      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
-      "details": null
     }
   ]
 }
