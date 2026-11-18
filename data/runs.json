@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-18T10:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 242.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4911 [6524] Score Analyzer: clearer reports with a Claude draft, a GPT writer and a Claude check → Approved + Browser QA Skipped (local Rails environment can't boot — missing gems, ne",
+      "details": null,
+      "cost_usd": 1.4230648000000001,
+      "total_tokens": 7513
     },
     {
       "agent": "passive-income-discovery-scan",
