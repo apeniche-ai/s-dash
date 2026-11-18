@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-18T11:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-18T11:00:23Z",
       "duration_seconds": 411.4,
       "status": "success",
@@ -4856,16 +4864,6 @@
       "details": null,
       "cost_usd": 2.0276928,
       "total_tokens": 15044
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-04T11:00:25Z",
-      "duration_seconds": 349.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4921 [TTPAI-357/377/383/384/375/386] Chatbot remembers student uploads, lesson sync keeps edits, figure descriptions match the current image → Approved + Browser QA Skipped (local bun",
-      "details": null,
-      "cost_usd": 1.5925466,
-      "total_tokens": 9194
     }
   ]
 }
