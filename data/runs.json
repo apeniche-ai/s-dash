@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-19T12:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 306.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5033 [TTPAI-410] Take reported questions out of practice → Changes Requested (a Wrong Answer report on one question of a live reading-comprehension passage doesn't stop the drain, so ",
+      "details": null,
+      "cost_usd": 1.9082523999999998,
+      "total_tokens": 14609
     },
     {
       "agent": "pr-reviewer",
