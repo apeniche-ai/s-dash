@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-11-19T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-19T12:30:17Z",
       "duration_seconds": 408.9,
@@ -4827,16 +4835,6 @@
       "details": null,
       "cost_usd": 0.642144,
       "total_tokens": 1848
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-05T12:30:34Z",
-      "duration_seconds": 298.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4985 [TTPAI-404] Stop chat reaching content outside the student's track → Changes Requested (server-side chat gate skips exercise-only chats with no lesson_id) + Browser QA Skipped (l",
-      "details": null,
-      "cost_usd": 1.6095488000000002,
-      "total_tokens": 12286
     }
   ]
 }
