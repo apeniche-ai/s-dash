@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-19T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 131.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5035 [TTP-6622] Replace the new example loader → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.2951957999999997,
+      "total_tokens": 5903
     },
     {
       "agent": "pr-reviewer",
