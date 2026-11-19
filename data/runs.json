@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-19T19:00:26Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-19T19:00:01Z",
       "duration_seconds": 23.7,
@@ -4821,16 +4829,6 @@
       "status": "success",
       "summary": "No PRs to review — 48 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-05T19:00:23Z",
-      "duration_seconds": 354.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4990 [6572] Card testing protection follow-ups (R-13 to R-27) → Changes Requested (the new reCAPTCHA skip doesn't check the payment provider, so sending PayPal on a stale pass opens n",
-      "details": null,
-      "cost_usd": 1.9007573999999998,
-      "total_tokens": 15891
     }
   ]
 }
