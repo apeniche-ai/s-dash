@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-19T13:30:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 353.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5024 [TTPAI-400] Rewrite a banked lesson summary the check found wrong → Changes Requested (AC-A0 160-item quality runs not reported; PR description still empty) + Browser QA Skipped ",
+      "details": null,
+      "cost_usd": 1.9841645999999995,
+      "total_tokens": 15771
     },
     {
       "agent": "slack-watch",
