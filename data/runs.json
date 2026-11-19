@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-19T15:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 297.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5036 [6621] Swap GRE and SAT Step 1 illustration topic → Approved + Browser QA Skipped (local gems missing, needs bundle install; local app runs as GMAT only)",
+      "details": null,
+      "cost_usd": 1.4137336,
+      "total_tokens": 8674
     },
     {
       "agent": "pr-reviewer",
