@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-19T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 235.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5019 [TTPAI-416/419] Admin AI Dashboard: Cost & Quality Tabs → Changes Requested (PR description still empty; the code fix for reports corrected after a retry is verified) + Browser Q",
+      "details": null,
+      "cost_usd": 1.3212034,
+      "total_tokens": 6641
     },
     {
       "agent": "pr-reviewer",
