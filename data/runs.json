@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-19T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 60.1,
+      "status": "success",
+      "summary": "silent — tonight was a planned pause, since every research area already has a set date for its next check. The only check I ran was his conversation history, and Amaury hasn't written about Mercor, mi",
+      "details": null,
+      "cost_usd": 0.7251837999999999,
+      "total_tokens": 2326
     },
     {
       "agent": "passive-income-research-loop",
