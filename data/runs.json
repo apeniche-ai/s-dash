@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-19T16:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 190.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5024 [TTPAI-400] Rewrite a banked lesson summary the check found wrong → Approved + Browser QA Skipped (local gems missing, needs bundle install)",
+      "details": null,
+      "cost_usd": 1.5311284,
+      "total_tokens": 8229
     },
     {
       "agent": "pr-reviewer",
