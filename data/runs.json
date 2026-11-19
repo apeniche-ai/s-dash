@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "maren-v0-launch-digest",
+      "timestamp": "2026-11-19T21:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Maren V0 Launch Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-19T20:30:30Z",
       "duration_seconds": 1.7,
@@ -4821,16 +4829,6 @@
       "status": "success",
       "summary": "No PRs to review — 48 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "maren-v0-launch-digest",
-      "timestamp": "2026-11-05T21:00:02Z",
-      "duration_seconds": 112.1,
-      "status": "success",
-      "summary": "I sent today's Maren V0 update to the assistant channel and saved the log.",
-      "details": null,
-      "cost_usd": 0.8053674000000002,
-      "total_tokens": 4805
     }
   ]
 }
