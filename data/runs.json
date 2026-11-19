@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-11-19T12:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-19T12:00:01Z",
       "duration_seconds": 306.1,
@@ -4827,16 +4835,6 @@
       "details": null,
       "cost_usd": 0.30522019999999994,
       "total_tokens": 1159
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-05T12:00:02Z",
-      "duration_seconds": 258.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4932 [6520] Lesson page header redesign and Lesson Tools → Approved + Browser QA Skipped (local env missing gems) (⚠️ no Jira context)",
-      "details": null,
-      "cost_usd": 1.3385630000000004,
-      "total_tokens": 7479
     }
   ]
 }
