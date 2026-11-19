@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-19T14:30:24Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-delivery-(morning)",
       "timestamp": "2026-11-19T14:30:00Z",
       "duration_seconds": 23.0,
@@ -4827,16 +4835,6 @@
       "details": null,
       "cost_usd": 0.38446,
       "total_tokens": 642
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-05T14:30:03Z",
-      "duration_seconds": 297.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4984 [TTPAI-399] Give the coach the student's weekly progress history → Approved + Browser QA Skipped (local Rails gems missing; prompt-only change) (⚠️ no Jira context)",
-      "details": null,
-      "cost_usd": 1.5242666000000005,
-      "total_tokens": 8672
     }
   ]
 }
