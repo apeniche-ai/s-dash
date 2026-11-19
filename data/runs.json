@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-11-19T14:15:01Z",
+      "duration_seconds": 1.2,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-19T14:00:02Z",
       "duration_seconds": 235.6,
@@ -4827,16 +4835,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-05T14:00:02Z",
-      "duration_seconds": 231.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4987 [TTPAI-398] Fix graphics interpretation bank items built on a practice problem failing to save → Changes Requested (practice-problem items still skip the per-lesson generation li",
-      "details": null,
-      "cost_usd": 1.6512533999999996,
-      "total_tokens": 13339
     }
   ]
 }
