@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-19T12:30:17Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-11-19T12:30:01Z",
       "duration_seconds": 14.8,
@@ -4827,16 +4835,6 @@
       "details": null,
       "cost_usd": 1.6095488000000002,
       "total_tokens": 12286
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-11-05T12:30:00Z",
-      "duration_seconds": 32.6,
-      "status": "success",
-      "summary": "I sent today's digest to the assistant channel. It lists the same three open MentalTune items as yesterday, all under \"No deadline\":",
-      "details": null,
-      "cost_usd": 0.30522019999999994,
-      "total_tokens": 1159
     }
   ]
 }
