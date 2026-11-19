@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-19T16:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-19T15:30:01Z",
       "duration_seconds": 297.0,
       "status": "success",
@@ -4827,16 +4835,6 @@
       "details": null,
       "cost_usd": 1.4211903999999997,
       "total_tokens": 8764
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-05T15:30:02Z",
-      "duration_seconds": 331.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4977 [6572] Card testing protection for the self-managed checkout → Changes Requested (Stripe-hosted $0 card form gets around the card-save limit) + Browser QA Skipped (local Rails ge",
-      "details": null,
-      "cost_usd": 2.5502736000000006,
-      "total_tokens": 20154
     }
   ]
 }
