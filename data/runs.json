@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-19T11:00:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 185.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5019 [TTPAI-416/419] Admin AI Dashboard: Cost & Quality Tabs → Changes Requested (PR description still empty, third time asked; Score Analyzer rows count tries instead of reports) + B",
+      "details": null,
+      "cost_usd": 1.6770644,
+      "total_tokens": 10155
     },
     {
       "agent": "passive-income-research-loop",
