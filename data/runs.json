@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-19T17:00:02Z",
+      "duration_seconds": 1.7,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-19T16:30:01Z",
       "duration_seconds": 1.4,
       "status": "success",
@@ -4825,16 +4833,6 @@
       "status": "success",
       "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-05T17:00:01Z",
-      "duration_seconds": 144.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4989 [TTPAI-409] Fix concept masteries bookmark tab hiding, and header tab scroll on desktop → Approved + Browser QA Skipped (local Rails bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.3219322000000002,
-      "total_tokens": 6254
     }
   ]
 }
