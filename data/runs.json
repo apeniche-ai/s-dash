@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-19T11:30:01Z",
+      "duration_seconds": 1.3,
+      "status": "success",
+      "summary": "No PRs to review — 49 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-19T11:00:26Z",
       "duration_seconds": 185.4,
       "status": "success",
@@ -4829,16 +4837,6 @@
       "details": null,
       "cost_usd": 1.5224297999999998,
       "total_tokens": 8855
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-05T11:00:20Z",
-      "duration_seconds": 269.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4984 [TTPAI-399] Give the coach the student's weekly progress history → Approved + Browser QA Skipped (local env missing gems)",
-      "details": null,
-      "cost_usd": 1.70845,
-      "total_tokens": 9632
     }
   ]
 }
