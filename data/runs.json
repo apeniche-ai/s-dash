@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-20T22:00:02Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-20T21:30:02Z",
       "duration_seconds": 1.1,
       "status": "success",
@@ -4815,16 +4823,6 @@
       "status": "success",
       "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-06T22:00:01Z",
-      "duration_seconds": 226.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4977 [6572] Card testing protection for the self-managed checkout → Approved + Browser QA Skipped (local Rails bundle broken)",
-      "details": null,
-      "cost_usd": 1.3435328000000002,
-      "total_tokens": 7019
     }
   ]
 }
