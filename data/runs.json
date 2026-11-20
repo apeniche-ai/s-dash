@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-20T17:30:29Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-20T17:30:00Z",
       "duration_seconds": 27.2,
@@ -4819,16 +4827,6 @@
       "details": null,
       "cost_usd": 1.1557572,
       "total_tokens": 5660
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-06T17:30:39Z",
-      "duration_seconds": 219.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4977 [6572] Card testing protection for the self-managed checkout → Approved + Browser QA Skipped (local Rails env blocked)",
-      "details": null,
-      "cost_usd": 1.6713841999999999,
-      "total_tokens": 11534
     }
   ]
 }
