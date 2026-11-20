@@ -173,10 +173,12 @@
     {
       "agent": "performance-check-in-(fri)",
       "timestamp": "2026-11-20T11:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Performance Check-in (Fri)...",
-      "details": null
+      "duration_seconds": 75.1,
+      "status": "success",
+      "summary": "I sent Amaury his Friday coaching note in the Coaching channel, and Telegram confirmed it was delivered.",
+      "details": null,
+      "cost_usd": 0.8784636,
+      "total_tokens": 3819
     },
     {
       "agent": "pr-reviewer",
