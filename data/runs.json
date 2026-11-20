@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-20T12:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 310.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5039 [TTPAI-424] Check the teaching in verbal solutions → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.8785483999999997,
+      "total_tokens": 12815
     },
     {
       "agent": "pr-reviewer",
