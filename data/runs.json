@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-20T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 160.4,
+      "status": "success",
+      "summary": "silent — micro1's live job board (386 listings, checked tonight) has no engineering role paying $150+/hr; its software roles now pay $50–100/hr.",
+      "details": null,
+      "cost_usd": 1.340376,
+      "total_tokens": 7797
     },
     {
       "agent": "passive-income-research-loop",
