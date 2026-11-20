@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-20T19:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Research Loop...",
-      "details": null
+      "duration_seconds": 23.9,
+      "status": "success",
+      "summary": "The five \"new candidates\" are just the nightly scan reports for Nov 16–20, and every one of them wrote zero findings. The state memory is healthy (4 days old), and both MentalTune threads are still wa",
+      "details": null,
+      "cost_usd": 0.5610046000000001,
+      "total_tokens": 350
     },
     {
       "agent": "pr-reviewer",
