@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-20T10:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-20T10:00:02Z",
       "duration_seconds": 281.2,
       "status": "success",
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 0.5591088,
       "total_tokens": 364
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-06T10:30:02Z",
-      "duration_seconds": 404.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339/356/362/364/365/366] Exercise bank generation improvements: Batch API, one run plan, and checks for every question type → Changes Requested (reading comprehension stil",
-      "details": null,
-      "cost_usd": 2.6893092,
-      "total_tokens": 20837
     }
   ]
 }
