@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-20T11:31:17Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 360.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5037 [6624] Some billing plans renew or end differently than they did in Recurly → Changes Requested (data migration drops the unpaid payments on live OnDemand monthly subscriptions) ",
+      "details": null,
+      "cost_usd": 1.9599932000000002,
+      "total_tokens": 18094
     },
     {
       "agent": "performance-check-in-(fri)",
