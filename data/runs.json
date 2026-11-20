@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-20T10:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-20T08:00:00Z",
       "duration_seconds": 125.8,
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 2.6893092,
       "total_tokens": 20837
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-06T10:00:02Z",
-      "duration_seconds": 386.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4991 [TTPAI-228] Corrects the support and product KB to what master ships → Changes Requested (the KB undercounts the trial allowance, because Summarize and Flashcards taps also count",
-      "details": null,
-      "cost_usd": 2.4744423999999996,
-      "total_tokens": 17578
     }
   ]
 }
