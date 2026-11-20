@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-20T18:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 493.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4631 [TTPAI-76/15/140/22] Agentic Chatbot: Persistent Sessions, Study Tools, All-Exam Launch and Cost Tracking → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 2.0444667999999995,
+      "total_tokens": 13662
     },
     {
       "agent": "pr-reviewer",
