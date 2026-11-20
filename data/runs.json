@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-11-20T08:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-20T07:00:01Z",
       "duration_seconds": 160.4,
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 2.4744423999999996,
       "total_tokens": 17578
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-11-06T08:00:01Z",
-      "duration_seconds": 87.9,
-      "status": "success",
-      "summary": "I scanned 10 sources and wrote 0 findings: none of the 6 possible ideas passed the filter. The strongest signal was this week's Rails security wave (21 fixes, and Rails 8.0 security support ends Nov 7",
-      "details": null,
-      "cost_usd": 0.9095224,
-      "total_tokens": 5202
     }
   ]
 }
