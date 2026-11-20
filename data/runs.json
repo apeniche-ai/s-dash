@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-20T19:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 269.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5045 [6646] Charge monthly OnDemand plans full price, one month per payment → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.3746203999999995,
+      "total_tokens": 9140
     },
     {
       "agent": "pr-reviewer",
