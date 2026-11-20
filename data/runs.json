@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-20T12:00:03Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-20T11:31:17Z",
       "duration_seconds": 360.7,
       "status": "success",
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 0.3020718,
       "total_tokens": 1392
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-06T12:00:02Z",
-      "duration_seconds": 280.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4881 [6335] Add LiveTeach modal template with dynamic cohort data → Approved + Browser QA Skipped (local gems out of date, needs `bundle install`)",
-      "details": null,
-      "cost_usd": 1.8379434,
-      "total_tokens": 11462
     }
   ]
 }
