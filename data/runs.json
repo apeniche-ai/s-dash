@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "performance-check-in-(fri)",
+      "timestamp": "2026-11-20T11:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Performance Check-in (Fri)...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-20T11:00:25Z",
       "duration_seconds": 285.8,
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 0.8270612,
       "total_tokens": 3762
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-06T11:30:01Z",
-      "duration_seconds": 262.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4931 [TTPAI-368/409][6476][6563][6547][6475][6493] Fix chapter test result cards, the Study Plan calendar opening on next week, the weakest topics review test filter, the Visual Learn",
-      "details": null,
-      "cost_usd": 1.681909,
-      "total_tokens": 10390
     }
   ]
 }
