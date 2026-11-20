@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-20T14:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 230.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5038 [6625] Fixes the $0.00 plan price on Manage subscription after a Recurly migration → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.2483056,
+      "total_tokens": 6889
     },
     {
       "agent": "pr-reviewer",
