@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-21T08:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 125.6,
+      "status": "success",
+      "summary": "I checked 10 sources and 9 worked. Six possible ideas came up and none passed the filter, so I wrote no findings. The closest was Rails developers having trouble testing Hotwire pages, but two free to",
+      "details": null,
+      "cost_usd": 1.3158623999999997,
+      "total_tokens": 6144
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
