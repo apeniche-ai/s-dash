@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-21T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 70.4,
+      "status": "success",
+      "summary": "silent — no check is due before the Mercor job-board check on Dec 1, and Amaury hasn't sent any new updates since Sep 15.",
+      "details": null,
+      "cost_usd": 0.869315,
+      "total_tokens": 3172
     },
     {
       "agent": "passive-income-research-loop",
