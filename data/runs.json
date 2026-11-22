@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-22T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 71.5,
+      "status": "success",
+      "summary": "silent: there's nothing to send Amaury. Medellín has no investor or tech-leader event in December he could register for. Smart Capital, the one candidate, appears to have already happened, and the cit",
+      "details": null,
+      "cost_usd": 0.9302054000000001,
+      "total_tokens": 3634
     },
     {
       "agent": "side-income-analysis-(overnight)",
