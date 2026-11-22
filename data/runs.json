@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-22T08:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 167.2,
+      "status": "success",
+      "summary": "I tried 10 sources and 8 worked. Six possible ideas came up and none passed the filter, so I wrote no findings. The strongest one was five Hacker News posts about AI providers leaking users' prompts. ",
+      "details": null,
+      "cost_usd": 1.2235061999999999,
+      "total_tokens": 10067
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
