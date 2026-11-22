@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-11-22T03:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "goal-progress-reconciliation",
       "timestamp": "2026-11-22T02:30:01Z",
       "duration_seconds": 13.1,
@@ -4813,16 +4821,6 @@
       "details": null,
       "cost_usd": 0.6797404,
       "total_tokens": 1914
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-11-08T03:00:01Z",
-      "duration_seconds": 21.6,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.5574224,
-      "total_tokens": 242
     }
   ]
 }
