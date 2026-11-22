@@ -173,10 +173,12 @@
     {
       "agent": "side-income-analysis-(overnight)",
       "timestamp": "2026-11-22T06:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Side-Income Analysis (overnight)...",
-      "details": null
+      "duration_seconds": 71.0,
+      "status": "success",
+      "summary": "silent — nothing has changed in 16 weeks: still $0, no reply to the Oct 11 keep-or-stop message, and the dollar is roughly 3,300–3,356 pesos, under 3% from last week's 3,297. Nothing is queued for the",
+      "details": null,
+      "cost_usd": 0.73746,
+      "total_tokens": 2478
     },
     {
       "agent": "passive-income-research-loop",
