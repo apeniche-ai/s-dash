@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-23T15:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 214.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5048 [TTPAI-432] Falls back to the default time zone when a user has none → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.0460353999999998,
+      "total_tokens": 4582
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
