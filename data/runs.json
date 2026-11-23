@@ -173,10 +173,12 @@
     {
       "agent": "weekly-team-shipping-report",
       "timestamp": "2026-11-23T12:45:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Weekly Team Shipping Report...",
-      "details": null
+      "duration_seconds": 106.3,
+      "status": "success",
+      "summary": "I sent this week's shipping report (Nov 16–23) to the Team Intel channel, and Telegram confirmed it arrived.",
+      "details": null,
+      "cost_usd": 0.8685470000000001,
+      "total_tokens": 8910
     },
     {
       "agent": "daily-todo-digest",
