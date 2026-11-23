@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-23T22:30:02Z",
+      "duration_seconds": 1.9,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-23T22:00:02Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4819,16 +4827,6 @@
       "details": null,
       "cost_usd": 0.55181,
       "total_tokens": 164
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-09T22:30:01Z",
-      "duration_seconds": 252.0,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4878 [TTPAI-345] Add Maren's dashboard insight note from the student's last study session → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.5430626,
-      "total_tokens": 9838
     }
   ]
 }
