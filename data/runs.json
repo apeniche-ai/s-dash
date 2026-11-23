@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-11-23T07:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-23T03:00:01Z",
       "duration_seconds": 19.7,
@@ -4813,16 +4821,6 @@
       "details": null,
       "cost_usd": 1.0277478,
       "total_tokens": 5443
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-11-09T07:00:01Z",
-      "duration_seconds": 80.9,
-      "status": "success",
-      "summary": "silent — nothing is due before Nov 20: every avenue was checked recently, and the Medellín summit starting tomorrow (Horasis) is invitation-only. Tonight's notes are saved.",
-      "details": null,
-      "cost_usd": 0.9219416,
-      "total_tokens": 4096
     }
   ]
 }
