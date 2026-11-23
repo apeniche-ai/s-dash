@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-23T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 257.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5031 [TTPAI-415] Admin editor for the support knowledge base → Approved + Browser QA Skipped (local Rails bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.4148866000000002,
+      "total_tokens": 7977
     },
     {
       "agent": "passive-income-discovery-scan",
