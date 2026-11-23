@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-23T17:30:28Z",
+      "duration_seconds": 1.6,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-23T17:30:01Z",
       "duration_seconds": 25.4,
@@ -4831,16 +4839,6 @@
       "details": null,
       "cost_usd": 1.4187656000000002,
       "total_tokens": 10123
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-09T17:30:30Z",
-      "duration_seconds": 342.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4998 [6588] Coupon admin: expired status, redeem-by cutoff and Recurly-style list → Approved + Browser QA Skipped (local Rails can't boot because of missing gems)",
-      "details": null,
-      "cost_usd": 1.8765447999999998,
-      "total_tokens": 13139
     }
   ]
 }
