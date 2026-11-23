@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-23T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 200.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5041 [TTPAI-426] Catch data sufficiency questions whose statements cannot both be true → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.6720030000000001,
+      "total_tokens": 11031
     },
     {
       "agent": "pr-reviewer",
