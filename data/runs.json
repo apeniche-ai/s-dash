@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-23T08:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 90.0,
+      "status": "success",
+      "summary": "I scanned 9 sources and wrote no findings today. Four possible ideas came up and none passed the filter. The strongest was three or more Show HN launches for tools that show which coding agent needs y",
+      "details": null,
+      "cost_usd": 1.1925594000000004,
+      "total_tokens": 4307
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
