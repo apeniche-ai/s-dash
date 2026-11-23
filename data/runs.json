@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-23T15:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 253.1,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5049 [TTPAI-431] Fix Maren forgetting the last real session → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.2632541999999998,
+      "total_tokens": 6518
     },
     {
       "agent": "pr-reviewer",
