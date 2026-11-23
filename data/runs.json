@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-23T14:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 209.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5047 [TTPAI-428] Stop saving a refused lesson summary as the word \"refused\" and showing it to students → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.3573454000000005,
+      "total_tokens": 5988
     },
     {
       "agent": "admissions-pr-reviewer",
