@@ -181,10 +181,12 @@
     {
       "agent": "maren-v0-launch-digest",
       "timestamp": "2026-11-23T21:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Maren V0 Launch Digest...",
-      "details": null
+      "duration_seconds": 131.3,
+      "status": "success",
+      "summary": "I sent today's Maren V0 digest to the assistant channel, and Telegram confirmed it went through. I also saved today's log, including the full list of 51 tickets.",
+      "details": null,
+      "cost_usd": 0.828843,
+      "total_tokens": 5669
     },
     {
       "agent": "pr-reviewer",
