@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-23T11:00:20Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 307.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5040 [TTPAI-422] Bank-check every live practice question and plan the most-missed examples first → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.8342009999999997,
+      "total_tokens": 10530
     },
     {
       "agent": "passive-income-research-loop",
