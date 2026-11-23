@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-23T07:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 64.6,
+      "status": "success",
+      "summary": "silent — Surge's expert program still has no software track, and its live pay starts at $60/hr, far below the $150 floor; ledger entry 82 is saved and nothing else is due before the Dec 1 Mercor check",
+      "details": null,
+      "cost_usd": 0.8197546000000001,
+      "total_tokens": 3552
     },
     {
       "agent": "passive-income-research-loop",
