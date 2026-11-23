@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-23T14:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 211.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5046 [6647] Fixes the LiveTeach recap job building old recaps again every hour after a course reset → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.1552546,
+      "total_tokens": 5396
     },
     {
       "agent": "pr-reviewer",
