@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-23T22:00:02Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-23T21:30:02Z",
       "duration_seconds": 1.5,
       "status": "success",
@@ -4821,16 +4829,6 @@
       "details": null,
       "cost_usd": 1.5430626,
       "total_tokens": 9838
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-09T22:00:02Z",
-      "duration_seconds": 239.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4996 [TTPAI-406] Fix deploy table locks and slow chat replies → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.4537229999999997,
-      "total_tokens": 8736
     }
   ]
 }
