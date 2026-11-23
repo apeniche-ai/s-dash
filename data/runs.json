@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-23T13:01:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 271.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4919 [6420][6421] Add the GRE and EA versions of the Score Analyzer form → Approved + Browser QA Skipped (local bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.7258708,
+      "total_tokens": 9863
     },
     {
       "agent": "pr-follow-up-check",
