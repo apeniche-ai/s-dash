@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-24T12:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 249.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5050 [TTPAI-429] Stop Make Flashcards and Summarize from using up a trial message when they produce nothing → Approved + Browser QA Skipped (local env missing gems)",
+      "details": null,
+      "cost_usd": 1.5163882000000002,
+      "total_tokens": 8185
     },
     {
       "agent": "pr-reviewer",
