@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-24T10:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 332.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5019 [TTPAI-416/419] Admin AI Dashboard: Cost & Quality Tabs → Approved + Browser QA Skipped (local Rails env missing gems)",
+      "details": null,
+      "cost_usd": 2.0735840000000003,
+      "total_tokens": 12347
     },
     {
       "agent": "pr-reviewer",
