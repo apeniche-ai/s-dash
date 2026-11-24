@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-24T20:00:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 264.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5055 [6651] Fix what still breaks for Recurly-era accounts once Recurly is turned off → Approved + Browser QA Skipped (local Rails env can't boot: missing gems)",
+      "details": null,
+      "cost_usd": 1.9549322,
+      "total_tokens": 18673
     },
     {
       "agent": "pr-reviewer",
