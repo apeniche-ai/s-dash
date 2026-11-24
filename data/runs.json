@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-24T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 64.2,
+      "status": "success",
+      "summary": "silent — I did no new research tonight because every area already has a recent check and a set date for the next one; there's still nothing from Amaury since Sep 15, I saved tonight's notes, and the n",
+      "details": null,
+      "cost_usd": 0.808758,
+      "total_tokens": 2609
     },
     {
       "agent": "passive-income-research-loop",
