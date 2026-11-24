@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-24T13:01:14Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-11-24T13:00:02Z",
       "duration_seconds": 71.4,
@@ -4804,17 +4812,6 @@
       "agent": "pr-reviewer",
       "timestamp": "2026-11-10T12:35:46Z",
       "duration_seconds": 15.3,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your session limit resets 9am (America/Bogota)"
-      ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-10T12:33:30Z",
-      "duration_seconds": 16.0,
       "status": "error",
       "summary": "",
       "details": null,
