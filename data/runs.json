@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-11-24T13:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-11-24T12:34:09Z",
       "duration_seconds": 23.0,
@@ -4811,16 +4819,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your session limit resets 9am (America/Bogota)"
       ]
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-11-10T12:30:00Z",
-      "duration_seconds": 25.6,
-      "status": "success",
-      "summary": "I didn't send a digest today. Nothing has changed since yesterday's, and sending an unchanged list again would break your no-repeat-lists rule.",
-      "details": null,
-      "cost_usd": 0.2884268,
-      "total_tokens": 1253
     }
   ]
 }
