@@ -173,10 +173,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-11-24T13:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 71.4,
+      "status": "success",
+      "summary": "No message sent. The list of stalled PRs is exactly the same as yesterday's, and sending it again would just repeat an unchanged list.",
+      "details": null,
+      "cost_usd": 0.6363190000000001,
+      "total_tokens": 1884
     },
     {
       "agent": "daily-todo-digest",
