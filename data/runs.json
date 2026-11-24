@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-24T10:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-24T08:00:02Z",
       "duration_seconds": 95.5,
@@ -4817,16 +4825,6 @@
       "errors": [
         "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your session limit resets 9am (America/Bogota)"
       ]
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-10T10:00:03Z",
-      "duration_seconds": 432.1,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4883 [TTPAI-242][6292] Consolidates exercise bank and tabbed new example → Approved + Browser QA Skipped (local Rails bundle missing gems)",
-      "details": null,
-      "cost_usd": 2.941988200000001,
-      "total_tokens": 20380
     }
   ]
 }
