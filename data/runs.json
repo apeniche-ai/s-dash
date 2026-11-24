@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-11-24T02:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-23T23:30:01Z",
       "duration_seconds": 26.6,
@@ -4817,16 +4825,6 @@
       "details": null,
       "cost_usd": 0.5507294,
       "total_tokens": 185
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-11-10T02:30:01Z",
-      "duration_seconds": 13.4,
-      "status": "success",
-      "summary": "I ran tonight's goal check (Monday, Nov 9, 9:30 PM). No goal tasks changed, so I didn't send Amaury a message.",
-      "details": null,
-      "cost_usd": 0.3712824,
-      "total_tokens": 250
     }
   ]
 }
