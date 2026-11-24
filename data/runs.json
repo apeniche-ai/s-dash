@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-24T22:30:03Z",
+      "duration_seconds": 1.7,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-24T22:00:04Z",
       "duration_seconds": 1.9,
       "status": "success",
@@ -4771,16 +4779,6 @@
       "details": null,
       "cost_usd": 0.8544434,
       "total_tokens": 5765
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-10T20:30:36Z",
-      "duration_seconds": 331.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4970 [TTPAI-391/388/392/404] Keeps the flashcard deck while generation is pending, settles each result on its own request, saves one card set per deck, and keeps chat inside the stude",
-      "details": null,
-      "cost_usd": 2.0434946000000003,
-      "total_tokens": 14797
     }
   ]
 }
