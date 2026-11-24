@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-11-24T17:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-11-24T17:15:04Z",
       "duration_seconds": 2.1,
@@ -4785,16 +4793,6 @@
       "details": null,
       "cost_usd": 2.1872002000000004,
       "total_tokens": 15303
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-10T15:30:03Z",
-      "duration_seconds": 338.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4984 [TTPAI-399/406] Give the coach the student's weekly progress history and fix deploy locks and slow chat replies → Approved + Browser QA Skipped (local Rails gems missing)",
-      "details": null,
-      "cost_usd": 1.9070813999999998,
-      "total_tokens": 11216
     }
   ]
 }
