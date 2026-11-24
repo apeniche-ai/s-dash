@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-11-24T23:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-24T23:00:01Z",
       "duration_seconds": 21.1,
@@ -4769,16 +4777,6 @@
       "details": null,
       "cost_usd": 2.4247769999999997,
       "total_tokens": 21393
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-10T21:02:04Z",
-      "duration_seconds": 263.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4997 [TTPAI-408] Fix text completion and DI slot checks → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.5218174000000002,
-      "total_tokens": 8782
     }
   ]
 }
