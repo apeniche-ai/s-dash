@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-24T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 255.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5042 [TTPAI-423] Rewrite a failed bank question, check the copy, and swap it in on a pass → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.5330994,
+      "total_tokens": 9697
     },
     {
       "agent": "pr-reviewer",
