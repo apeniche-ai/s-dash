@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-11-24T08:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-24T07:00:01Z",
       "duration_seconds": 64.2,
@@ -4817,16 +4825,6 @@
       "details": null,
       "cost_usd": 2.941988200000001,
       "total_tokens": 20380
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-11-10T08:00:01Z",
-      "duration_seconds": 98.6,
-      "status": "success",
-      "summary": "I scanned 7 sources and wrote no findings. All 6 possible ideas failed the filter, mostly because free tools already cover them (model-quality monitoring, AI-agent guardrails, the Harvest time-tracker",
-      "details": null,
-      "cost_usd": 0.9998558,
-      "total_tokens": 5137
     }
   ]
 }
