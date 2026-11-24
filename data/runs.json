@@ -173,10 +173,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-11-24T12:34:09Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 23.0,
+      "status": "success",
+      "summary": "I sent one digest to the assistant channel, and Telegram confirmed it went through. It lists the three open MentalTune todos, all of which only you can do. They are the same three as yesterday's diges",
+      "details": null,
+      "cost_usd": 0.3123118,
+      "total_tokens": 1665
     },
     {
       "agent": "pr-reviewer",
