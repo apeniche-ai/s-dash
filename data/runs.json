@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-11-24T12:34:09Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-24T12:30:03Z",
       "duration_seconds": null,
@@ -4809,17 +4817,6 @@
       "details": null,
       "cost_usd": 0.2884268,
       "total_tokens": 1253
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-10T11:32:17Z",
-      "duration_seconds": 15.3,
-      "status": "error",
-      "summary": "",
-      "details": null,
-      "errors": [
-        "Claude Code rate limited: You've hit your monthly spend limit · raise it at claude.ai/settings/usage?from=cc_cli_limit_message · your session limit resets 9am (America/Bogota)"
-      ]
     }
   ]
 }
