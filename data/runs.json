@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "admissions-pr-reviewer",
+      "timestamp": "2026-11-24T20:15:01Z",
+      "duration_seconds": 0.9,
+      "status": "success",
+      "summary": "No PRs to review (admissions) — 7 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-24T20:00:03Z",
       "duration_seconds": 264.3,
@@ -4779,16 +4787,6 @@
       "details": null,
       "cost_usd": 0.5543328000000001,
       "total_tokens": 318
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-10T18:30:02Z",
-      "duration_seconds": 282.3,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5003 [TTPAI-394] Add AI-generated Graphics Interpretation chart questions drawn as course-style images → Approved + Browser QA Skipped (backend-only, feature gated off) (⚠️ no Jira co",
-      "details": null,
-      "cost_usd": 1.7830720000000004,
-      "total_tokens": 10757
     }
   ]
 }
