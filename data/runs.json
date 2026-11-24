@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-24T19:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 251.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5054 [6650] Fix the cart error page and the handoff check left by the Recurly shutoff change → Approved + Browser QA Skipped (local Rails env can't boot: missing gems)",
+      "details": null,
+      "cost_usd": 1.4155614,
+      "total_tokens": 8000
     },
     {
       "agent": "pr-reviewer",
