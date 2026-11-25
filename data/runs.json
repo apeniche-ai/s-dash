@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-11-25T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "daily-todo-digest",
       "timestamp": "2026-11-25T12:32:56Z",
       "duration_seconds": 16.5,
@@ -4761,16 +4769,6 @@
       "details": null,
       "cost_usd": 1.2726734000000002,
       "total_tokens": 7498
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-11T11:00:23Z",
-      "duration_seconds": 241.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5008 [6592] Make the daily marketing data export finish in seconds instead of hours → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.3870662,
-      "total_tokens": 10572
     }
   ]
 }
