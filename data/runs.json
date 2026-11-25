@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "opportunity-scout-research-(overnight)",
+      "timestamp": "2026-11-25T07:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Opportunity Scout Research (overnight)...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-25T03:00:00Z",
       "duration_seconds": 22.1,
@@ -4769,16 +4777,6 @@
       "details": null,
       "cost_usd": 0.5513774,
       "total_tokens": 169
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-10T22:30:02Z",
-      "duration_seconds": 161.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4986 [TTPAI-401/402] Fixes AI chat section access, trial message counting, per-student request ids and the content check gaps → Approved + Browser QA Skipped (local bundle missing gem",
-      "details": null,
-      "cost_usd": 1.4895458,
-      "total_tokens": 7298
     }
   ]
 }
