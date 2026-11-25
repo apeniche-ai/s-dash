@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-25T13:30:28Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-25T13:30:00Z",
       "duration_seconds": 26.4,
@@ -4761,16 +4769,6 @@
       "details": null,
       "cost_usd": 1.2334466000000002,
       "total_tokens": 6318
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-11-11T12:30:01Z",
-      "duration_seconds": 58.9,
-      "status": "success",
-      "summary": "I sent today's digest to the assistant channel, and Telegram confirmed it went through. It lists the three open MentalTune items, all of them decisions only you can make:",
-      "details": null,
-      "cost_usd": 0.33165180000000005,
-      "total_tokens": 1956
     }
   ]
 }
