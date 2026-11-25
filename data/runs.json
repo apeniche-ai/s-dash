@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "goal-progress-reconciliation",
+      "timestamp": "2026-11-25T02:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Goal Progress Reconciliation...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-24T23:30:01Z",
       "duration_seconds": 26.0,
@@ -4769,16 +4777,6 @@
       "details": null,
       "cost_usd": 1.6434152,
       "total_tokens": 9463
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-10T21:30:02Z",
-      "duration_seconds": 401.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5000 [TTPAI-39] KB sync production hardening → Changes Requested (QA preview ingest keeps superseded production chunks next to the branch's edited KB answers; local rake validation re",
-      "details": null,
-      "cost_usd": 2.4247769999999997,
-      "total_tokens": 21393
     }
   ]
 }
