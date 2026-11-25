@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-25T14:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 385.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5056 [TTPAI-433] Fix Maren scrolling to a chapter flashcards card instead of the new lesson one → Changes Requested (missing the JS feature spec the ticket requires) + Browser QA Skip",
+      "details": null,
+      "cost_usd": 1.7263406000000001,
+      "total_tokens": 13138
     },
     {
       "agent": "pr-reviewer",
