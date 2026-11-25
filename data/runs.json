@@ -173,10 +173,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-11-25T12:32:56Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 16.5,
+      "status": "success",
+      "summary": "I didn't send a digest today. The open list is the same three MentalTune todos as yesterday, all of them yours to do. Nothing was completed since the last digest, and no reminders came due. Resending ",
+      "details": null,
+      "cost_usd": 0.26346420000000004,
+      "total_tokens": 667
     },
     {
       "agent": "pr-reviewer",
