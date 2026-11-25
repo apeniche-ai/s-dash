@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-25T15:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 563.9,
+      "status": "success",
+      "summary": "Reviewed 0 PRs: #5056 [TTPAI-433] Fix Maren scrolling to a chapter flashcards card instead of the new lesson one → No verdict yet (the new test hasn't had a clean CI run; failed jobs re-running, next ",
+      "details": null,
+      "cost_usd": 1.6013217999999998,
+      "total_tokens": 10216
     },
     {
       "agent": "opportunity-scout-delivery-(morning)",
