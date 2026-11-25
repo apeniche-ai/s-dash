@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-25T14:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "admissions-pr-reviewer",
       "timestamp": "2026-11-25T14:15:02Z",
       "duration_seconds": 1.4,
@@ -4759,16 +4767,6 @@
       "details": null,
       "cost_usd": 0.2390676,
       "total_tokens": 206
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-11T13:01:03Z",
-      "duration_seconds": 164.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5009 [TTPAI-403] Fixes a skipped Elo relabel and names a missing figure when verification gives up → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.3705982,
-      "total_tokens": 8527
     }
   ]
 }
