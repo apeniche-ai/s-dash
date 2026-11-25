@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-25T15:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-delivery-(morning)",
       "timestamp": "2026-11-25T14:35:09Z",
       "duration_seconds": 25.4,
@@ -4759,16 +4767,6 @@
       "details": null,
       "cost_usd": 1.5901680000000005,
       "total_tokens": 12565
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-11T13:30:47Z",
-      "duration_seconds": 188.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5010 [TTPAI-414] Fix Maren to count a reading comprehension lesson example once → Approved + Browser QA Skipped (local Rails bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.5001616,
-      "total_tokens": 9787
     }
   ]
 }
