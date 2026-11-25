@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-25T19:00:24Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 350.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5059 [6654] Import every redeemable Recurly coupon ahead of time → Changes Requested (re-runs leave bulk codes and coupons that Recurly used up or switched off still usable in Billing",
+      "details": null,
+      "cost_usd": 1.8250309999999998,
+      "total_tokens": 16475
     },
     {
       "agent": "passive-income-research-loop",
