@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-25T12:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 176.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5051 [TTPAI-430] Fix the new-example reply counting as a Maren reply and empty chapter flashcard sessions → Approved + Browser QA Skipped (local Rails gems missing)",
+      "details": null,
+      "cost_usd": 1.445016,
+      "total_tokens": 8214
     },
     {
       "agent": "pr-reviewer",
