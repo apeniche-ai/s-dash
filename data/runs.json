@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-25T19:30:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-25T19:00:24Z",
       "duration_seconds": 350.3,
       "status": "success",
@@ -4757,16 +4765,6 @@
       "details": null,
       "cost_usd": 1.0120538000000001,
       "total_tokens": 3969
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-11T17:30:30Z",
-      "duration_seconds": 561.8,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5011 [6607] {EXAM} Accounts billing page in the admin → Approved + Browser QA Skipped (local Rails bundle needs `bundle install`)",
-      "details": null,
-      "cost_usd": 1.4930991999999998,
-      "total_tokens": 8287
     }
   ]
 }
