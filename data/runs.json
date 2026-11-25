@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-25T17:00:02Z",
+      "duration_seconds": 1.5,
+      "status": "success",
+      "summary": "No PRs to review — 50 open, all skipped (labeled/draft)",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-25T16:30:02Z",
       "duration_seconds": 1.3,
       "status": "success",
@@ -4757,16 +4765,6 @@
       "status": "success",
       "summary": "No PRs to review — 44 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-11T14:30:22Z",
-      "duration_seconds": 243.2,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5010 [TTPAI-414] Fix Maren to count a reading comprehension lesson example once → Approved + Browser QA Skipped (local Rails environment not bootable) (⚠️ no Jira context)",
-      "details": null,
-      "cost_usd": 1.2398797999999998,
-      "total_tokens": 6885
     }
   ]
 }
