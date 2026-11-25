@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-25T12:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-25T11:30:02Z",
       "duration_seconds": 1.4,
       "status": "success",
@@ -4761,16 +4769,6 @@
       "details": null,
       "cost_usd": 1.4788946,
       "total_tokens": 10157
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-11T10:00:02Z",
-      "duration_seconds": 251.4,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5000 [TTPAI-39] KB sync production hardening → Approved + Browser QA Skipped (backend-only)",
-      "details": null,
-      "cost_usd": 1.3068854000000003,
-      "total_tokens": 7020
     }
   ]
 }
