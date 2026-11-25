@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-25T08:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 94.8,
+      "status": "success",
+      "summary": "I scanned 9 sources (8 usable) and wrote no findings today: 5 possible ideas came up and none passed the filter, the most notable being OpenAI's new healthcare model setup. I retired the GitHub Ruby t",
+      "details": null,
+      "cost_usd": 1.2288122,
+      "total_tokens": 6123
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
