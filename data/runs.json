@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-25T20:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 322.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5060 [6655] Keeps the whole Recurly history of every account before Recurly is turned off → Changes Requested (archived invoice state overrides live Recurly state; Recurly purchases l",
+      "details": null,
+      "cost_usd": 2.1579148,
+      "total_tokens": 21330
     },
     {
       "agent": "pr-reviewer",
