@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-25T13:01:21Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 272.9,
+      "status": "success",
+      "summary": "Two overnight batch entries are waiting to go in this morning's digest. Still waiting on CI for #5033.",
+      "details": null,
+      "cost_usd": 1.4904749999999996,
+      "total_tokens": 9148
     },
     {
       "agent": "pr-follow-up-check",
