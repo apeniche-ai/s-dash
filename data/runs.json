@@ -173,10 +173,12 @@
     {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-26T07:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Research (overnight)...",
-      "details": null
+      "duration_seconds": 112.9,
+      "status": "success",
+      "summary": "silent — I checked the live job boards of seven AI-safety and AI-testing research groups (Epoch AI, Apollo Research, Redwood Research, FAR.AI, the UK AI Security Institute, Goodfire, plus a CAIS listi",
+      "details": null,
+      "cost_usd": 1.0485014,
+      "total_tokens": 4696
     },
     {
       "agent": "passive-income-research-loop",
