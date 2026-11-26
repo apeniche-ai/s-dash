@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-26T13:30:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 262.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5019 [TTPAI-416/419] Admin AI Dashboard: Cost & Quality Tabs → Approved + Browser QA Skipped (local Rails bundle missing gems)",
+      "details": null,
+      "cost_usd": 1.2459506,
+      "total_tokens": 6712
     },
     {
       "agent": "slack-watch",
