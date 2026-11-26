@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-26T13:01:31Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 467.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4867 [TTPAI-339/356/362/364/365/366] Exercise bank generation improvements: Batch API, one run plan, and checks for every question type → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 2.3039769999999993,
+      "total_tokens": 14433
     },
     {
       "agent": "pr-follow-up-check",
