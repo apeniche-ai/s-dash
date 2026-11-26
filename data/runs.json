@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-26T12:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-26T11:30:01Z",
       "duration_seconds": 319.6,
       "status": "success",
@@ -4767,16 +4775,6 @@
       "details": null,
       "cost_usd": 1.8258460000000003,
       "total_tokens": 12698
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-12T10:00:02Z",
-      "duration_seconds": 204.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #4986 [TTPAI-401/402] Fixes AI chat section access, trial message counting, per-student request ids and the content check gaps → Approved + Browser QA Skipped (local env missing gems) ",
-      "details": null,
-      "cost_usd": 1.528198,
-      "total_tokens": 9065
     }
   ]
 }
