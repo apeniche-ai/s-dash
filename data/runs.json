@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-26T17:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 394.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5017 [TTPAI-400] Check a banked lesson summary when two students report it → Changes Requested (enqueue_resync from unmerged #5000 still missing; PR's own 4 job specs fail) + Browser ",
+      "details": null,
+      "cost_usd": 2.4088325999999998,
+      "total_tokens": 14854
     },
     {
       "agent": "admissions-pr-reviewer",
