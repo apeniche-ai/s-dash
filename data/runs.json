@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-26T11:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-26T11:00:18Z",
       "duration_seconds": 214.5,
       "status": "success",
@@ -4767,16 +4775,6 @@
       "details": null,
       "cost_usd": 1.528198,
       "total_tokens": 9065
-    },
-    {
-      "agent": "passive-income-discovery-scan",
-      "timestamp": "2026-11-12T08:00:01Z",
-      "duration_seconds": 126.0,
-      "status": "success",
-      "summary": "I scanned 8 working sources and wrote no findings. All 9 ideas failed the filter, mostly because free tools already cover them; the rest were general opinion about AI, news, or features copying anothe",
-      "details": null,
-      "cost_usd": 1.1304214,
-      "total_tokens": 7455
     }
   ]
 }
