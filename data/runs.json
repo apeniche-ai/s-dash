@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-26T11:00:18Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-26T11:00:00Z",
       "duration_seconds": 16.9,
@@ -4767,16 +4775,6 @@
       "details": null,
       "cost_usd": 1.1304214,
       "total_tokens": 7455
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-11-12T07:00:00Z",
-      "duration_seconds": 37.5,
-      "status": "success",
-      "summary": "silent: no checks were due tonight (the next one is the micro1 new-role search on Nov 20), so I ran no web searches and found nothing new; tonight's notes are saved.",
-      "details": null,
-      "cost_usd": 0.4399294000000001,
-      "total_tokens": 1309
     }
   ]
 }
