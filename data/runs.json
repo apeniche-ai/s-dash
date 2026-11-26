@@ -181,10 +181,12 @@
     {
       "agent": "opportunity-scout-delivery-(morning)",
       "timestamp": "2026-11-26T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Opportunity Scout Delivery (morning)...",
-      "details": null
+      "duration_seconds": 21.1,
+      "status": "success",
+      "summary": "Tonight's ledger entry 85 says silent, nothing queued. The only pending message (Techstars, Oct 19) is from weeks ago and the ledger says \"do not re-surface.\"",
+      "details": null,
+      "cost_usd": 0.45735699999999996,
+      "total_tokens": 355
     },
     {
       "agent": "admissions-pr-reviewer",
