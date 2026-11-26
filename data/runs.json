@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-26T17:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 264.5,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5066 [6660] Fix browser spec teardown on Chrome 158 → Approved + Browser QA Skipped (test-only)",
+      "details": null,
+      "cost_usd": 1.2363366000000002,
+      "total_tokens": 7289
     },
     {
       "agent": "pr-reviewer",
