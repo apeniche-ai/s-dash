@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-research-loop",
+      "timestamp": "2026-11-26T23:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Research Loop...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-26T22:30:02Z",
       "duration_seconds": 1.4,
@@ -4775,16 +4783,6 @@
       "status": "success",
       "summary": "No PRs to review — 45 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "maren-v0-launch-digest",
-      "timestamp": "2026-11-12T21:00:01Z",
-      "duration_seconds": 90.5,
-      "status": "success",
-      "summary": "Maren V0 hasn't moved: 48 of 51 tickets are still done. The list is still the same 51 tickets, with none added or removed. I sent the short quiet-day note to the assistant channel, and Telegram confir",
-      "details": null,
-      "cost_usd": 0.7325866,
-      "total_tokens": 4366
     }
   ]
 }
