@@ -173,10 +173,12 @@
     {
       "agent": "daily-todo-digest",
       "timestamp": "2026-11-26T12:30:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Daily Todo Digest...",
-      "details": null
+      "duration_seconds": 25.8,
+      "status": "success",
+      "summary": "I sent today's digest to the assistant channel, and Telegram confirmed delivery. It listed the same three MentalTune todos as before, all under \"No deadline\" and all yours to do:",
+      "details": null,
+      "cost_usd": 0.3269158,
+      "total_tokens": 1569
     },
     {
       "agent": "pr-reviewer",
