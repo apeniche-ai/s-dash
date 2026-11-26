@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-26T16:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 266.9,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5063 [TTPAI-436] Fix a short judge outage using up all three repair tries → Approved + Browser QA Skipped (backend-only)",
+      "details": null,
+      "cost_usd": 1.3081612000000002,
+      "total_tokens": 7960
     },
     {
       "agent": "pr-reviewer",
