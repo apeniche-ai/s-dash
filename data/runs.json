@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-26T10:30:03Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 283.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5033 [TTPAI-410] Take reported questions out of practice → Approved + Browser QA Skipped (local env missing gems) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.4334838000000003,
+      "total_tokens": 6725
     },
     {
       "agent": "pr-reviewer",
