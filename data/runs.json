@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "slack-watch",
+      "timestamp": "2026-11-26T13:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Slack Watch...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-26T13:01:31Z",
       "duration_seconds": 467.4,
@@ -4767,16 +4775,6 @@
       "details": null,
       "cost_usd": 0.3245584,
       "total_tokens": 1422
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-12T12:00:03Z",
-      "duration_seconds": 304.7,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5013 [6608] Keeps billing jobs that run out of attempts and emails an alert → Changes Requested (missing the ticket's alert for billing jobs that never run) + Browser QA Skipped (loca",
-      "details": null,
-      "cost_usd": 1.614499,
-      "total_tokens": 15215
     }
   ]
 }
