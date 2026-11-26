@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-26T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 310.7,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5019 [TTPAI-416/419] Admin AI Dashboard: Cost & Quality Tabs → Changes Requested (its fix commit breaks its own spec ai_dashboards_spec.rb:215, and the Insights panel no longer turns ",
+      "details": null,
+      "cost_usd": 2.1576958,
+      "total_tokens": 15746
     },
     {
       "agent": "passive-income-discovery-scan",
