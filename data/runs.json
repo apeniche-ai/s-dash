@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-26T12:30:28Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 340.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5060 [6655] Keeps the whole Recurly history of every account before Recurly is turned off → Changes Requested (admin history import can show as stopped while still running, allowing a",
+      "details": null,
+      "cost_usd": 1.7412542,
+      "total_tokens": 14713
     },
     {
       "agent": "daily-todo-digest",
