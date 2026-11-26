@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-11-26T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-26T12:30:28Z",
       "duration_seconds": 340.2,
@@ -4767,16 +4775,6 @@
       "details": null,
       "cost_usd": 1.1922548,
       "total_tokens": 6316
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-12T11:00:24Z",
-      "duration_seconds": 247.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5002 [6567] Update the Course Reset confirmation modal copy and adds Keep my data → Approved + Browser QA Skipped (env: missing gems)",
-      "details": null,
-      "cost_usd": 1.3862663999999998,
-      "total_tokens": 7134
     }
   ]
 }
