@@ -173,10 +173,12 @@
     {
       "agent": "pr-follow-up-check",
       "timestamp": "2026-11-26T13:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Follow-up Check...",
-      "details": null
+      "duration_seconds": 89.4,
+      "status": "success",
+      "summary": "I didn't send a message today. Ten PRs are still stuck, and they're the same ten Amaury has already been told about. None are new, so another message would just repeat the old list.",
+      "details": null,
+      "cost_usd": 0.6632821999999999,
+      "total_tokens": 2128
     },
     {
       "agent": "pr-reviewer",
