@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-27T12:30:23Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 151.2,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5061 [TTPAI-449] Stops a slow Sync all from overwriting a newer save's chunks → Approved + Browser QA Skipped (race needs a stalled embedding call; local bundle broken)",
+      "details": null,
+      "cost_usd": 1.3170912000000001,
+      "total_tokens": 7383
     },
     {
       "agent": "daily-todo-digest",
