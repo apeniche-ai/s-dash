@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-27T11:00:25Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-27T11:00:00Z",
       "duration_seconds": 23.5,
@@ -4783,16 +4791,6 @@
       "details": null,
       "cost_usd": 1.1305506000000003,
       "total_tokens": 6748
-    },
-    {
-      "agent": "opportunity-scout-research-(overnight)",
-      "timestamp": "2026-11-13T07:00:01Z",
-      "duration_seconds": 32.0,
-      "status": "success",
-      "summary": "silent: none of my scheduled checks is due until the micro1 role search on Nov 20, so I ran no web searches and found nothing new to verify. Tonight's notes are saved and nothing is queued for the mor",
-      "details": null,
-      "cost_usd": 0.399977,
-      "total_tokens": 1306
     }
   ]
 }
