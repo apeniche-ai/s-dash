@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-27T13:30:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 391.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5067 [TTPAI-451] Apply pending KB answer migrations on every deploy → Changes Requested (the new deploy step fails the whole deploy when the answer sync fails, even with no new KB mig",
+      "details": null,
+      "cost_usd": 1.7897026,
+      "total_tokens": 14749
     },
     {
       "agent": "slack-watch",
