@@ -173,10 +173,12 @@
     {
       "agent": "passive-income-discovery-scan",
       "timestamp": "2026-11-27T08:00:00Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running Passive Income Discovery Scan...",
-      "details": null
+      "duration_seconds": 114.3,
+      "status": "success",
+      "summary": "I scanned 8 sources and wrote no findings. Five possible ideas came up and none passed the filter; the strongest was the backlash against Google limiting what AI agents can do in Gmail, which failed b",
+      "details": null,
+      "cost_usd": 1.1571112000000001,
+      "total_tokens": 5210
     },
     {
       "agent": "opportunity-scout-research-(overnight)",
