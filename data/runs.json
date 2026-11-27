@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-follow-up-check",
+      "timestamp": "2026-11-27T13:00:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Follow-up Check...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-27T12:30:23Z",
       "duration_seconds": 151.2,
@@ -4783,16 +4791,6 @@
       "details": null,
       "cost_usd": 1.3348851999999998,
       "total_tokens": 7622
-    },
-    {
-      "agent": "performance-check-in-(fri)",
-      "timestamp": "2026-11-13T11:30:00Z",
-      "duration_seconds": 62.5,
-      "status": "success",
-      "summary": "I sent Amaury his Friday coaching note in the Coaching channel, and Telegram confirmed it was delivered.",
-      "details": null,
-      "cost_usd": 0.8107806,
-      "total_tokens": 2787
     }
   ]
 }
