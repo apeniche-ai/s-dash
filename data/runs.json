@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-27T11:30:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 326.4,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5060 [6655] Keeps the whole Recurly history of every account before Recurly is turned off → Changes Requested (admissions purchases counted as GRE/EA Recurly history) + Browser QA Ski",
+      "details": null,
+      "cost_usd": 2.2292178,
+      "total_tokens": 20545
     },
     {
       "agent": "pr-reviewer",
