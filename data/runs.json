@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-27T19:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-27T19:00:24Z",
       "duration_seconds": 130.6,
       "status": "success",
@@ -4797,16 +4805,6 @@
       "status": "success",
       "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-13T18:00:02Z",
-      "duration_seconds": 305.9,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5019 [TTPAI-416] Admin AI Dashboard: the page, the menu item, and the Cost tab → Changes Requested (PR description still missing the new-CSS-class reasons and query/row counts the tic",
-      "details": null,
-      "cost_usd": 1.9608074000000002,
-      "total_tokens": 12148
     }
   ]
 }
