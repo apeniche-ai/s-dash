@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-27T19:00:24Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "passive-income-research-loop",
       "timestamp": "2026-11-27T19:00:00Z",
       "duration_seconds": 22.5,
@@ -4797,16 +4805,6 @@
       "details": null,
       "cost_usd": 1.9608074000000002,
       "total_tokens": 12148
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-13T17:30:31Z",
-      "duration_seconds": 151.5,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5014 [6569] Add the Error Tracker empty state → Approved + Browser QA Skipped (local bundle missing gems)",
-      "details": null,
-      "cost_usd": 1.2641034000000002,
-      "total_tokens": 6619
     }
   ]
 }
