@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-27T10:00:02Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 283.6,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #4832 [TTPAI-313/351/326/...][6537][6415] AI Fixes: Cost Reporting, Chat Content Guard, Chat Section Access, Figures in Chat, Student Uploads, Lesson Sync, Elo and Maren Errors → Appro",
+      "details": null,
+      "cost_usd": 1.9566468000000004,
+      "total_tokens": 14648
     },
     {
       "agent": "passive-income-discovery-scan",
