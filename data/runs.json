@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "daily-todo-digest",
+      "timestamp": "2026-11-27T12:30:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Daily Todo Digest...",
+      "details": null
+    },
+    {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-27T12:00:02Z",
       "duration_seconds": 276.9,
@@ -4783,16 +4791,6 @@
       "details": null,
       "cost_usd": 2.2339181999999997,
       "total_tokens": 15513
-    },
-    {
-      "agent": "passive-income-research-loop",
-      "timestamp": "2026-11-13T11:00:01Z",
-      "duration_seconds": 25.3,
-      "status": "success",
-      "summary": "silent",
-      "details": null,
-      "cost_usd": 0.5639442,
-      "total_tokens": 619
     }
   ]
 }
