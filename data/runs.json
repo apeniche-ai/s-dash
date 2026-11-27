@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-27T20:30:27Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 279.3,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5071 [6662] Give referrers their two free weeks from BillingCore when Recurly is turned off → Approved + Browser QA Skipped (local env missing gems) (⚠️ no Jira context)",
+      "details": null,
+      "cost_usd": 1.4942382,
+      "total_tokens": 8492
     },
     {
       "agent": "slack-watch",
