@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-27T13:30:26Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "slack-watch",
       "timestamp": "2026-11-27T13:30:00Z",
       "duration_seconds": 24.6,
@@ -4785,16 +4793,6 @@
       "status": "success",
       "summary": "No PRs to review — 46 open, all skipped (labeled/draft)",
       "details": null
-    },
-    {
-      "agent": "daily-todo-digest",
-      "timestamp": "2026-11-13T12:30:01Z",
-      "duration_seconds": 18.8,
-      "status": "success",
-      "summary": "I sent no digest today. The only open items are the same three MentalTune decisions as yesterday, and none has a due date. I left them out because repeating an unchanged list breaks your \"notification",
-      "details": null,
-      "cost_usd": 0.2778886,
-      "total_tokens": 833
     }
   ]
 }
