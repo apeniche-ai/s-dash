@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-27T13:01:26Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 304.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5065 [6658] Replace the India Recurly payment link at checkout with a UPI message → Approved + Browser QA Skipped (local Rails bundle still missing gems)",
+      "details": null,
+      "cost_usd": 1.5552354,
+      "total_tokens": 9898
     },
     {
       "agent": "pr-follow-up-check",
