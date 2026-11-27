@@ -181,10 +181,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-27T14:30:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 249.0,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5070 [6661] Make the admin coupons list load fast, also when filtering → Changes Requested (shows 20 coupons per page instead of the 50 the ticket specifies) + Browser QA Skipped (loc",
+      "details": null,
+      "cost_usd": 1.4414216000000002,
+      "total_tokens": 8863
     },
     {
       "agent": "admissions-pr-reviewer",
