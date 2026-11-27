@@ -173,10 +173,12 @@
     {
       "agent": "pr-reviewer",
       "timestamp": "2026-11-27T20:00:01Z",
-      "duration_seconds": null,
-      "status": "running",
-      "summary": "Running PR Reviewer...",
-      "details": null
+      "duration_seconds": 370.8,
+      "status": "success",
+      "summary": "Reviewed 1 PRs: #5071 [6662] Give referrers their two free weeks from BillingCore when Recurly is turned off → Changes Requested (referrers with a Recurly OnDemand plan still running lose OnDemand acc",
+      "details": null,
+      "cost_usd": 1.7372976000000002,
+      "total_tokens": 14549
     },
     {
       "agent": "pr-reviewer",
