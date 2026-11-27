@@ -172,6 +172,14 @@
   "runs": [
     {
       "agent": "pr-reviewer",
+      "timestamp": "2026-11-27T10:30:01Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
+      "agent": "pr-reviewer",
       "timestamp": "2026-11-27T10:00:02Z",
       "duration_seconds": 283.6,
       "status": "success",
@@ -4783,16 +4791,6 @@
       "details": null,
       "cost_usd": 0.5555642000000001,
       "total_tokens": 257
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-11-13T02:30:01Z",
-      "duration_seconds": 12.6,
-      "status": "success",
-      "summary": "I ran tonight's goal check (Thursday, Nov 12, 9:30 PM). None of the goal tasks changed, so I didn't send Amaury a message.",
-      "details": null,
-      "cost_usd": 0.36999240000000005,
-      "total_tokens": 251
     }
   ]
 }
