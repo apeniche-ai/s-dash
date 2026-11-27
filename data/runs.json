@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "pr-reviewer",
+      "timestamp": "2026-11-27T12:00:02Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running PR Reviewer...",
+      "details": null
+    },
+    {
       "agent": "performance-check-in-(fri)",
       "timestamp": "2026-11-27T11:35:27Z",
       "duration_seconds": 82.0,
@@ -4783,16 +4791,6 @@
       "details": null,
       "cost_usd": 0.5639442,
       "total_tokens": 619
-    },
-    {
-      "agent": "pr-reviewer",
-      "timestamp": "2026-11-13T10:30:02Z",
-      "duration_seconds": 228.6,
-      "status": "success",
-      "summary": "Reviewed 1 PRs: #5013 [6608] Keeps billing jobs that run out of attempts and emails an alert → Approved + Browser QA Skipped (needs a forced worker failure, can't be done in a browser)",
-      "details": null,
-      "cost_usd": 1.4598371999999997,
-      "total_tokens": 8403
     }
   ]
 }
