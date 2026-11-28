@@ -171,6 +171,14 @@
   },
   "runs": [
     {
+      "agent": "passive-income-discovery-scan",
+      "timestamp": "2026-11-28T08:00:00Z",
+      "duration_seconds": null,
+      "status": "running",
+      "summary": "Running Passive Income Discovery Scan...",
+      "details": null
+    },
+    {
       "agent": "opportunity-scout-research-(overnight)",
       "timestamp": "2026-11-28T07:00:00Z",
       "duration_seconds": 77.3,
@@ -4807,16 +4815,6 @@
       "details": null,
       "cost_usd": 0.561707,
       "total_tokens": 485
-    },
-    {
-      "agent": "goal-progress-reconciliation",
-      "timestamp": "2026-11-14T02:30:01Z",
-      "duration_seconds": 16.5,
-      "status": "success",
-      "summary": "I ran tonight's goal check (Friday, Nov 13, 9:30 PM). No goal tasks changed, so I didn't send Amaury a message.",
-      "details": null,
-      "cost_usd": 0.368949,
-      "total_tokens": 203
     }
   ]
 }
